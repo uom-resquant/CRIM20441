@@ -8,7 +8,11 @@ Welcome to week 1! This week is all about getting set up, and taking some first 
 ## Setting up your working environment
 
 
+The first thing you need to do is to create a working environment for yourself, for this course, and for all projects you will work on, using data. Just because everything is on your computer or laptop does not mean this is something you can ignore. 
+
+
 There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein: 
+
 ```{r, echo=FALSE}
 knitr::include_graphics("imgs/einstein_desk.jpg") 
 ```
@@ -17,7 +21,7 @@ knitr::include_graphics("imgs/einstein_desk.jpg")
 However many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with these famous work spaces of : Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.height=100, fig.cap="\\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces"}
 knitr::include_graphics("imgs/galileo_desk.jpg") 
 knitr::include_graphics("imgs/marie_curie.jpg") 
 knitr::include_graphics("imgs/Dalton_John_desk.jpg") 
@@ -29,22 +33,36 @@ knitr::include_graphics("imgs/charles_dickens_desk.jpg")
 
 
 
-When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised. You will likely have a project folder, where you save your data, your graphs, your analysis outputs, etc. You want to consider the layout of this folder, how many subfolders will you have, what is the best structure to work for you? You might think this is trivial, but when you are working on a project with multiple data sets, or many graphs, it can get very messy very quickly. I recommend going through [this resource from the university of Cambridge data management guide](https://www.data.cam.ac.uk/data-management-guide/organising-your-data) to consider Naming and Organising Files, Documentation and Metadata, Managing References, and Organising E-mail. 
+When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised. 
 
 
-Normally, say when you are working on a Windows PC at home, you can save files to your C: drive, and easily access them the next time you turn the computer on. When you are using computers at the university, however, you cannot be certain of being able to use the same computer again when you want to find and use your file again. Fortunately, once you have logged on to a computer at the university, a personal drive is available for you to use, and in effect, this drive follows you around to whichever PC you are logged on to. All students and staff have a personal file storage space on the network - known as the P: drive as this is usually the network drive letter allocated to it. Wherever you log on to the campus network your P: drive is available (in PC Clusters the My Documents icon on the desktop is a shortcut to the P: drive).
+There are as many approaches as people. Some people save everything to Desktop. I strongly recommend if you do this, you stop, now! 
+
+
+I recommend going through [this resource from the university of Cambridge data management guide](https://www.data.cam.ac.uk/data-management-guide/organising-your-data) to consider Naming and Organising Files, Documentation and Metadata, Managing References, and Organising E-mail. 
+
+
+### If you use computer cluster PCs
+
+You need to make sure that everything you are working on is saved in you [**P:drive**](https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/working/storage/). 
+
+
+ All students and staff have a personal file storage space on the network - known as the P: drive as this is usually the network drive letter allocated to it. Wherever you log on to the campus network your P: drive is available (in PC Clusters the My Documents icon on the desktop is a shortcut to the P: drive).
 
 
 You should already have a username and password with which to log on. Your username has 7 or 8 letters/digits, typically beginning 'm...'. On the computers in the Faculty clusters (where you work in class time) you will see the Faculty computer 'image' and a version of the operating systems Windows 7.
 
 
-Away from the campus you can download and upload files to and from your P: drive over an Internet connection - for example to and from your home computer, but please remember that large files may take a long time to upload/download depending on the speed of your home internet connection. [See here for details about remote access](http://servicedesk.manchester.ac.uk/portal/app/portlets/results/viewsolution.jsp?solutionid=040918305513985&SToken=A9F6241A4BCC47E813D7C92C68B579F7).
+Away from the campus you can download and upload files to and from your P: drive over an Internet connection - for example to and from your home computer. You can access the files on your P-drive from anywhere using the link [https://pdrives.manchester.ac.uk/horde/login.php](https://pdrives.manchester.ac.uk/horde/login.php).
  
 
-It's generally good to create a folder to save your data and our outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our data, and also where you will be reading data in from. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
+### Working directory
+
+So if you're using your own laptop you can create save your files anywhere, but if you're on the cluster PC you should save on your P:drive. OK - then what?
 
 
-It's not necessarily a good idea to just dump everything into 'Desktop' either, as you want to be able to find things later, and maybe keep things tidy. We will now show you where your personal drive is and how to save your word file to it.
+It's generally good to create a folder to save your data and our outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
+
 
 <span style="color:#d95f02"> Just to have some practice with doing this, create a Word document to put into the folder. Open Microsoft Word now (you can find this on the 'Start' button in the bottom left corner of your screen). The only thing you have to type in the document is your name. 
 
@@ -71,13 +89,13 @@ A word of caution, if your P: drive is full (and this tends to happen when you s
 ## Getting to know Excel
 
 
-Besides having a folder where you save something, you should also get comfortable with the tools which you will be using throughout this course. The main tool you'll be using is  [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel). You will be using it to explore, learn about, and manipulate criminological data throughout this course. 
+The main tool we'll be using throughout the course is  [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel). You will be using it to explore, learn about, and manipulate criminological data throughout this course. 
 
 
 ![I excel](imgs/bill_gates_excel.jpg)
 
 
-If you are following along on your own laptop (I encourage this strongly) you can download microsoft excel **for free**, courtesy of the UoM library. [Follow the instructions here to get Microsoft Office on your laptops](http://www.itservices.manchester.ac.uk/students/office365/). 
+All cluster PCs already have Excel installed. However, if you are following along on your own laptop (I encourage this strongly) you can download microsoft excel **for free**, courtesy of the UoM library. [Follow the instructions here to get Microsoft Office on your laptops](http://www.itservices.manchester.ac.uk/students/office365/). 
 
 
 Now you likely have come across Excel before,  but it's also possible that you have not, so I will start with the assumption that this is your first time opening it up. Exciting. So let's get to it. To open excel, click on the windows icon, and select Microsoft Excel from the Microsoft Office bundle.
@@ -86,10 +104,13 @@ Now you likely have come across Excel before,  but it's also possible that you h
 ![](imgs/open_excel.png)
 
 
-Now you should have Excel open, and you will see an empty spreadsheet. We will be using this just a little bit later on. But for now there is one more step we need to do, to be fully set up. We need to install the data analysis toolpak. 
+When Excel opens you usually see an empty spreadsheet. We will be using this just a little bit later on. But for now there is one more step we need to do, to be fully set up. **We need to install the data analysis toolpak.**
 
 
-To do this, click on the 'File' tab, and click on 'Options':
+### Install data analysis toolpak
+
+
+To install data analysis toolpak, click on the 'File' tab, and click on 'Options':
 
 
 ![](imgs/file_tab_options.png)
@@ -160,7 +181,7 @@ gmp_crimes %>%
 ```
 
 
-How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [police.uk](http://www.police.uk/) website [1](http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456). This means that by visiting the [data.police.uk/](https://data.police.uk/) website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let's have a look:
+How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [police.uk](http://www.police.uk/) website. This means that by visiting the [data.police.uk](https://data.police.uk/) website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let's have a look:
 
 
 ```{r, echo=FALSE}
@@ -170,7 +191,6 @@ gmp_crimes %>%
   knitr::kable() 
   
 ```
-
 
 
 
@@ -189,7 +209,9 @@ So for example, *month* is a variable in our data, and for every row (which is e
 ![Each column is a variable](imgs/columnIsVariable.png)
 
 
-Let's have a go at recording some data observations and putting them into a database, to give you some hands on experience here. 
+
+
+Let's have a go at recording some data observations and putting them into a database, to give you some hands on experience here. [If you're interested in the open data from police.uk do read this paper here about it.](http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456)
 
 
 ### Activity 1: Building your own data
@@ -286,10 +308,10 @@ OK, ready? Then let's build our data by adding the following tweets as additiona
 - [Tweet 4](https://twitter.com/GMPCityCentre/status/894024570109386752)
 - [Tweet 5](https://twitter.com/GMPCityCentre/status/891247668772708352)
 - [Tweet 6](https://twitter.com/GMPCityCentre/status/891254643078176768)
-- [Tweet 7](https://twitter.com/GMPCityCentre/status/890871354924421120)
-- [Tweet 8](https://twitter.com/GMPCityCentre/status/890594946536927233)
-- [Tweet 9](https://twitter.com/GMPCityCentre/status/890161961626996736)
-- [Tweet 10](https://twitter.com/GMPCityCentre/status/889084990495051776)
+<!-- - [Tweet 7](https://twitter.com/GMPCityCentre/status/890871354924421120) -->
+<!-- - [Tweet 8](https://twitter.com/GMPCityCentre/status/890594946536927233) -->
+<!-- - [Tweet 9](https://twitter.com/GMPCityCentre/status/890161961626996736) -->
+<!-- - [Tweet 10](https://twitter.com/GMPCityCentre/status/889084990495051776) -->
 
 
 Once you have entered all these, you should have a pretty solid set of tweets, looking something like this:
@@ -298,7 +320,7 @@ Once you have entered all these, you should have a pretty solid set of tweets, l
 ![](imgs/gmp_tweets.png)
 
 
-While entering your data you probably noticed that there was variation in when the tweets were made, how much like and retweet they received, and possibly also started interpreting the meaning of the tweet. Some  disseminate stats, for example about the number of arrests, or share info about an operation, some  appeal for information, for example about the woman wanted for questions about the racial abuse incident, and some are just one-off cases presented to the public. 
+While entering your data you probably noticed that there was variation in when the tweets were made, how much like and retweet they received, and possibly also started interpreting the meaning of the tweet. Some disseminate stats, for example about the number of arrests, or share info about an operation, some  appeal for information, for example about the woman wanted for questions about the racial abuse incident, and some are just one-off cases presented to the public. 
 
 
 But now, you turned the unstructured data of tweets into a structured data set, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.
@@ -313,8 +335,9 @@ In any case, if you follow these steps, you will have a saved set of data, in a 
 ![](imgs/save_tweets.png)
 
 
-And now you have created your first data set. Your columns are your variables, which correspond to Month, Day, Hour, Account, Tweet, Likes, Retweets, and Comments. Your rows are the 10 tweets which you have collected this information about. 
+And now you have created your first data set. Your columns are your variables, which correspond to Month, Day, Hour, Account, Tweet, Likes, Retweets, and Comments. Your rows are the tweets which you have collected this information about. 
  </span>
+ 
  
 ## Questions about your data
 
@@ -338,6 +361,7 @@ So the above exercise gave you an idea about how observations (in that case twee
 
 
 I demonstrated this above with the police.uk data, which is some real data that is released about crime statistics, as I mentioned, and something that you can see and download for yourself. 
+
 
 We can play around with police recorded crime data, which can be downloaded from the [police.uk](https://data.police.uk/data/) website. 
 
@@ -434,13 +458,12 @@ As Leland Wilkinson points out, data can be numeric, but it can be other things 
 We can speak about the **level of measurement** of a variable, which refers to whether that variable belongs to the category of *nominal*, *ordinal*, or *numeric*. Let's explore what these categories mean.
 
 
-
 If we set out to collect our own data, we make sure that we collect all the variables needed to answer our question, from all the observations that we have. The kinds of variables we have, determine the kinds of questions that we ask. For example, if we want to ask questions such as the one about the tweets above: "*Which tweet has the highest number of likes?*" we need to have **numeric** a variable. **Numeric** variables let us answer questions about quantity. For example, if we want to know the *average number of crimes per month*, we will need a numeric variable of number of crimes, for each month. Just like for the tweets, we had a numeric variable of the *number of likes* for each tweet. Put simply, number questions are answered by **numeric** variables. 
 
 
 ### Activity 3.1: Levels of measurement pt. 1
 <span style="color:#d95f02">
-Have a look back at your tweet data that you created. Which variables are numeric?
+Have a look back at your tweet data that you created. Now tell me: **Which variables are numeric?**
 
 
 Stop here again and turn to the person next to you. Discuss with them which variables you think are numeric. Do you agree on your choices? 
@@ -452,6 +475,7 @@ Stop here again and turn to the person next to you. Discuss with them which vari
 ...
 
 ...
+
 ...
 
 ...
@@ -470,7 +494,6 @@ OK, here's your answer:
 So is this the same as you thought? If yes, nice work! 
 
 
-
 If you did not get this right, was that because you also selected the **day** and the **hour** variables? If it was, then that is perfect, because that is what I was secretly hoping you would do! But that's not quite correct.
 
 
@@ -485,15 +508,19 @@ Why are day and hour **not** numeric variables? After all they *are* numbers, ri
 So now you know that hour in the day, and day in the month are ordinal variables. There are many more, such as attitudes towards something (Strongly agree, agree, neutral, disagree, strongly disagree) or fear of crime. There is also one more ordinal variable in our twitter data set - can you find the other ordinal variables in your tweets data? Again take some time to think about this.
 </span>
 
+
 ...
+
 ...
+
 ...
+
 ...
-...
-...
-...
+
+...ready?
  
-Ready? The other ordinal variable is *Month*. You know that if I say January, February, March, then the value to follow is April, and not November. There is an order that these values fall, making *Month* an **ordinal** variable. 
+
+The other ordinal variable is *Month*. You know that if I say January, February, March, then the value to follow is April, and not November. There is an order that these values fall, making *Month* an **ordinal** variable. 
 
 
 So what about the others? *Account* and *Tweet*? These are **nominal** variables. These are sometimes also referred to qualitative variables. But you can still carry out quantitative analysis on them. You will very often see **nominal** variables in quantitative analysis. In this case, the *Account* variable tells you who is tweeting, and if you have tweets from many different accounts, for example if we also looked at \@gmptraffic and \@GMPMcrAirport, we could compare tweets between them. These variables are **nominal** and **not** ordinal, because they do not fall into any particular order. You can arrange them in any order, and it would look just as legitimate as any other order. For example if I say January, February, September, May, August ... you immediately look and see that is not in it's natural order. However if I say \@gmptraffic, \@GMPMcrAirport, \@GMPCityCentre or \@GMPMcrAirport, \@GMPCityCentre, \@gmptraffic, you don't feel a need to reorder one way or the other. **Nominal** variables have no natural order.
@@ -580,7 +607,7 @@ This data set is made up of 10 **observations** and 2 **variables**. You might n
 
 
 
-See reading: Chapter 2 Statistics in Criminal Justice - David Weisburd, Chester Britt for interval/ratio, or for discrete/continuous)
+> See reading: Chapter 2 Statistics in Criminal Justice - David Weisburd, Chester Britt for interval/ratio, or for discrete/continuous)
 
 
 
@@ -773,8 +800,7 @@ From your readings you should also be comfortable with:
 
 - reliability
 - validity
-- descriptive statistics
-- inferential statistics
+- difference between descriptive statistics and inferential statistics
 
 
 

@@ -68,15 +68,20 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#disclaimer"><i class="fa fa-check"></i><b>0.1</b> Disclaimer</a></li>
-<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#overview"><i class="fa fa-check"></i><b>0.2</b> Overview of course</a><ul>
-<li class="chapter" data-level="0.2.1" data-path="index.html"><a href="index.html#module-structure"><i class="fa fa-check"></i><b>0.2.1</b> Module structure</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#disclaimer"><i class="fa fa-check"></i>Disclaimer</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#overview-of-course"><i class="fa fa-check"></i>Overview of course</a><ul>
+<li class="chapter" data-level="0.0.1" data-path="index.html"><a href="index.html#module-structure"><i class="fa fa-check"></i><b>0.0.1</b> Module structure</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="week1.html"><a href="week1.html"><i class="fa fa-check"></i><b>1</b> Week 1</a><ul>
 <li class="chapter" data-level="1.1" data-path="week1.html"><a href="week1.html#learning-outcomes"><i class="fa fa-check"></i><b>1.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="1.2" data-path="week1.html"><a href="week1.html#setting-up-your-working-environment"><i class="fa fa-check"></i><b>1.2</b> Setting up your working environment</a></li>
-<li class="chapter" data-level="1.3" data-path="week1.html"><a href="week1.html#getting-to-know-excel"><i class="fa fa-check"></i><b>1.3</b> Getting to know Excel</a></li>
+<li class="chapter" data-level="1.2" data-path="week1.html"><a href="week1.html#setting-up-your-working-environment"><i class="fa fa-check"></i><b>1.2</b> Setting up your working environment</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="week1.html"><a href="week1.html#if-you-use-computer-cluster-pcs"><i class="fa fa-check"></i><b>1.2.1</b> If you use computer cluster PCs</a></li>
+<li class="chapter" data-level="1.2.2" data-path="week1.html"><a href="week1.html#working-directory"><i class="fa fa-check"></i><b>1.2.2</b> Working directory</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="week1.html"><a href="week1.html#getting-to-know-excel"><i class="fa fa-check"></i><b>1.3</b> Getting to know Excel</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="week1.html"><a href="week1.html#install-data-analysis-toolpak"><i class="fa fa-check"></i><b>1.3.1</b> Install data analysis toolpak</a></li>
+</ul></li>
 <li class="chapter" data-level="1.4" data-path="week1.html"><a href="week1.html#data-variables-and-observations"><i class="fa fa-check"></i><b>1.4</b> Data: Variables and observations</a><ul>
 <li class="chapter" data-level="1.4.1" data-path="week1.html"><a href="week1.html#activity-1-building-your-own-data"><i class="fa fa-check"></i><b>1.4.1</b> Activity 1: Building your own data</a></li>
 </ul></li>
@@ -336,16 +341,54 @@
 </div>
 <div id="setting-up-your-working-environment" class="section level2">
 <h2><span class="header-section-number">1.2</span> Setting up your working environment</h2>
-<p>There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein:
-<img src="imgs/einstein_desk.jpg" width="480" /></p>
+<p>The first thing you need to do is to create a working environment for yourself, for this course, and for all projects you will work on, using data. Just because everything is on your computer or laptop does not mean this is something you can ignore.</p>
+<p>There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein:</p>
+<p><img src="imgs/einstein_desk.jpg" width="480" /></p>
 <p>However many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with these famous work spaces of : Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:</p>
-<p><img src="imgs/galileo_desk.jpg" width="118" /><img src="imgs/marie_curie.jpg" width="118" /><img src="imgs/Dalton_John_desk.jpg" width="226" /><img src="imgs/alan_turing_desk.jpg" width="250" /><img src="imgs/charles_dickens_desk.jpg" width="250" /></p>
-<p>When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised. You will likely have a project folder, where you save your data, your graphs, your analysis outputs, etc. You want to consider the layout of this folder, how many subfolders will you have, what is the best structure to work for you? You might think this is trivial, but when you are working on a project with multiple data sets, or many graphs, it can get very messy very quickly. I recommend going through <a href="https://www.data.cam.ac.uk/data-management-guide/organising-your-data">this resource from the university of Cambridge data management guide</a> to consider Naming and Organising Files, Documentation and Metadata, Managing References, and Organising E-mail.</p>
-<p>Normally, say when you are working on a Windows PC at home, you can save files to your C: drive, and easily access them the next time you turn the computer on. When you are using computers at the university, however, you cannot be certain of being able to use the same computer again when you want to find and use your file again. Fortunately, once you have logged on to a computer at the university, a personal drive is available for you to use, and in effect, this drive follows you around to whichever PC you are logged on to. All students and staff have a personal file storage space on the network - known as the P: drive as this is usually the network drive letter allocated to it. Wherever you log on to the campus network your P: drive is available (in PC Clusters the My Documents icon on the desktop is a shortcut to the P: drive).</p>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="imgs/galileo_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces" width="118" />
+<p class="caption">
+Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="imgs/marie_curie.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces" width="118" />
+<p class="caption">
+Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="imgs/Dalton_John_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces" width="226" />
+<p class="caption">
+Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="imgs/alan_turing_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces" width="250" />
+<p class="caption">
+Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces
+</p>
+</div>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="imgs/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces" width="250" />
+<p class="caption">
+Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces
+</p>
+</div>
+<p>When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised.</p>
+<p>There are as many approaches as people. Some people save everything to Desktop. I strongly recommend if you do this, you stop, now!</p>
+<p>I recommend going through <a href="https://www.data.cam.ac.uk/data-management-guide/organising-your-data">this resource from the university of Cambridge data management guide</a> to consider Naming and Organising Files, Documentation and Metadata, Managing References, and Organising E-mail.</p>
+<div id="if-you-use-computer-cluster-pcs" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> If you use computer cluster PCs</h3>
+<p>You need to make sure that everything you are working on is saved in you <a href="https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/working/storage/"><strong>P:drive</strong></a>.</p>
+<p>All students and staff have a personal file storage space on the network - known as the P: drive as this is usually the network drive letter allocated to it. Wherever you log on to the campus network your P: drive is available (in PC Clusters the My Documents icon on the desktop is a shortcut to the P: drive).</p>
 <p>You should already have a username and password with which to log on. Your username has 7 or 8 letters/digits, typically beginning ‘m…’. On the computers in the Faculty clusters (where you work in class time) you will see the Faculty computer ‘image’ and a version of the operating systems Windows 7.</p>
-<p>Away from the campus you can download and upload files to and from your P: drive over an Internet connection - for example to and from your home computer, but please remember that large files may take a long time to upload/download depending on the speed of your home internet connection. <a href="http://servicedesk.manchester.ac.uk/portal/app/portlets/results/viewsolution.jsp?solutionid=040918305513985&amp;SToken=A9F6241A4BCC47E813D7C92C68B579F7">See here for details about remote access</a>.</p>
-<p>It’s generally good to create a folder to save your data and our outputs in, which we will call a <strong>working directory</strong>. So firstly, before we begin to do any work, we should create our <strong>working directory</strong>. This is simply a folder where you will save all our data, and also where you will be reading data in from. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It’s advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. <a href="http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf">Here is a handy guide you should read about naming files and folders that will be relevant for all your future work</a>.</p>
-<p>It’s not necessarily a good idea to just dump everything into ‘Desktop’ either, as you want to be able to find things later, and maybe keep things tidy. We will now show you where your personal drive is and how to save your word file to it.</p>
+<p>Away from the campus you can download and upload files to and from your P: drive over an Internet connection - for example to and from your home computer. You can access the files on your P-drive from anywhere using the link <a href="https://pdrives.manchester.ac.uk/horde/login.php">https://pdrives.manchester.ac.uk/horde/login.php</a>.</p>
+</div>
+<div id="working-directory" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> Working directory</h3>
+<p>So if you’re using your own laptop you can create save your files anywhere, but if you’re on the cluster PC you should save on your P:drive. OK - then what?</p>
+<p>It’s generally good to create a folder to save your data and our outputs in, which we will call a <strong>working directory</strong>. So firstly, before we begin to do any work, we should create our <strong>working directory</strong>. This is simply a folder where you will save all our files. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It’s advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. <a href="http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf">Here is a handy guide you should read about naming files and folders that will be relevant for all your future work</a>.</p>
 <p><span style="color:#d95f02"> Just to have some practice with doing this, create a Word document to put into the folder. Open Microsoft Word now (you can find this on the ‘Start’ button in the bottom left corner of your screen). The only thing you have to type in the document is your name.</p>
 <p><span style="color:#d95f02"> Save the file to your p: drive as follows. Click on the <em>save</em> button (or click File then Save in the drop down menus). The dialogue box below will appear. Click on the down arrow in the ‘Save in:’ box to change the default directory to your P: drive. The P: drive is the one that starts with your user name. Click on this drive.</p>
 <p><img src="imgs/save_doc_as.png" /></p>
@@ -356,18 +399,21 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 </span></p>
 <p>A word of caution, if your P: drive is full (and this tends to happen when you save image or sound files to it), there is a chance that some of the applications you want to use do not work. So make sure you keep your P: drive tidy if you don’t want to run into problems.</p>
 </div>
+</div>
 <div id="getting-to-know-excel" class="section level2">
 <h2><span class="header-section-number">1.3</span> Getting to know Excel</h2>
-<p>Besides having a folder where you save something, you should also get comfortable with the tools which you will be using throughout this course. The main tool you’ll be using is <a href="https://en.wikipedia.org/wiki/Microsoft_Excel">Microsoft Excel</a>. You will be using it to explore, learn about, and manipulate criminological data throughout this course.</p>
+<p>The main tool we’ll be using throughout the course is <a href="https://en.wikipedia.org/wiki/Microsoft_Excel">Microsoft Excel</a>. You will be using it to explore, learn about, and manipulate criminological data throughout this course.</p>
 <div class="figure">
 <img src="imgs/bill_gates_excel.jpg" alt="I excel" />
 <p class="caption">I excel</p>
 </div>
-<p>If you are following along on your own laptop (I encourage this strongly) you can download microsoft excel <strong>for free</strong>, courtesy of the UoM library. <a href="http://www.itservices.manchester.ac.uk/students/office365/">Follow the instructions here to get Microsoft Office on your laptops</a>.</p>
+<p>All cluster PCs already have Excel installed. However, if you are following along on your own laptop (I encourage this strongly) you can download microsoft excel <strong>for free</strong>, courtesy of the UoM library. <a href="http://www.itservices.manchester.ac.uk/students/office365/">Follow the instructions here to get Microsoft Office on your laptops</a>.</p>
 <p>Now you likely have come across Excel before, but it’s also possible that you have not, so I will start with the assumption that this is your first time opening it up. Exciting. So let’s get to it. To open excel, click on the windows icon, and select Microsoft Excel from the Microsoft Office bundle.</p>
 <p><img src="imgs/open_excel.png" /></p>
-<p>Now you should have Excel open, and you will see an empty spreadsheet. We will be using this just a little bit later on. But for now there is one more step we need to do, to be fully set up. We need to install the data analysis toolpak.</p>
-<p>To do this, click on the ‘File’ tab, and click on ‘Options’:</p>
+<p>When Excel opens you usually see an empty spreadsheet. We will be using this just a little bit later on. But for now there is one more step we need to do, to be fully set up. <strong>We need to install the data analysis toolpak.</strong></p>
+<div id="install-data-analysis-toolpak" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Install data analysis toolpak</h3>
+<p>To install data analysis toolpak, click on the ‘File’ tab, and click on ‘Options’:</p>
 <p><img src="imgs/file_tab_options.png" /></p>
 <p>This will bring up a popup window. Here click on ‘Add-Ins’, then highlight ‘Analysis Toolpak’ and click on ‘Go’:</p>
 <p><img src="imgs/install_analysis_toolpak.png" /></p>
@@ -379,12 +425,13 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 <p>And that’s it you are now set up! Excellent!</p>
 <p>You can now move on to the subtantive part of today’s course. In the next section we will learn about variables and data.</p>
 </div>
+</div>
 <div id="data-variables-and-observations" class="section level2">
 <h2><span class="header-section-number">1.4</span> Data: Variables and observations</h2>
 <p>We know that in the period from May 2016 to May 2017, Greater Manchester police recorded a total of 420228 crimes. We also know that the largest number were recorded in Anti-social behaviour crime categeory, with 122443 instances, while the fewest in Possession of weapons, with 2009 instances.</p>
 <p>We can also track changes in the number of crimes over time:</p>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<p>How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the <a href="http://www.police.uk/">police.uk</a> website <a href="http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456">1</a>. This means that by visiting the <a href="https://data.police.uk/">data.police.uk/</a> website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let’s have a look:</p>
+<p>How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the <a href="http://www.police.uk/">police.uk</a> website. This means that by visiting the <a href="https://data.police.uk/">data.police.uk</a> website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let’s have a look:</p>
 <table>
 <thead>
 <tr class="header">
@@ -462,7 +509,7 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 <img src="imgs/columnIsVariable.png" alt="Each column is a variable" />
 <p class="caption">Each column is a variable</p>
 </div>
-<p>Let’s have a go at recording some data observations and putting them into a database, to give you some hands on experience here.</p>
+<p>Let’s have a go at recording some data observations and putting them into a database, to give you some hands on experience here. <a href="http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456">If you’re interested in the open data from police.uk do read this paper here about it.</a></p>
 <div id="activity-1-building-your-own-data" class="section level3">
 <h3><span class="header-section-number">1.4.1</span> Activity 1: Building your own data</h3>
 <!--Often you will have data readily created for you, such as we saw with the police.uk data set, which can be downloaded in the rectangle format, where your columns are your variables, and your rows are your observations. But data can take many forms. So we will have a go at dealing with some data that comes in a very unruly form: tweets!-->
@@ -532,11 +579,11 @@ Some of you by now are thinking: "but then we also have to chane the date!" Inde
 <li><a href="https://twitter.com/GMPCityCentre/status/894515606321590273">Tweet 3</a></li>
 <li><a href="https://twitter.com/GMPCityCentre/status/894024570109386752">Tweet 4</a></li>
 <li><a href="https://twitter.com/GMPCityCentre/status/891247668772708352">Tweet 5</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/891254643078176768">Tweet 6</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/890871354924421120">Tweet 7</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/890594946536927233">Tweet 8</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/890161961626996736">Tweet 9</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/889084990495051776">Tweet 10</a></li>
+<li><a href="https://twitter.com/GMPCityCentre/status/891254643078176768">Tweet 6</a>
+<!-- - [Tweet 7](https://twitter.com/GMPCityCentre/status/890871354924421120) -->
+<!-- - [Tweet 8](https://twitter.com/GMPCityCentre/status/890594946536927233) -->
+<!-- - [Tweet 9](https://twitter.com/GMPCityCentre/status/890161961626996736) -->
+<!-- - [Tweet 10](https://twitter.com/GMPCityCentre/status/889084990495051776) --></li>
 </ul>
 <p>Once you have entered all these, you should have a pretty solid set of tweets, looking something like this:</p>
 <p><img src="imgs/gmp_tweets.png" /></p>
@@ -545,7 +592,7 @@ Some of you by now are thinking: "but then we also have to chane the date!" Inde
 <p>Once you are done, save your data. You can do this by clicking on “file” and then “save as” and navigating to your working directory to save your file. You can save it as a <em>comma separated value</em> file, or .csv . Next term you will be dealing with data in this format. This way any formatting that you do to the spreadsheet (eg making the column titles bold etc) will <em>not</em> be preserved, however the data is available to read by more software, not just excel. It doesn’t hugely matter at this stage how you save your data.</p>
 <p>In any case, if you follow these steps, you will have a saved set of data, in a csv file, hopefully with some meaningful name:</p>
 <p><img src="imgs/save_tweets.png" /></p>
-<p>And now you have created your first data set. Your columns are your variables, which correspond to Month, Day, Hour, Account, Tweet, Likes, Retweets, and Comments. Your rows are the 10 tweets which you have collected this information about.
+<p>And now you have created your first data set. Your columns are your variables, which correspond to Month, Day, Hour, Account, Tweet, Likes, Retweets, and Comments. Your rows are the tweets which you have collected this information about.
 </span></p>
 </div>
 </div>
@@ -628,13 +675,13 @@ Some of you by now are thinking: "but then we also have to chane the date!" Inde
 <div id="activity-3.1-levels-of-measurement-pt.-1" class="section level3">
 <h3><span class="header-section-number">1.8.1</span> Activity 3.1: Levels of measurement pt. 1</h3>
 <p><span style="color:#d95f02">
-Have a look back at your tweet data that you created. Which variables are numeric?</p>
+Have a look back at your tweet data that you created. Now tell me: <strong>Which variables are numeric?</strong></p>
 <p>Stop here again and turn to the person next to you. Discuss with them which variables you think are numeric. Do you agree on your choices?</p>
 <p></span></p>
 <p><strong>NOTE:</strong> It’s important that you take some time to actually try to think of this on your own - and I would recommend that you talk this through with someone. If you are happy to chat to the person next to you - do this now. If not, then raise your hand, and myself or one of the TAs will come over. Tell us that you don’t want the answer, you just want to talk through which variables you think are numeric. We will listen, and not judge. I’ll just wait a moment while you take time to speak to someone now.</p>
 <p>…</p>
-<p>…
-…</p>
+<p>…</p>
+<p>…</p>
 <p>…</p>
 <p>…ready?</p>
 <p>OK, here’s your answer:</p>
@@ -649,14 +696,12 @@ Have a look back at your tweet data that you created. Which variables are numeri
 <p><span style="color:#d95f02">
 So now you know that hour in the day, and day in the month are ordinal variables. There are many more, such as attitudes towards something (Strongly agree, agree, neutral, disagree, strongly disagree) or fear of crime. There is also one more ordinal variable in our twitter data set - can you find the other ordinal variables in your tweets data? Again take some time to think about this.
 </span></p>
-<p>…
-…
-…
-…
-…
-…
-…</p>
-<p>Ready? The other ordinal variable is <em>Month</em>. You know that if I say January, February, March, then the value to follow is April, and not November. There is an order that these values fall, making <em>Month</em> an <strong>ordinal</strong> variable.</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…</p>
+<p>…ready?</p>
+<p>The other ordinal variable is <em>Month</em>. You know that if I say January, February, March, then the value to follow is April, and not November. There is an order that these values fall, making <em>Month</em> an <strong>ordinal</strong> variable.</p>
 <p>So what about the others? <em>Account</em> and <em>Tweet</em>? These are <strong>nominal</strong> variables. These are sometimes also referred to qualitative variables. But you can still carry out quantitative analysis on them. You will very often see <strong>nominal</strong> variables in quantitative analysis. In this case, the <em>Account</em> variable tells you who is tweeting, and if you have tweets from many different accounts, for example if we also looked at @gmptraffic and @GMPMcrAirport, we could compare tweets between them. These variables are <strong>nominal</strong> and <strong>not</strong> ordinal, because they do not fall into any particular order. You can arrange them in any order, and it would look just as legitimate as any other order. For example if I say January, February, September, May, August … you immediately look and see that is not in it’s natural order. However if I say @gmptraffic, @GMPMcrAirport, @GMPCityCentre or @GMPMcrAirport, @GMPCityCentre, @gmptraffic, you don’t feel a need to reorder one way or the other. <strong>Nominal</strong> variables have no natural order.</p>
 <p>Starting to make sense? To recap, there are levels of measurement that each variable can fall into , and these are <strong>numeric</strong>, <strong>ordinal</strong>, or <strong>nominal</strong>. By the way, <strong>ordinal</strong> and <strong>nominal</strong> are also called <strong>categorical</strong> variables, because they assign each observation into a <em>category</em>. Then, depending on whether the category values can be put in a meaningful order or not, you can tell if it’s an ordinal-categorical, or nominal-categorical variable.</p>
 <p>Confused? Let’s look at this again, but with the crimes data.</p>
@@ -810,7 +855,9 @@ us a method for associating a concept like income with a set of data.
 </table>
 <p>This data set is made up of 10 <strong>observations</strong> and 2 <strong>variables</strong>. You might notice that this maps nicely onto your 10 rows of 2 columns. As noted in the previous section, the columns represent your <strong>variables</strong>. The rows reporesent your <strong>observations</strong>. Your observations (or rows) are every single record in your data. So in the case above, every borough has one observation, or the number of crimes in each area. For each observation, we record 2 variables. One variable is the name of the borough. This variable is called <em>borough</em>. The other varible is the number of burglaries that took place in that borough. It’s called <em>number.of.burglaries</em>, and it is a <strong>numeric</strong> variable.</p>
 <p><strong>Numeric</strong> variables can also be assigned into sub groups. <strong>Interval</strong> variables have values of equal intervals that mean something. For example, if you have results from an IQ score, the difference of 1 score between 90 and 91 is the same as 91 to 92. But there is no <em>true</em> zero value, and it doesn’t make sense to say someone is twice as smart as someone else. <strong>Ratio</strong> variables however have an absolute zero (a point where none of the quality being measured exists), and using a ratio scale permits comparisons such as being twice as high, or one-half as much. This can get somewhat confusing, and there are sometimes people who argue that a particular type of variable belongs to one group or the other. For example, if you have a Likert scale of Strongly agree, Agree, Neutral, Disagree, Strongly disagree, you can say that this is an ordinal variable (categories that have a natural order). But you could also translate them into numbers, saying it measures agreement from a scale of 1 (Strongly disagree) to 5 (Strongly agree). In this case it is possible to treat this as an interval scale variable. The truth is, you can choose either option, <strong>but you have to have some good justification why</strong>. Did someone else do this before you? Did you read a recent paper where one method was argued to be better than the other? For some instances it will always be clear what type of variable you have. But you should always take time to consider what the level of measurement of your variable is, and what that means for what you can say about your data. As a personal preference, I’d advise against treating ordinal data as numeric, but others will advise that it’s generally OK to take means and apply statistical tests to ordinal data, just be careful about making interval claims such as “twice as satisfied.” <a href="http://www.usablestats.com/lessons/noir">2</a></p>
+<blockquote>
 <p>See reading: Chapter 2 Statistics in Criminal Justice - David Weisburd, Chester Britt for interval/ratio, or for discrete/continuous)</p>
+</blockquote>
 <p>The reason we need to know what type of variable we are dealing with, is because this will determine the kinds of analyses we can do to it, further down the line. For example, next week we’ll talk about summarising data. As discussed above, for a numeric variable, we can take the average, and use this to summarise it, whereas for a categorical variable you can’t.Think about if someone asked you: “what is the average gender in the class?” This doesn’t make sense, instead you would look at the proportions. Gender is a categorical variable. However, if someone asked you what is the average age in the class, that is a more possible query to answer. Because age is a numeric variable.</p>
 <p>Here are some more examples of each:</p>
 <ul>
@@ -1044,8 +1091,7 @@ Conclusions: The qualitative results of previous crime and place trajectory anal
 <ul>
 <li>reliability</li>
 <li>validity</li>
-<li>descriptive statistics</li>
-<li>inferential statistics</li>
+<li>difference between descriptive statistics and inferential statistics</li>
 </ul>
 
 </div>

@@ -22,7 +22,7 @@ It makes use of Excel, as we have identified a gap in training students to use E
 Making Sense of Crim Data introduces students to data, and the concepts of descriptive data analysis. The role of this term is to familiarise students with basic concepts of data analysis, and get aquainted with descriptive statistics to be able to talk about data about crime, policing, and criminal justice topics. Details can be found in the Syllabus.
 
 
-## Disclaimer
+## Disclaimer {-}
 
 Please beware that:
 
