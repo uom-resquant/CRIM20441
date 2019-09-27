@@ -622,12 +622,13 @@ Here are some more examples of each:
     + Hair Color: Brown, Black, Blonde, Red, Other.
     + Type of living accommodation: House, Apartment, Trailer, Other.
     + Religious preference: Buddhist, Mormon, Muslim, Jewish, Christian, Other.
+    + Level of Agreement: yes, maybe, no.
 
 - Ordinal variables: 
     + Socioeconomic status: poor, middle class, rich.
-    + The Likert Scale: strongly disagree, disagree, neutral, agree, strongly agree.
-    + Level of Agreement: yes, maybe, no.
+    + The Likert Scale: strongly disagree, disagree, neutral, agree, strongly agree
     + Time of Day: dawn, morning, noon, afternoon, evening, night.
+    + Level of Agreement: strongly disagree, disagree, neutral, agree, strongly agree
 
 - Interval variables:
     + Celsius Temperature.
