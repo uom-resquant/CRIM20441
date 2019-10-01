@@ -50,9 +50,9 @@ Well remember when we spoke about **levels of measurement** last week? We encoun
 So why is this important? Well what level of measurement your variable falls into dictates what types of summaries are appropriate. Thinking back to the gender example, it would not make huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and as so an appropriate way to summarise it is not to calculate an average (mean or median, but we will get into this a bit later). Instead there are other approaches you could take. For example you could look into the modal category - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occuring value for this variable. It occurred exacly 82,312 times, since there were 82,312 men in the data set. The 'female' value for the gender variable only appeared 3,982 times, since that is how many women were observed. How do we find this out? Well in the simplest term we could count all the occurrences of each value in the data set. But remember what I said about analysts being lazy? We don't want to be going throgh spreadsheets line by line. Instead, we would look at the frequency of all the values the variable can take, in this case the frequency of the male and female values for gender. We could do this by something called a **frequency table**. Frequency tables are valid ways for summarising categorical variables, however they might not be appropriate for numeric variables, which are better suited to measures like **average** and **variance**. But now I'm just throwing words around.
 
 
-```{r, echo = FALSE}
-knitr::include_graphics("b99_hatewords.gif")
-```
+
+![](imgs/b99_hatewords.gif)
+
 
 
 
@@ -612,7 +612,7 @@ If we only know the average score on IMDB for these movies, we would believe tha
 
 
 
-![](https://espnfivethirtyeight.files.wordpress.com/2017/09/mehtahickey-inconvenient-0831-9.png)
+![](https://fivethirtyeight.com/wp-content/uploads/2017/09/mehtahickey-inconvenient-0831-9.png)
 
 
 
@@ -792,7 +792,7 @@ The other thing you will need, besides to decide on some bins, is to use the dat
 If you have the data analysis toolpak installed, then go back to your pivot table of number of crimes per borough, and select the "Data" tab. Then click on the "Data Analysis" icon at the top right: 
 
 
-[](imgs/dat_loc.png)
+![](imgs/dat_loc.png)
 
 
 

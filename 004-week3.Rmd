@@ -922,7 +922,7 @@ So what are some examples of correlations? Here are a few:
 
 - [Interactive Correlation Matrix and Scatter Plot All NBA Team Statistical Data 1951-2015 Seasons](http://asbcllc.com/blog/2014/december/nba_team_corr_matrix/scaled/)
 - [Scatterplot of the Relationship Between Rotten Tomatoes Tomatometer Score and Box Office Revenue for Movies, for each movie genre](http://rebrn.com/re/relationship-between-rotten-tomatoes-tomatometer-score-and-box-o-2558335/)
--[Correlation between statewise obesity and voting for Trump](https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png?auto=format%2Ccompress&w=700)
+- [Correlation between statewise obesity and voting for Trump](https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png)
 
 You can understand the basic premise. 
 ### Activity 6: Does age at first arrest correlate with total number of arrests?
