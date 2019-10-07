@@ -622,7 +622,7 @@ So for every person, we want to check if their value for *reason for arrest* is 
 
 
 
-For example, if we are calculating the median age for theft of vehicle, for every line we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate mean age for theft of vehicle. If it is not, we do not. 
+For example, if we are calculating the median age for assault, for every line we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate mean age for theft of vehicle. If it is not, we do not. 
 
 
 How would you write this in a formula? Well for assault we could say something like: 
