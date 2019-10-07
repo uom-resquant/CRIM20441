@@ -25,7 +25,7 @@
 <meta name="author" content="Reka Solymosi">
 
 
-<meta name="date" content="2019-10-01">
+<meta name="date" content="2019-10-07">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -138,15 +138,17 @@
 <li class="chapter" data-level="3.2" data-path="week3.html"><a href="week3.html#categorical-v-categorical"><i class="fa fa-check"></i><b>3.2</b> Categorical v categorical</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="week3.html"><a href="week3.html#activity-1-surviving-the-titanic"><i class="fa fa-check"></i><b>3.2.1</b> Activity 1: Surviving the Titanic</a></li>
 <li class="chapter" data-level="3.2.2" data-path="week3.html"><a href="week3.html#row-percentage-column-percentage-or-total-percentage"><i class="fa fa-check"></i><b>3.2.2</b> Row percentage, column percentage, or total percentage</a></li>
-<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.3</b> A note on formatting cells</a></li>
-<li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#activity-3-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.4</b> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</a></li>
+<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#activity-2-calculating-row-vs-column-percentages"><i class="fa fa-check"></i><b>3.2.3</b> Activity 2: Calculating row vs column percentages</a></li>
+<li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.4</b> A note on formatting cells</a></li>
+<li class="chapter" data-level="3.2.5" data-path="week3.html"><a href="week3.html#activity-3-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.5</b> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="week3.html"><a href="week3.html#categorical-v-numeric"><i class="fa fa-check"></i><b>3.3</b> Categorical v numeric</a><ul>
 <li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-4-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 4: Age of offenders</a></li>
 <li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-5-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 5: Adding a column for median</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-v-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric v numeric</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.1</b> Correlation does not mean causation</a></li>
+<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-6-does-age-at-first-arrest-correlate-with-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity 6: Does age at first arrest correlate with total number of arrests?</a></li>
+<li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
 </ul></li>
@@ -595,7 +597,7 @@ Let’s try this for the Scared Straight RCT.</p>
 <p>So to have random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let’s say we want to assign two groups. We want to assign people to a <strong>control group</strong> and a <strong>treatment group</strong>. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics <em>except</em> in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be for example if you were asking people to <em>self-select</em> into treatment or control. If people were given the chance to volunteer (<em>self-select</em>) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.</p>
 <p><span style="color:#d95f02">
 So let’s say we have our sample of people who will be assigned either to the treatment group, of recieving the scared straigh treatment, or the control group, who do not have to go through this treatment. Well let’s say we have our class here. We’ve got a total of 83 students enrolled in the class. Go ahead and download this list, from Blackboard. You can find it under week 5 &gt; data &gt; student.xlsx</p>
-<p>Once you have downloaded the data, open it with excel, and have a look at it. You can see that we have 83 rows, one for each student. You can also see that we have 3 variables: ID, Name, and Program.</p>
+<p>Once you have downloaded the data, open it with excel, and have a look at it. You can see that we have 94 rows, one for each student. You can also see that we have 2 variables: ID, and Name.</p>
 <p>To assign people randomly to a group, we can use Excel’s <code>=RAND()</code> function. The Excel RAND function returns a random number between 0 and 1. For example, <code>=RAND()</code> will generate a number like 0.422245717. RAND recalculates when a worksheet is opened or changed. This will become important later.</p>
 <p>So give it a go. Create a new column called “random number” on our data. Like so:</p>
 <p><img src="imgs/rand_col.png" /></p>
@@ -608,7 +610,7 @@ So let’s say we have our sample of people who will be assigned either to the t
 <p>Now we can use these values, which have been assigned <em>randomly</em> to assign students to a control or treatment groups. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And I left a little bonus question at the end? Well the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data get put into one group, and 50% of your data into the other group? This question should already be familir to you, but let me re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable?</p>
 <p>Are you thinking <strong>median</strong>??</p>
 <p><img src="https://media.giphy.com/media/YcMs3OGd89Pxu/giphy.gif" /></p>
-<p>Nice work! Indeed the median is the value that divides our data right smack in half. Now are you starting to realise where I’m going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the <code>IF()</code> statements we were using last week to re-code data!</p>
+<p>Nice work! Indeed the median is the value that divides our data right smack in half. Now are you starting to realise where I’m going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the <code>=IF()</code> statements we were using last week to re-code data!</p>
 <p>How? Well remember what we did to assign people into tall or short categorical variable values, based on the numeric value for height? We decided that if a person is taller than average, they will be labelled “Tall” and “Short” if they are not. So what are the elements of our statement? We need to check <em>if</em> the person height is <em>greater than</em> the <em>average height</em> and if it is, type “Tall”, else type “Short”. Remember now?</p>
 <p>We can apply this again here. So to recap, we know that the <code>IF()</code> function takes 3 arguments. 1st the logical statement, that has to be either true or false. Then the other 2 values that the <code>IF()</code> function needs is what to do if the statement is true, and what to do if the statement is false.
 So altogether, your function will look like this:</p>
@@ -635,111 +637,42 @@ So altogether, your function will look like this:</p>
 <p>If you were assigned to the treatment group, as treatment <a href="https://www.youtube.com/watch?v=sw1vm_PO8ss">watch this Saturday Night Live skit on Scared Straight</a>. Let’s see what it does for your offending…</p>
 <p>If you were assigned to the control group, you can instead <a href="https://www.youtube.com/watch?v=-T_pjMr7-n0">watch this Saturday Night Live skit on Star Wars auditions</a>.</p>
 <p>Now you’ve been exposed to either the treatment or the control condition. I’ll be in touch in 12 months time to follow up, and find out about your offending behaviour. I’ll report the results back in a paper. Science…!</p>
-<!--
-
-### Activity 3: Stratified randomisation
-
-
-Randomization is important because it is almost the only way to assign all the other variables equally except for the factor (A and B) in which we are interested. However, some very important confounding variables can often be assigned unequally to the two groups. This possibility increases when the number of samples is smaller, and we can stratify the variables and assign the two groups equally in this case.
-
-For example, if the smoking status is very important, what will you do? First, we have our method of randomization that we learned previously. Just to put a name to this, the approach we had followed was **simple randomisation** There are two randomly assigned separate sequences for smokers and non-smokers. Smokers are assigned to the smoker's sequences, and non-smokers are assigned to the non-smoker's sequences. Therefore, both smokers and non-smokers groups will be placed equally with the same numbers.
-
-So we can use 'simple randomization with/without stratification'. However, if there are multiple stratified variables, it is difficult to place samples in both groups equally with the same numbers. Usually two or fewer stratified variables are recommended.
-
-<span style="color:#d95f02">
-What does that look like? Well let's illustrate again with assigning you, the class, into control and treatment groups for the scared straight programme. Let's say that we knew that there was a different effect of Scared Straight possibly on those in BA Criminology and BA Social Sciences programme participants. This means that we've identified the *program* variable to be a **confounding variable**. A confounding variable is an outside influence that changes the effect of a dependent and independent variable. To account for this, we want the same number of BA Crim and BA Social Science students in both groups. Because if we didn't control for this, it could be that through the random assignment alone, one group would have only BA Crim students, and the other have all the BA Social Science students. Now if we think that program is a **confounding variable**, in other words it's something that might influence our dependent variable, then we want to account for this, because otherwise, even if we find a difference between the two groups, we'll be unable to say whether it's due to the Scared Straigh intervention, or this variable of degree program!  
-
-
-So how can we make sure that both BA Criminology and BA Social Sciences groups will be placed equally with the same numbers?
-
-
-Well to do this, you would go back to your random numbers that we created with the `=RAND()` function. The important thing here is, that you consider how we assigned people into control/treatment groups. We decided that everyone with a random number above the total group median gets treatment, and everyone below gets control. The total group median was used to divide the total group into two. So what do you think can be done to do this for 2 groups? You guessed it, *you have to assign each group based on their own group median!*. 
-
-
-There are two ways of doing this, the long manual hard way, or the easy lazy code way. Let's start with the code way. 
-
-
-Just like before, we use an IF statement. Except this time the condition will change. Instead of saying, if this person's random score is above the median score for all students, we have to change it to say that "if this person's random number is above the median *for his/her group*" then assign him/her to the treatment. Else assign him/her to the group. The important extra addition there is the *for his/her group*. This means that we are changing what data to calculate the median from. 
-
-
-We've calculated conditional medians before. Do you remember? This was in the third week, when we were carrying out bivariate analysis between a categorical and a numeric variable, and you had to calculate the median for each possible value of the categorical variable. 
-
-
-Here we apply the exact same logic, but we select for each person to calculate the median for all the others who match his/her value for the program variable. 
-
-
-The outer IF statement remains exactly the same procedure as it was for the one group, but now you are doing it for the two. This means that only your *condition* in your "IF" statement changes. Remember our IF statement for assigning based on the total median?
-
-
-`=IF(D2>MEDIAN(D:D), "Treatment", "Control")`
-
-
-To change, we change only the condition. The condition here is the `D2>MEDIAN(D:D)` part. That part assesses whether the person's random number was above the total median. Well now we need to introduce another IF into this equation, to make sure that we are calculating the appropriate group median, for the program. So if they student's value for the program variable is BA Crim, we should calculate the crim median, and if it's BA Soc Sci, then we should calculate the soc sci median. Sounds familiar?
-
-
-So if total median is `MEDIAN(D:D)`, then our conditional mean calculation is...:
-
-
-`MEDIAN(IF(C2=C2:C59, D2:D59))`
-
-
-Where you are saying, if the cell value of C2 (so the program for the person in row 2) is equal to the values in the program column (c column), then include those random numbers in the calculation of the median. So if you just replace the median statement from the initial IF with this, creating a new condition, like so: 
-
-
-`D2 > MEDIAN(IF(C2=C2:C59, D2:D59))`
-
-
-
-And now, all you need to do, is plug in this new condition into your outer IF statement:
-
-
-
-`=IF(D2 > MEDIAN(IF(C2=C2:C59, D2:D59)), "Treatment", "Control")`
-
-
-
-Don't forget to add your dollar signs, for copy and pasting the formula: 
-
-
-`=IF(D2 > MEDIAN(IF(C2=$C$2:$C$59, $D$2:$D$59)), "Treatment", "Control")`
-
-
-
-And also don't forget to hit `Ctrl` + `Shift` + `Enter` instead of *just* Enter. 
-
-
-
-You should get, for each person, an evaluation against the median of the particular group that this person belongs to. Again you can check whether or not this has worked, in terms of assigning half the people to treatment and the other half to control, by producing a pivot table to look at the frequency of the stratified group variable, that you've now created. 
-
-
-
-You might notice that your pivot table shows a no longer even distribution between the groups: 
-
-
-![](imgs/uneven_pivot.png)
-
-
-
-Take a moment to think about why this might be? Maybe consider the number of people in each group. Is this an even or an odd number? In the event that there is an odd number, then when you divide the data into half, since we are splitting people, you will end up with one group larger than the other (by 1 person). Unless someone volunteers to be split in half, and half of them being put in one group, and the other half in the other, this can happen. So what can you do? Well I'll leave this here as something for you to think about. If you have an idea, or if you have no idea, and want to discuss, raise your hand now, we will come around to talk through it. 
-
-
-
-But create a bivariate frequency table though, using your stratified group variable and the program variable: 
-
-
-![](imgs/biv_prog_tc.png)
-
-
-You can see that both BA Crim and BA Soc Sci are split about half and half, assigned into treatment and control. 
-
-
-What about using the other treatment/control grouping, the one where we **did not** stratify by programme?
-
-
-You will all have different results here, since it's randomly assigned, but it's possible that for some of you BA Soc Sci might be overrepresented in one group versus the other. If this were the case, and we knew (or suspected) that this variable of what program you're enrolled in had an effect on offending behaviour, then this might influence the validity and generalisability from your study. 
-</span>
-
--->
+<!-- <!-- -->
+<!-- ### Activity 3: Stratified randomisation -->
+<!-- Randomization is important because it is almost the only way to assign all the other variables equally except for the factor (A and B) in which we are interested. However, some very important confounding variables can often be assigned unequally to the two groups. This possibility increases when the number of samples is smaller, and we can stratify the variables and assign the two groups equally in this case. -->
+<!-- For example, if the smoking status is very important, what will you do? First, we have our method of randomization that we learned previously. Just to put a name to this, the approach we had followed was **simple randomisation** There are two randomly assigned separate sequences for smokers and non-smokers. Smokers are assigned to the smoker's sequences, and non-smokers are assigned to the non-smoker's sequences. Therefore, both smokers and non-smokers groups will be placed equally with the same numbers. -->
+<!-- So we can use 'simple randomization with/without stratification'. However, if there are multiple stratified variables, it is difficult to place samples in both groups equally with the same numbers. Usually two or fewer stratified variables are recommended. -->
+<!-- <span style="color:#d95f02"> -->
+<!-- What does that look like? Well let's illustrate again with assigning you, the class, into control and treatment groups for the scared straight programme. Let's say that we knew that there was a different effect of Scared Straight possibly on those in BA Criminology and BA Social Sciences programme participants. This means that we've identified the *program* variable to be a **confounding variable**. A confounding variable is an outside influence that changes the effect of a dependent and independent variable. To account for this, we want the same number of BA Crim and BA Social Science students in both groups. Because if we didn't control for this, it could be that through the random assignment alone, one group would have only BA Crim students, and the other have all the BA Social Science students. Now if we think that program is a **confounding variable**, in other words it's something that might influence our dependent variable, then we want to account for this, because otherwise, even if we find a difference between the two groups, we'll be unable to say whether it's due to the Scared Straigh intervention, or this variable of degree program!   -->
+<!-- So how can we make sure that both BA Criminology and BA Social Sciences groups will be placed equally with the same numbers? -->
+<!-- Well to do this, you would go back to your random numbers that we created with the `=RAND()` function. The important thing here is, that you consider how we assigned people into control/treatment groups. We decided that everyone with a random number above the total group median gets treatment, and everyone below gets control. The total group median was used to divide the total group into two. So what do you think can be done to do this for 2 groups? You guessed it, *you have to assign each group based on their own group median!*.  -->
+<!-- There are two ways of doing this, the long manual hard way, or the easy lazy code way. Let's start with the code way.  -->
+<!-- Just like before, we use an IF statement. Except this time the condition will change. Instead of saying, if this person's random score is above the median score for all students, we have to change it to say that "if this person's random number is above the median *for his/her group*" then assign him/her to the treatment. Else assign him/her to the group. The important extra addition there is the *for his/her group*. This means that we are changing what data to calculate the median from.  -->
+<!-- We've calculated conditional medians before. Do you remember? This was in the third week, when we were carrying out bivariate analysis between a categorical and a numeric variable, and you had to calculate the median for each possible value of the categorical variable.  -->
+<!-- Here we apply the exact same logic, but we select for each person to calculate the median for all the others who match his/her value for the program variable.  -->
+<!-- The outer IF statement remains exactly the same procedure as it was for the one group, but now you are doing it for the two. This means that only your *condition* in your "IF" statement changes. Remember our IF statement for assigning based on the total median? -->
+<!-- `=IF(D2>MEDIAN(D:D), "Treatment", "Control")` -->
+<!-- To change, we change only the condition. The condition here is the `D2>MEDIAN(D:D)` part. That part assesses whether the person's random number was above the total median. Well now we need to introduce another IF into this equation, to make sure that we are calculating the appropriate group median, for the program. So if they student's value for the program variable is BA Crim, we should calculate the crim median, and if it's BA Soc Sci, then we should calculate the soc sci median. Sounds familiar? -->
+<!-- So if total median is `MEDIAN(D:D)`, then our conditional mean calculation is...: -->
+<!-- `MEDIAN(IF(C2=C2:C59, D2:D59))` -->
+<!-- Where you are saying, if the cell value of C2 (so the program for the person in row 2) is equal to the values in the program column (c column), then include those random numbers in the calculation of the median. So if you just replace the median statement from the initial IF with this, creating a new condition, like so:  -->
+<!-- `D2 > MEDIAN(IF(C2=C2:C59, D2:D59))` -->
+<!-- And now, all you need to do, is plug in this new condition into your outer IF statement: -->
+<!-- `=IF(D2 > MEDIAN(IF(C2=C2:C59, D2:D59)), "Treatment", "Control")` -->
+<!-- Don't forget to add your dollar signs, for copy and pasting the formula:  -->
+<!-- `=IF(D2 > MEDIAN(IF(C2=$C$2:$C$59, $D$2:$D$59)), "Treatment", "Control")` -->
+<!-- And also don't forget to hit `Ctrl` + `Shift` + `Enter` instead of *just* Enter.  -->
+<!-- You should get, for each person, an evaluation against the median of the particular group that this person belongs to. Again you can check whether or not this has worked, in terms of assigning half the people to treatment and the other half to control, by producing a pivot table to look at the frequency of the stratified group variable, that you've now created.  -->
+<!-- You might notice that your pivot table shows a no longer even distribution between the groups:  -->
+<!-- ![](imgs/uneven_pivot.png) -->
+<!-- Take a moment to think about why this might be? Maybe consider the number of people in each group. Is this an even or an odd number? In the event that there is an odd number, then when you divide the data into half, since we are splitting people, you will end up with one group larger than the other (by 1 person). Unless someone volunteers to be split in half, and half of them being put in one group, and the other half in the other, this can happen. So what can you do? Well I'll leave this here as something for you to think about. If you have an idea, or if you have no idea, and want to discuss, raise your hand now, we will come around to talk through it.  -->
+<!-- But create a bivariate frequency table though, using your stratified group variable and the program variable:  -->
+<!-- ![](imgs/biv_prog_tc.png) -->
+<!-- You can see that both BA Crim and BA Soc Sci are split about half and half, assigned into treatment and control.  -->
+<!-- What about using the other treatment/control grouping, the one where we **did not** stratify by programme? -->
+<!-- You will all have different results here, since it's randomly assigned, but it's possible that for some of you BA Soc Sci might be overrepresented in one group versus the other. If this were the case, and we knew (or suspected) that this variable of what program you're enrolled in had an effect on offending behaviour, then this might influence the validity and generalisability from your study.  -->
+<!-- </span> -->
+<!-- -->
 </div>
 <div id="freeze" class="section level3">
 <h3><span class="header-section-number">5.4.4</span> Freeze!</h3>

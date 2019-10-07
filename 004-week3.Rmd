@@ -202,7 +202,7 @@ Summing the observations in either way give you a column total and a row total c
 ![](imgs/titanic_w_total_cols.png)
 
 
-###Activity 2: Calculating row vs column percentages
+### Activity 2: Calculating row vs column percentages
 
 
 <span style="color:#d95f02">
@@ -591,10 +591,6 @@ Note: for creating the standard deviation column you have two choices there, Std
 Right, so now, we can finally answer our first question, *Which reason for arrest do you think has the oldest arrestee*? So, which is it? 
 
 
-![](https://uproxx.files.wordpress.com/2012/02/grampa-turtle.gif?w=650)
-
-
-
 Well the oldest arrestee appears to have been arrested for *Assault*, at the age of 82 years old. Is this the category you were expecting the oldest offender in our sample to appear? Why or why not? Take a moment to try to interpret the data. It's important to always return to the meaning that we can extract from our numbers. Talk to someone next to you about this. 
 
 </span>
@@ -925,6 +921,7 @@ So what are some examples of correlations? Here are a few:
 - [Correlation between statewise obesity and voting for Trump](https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png)
 
 You can understand the basic premise. 
+
 ### Activity 6: Does age at first arrest correlate with total number of arrests?
 
 <span style="color:#d95f02">

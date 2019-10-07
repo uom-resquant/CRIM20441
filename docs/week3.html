@@ -25,7 +25,7 @@
 <meta name="author" content="Reka Solymosi">
 
 
-<meta name="date" content="2019-10-01">
+<meta name="date" content="2019-10-07">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -138,15 +138,17 @@
 <li class="chapter" data-level="3.2" data-path="week3.html"><a href="week3.html#categorical-v-categorical"><i class="fa fa-check"></i><b>3.2</b> Categorical v categorical</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="week3.html"><a href="week3.html#activity-1-surviving-the-titanic"><i class="fa fa-check"></i><b>3.2.1</b> Activity 1: Surviving the Titanic</a></li>
 <li class="chapter" data-level="3.2.2" data-path="week3.html"><a href="week3.html#row-percentage-column-percentage-or-total-percentage"><i class="fa fa-check"></i><b>3.2.2</b> Row percentage, column percentage, or total percentage</a></li>
-<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.3</b> A note on formatting cells</a></li>
-<li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#activity-3-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.4</b> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</a></li>
+<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#activity-2-calculating-row-vs-column-percentages"><i class="fa fa-check"></i><b>3.2.3</b> Activity 2: Calculating row vs column percentages</a></li>
+<li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.4</b> A note on formatting cells</a></li>
+<li class="chapter" data-level="3.2.5" data-path="week3.html"><a href="week3.html#activity-3-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.5</b> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="week3.html"><a href="week3.html#categorical-v-numeric"><i class="fa fa-check"></i><b>3.3</b> Categorical v numeric</a><ul>
 <li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-4-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 4: Age of offenders</a></li>
 <li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-5-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 5: Adding a column for median</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-v-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric v numeric</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.1</b> Correlation does not mean causation</a></li>
+<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-6-does-age-at-first-arrest-correlate-with-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity 6: Does age at first arrest correlate with total number of arrests?</a></li>
+<li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
 </ul></li>
@@ -379,7 +381,9 @@ So let’s return to our question about survival in the Titanic. We want to know
 <p><img src="imgs/titanic_col_total_calc.png" /></p>
 <p>Summing the observations in either way give you a column total and a row total column. If you take the sum of those (so the sum of the column totals, that is all the people who survived and all the people who did not, <strong>or</strong> the sum of the row totals, which is the sum of all people in all the classes and crew), that gives you the grand total, which, incidentally, is all the people who were on board the RMS Titanic, in all classes, and whether they survived or not. In this case, that is a total of 2201 people. You can get this from either the row total or the column total, they will both equal the same thing, which is <em>all your observations</em>.</p>
 <p><img src="imgs/titanic_w_total_cols.png" /></p>
-<p>###Activity 2: Calculating row vs column percentages</p>
+</div>
+<div id="activity-2-calculating-row-vs-column-percentages" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Activity 2: Calculating row vs column percentages</h3>
 <p><span style="color:#d95f02">
 You can calculate these yourself, in the excel sheet you have downloaded from blackboard, using the <code>=SUM()</code> function, the way that we did this in the previous session.</p>
 <p>So now that we have these totals, we can calculate our percentages.</p>
@@ -417,7 +421,7 @@ You can calculate these yourself, in the excel sheet you have downloaded from bl
 <p>If you’re still unsure about these let us know, raise your hand, and we will come to help!</p>
 </div>
 <div id="a-note-on-formatting-cells" class="section level3">
-<h3><span class="header-section-number">3.2.3</span> A note on formatting cells</h3>
+<h3><span class="header-section-number">3.2.4</span> A note on formatting cells</h3>
 <p>Just before we move on, I quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn’t always necessary. Do you think it makes a big difference to someone if you say “32% of all Titanic passengers survived” or if you say “32.303498% of all Titanic passengers survived”, in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people, (or number of crimes) it doesn’t necessarily need to be so specific. So what if you wanted to format your results?</p>
 <p>Well you can always round your numbers manually. But as always, there is a way you can just do this using excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to “Format Cells…”</p>
 <p><img src="imgs/format_cells.png" /></p>
@@ -427,7 +431,7 @@ You can calculate these yourself, in the excel sheet you have downloaded from bl
 <p><img src="imgs/one_dec_row_perc.png" /></p>
 </div>
 <div id="activity-3-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting" class="section level3">
-<h3><span class="header-section-number">3.2.4</span> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</h3>
+<h3><span class="header-section-number">3.2.5</span> Activity 3: Visualising the relationship - stacked bar charts, and conditional formatting</h3>
 <p>So last week we visualised frequency tables using a bar chart. This week we have two variables to visualise. Luckily we can still do this, but with a stacked bar chart. What is this? Well this time, the bar chart will have a consistent height (100%) but will be shaded according to which percentage each category takes up. Let’s illustrate to make this more clear.</p>
 <p><span style="color:#d95f02">
 We’ve decided that row percentages are the more meaningful of the two here for us, so let’s go ahead, and highlight the cells where we have our row percentages. Once this is highlighted, select the stacked bar chart.</p>
@@ -522,7 +526,6 @@ The label for the column in this table though still says "Total" which is not a 
 <p>If it doesn’t, just raise your hand and we can come around to help you get there.</p>
 <p>Note: for creating the standard deviation column you have two choices there, StdDev and StdDevp. The one to choose will depend if you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a <em>sample</em> of people, who are used to draw conclusions about the whole <em>population</em>. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to, they are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. But with descriptive statistics we are actually talking only about our sample. So in this case you want to select <em>StdDev</em> and <strong>not</strong> <em>StdDevp</em>. If you’re confused about this ask now!</p>
 <p>Right, so now, we can finally answer our first question, <em>Which reason for arrest do you think has the oldest arrestee</em>? So, which is it?</p>
-<p><img src="https://uproxx.files.wordpress.com/2012/02/grampa-turtle.gif?w=650" /></p>
 <p>Well the oldest arrestee appears to have been arrested for <em>Assault</em>, at the age of 82 years old. Is this the category you were expecting the oldest offender in our sample to appear? Why or why not? Take a moment to try to interpret the data. It’s important to always return to the meaning that we can extract from our numbers. Talk to someone next to you about this.</p>
 <p></span></p>
 <p>The other interesting column here to pay attention to is the standard deviation (the minimum age column is not super exciting. People under 17 were excluded from the survey, and so the youngest possible age in the sample is 17. It appears that at least one 17-year-old was arrested in every single one of these offence categories.) But the standard deviation, that tells us something new. Remember that it is a measure by which we can describe the variation of our individual observations around the mean. So the larger the standard deviation the larger the variation around the mean age in a particular subset of our data. Which offence category has the highest standard deviation? Which has the lowest?</p>
@@ -535,7 +538,7 @@ The label for the column in this table though still says "Total" which is not a 
 To add a column for median, we will have to use something called an “IF” statement in Excel. The IF function is one of Excel’s logical functions, used to return one value if a condition is true and another value if it’s false. We can use that here, because we want to include a value in our calculations <em>if</em> if belongs to the value of reason for offence that we are calculating the median for. If it’s any of the other offences, we <em>do not</em> want to include it.</p>
 <p>It might help to think about this conceptually, before we write the formula. Let’s say we go through our data row by row. Remember in our data, each row is one arrestee who was interviewed. We want to go through every one of these people, and include their age in our calculation for the median ror each offence category, <strong>only if</strong> the reason that that particular person was arrested <em>is</em> the offence category for which we are calculating the median.</p>
 <p>So for every person, we want to check if their value for <em>reason for arrest</em> is the one we are currently interested in.</p>
-<p>For example, if we are calculating the median age for theft of vehicle, for every line we first need to make sure that the value in the <em>reason for arrest</em> column is equal to <em>assault</em>. If it does, then we use that person’s age to calculate mean age for theft of vehicle. If it is not, we do not.</p>
+<p>For example, if we are calculating the median age for assault, for every line we first need to make sure that the value in the <em>reason for arrest</em> column is equal to <em>assault</em>. If it does, then we use that person’s age to calculate mean age for theft of vehicle. If it is not, we do not.</p>
 <p>How would you write this in a formula? Well for assault we could say something like:</p>
 <p><code>include IF 'Reason for arrest column' = 'assault'</code></p>
 <p>Now we just have to translate this to excel language, and put it inside a median calculation formula. Remember this one from last week? It’s simply <code>=MEDIAN()</code>.</p>
@@ -776,8 +779,9 @@ The figure above shows you what a perfect positive relationship would look like,
 <li><a href="http://rebrn.com/re/relationship-between-rotten-tomatoes-tomatometer-score-and-box-o-2558335/">Scatterplot of the Relationship Between Rotten Tomatoes Tomatometer Score and Box Office Revenue for Movies, for each movie genre</a></li>
 <li><a href="https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png">Correlation between statewise obesity and voting for Trump</a></li>
 </ul>
-<p>You can understand the basic premise.
-### Activity 6: Does age at first arrest correlate with total number of arrests?</p>
+<p>You can understand the basic premise.</p>
+<div id="activity-6-does-age-at-first-arrest-correlate-with-total-number-of-arrests" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Activity 6: Does age at first arrest correlate with total number of arrests?</h3>
 <p><span style="color:#d95f02">
 So let’s build one for our arrestees. Since we are trying to explain number of arrests with the age of first arrest, we would plot on the y-axis the variable we consider the response variable (number of arrests) and on the x-axis we place the explanatory or predictor variable (age of first arrest).</p>
 <p>First, just return to the excel spreadsheet where you have your data. Firstly arrest the two columns that contain our variables of interest:</p>
@@ -811,8 +815,9 @@ So let’s build one for our arrestees. Since we are trying to explain number of
 <p>So far we have visualized relationships between two quantitative variables using scatterplots, and described the overall pattern of a relationship by considering its direction, form, and strength. We noted that assessing the strength of a relationship just by looking at the scatterplot is quite difficult, and therefore we need to supplement the scatterplot with some kind of numerical measure that will help us assess the strength. This is what inferential statistics like correlation coefficients will be able to do, but that’s for the future.</p>
 <p>Even though in the rest of the time we talk about these we are going to focus only on linear relationships, it is important to remember that not every relationship between two quantitative variables has a linear form. There are several examples of relationships that are not linear. The statistical tools that will be introduced here are appropriate only for examining linear relationships, and as we will see, when they are used in nonlinear situations, these tools can lead to errors in reasoning. While we don’t require it for this session, if you wanted to read up a bit about identifying linear vs non-linear relationships <a href="http://blog.minitab.com/blog/adventures-in-statistics-2/linear-or-nonlinear-regression-that-is-the-question">here</a>.</p>
 <p>But based on our observations, we can say that there appears to be a very weak negative relationship between the age of first arrest, and the number of times that someone has been arrested to date, in our sample of arrestees interviewed as part of this arrestee survey. And we can support this with our scatterplot as well.</p>
+</div>
 <div id="correlation-does-not-mean-causation" class="section level3">
-<h3><span class="header-section-number">3.4.1</span> Correlation does not mean causation</h3>
+<h3><span class="header-section-number">3.4.2</span> Correlation does not mean causation</h3>
 <p>You may have heard this phrase before - that correlation does not mean causation. This is important to mention here, and for you to take this forward. Just because two variables show a relationship, even if it is a strong relationship, it does not mean that one actually causes the other, no matter how attractive telling that story would be.</p>
 <p>There is an interesting site here that has a lot of <strong>spurious</strong> correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are, due to either coincidence, or the presence of a certain third, unseen factor (referred to as a “common response variable”, “confounding factor”, or “lurking variable”). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, I think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both…! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers.</p>
 <p>Have a listen to this <a href="https://www.youtube.com/watch?v=8B271L3NtAw">ted talk</a> which explains better.</p>
