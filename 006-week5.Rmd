@@ -110,7 +110,7 @@ Well these variables can also be called **dependent** and **independent** variab
 
 
 
-For example, if you are trying to predict fear of crime using age (so your research question might ask:  *are older people more worried about crime?*) then in this case, you belueve that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So your *dependent* variable is age. And since it's influenced by fear, fear if the *independent* variable. 
+For example, if you are trying to predict fear of crime using age (so your research question might ask:  *are older people more worried about crime?*) then in this case, you believe that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So your *dependent* variable is fear. And since it's influenced by age, age is the *independent* variable. 
 
 
 So what about in the case of an experiment? Let's return to our example with the scared straight programmes. We want to know whether scared straight has an effect on future offending, correct? So what are our variables here? Remember last week, when we were identifying concepts in research questions in the feedback session? That might help. So we want to know the effect of *scared straight* on the people's *future offending*. Our variables are in italics; they are: 
@@ -146,7 +146,7 @@ But no matter how you conceptualise and operationalise these variables, you will
 Experiments provide you with a research design that *does* allow you to make these cause and effect conclusions. If you design your study as experiments, you will be able to control for certain variation, and employ methods that give you certainty about what causes what, and which event came first. This is a huge strength of experimental design. When talking about causation, or in evaluations, experimental design has features that mean that it is an optimal methodology for evaluation. Of course this does *not* mean it's the *only* appropriate design. But it's one approach that we will cover here in detail. 
 
 
-So for your research design to be considered an experiment the three criteria listed above should be met. You need your dependent and independent variables, but you also need variation in your independent variable (usually between 2 groups). So the first thing you need is two groups, between who you can compare the value of the dependent variable, after having exposed them to some difference in the independent variable. What you need from these two groups, is that they are *different* on this value of the independent variable. This is because you want to compare them. As you will have picked up from your readings, these two groups are often called your **treatment** and your **control** groups, because one group is administered some treatment (such as they took part in the intervention you are hoping to evaluate) while the other one receives the business as usual approach. Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That's where beats were drawn up to, and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there were also another set of street segments, right? The ones that were assigned to the control groups did *not* receive foot patrol. Police still responses to calls for service, and everything went on as usual, but there was no patrol there - this is the control group. 
+So for your research design to be considered an experiment the three criteria listed above should be met. You need your dependent and independent variables, but you also need variation in your independent variable (usually between 2 groups). So the first thing you need is two groups, between who you can compare the value of the dependent variable, after having exposed them to some difference in the independent variable. What you need from these two groups, is that they are *different* on this value of the independent variable. This is because you want to compare them. As you will have picked up from your readings, these two groups are often called your **treatment** and your **control** groups, because one group is administered some treatment (such as they took part in the intervention you are hoping to evaluate) while the other one receives the business as usual approach. Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That's where beats were drawn up to, and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there were also another set of street segments, right? The ones that were assigned to the control groups did *not* receive foot patrol. Police still responded to calls for service, and everything went on as usual, but there was no patrol there - this is the control group. 
 
 
 
@@ -176,7 +176,7 @@ You can read about these studies above for some examples of experiments in crimi
 
 
 
-## Randomised Conrtol Trial: RCT
+## Randomised Control Trial: RCT
 
 
 An RCT presents a study design that randomly assigns participants into an experimental group or a control group. As the study is conducted, the only expected difference between the control and experimental groups in the RCT is the outcome variable being studied.
@@ -206,7 +206,7 @@ So the first step is to design our study.
 ### Designing an RTC
 
 
-When you are designing any research, you will have to map out all the elements of the study in detail. One of the key issues with designing your research that you have to keep in mind is that it is feasible to carry out, given the resources which you have. These resources include your time, funding, any available staff, and basically everything that you need to be able to carry out your work. It can be write a large task to try to estimate all elements of a study. In order to help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT, to evaluate the effectiveness of the scared straight programme. But you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
+When you are designing any research, you will have to map out all the elements of the study in detail. One of the key issues with designing your research that you have to keep in mind is that it is feasible to carry out, given the resources which you have. These resources include your time, funding, any available staff, and basically everything that you need to be able to carry out your work. It can be quite a large task to try to estimate all elements of a study. In order to help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT, to evaluate the effectiveness of the scared straight programme. But you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
 
 
 #### What is a Gantt chart?!
@@ -488,13 +488,7 @@ Now click OK, and you will see some bars appear, reaching to each start date tha
 
 
 
-The part that appears in red above represents the duration of each task. The blue part now is actually redundant. We just needed it there, so that the red part (the actual task) begins at the correct point. So just like we did when making that box plot a few weeks ago, we clear the fill, we clear the line, and in case there is a shadow there, we clear that as well, so that we don't confuse ourselves by having that blue part there. 
-
-
-Just to show something new, I will show you a different way of going about this here, buy you can just as easily follow the same steps you took when making things invisible in your boxplot. 
-
-
-But the other things you can do is to click on the blue section of the graph to select it: 
+The part that appears in red above represents the duration of each task. The blue part now is actually redundant. We just needed it there, so that the red part (the actual task) begins at the correct point. So we clear the fill, we clear the line, and in case there is a shadow there, we clear that as well, so that we don't confuse ourselves by having that blue part there. This is how we can clear these sections. First, click on the blue section of the graph to select it: 
 
 
 ![](imgs/gantt_select_blue.png)
@@ -530,15 +524,15 @@ Then click OK, and you will see only the red parts of your graph, which represen
 
 **NOTE**: you might have an issue where Excel starts counting at the year 1900 for some reason. In that case your chart might have looked like this: 
 
-![](imgs/1900_chart_default.JPG)
+![](imgs/1900_chart_default.jpg)
 
 
 In this case, you can fix this by editing the axis through right click, format axis, put in the correct minimum, like so: 
 
-![](imgs/Fixing_Gantt.JPG)
+![](imgs/Fixing_Gantt.jpg)
 
 
-Now you have a timeline for each task.. but how do you know what is each task? I just see numbers? Well we need to add the labels, from the task column of your data, to give it some sort of meaning. To do this, once again right click anywhere on your chart area, and select "Select Data...", and this time, for where it asks for axis labels, click in that box, and then highlight the column with the tasks in it: 
+Now you have a timeline for each task... but how do you know what is each task? I just see numbers? Well we need to add the labels, from the task column of your data, to give it some sort of meaning. To do this, once again right click anywhere on your chart area, and select "Select Data...", and this time, for where it asks for axis labels, click in that box, and then highlight the column with the tasks in it: 
 
 
 ![](imgs/axis_labels_gantt.png)
@@ -548,7 +542,7 @@ Now you have a timeline for each task.. but how do you know what is each task? I
 On a PC you will have to click the "Edit" button under the "Horizontal category axis labels" box. This will look something like this: 
 
 
-![](https://www.officetimeline.com/Content/images/articles/gantt-chart/5_Select-Data-Source.png)
+![](https://img.officetimeline.com/website/Content/images/articles/gantt-chart/5_select-data-source.png)
 
 
 
@@ -559,7 +553,7 @@ When you then select the column with the tasks in it and click OK, it should lab
 
 
 
-Now your Gantt chart is basically ready. It can be that yours looks sort of in a different order? If this is the case, go back to your data, and sort your data on the "End date" column. If you do this, then you will have your fist tasks at your top, and the last tasks at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find it the most helpful. For example, here's mine: 
+Now your Gantt chart is basically ready. It can be that yours looks sort of in a different order? If this is the case, go back to your data, and sort your data on the "End date" column. If you do this, then you will have your first tasks at your top, and the last tasks at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find it the most helpful. For example, here's mine: 
 
 
 ![](imgs/final_gantt.png)
@@ -584,11 +578,6 @@ Hopefully you are beginning to get an idea into the nuances of finding your opti
 
 
 The Gantt chart is a handy tool for research planning, and considering all the tasks that you need to carry out, as dictated by your research design. We illustrated here with the example of planning an RCT. To get the steps for these we can consult the reading, we can look at previous studies, or we can browse around for outlines others have used. For example, the RCT one is based on [this proposed outline](https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct) for RCTs.  Your readings around each research design will give you an indication of what tasks are involved with each one, and you should be able to produce such an outline for any kind of project. It is a good way to keep yourself on track, to make sure that you do not take on too many tasks, and also to show your supervisor/ employer/ person marking your project proposal, in case that is the stream you choose for your dissertation, that you are thinking about feasibility of your tasks. 
-
-
-
-
-
 
 
 Once you have planned your project, you need to carry out each task. Something like a literature review you will be familiar with from your work on other modules. You have to have a read through the relevant literature, in order to be able to identify whether your research question has already been answered, to look into what other people are researching in your topic area, to consider the approached to conceptualisation and operationalisation that others before you have taken, and to engage with what is currently happening in this topic you're interested in. This will lead you to your research question, and your hypotheses. Hypotheses are the testable versions of your questions. 
@@ -626,13 +615,7 @@ Once you have downloaded the data, open it with excel, and have a look at it. Yo
 To assign people randomly to a group, we can use Excel's `=RAND()` function. The Excel RAND function returns a random number between 0 and 1. For example, `=RAND()` will generate a number like 0.422245717. RAND recalculates when a worksheet is opened or changed. This will become important later. 
 
 
-So give it a go. Create a new column called "random number" on our data. Like so: 
-
-
-![](imgs/rand_col.png)
-
-
-Now simply type `=RAND()` into the first cell and press Enter: 
+So give it a go. Create a new column called "random number" on our data. Now simply type `=RAND()` into the first cell and press Enter: 
 
 
 ![](imgs/type_rand.png)
@@ -645,7 +628,7 @@ When you hit enter, the formula will generate a random number, between 0 and 1. 
 
 
 
-Did you get a different number for Julia there, than I did? Chances are, you did. This `RAND()` function generates a random number each time used. If I did this again (and try this on your data), it will give a different number. Try. Go into the cell, where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should, now, have another random number appear. Now copy and paste the formula (and make sure its the formula you're copying, and not the value) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
+Did you get a different number for Aaisha there, than I did? Chances are, you did. This `RAND()` function generates a random number each time used. If I did this again (and try this on your data), it will give a different number. Try. Go into the cell, where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should, now, have another random number appear. Now copy and paste the formula (and make sure its the formula you're copying, and not the value) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
 
 
 ![](imgs/rand_nums.png)
@@ -719,7 +702,7 @@ One way that you can sense check your results is to have a look at your treatmen
 You've built enough of these by now that you should be OK making this pivot table on your own, without guidance. If you get stuck on something though, let us know!
 
 
-If all goes well, your pivot table should let you know that you have either 41 or 42 students in your control group, and that minus 83 (your total) students in your treatment group: 
+If all goes well, your pivot table should let you know that you have 47 students in your control group, and that minus 94 (your total) students in your treatment group (also 47): 
 
 
 ![](imgs/freq_groups.png)
@@ -866,7 +849,7 @@ On mac:
 And on PC: 
 
 
-![](https://www.extendoffice.com/images/stories/doc-excel/keep-random-number/xdoc-keep-random-number-2.png.pagespeed.ic.7AQei1qtqU.webp)
+![](imgs/pc_manual_calc_opt_2.png)
 
 
 
@@ -951,7 +934,7 @@ In any case, we should get back to our question, what does this data look like. 
 The benefit of a longitudinal study is that researchers are able to detect developments or changes in the characteristics of the target population at both the group and the individual level. The key here is that longitudinal studies extend beyond a single moment in time. As a result, they can establish sequences of events. It is generally admitted that causes precede their effects in time. This usually justifies the preference for longitudinal studies over cross-sectional ones, because the former allow the modelling of the dynamic process generating the outcome, while the latter cannot. Supporters of the longitudinal view make two interrelated claims: (i) causal inference requires following the same individuals over time, and (ii) no causal inference can be drawn from cross-sectional data. 
 
 
-Anyway have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID" is the unique identifier for each person. Then there are three variables that contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had proper alcoholic drink, and *W1cignowYP*	is the answer to whether the young person ever smoked cigarettes.
+Anyway have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID" is the unique identifier for each person. Then there are three variables that contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had proper alcoholic drink (yes yes, the survey question does ask "proper" alcoholic drink, see [data dictionary](https://ilsype.sda-ltd.com/ilsype/workspaces/public/datasets/W7YP/variables/W7AlcEverTried)), and *W1cignowYP*	is the answer to whether the young person ever smoked cigarettes.
 
 
 So you can download these three waves of young people being surveyed from blackboard. You can find them labelled wave_1.xlsx, wave_2.xlsx, and wave_3.xlsx in the data folder for this week on BB. Download all three onto your computer, and open them up in excel. 
@@ -1024,7 +1007,7 @@ And by doing so, we produce a final table that contains all values, lined up *co
 ![](imgs/merge_logic_2.png)
 
 
-This is all we are doing, when merging tables, is we are making use that we line up the correct value for all the variables, for all our observations. 
+This is all we are doing, when merging tables: we are making use that we line up the correct value for all the variables, for all our observations. 
 
 
 So let's do this with our young people. Let's say we want to look at the extent of cannabis, alcohol, and cigarette trying in each wave of our cohort, as they age. To do this, we need to link all the waves in to one data set. We have established that the variable *NSID* is an anonymous identifier, that is unique to each person, so we can use that to link their answers in each wave. 
