@@ -263,7 +263,7 @@ Our visual system is attracted to edges, and we assess contrast and brightness i
 When choosing color schemes, we will want mappings from data to color that are not just numerically but also perceptually uniform. The goal in each case is to generate a perceptually uniform scheme, where hops from one level to the next are seen as having the same magnitude. Excel will take care of these for you, by offering colour palettes in the "Design" section of the Chart Layout tab: 
 
 
-![](http://www.java2s.com/Tutorial/Microsoft-Office-Excel-2007Images/Apply_Chart_Style___Click_More_List_Arrow_In_Chart_Styl.PNG)
+![](imgs/chart_style.png)
 
 
 

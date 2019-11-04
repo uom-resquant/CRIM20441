@@ -3,28 +3,47 @@
 ## Learning outcomes
 
 Hello, and welcome to the first of two qualitative data analysis lab sessions. Today we will learn about the software package NVivo and how you can use this to analyse and manage your qualitative data (and literature).
+
 In this session you’ll learn:
-•	Why we use computer aided qualitative data analysis software (CAQDAS) to manage and interrogate qualitative data, and more importantly, how to do it!
-•	Some basic but fundamental processes for importing your data into the software and how to organise your files.
-•	How to run some preliminary analysis in preparation for the real, heavy duty thought work next week. Qualitative Data Analysis
-8.2 Why use software in qualitative data analysis?
+
+
+- Why we use computer aided qualitative data analysis software (CAQDAS) to manage and interrogate qualitative data, and more importantly, how to do it!
+- Some basic but fundamental processes for importing your data into the software and how to organise your files.
+- How to run some preliminary analysis in preparation for the real, heavy duty thought work next week. Qualitative Data Analysis
+
+
+## Why use software in qualitative data analysis?
+
 To give you the corporate spiel:
+
 NVivo provides a flexible range of different ways to handle the analysis of qualitative data - good code and retrieve tools with powerful tools for data visualisation and interrogation. A wide range of multimedia and social media data types are acceptable to NVivo. Certain types of information are auto-processed on import.
+
 Essentially, the NVivo Software allows you to analyse and manage a range of qualitative data, from textual data such as interview transcripts or government documents, to videos, pictures and audio files. In these two sessions we’ll focus on textual data mainly, but once you feel comfortable with NVivo you might want to explore all the available functionality.
+
 Note: the directions below are for the Mac version of NVivo. For those of you using the University computers, the Windows versions of NVivo 11 should be installed and ready for you to use. The functionality between the two versions is slightly different, but not drastic, so you should be able to figure it out.
-I know some of you are Mac users too. If you prefer to use your Mac, you’ll need to download the latest version of NVivo. You can do this from the QSR website here. Download NVivo for Mac (Version 12).
+
+I know some of you are Mac users too. If you prefer to use your Mac, you’ll need to download the latest version of NVivo. You can do this from the QSR website [here](http://www.qsrinternational.com/nvivo/support-overview/downloads). Download NVivo for Mac (Version 12).
+
 You’ll need the License code to complete installation: NVT12-LZ000-1AA20-5F61X-77MR3
+
 The lab sessions will be accompanied by chapter readings from this:
+
+![](imgs/qual_01.png)
  
 I’ve uploaded relevant chapters to Blackboard so you can make do with that for now. There is an eBook of the first edition available via the University Library catalogue too. Or, if you’re really into qualitative data analysis, you might want to purchase the book at some point, but that is definitely not vital.
+
 The lab sessions will also be strongly supplemented with video tutorials from the QSR website. QSR is the organisation that manages NVivo.
-8.2.1 Activity 1:
-Discover more about the NVivo tutorials here. Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials; whichever suits your needs. If you haven’t watched them already, I would recommend watching the following before you get into the main lab work:
-•	Explore the NVivo 12 tutorials for Windows – here – and Mac – here. These tutorials will teach you how to ‘Import Documents’, ‘Code Your Data’, ‘Organise and Review Your Nodes’.
-•	For further details, you may also wish to watch the following short videos:
-o	How to ‘Import Documents’.
-o	How to ‘Create Memos’.
-o	How to ‘Run a Word Frequency Query’.
+
+### Activity 1:
+
+Discover more about the NVivo tutorials [here](https://www.qsrinternational.com/nvivo/free-nvivo-resources/tutorials). Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials; whichever suits your needs. If you haven’t watched them already, I would recommend watching the following before you get into the main lab work:
+
+- Explore the NVivo 12 tutorials for Windows – [here](https://www.qsrinternational.com/nvivo/nvivo-12-tutorial-windows/00-let-s-get-started) – and Mac – [here](https://www.qsrinternational.com/nvivo/nvivo-12-tutorial-mac/00-let-s-get-started). These tutorials will teach you how to ‘Import Documents’, ‘Code Your Data’, ‘Organise and Review Your Nodes’.
+
+- For further details, you may also wish to watch the following short videos:
+    + [How to ‘Import Documents’](https://www.youtube.com/watch?v=68OOsulWjGM).
+    + How to ‘Create Memos’.
+    + How to ‘Run a Word Frequency Query’.
 I’ll be talking you through most of the above in the session notes today (see below). If you get stuck at any point, it’s worth re-watching these videos or seeing if there is a video available for your specific query. It’s a useful website.
 8.3 What kinds of data can I input into NVivo for analysis?
 In brief, and just for your information, you can analyse the following kinds of data in NVivo:
