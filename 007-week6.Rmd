@@ -191,6 +191,8 @@ ggplot(mtcars, aes(y=mpg, x=as.factor(cyl)))+
 ```
 
 
+If you don't understand boxplots then you are not alone. They are not the most clear, but they do give you a very good summary of your numeric values. Remember the median, and 1st and 3rd quartile? This is what makes a boxplot. Read up on them [here](https://en.wikipedia.org/wiki/Box_plot). 
+
 It was useless. I spent basically all my alloted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. I did not take my audience into account, and that made my visualisation ineffective. It was not a great moment, but at least I got an embarrassing story to tell when teaching people about data visualisation. 
 
 
@@ -289,7 +291,7 @@ Go to the site, and select  a colour scheme that you like. When you do you can s
 You will set these to the number of values in your categorical variable for example. 
 
 
-Then you can also select the colur scheme that is most appropriate for your variable. If you have ordinal categories for example, then you could use a sequential scale - going from dark blue to light blue. On the other hand, if you have nominal variable, then a sequential colour scale would not make sense. In this case you would use a qualitative scale. If you are unsure why this is the case, raise your hand now, and we can help explain. 
+Then you can also select the colur scheme that is most appropriate for your variable. If you have ordinal categories for example, then you could use a sequential scale - going from dark blue to light blue. On the other hand, if you have nominal variable, then a sequential colour scale would not make sense. In this case you would use a qualitative scale. Diverging you would use in a case when you have a middle value. For example temperature, you could have 0 degrees in the middle (white) and positive degrees as red, while negative degrees as blue. If you are unsure why this is the case, raise your hand now, and we can help explain. 
 
 
 ![](imgs/choose_col_vartyp.png)
@@ -850,8 +852,7 @@ Navigate to a folder where you collect your results, and save the image there.
 
 
 
-Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a word doc and saving it there. 
-
+Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a word document. If you want to save it as an image from there, you must make sure to paste as picture (right click, paste as picture) and then, if you want, you can right click your pasted graph (in word) and from there select "save as picture". This way you will save your png of your graph into a folder, and you can insert it into future reports. 
 
 
 Then when you are writing your essay, you can insert an image using the Insert > Picture from file option: 
@@ -1128,23 +1129,6 @@ In sum, you should now be able to select a graph that represents your data in a 
 - data ink ratio
 - stacked bar chart
 - conditional formatting
-- producing summary statistics by groups
-- if statements in excel
-- box plots in excel
-- association/ direction of a relationship between numeric variables
-  + positive relationship
-  + negative relationship
-- form of a relationship between numeric variables 
-  + linear relationship
-  + non-linear relationship
-- strength of a relationship between numeric variables
-  + weak
-  + moderate
-  + strong
-- scatterplot
-- trendline
-- correlation
-- correlation does not mean causation
 
 
 
