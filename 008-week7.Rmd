@@ -178,7 +178,7 @@ The value parameter, just like with the year function, is the cell in the *Date.
 Let's use the "dddd" option here to extract the full name of each weekday. So to do this, your formula should be: 
 
 
-`=year(C2, "dddd")`
+`=text(C2, "dddd")`
 
 
 Like so: 

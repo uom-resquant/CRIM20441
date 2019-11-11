@@ -378,7 +378,7 @@ To answer this question, we need a variable for day of the week. First, create a
 <li><em>dd/mm/yyyy hh:mm:ss:</em> 09/01/2012 17:15:00</li>
 </ul>
 <p>Let’s use the “dddd” option here to extract the full name of each weekday. So to do this, your formula should be:</p>
-<p><code>=year(C2, &quot;dddd&quot;)</code></p>
+<p><code>=text(C2, &quot;dddd&quot;)</code></p>
 <p>Like so:</p>
 <p><img src="imgs/c2_dddd.png" /></p>
 <p>Now copy this for each row, and you will now find out the day of the week that each one of these burglaries falls on:</p>
