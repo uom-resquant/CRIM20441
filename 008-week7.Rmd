@@ -2,9 +2,9 @@
 
 ## Learning outcomes
 
-This week we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well of or depreived area you have different access to resources, and therefore your outcomes in terms of involvement with criminal justica system also differs. However time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important, that as well-rounded criminologists, you are able to talk about these concepts with appropriate knowledge and understanding. 
+This week we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well off or deprived area you have different access to resources, and therefore your outcomes in terms of involvement with criminal justice system also differs. However time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important, that as well-rounded criminologists, you are able to talk about these concepts with appropriate knowledge and understanding. 
 
-When violence increases bewteen March and August, is that because we are seeing an increase in crime and offending? Or is it possible that the time of year has something to do with this? How much must crime increase and over how long of a time, in order to be able to confidently say that crime is on the increase? These are important, and not always easy questions to answer, and this week we will begin to think about this. 
+When violence increases between March and August, is that because we are seeing an increase in crime and offending? Or is it possible that the time of year has something to do with this? How much must crime increase and over how long of a time, in order to be able to confidently say that crime is on the increase? These are important, and not always easy questions to answer, and this week we will begin to think about this. 
 
 Here are some terms that we will cover today: 
 
@@ -23,7 +23,7 @@ Here are some terms that we will cover today:
 ## Crime and incident trend identification
 
 
-All crimes occur at a specific date and time, however such definite temporal information is only available when victims or witnesses are present, alarms are triggered, etc., at the time of occurrence. This specific temporal data is most often collected in crimes against persons. In these cases, cross-tabulations or histogram6 of weekday and hour by count will suffice. The great majority of reported events are crimes against property. In these cases, there are seldom victims or witnesses present. These events present the analyst with ‘ranged’ temporal data, that is, an event reported as occurring over a range of hours or even days. In the case of ranged temporal data, analysis is possible through use of equal chance or probability methods. If an event was reported as having occurred from Monday to Tuesday, in the absence of evidence to the contrary, it is assumed the event had an equal chance or probability of occurring on each of the two days, or .5 (%50). In the same manner, if an event was reported as having occurred over a 10 hour span there is a 10% chance the event occurred during any one of the hours. This technique requires a reasonable number of events in the data set to be effective. The resulting probabilities are totalled in each category and graphed or cross-tabulated. This produces a comparison of relative frequency, by weekday or hour [source](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc76/p530054.pdf).
+All crimes occur at a specific date and time, however such definite temporal information is only available when victims or witnesses are present, alarms are triggered, etc., at the time of occurrence. This specific temporal data is most often collected in crimes against persons. In these cases, cross-tabulations or histogram of weekday and hour by count will suffice. The great majority of reported events are crimes against property. In these cases, there are seldom victims or witnesses present. These events present the analyst with ‘ranged’ temporal data, that is, an event reported as occurring over a range of hours or even days. In the case of ranged temporal data, analysis is possible through use of equal chance or probability methods. If an event was reported as having occurred from Monday to Tuesday, in the absence of evidence to the contrary, it is assumed the event had an equal chance or probability of occurring on each of the two days, or .5 (%50). In the same manner, if an event was reported as having occurred over a 10 hour span there is a 10% chance the event occurred during any one of the hours. This technique requires a reasonable number of events in the data set to be effective. The resulting probabilities are totalled in each category and graphed or cross-tabulated. This produces a comparison of relative frequency, by weekday or hour [source](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc76/p530054.pdf).
 
 
 **Temporal crime analysis** looks at trends in crime or incidents. A crime or incident trend is a broad direction or pattern that specific types or general crime and/or incidents are following.
@@ -194,8 +194,9 @@ Now copy this for each row, and you will now find out the day of the week that e
 ![](imgs/dow_col.png)
 
 
+**NOTE** : If this is not working for you, it is possible that your laptop/excel/operating system is set to a different language. For example, if you have a laptop that is set to French, instead of "dddd" (which means daydaydayday to excel) it will be looking for "jjjj" (journéejournéejournéejournée). So if you have a laptop set to not english, think about how you say the date you're trying to extract (day or month or year etc). 
 
-Can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
+Right, now we want to compare burglary in weekday to the weekend. So can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
 
 
 Well think back to when we did re-coding in week 4. Remember the `VLOOKUP()` function? Remember the `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. You then have to tell it the **table_array** - which is your lookup table, with two columns of data. The VLOOKUP function *always* searches for the lookup value in the first column of table_array. Your table_array may contain various values such as text, dates, numbers, or logical values.You then have to tell it the **col_index_num** - the column number in table_array from which the value in the corresponding row should be returned. Finally, you still have to specify the **range_lookup**. This determines whether you are looking for an exact match (when you set to FALSE) or approximate match (when you set to TRUE or you omit it).
@@ -205,6 +206,10 @@ So the first thing you have to create is your lookup table. For each value of da
 
 
 ![](imgs/wkday_lookup.png)
+
+
+
+**Note**: Remember what you learned with lookup tables back in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, excel would fail to match something like " Wednesday" or "Wednesday " or "wednesday" because the value in the lookup table actually said "Wednesday". The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting *values* (not the formula). 
 
 
 
@@ -271,7 +276,7 @@ And copy also for the weekends, and voila we have our answer to the question, ar
 
 
 
-Now you can discuss again why you think this might be. For example, during the week, people are away from their homes for work, for the majority of each day, which leaves their home unprotected. I've mentioned the [crime triangle]() before. If the resident is not home, then there is an absence of a capable guardian, and there is an increased risk for a crime (such as burglary) to occur! 
+Now you can discuss again why you think this might be. For example, during the week, people are away from their homes for work, for the majority of each day, which leaves their home unprotected. I've mentioned the [crime triangle](https://popcenter.asu.edu/content/problem-analysis-triangle-0) before. If the resident is not home, then there is an absence of a capable guardian, and there is an increased risk for a crime (such as burglary) to occur! 
 
 
 
@@ -313,7 +318,7 @@ And finally, copy your formatting to all the rows:
 
 </span>
 
-Now you have a column for the hour that the offence was committed in! 
+Now you have a column for the hour that the offence was committed in! Have a think about how you are aggregating here though. As you can see, this function simply takes the hour when the incident occurred. So something that happened at 14:01 and 14:59 will both be grouped to 14:00. Is this a problem? Well it depends on the sort of granularity of analysis that you will be carrying out. Most of the time (particularly with burglary) we will struggle to get an accurate understanding of what time the incident happened anyway. But there may be cases when more precision is needed, in that case you might want to consider the hours and minutes, or think about other ways to aggregate (group) your data. 
 
 
 You could also extract something else, for example the month and year from the date. To do this, you simply use this, you again create a new column, and this time use a formula that extracts text from the date: 
@@ -327,7 +332,8 @@ In where it says cell reference, just put in the reference to the column from th
 You can then copy this formula down the whole data set. 
 
 
-NOTE: Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through [this tutorial](https://blogs.office.com/en-us/2015/10/13/time-grouping-enhancements-in-excel-2016/?eu=true) to show you how you can use this new feature. 
+**NOTE:** Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through [this tutorial](https://blogs.office.com/en-us/2015/10/13/time-grouping-enhancements-in-excel-2016/?eu=true) to show you how you can use this new feature. This will be important in a moment as well, when we try to group for specific dates, so do take some time to think about this!
+
 
 So what can we do with all this great temporal data? Well let's start by visualising!
 
@@ -393,13 +399,24 @@ That's right! Univariate analysis time. Go ahead and use a pivot table to build 
 ![](imgs/burg_day_pivot.png)
 
 
+Remember the note I made just above about newer versions (2016+) of Excel automatically grouping gour data? It is possible that this has happened to you now, and you have something like this instead: 
+
+![](imgs/ex_2016_aggr.png)
+
+
+In this case you will have to ungroup the data. In this case, please right click anywhere on the pivot table, and select the option to "ungroup" your data: 
+
+![](imgs/ex_2016_ungroup.png)
+
+
+Once you have done this, you will see a pivot table where each date appears only the once. 
+
 
 Now to turn this into a line graph. We've made quite a few line graphs before, including last week as well, but never with this many data points. However, the motions are still the same. You highlight your data, you select your appropriate chart (line graph), and then you also add the labels, using "Select Data" and populating the 'Category (X) axis labels' section in the popup window that appears. If any of this is confusing to you, re-visit last week's lab notes about data visualisation. 
 
 
 
 When all said and done, you should end up with a chart that looks like this: 
-
 
 
 
@@ -465,7 +482,7 @@ The inspiration for this time selector, which is documented in Tom Carden’s bl
 
 
 
-This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, I wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualusation on Tuesday). I know, I know, we covered data visualisation last week, can I please get over it. But it's one of the most fun aspects of data analysis so no, I cannot, and now I will tell you about why Florence Nightingale wasn't just a famour nurse, she was a famous data pioneer!
+This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, I wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualusation). I know, I know, we covered data visualisation last week, can I please get over it. But it's one of the most fun aspects of data analysis so no, I cannot, and now I will remind you again about why Florence Nightingale wasn't just a famour nurse, she was a famous data pioneer!
 
 
 This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
@@ -474,7 +491,7 @@ This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
 
 
 
-We all have an image of Nightingale - who died 100 years ago today - as a nurse, lady with the lamp, medical reformer and campaigner for soldiers' health. But she was also a datajournalist. After the disasters of the Crimean war, Florence Nightingale returned to become a passionate campaigner for improvements in the health of the British army. She developed the visual presentation of information, including the pie chart, first developed by William Playfair in 1801. Nightingale also used statistical graphics in reports to Parliament, realising this was the most effective way of bringing data to life.
+We all have an image of Nightingale - who died over 100 years ago - as a nurse, lady with the lamp, medical reformer and campaigner for soldiers' health. But she was also a data journalist. After the disasters of the Crimean war, Florence Nightingale returned to become a passionate campaigner for improvements in the health of the British army. She developed the visual presentation of information, including the pie chart, first developed by William Playfair in 1801. Nightingale also used statistical graphics in reports to Parliament, realising this was the most effective way of bringing data to life.
 
 
 Her report on mortality of the British Army, published in 1858, was packed with diagrams and tables of data. The coxcomb chart demonstrates the ratio of British soldiers who died during the Crimean War of sickness, rather than of wounds or other causes. Her work changed the course of history, enabling pro-active change through data collection. In 1858 Nightingale presented her visualisations to the health department demonstrating the conditions of the hospitals, and whose actions resulted in deaths being cut by two thirds.
@@ -500,7 +517,9 @@ Now highlight the "Total" column, as it represents the number of burglaries in e
 
 ![](imgs/hr_radar_1.png)
 
+Or, in some cases it might be under the waterfall chart option (symbolising "other"):
 
+![](imgs/waterfall_radial.png)
 
 
 A radar graph will appear, something like this: 
@@ -633,7 +652,7 @@ Because of their reliance on colour to communicate values, Heatmaps are a chart 
 
 Heatmaps can also be used to show the changes in data over time if one of the rows or columns are set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities, to see where’s the hottest or coldest places. So the rows could list the cities to compare, the columns contain each month and the cells would contain the temperature values.
 
--[data viz catalogue](https://datavizcatalogue.com/methods/heatmap.html)
+- [data viz catalogue](https://datavizcatalogue.com/methods/heatmap.html)
 
 <span style="color:#d95f02">
 
@@ -677,7 +696,7 @@ Now your eyes are immediately drawn to where the high values are, which apparent
 ### More charts?
 
 
-The Gantt chart is also a way to visualise the passage of time, or rather the tasks that you must complete as this time passes. You learned in the session covering research design about Gantt chards, which are essentially horizontal bar charts showing work completed in a certain period of time with respect to the time allocated for that particular task.
+The Gantt chart is also a way to visualise the passage of time, or rather the tasks that you must complete as this time passes. You learned in the session covering research design about Gantt charts, which are essentially horizontal bar charts showing work completed in a certain period of time with respect to the time allocated for that particular task.
 
 
 
@@ -774,17 +793,29 @@ A moving average is a technique to get an overall idea of the trends in a data s
 An average represents the “middling” value of a set of numbers. The moving average is exactly the same, but the average is calculated several times for several subsets of data. For example, if you want a two-year moving average for a data set from 2000, 2001, 2002 and 2003 you would find averages for the subsets 2000/2001, 2001/2002 and 2002/2003. Moving averages are usually plotted and are best visualized.
 
 
-Among the most popular technical indicators, moving averages are used to gauge the direction of the current trend. Every type of moving average (commonly written in this tutorial as MA) is a mathematical result that is calculated by averaging a number of past data points. Once determined, the resulting average is then plotted onto a chart in order to allow traders to look at smoothed data rather than focusing on the day-to-day price fluctuations that are inherent in all financial markets. 
+Among the most popular technical indicators, moving averages are used to gauge the direction of the current trend. Every type of moving average is a mathematical result that is calculated by averaging a number of past data points. Once determined, the resulting average is then plotted onto a chart in order to allow traders to look at smoothed data rather than focusing on the day-to-day price fluctuations that are inherent in all financial markets. 
 
 
-The simplest form of a moving average, appropriately known as a simple moving average (SMA), is calculated by taking the arithmetic mean of a given set of values. For example, to calculate a basic 10-day moving average you would add up the closing prices from the past 10 days and then divide the result by 10. In Figure 1, the sum of the prices for the past 10 days (110) is divided by the number of days (10) to arrive at the 10-day average. If a trader wishes to see a 50-day average instead, the same type of calculation would be made, but it would include the prices over the past 50 days. The resulting average below (11) takes into account the past 10 data points in order to give traders an idea of how an asset is priced relative to the past 10 days. 
+The simplest form of a moving average, appropriately known as a simple moving average (SMA), is calculated by taking the arithmetic mean of a given set of values. For example, to calculate a basic 10-day moving average for the stock prices mentioned above, you would add up the closing prices from the past 10 days and then divide the result by 10. If a trader wishes to see a 50-day average instead, the same type of calculation would be made, but it would include the prices over the past 50 days. The resulting average takes into account the past 10 data points in order to give traders an idea of how an asset is priced relative to the past 10 days. 
 
 
+Perhaps you're wondering why technical traders call this tool a "moving" average and not just a regular mean? The answer is that as new values become available, the oldest data points must be dropped from the set and new data points must come in to replace them. Thus, the data set is constantly "moving" to account for new data as it becomes available. 
+You can see move intro here: [Moving Averages: What Are They?](http://www.investopedia.com/university/movingaverage/movingaverages1.asp#ixzz4xbKq8xgI )
 
-Perhaps you're wondering why technical traders call this tool a "moving" average and not just a regular mean? The answer is that as new values become available, the oldest data points must be dropped from the set and new data points must come in to replace them. Thus, the data set is constantly "moving" to account for new data as it becomes available. This method of calculation ensures that only the current information is being accounted for. In Figure 2, once the new value of 5 is added to the set, the red box (representing the past 10 data points) moves to the right and the last value of 15 is dropped from the calculation. Because the relatively small value of 5 replaces the high value of 15, you would expect to see the average of the data set decrease, which it does, in this case from 11 to 10. 
-- [Moving Averages: What Are They?](http://www.investopedia.com/university/movingaverage/movingaverages1.asp#ixzz4xbKq8xgI )
+
+OK you say, why do I care about stock prices though, I'm a criminologist. Well anyone looking at something over time should be interested to calculate this. Moving averages are a general method for reducing random fluctuation in any time series by recomputing the value for every data point based on the average of preceding time periods. This can apply to calculating for example burglaries over time. 
 
 
+Here is a real-world example: 
+
+
+Paul Barclay and colleagues evaluated the effects of bike patrols on auto theft from a large commuter parking lot outside Vancouver, British Columbia. Vehicle theft dropped after the response, but it had been dropping for several weeks prior to the bike patrols, since the implementation of a publicity campaign that preceded the bike patrols. In this case, an anticipatory effect may have added a great deal to the overall effectiveness of the patrols. Though a moving average was used to smooth out random variation, the drop in thefts between the beginning of the publicity and the beginning of the bike patrols is too large to be due to data smoothing.
+
+![](https://popcenter.asu.edu/sites/default/files/learning/60steps/graphics/step_52.gif)
+Source: Barclay, Paul and colleagues (1996) "Preventing Auto Theft in Suburban Vancouver Commuter Lots: Effects of a Bike Patrol." Crime Prevention Studies, volume 6, Monsey, NY: Criminal Justice Press.
+
+
+Evidently we can use this moving average to tease out signal (what is happening) from noise (random fluctuations in our data/measurement).
 
 It is important that you understand the concept of what we are covering, before we move on to the excel part of things, so I really want you to take time and watch this  [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI). If you have any questions about this, ask now!
 
@@ -792,13 +823,13 @@ It is important that you understand the concept of what we are covering, before 
 ### Activity 8: Moving average in Excel
 
 <span style="color:#d95f02">
-Right now let's calculate the moving average in excel, using some example data on temperature measurement. You can download this data from the week 7 folder, in the data for week 7 subfolder. It should be called mov_avg_temp_example.xlsx. Then you can use it to follow along below this tutorial taken from [dummies.com](http://www.dummies.com/software/microsoft-office/excel/how-to-calculate-moving-averages-in-excel/)
+So you know what's coming, it is your turn! Let's calculate the moving average in excel, using some example data on temperature measurement. You can download this data from the week 7 folder, in the "data for week 7"" subfolder on blackboard. It should be called mov_avg_temp_example.xlsx. Then you can use it to follow along below this tutorial taken from [dummies.com](http://www.dummies.com/software/microsoft-office/excel/how-to-calculate-moving-averages-in-excel/)
 
 
 The Data Analysis command provides a tool for calculating moving and exponentially smoothed averages in Excel. Suppose, for sake of illustration, that you’ve collected daily temperature information. You want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
 
 
-![](http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/430314.image0.jpg)
+![](imgs/430314.image0.jpg)
 
 
 To calculate a moving average, first click the Data tab’s Data Analysis command button.
@@ -807,43 +838,45 @@ To calculate a moving average, first click the Data tab’s Data Analysis comman
 When Excel displays the Data Analysis dialog box, select the Moving Average item from the list and then click OK.
 
 
-![](http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/430315.image1.jpg)
+![](imgs/da_ma.png)
 
 
 
 Identify the data that you want to use to calculate the moving average.
+
+
 Click in the Input Range text box of the Moving Average dialog box. Then identify the input range, either by typing a worksheet range address or by using the mouse to select the worksheet range.
-Your range reference should use absolute cell addresses. An absolute cell address precedes the column letter and row number with `$` signs, as in `$A$1:$A$10`.
-If the first cell in your input range includes a text label to identify or describe your data, select the Labels in First Row check box.
+Your range reference should use absolute cell addresses. An absolute cell address precedes the column letter and row number with `$` signs, as in `$A$1:$A$10`. Make sure to tick the box that says "Labels in First Row" (this means that the first row (A1) has the name (or label) of the column, rather than a value to be used in the calculations):
+
+![](imgs/mov_av_1.png)
 
 
 
 In the Interval text box, tell Excel how many values to include in the moving average calculation.
-You can calculate a moving average using any number of values. By default, Excel uses the most recent three values to calculate the moving average. To specify that some other number of values be used to calculate the moving average, enter that value into the Interval text box.
+You can calculate a moving average using any number of values. By default, Excel uses the most recent three values to calculate the moving average. To specify that some other number of values be used to calculate the moving average, enter that value into the Interval text box. Here let's enter 3 (which is the default, but why not be specific).
 
 
-Tell Excel where to place the moving average data.
-Use the Output Range text box to identify the worksheet range into which you want to place the moving average data. In the worksheet example, the moving average data has been placed into the worksheet range B2:B10.
+Finally, tell Excel where to place the moving average data. Use the Output Range text box to identify the worksheet range into which you want to place the moving average data. In the worksheet example, the moving average data has been placed into the worksheet range B2:B10 (the next column over from the A column).
 
 
 
-(Optional) Specify whether you want a chart.
-If you want a chart that plots the moving average information, select the Chart Output check box.
+(Optional) Specify whether you want a chart. If you want a chart that plots the moving average information, select the Chart Output check box.
 
 
-(Optional) Indicate whether you want standard error information calculated.
-If you want to calculate standard errors for the data, select the Standard Errors check box. Excel places standard error values next to the moving average values. (The standard error information goes into C2:C10.)
+(Optional) Indicate whether you want standard error information calculated. If you want to calculate standard errors for the data, select the Standard Errors check box. Excel places standard error values next to the moving average values. (The standard error information goes into C2:C10.)
 
 
 After you finish specifying what moving average information you want calculated and where you want it placed, click OK.
 
+Then you should see something like this:
 
-![](http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/430316.image2.jpg)
+
+![](imgs/mov_av_2.png)
 
 </span>
 
 
-**Note:** If Excel doesn’t have enough information to calculate a moving average for a standard error, it places the error message into the cell. You can see several cells that show this error message as a value.
+**Note:** If Excel doesn’t have enough information to calculate a moving average for a standard error, it places the error message into the cell. You can see several cells that show this error message as a value. This is normal, it's because there is nothing to calculate from. 
 
 
 
@@ -871,7 +904,7 @@ So that's about it. If you're feeling very adventurous you can have a look at [s
 ## Summary
 
 
-In sum, you should now be able to begin to make sense of temporal data in criminology. You should know how to extract variables from a date variable, how to aggregate into meaningful intervals, know how to best visualise temporal trends, and knwo the appraoch of the moving average in order to be able to find the signal amidst the noise. You should be comfortable with the following terms: 
+In sum, you should now be able to begin to make sense of temporal data in criminology. You should know how to extract variables from a date variable, how to aggregate into meaningful intervals, know how to best visualise temporal trends, and know the appraoch of the moving average in order to be able to find the signal amidst the noise. You should be comfortable with the following terms: 
 
 - time-series
 - seasonality
