@@ -208,8 +208,8 @@ You can now move on to the substantive part of today's course. In the next secti
 library(tidyverse) 
 library(lubridate)
 
-#gmp_crimes <- read.csv("/Users/reka/Desktop/MSCD/data/gmp_crimes.csv")
-gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
+gmp_crimes <- read.csv("/Users/reka/Dropbox\ (The\ University\ of\ Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
+# gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
 
 topCrimTyp <- gmp_crimes %>%
   group_by(Crime.type) %>%
@@ -241,7 +241,7 @@ gmp_crimes %>%
 ```
 
 
-How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [police.uk](http://www.police.uk/) website. This means that by visiting the [data.police.uk](https://data.police.uk/) website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let's have a look:
+How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [www.police.uk/](https://www.police.uk/) website. This means that by visiting the [data.police.uk](https://data.police.uk/) website you can access data about street-level crime, outcome, and stop and search information, broken down by police force. What does this mean? What do these data look like? Let's have a look:
 
 
 ```{r, echo=FALSE}
@@ -401,11 +401,11 @@ So the above exercise gave you an idea about how observations (in that case twee
 I demonstrated this above with the police.uk data, which is some real data that is released about crime statistics, as I mentioned, and something that you can see and download for yourself. 
 
 
-We can play around with police recorded crime data, which can be downloaded from the [police.uk](https://data.police.uk/data/) website. 
+We can play around with police recorded crime data, which can be downloaded from the [www.data.police.uk/](https://data.police.uk/) website. 
 
 Let's stick local and download some data for crime in Manchester. 
 
-To do this, open the [data.police.uk/data](https://data.police.uk/data/) website. 
+To do this, open the [www.data.police.uk/](https://data.police.uk/) website. 
 
 - In `Date range` just select a range you want to look at. I selected June 2016 - June 2016, but you can choose something more recent if you like.
 - In `Force` find `Greater Manchester Police`, and tick the box next to it. 
@@ -475,10 +475,10 @@ Is there anything else that you would include? Why or why not? Have a think, and
 
 
 
-Similarly, access to anonymised crime data through [police.uk](www.police.uk) which you just downloaded, allows us to ask questions about levels of crime in our local area, and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions that we might have - such as, which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
+Similarly, access to anonymised crime data through [www.police.uk](www.police.uk) which you just downloaded, allows us to ask questions about levels of crime in our local area, and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions that we might have - such as, which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
 
 
-To answer these questions we need **data**. The data you can see above, on crimes that fall under GMP between May 2016 and May 2017 can be used to measure crime during this time period in this area. You can access the data dictionary for these data [on the police.uk site here](https://data.police.uk/about/#columns). 
+To answer these questions we need **data**. The data you can see above, on crimes that fall under GMP between May 2016 and May 2017 can be used to measure crime during this time period in this area. You can access the data dictionary for these data on the police.uk site at [www.data.police.uk/about/#columns](https://data.police.uk/about/#columns). 
 
 
 It is important to always seek out a data dictionary when using data, to know what the variables represent, and if you're making your own data set, then to create a data dictionary to let others (and even your future self) know what your data set is all about. 
@@ -594,7 +594,7 @@ gmp_crimes %>%
 
 
 
-One variable you can see there is the one called **Crime.type**. This variable can take a value that corresponds to one of the crime types listed in the [Police.UK FAQ](https://www.police.uk/about-this-site/faqs/#what-do-the-crime-categories-mean). For every crime incident recorded, an officer will have to classify this crime incident into one of these categories. All of these categories are all the possible **values** that the Crime.type **variable** can take. This is a  **categorical** variable, as its possible values are categories. Further subset, this is a **nominal** variable, because the categories do not fall into a natural order. These categories are mutually exclusive (a crime is classed as either a Burglary or Vehicle Crime, but not both at the same time) and cannot be ordered in a meaningful way (alphabetical is not meaningful!). If they did have a meaningful order (for example days of the week have an order, or the values *small, medium, large* have an order) they would be **ordinal** variables. Both ordinal and nominal variables are categorical, because they deal with values that can take a finite number of values, or in other words, belong to a set number of categories. They group your data into one of the available categories. 
+One variable you can see there is the one called **Crime.type**. This variable can take a value that corresponds to one of the crime types listed in the Police.UK FAQ on [https://www.police.uk/pu/about-police.uk-crime-data/](https://www.police.uk/pu/about-police.uk-crime-data/) under the tab 'what do the crime categories mean'. For every crime incident recorded, an officer will have to classify this crime incident into one of these categories. All of these categories are all the possible **values** that the Crime.type **variable** can take. This is a  **categorical** variable, as its possible values are categories. Further subset, this is a **nominal** variable, because the categories do not fall into a natural order. These categories are mutually exclusive (a crime is classed as either a Burglary or Vehicle Crime, but not both at the same time) and cannot be ordered in a meaningful way (alphabetical is not meaningful!). If they did have a meaningful order (for example days of the week have an order, or the values *small, medium, large* have an order) they would be **ordinal** variables. Both ordinal and nominal variables are categorical, because they deal with values that can take a finite number of values, or in other words, belong to a set number of categories. They group your data into one of the available categories. 
 
 
 We will talk in the coming weeks about creating frequency tables, where you group your data by categories, and create a new data set, where you have the group, and the number of observations in each group. For example, we can look at the **numeric** variable of  *number of burglaries*. For example, suppose we have created this data set, which has 2 variables, one *Borough* variable with the name of each borough, and one *Number of burglaries* variable, with... you guessed it... the number of burglaries in that borough. 
