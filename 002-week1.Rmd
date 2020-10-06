@@ -101,30 +101,17 @@ You should already have a username and password with which to log on. Your usern
 
 
 Away from the campus you can download and upload files to and from your P: drive over an Internet connection - for example to and from your home computer. You can access the files on your P-drive from anywhere using the link [https://pdrives.manchester.ac.uk/horde/login.php](https://pdrives.manchester.ac.uk/horde/login.php).
- 
-
-### Working directory
-
-So if you're using your own laptop you can create save your files anywhere, but if you're on the cluster PC you should save on your P:drive. OK - then what?
 
 
-It's generally good to create a folder to save your data and our outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
-
-
-<span style="color:#d95f02"> Just to have some practice with doing this, create a Word document to put into the folder. Open Microsoft Word now (you can find this on the 'Start' button in the bottom left corner of your screen). The only thing you have to type in the document is your name. 
-
-<span style="color:#d95f02"> Save the file to your p: drive as follows. Click on the *save* button (or click File then Save in the drop down menus). The dialogue box below will appear. Click on the down arrow in the 'Save in:' box to change the default directory to your P: drive. The P: drive is the one that starts with your user name. Click on this drive. 
-
-![](imgs/save_doc_as.png)
   
-<span style="color:#d95f02"> Now create a new folder within your P: drive, especially for material for this course. To do so, click on the 'Create new folder' icon, as shown in the dialogue box below.
+To create a new folder within your P: drive, click on the 'Create new folder' icon, as shown in the dialogue box below.
 
 
 ![](imgs/create_folder.png)
 
  
  
-<span style="color:#d95f02"> Label the new folder 'CRIM20441'. You will now have a series of folders in your p: drive (some of these you haven't created yourself, they have been provided for you by the university), one of which you can store course material in. 
+For this specific module, you might want to label the new folder 'CRIM20441'. You will now have a series of folders in your p: drive (some of these you haven't created yourself, they have been provided for you by the university), one of which you can store course material in. 
 Finally, name your Word document 'Trial Document' (in the filename box) and click 'Save'. As noted above, you can remotely access your p: drive (from home or elsewhere). You can do this by logging into your personalised university portal (https://my.manchester.ac.uk).
 </span> 
 
@@ -132,7 +119,17 @@ Finally, name your Word document 'Trial Document' (in the filename box) and clic
 A word of caution, if your P: drive is full (and this tends to happen when you save image or sound files to it), there is a chance that some of the applications you want to use do not work. So make sure you keep your P: drive tidy if you don’t want to run into problems.
 
 
-Now because cluster PCs come pre-installed with EXcel you can skip the next section 1.5.1 and go straight to "1.5.2 Install data analysis toolpak". 
+One last note for using cluster PCs, because cluster PCs come pre-installed with Excel you can skip section 1.5.1 and go straight to "1.5.2 Install data analysis toolpak". 
+
+
+ 
+
+## Working directory
+
+So if you're using your own laptop you can create save your files anywhere, but if you're on the cluster PC you should save on your P:drive. OK - then what?
+
+
+It's generally good to create a folder to save your data and our outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
 
 
 
