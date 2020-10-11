@@ -38,7 +38,7 @@ This distinction might seem intuitive, but whether we're talking about our popul
 *Hold on a second!* Population standard deviation? But so far we have only been talking about samples? Well, this week we also discuss sampling, right? And the differences between sample statistics and population parameters.  A statistic and a parameter are very similar. They are both descriptions of groups, like “50% of dog owners prefer X Brand dog food.” The difference between a statistic and a parameter is that statistics describe a sample. A parameter describes an entire population. (You might recall this from week 1 readings.)
 
 
-For example, say you want to know the mean income of the subscribers to a particular magazine—a parameter of a population. You draw a random sample of 100 subscribers and determine that their mean income is \$27,500 (a statistic). You conclude that the population mean income μ is likely to be close to $27,500 as well. This example is one of **statistical inference**.
+For example, say you want to know the mean income of the subscribers to a particular magazine—a parameter of a population. You draw a random sample of 100 subscribers and determine that their mean income is \$27,500 (a statistic). You conclude that the population mean income $μ$ is likely to be close to $27,500 as well. This example is one of **statistical inference**.
 
 
 If you are taking the second term module, Modeling Criminological Data, you will be introduced to techniques for making **statistical inference**. But essentially it refers to any process where you draw conclusions about a population based on the data analysis you perform on a sample of that population. Because you're using the statistics to make inferences, this process is called **inferential statistics**. 
@@ -47,22 +47,22 @@ If you are taking the second term module, Modeling Criminological Data, you will
 With **inferential statistics**, you are trying to reach conclusions that extend beyond the immediate data alone. For instance, we use inferential statistics to try to infer from the sample data what the population might think. Or, we use inferential statistics to make judgments of the probability that an observed difference between groups is a dependable one or one that might have happened by chance in this study. Thus, we use inferential statistics to make inferences from our data to more general conditions; we use descriptive statistics simply to describe what's going on in our data.
 
 
-Take the example of the Crime Survey for England and Wales.  The Crime Survey for England and Wales has measured crime in since 1981. Used alongside police recorded crime data it is a valuable source of information for the government about the extent and nature of crime in England and Wales. The survey measures crime by asking members of the public, such as yourself, about their experiences of crime over the last 12 months. In this way the survey records all types of crimes experienced by people, including those crimes that may not have been reported to the police. It is important that we hear from people who have experienced crime and also those who have not experienced any crime in the last 12 months, so that we can show an accurate picture of crime in the country.
+Take the example of the Crime Survey for England and Wales. The Crime Survey for England and Wales has measured crime in since 1981. Used alongside police recorded crime data it is a valuable source of information for the government about the extent and nature of crime in England and Wales. The survey measures crime by asking members of the public, such as yourself, about their experiences of crime over the last 12 months. In this way the survey records all types of crimes experienced by people, including those crimes that may not have been reported to the police. It is important that we hear from people who have experienced crime and also those who have not experienced any crime in the last 12 months, so that we can show an accurate picture of crime in the country.
 
 
 Each year around 50,000 households across England and Wales will be invited to participate in the survey. In previous years three quarters of households invited to take part agreed to participate. While this does encompass a lot of people, you can see how it's not the entire population of England and Wales. Instead it is a **representative sample**. 
 
 
-While reporting sample statistics from the sample might be interesting (ie to talk about whether men or women have higher worry about crime), the more interesting approach is to make inferences about the population at large. Do men and women *generally* have different approached to fear of crime? In order to answer these questions, criminologists use ***p-values** and **effect sizes** to talk about the relationships between two variables in a population. Since in this course we mostly talk about the relationships between variables n a sample, we talk about the sample statistics. So you will learn about inferential statistics in the future. But for now it is important that you note this difference between **sample statistics** and **population parameters**. 
+While reporting sample statistics from the sample might be interesting (ie to talk about whether men or women have higher worry about crime), the more interesting approach is to make inferences about the population at large. Do men and women *generally* have different approached to fear of crime? In order to answer these questions, criminologists use **p-values** and **effect sizes** to talk about the relationships between two variables in a population. Since in this course we mostly talk about the relationships between variables n a sample, we talk about the sample statistics. So you will learn about inferential statistics in the future. But for now it is important that you note this difference between **sample statistics** and **population parameters**. 
 
 
-They even have different notation. For example, you would use x-bar (x̄) to talk about your sample mean, but mew (μ) to talk about your population mean. Similarly, you can calculate the standard deviation for your sample, or for your population. In each instance, you can measure each for your sample, and then infer it for your population. How do you do this? Well, you make use of something called the **sampling distribution of the mean**. 
+They even have different notation. For example, you would use x-bar ($x̄$) to talk about your sample mean, but mew ($μ$) to talk about your population mean. Similarly, you can calculate the standard deviation for your sample, or for your population. In each instance, you can measure each for your sample, and then infer it for your population. How do you do this? Well, you make use of something called the **sampling distribution of the mean**. 
 
 
-The mean of the sampling distribution of the mean is the mean of the population from which the scores were sampled. Therefore, if a population has a mean μ, then the mean of the sampling distribution of the mean is also μ. The symbol μM is used to refer to the mean of the sampling distribution of the mean.
+The mean of the sampling distribution of the mean is the mean of the population from which the scores were sampled. Therefore, if a population has a mean $μ$, then the mean of the sampling distribution of the mean is also $μ$. The symbol $μ_M$ is used to refer to the mean of the sampling distribution of the mean.
 
 
-### Activity 1: Sample statistisc vs population parameters
+### Activity 4.1: Sample statistisc vs population parameters
 
 Let's explore this with some data. Download the heightsAndNames.xlsx file from Blackboard. 
 
@@ -149,7 +149,7 @@ So... did you get it?
 The average height for our population is about 172.1 centimetres. So our sample statistics are all sort of near this measure, but depending on which sample we end up with, we do better, or worse with getting near this number. Now I'm going to show you something neat. 
 
 
-Take the average of the averages. That's right. What is the average of all 6 sample averages? You guessed it, it's equal to our population average! It's also about 172.1 centimetres. Now I cheated a bit here, because we have non-overlapping samples without replacement, so you do end up taking your population sample, but actually, if you repeatedly sampled from a population, over and over again, and then took the average height in each sample, and then finally, after infinitely many samples, you took the average of all of the averages, it would be equal to the population parameter. 
+Take the average of the averages. That's right. What is the average of all 6 sample averages? You guessed it, it's equal to our population average! It's also about 172.1 centimeters. Now I cheated a bit here, because we have non-overlapping samples without replacement, so you do end up taking your population sample, but actually, if you repeatedly sampled from a population, over and over again, and then took the average height in each sample, and then finally, after infinitely many samples, you took the average of all of the averages, it would be equal to the population parameter. 
 
 
 This is something called the **sampling distribution of the mean**.  
@@ -206,9 +206,9 @@ The population standard deviation you can also estimate from your sample, and th
 What is **degrees of freedom**? In statistics, the number of degrees of freedom is the number of values in the final calculation of a statistic that are free to vary. What does this mean? Well imagine that we know what our sample statistic for the mean is. Let's say that it's 172. And we also know how many people are in our sample. Let's assume we have a mini sample of 5 people. The degrees of freedom here represent the number of people for whom we can freely choose any height we wanted. Which just happens to be one minus the sample size. Why? Let me illustrate: 
 
 
-Here are our 5 people: Alice, Bob, Cecilia, Daniel, and Elizabeth. We know that their average height has to be 172 centimetres. This is a given. 
+Here are our 5 people: Alice, Bob, Cecilia, Daniel, and Elizabeth. We know that their average height has to be 172 centimeters. This is a given. 
 
-So how tall can Alice be? Alice can be any height we want. Pick a number for Alice. Let's say she's tall. Alice is 195cm tall. Good. Now Bob. How tall is Bob? Again you are free to pick any number. Bob can be 185 cm tall. Cecilia? Again, any height we want. Let's say 156. Daniel? Again we can pick any height for Danuel. Let's say he's a tall one, at 200cm. What about Elizabeth? Well for her, she can only take one possible height. Why? Well we know the height of the other 4 now, and we also know the average. If we treat Daniel's height as an unknown `X` cm tall, we can write this as the following equation: 
+So how tall can Alice be? Alice can be any height we want. Pick a number for Alice. Let's say she's tall. Alice is 195cm tall. Good. Now Bob. How tall is Bob? Again you are free to pick any number. Bob can be 185 cm tall. Cecilia? Again, any height we want. Let's say 156. Daniel? Again we can pick any height for Daniel. Let's say he's a tall one, at 200cm. What about Elizabeth? Well for her, she can only take one possible height. Why? Well we know the height of the other 4 now, and we also know the average. If we treat Daniel's height as an unknown `X` cm tall, we can write this as the following equation: 
 
 
 
@@ -243,12 +243,12 @@ Let's take another example, let's consider that we want to study "social status�
 To really demonstrate this, it's a good idea for you to have a go at conceptualising something yourself. Let's assume that you are interested in studying hate crime. In particular you are interested in hate speech over social media. Let's say you pick twitter as your case study. Now you have to **conceptualise** what it is that you mean by hate speech. This is important so that both you, and anyone reading your study later is clear about what should be included in your study, and what should be excluded. You can imagine that this is a very important step, since what is included/ excluded makes a difference in what you can talk about when drawing conclusions from your study. 
 
 
-### Activity 2: Conceptualise 'hate speech'. 
+### Activity 4.2: Conceptualise 'hate speech'
 
 
-So imagine you are about to embark on a study of *hate speech*. Remember in the first session we spoke about some examples of research,[ and one was looking at radicalisation towards the alt right using twitter data](https://www.washingtonpost.com/news/the-intersect/wp/2016/09/26/these-charts-show-exactly-how-racist-and-radical-the-alt-right-has-gotten-this-year/?noredirect=on&utm_term=.aeb311ab060c). Let's say we want to carry out a similar study. 
+So imagine you are about to embark on a study of *hate speech*. Remember in the introductory video I spoke about some examples of research,[ and one was looking at radicalisation towards the alt right using twitter data](https://www.washingtonpost.com/news/the-intersect/wp/2016/09/26/these-charts-show-exactly-how-racist-and-radical-the-alt-right-has-gotten-this-year/?noredirect=on&utm_term=.aeb311ab060c). Let's say we want to carry out a similar study. 
 
-You have some twitter data, which includes 100,000 tweets, and you want to be able to select which one of these tweets includes hate speech, and which one does not. For you to be able to carry out this research, and be transparent about it as well, ensuring reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working with someone near you, conceptualise hate speech. Write down your conceptualisation of hate speech - how you define hate speech for the purposes of your study. When you have your concept ready, talk it over, and make sure that this is a comprehensive definition that you are all happy with. 
+You have some twitter data, which includes 100,000 tweets, and you want to be able to select which one of these tweets includes hate speech, and which one does not. For you to be able to carry out this research, and be transparent about it as well, ensuring reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working within your breakout groups, conceptualise hate speech. Write down your conceptualisation of hate speech in the google doc- how you define hate speech for the purposes of your study. When you have your concept ready, talk it over, and make sure that this is a comprehensive definition that you are all happy with. 
 
 
 
@@ -279,12 +279,14 @@ And finally this third one?
 
 
 
-So would you categorise these tweets as hate speech according to your criteria that you wrote out above? Why or why not? In fact, the included tweets have all been considered hateful by various people (see [here for the first and last one](http://www.pressgazette.co.uk/katie-hopkins-leaving-lbc-radio-effective-immediately-station-announces/), and [here about the second one](http://www.bbc.co.uk/news/uk-scotland-glasgow-west-30641705)). But when you are studying a concept as complex as hate speech, it's important that you can justify why or why not you include something as hate speech. 
-
-Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. But how did they do against the way that you conceptualised hate speech? Would they all be included in your study?  Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
+So would you categorise these tweets as hate speech according to your criteria that you wrote out above? Why or why not? In fact, the included tweets have all been considered hateful by various people (see [here for the first and last one](http://www.pressgazette.co.uk/katie-hopkins-leaving-lbc-radio-effective-immediately-station-announces/), and [here about the second one](http://www.bbc.co.uk/news/uk-scotland-glasgow-west-30641705)). But when you are studying a concept as complex as hate speech, it's important that you can justify why or why not you include something as hate speech.  
 
 
-If you did, that is very impressive. If you did not, don't despair, hate speach is a very complex concept, and therefore tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crime, and generally they reflect the core belief that hate crime policy should support a basic human right to be free from crime fuelled by hostility because of an individual’s personal characteristics, but even in legislation this is quite hard to pin down.
+
+Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since I wrote this, you might be aware Katie Hopkins has been permanently banned from Twitter for her hateful comments...!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study?  Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
+
+
+If you did, that is very impressive. If you did not, don't despair, hate speech is a very complex concept, and therefore tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crime, and generally they reflect the core belief that hate crime policy should support a basic human right to be free from crime fueled by hostility because of an individual’s personal characteristics, but even in legislation this is quite hard to pin down.
 
 
 One study looking at hate speech is [Burnap, P., & Williams, M. L. (2016). Us and them: identifying cyber hate on Twitter across multiple protected characteristics. EPJ Data Science, 5(1), 1. Chicago](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0072-6). They defined hate speech to include as the following: 
@@ -298,7 +300,7 @@ So by these definitions they may include the above tweets. However, in their con
 
 
 
-As you can see, conceptualising what you mean (and therefore also what you don't mean) by hate crime a is very important step in your research, as it can influence what data you collect, and therefore the outcomes of your study, and the findings you'll be able to report. For the purposes of a research study, it can influence who your results are relevant for. Remember when we spoke about generalisability and validity in the first week's feedback session? I'll return to these later, but it's important to consider that the way that you conceptualise your concepts will determine how much you can generalise from your results, or how valid your measurements are. For example, did you include hate against all the protected characteristics? Did you consider hate as only threats of violence, or also general antagony as well? Conceptualisation is a very important step, that affects the measurement we will discuss in the next section, but that affects all the next steps in your study. How you decide what to measure has implications for what sorts of conclusions you can draw from your data after analysis. 
+As you can see, conceptualising what you mean (and therefore also what you don't mean) by hate crime a is very important step in your research, as it can influence what data you collect, and therefore the outcomes of your study, and the findings you'll be able to report. For the purposes of a research study, it can influence who your results are relevant for. It's important to consider that the way that you conceptualise your concepts will determine how much you can generalise from your results, or how valid your measurements are. For example, did you include hate against all the protected characteristics? Did you consider hate as only threats of violence, or also general antagony as well? Conceptualisation is a very important step, that affects the measurement we will discuss in the next section, but that affects all the next steps in your study. How you decide what to measure has implications for what sorts of conclusions you can draw from your data after analysis. 
 
 
 ## The importance of conceptualisation
@@ -441,7 +443,7 @@ Z-scores are a way to compare results from a test to a “normal” population. 
 Let's have a go at calculating z-scores. The basic z score formula for a sample is:
 
 
-`z = (x – μ) / σ`
+$z = (x – μ) / σ$
 
 
 For example, let’s say you are 180 cm tall. Given our mean (μ) of 172.1 and a calculating a standard deviation (σ, in the case of our heights data, it's 5), we can calculate the z score. 
@@ -477,16 +479,16 @@ Looks like to me this follows our normal distribution curve. There are also nume
 To calculate the z-score, we just need to subtract the mean from the score, and then divide the result by the standard deviation:
 
 
-`z = (score - mean) / standard deviation`
+$z = (score - mean) / standard deviation$
 
 
-`z = (x – μ) / σ`
+$z = (x – μ) / σ$
 
 
-`z = (180 – 172.1) / 5`
+$z = (180 – 172.1) / 5$
 
 
-`z = 1.58`
+$z = 1.58$
 
 
 So the z-score for the individual data point (ie: person) who's height is 180cm tall, is 1.58. That means that they are 1.58 standard deviations from the mean. If we think back to the bell curve, they sit somewhere here: 
@@ -496,19 +498,19 @@ So the z-score for the individual data point (ie: person) who's height is 180cm 
 ![](imgs/your_height_here.png)
 
 
-### Activity 3: Computing a z-score in Excel
+### Activity 4.3: Computing a z-score in Excel
 
 
 To compute the z-score for each person in excel, you simply have to turn the formula above into excel formula language. We know that all our variables are in the "height" column, which is column "B". So we need to get the values for each cell, then the (population) standard deviation for height, and the mean for height. So for example, for the first row (row 2, since row 1 contains our column headers, or variable names) your cell is B2. In this case you would translate the formula as follows: 
 
 
-`z = (score - mean) / standard deviation`
+$z = (score - mean) / standard deviation$
 
 
-`z = (x – μ) / σ`
+$z = (x – μ) / σ$
 
 
-`=(B2-AVERAGE(B:B))/STDEVP(B:B)`
+$=(B2-AVERAGE(B:B))/STDEVP(B:B)$
 
 
 If any one of these steps doesn't quite make sense, raise your hand now, and ask us to explain!
@@ -526,11 +528,11 @@ If you had multiple variables, for example we also had measurement for these peo
 
 
 
-### Activity 4: Twitter data revisited
+### Activity 4.4: Twitter data revisited
 
 
 
-Let's demonstrate with some actual data, that is relevant to criminology. Let's suppose that we are interested in the popularity of tweets sent out by greater manchester police, city centre division. How would we go about measuring popularity? Well it depends on how we conceptualise this. But let's say that we conceptualise the popularity of a tweet, but considering the amount of responses it was getting from the public, both in favourites, in retweets, and in comments. Let's grab a large-ish sample of GMP tweets. Don't worry, I won't make you manually input these again. Instead, you can just download some tweets that I've collected using the [twitter API](https://developer.twitter.com/en/docs). You can download this data from Blackboard. 
+Let's demonstrate with some actual data, that is relevant to criminology. Let's suppose that we are interested in the popularity of tweets sent out by Greater Manchester Police, city centre division. How would we go about measuring popularity? Well it depends on how we conceptualise this. But let's say that we conceptualise the popularity of a tweet, but considering the amount of responses it was getting from the public, both in favourites, in retweets, and in comments. Let's grab a large-ish sample of GMP tweets. Don't worry, I won't make you manually input these again. Instead, you can just download some tweets that I've collected using the [twitter API](https://developer.twitter.com/en/docs). You can download this data from Blackboard. 
 
 
 Now if you open it up in excel you will see a column for unique ID to identify each tweet, one for the date created which represents when the tweet was written, one for the text of the tweet, then 3 numeric columns, one for the number of favourites, one for the number of retweets, and one for the number of replies. Finally you have a column for the hashtags used by GMP in that tweet. 
@@ -666,17 +668,18 @@ One important reason for constructing multi-item scales, as opposed to single-it
 
 
 
-So how do you make one of these? Well you have to consider many factors, and consult both theory, and analysis in order to make sure that your measurement covers everything you need to be able to talk about the construct it is meant to represent. You need theory to identify the indicators of the construct, which you will need to include, as your items that make up the multi-item scale. So let us first consider the construct of feeling unsafe in one's neighbourhood. We can conceptualise this as people feeling unsafe in their neighbourhoods in three separate settings. They can feel unsafe walking around in the daytime. They can feel unsafe walking around after dark. And they can also feel unsafe in their homes. We can consider a 3-item Likert scale, with responses that range from Very safe
-to Fairly safe
-to A bit unsafe
-to Very unsafe. This is the example we'll use throughout this lab. So, download this data set from Blackboard (it's under csew_small.xlsx). You can see that there are the three variables, of walking in day, walking after dark, and feeling safe in home alone. I have included responses from 10 people, so that we can use this to assess reliability and validity of the measures. 
+So how do you make one of these? Well you have to consider many factors, and consult both theory, and analysis in order to make sure that your measurement covers everything you need to be able to talk about the construct it is meant to represent. You need theory to identify the indicators of the construct, which you will need to include, as your items that make up the multi-item scale. So let us first consider the construct of feeling unsafe in one's neighbourhood. We can conceptualise this as people feeling unsafe in their neighbourhoods in three separate settings. They can feel unsafe walking around in the daytime. They can feel unsafe walking around after dark. And they can also feel unsafe in their homes. We can consider a 3-item Likert scale, with responses that range from:
+
+- Very safe
+- to Fairly safe
+- to A bit unsafe
+- to Very unsafe. 
+
+This is the example we'll use throughout this lab. So, download this data set from Blackboard (it's under `csew_small.xlsx`). You can see that there are the three variables, of walking in day, walking after dark, and feeling safe in home alone. I have included responses from 10 people, so that we can use this to assess reliability and validity of the measures. 
 
 
 
-Multi-item scales open up a whole range of techniques for construct validity. For multi-item scales comprised of itemswith discrete response choices, reliability is most commonly assessed using Cronbach’s coefficient alpha, but I'm jumping ahead, we will now explore further the validity and reliability of measures, and how you can test this in the next section.  
-
-
-
+Multi-item scales open up a whole range of techniques for construct validity. For multi-item scales comprised of items with discrete response choices, reliability is most commonly assessed using Cronbach’s coefficient alpha, but I'm jumping ahead, we will now explore further the validity and reliability of measures, and how you can test this in the next section.  
 
 
 
@@ -744,8 +747,7 @@ But if I've still not convinced you, and you want to go out and collect your own
 
 
 
-### Activity 5: Calculating a summative score
-
+### Activity 4.5: Calculating a summative score
 
 
 So back to our data about collecting people's feelings of unsafety, in their neighbourhoods. We have our three indicator questions: 
@@ -759,8 +761,7 @@ So back to our data about collecting people's feelings of unsafety, in their nei
 Well how can we tell if these measures are any good? One approach is to calculate Cronbach's alpha. There is some debate around what this approach can tell you about your questions, but Cronbach's alpha is used frequently as a measure in constructing a summary scale for Likert type questions or opinions. The Cronbach's alpha gives a measure of the internal consistency or reliability of such a multi-item scale. It essentially considers the variation in one person's answers between the many indicators of the construct. If they are all supposed to measure the same thing, then you should have little variation, and therefore get a high Cronbach's alpha. If on the other hand you have high variation, and get a low Cronbach's alpha, that might mean that your indicators are not so inter-linked as you had imagined, and perhaps measure distinct things, rather than elements of the same construct. 
 
 
-<span style="color:#d95f02">
-So let's give it a go. Open up your data (csew_small.xlsx) and have a look at the answers people provide. Does it look consistent, from question to question? What are your initial thoughts?
+So let's give it a go. Open up your data (`csew_small.xlsx`) and have a look at the answers people provide. Does it look consistent, from question to question? What are your initial thoughts?
 
 
 
@@ -846,7 +847,7 @@ But to what extent do these measures all indicate the same concept? Is someone w
 
 
 
-### Activity 6: Testing your questions: Cronbach’s alpha
+### Activity 4.6: Testing your questions: Cronbach’s alpha
 
 
 Cronbach's alpha is a measure of internal consistency, that is, how closely related a set of items are as a group. It is considered to be a measure of scale reliability. Cronbach’s alpha is a measure used to assess the reliability, or internal consistency, of a set of scale or test items. In other words, the reliability of any given measurement refers to the extent to which it is a consistent measure of a concept, and Cronbach’s alpha is one way of measuring the strength of that consistency.
@@ -858,7 +859,8 @@ Cronbach’s alpha can be written as a function of the number of test items and 
 `(number of items/(number of items-1))*(1 - the variance associated with each item/ the variance associated with the observed total scores)`
 
 
-<span style="color:#d95f02">
+
+
 With this in mind, we can apply this formula to excel, and use excel to calculate our Cronbach's alpha. There is a handy guide online, which you can see [here](http://www.real-statistics.com/reliability/internal-consistency-reliability/cronbachs-alpha/) which I will borrow some examples from here to illustrate.  
 
 Here you can see, they have the data: 
@@ -933,7 +935,8 @@ So that leaves us a value of 0.79. So what does this mean? Well it's a value bet
 
 
 Our value is acceptable, and so we can rest assured, that these three indicators all tap in to a relatively similar thing, and we can use this result as our justification for bringing them together as multi-item indicators for feeling unsafe in one's neighbourhood. 
-</span>
+
+
 
 Yay!
 
@@ -1005,9 +1008,9 @@ The result should be a new, binary variable, that re-coded your 4 possible value
 
 Now the last task is to re-code your numeric variables, into categorical. You may remember from the first week's reading that you can always go up the resolution, but not down, for levels of measurement for variables. This means that you can change a numeric variable into categorical, but you can't change categorical into numeric. Just remember this!
 
-### Activity 7: Recoding Variables
+### Activity 4.7: Recoding Variables
 
-<span style="color:#d95f02">
+
 OK so final thing, to turn a numeric variable into a categorical, go back to your data of people's heights. Let's say we don't want any sophisticated analysis with numbers, we just want to know whether people are short or they are tall. We will decide this, by checking whether they are taller than the group average, or shorter than the group average.
 
 
@@ -1056,8 +1059,8 @@ You can see that we are close enough:
 ![](imgs/tallshort_pivot.png)
 
 
-What could we do to split our data exactly in half? Well I'll leave this question as extra credit. Raise your hand and tell one of us what the solution is, and we'll come up with some reward. 
-</span>
+What could we do to split our data exactly in half? Well I'll leave this question as extra credit. Put this in your google doc notes for your group, and we'll come up with some reward. 
+
 
 
 
