@@ -448,7 +448,15 @@ This time in the "Home" tab, you will see a little sign that says conditional fo
 
 
 
-Hover over "colour scales" and pick a colour scale that you think is appropriate. Often you will hear people talk about a "RAG" rating (red, amber, green). So you might want to choose a red-amber-green colour scale. However, you might want to consider that some people have red-green colour blindness. To make your representation accessible to people with this particular condition, you might actually want to use a scale that goes from red to blue. Also you want to decide what is coloured red. You can see the same colour scales on there twice, once with red at the top, and once flipped around with red at the bottom. Which one you choose is dependent on the *meaning* of your colour scale. Is a high number a good thing or a bad thing? In this case this changes between our two columns. However if we were colour-coding the number of crimes per borough for example, a table we created last week, then red would be better suited to illustrate higher numbers (so we would pick the scales with the red on top) to indicate more crimes in an area. You can also choose a neutral scale, going from yellow to green for example and so on. The choice is yours, you have options!
+Hover over "colour scales" and pick a colour scale that you think is appropriate. Often you will hear people talk about a "RAG" rating (red, amber, green). So you might want to choose a red-amber-green colour scale. However, you might want to consider that some people have red-green colour blindness. To make your representation accessible to people with this particular condition, you might actually want to use a scale that goes from red to blue. 
+
+
+Have a look at this Tweet which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://twitter.com/MartinRGalpin/status/1317552302207737856](https://twitter.com/MartinRGalpin/status/1317552302207737856)
+
+![](imgs/colb_condf.png)
+
+
+Also you want to decide what is coloured red (or your high value). You can see the same colour scales on there twice, once with red at the top, and once flipped around with red at the bottom. Which one you choose is dependent on the *meaning* of your colour scale. Is a high number a good thing or a bad thing? In this case this changes between our two columns. However if we were colour-coding the number of crimes per borough for example, a table we created last week, then red would be better suited to illustrate higher numbers (so we would pick the scales with the red on top) to indicate more crimes in an area. You can also choose a neutral scale, going from yellow to green for example and so on. The choice is yours, you have options!
 
 
 
