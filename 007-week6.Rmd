@@ -27,13 +27,20 @@ Recent research has revealed that papers which have good graphics are perceived 
 
 
 
-## Why visualise data?
+### Why visualise data?
 
 
-New insights. Visualising data can give you new insights into your own data (exploratory data visualisation) as well as effectively communicate the results from your studies to your audiences. 
+**New insights:** Visualising data can give you new insights into your own data (exploratory data visualisation) as well as effectively communicate the results from your studies to your audiences. You may recall the examples from the video lectures, about how data visualisation had allowed John Snow to determine where the Cholera infections were coming from, or Florence Nightingale to understand what were the causes of death of soldiers in the Chrimean War. By visualising data you allow yourself, and your readers to engage with the conclusions you are hoping to draw. 
 
 
-Interactive data visualisation is something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take my word for it, give it a go yourself! Have a look at [this article in The Upshot (NYT's data-driven venture, focused on politics, policy and economic analysis) ](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html). It should be an interesting little activity - you can draw the graph that represents the trends you think are happening, and then compare with the actual figures. Seriously try it out, it should be fun!
+We saw, when discussing ways to summarise variables (univariate analysis) that it is only through multiple approaches that we can get the full picture. Recall the issues with the mean (for example, remember the e.g. of the white rainbow in the Tiger that Isn't book, or the rating for the film the sequel to an Inconvenient Truth, where we needed the standard deviation to fully understand what was going on, as well as the mean?). Well visualisation is another way to drill down. And it is often necessary. For example, have a look at the figure below, in which 4 data sets are graphed on 4 different graphs: 
+
+![](imgs/diff_viz_same_sums.png)
+
+In this case, each data set has the same exact summary statistics, but it is through visualisation that we can see they look quite different actually!
+
+
+**Engaging your audiences:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take my word for it, give it a go yourself! Remember in the video lecture where I draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at [this article in The Upshot (NYT's data-driven venture, focused on politics, policy and economic analysis) ](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html) and try this out yourselves. It should be an interesting little activity - you can draw the graph that represents the trends you think are happening, and then compare with the actual figures. Seriously try it out, it should be fun!
 
 
 So we won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualization. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
@@ -51,7 +58,7 @@ sometimes aesthetic.
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-The grammar of graphics is about creating graphs mathematically. Essentially the philosophy behind this as that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms—visual marks that represent data points, and a coordinate system.
+First things first, in order to create effective visualisations, we must learn the **grammar of graphics**. The grammar of graphics is about creating graphs mathematically. Essentially the philosophy behind this as that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms—visual marks that represent data points, and a coordinate system.
 
 Take this example (taken from *Wickham, H. (2010). A layered grammar of graphics. Journal of Computational and Graphical Statistics, 19(1), 3-28.*)
 
@@ -68,19 +75,18 @@ This will result in a final plot:
 ![](imgs/combined.png)
 
 
-> We often call graphics charts (from or Latin charta, a leaf of paper or papyrus). There are pie charts, bar charts, line charts, and so on. [The Grammar of Graphics] shuns chart typologies. For one thing, charts are usually instances of much more general objects. Once we understand that a pie is a divided bar in polar coordinates, we can construct other polar graphics that are less well known. We will also come to realize why a histogram is not a bar chart and why many other graphics that look similar nevertheless have different grammars. (...) The concept of a graphic is so general that we need organizing principles to create instances of graphics. We may not want to put a pie chart in a catalog, but we need to give users some simple way to produce one. 
-
-- Leland Wilkinson (2005) *The Grammar of Graphics*
-
-
+Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so Iw ould encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
 
 
 ## Principles of good data visualisation 
 
 
-There is a vast amount of research into what works in displaying quantitative information. 
-The classic book is [The Visual Dispay of Quantitative Information by Edward Tufte](https://www.edwardtufte.com/tufte/books_vdqi), but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week will provide you a crash course into data viz. 
+There is a vast amount of research into what works in displaying quantitative information. It is an emerging and ever growing field. You saw examples from the 19th century in the videos, and hopefully you listened to the podcast episode of data stories on the preparation material which discussed data visualisation of our most recent pandemic. In between there has been lots and lots of reserach and work in visualisation, which we can tap into. 
 
+
+The classic book, which I mentioned in the video lectures is [The Visual Dispay of Quantitative Information by Edward Tufte](https://www.edwardtufte.com/tufte/books_vdqi), but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week include the book Truthful Art by Alberto Cairo, which is a great guide, and I can also recommend the books and webiste of [Andy Kirk](https://www.visualisingdata.com/). Or just listen through some more episodes of data stories podcast. It really is quite fun!! But now, let's move on to the lab activities for visualisation. 
+
+### The data to ink ratio - minimalist viz
 
 The **Data-Ink ratio** is a concept introduced by Edward Tufte, the expert whose work has contributed significantly to designing effective data presentations. In his 1983 book, The Visual Display of Quantitative Data, he stated the goal is to "Above all else show the data". 
 
@@ -132,17 +138,42 @@ In the example shown above, increasing the data-ink ratio made it harder to read
 Whether or not you subscribe to Tufte's school of minimalism, you should be able to recognise *bad* graphs. What makes a bad graph bad though? The generic overview answer to this is that bad graphs are the ones where it becomes difficult for your audience to interpret the meaning you are trying to convey. 
 
 
-On the other hand, your audience might have some sort of expectations for what they require from you. You will have to manage a route between what you might be told that you need to produce, for example by a boss, and what is the best method for visualising your data in a way that communicates your results effectively. 
+
+Let's start with an activity where we engage with a chart
+
+### Activity 6.1: What do you think?
+
+Here is a data visualisation that shows you the life expectancy of people who live on different continents. In your breakout rooms have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document. 
 
 
-A good example of this dilemma is the pie chart. 
+![](http://socviz.co/assets/ch-02-chartjunk-life-expectancy.png)
+
+
+
+
+Depending on your discussion, you may have decided to approve or reject this graph as something you might include in your report. One feature, which I hope you picked up on, is the 3-dimensionality of the chart. Remember in the video lecture when I showed how introducing a 3rd dimension, for example in a pie chart, can actually mislead? Once again this might be an issue. You can see also an example in the graph below: because of the angle and the 3D a reader may struggle to read off the extent of differences between regions. 
+
+So does this mean there are hard-and-fast rules for dos and donts in data visualisation? Well, no not really. There may be an instance when 3D is a good way to go, for example when the 3rd dimension is visualising a variable, and conveys some meaning. Take for example this chart, that models the population of different wards in London, where the height of each ward is the total population projected 
+
+![](imgs/gla_pop.png)
+
+You can see here: [https://parallel.co.uk/gla-population-projection/#9/51.5077/-0.1594/0/40](https://parallel.co.uk/gla-population-projection/#9/51.5077/-0.1594/0/40)
+
+
+
+So like all good questions, the answer is, "it depends".
+
+
+### It depends...
+
+So when to use what chart is really up to you, but it is important to justify the choices you make, and keep in mind what you learned in your readings about the truthful, functional, beautiful, insightful, enlightening role of each visualisation. There are also trends in data visualisation. A good example of this dilemma is the pie chart. 
 
 > A pie chart is perhaps the most ubiquitous of modern graphics. It has been reviled by statisticians (unjustifiably) and adored by managers (unjustifiably). It may be the most concrete chart, in the sense that it is a pie. A five-year-old can look at a slice and be a fairly good judge of proportion. (To prevent bias, give the child the knife and someone else the first choice of slices.) The pie is so popular nowadays that graphical operating systems include a primitive function for drawing a pie slice.
 
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-Indeed, a lot of people shun the pie chart (see for example this blog entry titled [death to pie charts](http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts)) or this story from Business Insider titled [pie charts are the words](http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T), but managers have a particular affinity towards it.  While these seem emotional and unfair, there is actually justification for these. People are actually *not* that great in telling proportions from pie charts. If you are interested, have a look at [this study](https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009), where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents. 
+Indeed, a lot of people shun the pie chart (see for example this blog entry titled [death to pie charts](http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts)) or this story from Business Insider titled [pie charts are the words](http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T), but managers have a particular affinity towards it.  While these seem emotional and unfair, there is actually justification for these. People are actually *not* that great in telling proportions from pie charts. If you are interested, have a look at [this study](https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009), where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents (also discussed in recorded lecture vids). 
 
 
 There are other charts as well, which are less popular to hate, but in certain situations may obscure important information. In some cases bar plots can hide important features of your data, and might not be the most appropriate means for comparison. See the below image for example, where the same data about 2 groups, green and purple, are visualised using 3 different methods, a histogram, which shows the green group following a normal distribution, and the purple group following a heavily skewed distribution (remember week 5), a boxplot that shows the same, and finally a bar plot, which makes the green and purple group appear identical: 
@@ -156,18 +187,6 @@ Now potentially, the  [kickstarter campaign](https://www.kickstarter.com/project
 
 
 There are some recommendations on what to use (and not use) in certain contexts, which can help you avoid making a bad graph. For example, most data visualisation experts agree that you should not use 3D graphics unless there is a meaning to the third dimension. So using 3D graphics just for decoration, as in [this case](https://mir-s3-cdn-cf.behance.net/project_modules/disp/2505dd10837923.56030acd2ef20.jpg) is normally frowned upon. However there are cases when including a third dimension is vital to communicating your findings. See this [example](http://www.visualisingdata.com/2015/03/when-3d-works/).
-
-
-
-You can see also an example in the graph below:
-
-
-
-![](http://socviz.co/assets/ch-02-chartjunk-life-expectancy.png)
-
-
-
-Because of the angle and the 3D you cannot really read off the extent of differences between regions. 
 
 
 
@@ -193,12 +212,13 @@ ggplot(mtcars, aes(y=mpg, x=as.factor(cyl)))+
 
 If you don't understand boxplots then you are not alone. They are not the most clear, but they do give you a very good summary of your numeric values. Remember the median, and 1st and 3rd quartile? This is what makes a boxplot. Read up on them [here](https://en.wikipedia.org/wiki/Box_plot). 
 
-It was useless. I spent basically all my alloted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. I did not take my audience into account, and that made my visualisation ineffective. It was not a great moment, but at least I got an embarrassing story to tell when teaching people about data visualisation. 
+
+It was useless. I spent basically all my allotted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. I did not take my audience into account, and that made my visualisation ineffective. It was not a great moment, but at least I got an embarrassing story to tell when teaching people about data visualisation. 
 
 
 
 
-## What graph should I use?
+## So...What graph should I use?!?
 
 
 There are a lot of points to consider when you are choosing what graph to use to visually represent your data. There are some best practice guidelines, but at the end of the day, you need to consider what is best for your data. What do you want to show? What graph will best communicate your message? Is it a comparison between groups? Is it the frequency distribution of 1 variable? 
@@ -212,19 +232,6 @@ As some guidance, you can use the below [cheatsheet, taken from Nathan Yau's blo
 
 However, keep in mind that this is more of a guideline, aimed to nudge you in the right direction. There are many ways to visualise the same data, and sometimes you might want to experiment with some of these, see what the differences are. You can also consider some inspiration [here](http://datavizproject.com/). 
 
-
-Channels for mapping ordered data (continuous or other quantitative measures), arranged top-to-bottom from more to less effective, after Munzer (2014, 102) created by [Kieran Healy](http://socviz.co/):
-
-
-![](http://socviz.co/assets/ch-02-channels-for-cont-data-vertical.png)
-
-
-
-
-Channels for mapping unordered categorical data, arranged top-to-bottom from more to less effective, after Munzer (2014, 102) created by [Kieran Healy](http://socviz.co/):
-
-
-![](http://socviz.co/assets/ch-02-channels-for-cat-data-vertical.png)
 
 
 
@@ -247,7 +254,6 @@ A related effect is shown below. These are Mach bands. When the gray bars share 
 
 Similarly, the ghostly blobs in the Hermann grid effect can be thought of as a side-effect of the visual system being tuned for a different task.
 
-
 These sorts of effects extend to the role of background contrasts. The same shade of gray will be perceived very differently depending on whether it is against a darker background our a lighter one. Our ability to distinguish shades of brightness is not uniform, either. We are better at distinguishing darker shades than we are at distinguishing lighter ones. And the effects interact, too. We will do better at distinguishing very light shades of gray when they are set against a light background. When set against a dark background, differences in the middle-range of the light-to-dark spectrum are easier to distinguish.
 
 Our visual system is attracted to edges, and we assess contrast and brightness in terms of relative rather than absolute values. Some of the more spectacular visual effects exploit our mostly successful efforts to construct representations of surfaces, shapes, and objects based on what we are seeing. Edward Adelson’s checkershadow illusion, shown below, is a good example.
@@ -257,19 +263,37 @@ Our visual system is attracted to edges, and we assess contrast and brightness i
 
 
 
+
+
+So why does all this matter? What does this have to do with data analysis? These are all things that affect how your visualisation will be perceived by your audience. Your visualisation should consider how your audience will perceive, understand, misunderstand, etc what you show them. Every decision you make has an effect, not only what chart to choose, but also other details, such as questions of colour. In the next section we explore this more. 
+
+
 ## Colour
 
+When choosing a colour palette, the first thing to consider is what kind of colour scheme we need. This will depend on the variable we are trying to visualise. We go back, once again, to the first week of the course, where we discussed *Levels of Measurement*. Remember those? Still important!
+
+
+Depending on the kind of varaible we want to visualise, we might want a Qualitative colour scheme (for categorical nominal variables), a Sequential colour scheme (for categorial ordinal, or for numeric variables) or a Diverging colour scheme (for categorial ordinal, or for numeric variables). 
+
+For qualitative colour schemes, we want each category (each value for the variable) to have a perceptible difference in colour. For sequential and diverging color schemes, we will want mappings from data to color that are not just numerically but also perceptually uniform. 
 
 
 
-When choosing color schemes, we will want mappings from data to color that are not just numerically but also perceptually uniform. The goal in each case is to generate a perceptually uniform scheme, where hops from one level to the next are seen as having the same magnitude. Excel will take care of these for you, by offering colour palettes in the "Design" section of the Chart Layout tab: 
+- **sequential scales** (also called gradients) go from low to high saturation of a colour. 
+- **diverging scales** represent a scale with a neutral mid-point (as when we are showing temperatures, for instance, or variance in either direction from a zero point or a mean value), where the steps away from the midpoint are perceptually even in both directions. 
+- **qualitative scales** identify as different the different values of your categorical nominal variable from each other. 
+
+
+
+For your sequetial and diverging scales, the goal in each case is to generate a perceptually uniform scheme, where hops from one level to the next are seen as having the same magnitude. Excel will take care of these for you, by offering colour palettes in the "Design" section of the Chart Layout tab: 
 
 
 ![](imgs/chart_style.png)
 
 
 
-Gradients or sequential scales from low to high are one of three sorts of color palettes. When we are representing a scale with a neutral mid-point (as when we are showing temperatures, for instance, or variance in either direction from a zero point or a mean value), we want a diverging scale, where the steps away from the midpoint are perceptually even in both directions. The blue-to-red palette in the design layouts above is one example. Finally, perceptual uniformity matters for unordered categorical variables as well. We often use color to represent data for different countries, or political parties, or types of people, and so on. In those cases we want the colors in our qualitative palette to be easily distinguishable, but also have the same valence for the viewer. Unless we are doing it deliberately, we do not want one color to perceptually dominate the others. 
+
+Of course, perceptual uniformity matters for your qualitative scales for your unordered categorical variables as well. We often use color to represent data for different countries, or political parties, or types of people, and so on. In those cases we want the colors in our qualitative palette to be easily distinguishable, but also have the same valence for the viewer. Unless we are doing it deliberately, we do not want one color to perceptually dominate the others. 
 
 
 
@@ -282,20 +306,42 @@ A good resource website is [colorbrewer](http://colorbrewer2.org/). This site of
 ![](http://pic.accessify.com/thumbnails/777x423/c/colorbrewer2.org.png)
 
 
-Go to the site, and select  a colour scheme that you like. When you do you can see that you can adjust the number of categories that you need to create a colour scheme for: 
+
+### Activity 6.2: Picking a colour scheme
+
+
+Let's say we want to pick a colour scheme to visualise the variable of perception of police. Let's say we're measuring this with one varaible, operationalised as having asked people the extent to which they agree with the following statement: "I think the police are doing a good job in my area" where the values for this variable are: Strongly agree, Agree, Neither agree nor disagree, Disagree, and Strongly Disagree.
+
+
+First things first, what is the level of measurement of this variable? Let's think about this a minute, discuss in your breakout groups, and write your answers on the google docco. 
+
+
+Now, what does that mean for your colour scheme that you might use? Are you going to pick qualitative, sequential, or diverging? Why? Take a minute to think and discuss. 
+
+
+
+OK hopefully you had a discussion here. What did you answer? Did you pick qualitative? I hope not... Did you pick sequential? Good, you recognised there is an order that should be visualised. Did you pick divergent? Also good, you decided that you want to balance agreement vs disagreement! 
+
+But wait, why is there more than one right answer?? Well **it depends** on how we interpret our values for our variable. We know this is categorical ordinal variable, as there is an order from most to least agreement. However, there is a middle point. We might say, that what we want is complete positive perception of police effectiveness. In that case, we are happy when people answer 'Strongly agree' and so we will pick this as our strongest saturation of a sequential palette, and anything less than this is an issue to be remedied. In that case, the answer 'neither agree nor disagree' is not a neutral outcome, because it's someone who isn't convinced of the effectiveness of the police. 
+
+On the other hand you might have thought that any agreement is good, and any disagreement is bad. In that case, the neither agree nor disagree represents a neutral middle ground, and in that case you would want your colour scheme to reflect that by having a neutral middle point, and you choose a divergent scale. 
+
+
+Alright, now you have chosen a scheme. Let's here stick with sequential, only the maximum police effectiveness perceived will do! So now, how can we find out what are some good colours to use? Well in the video I mentioned we'd learn some tips and tricks, so let's get started: 
+
+Go to the site [http://colorbrewer2.org/](http://colorbrewer2.org/), and select  sequential from the colour scheme options: 
+
+
+![](imgs/choose_col_vartyp.png)
+
+
+When you do you can see that you can adjust the number of categories that you need to create a colour scheme for: 
 
 
 ![](imgs/choose_col_num.png)
 
 
-You will set these to the number of values in your categorical variable for example. 
-
-
-Then you can also select the colur scheme that is most appropriate for your variable. If you have ordinal categories for example, then you could use a sequential scale - going from dark blue to light blue. On the other hand, if you have nominal variable, then a sequential colour scale would not make sense. In this case you would use a qualitative scale. Diverging you would use in a case when you have a middle value. For example temperature, you could have 0 degrees in the middle (white) and positive degrees as red, while negative degrees as blue. If you are unsure why this is the case, raise your hand now, and we can help explain. 
-
-
-![](imgs/choose_col_vartyp.png)
-
+You will set these to the number of values in your categorical variable for example. In the case of police effectiveness? How many values were there? Strongly agree (1), Agree (2), Neither agree nor disagree (3), Disagree (4), and Strongly Disagree (5). So we will need 5 colours for our variable's 5 values.  Now you can pick your favourite scheme, and use these!
 
 
 You might be thinking that that's real nice, but how do we get these colours into our excel graphs? Well you may notice the code next to the colours:
@@ -326,21 +372,20 @@ You can also change the display, from HEX to RGB or CMYK codes, which are just u
 ![](imgs/choose_col_code.png)
 
 
-
-
-If this is something you're interested in I'm happy to chat about these, raise your hand now. 
+**DON'T FORGET ACCESSIBILITY** you can see that in colourbrewer you can also choose to select a scale which is "colourblind safe". Tick this box to filter out any schemes whihc might not comply withgood accessibility standards. Do pay attention to this sort of thing. If you have another scale, or want to use for example corporate colours, there are other tools available. FOr example, in the video lectures I mentioned the tool [https://coolors.co/](https://coolors.co/) where you can simulate different kinds of colourblindness. You can use this in your designs. 
 
 
 Right, but how do we get these colours into our excel graph? Well let's give it a go.
 
 
-### Activity 1: Custom colours in Excel graphs. 
-
-<span style="color:#d95f02">
-Download the FBI crime statistics data from Blackboard under the Week 6 materials in course content.
+### Activity 6.3: Custom colours in Excel graphs. 
 
 
-Open the data up in excel, and have a look at it. You can see that it include the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rate. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
+
+Download the FBI crime statistics data from Blackboard under the Week 6 in Learning Materials.
+
+
+Open the data up in Excel, and have a look at it. You can see that it include the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rate. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
 
 
 Well think about this - where do you expect more pickpocketing incidents, outside Piccadilly station, or in Platt Fields Park? Why? 
@@ -450,7 +495,7 @@ So set each colour to this value, and click "OK", and ta-daaa, your graphs will 
 
 ![](imgs/manual_fill_6.png)
 
-</span>
+
 
 
 In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but I wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are very welcome to use the excel default colours in your graphs within this course, but if you're interested in learning more about colour [have a look at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
@@ -483,9 +528,9 @@ I suggest that in your own time, you listen to [this episode of the datastories 
 Exploratory data visualisation is a way for you to get to know your data. It is a way to explore patterns and trends that you might not immediately see. We've covered some of this when we were performing univariate and bivariate analyses, but we will focus on how data visualisation can help you answer questions about your data, and also spend some time on making sure these graphs are in line with good practice. 
 
 
-### Comparing categories
+### Activity 6.4: Comparing categories
 
-<span style="color:#d95f02">
+
 Let's practice answering questions with data. Go back to the FBI data you downloaded from Blackboard. 
 
 
@@ -495,7 +540,7 @@ So firstly, let's say we want to know the answer to the following question:
 - **What year had the highest violent crime rate?**
 
 
-You can see that the appropriate data is in the column labelled *Violent Crime Rate*. So what do you think is the best way to visualise this? You could look at your chart selection thought starter above, and see that one option for comparisons is to use column graphs. So let's give that a go: 
+You can see that the appropriate data is in the column labeled *Violent Crime Rate*. So what do you think is the best way to visualise this? You could look at your chart selection thought starter above, and see that one option for comparisons is to use column graphs. So let's give that a go: 
 
 
 Select the column that contains the data for violent crime rate. Highlight it. When you have highlighted that column then go to your chart selector, and select *Column* > *2-D Column* > *Clustered Column*. Like so: 
@@ -613,13 +658,14 @@ Once you are done with all this, you can click on "OK" and you will have your fi
 ![](imgs/final_bar.png)
 
 
-</span>
+
 
 
 Ta-daaa. So is this the best graph to answer our question? Well you could explore a few more, and see what happens. 
 
-<!--
-Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
+### Activity 6.5: Let's never make a pie chart again
+
+How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
 
 
 Once again, select the column you're interested in , which is the rate of violent crimes. Now, instead of choosing a column chart, choose a pie chart as your visualisation strategy. 
@@ -643,16 +689,19 @@ How about from a donut chart:
 
 
 
-Not really, eh? Well it takes some time and thought to be able to determine what is best, and you can always try out a couple of options, and see which one you like best, and which one best helps you tell your story, and answer the question you are asking. And there might be more than one right answer. 
+Not really, eh? Well it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best, and which one best helps you tell your story, and answer the question you are asking, and align with the 5 principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
 
 
 For example, to answer our question *What year had the highest violent crime rate?*, we could have just as well used a bar graph, as a column graph. A bar graph is basically a column graph on it's side:
 
 
 ![](imgs/bar_same_col.png)
--->
 
-### Activity 2: Exploring trends
+
+
+
+
+### Activity 6.6: Exploring trends
 
 
 We'll be talking about changes over time and trends and such next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, instead this time we are interested in a new question: 
@@ -666,7 +715,7 @@ Now we could, in theory, answer this question by looking at our bar graphs above
 
 However, those of you still on top of your *levels of measurement* will have noticed, that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation by being presented through a *line graph*. 
 
-<span style="color:#d95f02">
+
 To select this, once again highlight the column with the data of interest (violent crime rate) and then this time select Line > Line for chart type: 
 
 
@@ -763,13 +812,12 @@ Make any changes you would like, and finally click "OK" to produce your final gr
 ![](imgs/desc_line_final.png)
 
 
-</span>
 
 
 
-### Activity 3: Making a chart template
+### Activity 6.7: Making a chart template
 
-<span style="color:#d95f02">
+
 Now you will probably find your own style for a graph, and you might not want to change these settings every time you create a graph. Let's say we want to create a separate graph for the rates of various crime types in this data. To make our lives easier, once we've gotten one graph to look just how we would like, we can save this as a template. 
 
 
@@ -828,14 +876,15 @@ Then go to templates, and choose "My templates":
 
 
 Click on the template, then click OK, and you should have your graph be updated to the new template. 
-</span>
+
 
 You can now see that the default chart that appears follows the formatting that you have carefully devised as your ideal format. You will still have to add any sort of data addition (for example specify where to find the years to populate the Category (X) axis labels). But it definitely saves you some time in terms of formatting. 
 
 
-### Activity 4: Saving your graph
+### Activity 6.7: Saving your graph
 
-<span style="color:#d95f02">
+
+
 When you are making your reports, there are two ways you can include your graph. 
 
 
@@ -870,9 +919,9 @@ It is important that you label your graphs. You should include a short and to-th
 
 ![](imgs/ref_and_caption.png)
 
-</span>
 
-## Acvitity 5: More complex graphs
+
+## Activity 6.8: More complex graphs
 
 
 While we only covered descriptive analysis for univariate and bivariate analysis, when it comes to making sense of your data graphically, you can include further variables. 
@@ -987,14 +1036,14 @@ Then finally you should end up with a stacked bar chart of all these variables, 
 
 ![](imgs/stackedbar_final.png)
 
-</span>
 
-So you can see that you can use data visualisation as a way of putting together many variables into one graph. 
+
+So you can see that you can use data visualisation as a way of putting together many variables into one graph. Now don't forget to make sure you're conscious about your colour choices! These are the default colours, do we like them? Making no choice (ie sticking with the default) is still making a choice!!! I'll leave this up to you to see how you'd like to proceed...
 
 
 ## More guidance on chart design
 
-Read through this list on ["Dos and Don'ts of Charts and Graphs"](https://guides.library.duke.edu/datavis/topten) and have a look at some of [these examples](http://datajournalismhandbook.org/1.0/en/introduction_3.html) as well for some further inspiration. 
+If you would like some even further tips and tricks about data visualisation, read through this list on ["Dos and Don'ts of Charts and Graphs"](https://guides.library.duke.edu/datavis/topten) and have a look at some of [these examples](http://datajournalismhandbook.org/1.0/en/introduction_3.html) as well for some further inspiration. 
 
 
 ## Communicating results
@@ -1011,12 +1060,13 @@ The most important thing when communicating your results is that you know your a
 
 
 
-### Activity 6: Interpreting results
+### Activity 6.9: Interpreting results
 
 
-You should, by becoming a maker of good graphs, become literate about graphs as well. If you are interested in something like a role as a crime analyst, part of your interview process might include something like a numeracy test, which will test your ability to interpret trends and data from graphs (amongst some other things). 
+You should, by becoming a maker of good graphs, become literate about graphs as well. If you are interested in something like a role as a crime analyst, part of your interview process might include something like a numeracy test, which will test your ability to interpret trends and data from graphs (among some other things). 
 
-<span style="color:#d95f02">
+
+
 Here's an example: 
 
 
@@ -1027,7 +1077,7 @@ Here's an example:
 Then the test question could be something like this: 
 
 
-Tick all the true statements:
+Pick all the true statements:
 
 - 68% of observed lessons were graded 'Good' or 'Outstanding' in 2011.
 - In 2011 the percentage of lessons that were graded 'Good' or 'Outstanding' was twice the percentage of lessons that were graded 'Good' or 'Outstanding' in 2007.
@@ -1048,7 +1098,7 @@ OK try again:
 
 
 
-Tick all the true statements:
+Pick all the true statements:
 
 - The range of marks in Test A was greater than in Test B.
 - The median mark in Test B was approximately 10 percentage points higher than the median mark in Test A.
@@ -1066,7 +1116,7 @@ And again:
 
 
 
-Tick all the true statements:
+Pick all the true statements:
 
 - Two-thirds of the pupils spent 15 minutes or less on planning.
 - The range of time used for planning was 22 minutes.
@@ -1082,7 +1132,7 @@ And finally:
 ![](imgs/numtest_4.png)
 
 
-Tick all the true statements:
+Pick all the true statements:
 
 - All the pupils completed the test within the maximum time allowed.
 - The median time taken was 40 minutes.
@@ -1090,8 +1140,9 @@ Tick all the true statements:
 
 
 
-Alright. Make a note of all of your answers before reading the results ahead. 
-</span> 
+Alright. Make a note of all of your answers in the google docco before reading the results ahead. 
+
+
 
 #### Results {-}
 
@@ -1107,17 +1158,6 @@ OK I have the answers for you now:
 So, how did you do? If you are unsure about any of the answers, ask us now!
 
 
-<!--
-## Note on your feedback session 
-
-The session next Tuesday will be a joint session between Lisa Williams, who will give you a brief overview of the Q-step programme, and also a chance to ask any questions that you have about this, and followed by an embedded employability session, where you will be taught an employable skill. Attendance will still be taken, the same way as I usually do, but there is no feedback lecture for this session. Instead, it is up to you to take your own time to watch the below video to learn more about data visualisation: 
-
-- [video to watch for feedback session](https://vimeo.com/124674889)
-
-
-If you have any questions about this just post on the discussion board where I will try to answer, or book office hours or ask away in the lab session. 
-
--->
 
 ## Summary
 
@@ -1129,6 +1169,7 @@ In sum, you should now be able to select a graph that represents your data in a 
 - data ink ratio
 - stacked bar chart
 - conditional formatting
+- sequential, diverging, and qualitative scales
 
 
 

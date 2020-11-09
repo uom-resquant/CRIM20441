@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-This week we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well off or deprived area you have different access to resources, and therefore your outcomes in terms of involvement with criminal justice system also differs. However time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important, that as well-rounded criminologists, you are able to talk about these concepts with appropriate knowledge and understanding. 
+This week we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well-off or deprived area you have different access to resources, and therefore your outcomes in terms of involvement with criminal justice system also differ. However time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important, that as well-rounded criminologists, you are able to talk about these concepts with appropriate knowledge and understanding. 
 
 When violence increases between March and August, is that because we are seeing an increase in crime and offending? Or is it possible that the time of year has something to do with this? How much must crime increase and over how long of a time, in order to be able to confidently say that crime is on the increase? These are important, and not always easy questions to answer, and this week we will begin to think about this. 
 
@@ -23,7 +23,7 @@ Here are some terms that we will cover today:
 ## Crime and incident trend identification
 
 
-All crimes occur at a specific date and time, however such definite temporal information is only available when victims or witnesses are present, alarms are triggered, etc., at the time of occurrence. This specific temporal data is most often collected in crimes against persons. In these cases, cross-tabulations or histogram of weekday and hour by count will suffice. The great majority of reported events are crimes against property. In these cases, there are seldom victims or witnesses present. These events present the analyst with ‘ranged’ temporal data, that is, an event reported as occurring over a range of hours or even days. In the case of ranged temporal data, analysis is possible through use of equal chance or probability methods. If an event was reported as having occurred from Monday to Tuesday, in the absence of evidence to the contrary, it is assumed the event had an equal chance or probability of occurring on each of the two days, or .5 (%50). In the same manner, if an event was reported as having occurred over a 10 hour span there is a 10% chance the event occurred during any one of the hours. This technique requires a reasonable number of events in the data set to be effective. The resulting probabilities are totalled in each category and graphed or cross-tabulated. This produces a comparison of relative frequency, by weekday or hour [source](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc76/p530054.pdf).
+All crimes occur at a specific date and time. If there are victims or witnesses present, or alarms are triggred, we can note this specific time. Unfortunately, this is not always the case. For example, burglary is often discovered only when the homeowner returns from work, which may be hours after it actually happened. This is something to keep in mind when working with temporal data. 
 
 
 **Temporal crime analysis** looks at trends in crime or incidents. A crime or incident trend is a broad direction or pattern that specific types or general crime and/or incidents are following.
@@ -31,22 +31,21 @@ All crimes occur at a specific date and time, however such definite temporal inf
 Three types of trend can be identified:
 
 - overall trend – highlights if the problem is getting worse, better or staying the same over a period of time
-- seasonal, monthly, weekly or daily cycles of offences – identified by comparing previous time periods with the same period being analysed
+- seasonal, monthly, weekly or daily cycles of offenses – identifies whether there are any patterns in crimes associated with certain time periods, for example burglaries increasing in the winter, dying down in the summer, and increasing again the next winter.
 - random fluctuations – caused by a large number of minor influences, or a one-off event, and can include displacement of crime from neighbouring areas due to partnership activity or crime initiatives.
 
 
 
-### Activity 1: Extracting temporal variables from dates
+### Activity 7.1: Extracting temporal variables from dates
 
 
 This week we will be looking at crime data from the USA. As you saw, the data from police.uk is aggregated by months. We do not know when the offences happened, only the month, but nothing more granular than that. American police data on the other hand is much more granular. 
 
-<span style="color:#d95f02">
-Cities release their own data. Here, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). You can download a subset of Dallas crime data from blackboard. Go to course content > week 7 > Data for week 7, and the file is *dallas_burg.xlsx*. Download this and open it up in excel. 
+Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to course Learning Materials > Module 7 > Data for Labs and Homework, and the file is *dallas_burg.xlsx*. Download this and open it up in Excel. 
 
 
 
-When you open the excel spreadsheet, you will see that there is a column for date called **Date.of.Occurrence**. The date is in the format dd/mm/yyyy. So the first date on there you can see is  16/11/2016. 
+When you open the Excel spreadsheet, you will see that there is a column for date called **Date.of.Occurrence**. The date is in the format dd/mm/yyyy. So the first date on there you can see is  16/11/2016. 
 
 
 But what if I asked you the question: which year had the most residential burglaries? Or what if I want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
@@ -71,12 +70,12 @@ Under the "Category" sidebar select "Date", and pick a format that matches your 
 
 
 This way you make sure that Excel knows that your date column is a date. 
-</span>
+
 
 
 ### Activity 2: Extract year from date column
 
-<span style="color:#d95f02">
+
 Now, let's start by answering our first question: which year had the most burglaries. To answer this, we first need a variable for year. Let's extract this from the date column. We can do this with the `=year()` function. Inside the brackets, you just have to put the date from which to extract the year. 
 
 
@@ -122,7 +121,7 @@ To answer this question, hopefully you built a pivot table with the year variabl
 
 ![](imgs/count_of_yr.png)
 
-</span>
+
 
 If not raise your hand now, and we will come around and help!
 
@@ -135,7 +134,7 @@ If it does, nice work! You can now identify that the year with the highest numbe
 
 Now let's go back to our 2nd question - do residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? 
 
-<span style="color:#d95f02">
+
 To answer this question, we need a variable for day of the week. First, create a new column call it Day.of.Week: 
 
 
@@ -221,9 +220,6 @@ Now let's try to apply the formula.
 - **range_lookup** set this to FALSE, so we match on exact matched only
 
 
-So 
-
-
 
 
 
@@ -249,21 +245,20 @@ Now you can use this variable to create a pivot table, and see the number of bur
 ![](imgs/wkday_pivot.png)
 
 
-Unsurprisingly, there are a lot more burglaries on weekdays than weekends. Why do you think that is? Take a moment to chat to the person next to you and discuss. 
+Unsurprisingly, there are a lot more burglaries on weekdays than weekends. Why do you think that is? Take a moment to discuss in your breakout groups, and write your thoughts on the Google doc. 
 
 
 
 ![](https://media.giphy.com/media/xT5LMPQWYPMrZOYjug/giphy.gif)
 
-</span>
 
 So what did you discuss? I am hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. I know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekdays might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a rate; to truly be able to compare, we should look at a rate such as the number of burglaries *per day* for weekdays, and the number of burglaries *per day* for weekend-days. 
 
 
-How do you calculate the rate? Well you do this simply by dividing the numerator (number of burglaries) by an appopriate denominator. What is the best denominator? Well it depends on the question you're looking to answer. Usually it's what comes after the *per*. If we are looking for number of crimes *per population* then we will be dividing by the population. If we are looking at number of burglaries *per household* we will be dividing by the number of households in an area. In this case, we were talking about the number of burglaries *per day* to compare between weekends and weekdays. So, your denominator will be the number of days for each group. 
+How do you calculate the rate? Well you do this simply by dividing the numerator (number of burglaries) by an appropriate denominator. What is the best denominator? Well it depends on the question you're looking to answer. Usually it's what comes after the *per*. If we are looking for number of crimes *per population* then we will be dividing by the population. If we are looking at number of burglaries *per household* we will be dividing by the number of households in an area. In this case, we were talking about the number of burglaries *per day* to compare between weekends and weekdays. Your denominator will be the number of days for each group. 
 
 
-So, to get the burglary rate (per day), we simply take our total number of burglaries from our pivot table, and divide by the number of days for each. As we know, there are 5 weekdays (boo) and 2 weekends (yaay). So let's divide accordingly: 
+To get the burglary rate (per day), we simply take our total number of burglaries from our pivot table, and divide by the number of days for each. As we know, there are 5 weekdays (boo) and 2 weekends (yaay). So let's divide accordingly: 
 
 
 ![](imgs/burg_1.png)
@@ -293,7 +288,8 @@ First, we've not had a look at our time variable yet, so we could start with tha
 
 ### Activity 4: Aggregate to hour
 
-<span style="color:#d95f02">
+
+
 First create a new column for 'Hour':
 
 
@@ -365,7 +361,7 @@ This is the same data, but visualised in a cyclical way. In this visualisation, 
 It might be worth to have a look at some examples of temporal data being visualised, as well as making our own visualisations of time. Here I will focus on 3 approaches, **line graphs**, **radar graphs**, and **heatmaps**. 
 
 
-### Activity 5: Line graphs
+### Activity 7.5: Line graphs
 
 
 Let's start with viewing some examples of time visualised using a timeline, of continuous time passing: 
@@ -439,7 +435,7 @@ So in this case of our burglaries, we would need to be able to somehow look past
 
 
 
-### Activity 6: Radar graphs
+### Activity 7.6: Radar graphs
 
 There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs The below graphs all represent the same data, of page views for a website across different times of day. Here’s an example by Purna Duggirala that is essentailly a bubble chart that uses two clocks side by side: 
 
@@ -639,7 +635,7 @@ And finally, ta-daa you have a radial graph that helps you compare the within-da
 </span> 
 
 
-## Activity 7: Heatmaps
+## Activity 7.7: Heatmaps
 
 
 Heatmaps visualise data through variations in colouring. When applied to a tabular format, Heatmaps are useful for cross-examining multivariable data, through placing variables in the rows and columns and colouring the cells within the table. Heatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.
@@ -820,10 +816,10 @@ Evidently we can use this moving average to tease out signal (what is happening)
 It is important that you understand the concept of what we are covering, before we move on to the excel part of things, so I really want you to take time and watch this  [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI). If you have any questions about this, ask now!
 
 
-### Activity 8: Moving average in Excel
+### Activity 7.8: Moving average in Excel
 
-<span style="color:#d95f02">
-So you know what's coming, it is your turn! Let's calculate the moving average in excel, using some example data on temperature measurement. You can download this data from the week 7 folder, in the "data for week 7"" subfolder on blackboard. It should be called mov_avg_temp_example.xlsx. Then you can use it to follow along below this tutorial taken from [dummies.com](http://www.dummies.com/software/microsoft-office/excel/how-to-calculate-moving-averages-in-excel/)
+
+So you know what's coming, it is your turn! Let's calculate the moving average in Excel, using some example data on temperature measurement. You can download this data from Blackboard under Learning MAterials > Module 7 > Data for labs and homework folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow along below this tutorial taken from [dummies.com](http://www.dummies.com/software/microsoft-office/excel/how-to-calculate-moving-averages-in-excel/)
 
 
 The Data Analysis command provides a tool for calculating moving and exponentially smoothed averages in Excel. Suppose, for sake of illustration, that you’ve collected daily temperature information. You want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
@@ -884,27 +880,12 @@ If any of that was a bit unclear, you can have a go with another, different exam
 
 
 
-So that's about it. If you're feeling very adventurous you can have a look at [seasonal decomposition in excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and ome more in-depth learning about [moving average and soothing techniques in excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
-
-<!--
-- [how to excel](http://www.dummies.com/software/microsoft-office/excel/how-to-calculate-moving-averages-in-excel/)
-- [how to excel](http://www.excel-easy.com/examples/moving-average.html)
-- [how to excel](http://www.statisticshowto.com/moving-average/)
-
-
-- [Seasonal decomposition in excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/)
-
-[Moving average and soothing techniques in excel](http://www.informit.com/articles/article.aspx?p=2433607)
-
-
-[more here: http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc42.htm](http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc42.htm)
-
--->
+So that's about it. If you're feeling very adventurous you can have a look at [seasonal decomposition in excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and one more in-depth learning about [moving average and soothing techniques in excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
 
 ## Summary
 
 
-In sum, you should now be able to begin to make sense of temporal data in criminology. You should know how to extract variables from a date variable, how to aggregate into meaningful intervals, know how to best visualise temporal trends, and know the appraoch of the moving average in order to be able to find the signal amidst the noise. You should be comfortable with the following terms: 
+In sum, you should now be able to begin to make sense of temporal data in criminology. You should know how to extract variables from a date variable, how to aggregate into meaningful intervals, know how to best visualise temporal trends, and know the approach of the moving average in order to be able to find the signal amidst the noise. You should be comfortable with the following terms: 
 
 - time-series
 - seasonality
