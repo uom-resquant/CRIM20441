@@ -75,7 +75,7 @@ This will result in a final plot:
 ![](imgs/combined.png)
 
 
-Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so Iw ould encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
+Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so I would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
 
 
 ## Principles of good data visualisation 
@@ -254,7 +254,7 @@ A related effect is shown below. These are Mach bands. When the gray bars share 
 
 Similarly, the ghostly blobs in the Hermann grid effect can be thought of as a side-effect of the visual system being tuned for a different task.
 
-These sorts of effects extend to the role of background contrasts. The same shade of gray will be perceived very differently depending on whether it is against a darker background our a lighter one. Our ability to distinguish shades of brightness is not uniform, either. We are better at distinguishing darker shades than we are at distinguishing lighter ones. And the effects interact, too. We will do better at distinguishing very light shades of gray when they are set against a light background. When set against a dark background, differences in the middle-range of the light-to-dark spectrum are easier to distinguish.
+These sorts of effects extend to the role of background contrasts. The same shade of gray will be perceived very differently depending on whether it is against a darker background or a lighter one. Our ability to distinguish shades of brightness is not uniform, either. We are better at distinguishing darker shades than we are at distinguishing lighter ones. And the effects interact, too. We will do better at distinguishing very light shades of gray when they are set against a light background. When set against a dark background, differences in the middle-range of the light-to-dark spectrum are easier to distinguish.
 
 Our visual system is attracted to edges, and we assess contrast and brightness in terms of relative rather than absolute values. Some of the more spectacular visual effects exploit our mostly successful efforts to construct representations of surfaces, shapes, and objects based on what we are seeing. Edward Adelson’s checkershadow illusion, shown below, is a good example.
 
@@ -675,7 +675,7 @@ Now how does that look? Is it something like this:
 
 
 
-![](imgs/desc_viz_pie.png)
+![*Wow look a pie chart! Digital style*](imgs/desc_viz_pie.png)
 
 
 
