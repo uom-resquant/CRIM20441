@@ -473,13 +473,13 @@ A simple example of a 24-hour circle comes from Stamen Design‘s Crimespotting.
 
 
 
-![](http://dougmccune.com/blog/wp-content/uploads/2011/04/crimespotting_time_pie.png)
+![](imgs/crimespotting_time_pie.png)
 
 
 The inspiration for this time selector, which is documented in Tom Carden’s blog post, was the real-life timer control used for automating lights in your house.
 
 
-![](http://dougmccune.com/blog/wp-content/uploads/2011/04/real_life_time_pie-150x150.png)
+![](imgs/real_life_time_pie-150x150.png)
 
 
 
@@ -489,7 +489,7 @@ This above is known as a radial chart. We will now learn how to build one in Exc
 
 This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
 
-![](http://bigbangdata.somersethouse.org.uk/wp-content/uploads/2015/12/FlorenceData900.jpg)
+![](imgs/FlorenceData900.jpg)
 
 
 
