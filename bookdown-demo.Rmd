@@ -14,7 +14,7 @@ description: "This is a companion workbook for the 2nd year undergraduate module
 
 # Introduction {-}
 
-This workbook contains the lab materials and homework assignments for an introduction to data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduates on the BA Criminology programme at the University of Manchester. 
+This workbook contains the lab materials and homework assignments for an introduction to data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduate module of the BA Criminology programme at the University of Manchester. 
 
 It makes use of Excel, as we have identified a gap in training students to use Excel, despite it being a primary tool for data analysis (whether we like it or not) in many public and private sector organisations. As many students take [Q-step internships](https://www.humanities.manchester.ac.uk/q-step/), this skill was identified as important. 
 
