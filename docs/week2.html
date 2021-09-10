@@ -437,7 +437,7 @@
 <p><img src="imgs/table_on_side.png" /></p>
 <p>Now imagine that the number of crimes was represented by a bar with a height that corresponds to the value in each cell. That is a bar chart.</p>
 <p>So in this case, a bar chart would look something like this:</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <p>I hope that you can see the resemblance between the table on its side and the bar chart now! If unclear call us over, we’ll explain! While it’s easy to just move on the next step and insert a bar chart, it’s important that you know what you are representing with it!</p>
 </div>
 <div id="activity-2.4-bar-charts-in-excel" class="section level3">
@@ -662,7 +662,7 @@
 <p>You can see that for the other 5 films, the ratings follow what is essentially a normal distribution (we will return to what a “normal distribution” is later). People seem to agree on these films. Very few people think that <em>xXx: Return of Xander Cage</em> is a terrible movie, meriting a score of 1 or 2, but also very few people thing that it’s great, worthy of a 9 or a 10. Instead, most people think that it’s a mediocre film, and give it a 5 or a 6 out of 10. This pattern is reflected in all the other films, <strong>with the exception of Al Gore’s film</strong>. What’s going on there? Well it appears that people either love it, giving it a score of 10, or they absolutely hate it, giving it a score of 1. Because of this, when all the scores are added up and divided by the total number of people who have rated the film, we get a value in the middle, 5.2, just like we did for <em>xXx: Return of Xander Cage</em>. Except while most viewers agree that film is mediocre, most people are <strong>not</strong> evaluating <em>An Inconvenient Sequel: Truth to Power</em> as mediocre. In fact we see that most people are saying it’s great or it’s terrible. And this is why distribution also matters.</p>
 <p>What you are seeing in the histograms above are the <strong>distributions</strong> of the scores that are given to each film on the IMDB website.</p>
 <p>It is possible to have a look at the distribution of the number of crimes per borough as well, using a histogram.</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 <p>So you can see here that the majority of boroughs are clustered on the left side of the graph, with the smaller number of crimes, you can see between over 22,000 and under 40,751 crimes. The position of each bar on the x axis (the horizontal axis) tells you the values we are looking at, and the height tells you how many observations fall into each value.</p>
 </div>
 <div id="histograms" class="section level3">
@@ -706,7 +706,7 @@
 <p><img src="imgs/hist_fill_3.png" /></p>
 <p>And that is exactly how you build a histogram. You could draw one by hand if you wanted to, building it up one by one.</p>
 <p>So now, looking back at the crimes per borough histogram, does it make more sense?</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
 <p>If it does, then that is excellent, and you can move on now. If it does <strong>not</strong> then please raise your hand, and we will come around and try to clarify this for you. But also make sure that before you do this you also go through the resources above, especially <a href="http://tinlizzie.org/histograms/">the interactive essay</a>.</p>
 <p>So looking back up at our crimes per borough histogram, you can now see that the majority of observations fall between some values relatively close together, but there is one observation that has a very high crime score. This is what we discussed earlier, when we were talking about <strong>outliers</strong>. No surprises there. But what is interesting now, is that you can <strong>see the distribution</strong> of your data, and you can see exactly how far this outlier sits. Just like the distribution of the IMDB scores for the Al Gore movie, a histogram of the number of crimes per borough also tells a story.</p>
 </div>
@@ -714,12 +714,12 @@
 <h3><span class="header-section-number">2.4.5</span> Activity 2.6: Histograms in Excel</h3>
 <p>So how do you build a histogram? Of course I won’t make you draw one manually, every time you need to build one, so let’s get to excel and make our own. This time it’s slightly different than just inserting a bar chart. Remember that bar charts represent the frequency of a categorical variable. Building one for a numeric variable, such as number of crimes, would not make sense. If you are unsure why, look back at our frequency table for the number of crimes variable. All the frequencies are 1. So your bars would all be the same height, and we would be none the wiser about any distribution. One important feature of numeric variables is that <strong>the distance between numbers is meaningful</strong>. Right? Remember this from the definitions for levels of measurement? So that is why we know how far for example 117,663 is from 40,751, and how much farther it is than 40,751 is from the next number in our data, 40,058. A histogram will display this for you.</p>
 <p>So to build a histogram in Excel, you will have to have your data, and you also have to have an idea of the <strong>bins</strong> that you want. How do you decide this? Well this is again one of those things where the answer is that <em>it depends</em> on your data. What are meaningful bins? What are interesting sizes to group the numeric data into? For example, in this case, would it make sense for a bin width of 10 crimes? If we used a bin width of 10, we would see something like this:</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
-<p>This is not great, because if we split everything into 10s, we are unlikely to have more than borough fall within that range. We are dealing with quite high numbers, right? We are dealing with tens of thousands of crimes, rather than tens of crimes. So perhaps a more meaningful bin width would be 10,000. Let’s try that:</p>
 <p><img src="bookdown-demo_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p>This is not great, because if we split everything into 10s, we are unlikely to have more than borough fall within that range. We are dealing with quite high numbers, right? We are dealing with tens of thousands of crimes, rather than tens of crimes. So perhaps a more meaningful bin width would be 10,000. Let’s try that:</p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
 <p>Now that’s more like it! We can see here, that most of the boroughs fall into the bins that collect boroughs with crimes between 20,000 - 50,000, with our outlier borough of central manchester far away on the right there. Your bin width will always be related to your unit of measurement. If we were talking about numer of crimes a day, this would be a very different story, becuase we’ll have smaller numbers.</p>
 <p>So why do we need to decide bin width? Why don’t we let the software decide for us? Well because this should be a decition made by you, the analyst. It will depend on how much variety you want to show, or how much you want to group your observations together. For example, with a smaller bin width of 5000 crimes, we can separate out the lower crime boroughs, and see smaller deviations as well.</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
 <p>There is no wrong answer here, but you want to choose a bin width that will make a histogram that will best protray the story you want to tell with your data.</p>
 <p>So once you’ve decided on your bin width, you have to tell excel what you would like this to be. You can to this by creating a new column, called bin, and putting your bins in there. So let’s pick 10,000 for this example. In this case you would enter the bins like this:</p>
 <p><img src="imgs/bin_col.png" /></p>
@@ -751,7 +751,7 @@
 <p>The <strong>range</strong> has the disadvantage that a single extreme value can make it very large, giving a value that doesn’t represent the data overall. In these situations a better way to describe spread of a variable might be to ignore the extremes and concentrate in the middle of the data. We could look at the range of the middle half of the data.</p>
 <p>How do you do that? Put all boroughs in a long line ordered by the number of crimes. Then divide the queue in half at the median. Now divide those halves in half again, cutting the data into four quarters. We call these new dividing points quartiles. Just how the median divides your data into the bottom 50% and the top 50%, the quartiles divide your data into the top 25%, the top 50%, the top 75%, and the bottom 25%. Imagine that your median divided your data into two new data sets. The medians of these two new data sets are your quartiles. As always, the clue is in the name. <em>Quart</em>iles divide your data into <em>quarters</em>. What does this look like?</p>
 <p>Well for a moment consider our data of number of crimes per borough. Let’s plot this. Here, every point represents the number of crimes in that borough. They are ordered by number of crimes, from least to most.</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
 <p>We can easily identify the minimum and the maximum values, right?</p>
 <p>And we can also quite easily draw the median:</p>
 <p><img src="imgs/crimes_dotplot.png" /></p>
