@@ -960,18 +960,18 @@ From your readings you should also be comfortable with:
 
 Today we are going to start summarising our variables in our data, in order to be able to start talking about them in a meaningful way, and begin to be able to tell a story with our data. Consider this [parliament research briefing on UK prison population statistics](http://researchbriefings.files.parliament.uk/documents/SN04334/SN04334.pdf). It looks at the number and make up of people in prison in the UK. To do this, it utilises data about people in prison, which you can imagine based on our experience with data last week as a spreadsheet with each individual row representing one individual prisoner. You can also imagine some columns that contain values that correspond to each prisoner, representing a set of variables recorded about him or her. But it would not be very informative to just print out this spreadsheet and hand it to you - or definitely not to hand it to policy makers who are busy, and most likely looking for a summary of headline figures, rather than rows and rows of data. If you did click on the link, you can see that it instead summarises the data in a way that people can read through, and draw meaningful conclusions from. 
 
-By reading this report, you can come to know that, at 3rd July 2020, the total prison population in England and Wales was 79,453 . But going further, one of the variables in the data set is the person's gender. If we want to talk about this one variable - gender - in this data set - prison population - we can turn to univariate analysis of this variable. For example, we could count the number of men versus the number of women in prison. What do you think this will tell us? Do you think there will be equal number of men and women? If you've been paying attention in some of your other courses, you'll likely suspect that there are some gender differences in the prison population. So if it's not 50-50 men and women in prisons, then what do you think the split is like? Do you think it's 60-40? 70-30? 80-20?
+By reading this report, you can come to know that, in December 2019, the total prison population in England and Wales was 79,453 . But going further, one of the variables in the data set is the person's gender. If we want to talk about this one variable - gender - in this data set - prison population - we can turn to univariate analysis of this variable. For example, we could count the number of men versus the number of women in prison. What do you think this will tell us? Do you think there will be equal number of men and women? If you've been paying attention in some of your other courses, you'll likely suspect that there are some gender differences in the prison population. So if it's not 50-50 men and women in prisons, then what do you think the split is like? Do you think it's 60-40? 70-30? 80-20?
 
 ### Activity 2.1
 
-Come on, take a guess about what you think the proportion of women to men is in the prison population of England and Wales, I'll hold off telling you. Chat within your group to guess what you think the ratio is. Discuss why you think it's the split that you think it is. Wait until you've made some guesses before you scroll on.  
+Come on, take a guess about what you think the proportion of women to men is in the prison population of England and Wales, we will hold off telling you. Chat within your group to guess what you think the ratio is. Discuss why you think it's the split that you think it is. Wait until you've made some guesses before you scroll on.  
 
 ```{r, echo = FALSE}
 knitr::include_graphics("imgs/oitnb_dance.gif")
 ```
 
 
-Ready? OK I can tell you now. Actually, according to this most recent count of prison population,  4% of the prison population was female! Are you surprised? I definitely was! I had no idea the difference was this large! You can often gain valuable insight into topics that you are interested in by looking into one variable - that is performing univariate analysis on your data. And this is what we will learn to do today. Excited? Yaaay
+Ready? OK, we can tell you now. Actually, according to this most recent count of prison population,  4% of the prison population was female! Are you surprised? We definitely were! We had no idea the difference was this large! You can often gain valuable insight into topics that you are interested in by looking into one variable - that is performing univariate analysis on your data. And this is what we will learn to do today. Excited? Yaaay!
 
 ### Terms for today:
 
@@ -986,10 +986,10 @@ Ready? OK I can tell you now. Actually, according to this most recent count of p
 
 ## Univariate analysis
 
-So you want to analyse your variable. As you have likely pieced together by now, that  *uni*variate analysis simply just means - the analysis of *one* variable. I am giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variable analysis which is the analysis of the relationship between *more than two* variables!!!
+You want to analyse your variable. As you have likely pieced together by now, that  *uni*variate analysis simply just means - the analysis of *one* variable. We are giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variable analysis which is the analysis of the relationship between *more than two* variables!!!
 
 
-So just remember - uni = one, bi = two, and multi = many. That's it, no need to count past two. We data analysts are very lazy people, you will begin to figure this out as we go. 
+So, just remember - uni = one, bi = two, and multi = many. That's it, no need to count past two. We data analysts are very lazy people, you will begin to figure this out as we go. 
 
 
 Right, now that we are confident with out terminology, let's think about what we can do, in order to carry out some univariate analysis. As mentioned, univariate analysis is the analysis of one variable. So we know that we want to be able to talk about *one* variable in our data set. For this we will need to select a variable we want to talk about. Often this will depend on the question being asked. So for example, if someone asked you the question "How many more men than women are in prison currently in England and Wales?" you can begin to think about the variable you will have to analyse - perhaps the variable of **gender**. But once you've picked your variable, how do you analyse it? That is what today will be about. 
@@ -1005,10 +1005,10 @@ Well remember when we spoke about **levels of measurement** last week? We encoun
 ![](imgs/lvl_msr_diagr.png)
 
 
-So why is this important? Well what level of measurement your variable falls into dictates what types of summaries are appropriate. Thinking back to the gender example, it would not make huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and as so an appropriate way to summarise it is not to calculate an average (mean or median, but we will get into this a bit later). Instead there are other approaches you could take. For example you could look into the *modal category* - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occurring value for this variable. It occurred 96% of the time, while the 'female' value for the gender variable only appeared 4% of the time, since that is how many women were observed. How do we find this out? Well in the simplest term we could count all the occurrences of each value in the data set. But remember what I said about analysts being lazy? We don't want to be going through spreadsheets line by line. 
+So why is this important? Well what level of measurement your variable falls into dictates what types of summaries are appropriate. Thinking back to the gender example, it would not make huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and as so an appropriate way to summarise it is not to calculate an average (mean or median, but we will get into this a bit later). Instead there are other approaches you could take. For example you could look into the *modal category* - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occurring value for this variable. It occurred 96% of the time, while the 'female' value for the gender variable only appeared 4% of the time, since that is how many women were observed. How do we find this out? Well in the simplest term we could count all the occurrences of each value in the data set. But remember what we said about analysts being lazy? We don't want to be going through spreadsheets line by line. 
 
 
-Instead, we would look at the frequency of all the values the variable can take, in this case the frequency of the male and female values for gender. We could do this by something called a **frequency table**. Frequency tables are valid ways for summarising categorical variables, however they might not be appropriate for numeric variables, which are better suited to measures like **average** and **variance**. But now I'm just throwing words around.
+Instead, we would look at the frequency of all the values the variable can take, in this case the frequency of the male and female values for gender. We could do this by something called a **frequency table**. Frequency tables are valid ways for summarising categorical variables, however they might not be appropriate for numeric variables, which are better suited to measures like **average** and **variance**. But now we are just throwing words around.
 
 
 
@@ -1026,7 +1026,7 @@ Hopefully these words sound familiar from your reading and some of the lecture v
 ### Activity 2.2: Crime types
 
 
-Let's start with some exercises in talking about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself though, because I have put the data on blackboard for you. 
+Let's start with some exercises in talking about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself though, because we have put the data on blackboard for you. 
 
 
 So to find this data set, just go to blackboard, and under learning materials > week 2 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using excel. 
@@ -1081,20 +1081,20 @@ Here's an example of a frequency table. Let's say we have this data set of waite
 ![](imgs/waiter_heights.png)
 
 
-You can see here again that every row represents one waiter or waitress. I've even put in a little picture of each of them, to make it more personal. You can see them all now, forming rows of your data. You can also see one column, for the one variable here, which is gender. For each person we only recorded their gender, because for now, that's all we are interested in. We want to look at the gender of waiters and waitresses at Lil' Bits. Maybe we think that the manager is sexist and hires only females. Maybe we want to work out the likelihood of having a male waiter. Whatever our motivation, we just want to know!!! We want to know the number of men, and the number of women who work there. And it really is as simple as that - all we do is count the occurrence of each value of the variable, and then summarise that count in a table. 
+You can see here again that every row represents one waiter or waitress. We have even put in a little picture of each of them, to make it more personal. You can see them all now, forming rows of your data. You can also see one column, for the one variable here, which is gender. For each person we only recorded their gender, because for now, that's all we are interested in. We want to look at the gender of waiters and waitresses at Lil' Bits. Maybe we think that the manager is sexist and hires only females. Maybe we want to work out the likelihood of having a male waiter. Whatever our motivation, we just want to know!!! We want to know the number of men, and the number of women who work there. And it really is as simple as that - all we do is count the occurrence of each value of the variable, and then summarise that count in a table. 
 
 
 In this case, we could the number of times that we record 'female' value for the gender variable, and then the number of times that we record 'male' value for the gender variable, and then we say that there are 3 females and 2 males in our data. That's it. That's a frequency table! You build it by simply counting the number of times each value is present in the data frame. Because if each row is an observation, then every time you see 'female' in the gender column accounts for one observation of this value - one female waitress. 
 
 
-I've even made a gif to illustrate the process, something like this: 
+We have even made a gif to illustrate the process, something like this: 
 
 
 ![](imgs/freq_table_gif.gif)
 
 
 
-I hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the `r I(nrow(gmp_crimes))` rows in your GMP crimes data.
+We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the `r I(nrow(gmp_crimes))` rows in your GMP crimes data.
 
 
 Luckily Excel makes this much easier for us. 
@@ -1103,21 +1103,21 @@ Luckily Excel makes this much easier for us.
 ### Creating a frequency table in Excel
 
 
-Making a frequency table in excel is quite simple, and it is achieved by using something called a **pivot table**. As far as I know this name is specific to Excel. If you apply to public sector jobs, especially where excel is a requirement, the word pivot table is likely to come up in interview. It's a handy tool for summarising categorical data. A pivot table is a tool that lets you build different types of summary tables from your data. One of these is a frequency table. 
+Making a frequency table in excel is quite simple, and it is achieved by using something called a **pivot table**. As far as we know, this name is specific to Excel. If you apply to public sector jobs, especially where excel is a requirement, the word pivot table is likely to come up in interview. It's a handy tool for summarising categorical data. A pivot table is a tool that lets you build different types of summary tables from your data. One of these is a frequency table. 
 
 > PivotTables are a great way to summarize, analyze, explore, and present your data, and you can create them with just a few clicks. PivotTables are highly flexible and can be quickly adjusted depending on how you need to display your results.
 
 - [The microsoft excel sales pitch](https://support.office.com/en-gb/article/Create-a-PivotTable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 
 
-If you want to go a bit further in the pivot table knowledge, here's a handy list of [23 things you should know about pivot tables](https://exceljet.net/things-to-know-about-excel-pivot-tables). I like it because it's a list, and Buzzfeed has taught me that all information is best presented in list format, preferably with a random number of items in the list, like 23. We'll cover most of these items during the upcoming weeks.
+If you want to go a bit further in the pivot table knowledge, here's a handy list of [23 things you should know about pivot tables](https://exceljet.net/things-to-know-about-excel-pivot-tables). We like it because it's a list, and Buzzfeed has taught us that all information is best presented in list format, preferably with a random number of items in the list, like 23. We'll cover most of these items during the upcoming weeks.
 
 
 ### Activity 2.3: Looking at frequency
 
 
 
-So for now, we will now use a pivot table to create a frequency table of the crime type variable in the GMP crimes data.  To do this, go to your gmp_crimes data set, opened up in Excel. Download the data from BB, as we did last week. If it's not downloading for any reason stick up your hand, we can come around and trouble shoot this for you! Now once you have the data open in Excel,  you can easily create a frequency table following the below steps:
+For now, we will use a pivot table to create a frequency table of the crime type variable in the GMP crimes data.  To do this, go to your gmp_crimes data set, opened up in Excel. Download the data from BB, as we did last week. If it's not downloading for any reason stick up your hand, we can come around and trouble shoot this for you! Now once you have the data open in Excel,  you can easily create a frequency table following the below steps:
 
 
 
@@ -1220,7 +1220,7 @@ You can pick any of these, and it will turn your column of counts (you can see t
 ![](imgs/perc_menu.gif)
 
 
-Then click on the dropdown menu (initially it will say 'No Calculation'). Again you will see a variety of possible options to choose. Here we want to select "% of Grand Total". Don't worry about the other options for now, we will address those next week, when we make frequency tables with two variables. You can also rename the column using the 'Custom Name' Field. Here I change the name from 'Count of Crime.type2' to '% of all crimes'. As we discussed last week, it's always better to have descriptive and meaningful variable names. 
+Then click on the dropdown menu (initially it will say 'No Calculation'). Again you will see a variety of possible options to choose. Here we want to select "% of Grand Total". Don't worry about the other options for now, we will address those next week, when we make frequency tables with two variables. You can also rename the column using the 'Custom Name' Field. Here we change the name from 'Count of Crime.type2' to '% of all crimes'. As we discussed last week, it's always better to have descriptive and meaningful variable names. 
 
 
 Then you click OK, and ta-daa a table appears, which tells you not only that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,443 incidents recorded by GMP, but also that this accounts for 29% of all crimes recorded in this time period. 
@@ -1266,7 +1266,7 @@ ggplot(., aes(x=Crime.type, y=number.of.crimes))+
 
 
 
-I hope that you can see the resemblance between the table on its side and the bar chart now! If unclear call us over, we'll explain! While it's easy to just move on the next step and insert a bar chart, it's important that you know what you are representing with it!
+We hope that you can see the resemblance between the table on its side and the bar chart now! If unclear call us over, we'll explain! While it's easy to just move on the next step and insert a bar chart, it's important that you know what you are representing with it!
 
 
 
@@ -1335,7 +1335,7 @@ Also in some versions of Excel you need to only highlight one cell in the column
 ![](imgs/sort_graph_newvs.png)
 
 
-You can also stylize your graph, to make it look the way you like. As I mentioned, we will go through some theory behind data visualisation, but if you want to spend some time making your graphs nice now, then below are some links you might find helpful: 
+You can also stylize your graph, to make it look the way you like. As we mentioned, we will go through some theory behind data visualisation, but if you want to spend some time making your graphs nice now, then below are some links you might find helpful: 
 
 - [Here is some information on how to change the layout or style of your graph](https://support.office.com/en-gb/article/Change-the-layout-or-style-of-a-chart-a346e438-d22a-4540-aa87-bce9feb719cf). 
 - [8 ways to make beautiful charts](http://www.upslide.net/blog/ways-to-make-beautiful-financial-charts-and-graphs-in-excel/)
@@ -1346,12 +1346,12 @@ You can also stylize your graph, to make it look the way you like. As I mentione
 ## Summarising numeric data
 
 
-So we saw that for categorical data the way we would carry out univariate analysis is to produce a frequency table, identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? I've thrown some words around, like average (mean) and median. Also spoke about the variation. In this section we will consider these numeric summaries for numeric variables, and also consider how we can go about visualising these as well. 
+So we saw that for categorical data the way we would carry out univariate analysis is to produce a frequency table, identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like average (mean) and median. Also spoke about the variation. In this section we will consider these numeric summaries for numeric variables, and also consider how we can go about visualising these as well. 
 
 
 
 
-But first, to get some numeric data to summarise, let's make another pivot table, to create a new data set, that tells me the **number** of crimes per borough. To do this, let's create a new frequency table in excel, this time using the 'borough' variable. I will leave you on your own to do this. You can refer back up to the steps above which we followed to create the crime type frequency table. But instead of crime type, this time you want to count the frequency of crimes per **borough**. So in the end you should end up with a table where there are two columns, one for 'borough' and one for 'number of crimes'. 
+But first, to get some numeric data to summarise, let's make another pivot table, to create a new data set, that tells me the **number** of crimes per borough. To do this, let's create a new frequency table in excel, this time using the 'borough' variable. We will leave you on your own to do this. You can refer back up to the steps above which we followed to create the crime type frequency table. But instead of crime type, this time you want to count the frequency of crimes per **borough**. So in the end you should end up with a table where there are two columns, one for 'borough' and one for 'number of crimes'. 
 
 
 Note that the column with the number of crimes in it might initially be labeled by your pivot table as something else, for example, it could be labeled as count of borough (as it counts the occurrence of each borough, and might not automatically realise that each row/ observation is one crime). So feel free to rename this column, by simply clicking in the cell, and writing "number of crimes". 
@@ -1432,7 +1432,7 @@ What is the total number of crimes? Well it's the sum of the number.of.crimes co
 `22587 + 24588 + 33115 + 34506 + 34619 + 35122 + 37073 + 40058 + 40751 + 117663 `
 
 
-This number incidentally is `r I(sum(per_borough_crimes$number.of.crimes))`. So how do we get the mean? As I said above, and as your readings mention, you take the sum of all the values, and you divide by the number of observations. 
+This number incidentally is `r I(sum(per_borough_crimes$number.of.crimes))`. So how do we get the mean? As we said above, and as your readings mention, you take the sum of all the values, and you divide by the number of observations. 
 
 
 You can say:
@@ -1495,19 +1495,19 @@ If you only have a few numbers, then this is feasible. Let's try this for our nu
 `22587, 24588, 33115, 34506, 34619, 35122, 37073, 40058, 40751, 117663`
 
 
-So, we have them in order. First question: are there an even or an odd number of values? Well, those of us with razor-sharp memories will remember that when we were calculating the mean, we already counted the number of values, and found a result of `n=10`. Those who don't remember this, count the number above. Are there 10? I hope so!
+So, we have them in order. First question: are there an even or an odd number of values? Well, those of us with razor-sharp memories will remember that when we were calculating the mean, we already counted the number of values, and found a result of `n=10`. Those who don't remember this, count the number above. Are there 10? We hope so!
 
 
 So is 10 an odd or an even number? (hint: it's even). Because of this, we know that the median will be the mean of the two central numbers. Which are the central numbers? Well, count in 5 from the start and 5 from the end of that row, and you will identify our two middle numbers (why 5? Well if you divide 10 by 2, to get to it's middle...!)
 
 
-Great, now we are almost there! We have identified the two middle numbers as 34,619 and 35,122. So how do we get the mean? Scroll up if you're not sure!
+Great, now we are almost there! We have identified the two middle numbers as 34,619 and 35,122. So, how do we get the mean? Scroll up if you're not sure!
 
 
-If you are sure, quick calculate it. 
+If you are sure, you can calculate it. 
 
 
-I'll calculate too:
+We will calculate it too:
 
 
 `34,619 + 35,122 =` `r I(as.character(sum(34619 + 35122)))`
@@ -1525,7 +1525,7 @@ If you are confused about any of this just now then let us know by raising your 
 ### Activity 2.5: Mean and median in excel
 
 
-Now that you understand how the mean and median are calculated, what they reprepsent, and what situations are best to each one of them in, let's move on to the practicalities of how you calculate these in excel. Of course, I keep telling you we are lazy, and we don't want to be calculating things by hand. This is why we use Excel. So here's a quick guide to getting the mean and the median in Excel. It's easy, but we'll be using **formulas**. 
+Now that you understand how the mean and median are calculated, what they reprepsent, and what situations are best to each one of them in, let's move on to the practicalities of how you calculate these in excel. Of course, we keep telling you we are lazy, and we don't want to be calculating things by hand. This is why we use Excel. So here's a quick guide to getting the mean and the median in Excel. It's easy, but we'll be using **formulas**. 
 
 
 
@@ -1566,7 +1566,7 @@ Easy to remember, right? So to calculate the median, follow the same steps that 
 
 
 
-Measures of central tendency can be useful when we want to talk about our data in a single number. Sometimes it can be helpful to know what the average number of crimes are, or the average numer of arrests per police force, or the average age of offenders, or the average height for basketball players. These can tell us very qick reference values, which we can use to describe our data. It is much more meaningful to tell someone that the average height of basketball players is 200cm, than to list all the heights of every person who has ever played for the NBA. But the using a single number to summarise your data can also hide important information. Remember the white rainbow, from the Tiger that Isn't. If you don't, then go read this chapter from your reading. It's actually a fun read, and also you will understand what I mean. The next section shows you another, current example of what sort of interesting information can be hidden by focusing only on the measures of central tendency. 
+Measures of central tendency can be useful when we want to talk about our data in a single number. Sometimes it can be helpful to know what the average number of crimes are, or the average numer of arrests per police force, or the average age of offenders, or the average height for basketball players. These can tell us very qick reference values, which we can use to describe our data. It is much more meaningful to tell someone that the average height of basketball players is 200cm, than to list all the heights of every person who has ever played for the NBA. But the using a single number to summarise your data can also hide important information. Remember the white rainbow, from the Tiger that Isn't. If you don't, then go read this chapter from your reading. It's actually a fun read, and also you will understand what we mean. The next section shows you another, current example of what sort of interesting information can be hidden by focusing only on the measures of central tendency. 
 
 
 
@@ -1623,8 +1623,8 @@ So you can see here that the majority of boroughs are clustered on the left side
 ### Histograms
 
 
-This graph is called a **histogram**. While it may at first glance resemble a bar chart, it actually isn't one. If it does't quite make sense, have a look at 
-[this interactive essay on histograms](http://tinlizzie.org/histograms/). Even if you are very confident with histograms, I would recomment that you take time to go through this interactive tutorial. It gives you a really great, hands-on experience in building one. The [Chris Wild video I linked earlier](https://www.youtube.com/watch?v=U3lk2nQYfAQ&amp=&list=PL8CRAVedURQrlxeFfme0TEgaj1_h67JUR&amp=&index=4) also shows you about histograms. They are excellent for plotting the dirstribution of numeric data. But how do they work? Well I am really hoping that you have gone through the video and the tutorial, but I will also just to reinforce your learning, explain here. 
+This graph is called a **histogram**. While it may at first glance resemble a bar chart, it actually isn't one. If it doesn't quite make sense, have a look at 
+[this interactive essay on histograms](http://tinlizzie.org/histograms/). Even if you are very confident with histograms, we would recommend that you take time to go through this interactive tutorial. It gives you a really great, hands-on experience in building one. The [Chris Wild video we linked earlier](https://www.youtube.com/watch?v=U3lk2nQYfAQ&amp=&list=PL8CRAVedURQrlxeFfme0TEgaj1_h67JUR&amp=&index=4) also shows you about histograms. They are excellent for plotting the dirstribution of numeric data. But how do they work? Well, we are really hoping that you have gone through the video and the tutorial, but we will also just to reinforce your learning, explain here. 
 
 
 Let's say we have some numeric data. We know already that we can't put it into categories, that's why we can't build a frequency table. Every entry would only appear the once. But what we *can* do, is create **bins** for our numeric data to fall into. Think of your numeric variable along the horizontal x-axis. Something like this: 
@@ -1633,7 +1633,7 @@ Let's say we have some numeric data. We know already that we can't put it into c
 
 
 
-Now let's say we have some data on the number of chocolate bars that I ate each day last week. Now I'm not great at collecting data, so I only have data for 3 days: Monday, Wednesday, and Friday. This is my data:
+Now, let's say we have some data on the number of chocolate bars that we ate each day last week. Now, we are not great at collecting data, so we only have data for 3 days: Monday, Wednesday, and Friday. This is our data:
 
 
 ```{r, echo=FALSE}
@@ -1647,7 +1647,7 @@ df %>%
 
 
 
-Let's say I'm interested in my *numeric* variable here, the number of chocolate bars. I don't care about which days I ate how many on, I just want to carry out some *uni*variate analysis on the numeric variable of number of chocolate bars. I want to look at the distribution of the numbers. I want to plot this. As I mentioned above, if I wanted to plot this data on a histogram, I need to first split my data into **bins**. What are **bins**? **Bins** are the result of the action of "bining" the range of values. That is, you divide the entire range of values into a series of intervals. So for example, we can decide to bin our values into groups of fives. Something like this: 
+Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days I ate how many on, I just want to carry out some *uni*variate analysis on the numeric variable of number of chocolate bars. I want to look at the distribution of the numbers. I want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "bining" the range of values. That is, you divide the entire range of values into a series of intervals. So for example, we can decide to bin our values into groups of fives. Something like this: 
 
 
 ![](imgs/hist_bins.png)
@@ -1658,19 +1658,19 @@ All that means is that if you look at those purple bins there, any value between
 And that's all there is to it. Once you have your bins, you just count how many values fall into each interval. 
 
 
-So if I were to draw this historgam for my chocolate consumption data, then if I start with Monday, I can see I had 2 chocolate bars, and therefore I would add one value (one observation) to the 0-5 bin. Like this: 
+So, if we were to draw this histogram for our chocolate consumption data, then if we start with Monday, we can see we had 2 chocolate bars, and therefore we would add one value (one observation) to the 0-5 bin. Like this: 
 
 ![](imgs/hist_fill_1.png)
 
 
-Then I look at Wednesday, and I see that I had 3 chocolate bars, adding another value to the bin that catches values between 0-5. Like so: 
+Then, we look at Wednesday, and we see that we had 3 chocolate bars, adding another value to the bin that catches values between 0-5. Like so: 
 
 
 
 ![](imgs/hist_fill_2.png)
 
 
-And finally, with great shame I look at Friday, when I put away 8 whole chocolate bars, and realise that I have to add a value to the next bin, the one that catched values anywhere between 5-10. As such: 
+And finally, with great shame we look at Friday, when we put away 8 whole chocolate bars, and realise that we have to add a value to the next bin, the one that catched values anywhere between 5-10. As such: 
 
 
 ![](imgs/hist_fill_3.png)
@@ -1702,7 +1702,7 @@ So looking back up at our crimes per borough histogram, you can now see that the
 
 ### Activity 2.6: Histograms in Excel
 
-So how do you build a histogram? Of course I won't make you draw one manually, every time you need to build one, so let's get to excel and make our own. This time it's slightly different than just inserting a bar chart. Remember that bar charts represent the frequency of a categorical variable. Building one for a numeric variable, such as number of crimes, would not make sense. If you are unsure why, look back at our frequency table for the number of crimes variable. All the frequencies are 1. So your bars would all be the same height, and we would be none the wiser about any distribution. One important feature of numeric variables is that **the distance between numbers is meaningful**. Right? Remember this from the definitions for levels of measurement? So that is why we know how far for example 117,663 is from 40,751, and how much farther it is than 40,751 is from the next number in our data, 40,058. A histogram will display this for you. 
+So, how do you build a histogram? Of course, we won't make you draw one manually, every time you need to build one, so let's get to excel and make our own. This time it's slightly different than just inserting a bar chart. Remember that bar charts represent the frequency of a categorical variable. Building one for a numeric variable, such as number of crimes, would not make sense. If you are unsure why, look back at our frequency table for the number of crimes variable. All the frequencies are 1. So your bars would all be the same height, and we would be none the wiser about any distribution. One important feature of numeric variables is that **the distance between numbers is meaningful**. Right? Remember this from the definitions for levels of measurement? So that is why we know how far for example 117,663 is from 40,751, and how much farther it is than 40,751 is from the next number in our data, 40,058. A histogram will display this for you. 
 
 
 
@@ -1782,7 +1782,7 @@ Click on that and from the pop-up window select "Histogram". Then click "OK":
 ![](imgs/dat_pick_hist.png)
 
 
-In the window that pops up, you have to populate the `Input range` and the `Bin range` fields with the relevant cells. Input range refers to your data. For this, click in the box my input range, and then select the cells that contain your numeric data. When you're done, hit enter. 
+In the window that pops up, you have to populate the `Input range` and the `Bin range` fields with the relevant cells. Input range refers to your data. For this, click in the box our input range, and then select the cells that contain your numeric data. When you're done, hit enter. 
 
 
 Then do the same for the bin range, but select the bin range variables:
@@ -1876,7 +1876,7 @@ You will notice that some authors talk about the 5-number summary of a distribut
 
 
 
-These numbers are useful because you can begin to get a feel for your data, not just in terms of a single number summary, such as the mean or median number of crimes in a neighbourhood, but you can begin to describe the spread of the data, and think about what that means. Earlier I asked you to discuss with a partner about why you think that Manchester borough is so far away from the others in terms of numbers of crimes. I hope that your discussion had to do with populations, and that the city centre is contained there, with it's central shopping areas, which can act as crime attractors and generators (if you are not sure what crime attractors/ generators are, I suggest you take some tyime to learn about them [here](https://www.ncjrs.gov/App/Publications/abstract.aspx?ID=158108)). As well as major transport hubs, and many many people passing through. This is all interesting to know, but not something that would show up, if you were just considering the average number of crimes per borough. 
+These numbers are useful because you can begin to get a feel for your data, not just in terms of a single number summary, such as the mean or median number of crimes in a neighbourhood, but you can begin to describe the spread of the data, and think about what that means. Earlier we asked you to discuss with a partner about why you think that Manchester borough is so far away from the others in terms of numbers of crimes. We hope that your discussion had to do with populations, and that the city centre is contained there, with it's central shopping areas, which can act as crime attractors and generators (if you are not sure what crime attractors/ generators are, we suggest you take some time to learn about them [here](https://www.ncjrs.gov/App/Publications/abstract.aspx?ID=158108)). As well as major transport hubs, and many many people passing through. This is all interesting to know, but not something that would show up, if you were just considering the average number of crimes per borough. 
 
 ### Activity 2.7: Calculate quartiles
 
@@ -1931,12 +1931,12 @@ So now we know that to summarise our data, we can produce the following numbers:
 The standard deviation for our data is `r I(as.character(round(sd(per_borough_crimes$number.of.crimes), digits=2)))`. But, wait a minute! That is a bit large, isn't it? How is it that half the boroughs have a value below  `r I(as.character(quantile(per_borough_crimes$number.of.crimes)[3]))`, the mean is `r I(as.character(mean(per_borough_crimes$number.of.crimes)))`, and you are telling me the standard deviation, in other words, the average distance of each individual value to the mean is `r I(as.character(round(sd(per_borough_crimes$number.of.crimes), digits=2)))`? This makes no sense? Shouldn't the standard deviation be smaller, given that most boroughs should be close to the mean? 
 
 
-Remember what I said at the outset. The standard deviation does not quite work when you have highly skewed distributions or outliers. When your standard deviation is larger than the mean, it signifies that you have a skewed distribution. The larger the difference is, the greater the skew. In fact, the more important use of the standard deviation in such cases is as a sign to conclude that you are dealing with a skewed distribution.
+Remember what we said at the outset. The standard deviation does not quite work when you have highly skewed distributions or outliers. When your standard deviation is larger than the mean, it signifies that you have a skewed distribution. The larger the difference is, the greater the skew. In fact, the more important use of the standard deviation in such cases is as a sign to conclude that you are dealing with a skewed distribution.
 
 
 ### Activity 2.8: Standard Deviation in Excel
 
-Finally, I will leave you with a note on how to calculate the standard deviation in excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV()`, and you apply it the same way you did the functions above, by selecting the cells which contain the data you want to calculate, to put them inside the brackets. 
+Finally, we will leave you with a note on how to calculate the standard deviation in excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV()`, and you apply it the same way you did the functions above, by selecting the cells which contain the data you want to calculate, to put them inside the brackets. 
 
 
 
@@ -1944,13 +1944,13 @@ Finally, I will leave you with a note on how to calculate the standard deviation
 ## Writing it all up
 
 
-This is all well and good, but what happens now that we have done all this analysis? Well most of the time you will want to write up your results. You will want to interpret them, of course, and you will want to present these interpretations, as well as supporting evidence from your analysis to share with the world. I will show a brief example here, of how to begin thinking about your report. 
+This is all well and good, but what happens now that we have done all this analysis? Well most of the time you will want to write up your results. You will want to interpret them, of course, and you will want to present these interpretations, as well as supporting evidence from your analysis to share with the world. We will show a brief example here, of how to begin thinking about your report. 
 
 
-The structure of your report will always depend on what is the purpose you are writing it for. If you are writing a journal article, you will have to conform to journal guidelines. For example, if you were hoping to submit something to the *British Journal of Criminology* you will have to follow their [author guidelines](https://academic.oup.com/bjc/pages/General_Instructions). If you were writing a [What Works Briefing](http://whatworks.college.police.uk/Research/Briefings/Pages/default.aspx) for the [College of Policing](http://www.college.police.uk/Pages/Home.aspx), you would follow their guidelines to make your report follow the [format and structure of other reports](http://whatworks.college.police.uk/Research/Briefings/Documents/What%20Works%20Street%20Lighting%20final%20version%20June%202013.pdf). For the assignment for this class, you will also be given specific guidelines that you will have to adhere to, both in terms of content and format. But these provide just a skeleton, which you populate with your own research, findings, and interpretations of your data. So while there are guidelines and templates, every report is unique. 
+The structure of your report will always depend on what is the purpose you are writing it for. If you are writing a journal article, you will have to conform to journal guidelines. For example, if you were hoping to submit something to the *British Journal of Criminology* you will have to follow their [author guidelines](https://academic.oup.com/bjc/pages/General_Instructions). If you were writing a blog post for the [LSE Impact of Social Sciences Blog](https://blogs.lse.ac.uk/impactofsocialsciences/), you would follow their guidelines to make your report follow the [required format and structure](https://blogs.lse.ac.uk/impactofsocialsciences/write-for-us/). For the assignment for this class, you will also be given specific guidelines that you will have to adhere to, both in terms of content and format. But these provide just a skeleton, which you populate with your own research, findings, and interpretations of your data. So while there are guidelines and templates, every report is unique. 
 
 
-Here, we will build a report based on the analysis we carried out above, to give you a bit of experience in building reports. I'll walk you through this one, but make sure to ask about anything that might make you uncertain, as you will be writing your own report for this week's Task. 
+Here, we will build a report based on the analysis we carried out above, to give you a bit of experience in building reports. We will walk you through this one, but make sure to ask about anything that might make you uncertain, as you will be writing your own report for this week's Task. 
 
 
 ### Build a structure
@@ -1994,7 +1994,7 @@ Finally you will have a discussion/ conclusion (sometimes these are two separate
 
 **References**
 
-You will be familiar with citing your sources from writing essays. If you need any refreshers on how to cite papers (which you will have mentioned in your **Background** section) you can check out the library's [my learning essentials](http://www.library.manchester.ac.uk/using-the-library/students/training-and-skills-support/my-learning-essentials/online-resources/?level=3&level1Link=2&level2Links=referencing,) helpful resources for referencing. But one thing you might *not* know is that you should also cite your data. Of course some times you will not be able to do this, for example if you collect your own data. However if you are analysing secondary data, you should always cite it. Read [this page](https://www.ukdataservice.ac.uk/use-data/citing-data) on the UK Data Service website, in order to learn about how to cite data. For a TL;DR version, when you serach for your data, you can click on "Item Details" in order to get some details on the data source, and further you can click on the Citation tab, which will open up a section from where you can copy and paste the citation for your data set. We will come back to this later, when we are working with UKDS data. 
+You will be familiar with citing your sources from writing essays. If you need any refreshers on how to cite papers (which you will have mentioned in your **Background** section) you can check out the Library's [My Learning Essentials](http://www.library.manchester.ac.uk/using-the-library/students/training-and-skills-support/my-learning-essentials/online-resources/?level=3&level1Link=2&level2Links=referencing,) helpful resources for referencing. But one thing you might *not* know is that you should also cite your data. Of course some times you will not be able to do this, for example if you collect your own data. However if you are analysing secondary data, you should always cite it. Read [this page](https://www.ukdataservice.ac.uk/use-data/citing-data) on the UK Data Service website, in order to learn about how to cite data. For a TL;DR version, when you serach for your data, you can click on "Item Details" in order to get some details on the data source, and further you can click on the Citation tab, which will open up a section from where you can copy and paste the citation for your data set. We will come back to this later, when we are working with UKDS data. 
 
 
 In any case, your report should right now look something like this: 
@@ -3220,7 +3220,7 @@ Take the example of the Crime Survey for England and Wales. The Crime Survey for
 Each year around 50,000 households across England and Wales will be invited to participate in the survey. In previous years three quarters of households invited to take part agreed to participate. While this does encompass a lot of people, you can see how it's not the entire population of England and Wales. Instead it is a **representative sample**. 
 
 
-While reporting sample statistics from the sample might be interesting (ie to talk about whether men or women have higher worry about crime), the more interesting approach is to make inferences about the population at large. Do men and women *generally* have different approached to fear of crime? In order to answer these questions, criminologists use **p-values** and **effect sizes** to talk about the relationships between two variables in a population. Since in this course we mostly talk about the relationships between variables n a sample, we talk about the sample statistics. So you will learn about inferential statistics in the future. But for now it is important that you note this difference between **sample statistics** and **population parameters**. 
+While reporting sample statistics from the sample might be interesting (ie to talk about whether men or women have higher worry about crime), the more interesting approach is to make inferences about the population at large. Do men and women *generally* have different approached to fear of crime? In order to answer these questions, criminologists use **p-values** and **effect sizes** to talk about the relationships between two variables in a population. Since in this course we mostly talk about the relationships between variables in a sample, we talk about the sample statistics. So you will learn about inferential statistics in the future. But for now it is important that you note this difference between **sample statistics** and **population parameters**. 
 
 
 They even have different notation. For example, you would use x-bar ($x̄$) to talk about your sample mean, but mew ($μ$) to talk about your population mean. Similarly, you can calculate the standard deviation for your sample, or for your population. In each instance, you can measure each for your sample, and then infer it for your population. How do you do this? Well, you make use of something called the **sampling distribution of the mean**. 
