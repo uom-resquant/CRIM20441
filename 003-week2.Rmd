@@ -691,7 +691,7 @@ df %>%
 
 
 
-Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days I ate how many on, I just want to carry out some *uni*variate analysis on the numeric variable of number of chocolate bars. I want to look at the distribution of the numbers. I want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "bining" the range of values. That is, you divide the entire range of values into a series of intervals. So for example, we can decide to bin our values into groups of fives. Something like this: 
+Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days we ate how many on, we just want to carry out some *uni*variate analysis on the numeric variable of number of chocolate bars. We want to look at the distribution of the numbers. We want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "bining" the range of values. That is, you divide the entire range of values into a series of intervals. So for example, we can decide to bin our values into groups of fives. Something like this: 
 
 
 ![](imgs/hist_bins.png)
