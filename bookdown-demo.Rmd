@@ -227,7 +227,7 @@ Finally, name your Word document 'Trial Document' (in the filename box) and clic
 A word of caution - if your P: drive is full (and this tends to happen when you save image or sound files to it), there is a chance that some of the applications you want to use do not work. So make sure you keep your P: drive tidy if you don’t want to run into problems.
 
 
-One last note for using cluster PCs: because cluster PCs come pre-installed with Excel you can skip section 1.5.1 and go straight to "1.5.2 Install data analysis toolpak".
+One last note for using cluster PCs: because cluster PCs come pre-installed with Excel you can skip section 1.6.1 and go straight to "1.6.2 Install data analysis toolpak".
 
 
  
@@ -540,7 +540,7 @@ Creating data is a gift that keeps on giving, not just for yourself, but for oth
 But there is one important consideration when you are sharing a dataset, and something that is **very important** to you if you are using a dataset someone else has created - you need to know what the variables *mean*. This is made possible by the creation of something called a *codebook* (sometimes called a *data dictionary*). This is a note that accompanies a dataset, telling the user a bit about the data, including what each variable means. 
 
 
-For example, in England and Waled we have a national victimisation survey, the Crime Survey for England and Wales (CSEW), which asks people about their experiences with victimisation, their worry about crime, their trust in the police, and other criminal justice related topics. We will be using this dataset later in the course. In order for you to be able to make sense of these data when you download it, they come with some information, including the codebook. 
+For example, in England and Wales we have a national victimisation survey, the Crime Survey for England and Wales (CSEW), which asks people about their experiences with victimisation, their worry about crime, their trust in the police, and other criminal justice related topics. We will be using this dataset later in the course. In order for you to be able to make sense of these data when you download it, they come with some information, including the codebook. 
 
 For example following this link you can find the user guidance for the 2013-14 wave, specifically the teaching data set (unrestricted access): [http://doc.ukdataservice.ac.uk/doc/8011/mrdoc/pdf/8011_user_guide_csew_2013-14_teaching_dataset.pdf](http://doc.ukdataservice.ac.uk/doc/8011/mrdoc/pdf/8011_user_guide_csew_2013-14_teaching_dataset.pdf)
 
