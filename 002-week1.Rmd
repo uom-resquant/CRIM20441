@@ -193,7 +193,7 @@ Click 'OK' and you should be done! You can check by clicking on the 'Data' tab, 
 ![](imgs/data_tab_analysis_appears.png)
 
 
-If you are confused, see [here](https://support.office.com/en-gb/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4) for instructions how to get this. Once you have successfully installed the data analysis toolpack, it will appear.  
+If you are confused, see [here](https://support.office.com/en-gb/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4) for instructions how to get this. You can find the instructions for Mac [here](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4#OfficeVersion=macOS). Once you have successfully installed the data analysis toolpack, it will appear.  
 
 
 And that's it - you are now set up! Excellent! 
@@ -407,7 +407,7 @@ We can download some data for crime in London.
 
 To do this, open the [https://data.police.uk/](https://data.police.uk/) website. 
 
-- In `Date range` just select a range you want to look at. We selected June 2016 - June 2016, but you can choose something more recent if you like.
+- In `Date range` just select a range you want to look at. We selected August 2019 - August 2019, but you can choose something more recent if you like.
 - In `Force` find `Metropolitan Police Service`, and tick the box next to it. 
 - In `Data sets` tick `Include crime data`.
 - Finally click on `Generate File` button.
@@ -775,7 +775,7 @@ What is the unit of analysis here? Take a moment again, to discuss with a friend
 
 
 
-What did you decide on? The helpful thing here, is to look at what is the question they are asking - and what are they asking this about? The key sentence here is this one: *"Indeed, just 86 street segments in Seattle include one-third of crime incidents in which a juvenile was arrested during the study period."* You can see that they are talking about the *number of arrests* per each *street segment*. So your unit of analysis is *street segments*. 
+What did you decide on? The helpful thing here is to look at what is the question they are asking - and what are they asking this about? The key sentence here is this one: *"... we examine both temporal and spatial variation in crime across street blocks in the city of Seattle"* You can see that they are talking about *crime* (measured as *number of arrests*) per each *street block* or *street segment*. So your unit of analysis is *street segments* or *street blocks*. 
 
 
 Want to play again?
