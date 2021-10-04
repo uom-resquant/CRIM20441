@@ -986,7 +986,7 @@ Ready? OK, we can tell you now. Actually, according to this most recent count of
 
 ## Univariate analysis
 
-You want to analyse your variable. As you have likely pieced together by now, that  *uni*variate analysis simply just means - the analysis of *one* variable. We are giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variable analysis which is the analysis of the relationship between *more than two* variables!!!
+You want to analyse your variable. As you have likely pieced together by now,  *uni*variate analysis simply just means - the analysis of *one* variable. We are giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variable analysis which is the analysis of the relationship between *more than two* variables!!!
 
 
 So, just remember - uni = one, bi = two, and multi = many. That's it, no need to count past two. We data analysts are very lazy people, you will begin to figure this out as we go. 
@@ -998,14 +998,14 @@ Right, now that we are confident with out terminology, let's think about what we
 ### The importance of level of measurement
 
 
-Well remember when we spoke about **levels of measurement** last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were **nominal**, **ordinal**, or **numeric**. If it still doesn't ring a bell, go back to last week's lab and `ctrl + f` for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate: 
+Do you remember when we spoke about **levels of measurement** last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were **nominal**, **ordinal**, or **numeric**. If it still doesn't ring a bell, go back to last week's lab and `ctrl + f` for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate: 
 
 
 
 ![](imgs/lvl_msr_diagr.png)
 
 
-So why is this important? Well what level of measurement your variable falls into dictates what types of summaries are appropriate. Thinking back to the gender example, it would not make huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and as so an appropriate way to summarise it is not to calculate an average (mean or median, but we will get into this a bit later). Instead there are other approaches you could take. For example you could look into the *modal category* - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occurring value for this variable. It occurred 96% of the time, while the 'female' value for the gender variable only appeared 4% of the time, since that is how many women were observed. How do we find this out? Well in the simplest term we could count all the occurrences of each value in the data set. But remember what we said about analysts being lazy? We don't want to be going through spreadsheets line by line. 
+Why is this important? Well, what level of measurement your variable falls into dictates what types of summaries are appropriate. Thinking back to the gender example, it would not make huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and thus calculating its average is not an appropriate way to summarise it. Instead, there are other approaches you could take. For example, you could look into the *modal category* - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occurring value for this variable. It occurred 96% of the time, while the 'female' value for the gender variable only appeared 4% of the time, since that is how many women were observed. How do we find this out? Well in the simplest term we could count all the occurrences of each value in the data set. But remember what we said about analysts being lazy? We don't want to be going through spreadsheets line by line. 
 
 
 Instead, we would look at the frequency of all the values the variable can take, in this case the frequency of the male and female values for gender. We could do this by something called a **frequency table**. Frequency tables are valid ways for summarising categorical variables, however they might not be appropriate for numeric variables, which are better suited to measures like **average** and **variance**. But now we are just throwing words around.
@@ -1026,10 +1026,10 @@ Hopefully these words sound familiar from your reading and some of the lecture v
 ### Activity 2.2: Crime types
 
 
-Let's start with some exercises in talking about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself though, because we have put the data on blackboard for you. 
+Let's start with some exercises in talking about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself though, because we have put the data on Blackboard for you. 
 
 
-So to find this data set, just go to blackboard, and under learning materials > week 2 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using excel. 
+So, to find this data set, just go to Blackboard, and under 'Learning materials' > week 2 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using Excel. 
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -1052,11 +1052,11 @@ It should open up like this, with your **variable** names as column headers:
 Under the column headers you have your `r I(nrow(gmp_crimes))` rows, one for each of the `r I(nrow(gmp_crimes))` crimes in your data. Recall that these are your **observations**. Also, that therefore your **unit of analysis** in this data at this moment is each individual crime. 
 
 
-Anyway let's say we want to talk about your variables. Like let's say that you want to talk about the variable **crime type**. 
+Anyway, let's say we want to talk about your variables. For instance, you may want to talk about the variable **crime type**. 
 
 
 
-What level of measurement does this variable have? Is it a category? (hint: yes, it's in the 'Summarising categorical data' section, that sort of gives it away...) Does it have a meaningful order? Now this one is one to think about! What do you think? Is crime type nominal or ordinal variable? Do you think it has a meaningful order? Take a moment to think about which one you think it is, and most importantly **why** you think this is the case. Now discuss in your groups which one you think it is and also why you think this. Take turns to discuss what you think, and share your reasoning behind this. Remember to make notes in the Google doc for this lab session! 
+What level of measurement does this variable have? Is it a category? (hint: yes, it's in the 'Summarising categorical data' section, that sort of gives it away...). Does it have a meaningful order? Now, this one is one to think about! What do you think? Is crime type nominal or ordinal variable? Do you think it has a meaningful order? Take a moment to think about which one you think it is, and most importantly **why** you think this is the case. Now discuss in your groups which one you think it is and also why you think this. Take turns to discuss what you think, and share your reasoning behind this. 
 
 
 Here's a gif to separate the answer, so you don't ruin the surprise before you have a chance to discuss. 
@@ -1067,13 +1067,13 @@ Here's a gif to separate the answer, so you don't ruin the surprise before you h
 
 
 
-So did you decide that crime type is a nominal variable? If you did nice work! Indeed it would be very hard to find a meaningful order for the categories in there. You could order alphabetically, but remember that is not *meaningful*. You cannot agree what comes first in the same way that you would be able to for a scale of *strongly disagree* to *strongly agree*. Therefore it is nominal. This part also does matter, but we will return to why later. 
+Did you decide that crime type is a nominal variable? If you did - nice work! Indeed, it would be very hard to find a meaningful order for the categories in there. You could order alphabetically, but remember that is not *meaningful*. You cannot agree what comes first in the same way that you would be able to for a scale of *strongly disagree* to *strongly agree*. Therefore it is nominal. This part also does matter, but we will return to why later. 
 
 
 ### Frequency tables
 
 
-Okay so for now we want to find out about this variable. We know it's a categorical variable, so if you've done your reading you will now know that you want to be looking at a frequency table to describe it. A **frequency table** will tell you the number of times that each value that the variable can take appears in your data. In other words, the frequency! Since each row is a crime incident, every time a particular value appears in your data, it means that a crime that belongs to that crime category occurred. 
+Okay, so for now we want to find out a bit more about this variable. We know it's a categorical variable, so if you've done your reading you will now know that you want to be looking at a frequency table to describe it. A **frequency table** will tell you the number of times that each value that the variable can take appears in your data. In other words, the frequency! Since each row is a crime incident, every time a particular value appears in your data, it means that a crime that belongs to that crime category occurred. 
 
 
 Here's an example of a frequency table. Let's say we have this data set of waiters and waitresses who work at Lil' Bits restaurant. Here is our data in table format:
@@ -1094,20 +1094,20 @@ We have even made a gif to illustrate the process, something like this:
 
 
 
-We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the `r I(nrow(gmp_crimes))` rows in your GMP crimes data.
+We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However, in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the `r I(nrow(gmp_crimes))` rows in your GMP crimes data.
 
 
-Luckily Excel makes this much easier for us. 
+Luckily, Excel makes this much easier for us. 
 
 
 ### Creating a frequency table in Excel
 
 
-Making a frequency table in excel is quite simple, and it is achieved by using something called a **pivot table**. As far as we know, this name is specific to Excel. If you apply to public sector jobs, especially where excel is a requirement, the word pivot table is likely to come up in interview. It's a handy tool for summarising categorical data. A pivot table is a tool that lets you build different types of summary tables from your data. One of these is a frequency table. 
+Making a frequency table in Excel is quite simple, and it is achieved by using something called a **pivot table**. As far as we know, this name is specific to Excel. If you apply to public sector jobs, especially where Excel is a requirement, the word pivot table is likely to come up in interview. It's a handy tool for summarising categorical data. A pivot table is a tool that lets you build different types of summary tables from your data. One of these is a frequency table. 
 
 > PivotTables are a great way to summarize, analyze, explore, and present your data, and you can create them with just a few clicks. PivotTables are highly flexible and can be quickly adjusted depending on how you need to display your results.
 
-- [The microsoft excel sales pitch](https://support.office.com/en-gb/article/Create-a-PivotTable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
+- [The Microsoft Excel sales pitch](https://support.office.com/en-gb/article/Create-a-PivotTable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576)
 
 
 If you want to go a bit further in the pivot table knowledge, here's a handy list of [23 things you should know about pivot tables](https://exceljet.net/things-to-know-about-excel-pivot-tables). We like it because it's a list, and Buzzfeed has taught us that all information is best presented in list format, preferably with a random number of items in the list, like 23. We'll cover most of these items during the upcoming weeks.
@@ -1144,7 +1144,7 @@ Don't worry too much about the top option where you select your data, because th
 
 
 
-Now when you click OK, excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data. 
+Now, when you click OK, Excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data. 
 
 
 
@@ -1227,7 +1227,7 @@ Then you click OK, and ta-daa a table appears, which tells you not only that the
 
 
 
-Interesting, no? Sometimes proportions can put things into perspective. So for example, if we look at total crime, we might imagine that it's a larger number than we had thought, and feel worried that perhaps there is more crime in Greater Manchester than we'd anticipated. However, if you have a look into what these crimes are, this may help interpret the data. Robbery for example can be a very traumatic event, and is one that makes people most fearful of crime. However you can see that volume-wise, it makes up just over 1 per cent of all crimes. So if robbery is what we are particularly concerned about, we can rest assured that this is not a frequent crime, all things considered. 
+Interesting, isn't it? Sometimes proportions can put things into perspective. So, for example, if we look at total crime, we might imagine that it's a larger number than we had thought, and feel worried that perhaps there is more crime in Greater Manchester than we'd anticipated. However, if you have a look into what these crimes are, this may help interpret the data. Robbery for example can be a very traumatic event, and is one that makes people most fearful of crime. However you can see that volume-wise, it makes up just over 1 per cent of all crimes. So, if robbery is what we are particularly concerned about, we can rest assured that this is not a frequent crime, all things considered. 
 
 
 Does the frequency of any of these crime types surprise you? Is this what you expected? When we speak about recorded crime in such general terms, you have to consider that all these very diverse crime types are included in such an umbrella term. So if you begin to hear about an increase in crime, surely you should begin asking - increase in which crimes? An increase in burglaries is a very different thing from an increase in robberies, no? They would require different responses from the police for example, and have different effect on people's experiences of victimisation and fear of crime. Depending on which one is driving the increase would dictate whether we need more on-street foot patrols in robbery hotspots, or whether we need better burglar alarms. Therefore looking into the types of crime, and their frequencies, can lead to some very useful insight indeed. 
@@ -1248,7 +1248,7 @@ In any case, bar charts represent your data by creating a bar for every category
 
 Now imagine that the number of crimes was represented by a bar with a height that corresponds to the value in each cell. That is a bar chart. 
 
-So in this case, a bar chart would look something like this: 
+In this case, a bar chart would look something like this: 
 
 
 ```{r, echo=FALSE}
@@ -1272,7 +1272,7 @@ We hope that you can see the resemblance between the table on its side and the b
 
 ### Activity 2.4: Bar charts in Excel
 
-OK so let's make our own bar chart in Excel. 
+OK, so let's make our own bar chart in Excel. 
 
 
 Go back to your pivot table, that has the frequency of each crime type. Click anywhere in the table, to highlight it all. However you might not want all the values. You can see that on the last row we have a total column. If we're comparing the crime types against each other it might not make sense to also include a bar for the total. So you might want to highlight everything except the total bar:
@@ -1328,7 +1328,7 @@ Highlight the values in the total column, and click the data tab. Click the litt
 
 
 
-Note, depending on the version of excel you have and if you use PC or Mac, it may say "smallest to largest" instead of ascending and "largest to smallest" instead of descending - but these mean the same thing!
+Note, depending on the version of Excel you have and if you use PC or Mac, it may say "smallest to largest" instead of ascending and "largest to smallest" instead of descending - but these mean the same thing!
 
 Also in some versions of Excel you need to only highlight one cell in the column you want to sort on, and there is no arrow next to the sort button, instead you click on the button and a popup window will appear. You can chose 'Descending' on this popup window: 
 
@@ -1346,7 +1346,7 @@ You can also stylize your graph, to make it look the way you like. As we mention
 ## Summarising numeric data
 
 
-So we saw that for categorical data the way we would carry out univariate analysis is to produce a frequency table, identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like average (mean) and median. Also spoke about the variation. In this section we will consider these numeric summaries for numeric variables, and also consider how we can go about visualising these as well. 
+We saw that for categorical data, the way we would carry out univariate analysis is to produce a frequency table, identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like average (mean) and median. Also spoke about the variation. In this section we will consider these numeric summaries for numeric variables, and also consider how we can go about visualising these as well. 
 
 
 
@@ -1387,7 +1387,7 @@ If you consider this frequency table your new data, you can see that you have tw
 ... numeric! Yay! 
 
 
-So how do we talk about a numeric variable. You can imagine why a frequency table doesn't quite make sense.  A numeric variable can take any form between two limits, the *minimum* value and the *maximum* value. Because they don't map neatly into a few categories like categorical variables, it is likely that most of them would have a frequency value of 1. And that is not very interesting. 
+So, how do we talk about a numeric variable? You can imagine why a frequency table doesn't quite make sense.  A numeric variable can take any form between two limits, the *minimum* value and the *maximum* value. Because they don't map neatly into a few categories like categorical variables, it is likely that most of them would have a frequency value of 1. And that is not very interesting. 
 
 
 Dont believe me? You can give it a try. Make a frequency table of a numeric variable, and nothing exciting will happen. See:
@@ -1432,7 +1432,7 @@ What is the total number of crimes? Well it's the sum of the number.of.crimes co
 `22587 + 24588 + 33115 + 34506 + 34619 + 35122 + 37073 + 40058 + 40751 + 117663 `
 
 
-This number incidentally is `r I(sum(per_borough_crimes$number.of.crimes))`. So how do we get the mean? As we said above, and as your readings mention, you take the sum of all the values, and you divide by the number of observations. 
+This number incidentally is `r I(sum(per_borough_crimes$number.of.crimes))`. So, how do we get the mean? As we said above, and as your readings mention, you take the sum of all the values, and you divide by the number of observations. 
 
 
 You can say:
@@ -1459,7 +1459,7 @@ which is
 `42008.2`.
 
 
-So what is the mean number of crimes per borough? You guessed it, the mean number of crimes per borough is 42,008.2. That means that on average, there are about 42,000 crimes per borough. And this measure is the mean. 
+Then, what is the mean number of crimes per borough? You guessed it, the mean number of crimes per borough is 42,008.2. That means that, on average, there are about 42,000 crimes per borough. And this measure is the mean. 
 
 
 Is this a good way of describing your data? Well one way to think about it is to consider how much you distort the data if you use that measurement to talk about it. Normally when we think about average, we think that this is a measure that represents a value somewhere in the middle. But if we look at this value, *42,008.2*, we see that actually this number is higher than almost all the boroughs. There is only one borough with a number of crimes that is higher than the average. All the other boroughs have below average crime rates. Why do you think this is?
@@ -1522,7 +1522,7 @@ Woohoo! The mean of the middle two numbers, which is the median is `r I(as.chara
 If you are confused about any of this just now then let us know by raising your hand, and asking one of us to clarify. But first, watch [this video by Chris Wilde](https://www.youtube.com/watch?v=U3lk2nQYfAQ&amp=&list=PL8CRAVedURQrlxeFfme0TEgaj1_h67JUR&amp=&index=4) to explain this to you using some pretty nifty visual aids. You can skip ahead and start from 2:41 if you wish. Now ask away. We are here to help!
 
 
-### Activity 2.5: Mean and median in excel
+### Activity 2.5: Mean and median in Excel
 
 
 Now that you understand how the mean and median are calculated, what they reprepsent, and what situations are best to each one of them in, let's move on to the practicalities of how you calculate these in excel. Of course, we keep telling you we are lazy, and we don't want to be calculating things by hand. This is why we use Excel. So here's a quick guide to getting the mean and the median in Excel. It's easy, but we'll be using **formulas**. 
@@ -1557,7 +1557,7 @@ Now Excel is helpful in naming its functions, and the function to calculate the 
 ...
 
 
-... yes you guessed it, it's `=MEDIAN()`
+... yes, you guessed it, it's `=MEDIAN()`
 
 
 
@@ -1587,7 +1587,7 @@ We spoke about the measures of central tendencies above, and how they can be eff
 - An Inconvenient Sequel: Truth to Power
 
 
-If we only know the average score on IMDB for these movies, we would believe that they perform similarly. However we want to look at the distribution of scores as well. And that is what the guys at fivethirtyeight did. Have a look at these bar charts that demonstrate the number of people who gave each star rating to each film: 
+If we only know the average score on IMDB for these movies, we would believe that they perform similarly. However, we want to look at the distribution of scores as well. And that is what the guys at fivethirtyeight did. Have a look at these bar charts that demonstrate the number of people who gave each star rating to each film: 
 
 
 
@@ -1617,7 +1617,7 @@ per_borough_crimes %>%
 ```
 
 
-So you can see here that the majority of boroughs are clustered on the left side of the graph, with the smaller number of crimes, you can see between over 22,000 and under 40,751 crimes. The position of each bar on the x axis (the horizontal axis) tells you the values we are looking at, and the height tells you how many observations fall into each value. 
+You can see here that the majority of boroughs are clustered on the left side of the graph, with the smaller number of crimes, you can see between over 22,000 and under 40,751 crimes. The position of each bar on the x axis (the horizontal axis) tells you the values we are looking at, and the height tells you how many observations fall into each value. 
 
 
 ### Histograms
@@ -1680,7 +1680,7 @@ And that is exactly how you build a histogram. You could draw one by hand if you
 
 
 
-So now, looking back at the crimes per borough histogram, does it make more sense?
+Now, looking back at the crimes per borough histogram, does it make more sense?
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -1936,7 +1936,7 @@ Remember what we said at the outset. The standard deviation does not quite work 
 
 ### Activity 2.8: Standard Deviation in Excel
 
-Finally, we will leave you with a note on how to calculate the standard deviation in excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV()`, and you apply it the same way you did the functions above, by selecting the cells which contain the data you want to calculate, to put them inside the brackets. 
+Finally, we will leave you with a note on how to calculate the standard deviation in Excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV()`, and you apply it the same way you did the functions above, by selecting the cells which contain the data you want to calculate, to put them inside the brackets. 
 
 
 
@@ -2003,7 +2003,7 @@ In any case, your report should right now look something like this:
 ![](imgs/writeup_outline.png)
 
 
-So what do we want to say. Well this is where your critical thinking skills should come in. What do you think that someone would like to know about the frequency of crimes in our data? What do you think is interesting here? What do you think is worth menioning or highlighting? Remember that the whole point here is to *make sense of the data*. We want to tell a story using our data, and we want that story to be meaningful, and comprehensive. So if we are tasked with telling a story about the frequency of each crime type, then we want that to be an interesting story. 
+What do we want to say? Well this is where your critical thinking skills should come in. What do you think that someone would like to know about the frequency of crimes in our data? What do you think is interesting here? What do you think is worth menioning or highlighting? Remember that the whole point here is to *make sense of the data*. We want to tell a story using our data, and we want that story to be meaningful, and comprehensive. So if we are tasked with telling a story about the frequency of each crime type, then we want that to be an interesting story. 
 
 
 In this week's task we'll be building a report like this together. It will be quite hand-hold-y, so don't worry, it's meant to guide you through building a research report. It will feel a bit like a fill in the blanks exercise even. When you get to your final assignment, that's when you'll have more freedom to discuss what you wish. So at this point, go ahead and download the task for week 2, and get started on that. 
