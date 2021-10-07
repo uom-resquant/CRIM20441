@@ -80,7 +80,7 @@
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2021-10-04}
+\date{2021-10-07}
 
 \begin{document}
 \maketitle
@@ -1898,7 +1898,7 @@ Here's an example of a bivariate frequency table. Remember \textbf{bivariate} ju
 
 \includegraphics{imgs/waiter_height_and_tip.png}
 
-Again, all we are doing with a frequency table is counting the number of occurrences. Except this time we need to know the number of occurrences of variable \emph{pairs}. So we need to know not only the number of times that \emph{female} appears, but when the pair of \emph{female} and \emph{high earner} appear. Again, I made a gif to illustrate:
+Again, all we are doing with a frequency table is counting the number of occurrences. Except this time we need to know the number of occurrences of variable \emph{pairs}. So we need to know not only the number of times that \emph{female} appears, but when the pair of \emph{female} and \emph{high earner} appear. Again, we made a gif to illustrate:
 
 \includegraphics{imgs/bivar_freq_table_gif.gif}
 
@@ -1919,7 +1919,7 @@ For example, a researcher might be investigating the relationship between the cl
 \hypertarget{surviving-the-titanic}{%
 \subsection{Surviving the Titanic}\label{surviving-the-titanic}}
 
-So let's return to our question about survival in the Titanic. We want to know the relationship between the variable for class of passenger, and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available open data, so we can use it to explore any questions we might have about it. \href{http://www.public.iastate.edu/~hofmann/data/titanic.html}{You can read a bit about the data here, and also find the data dictionary}. In this instance though, you can download the data from blackboard. As always it's in your learning materials for the week, under module 3 \textgreater{} data for labs and homework. It is the one labelled ``Titanic survivors data''. Under it you will see a link to titanic3.xls. Right click and select ``Save link as'', and save it in your working directory you had set up for this course.
+So let's return to our question about survival in the Titanic. We want to know the relationship between the variable for class of passenger, and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available open data, so we can use it to explore any questions we might have about it. \href{https://www.statisticalconsultants.co.nz/blog/titanic-survival-data.html}{You can read a bit about the data here}. In this instance though, you can download the data from blackboard. As always it's in your learning materials for the week, under module 3 \textgreater{} data for labs and homework. It is the one labelled ``Titanic survivors data''. Under it you will see a link to titanic3.xls. Right click and select ``Save link as'', and save it in your working directory you had set up for this course.
 
 Once you download the data open it up in Excel. You should see it's the usual dimension of your variables in your columns, and your observations in your rows. Each observation is one passenger who was on board the ship. The variable ``Class'' tells whether the passenger was traveling 1st class, 2nd class, 3rd class, or as a member of the crew. The variable ``Survived'' tells whether that person has survived the RMS Titanic's collision with the iceberg or not.
 
@@ -1934,7 +1934,7 @@ So first just create the pivot table environment to be able to build our pivot t
 
 \includegraphics{imgs/click_pivot.png}
 
-This will open a popup window, where you want to make sure that you select `New worksheet' where it asks where your pivot table should be placed, and then click OK, again just like last week. When you click OK, excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data, again exactly the same as last week. Remember, if the toolbar doesn't appear, or ever disappears, to summon it you have to do one simple step, which is to click \emph{anywhere} inside the pivot table area.
+This will open a popup window, where you want to make sure that you select `New worksheet' where it asks where your pivot table should be placed, and then click OK, again just like last week. When you click OK, Excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data, again exactly the same as last week. Remember, if the toolbar doesn't appear, or ever disappears, to summon it you have to do one simple step, which is to click \emph{anywhere} inside the pivot table area.
 
 \includegraphics{imgs/pivot_shell.png}
 
@@ -1963,7 +1963,7 @@ Is this reflected in the table above?
 
 No, it is not, because Excel puts the values of the class variable in alphabetical order, it doesn't know what the real order is. Good news is that we can fix this:
 
-To rearrange, first you have to think: what is the order that I need my values in? Discuss in your groups what you think the order might be.
+To rearrange, first you have to think: what is the order that we need our values in? Discuss in your groups what you think the order might be.
 
 Let's think about the passengers of the Titanic - we can arrange them in order of how much money they paid to be on board. The most money was paid by those traveling First class, followed by Second an Third. We can also think that the least money was paid by the Crew, who instead were given wages to work on board the ship. So the order would be: First \textgreater{} Second \textgreater{} Third \textgreater{} Crew.
 
@@ -2036,7 +2036,7 @@ Summing the observations in either way give you a column total and a row total c
 \hypertarget{activity-3.3-calculating-row-vs-column-percentages}{%
 \subsection{Activity 3.3: Calculating row vs column percentages}\label{activity-3.3-calculating-row-vs-column-percentages}}
 
-You can calculate these yourself, in the excel sheet you have downloaded from blackboard, using the \texttt{=SUM()} function, the way that we did this in the previous session.
+You can calculate these yourself, in the Excel sheet you have downloaded from blackboard, using the \texttt{=SUM()} function, the way that we did this in the previous session.
 
 So now that we have these totals, we can calculate our percentages.
 
@@ -2074,7 +2074,7 @@ So why is that? Well let's look at the numbers to illustrate. To calculate the c
 
 \includegraphics{imgs/col_perc_calc.png}
 
-Repeat the same for all cells (remember how you can copy formulas by clicking on the bottom right corner of the cell there, and dragging? No? Raise your hand now to ask about it! It saves time, I swear\ldots!)
+Repeat the same for all cells (remember how you can copy formulas by clicking on the bottom right corner of the cell there, and dragging? No? Raise your hand now to ask about it! It saves time, we swear\ldots!)
 
 Then you will end up with some results like this:
 
@@ -2096,7 +2096,7 @@ Very different conclusions, no? All from the same data. The numbers are correct,
 
 I hope that illustrated a bit how you can calculate your row and column percentages, as well as what they mean, and how they help you extract meaning from your data. Usually you will only display \emph{either} row percentages \emph{or} column percentages, \emph{not both}. You will have to choose which one you think is most appropriate for telling your story.
 
-But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1t class and survivors, or 2nd class and survivors, and so on and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it, I have to tell you\ldots{} So we won't even bother with them any more.
+But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1t class and survivors, or 2nd class and survivors, and so on and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it, we have to tell you\ldots{} So we won't even bother with them any more.
 
 So which one you use (row or column) is dictated by the question you ask. There's also this youtube video (made for someone called Michelle apparently\ldots{} I'm not sure the backstory here, but it sounds like our video creator is excited for Michelle to get back from Spring Break, and talk about column vs.~row percentages. But in any case, I'm sure that since it's on YouTube, the rest of us can use it\ldots) where the video's creator switches between row and column percents, this can further illustrate how it makes a difference which one you use: \href{https://www.youtube.com/watch?v=cdvTpnHwKjs}{you can watch the video here}.
 
@@ -2105,9 +2105,9 @@ If you're still unsure about these let us know, raise your hand, and we will com
 \hypertarget{decimal-places-a-note-on-formatting-cells}{%
 \subsection{Decimal places: A note on formatting cells}\label{decimal-places-a-note-on-formatting-cells}}
 
-Just before we move on, I quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say ``32\% of all Titanic passengers survived'' or if you say ``32.303498\% of all Titanic passengers survived'', in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people, (or number of crimes) it doesn't necessarily need to be so specific. So what if you wanted to format your results?
+Just before we move on, we quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say ``32\% of all Titanic passengers survived'' or if you say ``32.303498\% of all Titanic passengers survived'', in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people, (or number of crimes) it doesn't necessarily need to be so specific. So what if you wanted to format your results?
 
-Well you can always round your numbers manually. But as always, there is a way you can just do this using excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to ``Format Cells\ldots{}''
+Well you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to ``Format Cells\ldots{}''
 
 \includegraphics{imgs/format_cells.png}
 
@@ -2136,7 +2136,7 @@ This looks about right, however you can see that our axes are not properly label
 
 \includegraphics{imgs/stacked_col_3.png}
 
-This will open a pop-up window. Again this may look different on different computers. I will show some options but what you are after is something labeled \textbf{``Horizontal Category Axis Labels''}. You will see this and here you want to select where the values for your variable along the horizontal axis are (in this case the values for Class which is: First, Second, Third, and Crew)
+This will open a pop-up window. Again this may look different on different computers. we will show some options but what you are after is something labeled \textbf{``Horizontal Category Axis Labels''}. You will see this and here you want to select where the values for your variable along the horizontal axis are (in this case the values for Class which is: First, Second, Third, and Crew)
 
 Pop-up window on Mac:
 
@@ -2162,7 +2162,7 @@ When your new graph appears, you will see that it looks exactly the same as when
 
 \includegraphics{imgs/stacked_col_perc_2.png}
 
-You might be wondering - how does Excel know that you want the row percentages, and not the column percentages, when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds in data analysis that you should arrange your data in a way that the row percentages are the meaningful ones. Think about it, if I wrote the table with the survival in the rows, and the class in the columns, that still makes sense - it is still the same data, right? But then what is represented by column and by row percentages gets switched. The meaning is the same, but they are just calculated into different places.
+You might be wondering - how does Excel know that you want the row percentages, and not the column percentages, when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds in data analysis that you should arrange your data in a way that the row percentages are the meaningful ones. Think about it, if we wrote the table with the survival in the rows, and the class in the columns, that still makes sense - it is still the same data, right? But then what is represented by column and by row percentages gets switched. The meaning is the same, but they are just calculated into different places.
 
 Another way to visually display the differences in your data, while still presenting the numbers in a table, is to use conditional formatting. To do this, select again the cells with your percentage values in it:
 
@@ -2191,7 +2191,7 @@ You can see that the yes \% is quite a high value, an appears with an orange col
 
 The Arrestee Survey, 2003-2006, was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include: demographic characteristics; arrest, prison history and past contact with CJS; offending and offence categories; drug and alcohol use; drug purchasing and availability; drug and alcohol treatment needs; treatment offered and received; and gang involvement. Some of the above questions were answered by self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
 
-If you wanted to have a look at this data set, you can access it through the UK data service website \href{https://discover.ukdataservice.ac.uk/catalogue/?sn=5807}{here}. However to make things easier, I have selected just a few variables for you here, and uploaded this subset onto blackboard. So go now to Blackboard (Learning Materials \textgreater{} module 3 \textgreater{} data for labs and homework) and download the arrestees\_subset file. Once downloaded onto your PC, open it up with Excel.
+If you wanted to have a look at this data set, you can access it through the UK data service website \href{https://discover.ukdataservice.ac.uk/catalogue/?sn=5807}{here}. However, to make things easier, we have selected just a few variables for you here, and uploaded this subset onto blackboard. So go now to Blackboard (Learning Materials \textgreater{} module 3 \textgreater{} data for labs and homework) and download the arrestees\_subset file. Once downloaded onto your PC, open it up with Excel.
 
 So the first thing we want to do is have a look at our variables. We have 5 variables, which are:
 
@@ -2314,15 +2314,15 @@ How would you write this in a formula? Well for assault we could say something l
 
 \texttt{include\ IF\ \textquotesingle{}Reason\ for\ arrest\ column\textquotesingle{}\ =\ \textquotesingle{}assault\textquotesingle{}}
 
-Now we just have to translate this to excel language, and put it inside a median calculation formula. Remember this one from last week? It's simply \texttt{=MEDIAN()}.
+Now we just have to translate this to Excel language, and put it inside a median calculation formula. Remember this one from last week? It's simply \texttt{=MEDIAN()}.
 
 Now we also have to refer to some cells. You can select these values by simply clicking on the cells that you need, but I'll go through the notation here again, just as a refresher.
 
 To specity what sheet you are taking your data from, you put the sheet name followed by an exclamation mark (\texttt{!}). So to refer to columns that are on the arrestees\_subset.csv sheet, Excel notation for that is: \texttt{arrestees\_subset.csv!}.
 
-A cell you refer to by the letter of the column it's in, and the number of the row that it's in. So the cell that contains the value for ``Assault'' is ``A5''. However, when you copy references, this will change. If you wanted to statically \textbf{always} refer to A5 you have to use the dollar sign in front of each element (row letter, column number). So if I always want A5 to be the cell I refer to, I would type: \texttt{\$A\$5}.
+A cell you refer to by the letter of the column it's in, and the number of the row that it's in. So the cell that contains the value for ``Assault'' is ``A5''. However, when you copy references, this will change. If you wanted to statically \textbf{always} refer to A5 you have to use the dollar sign in front of each element (row letter, column number). So if we always want A5 to be the cell we refer to, we would type: \texttt{\$A\$5}.
 
-And to refer to a range of values, you denote them as \texttt{first\ value:last\ value} . SO to get all the values from row 2 of column E to row number 19897 of column E, I would type: \texttt{E2:E19897}. And if I wanted to make sure that I \textbf{always} refer to these values, again I just inject a \texttt{\$} in front of the column reference (E) and the row reference (2 and 19897). Like so: \texttt{\$E\$2:\$E\$19897}.
+And to refer to a range of values, you denote them as \texttt{first\ value:last\ value} . To get all the values from row 2 of column E to row number 19897 of column E, we would type: \texttt{E2:E19897}. And if we wanted to make sure that we \textbf{always} refer to these values, again we just inject a \texttt{\$} in front of the column reference (E) and the row reference (2 and 19897). For example: \texttt{\$E\$2:\$E\$19897}.
 
 Now building it all together, for assault, we could calculate the median like so:
 
@@ -2381,8 +2381,6 @@ So what are some examples of correlations? Here are a few:
 \item
   \href{http://asbcllc.com/blog/2014/december/nba_team_corr_matrix/scaled/}{Interactive Correlation Matrix and Scatter Plot All NBA Team Statistical Data 1951-2015 Seasons}
 \item
-  \href{http://rebrn.com/re/relationship-between-rotten-tomatoes-tomatometer-score-and-box-o-2558335/}{Scatterplot of the Relationship Between Rotten Tomatoes Tomatometer Score and Box Office Revenue for Movies, for each movie genre}
-\item
   \href{https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png}{Correlation between statewise obesity and voting for Trump}
 \end{itemize}
 
@@ -2393,7 +2391,7 @@ You can understand the basic premise.
 
 So let's build one for our arrestees. Since we are trying to explain number of arrests with the age of first arrest, we would plot on the y-axis the variable we consider the response variable (number of arrests) and on the x-axis we place the explanatory or predictor variable (age of first arrest).
 
-First, just return to the excel spreadsheet where you have your data. Firstly arrest the two columns that contain our variables of interest:
+First, just return to the Excel spreadsheet where you have your data. Firstly arrest the two columns that contain our variables of interest:
 
 \includegraphics{imgs/scatter_1.png}
 
@@ -2443,7 +2441,7 @@ Now you can see your trendline appear:
 
 So what does this line look like? Well it definitely has a negative slope (it's pointing down, rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to \emph{no slope} or a slope of zero, because it is essentially a straight line. To give you an idea of weak/strong relationships based on slope of a line, here is a handy image:
 
-\includegraphics{http://www.psychology.emory.edu/clinical/bliwise/Tutorials/SCATTER/scatterplots/examples2.jpg}
+\includegraphics{imgs/examples2_corr.jpg}
 
 You can imagine here that our relationship is quite weak, as it is close to a zero slope. Finally is the relationship linear or non linear? Well how well does this straight line represent your data? And where the points deviate from the line, do they do so in a systematic manner? To be fair, this question is a bit tough to answer, just on visual assessment through a scatterplot alone. As is the strength without a numeric interpretation of the slope.
 
@@ -2458,9 +2456,9 @@ But based on our observations, we can say that there appears to be a very weak n
 
 You may have heard this phrase before - that correlation does not mean causation. This is important to mention here, and for you to take this forward. Just because two variables show a relationship, even if it is a strong relationship, it does not mean that one actually causes the other, no matter how attractive telling that story would be.
 
-There is an interesting site here that has a lot of \textbf{spurious} correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are, due to either coincidence, or the presence of a certain third, unseen factor (referred to as a ``common response variable'', ``confounding factor'', or ``lurking variable''). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, I think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both\ldots! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers.
+There is an interesting site here that has a lot of \textbf{spurious} correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are, due to either coincidence, or the presence of a certain third, unseen factor (referred to as a ``common response variable'', ``confounding factor'', or ``lurking variable''). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, we think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both\ldots! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers.
 
-Have a listen to this \href{https://www.youtube.com/watch?v=8B271L3NtAw}{ted talk} which explains better.
+Have a listen to this \href{https://www.youtube.com/watch?v=8B271L3NtAw}{Ted talk} which explains better.
 
 Spurious correlations are all over the place, and while sometimes they are very obvious, for example, here is one that correlates the number of films that Nicholas Cage has appeared in, and the number of people who drowned by falling into a pool:
 
@@ -2494,7 +2492,7 @@ In sum, you should now be able to begin to make comparisons between two variable
 \item
   producing summary statistics by groups
 \item
-  if statements in excel
+  if statements in Excel
 \item
   association/ direction of a relationship between numeric variables
 
