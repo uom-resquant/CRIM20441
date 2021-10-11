@@ -2506,7 +2506,7 @@ Also you want to decide what is coloured red (or your high value). You can see t
 
 
 
-Here's mine anyway:
+Here's ours anyway:
 
 
 
@@ -3055,7 +3055,7 @@ Then click on the "Axes" option, and for both horizontal and vertical axes add a
 
 
 
-You can also stylize your scatterplot, make it look the way that you are most happy with it. [Here are some tips on making your graphs look pretty](http://strategyandanalytics.com/5-steps-creating-beautiful-eye-catching-charts-excel/). Here's mine:
+You can also stylize your scatterplot, make it look the way that you are most happy with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
 
 
 ![](imgs/scatter_9.png)
