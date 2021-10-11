@@ -2052,7 +2052,7 @@ In sum, you should now be more familiar with data than you were when you started
 Much of statistics is about making comparisons. Human beings are not good at sifting through large streams of data; we understand data much better when it is summarized for us. This is true for looking for patterns in both *uni*variate and *bi*variate analysis. As discussed last week with univariate, when presenting descriptive analysis, we often display summary statistics in one of two ways: with tables and figures. 
 
 
-Tables of summary statistics are very common (we have already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data, that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know, is it related to another variable. Because this is where the interesting questions are that we can start asking. 
+Tables of summary statistics are very common (we already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data, that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know, is it related to another variable. Because this is where the interesting questions are that we can start asking. 
 
 
 For example here are some criminological papers that explore the relationship between two variables: 
@@ -2093,41 +2093,41 @@ Here's an example of a bivariate frequency table. Remember **bivariate** just me
 ![](imgs/waiter_height_and_tip.png)
 
 
-Again, all we are doing with a frequency table is counting the number of occurrences. Except this time we need to know the number of occurrences of variable *pairs*. So we need to know not only the number of times that *female* appears, but when the pair of *female* and *high earner* appear. Again, we made a gif to illustrate: 
+Again, all we are doing with a frequency table is counting the number of occurrences. Except this time we need to know the number of occurrences of variable *pairs*. So we need to know not only the number of times that *female* appears, but when the pair of *female* and *high earner* appear. We made a gif to illustrate: 
 
 
 ![](imgs/bivar_freq_table_gif.gif)
 
 
-This two-way frequency table is also called a **cross table** or **crosstab**. Also a **contingency table**. We like to give the same thing many names, but just know, if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
+This two-way frequency table is also called a **cross tabulation** or **crosstab**. Also a **contingency table**. We like to give the same thing many names, but just know, if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
 
 
 > The table of counts for the various combinations of categories is a contingency table.
  
- - Agresti, Alan, and Maria Kateri. "Categorical data analysis." International encyclopedia of statistical science. Springer Berlin Heidelberg, 2011. 206-208.
+ - Agresti, Alan, and Maria Kateri. "Categorical data analysis." International Encyclopedia of Statistical Science (pp. 206-208). Heidelberg: Springer, 2011.
 
 
 
-For example, a researcher might be investigating the relationship between the class on which a passenger was travelling on the RMS Titanic (which, in case you're not familiar, was a British passenger liner that sank in the North Atlantic Ocean in 1912, after it collided with an iceberg) and whether that person survived or not. The two variables would be class (1st, 2nd, 3rd, or crew) and survived (yes/no). The question is "Is there a significant relationship between class of passenger and survival?" In this course, we don't yet learn how to answer this question with  *inferential statistics*. Instead, here we  only begin to explore this question (and other questions of comparison) using *descriptive statistics*. If you are unsure about the difference, ask now, or consult your readings from the first week. 
+For example, a researcher might be investigating the relationship between the class on which a passenger was travelling on the RMS Titanic (which, in case you're not familiar, was a British passenger liner that sank in the North Atlantic Ocean in 1912, after it collided with an iceberg) and whether that person survived or not. The two variables would be class (1st, 2nd, 3rd, or crew) and survived (yes/no). The question is "Is there a significant relationship between class of passenger and survival?". In this course, we don't yet learn how to answer this question with  *inferential statistics*. Instead, here we  only begin to explore this question (and other questions of comparison) using *descriptive statistics*. If you are unsure about the difference, ask now, or consult your readings from the first week. 
 
 
 ### Surviving the Titanic
 
 
-So let's return to our question about survival in the Titanic. We want to know the relationship between the variable for class of passenger, and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available open data, so we can use it to explore any questions we might have about it. [You can read a bit about the data here](https://www.statisticalconsultants.co.nz/blog/titanic-survival-data.html). In this instance though, you can download the data from blackboard. As always it's in your learning materials for the week, under module 3 > data for labs and homework. It is the one labelled "Titanic survivors data". Under it you will see a link to titanic3.xls. Right click and select "Save link as", and save it in your working directory you had set up for this course. 
+Let's return to our question about survival in the Titanic. We want to know the relationship between the variable for class of passenger, and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available open data, so we can use it to explore any questions we might have about it. [You can read a bit about the data here](https://www.statisticalconsultants.co.nz/blog/titanic-survival-data.html). In this instance though, you can download the data from Blackboard. As always it's in your Learning Materials for the week, under Module 3 > data for labs and homework. It is the one labelled "Titanic survivors data". Under it you will see a link to titanic3.xls. Right click and select "Save link as", and save it in your working directory you had set up for this course. 
 
 
-Once you download the data open it up in Excel. You should see it's the usual dimension of your variables in your columns, and your observations in your rows. Each observation is one passenger who was on board the ship. The variable "Class" tells whether the passenger was traveling 1st class, 2nd class, 3rd class, or as a member of the crew. The variable "Survived" tells whether that person has survived the RMS Titanic's collision with the iceberg or not. 
+Once you download the data, open it up in Excel. You should see your variables in your columns and your observations in rows. Each observation is one passenger who was on board the ship. The variable "Class" tells whether the passenger was traveling 1st class, 2nd class, 3rd class, or as a member of the crew. The variable "Survived" tells whether that person survived the RMS Titanic's collision with the iceberg or not. 
 
 
-We might be interested in looking at the rate of survival by passengers who were traveling on various class tickets. For example, we might have seen the 1997 classic film [Titanic](http://www.imdb.com/title/tt0120338/) by James Cameron, and might be wondering - was there a priority given to first class passengers when boarding the lifeboats, and did that result in them being more likely to survive? Well to be able to answer questions like this, we would need to compare the survival (yes/no) between the class (1st/2nd/3rd/crew) variables. Both of these are categorical variables, and so to be able to talk about their relationship, we will have to build a **crosstab**.
+We might be interested in looking at the rate of survival by passengers who were traveling on various class tickets. For example, we might have seen the 1997 classic film [Titanic](http://www.imdb.com/title/tt0120338/) by James Cameron, and might be wondering - was there a priority given to first class passengers when boarding the lifeboats, and did that result in them being more likely to survive? Well, to be able to answer questions like this, we would need to compare the survival (yes/no) between the class (1st/2nd/3rd/crew) variables. Both of these are categorical variables, and so to be able to talk about their relationship, we will have to build a **crosstab**.
 
 #### Activity 3.1: Crosstab of survivors by class
 
-So to do this, we return to our trusty friend, the pivot table again. But this time, instead of using it to summarise one variable, we can use it to summarise the relationship between two variables. The same way that the gif above illustrated with gender and the tips example, what this does is it counts the frequency of the combination of each category. But lets see how to do this. 
+To do this, we return to our trusty friend, the pivot table again. But this time, instead of using it to summarise one variable, we can use it to summarise the relationship between two variables. The same way that the gif above illustrated with gender and the tips example, what this does is it counts the frequency of the combination of each category. But lets see how to do this. 
 
 
-So first just create the pivot table environment to be able to build our pivot table. Just like last week, click into the **Insert** tab, click on **pivot table**  and then again on **pivot table**:
+First, just create the pivot table environment to be able to build our pivot table. Just like last week, click into the **Insert** tab, click on **pivot table**  and then again on **pivot table**:
 
 
 
@@ -2161,7 +2161,7 @@ We can take a moment to look at the frequency table of just the class variable. 
 But to answer our question about the relationship between survival and class, we don't want *univariate*  analysis on the "Class" variable. We want to compare the survival of passengers between these classes, so we want *bivariate* analysis on the "Class" variable with the "Survival" variable.
 
 
-Luckily, there is really only one more step we need to take to achieve this, which is to introduce the Survived variable into our pivot table. To do this, drag the "Survived" variable into the "Column Labels" box. Once you've done that, you should see your frequency table appear:
+Luckily, there is really only one more step we need to take to achieve this, which is to introduce the Survived variable into our pivot table. To do this, drag the "Survived" variable into the "Column Labels" box (this box may also be called "Columns"). Once you've done that, you should see your frequency table appear:
 
 
 
@@ -2174,17 +2174,17 @@ You can see that we have a frequency table that has the variable of *Class* as t
 
 #### Activity 3.2: Don't forget the levels of measurement!
 
-Now you might notice one thing that could be bothering you in this table? Do you see it? Discuss in your groups what this might be, and make any notes in your shared Google doc for the lab. 
+You might have noticed one thing that could be bothering you in this table. Do you see it? Discuss in groups what this might be, and take notes. 
 
 
-Did you have some ideas. If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order, it's categorical - ordinal.  
+Did you have some ideas? If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order, it's categorical - ordinal.  
 
 
 Is this reflected in the table above?
 
 
 
-No, it is not, because Excel puts the values of the class variable in alphabetical order, it doesn't know what the real order is. Good news is that we can fix this:  
+No, it is not, because Excel puts the values of the class variable in alphabetical order, it doesn't know what the real order is. Good news is that we can fix this. 
 
 
 To rearrange, first you have to think: what is the order that we need our values in? Discuss in your groups what you think the order might be.
@@ -2205,7 +2205,7 @@ You can rearrange this manually, and copy over into a new sheet.
 
 ***Note: for older versions of Excel, "move" might not be available.***
 
-I you have an older version of Excel and there is no option to use 'move', you can use the following work-around to rearrange the order manually just click on the arrow next to "Class" > "More sort options" > "Manual". To open a new sheet just click on the little plus sign on the bottom of your current sheet: 
+If you have an older version of Excel and there is no option to use 'move', you can use the following work-around to rearrange the order manually. Just click on the arrow next to "Class" > "More sort options" > "Manual". To open a new sheet just click on the little plus sign on the bottom of your current sheet: 
 
 
 ![](imgs/new_sheet_2.png)
@@ -2223,7 +2223,7 @@ Then copy over the values from your pivot table, making sure that your rows are 
 
 ### Row percentage, column percentage, or total percentage
 
-So you can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident, or watched that film with Kate Winslet and Leo Dicaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class, or crew. However if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
+You can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident, or watched that film with Kate Winslet and Leo DiCaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class, or crew. However, if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
 
 
 
@@ -2231,7 +2231,7 @@ But what about if you look at the column that represents the number of people wh
 
 
 
-One thing you will be able to use, which we approached last week, is the use of percentages, to make sense of your data. With a frequency table of only one variable, this was easy, you just consider what percentage of the whole, each cell represents. However with a **bivariate**  frequency table, we have *three* different options for percentages. We can consider the **row percentage**, the **column percentage** or the **total percentage**. And all three tell us very different things. Let's take a look. 
+One thing you will be able to use, which we approached last week, is the use of percentages, to make sense of your data. With a frequency table of only one variable, this was easy, you just consider what percentage of the whole, each cell represents. However, with a **bivariate**  frequency table, we have *three* different options for percentages. We can consider the **row percentage**, the **column percentage** or the **total percentage**. And all three tell us very different things. Let's take a look. 
 
 
 Column percentages are computed by dividing the counts for an individual cell by the total number of counts for the column. A column percent shows the proportion of observations in each row from among those in the column. Row percentages are computed by dividing the count for a cell by the total sample size for that row. A row percent shows the proportion of observations in a column category from among those in the row. Total percentages are computed by dividing the count for a cell by the total sample size - the grand total. A total percent shows the proportion of all observations in you sample that match that particular row and column combination. 
@@ -2248,13 +2248,13 @@ In the case of the Titanic survivors data, we might be wondering three things:
 
 - **row percentage:** what percent of the passengers in 1st class survived vs did not survive?
 - **column percentage:** what percent of the survivors were passengers in 1st class vs 2nd, 3rd class or Crew?
-- **total percentage:** what percent of all passengers were those who were 1st class and survived, 1st class and did not survive, 2nd class and survived, 2nd class and did not survive, etc etc
+- **total percentage:** what percent of all passengers were those who were 1st class and survived, 1st class and did not survive, 2nd class and survived, 2nd class and did not survive, etc.
 
 
-So to calculate each one of these, we need to know each  **row total**, each **column total**, and the **grand total**. In this case, if we look at our data, our rows are represented by the classes, and the columns represent the survival (or not) of passengers (and crew). 
+To calculate each one of these, we need to know each  **row total**, each **column total**, and the **grand total**. In this case, if we look at our data, our rows are represented by the classes, and the columns represent the survival (or not) of passengers (and crew). 
 
 
-So the row total for the 1st class row will just be the sum of all people (both those who survived and those who did not) who had 1st class tickets. And the row total for the 2nd class row will just be the sum of all people (both those who survived and those who did not) who had 2nd class tickets. And so on, and so on. Like this: 
+The row total for the 1st class row will just be the sum of all people (both those who survived and those who did not) who had 1st class tickets. And the row total for the 2nd class row will just be the sum of all people (both those who survived and those who did not) who had 2nd class tickets. And so on, and so on. Like this: 
 
 
 ![](imgs/titanic_row_total_calc.png)
@@ -2277,11 +2277,11 @@ Summing the observations in either way give you a column total and a row total c
 
 
 
-You can calculate these yourself, in the Excel sheet you have downloaded from blackboard, using the `=SUM()` function, the way that we did this in the previous session. 
+You can calculate these yourself, in the Excel sheet you have downloaded from Blackboard, using the `=SUM()` function, the way that we did this in the previous session. 
 
 
 
-So now that we have these totals, we can calculate our percentages. 
+Now that we have these totals, we can calculate our percentages. 
 
 To get your row percentage, you have to take each cell and divide it by the row total (and then times by 100 to get the percent value). You can do this in a new column, creating a new column for survived - Yes % and No % : 
 
@@ -2295,7 +2295,7 @@ Now you can enter the calculation as a formula for each row. Remember for someth
 
 `cell/total*100`
 
-So for example, for the Yes percent column for first class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders, and divide by the cell reference of the total number of first class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`) or you can do it by highlighting as well. If you're not sure how to do the highlighting approach, raise your hand now, we will come to help!
+For example, for the Yes percent column for first class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders, and divide by the cell reference of the total number of first class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`) or you can do it by highlighting as well. If you're not sure how to do the highlighting approach, raise your hand now, we will come to help!
 
 
 But in any case, for the cell that represents the row percentage for the yes survived and first class combination, you should have the below formula: 
@@ -2331,11 +2331,11 @@ Row percentages allow you to talk about the percentage of each value in the vari
 
 
 
-But what about column percentages? What do those tell us? Well just as row percentages tell you about the percent of the *row* values, distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values, distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story to what the row percent says. 
+But what about column percentages? What do those tell us? Well just as row percentages tell you about the percent of the *row* values, distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values, distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly, it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story to what the row percent says. 
 
 
 
-So why is that? Well let's look at the numbers to illustrate. To calculate the column percentages, you have to do the mirror image of what we did for row percentages, just create some new rows, one percentage equivalent for each class, so 1st %, 2nd %, 3rd % and crew %, and again for each one, populate it with a formula starting with the `=` sign, then the cell of the matching value (so C3 for 1st class survived) divided this time by the column total (C7), and again times by 100. As such: 
+Why is that? Well, let's look at the numbers to illustrate. To calculate the column percentages, you have to do the mirror image of what we did for row percentages, just create some new rows, one percentage equivalent for each class, so 1st %, 2nd %, 3rd % and crew %. Again, for each one, populate it with a formula starting with the `=` sign, then the cell of the matching value (so C3 for 1st class survived) divided this time by the column total (C7), and again times by 100. As such: 
 
 
 ![](imgs/col_perc_calc.png)
@@ -2351,7 +2351,7 @@ Then you will end up with some results like this:
 ![](imgs/all_col_perc.png)
 
 
-So what does that tell you? Well this tells you about the % of Survivors who were travelling in each class. So we can now see that of all the survivors, 28.6% were 1st class, 16.6% were 2nd class, 25% were 3rd class, and 30% were crew. This doesn't really illustrate any huge disproportionality, does it? Well again, that's because it doesn't compare to those who died. Instead it just looks at the distribution of the survivors between those travelling in different class. And this is why it's really important for you to consider - what is the best way of presenting the data, that considers all angles, and presents the most truthful story? There is a popular book used to teach statistics called [How to Lie With Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics). This is a good point to illustrate again, how important it is for you to understand how to make sense of data, and how to draw meaning from it, in order to be able to scrutinize what stories people may tell you. Depending on what results would be presented from this analysis, we could easily write a different headline. 
+What does that tell you? Well, this tells you about the % of Survivors who were travelling in each class. So we can now see that of all the survivors, 28.6% were 1st class, 16.6% were 2nd class, 25% were 3rd class, and 30% were crew. This doesn't really illustrate any huge disproportionality, does it? Well again, that's because it doesn't compare to those who died. Instead it just looks at the distribution of the survivors between those travelling in different class. And this is why it's really important for you to consider - what is the best way of presenting the data, that considers all angles, and presents the most truthful story? There is a popular book used to teach statistics called [How to Lie With Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics). This is a good point to illustrate again, how important it is for you to understand how to make sense of data, and how to draw meaning from it, in order to be able to scrutinize what stories people may tell you. Depending on what results would be presented from this analysis, we could easily write a different headline. 
 
 
 Consider this: 
@@ -2366,7 +2366,7 @@ The numbers in this headline are all correct. It is true that 30% of the survivo
 **Rich leave the poor to sink into icy ocean - 62.5% of 1st class passengers survive, compared with 41.4% of 2nd class, 25.2% 3rd class, and only 24% of crew members who made it out**
 
 
-Very different conclusions, no? All from the same data. The numbers are correct, but they are framed very very differently. This is why it is so important to report all your findings, including the right statistics, as well as to be able to scrutinize other reports as well. To the first statement you might want to pose the question - OK but what percentage of the non-survivors were crew members? You would receive the figure of 45%, immediately indicating that they would be the largest group represented in the fatalities as well. Then you would begin to realise that the reason they might be a large proportion of the survivors, is because they made up such a large proportion of anyone on board, in the first place. There was simply more of them present! But when you consider their survival rate (which is illustrated better by the row percentages) you gain some insight into the inequalities. And our qualitative information from the movie Titanic further supports this finding, that we need to consider the proportion who did not make it out as well: 
+Very different conclusions, no? All from the same data. The numbers are correct, but they are framed very very differently. This is why it is so important to report all your findings, including the right statistics, as well as to be able to scrutinize other reports as well. To the first statement you might want to pose the question - OK, but what percentage of the non-survivors were crew members? You would receive the figure of 45%, immediately indicating that they would be the largest group represented in the fatalities as well. Then you would begin to realise that the reason they might be a large proportion of the survivors, is because they made up such a large proportion of anyone on board, in the first place. There was simply more of them present! But when you consider their survival rate (which is illustrated better by the row percentages) you gain some insight into the inequalities. And our qualitative information from the movie Titanic further supports this finding, that we need to consider the proportion who did not make it out as well: 
 
 
 ![](https://media.giphy.com/media/bQw045yld4nra/giphy.gif)
@@ -2389,10 +2389,10 @@ If you're still unsure about these let us know, raise your hand, and we will com
 ### Decimal places: A note on formatting cells
 
 
-Just before we move on, we quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people, (or number of crimes) it doesn't necessarily need to be so specific. So what if you wanted to format your results?
+Just before we move on, we quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So what if you wanted to format your results?
 
 
-Well you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to "Format Cells..."
+Well, you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to "Format Cells..."
 
 
 ![](imgs/format_cells.png)
@@ -2411,10 +2411,10 @@ Here you can enter the number of decimal places you want to display. Change it t
 
 
 
-### Activity 3.4: Visualising the relationship - stacked bar charts, and conditional formatting
+### Activity 3.4: Visualising the relationship - Stacked bar charts, and conditional formatting
 
 
-So last week we visualised frequency tables using a bar chart. This week we have two variables to visualise. Luckily we can still do this, but with a stacked bar chart. What is this? Well this time, the bar chart will have a consistent height (100%) but will be shaded according to which percentage each category takes up. Let's illustrate to make this more clear. 
+Last week we visualised frequency tables using a bar chart. This week we have two variables to visualise. Luckily we can still do this, but with a stacked bar chart. What is this? Well this time, the bar chart will have a consistent height (100%) but will be shaded according to which percentage each category takes up. Let's illustrate to make this more clear. 
 
 
 
@@ -2434,19 +2434,19 @@ This looks about right, however you can see that our axes are not properly label
 
 ![](imgs/stacked_col_3.png)
 
-This will open a pop-up window. Again this may look different on different computers. we will show some options but what you are after is something labeled **"Horizontal Category Axis Labels"**. You will see this and here you want to select where the values for your variable along the horizontal axis are (in this case the values for Class which is: First, Second, Third, and Crew)
+This will open a pop-up window. Again, this may look different on different computers. we will show some options but what you are after is something labeled **"Horizontal Category Axis Labels"**. You will see this and here you want to select where the values for your variable along the horizontal axis are (in this case the values for Class which is: First, Second, Third, and Crew)
 
 
 Pop-up window on Mac: 
 
 ![](imgs/horizontalcataxislabels.png)
 
-FOr some others it might look like this:
+For some others it might look like this:
 
 ![](imgs/stacked_col_4.png)
 
 
-In the version above, above the right-hand box, you can see a label telling you that this is to do with the "Horizontal (Category) Axis Labels. You can click on the "Edit" button under that which will open a selection window. Select the row labels by clicking and dragging to highlight them all:
+In the version above, above the right-hand box, you can see a label telling you that this is to do with the "Horizontal (Category) Axis Labels". You can click on the "Edit" button under that which will open a selection window. Select the row labels by clicking and dragging to highlight them all:
 
 
 
@@ -2521,32 +2521,32 @@ You can see that the yes % is quite a high value, an appears with an orange colo
 ## Categorical v numeric
 
 
-The Arrestee Survey, 2003-2006, was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include: demographic characteristics; arrest, prison history and past contact with CJS; offending and offence categories; drug and alcohol use; drug purchasing and availability; drug and alcohol treatment needs; treatment offered and received; and gang involvement. Some of the above questions were answered by self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
+The Arrestee Survey 2003-2006 was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include: demographic characteristics; arrest, prison history and past contact with CJS; offending and offence categories; drug and alcohol use; drug purchasing and availability; drug and alcohol treatment needs; treatment offered and received; and gang involvement. Some of the above questions were answered by self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
 
 
-If you wanted to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here, and uploaded this subset onto blackboard. So go now to Blackboard (Learning Materials > module 3 > data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
+If you wanted to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here, and uploaded this subset onto Blackboard. You can go to Blackboard (Learning Materials > Module 3 > data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
 
 
 
-So the first thing we want to do is have a look at our variables. We have 5 variables, which are: 
+The first thing we want to do is have a look at our variables. We have 5 variables, which are: 
 
 - **Interview reference index:** This is just a reference number to identify each person interviewed. For anonymity reasons, a number is used to identify them, rather than their names 	
 - **Age:**	Age of the person being interviewed, at the time of interview
 - **Age at first arrest:** The age at which they person had their first arrest	
-- **Number of times arrested:**	The number of times this person has been arrested, up to this point.
+- **Number of times arrested:**	The number of times this person has been arrested, up to this point
 - **Reason for arrest:** The reason given for this particular arrest 
 
 
 In the following questions, we will explore the relationship that age has with offending. In the first instance, we might want to find out the age profile for different offences. Do you think there would be a difference between the different offences that people are likely to get arrested for?
 
 
-For example [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle' which appears in our data as a possible value for the "Reason for Arrest" variable. So we might expect for the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than a crime that might be associated with an older demographic. Any ideas what crime types those could be? 
+For example, [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle' which appears in our data as a possible value for the "Reason for Arrest" variable. So we might expect for the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than a crime that might be associated with an older demographic. Any ideas what crime types those could be? 
 
 ### Activity 3.5: Age of offenders
 
 
 
-Let's have a look at just the possible values that the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are clicked anywhere on a cell that's part of our data set, and then go to Insert 
+Let's have a look at just the possible values that the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are any cell that's part of our data set, and then go to Insert 
 and choose pivot table:
 
 
@@ -2571,11 +2571,11 @@ So, answer the following questions for me, without peaking ahead, or checking th
 - Which reason for arrest for you think has the lowest average age of arrestees?
 
 
-Take some time to think about this, discuss in your groups, and write down your guesses in the google doc. 
+Take some time to think about this, discuss in your groups, and write down your guesses. 
 
 
 
-So now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles, let's have a look at what the data says. In order to be able to compare a numeric variable across values of a categorical variable, we can consider different summaries across each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maxiumum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look on how to do this. 
+Now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles, let's have a look at what the data says. In order to be able to compare a numeric variable across values of a categorical variable, we can consider different summaries across each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well, now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maxiumum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look on how to do this. 
 
 
 
@@ -2587,11 +2587,11 @@ On our pivot table panel, grab the age variable, and drag it into the "Values" b
 
 
 
-Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for reason of "theft of vehicle". This is very hard to make sense of, and instead we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. So how do we do this? 
+Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for reason of "theft of vehicle". This is very hard to make sense of, and instead we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
 
 
 
-Well on the right hand side of the item "Sum of Age" in the Values box there is a little letter "i". This is on a mac so on a PC it might be a downwards arrow. Whatever it is, click on it, and a new popup window will appear. 
+Well, on the right hand side of the item "Sum of Age" in the Values box there is a little letter "i". This is on a Mac, but on a PC it might be a downwards arrow. Whatever it is, click on it, and a new popup window will appear. 
 
 
 ![](imgs/change_from_sum.png)
@@ -2631,7 +2631,7 @@ Click OK, and you will see your column updated:
 
 
 
-So now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". So which one has the highest average age? It appears to be "Sex Offense" with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for reason of offense that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully you might find these results interesting, and therefore are getting some insight into offender demographics for various crime types. Our youngest average age of offenders does appear to be in the theft of vehicle category. 
+Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offense" with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for reason of offense that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully you might find these results interesting, and therefore are getting some insight into offender demographics for various crime types. Our youngest average age of offenders does appear to be in the theft of vehicle category. 
 
 
 
@@ -2655,10 +2655,10 @@ In the end your table should look like this:
 ![](imgs/reason_v_age_no_med.png)
 
 
-If it doesn't, come to the main room to ask for some help from the teaching staff, to go through this together. 
+If it doesn't, ask for some help from the teaching staff, to go through this together. 
 
 
-Note: for creating the standard deviation column you have two choices there, StdDev and StdDevp. The one to choose will depend if you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a *sample* of people, who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to, they are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. But with descriptive statistics we are actually talking only about our sample. So in this case you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this ask now!
+Note: for creating the standard deviation column you have two choices there, *StdDev* and *StdDevp*. The one to choose will depend if you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a *sample* of people, who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to, they are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. But with descriptive statistics we are actually talking only about our sample. So in this case you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this, ask now!
 
 
 
@@ -2676,17 +2676,17 @@ Theft of and theft from vehicle both have a standard deviation of about 7, as we
 
 
 
-Now finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop down menu, when selecting how to summarise the "age" variable? Well for some reason it's not as easy as calculating the other ones. Instead, to display the median we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
+Now finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop down menu, when selecting how to summarise the "age" variable? Well, for some reason it's not as easy as calculating the other ones. Instead, to display the median we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
 
 
 ### Activity 3.6: Adding a column for median
 
 
 
-To add a column for median, we will have to use something called an "IF" statement in Excel. The IF function is one of Excel's logical functions, used to return one value if a condition is true and another value if it's false. We can use that here, because we want to include a value in our calculations *if* if belongs to the value of reason for offence that we are calculating the median for. If it's any of the other offences, we *do not* want to include it. 
+To add a column for median, we will have to use something called an "IF" statement in Excel. The IF function is one of Excel's logical functions, used to return one value if a condition is true and another value if it's false. We can use that here, because we want to include a value in our calculations *if* it belongs to the value of reason for offence that we are calculating the median for. If it's any of the other offences, we *do not* want to include it. 
 
 
-It might help to think about this conceptually, before we write the formula. Let's say we go through our data row by row. Remember in our data, each row is one arrestee who was interviewed. We want to go through every one of these people, and include their age in our calculation for the median ror each offence category, **only if** the reason that that particular person was arrested *is* the offence category for which we are calculating the median. 
+It might help to think about this conceptually, before we write the formula. Let's say we go through our data row by row. Remember in our data, each row is one arrestee who was interviewed. We want to go through every one of these people, and include their age in our calculation for the median for each offence category, **only if** the reason that that particular person was arrested *is* the offence category for which we are calculating the median. 
 
 
 So for every person, we want to check if their value for *reason for arrest* is the one we are currently interested in. 
@@ -2705,7 +2705,7 @@ How would you write this in a formula? Well for assault we could say something l
 Now we just have to translate this to Excel language, and put it inside a median calculation formula. Remember this one from last week? It's simply `=MEDIAN()`. 
 
 
-Now we also have to refer to some cells. You can select these values by simply clicking on the cells that you need, but I'll go through the notation here again, just as a refresher. 
+We also have to refer to some cells. You can select these values by simply clicking on the cells that you need, but I'll go through the notation here again, just as a refresher. 
 
 
 To specity what sheet you are taking your data from, you put the sheet name followed by an exclamation mark (`!`). So to refer to columns that are on the arrestees_subset.csv sheet, Excel notation for that is: `arrestees_subset.csv!`. 
@@ -2715,7 +2715,7 @@ A cell you refer to by the letter of the column it's in, and the number of the r
 
 
 
-And to refer to a range of values, you denote them as `first value:last value` . To get all the values from row 2 of column E to row number 19897 of column E, we would type: `E2:E19897`. And if we wanted to make sure that we **always** refer to these values, again we just inject a `$` in front of the column reference (E) and the row reference (2 and 19897). For example: `$E$2:$E$19897`. 
+And to refer to a range of values, you denote them as `first value:last value`. To get all the values from row 2 of column E to row number 19897 of column E, we would type: `E2:E19897`. And if we wanted to make sure that we **always** refer to these values, again we just inject a `$` in front of the column reference (E) and the row reference (2 and 19897). For example: `$E$2:$E$19897`. 
 
 
 Now building it all together, for assault, we could calculate the median like so: 
@@ -2959,7 +2959,7 @@ You can see that you tend to get younger arrestees for robbery as well as theft 
 ## Numeric v numeric
 
 
-Regarding descriptive statistics to explore the relationship between two numeric variables in our sample, to analyse the relationship between two quantitative variables, we consider how one variable, called a response variable, changes in relation to changes in the other variable called an explanatory variable. Graphically we use scatterplots to display two quantitative variables, as comparing two numeric variables is best achieved through the use of graphics and visualisation. As you might imagine, it becomes very difficult to create any sort of crosstabs between numbers. Instead, you want to be able to determine whether there is a relationship between two numbers in other ways. We'll illustrate with two other variables from the arrestee survey. Let's consider the relationship between "Age at first arrest" and "Number of arrests". We might be interested about this if we are thinking about criminal trajectories, for example [delinquency careers](http://www.journals.uchicago.edu/doi/abs/10.1086/449107) or [life course trajectories](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1995.tb01173.x/full). 
+Regarding descriptive statistics to explore the relationship between two numeric variables in our sample, to analyse the relationship between two quantitative variables, we consider how one variable, called a response variable, changes in relation to changes in the other variable, called an explanatory variable. Graphically we use scatterplots to display two quantitative variables, as comparing two numeric variables is best achieved through the use of graphics and visualisation. As you might imagine, it becomes very difficult to create any sort of crosstabs between numbers. Instead, you want to be able to determine whether there is a relationship between two numbers in other ways. We'll illustrate with two other variables from the arrestee survey. Let's consider the relationship between "Age at first arrest" and "Number of arrests". We might be interested about this if we are thinking about criminal trajectories, for example [delinquency careers](http://www.journals.uchicago.edu/doi/abs/10.1086/449107) or [life course trajectories](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1995.tb01173.x/full). 
 
 
 What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around, and never offend again. In other words, we are thinking that either **as age of 1st arrest decreases, number of arrests will increase**, or we think that **as age of 1st arrest decreases, number of arrests will also decrease**. These two scenarios describe two different kinds of relationships, a positive relationship or a negative relationship. In either scenario we assume that as one goes up the other one goes up or as one goes up the other one goes down, but that this takes a linear relationship. If you imagine one numeric variable across the x axis and another cross the y axis, a positive and a negative relationship would look something like this: 
@@ -2973,7 +2973,7 @@ The figure above shows you what a perfect positive relationship would look like,
 
 
 
-So as discussed, a graphical representation, in this case a scatterplot is the most useful display technique for comparing two quantitative variables. We plot on the y-axis the variable we consider the response variable and on the x-axis we place the explanatory or predictor variable.
+As discussed, a graphical representation, in this case a scatterplot is the most useful display technique for comparing two quantitative variables. We plot on the y-axis the variable we consider the response variable and on the x-axis we place the explanatory or predictor variable.
 
 
 How do we determine which variable is which? In general, the explanatory variable attempts to explain, or predict, the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, age at first arrest would be the explanatory variable used to explain the variation in the response variable number of arrests.
@@ -3029,7 +3029,7 @@ You can see that actually we have age of first arrest on the x axis, and number 
 ![](imgs/scatter_4.png) 
 
 
-and then on the popup there is an option to switch row/column: 
+And then on the popup there is an option to switch row/column: 
 
 
 ![](imgs/scatter_5.png)
@@ -3084,7 +3084,7 @@ Now you can see your trendline appear:
 
 ![](imgs/scatter_12.png)
 
-So what does this line look like? Well it definitely has a negative slope (it's pointing down, rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to *no slope* or a slope of zero, because it is essentially a straight line. To give you an idea of weak/strong relationships based on slope of a line, here is a handy image: 
+What does this line look like? Well it definitely has a negative slope (it's pointing down, rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to *no slope* or a slope of zero, because it is essentially a straight line. To give you an idea of weak/strong relationships based on slope of a line, here is a handy image: 
 
 
 ![](imgs/examples2_corr.jpg)
