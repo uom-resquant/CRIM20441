@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.15)  18 OCT 2021 20:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.18)  19 OCT 2021 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bookdown-demo.tex
 (./bookdown-demo.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-10-12> (c:/Users/david/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-10-17> (c:/Users/david/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -145,11 +145,11 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-10-12 L3 programming layer (loader) 
+Package: expl3 2021-10-17 L3 programming layer (loader) 
 
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
-File: l3backend-xetex.def 2021-10-12 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-10-17 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count199
 \l__color_backend_stack_int=\count266
@@ -505,10 +505,10 @@ Runaway argument?
 l.85 \begin{document}
                       
 Here is how much of TeX's memory you used:
- 15568 strings out of 478492
- 276196 string characters out of 5860434
- 657280 words of memory out of 5000000
- 35724 multiletter control sequences out of 15000+600000
+ 15570 strings out of 478492
+ 276267 string characters out of 5860434
+ 657364 words of memory out of 5000000
+ 35726 multiletter control sequences out of 15000+600000
  403806 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,0n,95p,332b,269s stack positions out of 5000i,500n,10000p,200000b,80000s

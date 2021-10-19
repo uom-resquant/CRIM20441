@@ -3916,7 +3916,7 @@ But if we've still not convinced you, and you want to go out and collect your ow
 ### Activity 4.5: Calculating a summative score
 
 
-So back to our data about collecting people's feelings of unsafety, in their neighbourhoods. We have our three indicator questions: 
+Back to our data about collecting people's feelings of unsafety, in their neighbourhoods. We have our three indicator questions: 
 
 - To what extent do you feel safe walking alone in the day?
 - To what extent do you feel safe walking alone after dark?
@@ -3924,26 +3924,26 @@ So back to our data about collecting people's feelings of unsafety, in their nei
 
 
 
-Well how can we tell if these measures are any good? One approach is to calculate Cronbach's alpha. There is some debate around what this approach can tell you about your questions, but Cronbach's alpha is used frequently as a measure in constructing a summary scale for Likert type questions or opinions. The Cronbach's alpha gives a measure of the internal consistency or reliability of such a multi-item scale. It essentially considers the variation in one person's answers between the many indicators of the construct. If they are all supposed to measure the same thing, then you should have little variation, and therefore get a high Cronbach's alpha. If on the other hand you have high variation, and get a low Cronbach's alpha, that might mean that your indicators are not so inter-linked as you had imagined, and perhaps measure distinct things, rather than elements of the same construct. 
+How can we tell if these measures are any good? One approach is to calculate Cronbach's alpha. There is some debate around what this approach can tell you about your questions, but Cronbach's alpha is used frequently as a measure in constructing a summary scale for Likert type questions or opinions. The Cronbach's alpha gives a measure of the internal consistency or reliability of such a multi-item scale. It essentially considers the variation in one person's answers between the many indicators of the construct. If they are all supposed to measure the same thing, then you should have little variation, and therefore get a high Cronbach's alpha. If on the other hand you have high variation, and get a low Cronbach's alpha, that might mean that your indicators are not so inter-linked as you had imagined, and perhaps measure distinct things, rather than elements of the same construct. 
 
 
-So let's give it a go. Open up your data (`csew_small.xlsx`) and have a look at the answers people provide. Does it look consistent, from question to question? What are your initial thoughts?
+Let's give it a go. Open up your data (`csew_small.xlsx`) and have a look at the answers people provide. Does it look consistent, from question to question? What are your initial thoughts?
 
 
 
-Well now we can consider calculating the variation in answers, to be able to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, on the first instance, we would suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to  reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
+Well, now we can consider calculating the variation in answers, to be able to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, on the first instance, we would suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to  reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
 
 
 Once we've decided on a scoring system like this, we can write it down in a little table. This is both for ourselves, so we know what the numbers mean later (and maybe also for anyone else using our data afterwards), but also so that we can use this as a lookup table for our re-coding. 
 
 
-So create a mini table in your data, that has your codes and values. Something like this: 
+We can create a mini table in our data, that has our codes and values. Something like this: 
 
 
 ![](imgs/lookup_table.png)
 
 
-Now also create headings for 3 new columns, one for each of our indicator variables: 
+Now, also create headings for 3 new columns, one for each of our indicator variables: 
 
 
 
@@ -3951,10 +3951,10 @@ Now also create headings for 3 new columns, one for each of our indicator variab
 
 
 
-So now we can recode these variables into these new columns, where we will see the numeric value for each text value. We could do this manually. But we don't want to. Remember we are lazy. And also remember that this is a very small subset of the actual Crime Survey for England and Wales (CSEW) data. The actual data has thousands of rows. 46,031 in the 2011/12 sweep to be exact. So that is not something that you would want to do manually, right? No. 
+Now we can recode these variables into these new columns, where we will see the numeric value for each text value. We could do this manually. But we don't want to. Remember we are lazy. And also remember that this is a very small subset of the actual Crime Survey for England and Wales (CSEW) data. The actual data has thousands of rows. 46,031 in the 2011/12 sweep to be exact. So that is not something that you would want to do manually, right?
 
 
-Instead we will learn a new function in excel, one which you will often use, called `VLOOKUP()`. What this function does, is it uses a lookup table, in order to assign variables to a new column. In this case, our lookup table is the one on the bottom there, that we created, that tells excel that for us, Very safe is 1, and Fairly safe is 2, and A bit unsafe is 3, and Very unsafe is 4. We can use this, in order to create our new, re-coded variables. 
+Instead we will learn a new function in Excel, one which you will often use, called `VLOOKUP()`. What this function does, is it uses a lookup table, in order to assign variables to a new column. In this case, our lookup table is the one on the bottom there, that we created, that tells excel that for us, Very safe is 1, and Fairly safe is 2, and A bit unsafe is 3, and Very unsafe is 4. We can use this, in order to create our new, re-coded variables. 
 
 
 The `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. This can be either a value (number, date or text) or a cell reference (reference to a cell containing a lookup value), or the value returned by some other Excel function. For example:
@@ -4027,7 +4027,7 @@ Cronbach’s alpha can be written as a function of the number of test items and 
 
 
 
-With this in mind, we can apply this formula to excel, and use excel to calculate our Cronbach's alpha. There is a handy guide online, which you can see [here](http://www.real-statistics.com/reliability/internal-consistency-reliability/cronbachs-alpha/) which we will borrow some examples from here to illustrate.  
+With this in mind, we can apply this formula to Excel, and use excel to calculate our Cronbach's alpha. There is a handy guide online, which you can see [here](http://www.real-statistics.com/reliability/internal-consistency-reliability/cronbachs-alpha/) which we will borrow some examples from here to illustrate.  
 
 Here you can see, they have the data: 
 
@@ -4042,7 +4042,7 @@ Using the above, they calculate cronbach alpha, with the values in the below tab
 I'll go through each of these below, in relation to our fear of crime example, but just as way of brief explanation, k is the number of indicators, sigma (sum of) theta^2 is the sum of the variance between people's answers, and theta^2 is the population variance. Alpha is the end result, that you're calculating. The cells refer to the table above.  
 
 
-So now we know, that to calculate our alpha we need: 
+Now we know that to calculate our alpha we need: 
 
 - the number of indicators, 
 - the sum of variance, and 
@@ -4119,7 +4119,7 @@ A note of caution though. There are some issues with Cronbach's alphas. For exam
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-So we've already covered some re-coding of our variables, transforming them from text values into their rank orders, as they sit in the ordinal variable above, using the `VLOOKUP()` function. The last thing we'll cover today is addressing re-coding of the second variety mentioned above by Leland Wilkinson, when you want to create aggregate summaries of a variable. You might want to do this if you want to turn a numeric variable into a categorical variable for example, or when you want to turn a categorical variable with many possible values into a **binary** variable, a variable with only two possible values. 
+We've already covered some re-coding of our variables, transforming them from text values into their rank orders, as they sit in the ordinal variable above, using the `VLOOKUP()` function. The last thing we'll cover today is addressing re-coding of the second variety mentioned above by Leland Wilkinson, when you want to create aggregate summaries of a variable. You might want to do this if you want to turn a numeric variable into a categorical variable for example, or when you want to turn a categorical variable with many possible values into a **binary** variable, a variable with only two possible values. 
 
 
 Let's start with the second option, because we can demonstrate this on our fear of crime table, that you should still have open, after having just finished calculating your Cronbach's alpha. Let's say that we no longer care about the distinction between all 4 types of worry, and instead wanted to only distinguish between those who are worried or not worried. We only want 2 possible categories. How can we achieve this?
@@ -4143,7 +4143,7 @@ Remember you have to specify:
 - that you want *exact* matches
 
 
-So, got your formula yet? Well if not, I'll help you. It's this: 
+Got your formula yet? Well, if not, we'll help you. It's this: 
 
 
 `=VLOOKUP(B2,H20:I23,2,FALSE)`
@@ -4177,7 +4177,7 @@ Now the last task is to re-code your numeric variables, into categorical. You ma
 ### Activity 4.7: Recoding Variables
 
 
-OK so final thing, to turn a numeric variable into a categorical, go back to your data of people's heights. Let's say we don't want any sophisticated analysis with numbers, we just want to know whether people are short or they are tall. We will decide this, by checking whether they are taller than the group average, or shorter than the group average.
+OK - final thing. To turn a numeric variable into a categorical, go back to your data of people's heights. Let's say we don't want any sophisticated analysis with numbers, we just want to know whether people are short or they are tall. We will decide this, by checking whether they are taller than the group average, or shorter than the group average.
 
 
 To achieve this, we will return to our trusty `IF()` function. So open up the data set with the heights again, and create a new column, for a new variable called **tall_or_short**:
@@ -4191,7 +4191,7 @@ To achieve this, we will return to our trusty `IF()` function. So open up the da
 Great, now this column, we want to populate with the word "Tall" if the person is taller than average and "Short" if they are not. So what are the elements of our statement? We need to check *if* the person height is *greater than* the *average height* and if it is, type "Tall", else type "Short". 
 
 
-So we know that the `IF()` function takes 3 arguments. 1st the logical statement, that has to be either true or false. In this case, that statement will test whether person height is greater than the average height. This would look something like this: `cell value > average(column)`. 
+We know that the `IF()` function takes 3 arguments. 1st the logical statement, that has to be either true or false. In this case, that statement will test whether person height is greater than the average height. This would look something like this: `cell value > average(column)`. 
 
 
 In the example of our first person, Samuel Carmona, that would be the value of the cell `B2`, being checked against the average for the whole column (`B:B`). So this part of the statement would look like: 
