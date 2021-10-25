@@ -408,7 +408,7 @@ The [Turing Way](https://the-turing-way.netlify.app/welcome.html), an open sourc
 Specifically here, we will look at a tool that can help you get a good grasp of what is required at each stage of the research process. In order to help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT, to evaluate the effectiveness of the scared straight programme. But you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
 
 
-#### What is a Gantt chart?!
+#### What is a Gantt chart?
 
 
 A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflects the start date, duration and end date of the activity. This allows you to see at a glance:
@@ -434,11 +434,11 @@ In order to be able to build a Gantt chart, you need to know the following about
 - Approximate start and finish dates for the individual tasks
 
 
-Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (eg "data collection") and be able to sub-divide into the individual elements that make up that task (eg "identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take, and how feasible it is within your given set of resources (including your time). 
+Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., "data collection") and be able to sub-divide into the individual elements that make up that task (e.g.,"identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take, and how feasible it is within your given set of resources (including your time). 
 
 
 
-So how is this helpful in research design? Well let's consider the example of designing an RCT to evaluate Scared Straight. In order to be able to carry out this RCT, we need to be able to grab a basic outline for one, and turn it into a Gantt chart. Then we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
+How is this helpful in research design? Well, let's consider the example of designing an RCT to evaluate Scared Straight. In order to be able to carry out this RCT, we need to be able to grab a basic outline for one, and turn it into a Gantt chart. Then we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
 
 
 Let's start with the basic outline
@@ -1080,7 +1080,7 @@ There isn't much that we can do (at the stage of data analysis) to control for t
 
 
 
-There are a vast range of statistical techniques for accommodating missing data (see [www.missingdata.org.uk](http://www.missingdata.org.uk/)). Perhaps the most commonly adopted is to simply exclude those participants in our dataset who have any data missing (in those variables we are concerned with) from our analysis. This is what is commonly known as a '**complete case analysis**' or 'listwise deletion' - we analyse only the complete cases. This approach simply says "we will not deal with any of the missing data", and instead subsets the analysis to the sample where participants have answered every question - in other words, only use the rows which do not have missing data. 
+There are a vast range of statistical techniques for accommodating missing data (see some examples [here](https://www.lshtm.ac.uk/research/centres-projects-groups/missing-data)). Perhaps the most commonly adopted is to simply exclude those participants in our dataset who have any data missing (in those variables we are concerned with) from our analysis. This is what is commonly known as a '**complete case analysis**' or 'listwise deletion' - we analyse only the complete cases. This approach simply says "we will not deal with any of the missing data", and instead subsets the analysis to the sample where participants have answered every question - in other words, only use the rows which do not have missing data. 
 
 
 If data are missing complete randomly, meaning that the chance of data being missing is unrelated to any of the variables involved in our analysis, a complete case analysis is unbiased. This is because the subset of complete cases represent a random (albeit smaller than intended) sample from the population. In general, if the complete cases are systematically different from the sample as a whole (i.e. different to the incomplete cases), i.e. the data are not missing completely randomly, analysing only the complete cases will lead to biased estimates.
