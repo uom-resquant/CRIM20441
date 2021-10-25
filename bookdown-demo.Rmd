@@ -4357,7 +4357,7 @@ First, watch this [6 minute video from the University of Cambridge to learn a bi
 And then [this video that describes the Philadelphia foot patrol experiment](https://www.youtube.com/watch?v=0NUQsK0vnnM). Pay attention to how the blocks are assigned to the treatment (foot patrol) and the control (normal, business as usual policing) groups. 
 
 
-Take some notes about what you think are elements of the **research design** when you watch these videos, they will help you understand how and why we can use experiments in criminological research! Take time to get through these, it will help, but also I hope that they are interesting examples of criminological research in action! Quantitative criminology isn't all about sitting around playing with spreadsheets and reading equations - we do get out sometimes, and get to have an impact on things like policing!
+Take some notes about what you think are elements of the **research design** when you watch these videos, they will help you understand how and why we can use experiments in criminological research! Take time to get through these, it will help, but also we hope that they are interesting examples of criminological research in action! Quantitative criminology isn't all about sitting around playing with spreadsheets and reading equations - we do get out sometimes, and get to have an impact on things like policing!
 
 
 ![](https://media.giphy.com/media/pUeXcg80cO8I8/giphy.gif)
@@ -4401,7 +4401,7 @@ What about in the case of an experiment? Let's return to our example with the sc
 Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in scared straight offend less than they would have if they didn't participate. So, for this we know that we have one variable (in this case offending) that *depends on* the other (participating in scared straight or not). What does this mean for which is dependent variable and which is the independent?
 
 
-Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here, because I will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups, and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!
+Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here, because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups, and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!
 
 
 
@@ -4502,13 +4502,13 @@ When you hit enter, the formula will generate a random number, between 0 and 1. 
 
 
 
-Did you get a different number for Ella there, than I did? Chances are, you did. This `RAND()` function generates a random number each time used. If I did this again (and try this on your data), it will give a different number. Give it a try. Go into the cell, where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should, now, have another random number appear. Now copy and paste the formula (and make sure its the formula you're copying, and not the value) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
+Did you get a different number for Ella there, than we did? Chances are, you did. This `RAND()` function generates a random number each time used. If we did this again (and try this on your data), it will give a different number. Give it a try. Go into the cell, where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should, now, have another random number appear. Now copy and paste the formula (and make sure its the formula you're copying, and not the value) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
 
 
 ![](imgs/rand_nums.png)
 
 
-We can use these values, which have been assigned *randomly* to assign students to a control or treatment groups. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data get put into one group, and 50% of your data into the other group? This question should already be familiar to you, but let me re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
+We can use these values, which have been assigned *randomly* to assign students to a control or treatment groups. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data get put into one group, and 50% of your data into the other group? This question should already be familiar to you, but let us re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
 
 
 Are you thinking **median**??
@@ -4566,7 +4566,7 @@ You should have something like this:
 ![](imgs/students_assigned.png)
 
 
-Don't worry if you don't get the same values, as I said this is *random* and so you should not get consistently the same answers. In fact, you should get different ones to your friends next to you as well. 
+Don't worry if you don't get the same values, as we said this is *random* and so you should not get consistently the same answers. In fact, you should get different ones to your friends next to you as well. 
 
 
 One way that you can sense check your results is to have a look at your treatment and control groups. Let's see how many students we have in each. You can use a Pivot Table to do this, and create a *univariate* *frequency table* to look at this new "Group" variable. 
@@ -4681,7 +4681,7 @@ The [Turing Way](https://the-turing-way.netlify.app/welcome.html), an open sourc
 Specifically here, we will look at a tool that can help you get a good grasp of what is required at each stage of the research process. In order to help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT, to evaluate the effectiveness of the scared straight programme. But you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
 
 
-#### What is a Gantt chart?!
+#### What is a Gantt chart?
 
 
 A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflects the start date, duration and end date of the activity. This allows you to see at a glance:
@@ -4707,14 +4707,14 @@ In order to be able to build a Gantt chart, you need to know the following about
 - Approximate start and finish dates for the individual tasks
 
 
-Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (eg "data collection") and be able to sub-divide into the individual elements that make up that task (eg "identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take, and how feasible it is within your given set of resources (including your time). 
+Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., "data collection") and be able to sub-divide into the individual elements that make up that task (e.g.,"identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take, and how feasible it is within your given set of resources (including your time). 
 
 
 
-So how is this helpful in research design? Well let's consider the example of designing an RCT to evaluate Scared Straight. In order to be able to carry out this RCT, we need to be able to grab a basic outline for one, and turn it into a Gantt chart. Then we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
+How is this helpful in research design? Well, let's consider the example of designing an RCT to evaluate Scared Straight. In order to be able to carry out this RCT, we need to be able to grab a basic outline for one, and turn it into a Gantt chart. Then we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
 
 
-Let's start with the basic outline
+Let's start with the basic outline.
 
 
 ### Activity 5.4: Research Planning with Gantt Charts: Design an RTC example
@@ -4730,18 +4730,18 @@ The basic outline of the design of a randomised controlled trial will vary from 
 
 
 
-This is not necessarily always a linear process. It can be that after data analysis you return for more data collection, or even go back to the conceptualisation stage.  But as I mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?
+This is not necessarily always a linear process. It can be that after data analysis you return for more data collection, or even go back to the conceptualisation stage.  But as we mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?
 
 
-Well let's try to build a Gantt chart with just these elements first to illustrate. As I said you need to know the approximate duration for your project, the tasks, and how long they will take. 
+Well, let's try to build a Gantt chart with just these elements first to illustrate. As seen above, you need to know the approximate duration for your project, the tasks, and how long they will take. 
 
 
-Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks, up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about for Operationalisation and data collection or the Data analysis? Take a moment to think about this, discuss in your breakout rooms.
+Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks, up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about for operationalisation and data collection or the Data analysis? Take a moment to think about this, discuss in small groups.
 
 
 
 
-Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Well probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as "data analysis" will take, would be an incredible tough task even for the most seasoned researcher. Instead, the way to be able to better guestimate the length for tasks is to break them into their components, which can give you a better indicator of how long things will take. 
+Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as "data analysis" will take, would be an incredible tough task even for the most seasoned researcher. Instead, the way to be able to better guestimate the length for tasks is to break them into their components, which can give you a better indicator of how long things will take. 
 
 
 
@@ -4777,7 +4777,7 @@ Let's start with our main overarching categories for above, but break each one d
     + Final write-up of results
 
 
-So how do you come up with individual sub-elements? Well there is no simple answer to this, the way that you come up with these categories is by thinking about what it is that you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps, all the actions that you need to take, to reach your end goal of a set of data that you can analyse in order to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly, and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first, and spend more time on it, before they can show someone else to receive comments. Because of this, not only does each project have its nuances and differences when building a Gantt chart, but each person will as well. 
+So, how do you come up with individual sub-elements? Well, there is no simple answer to this, the way that you come up with these categories is by thinking about what it is that you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps, all the actions that you need to take, to reach your end goal of a set of data that you can analyse in order to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly, and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first, and spend more time on it, before they can show someone else to receive comments. Because of this, not only does each project have its nuances and differences when building a Gantt chart, but each person will as well. 
 
 
 This exercise is aimed to help you get thinking about projects in this way, but also to illustrate, once you have the above information for a project, how you can draw it up into a visual timeline that can help you plan your research project, and make sure that it runs on time. So let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
@@ -4850,10 +4850,7 @@ You should be able to copy this over into Excel if you roughly agree with these 
 
 
 
-Notice that I did not give a start or end time to the *overarching categories* of planning and conceptualisation
-, operationalisation and data collection
-, data analysis
-, and writing up of results? We mentioned earlier, that these categories are so vague, that it becomes a very difficult task indeed to be able to guess their duration. Instead we break them down into smaller tasks, and calculate those. Well to get the start and end date for the overarching tasks, you just need the first start date for the first task, and the last end date for the last task that belongs to this overarching group. How can we find this? Well we can use the `=MIN()` and the `=MAX()` functions in Excel. 
+Notice that we did not give a start or end time to the *overarching categories* of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results? We mentioned earlier, that these categories are so vague, that it becomes a very difficult task indeed to be able to guess their duration. Instead we break them down into smaller tasks, and calculate those. Well to get the start and end date for the overarching tasks, you just need the first start date for the first task, and the last end date for the last task that belongs to this overarching group. How can we find this? Well, we can use the `=MIN()` and the `=MAX()` functions in Excel. 
 
 
 ![](imgs/ gantt_min.png)
@@ -5013,7 +5010,7 @@ In this case, you can fix this by editing the axis through right click, format a
 ![](imgs/Fixing_Gantt.jpg)
 
 
-Now you have a timeline for each task... but how do you know what is each task? I just see numbers? Well we need to add the labels, from the task column of your data, to give it some sort of meaning. To do this, once again right click anywhere on your chart area, and select "Select Data...", and this time, for where it asks for axis labels, click in that box, and then highlight the column with the tasks in it: 
+Now you have a timeline for each task... but how do you know what is each task? We just see numbers. Well we need to add the labels, from the task column of your data, to give it some sort of meaning. To do this, once again right click anywhere on your chart area, and select "Select Data...", and this time, for where it asks for axis labels, click in that box, and then highlight the column with the tasks in it: 
 
 
 ![](imgs/axis_labels_gantt.png)
@@ -5043,7 +5040,7 @@ Now your Gantt chart is basically ready. It can be that yours looks sort of in a
 
 So what's going to take the longest? As you can see there, the longest duration is for the operationalisation and data collection tab. It's an overarching category, but there are not any sub-tasks associated with it for the majority of its duration. Well, the thing is, even though we are not actively collecting data in that longer period, we are still in the data collection phase. Can you think why?
 
-Well we want to know if scared straight works on reducing offending right? So for this, we need to recruit our people, assign them into a control and a treatment group, and then *wait for a pre-determined amount of time* before we can collect the follow-up data - or the *after* data. Remember back to conceptualisation. How do we conceptualise re-offending? Well in this case, we conceptualise it as if the person has offended in the 12 months following taking part in the scared straight programme. Because of this, we have to wait 12 months until we collect our "after" data. 
+We want to know if scared straight works on reducing offending, right? For this, we need to recruit our people, assign them into a control and a treatment group, and then *wait for a pre-determined amount of time* before we can collect the follow-up data - or the *after* data. Remember back to conceptualisation. How do we conceptualise re-offending? Well in this case, we conceptualise it as if the person has offended in the 12 months following taking part in the scared straight programme. Because of this, we have to wait 12 months until we collect our "after" data. 
 
 
 
@@ -5062,7 +5059,7 @@ So there are many research designs, and you want to think about which one best f
 
 ## Longitudinal data
 
-There are two commonly used longitudinal research designs,**panel** and **cohort** studies. Both study the same group over a period of time and are generally concerned with assessing within- and between-group change. Panel studies follow the same group or sample over time, while cohort studies examine more specific populations (i.e., cohorts) as they change over time. Panel studies typically interview the same set of people at two or more periods of time. 
+There are two commonly used longitudinal research designs, **panel** and **cohort** studies. Both study the same group over a period of time and are generally concerned with assessing within- and between-group change. Panel studies follow the same group or sample over time, while cohort studies examine more specific populations (i.e., cohorts) as they change over time. Panel studies typically interview the same set of people at two or more periods of time. 
 
 
 For example, the 1970 British Cohort Study (BCS70) follows the lives of more than 17,000 people born in England, Scotland and Wales in a single week of 1970. Over the course of cohort members' lives, the BCS70 has broadened from a strictly medical focus at birth to collect  information on health, physical, educational and social development, and economic circumstances among other factors.
@@ -5087,7 +5084,7 @@ So far we've only shown you cross-sectional data. Each row was one observation, 
 A longitudinal study generally yields multiple or “repeated” measurements on each subject. So you will have many, repeated measure, from the same person, or neighbourhood, or whatever it is that you are studying (most likely people though... when you take repeated observations about places it's more likely to be a time-series designs. Time-series designs typically involve variations of multiple observations of the same group (i.e., person, city, area, etc.) over time or at successive points in time. Typically, they analyze a single variable (such as the crime rate) at successive time periods, and are especially useful for studies of the impact of new laws or social programs. An example of a time-series design would be to examine the burglary rate across the boroughs of Greater Manchester over the last five years. We'll be dealing with time series in week 7.)
 
 
-Okay so what do these data actually look like? Well have a look at the description for the [Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1))](https://discover.ukdataservice.ac.uk/series/?sn=2000030). Briefly mentioned above, the Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1)) is a major longitudinal study that follows the lives of around 16,000 people born in 1989-90 in England. The first seven sweeps of the study (2004-2010) were funded and managed by the Department for Education (DfE) and mainly focused on the educational and early labour market experiences of young people.
+Okay, so what do these data actually look like? You can have a look at the description for the [Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1))](https://discover.ukdataservice.ac.uk/series/?sn=2000030). Briefly mentioned above, the Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1)) is a major longitudinal study that follows the lives of around 16,000 people born in 1989-90 in England. The first seven sweeps of the study (2004-2010) were funded and managed by the Department for Education (DfE) and mainly focused on the educational and early labour market experiences of young people.
 
 The study began in 2004 and included young people in Year 9 who attended state and independent schools in England. Following the initial survey at age 13-14, the cohort members were interviewed every year until 2010. The survey data have also been linked to the National Pupil Database (NPD) records, including cohort members’ individual scores at Key Stage 2, 3 and 4.
 
@@ -5108,17 +5105,17 @@ The benefit of a longitudinal study is that researchers are able to detect devel
 Anyway have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID" is the unique identifier for each person. Then there are three variables that contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had proper alcoholic drink (yes yes, the survey question does ask "proper" alcoholic drink, see [data dictionary](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/ukda_data_dictionaries.zip)), and *W1cignowYP* is the answer to whether the young person ever smoked cigarettes.
 
 
-So you can download these three waves of young people being surveyed from blackboard. You can find them labelled wave_1.xlsx, wave_2.xlsx, and wave_3.xlsx in the data folder for this week on BB. Download all three onto your computer, and open them up in excel. 
+So you can download these three waves of young people being surveyed from blackboard. You can find them labelled wave_1.xlsx, wave_2.xlsx, and wave_3.xlsx in the data folder for this week on BB. Download all three onto your computer, and open them up in Excel. 
 
 
 
 ### Activity 5.5: Linking data
 
 
-So hopefully if I've taught you anything about the structure of data, is that you have *all* your observations in your rows and *all* your variables in your columns. So if you want to be able to look at changes in people's responses over time, for example, you will need to be able to link these data sets together into one spreadsheet. 
+Hopefully, if we've taught you anything about the structure of data, is that you have *all* your observations in your rows and *all* your variables in your columns. If you want to be able to look at changes in people's responses over time, for example, you will need to be able to link these data sets together into one spreadsheet. 
 
 
-So how do we do this? Well what you can do is to link one data set with another.  Data linking is used to bring together information from different sources in order to create a new, richer dataset. This involves identifying and combining information from corresponding records on each of the different source datasets. The records in the resulting linked dataset contain some data from each of the source datasets. Most linking techniques combine records from different datasets if they refer to the same entity. (An entity may be a person, organisation, household or even a geographic region.) 
+How do we do this? Well what you can do is to link one data set with another. Data linking is used to bring together information from different sources in order to create a new, richer dataset. This involves identifying and combining information from corresponding records on each of the different source datasets. The records in the resulting linked dataset contain some data from each of the source datasets. Most linking techniques combine records from different datasets if they refer to the same entity. (An entity may be a person, organisation, household or even a geographic region.) 
 
 
 
@@ -5134,7 +5131,7 @@ To merge tables, you can use the VLOOKUP function to lookup and retrieve data fr
 This is a standard "exact match" `VLOOKUP()` formula (remember that means you have to set the last parameter to 'FALSE' for an exact match). 
 
 
-So first things first, open up all three waves in three separate excel spreadsheets. Have a look at them all. You can see the first one has the following columns: 
+First things first. Open up all three waves in three separate Excel spreadsheets. Have a look at them all. You can see the first one has the following columns: 
 
 - *NSID*: the unique ID
 - *W1canntryYP*: ever tried cannabis	
@@ -5159,7 +5156,7 @@ If you're still curious, have a look at wave 3, where you will see the familiar 
 - *W3alceverYP*: ever had alcohol
 
 
-So why doesn't the NSID column change? Well this is the same value for all participants all throughout. This is so that we can identify each one. Due to ethics and the data protection act, we cannot share data that contains personally identifiable information, especially in cases where it refers to some pretty sensitive stuff, such as someone's drug use, alcohol use, or some delinquent behaviour. Instead each person is given a unique code. This code can be used to track them, over time, without identifying them personally. 
+Why doesn't the NSID column change? Well, this is the same value for all participants all throughout. This is so that we can identify each one. Due to ethics and the data protection act, we cannot share data that contains personally identifiable information, especially in cases where it refers to some pretty sensitive stuff, such as someone's drug use, alcohol use, or some delinquent behaviour. Instead each person is given a unique code. This code can be used to track them, over time, without identifying them personally. 
 
 
 ![](imgs/fn2187.png)
@@ -5177,11 +5174,10 @@ And by doing so, we produce a final table that contains all values, lined up *co
 
 ![](imgs/merge_logic_2.png)
 
-
 This is all we are doing, when merging tables: we are making use that we line up the correct value for all the variables, for all our observations. 
 
 
-So let's do this with our young people. Let's say we want to look at the extent of cannabis, alcohol, and cigarette trying in each wave of our cohort, as they age. To do this, we need to link all the waves in to one data set. We have established that the variable *NSID* is an anonymous identifier, that is unique to each person, so we can use that to link their answers in each wave. 
+Let's do this with our young people. Let's say we want to look at the extent of cannabis, alcohol, and cigarette trying in each wave of our cohort, as they age. To do this, we need to link all the waves in to one data set. We have established that the variable *NSID* is an anonymous identifier, that is unique to each person, so we can use that to link their answers in each wave. 
 
 
 So remember the parameters you need to pass to the `VLOOKUP()` function, from last week? You need to tell it:
@@ -5196,10 +5192,10 @@ In this case, we want to match the unique identifier, found for each person in t
 
 
 
-So what does this look like in practice? 
+What does this look like in practice? 
 
 
-Well let's open up our wave 1 (well technically you have them all open, so just bring wave 1 to the front). Now we don't want to overwrite this file, so save it as something new. Do this by selecting File > Save As... and choosing where to save it, and giving it a name. Here I will save it in the same folder where I've saved the individual waves data, and call it "next_stepsw1-3.xlsx" as it will contain waves one through three of the next steps longitudinal survey:
+Well, let's open up our wave 1 (well technically you have them all open, so just bring wave 1 to the front). Now we don't want to overwrite this file, so save it as something new. Do this by selecting File > Save As... and choosing where to save it, and giving it a name. Here we will save it in the same folder where we've saved the individual waves data, and call it "next_stepsw1-3.xlsx" as it will contain waves one through three of the next steps longitudinal survey:
 
 
 ![](imgs/rename.png)
@@ -5213,11 +5209,11 @@ Now that you have this as a new file (which already contains the data from wave 
 
 
 
-Notice that I'm not copying over the NSID column. This is because it would be exactly the same. It's enough to have this once, there is no need for three replications of the same exact column. If you are participant NS23533L, you will always have this value for the NSID column. This is used to match all your answers, and to copy over into this sheet, but it is *not* itself copied over. If this is confusing as to why, just raise your hand now, and we will come around to talk through it. 
+Notice that we are not copying over the NSID column. This is because it would be exactly the same. It's enough to have this once, there is no need for three replications of the same exact column. If you are participant NS23533L, you will always have this value for the NSID column. This is used to match all your answers, and to copy over into this sheet, but it is *not* itself copied over. If this is confusing as to why, just raise your hand now, and we will come around to talk through it. 
 
 
 
-Right so now we have all our column headers, let's copy over the column contents. When you type in the `VLOOKUP()` function into Excel, it gives you a handy reminder of all the elements you need to complete: 
+Right, so now we have all our column headers, let's copy over the column contents. When you type in the `VLOOKUP()` function into Excel, it gives you a handy reminder of all the elements you need to complete: 
 
 
 ![](imgs/vlookup_hints.png)
@@ -5236,7 +5232,7 @@ Our lookup value will be the NSID for this particular person. Here we find this 
 ![](imgs/lookup_val_nsid.png)
 
 
-Now the table array is the lookup table. Where can we find the values for "W2canntryYP"? Well this is in the data set for wave 2. We've grabbed data from other sheets before, but never from a totally different file...! However the process is exactly the same. All you need to do, is find the data set, and select the range that represents your lookup table, which is all the data in this sheet!
+Now the table array is the lookup table. Where can we find the values for "W2canntryYP"? Well, this is in the data set for wave 2. We've grabbed data from other sheets before, but never from a totally different file...! However the process is exactly the same. All you need to do, is find the data set, and select the range that represents your lookup table, which is all the data in this sheet!
 
 
 Something like this: 
@@ -5251,16 +5247,16 @@ You can see that by going to the  sheet and highlighting the appropriate columns
 Remember the reference of a cell is `column letter + row number`? The reference for a cell from a sheet is `sheet name + ! + column letter + row number`? Well the reference for a cell from a sheet on an entirely different file is `[ + file name + ] + sheet name + ! + column letter + row number`. 
 
 
-So you can see that by clicking and highlighting, excel has automatically populated with the reference, which in my case is: 
+So you can see that by clicking and highlighting, excel has automatically populated with the reference, which in our case is: 
 
 
-`[wave_2.xlsx]wave_2.csv!$A:$D` - which means I want from wave_2.xlsx file, the wave_2.csv sheet, columns A through D (static, because I've included the dollar signs there). 
+`[wave_2.xlsx]wave_2.csv!$A:$D` - which means we want from wave_2.xlsx file, the wave_2.csv sheet, columns A through D (static, because I've included the dollar signs there). 
 
 
 If any of this is unclear flag us down to talk through these now. You've been slowly building up to this though. We have gradually made formulas more and more complex, so all these are, are formulas you've learned before, but all patched together, to be making some new formulas. 
 
 
-So now we still have two parameters to define, the column index number, and the range lookup. Column index number asks you, which column, from your reference table do you want to grab. Since we've copied over our headings in order, we know that the first heading will be column number 2 (column 1 contains the reference IDs in the NSID variable. Remember the reference tables you made for recoding last week? Same concept, the values *to match* are in the first column). Then the second one will be column number 3, and the third, column number 4. So in this case, our column index number is 2, and the range lookup is FALSE, because we want an *exact match*. 
+Now we still have two parameters to define, the column index number, and the range lookup. Column index number asks you, which column, from your reference table do you want to grab. Since we've copied over our headings in order, we know that the first heading will be column number 2 (column 1 contains the reference IDs in the NSID variable. Remember the reference tables you made for recoding last week? Same concept, the values *to match* are in the first column). Then the second one will be column number 3, and the third, column number 4. So in this case, our column index number is 2, and the range lookup is FALSE, because we want an *exact match*. 
 
 
 So our final formula looks like this: 
@@ -5280,7 +5276,7 @@ So our final formula looks like this:
 `=VLOOKUP(A2,'[wave_2(1).xlsx]wave_2.csv'!$A:$D,4,FALSE) `
 
 
-see the `'` around the `[wave_2(1).xlsx]wave_2.csv`? You *might* see this in your version. But still achieves the same thing. 
+See the `'` around the `[wave_2(1).xlsx]wave_2.csv`? You *might* see this in your version. But still achieves the same thing. 
 
 
 
@@ -5321,13 +5317,13 @@ You can see our second person with NAs there, NS15760C, also has NA values for t
 
 
 
-So let's copy over wave 3 as well, and then we can have a look at our attrition and so on rates. 
+Let's copy over wave 3 as well, and then we can have a look at our attrition and so on rates. 
 
 
 Have a go at doing this on your own, following the steps from when we copied over wave 2, but this time from the wave 3 file. 
 
 
-If you need a little nudge, the formula which I ended up with was: `=VLOOKUP(A2,[wave_3.xls]wave_3.csv!$A:$D,2,FALSE)`. Yours might look something similar. 
+If you need a little nudge, the formula which we ended up with was: `=VLOOKUP(A2,[wave_3.xls]wave_3.csv!$A:$D,2,FALSE)`. Yours might look something similar. 
 
 
 
@@ -5395,7 +5391,7 @@ Filtering only hides these rows though, and they could still show up in your ana
 Then go back to your wave_1 sheet and copy all the columns, and then go back to your new, complete cases sheet, and paste in the values. You now have a new sheet, in your excel workbook, that has only the complete cases. 
 
 
-So what do these complete cases look like? I can tell you, that there were originally 1000 people in this sample that I've subset for you. So now, after you've removed all the NAs, and have only complete cases, how many complete cases do you have?
+So what do these complete cases look like? We can tell you that there were originally 1000 people in this sample that we've subset for you. So now, after you've removed all the NAs, and have only complete cases, how many complete cases do you have?
 
 
 If you did the same thing to me, you should have 622 cases left. Pretty big attrition rate, eh? Something to think about...!
@@ -5429,13 +5425,13 @@ And you can even get fancy and plot this change over time, to emphasise that ind
 ![](imgs/incr_yes_can.png)
 
 
-But we'll do more plotting and visualisation after reading week, when we have our data viz session. 
+We'll do more plotting and visualisation after reading week, when we have our data viz session. 
 
 
 
 ## Ethics
 
-I wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implication of your study, both on your participants, on your researchers (including yourself), and on the wider community. 
+We wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implication of your study, both on your participants, on your researchers (including yourself), and on the wider community. 
 
 Watch [this 8 minute video that gives a good introduction to research ethics](https://www.youtube.com/watch?v=nX4c3V23DZI), and pay particular attention to the concepts of: 
 
