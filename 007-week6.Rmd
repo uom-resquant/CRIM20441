@@ -19,11 +19,11 @@ Here are some terms that we will cover today:
 ## Visualising data
 
 
-A picture is worth a thousand words; when presenting and interpreting data this basic idea also applies. There has been, indeed, a growing shift in data analysis toward more visual approaches to both interpretation and dissemination of numerical analysis. Part of the new data revolution consists in the mixing of ideas from visualisation of statistical analysis and visual design. Indeed data visualisation is one of the most interesting areas of development in the field.
+A picture is worth a thousand words; when presenting and interpreting data this basic idea also applies. There has been, indeed, a growing shift in data analysis toward more visual approaches to both interpretation and dissemination of numerical analysis. Part of the new data revolution consists in the mixing of ideas from visualisation of statistical analysis and visual design. Indeed, data visualisation is one of the most interesting areas of development in the field.
 
 Good graphics not only help researchers to make their data easier to understand by the general public. They are also a useful way for understanding the data ourselves. In many ways it is very often a more intuitive way to understand patterns in our data than trying to look at numerical results presented in a tabular form. 
 
-Recent research has revealed that papers which have good graphics are perceived as overall more clear and more interesting, and their authors perceived as smarter (see [this presentation](https://vimeo.com/181771433))
+Recent research has revealed that papers which have good graphics are perceived as overall more clear and more interesting, and their authors perceived as smarter (see [this presentation](https://vimeo.com/181771433)).
 
 
 
@@ -40,7 +40,7 @@ We saw, when discussing ways to summarise variables (univariate analysis) that i
 In this case, each data set has the same exact summary statistics, but it is through visualisation that we can see they look quite different actually!
 
 
-**Engaging your audiences:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take my word for it, give it a go yourself! Remember in the video lecture where I draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at [this article in The Upshot (NYT's data-driven venture, focused on politics, policy and economic analysis) ](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html) and try this out yourselves. It should be an interesting little activity - you can draw the graph that represents the trends you think are happening, and then compare with the actual figures. Seriously try it out, it should be fun!
+**Engaging your audiences:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at [this article in The Upshot (NYT's data-driven venture, focused on politics, policy and economic analysis) ](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html) and try this out yourselves. It should be an interesting little activity - you can draw the graph that represents the trends you think are happening, and then compare with the actual figures. Seriously try it out, it should be fun!
 
 
 So we won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualization. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
@@ -75,16 +75,16 @@ This will result in a final plot:
 ![](imgs/combined.png)
 
 
-Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so I would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
+Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so we would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
 
 
 ## Principles of good data visualisation 
 
 
-There is a vast amount of research into what works in displaying quantitative information. It is an emerging and ever growing field. You saw examples from the 19th century in the videos, and hopefully you listened to the podcast episode of data stories on the preparation material which discussed data visualisation of our most recent pandemic. In between there has been lots and lots of reserach and work in visualisation, which we can tap into. 
+There is a vast amount of research into what works in displaying quantitative information. It is an emerging and ever growing field. You saw examples from the 19th century in the videos, and hopefully you listened to the podcast episode of data stories on the preparation material which discussed data visualisation of our most recent pandemic. In between there has been lots and lots of research and work in visualisation, which we can tap into. 
 
 
-The classic book, which I mentioned in the video lectures is [The Visual Dispay of Quantitative Information by Edward Tufte](https://www.edwardtufte.com/tufte/books_vdqi), but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week include the book Truthful Art by Alberto Cairo, which is a great guide, and I can also recommend the books and webiste of [Andy Kirk](https://www.visualisingdata.com/). Or just listen through some more episodes of data stories podcast. It really is quite fun!! But now, let's move on to the lab activities for visualisation. 
+The classic book, which we mentioned in the video lectures is [The Visual Dispay of Quantitative Information by Edward Tufte](https://www.edwardtufte.com/tufte/books_vdqi), but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week include the book Truthful Art by Alberto Cairo, which is a great guide, and we can also recommend the books and website of [Andy Kirk](https://www.visualisingdata.com/). Or just listen through some more episodes of data stories podcast. It really is quite fun!! But now, let's move on to the lab activities for visualisation. 
 
 ### The data to ink ratio - minimalist viz
 
@@ -126,7 +126,7 @@ We have deleted the border around the graph, the background color and the grid l
 ### Criticisms
 
 
-Inbar, et al, evaluated in 2007 the people's acceptance of the minimalist approach to visualize information. They asked 87 students to rate their preference for two different graphs displaying identical information - a standard bar-graph and a minimalist version [Inbar, 2007](http://portal.acm.org/citation.cfm?id=1362587). The results showed that the majority students did not like Tufte's minimalist design of bar-graphs - instead they seem to prefer "chartjunk". [Inbar, 2007](http://portal.acm.org/citation.cfm?id=1362587).
+Inbar, et al, evaluated in 2007 the people's acceptance of the minimalist approach to visualize information. They asked 87 students to rate their preference for two different graphs displaying identical information - a standard bar-graph and a minimalist version ([Inbar et al., 2007](http://portal.acm.org/citation.cfm?id=1362587)). The results showed that the majority students did not like Tufte's minimalist design of bar-graphs - instead they seem to prefer "chartjunk" ([Inbar et al., 2007](http://portal.acm.org/citation.cfm?id=1362587)).
 
 
 In the example shown above, increasing the data-ink ratio made it harder to read most of the data. For example, removing the top border of the chart removed an implied 20% line. It also made it harder to see how much the graph lies (in that it does not show a range from 0% to 100%, and/or does not show the domain from January through December). [How to Lie with Statistics](https://www.librarysearch.manchester.ac.uk/primo-explore/fulldisplay?docid=44MAN_ALMA_DS21134626320001631&context=L&vid=MU_NUI&search_scope=BLENDED&isFrbr=true&tab=local&lang=en_US) discusses this flaw in the example charts.
@@ -151,7 +151,7 @@ Here is a data visualisation that shows you the life expectancy of people who li
 
 
 
-Depending on your discussion, you may have decided to approve or reject this graph as something you might include in your report. One feature, which I hope you picked up on, is the 3-dimensionality of the chart. Remember in the video lecture when I showed how introducing a 3rd dimension, for example in a pie chart, can actually mislead? Once again this might be an issue. You can see also an example in the graph below: because of the angle and the 3D a reader may struggle to read off the extent of differences between regions. 
+Depending on your discussion, you may have decided to approve or reject this graph as something you might include in your report. One feature, which we hope you picked up on, is the 3-dimensionality of the chart. Remember in the video lecture when we showed how introducing a 3rd dimension, for example in a pie chart, can actually mislead? Once again this might be an issue. You can see also an example in the graph below: because of the angle and the 3D a reader may struggle to read off the extent of differences between regions. 
 
 So does this mean there are hard-and-fast rules for dos and donts in data visualisation? Well, no not really. There may be an instance when 3D is a good way to go, for example when the 3rd dimension is visualising a variable, and conveys some meaning. Take for example this chart, that models the population of different wards in London, where the height of each ward is the total population projected 
 
@@ -173,7 +173,7 @@ So when to use what chart is really up to you, but it is important to justify th
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-Indeed, a lot of people shun the pie chart (see for example this blog entry titled [death to pie charts](http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts)) or this story from Business Insider titled [pie charts are the words](http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T), but managers have a particular affinity towards it.  While these seem emotional and unfair, there is actually justification for these. People are actually *not* that great in telling proportions from pie charts. If you are interested, have a look at [this study](https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009), where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents (also discussed in recorded lecture vids). 
+Indeed, a lot of people shun the pie chart (see for example this blog entry titled ["Death to pie charts"](http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts)) or this story from Business Insider titled ["The worst charts in the world"](http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T), but managers have a particular affinity towards it.  While these seem emotional and unfair, there is actually justification for these. People are actually *not* that great in telling proportions from pie charts. If you are interested, have a look at [this study](https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009), where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents (also discussed in recorded lecture vids). 
 
 
 There are other charts as well, which are less popular to hate, but in certain situations may obscure important information. In some cases bar plots can hide important features of your data, and might not be the most appropriate means for comparison. See the below image for example, where the same data about 2 groups, green and purple, are visualised using 3 different methods, a histogram, which shows the green group following a normal distribution, and the purple group following a heavily skewed distribution (remember week 5), a boxplot that shows the same, and finally a bar plot, which makes the green and purple group appear identical: 
@@ -195,7 +195,7 @@ There are some recommendations on what to use (and not use) in certain contexts,
 
 We want to create pictures of data that people, including ourselves, can look at and learn from.
 
-But it is not always enough for you to know the perfect visualisation, it is important that you also know that your audience is comfortable interpreting these types of visualisations. Before I became a lecturer at Manchester, I worked as a crime analyst. I love data, and I was just coming out of my education, so I felt very comfortable with stats and data analysis, however my lack of real-world experience was made very evident when I entered my first ever briefing, with 3 Chief Inspectors from the Met Police to present them the work I'd done analysing confidence in police. My second slide was a set of boxplots, comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious by the way): 
+But it is not always enough for you to know the perfect visualisation, it is important that you also know that your audience is comfortable interpreting these types of visualisations. A friend of us told us once that before she became a lecturer, she worked as a crime analyst. She loves data, and was just coming out of her education, so she felt very comfortable with stats and data analysis, however her lack of real-world experience was made very evident when she entered her first ever briefing, with 3 Chief Inspectors from the Met Police to present them the work she'd done analysing confidence in police. Her second slide was a set of boxplots, comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious by the way): 
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -213,12 +213,12 @@ ggplot(mtcars, aes(y=mpg, x=as.factor(cyl)))+
 If you don't understand boxplots then you are not alone. They are not the most clear, but they do give you a very good summary of your numeric values. Remember the median, and 1st and 3rd quartile? This is what makes a boxplot. Read up on them [here](https://en.wikipedia.org/wiki/Box_plot). 
 
 
-It was useless. I spent basically all my allotted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. I did not take my audience into account, and that made my visualisation ineffective. It was not a great moment, but at least I got an embarrassing story to tell when teaching people about data visualisation. 
+It was useless. Our friend spent basically all her allotted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. She did not take her audience into account, and that made her visualisation ineffective.
 
 
 
 
-## So...What graph should I use?!?
+## So...What graph should we use?!?
 
 
 There are a lot of points to consider when you are choosing what graph to use to visually represent your data. There are some best practice guidelines, but at the end of the day, you need to consider what is best for your data. What do you want to show? What graph will best communicate your message? Is it a comparison between groups? Is it the frequency distribution of 1 variable? 
@@ -238,7 +238,7 @@ However, keep in mind that this is more of a guideline, aimed to nudge you in th
 
 ## Edges, Contrasts and Colors
 
-Looking at pictures of data means looking at lines, shapes, and colors. Our visual system works in a way that makes some things easier for us to see than others. I am speaking in slightly vague terms here because the underlying details are the remit of vision science, and the exact mechanisms responsible are often the subject of ongoing research. I will not pretend to summarize or evaluate this material. In any case, independent of detailed explanation, the existence of the perceptual phenomena themselves can often be directly demonstrated through visual effects or “optical illusions” of various kinds. These effects demonstrate that, perception is not a simple matter of direct visual inputs producing straightforward mental representations of their content. Rather, our visual system is tuned to accomplish some tasks very well, and this comes at a cost in other ways.
+Looking at pictures of data means looking at lines, shapes, and colors. Our visual system works in a way that makes some things easier for us to see than others. We are speaking in slightly vague terms here because the underlying details are the remit of vision science, and the exact mechanisms responsible are often the subject of ongoing research. We will not pretend to summarize or evaluate this material. In any case, independent of detailed explanation, the existence of the perceptual phenomena themselves can often be directly demonstrated through visual effects or “optical illusions” of various kinds. These effects demonstrate that, perception is not a simple matter of direct visual inputs producing straightforward mental representations of their content. Rather, our visual system is tuned to accomplish some tasks very well, and this comes at a cost in other ways.
 
 The active nature of perception has long been recognized. The Hermann grid effect, shown in the figure below, was discovered in 1870. Ghostly blobs seem to appear at the intersections in the grid but only as long as one is not looking at them directly. 
 
@@ -310,24 +310,24 @@ A good resource website is [colorbrewer](http://colorbrewer2.org/). This site of
 ### Activity 6.2: Picking a colour scheme
 
 
-Let's say we want to pick a colour scheme to visualise the variable of perception of police. Let's say we're measuring this with one varaible, operationalised as having asked people the extent to which they agree with the following statement: "I think the police are doing a good job in my area" where the values for this variable are: Strongly agree, Agree, Neither agree nor disagree, Disagree, and Strongly Disagree.
+Let's say we want to pick a colour scheme to visualise the variable of perception of police. Let's say we're measuring this with one variable, operationalised as having asked people the extent to which they agree with the following statement: "I think the police are doing a good job in my area" where the values for this variable are: Strongly agree, Agree, Neither agree nor disagree, Disagree, and Strongly Disagree.
 
 
-First things first, what is the level of measurement of this variable? Let's think about this a minute, discuss in your breakout groups, and write your answers on the google docco. 
+First things first, what is the level of measurement of this variable? Let's think about this a minute, discuss in groups, and write your answers. 
 
 
 Now, what does that mean for your colour scheme that you might use? Are you going to pick qualitative, sequential, or diverging? Why? Take a minute to think and discuss. 
 
 
 
-OK hopefully you had a discussion here. What did you answer? Did you pick qualitative? I hope not... Did you pick sequential? Good, you recognised there is an order that should be visualised. Did you pick divergent? Also good, you decided that you want to balance agreement vs disagreement! 
+OK, hopefully you had a discussion here. What did you answer? Did you pick qualitative? We hope not... Did you pick sequential? Good, you recognised there is an order that should be visualised. Did you pick divergent? Also good, you decided that you want to balance agreement vs disagreement! 
 
 But wait, why is there more than one right answer?? Well **it depends** on how we interpret our values for our variable. We know this is categorical ordinal variable, as there is an order from most to least agreement. However, there is a middle point. We might say, that what we want is complete positive perception of police effectiveness. In that case, we are happy when people answer 'Strongly agree' and so we will pick this as our strongest saturation of a sequential palette, and anything less than this is an issue to be remedied. In that case, the answer 'neither agree nor disagree' is not a neutral outcome, because it's someone who isn't convinced of the effectiveness of the police. 
 
 On the other hand you might have thought that any agreement is good, and any disagreement is bad. In that case, the neither agree nor disagree represents a neutral middle ground, and in that case you would want your colour scheme to reflect that by having a neutral middle point, and you choose a divergent scale. 
 
 
-Alright, now you have chosen a scheme. Let's here stick with sequential, only the maximum police effectiveness perceived will do! So now, how can we find out what are some good colours to use? Well in the video I mentioned we'd learn some tips and tricks, so let's get started: 
+Alright, now you have chosen a scheme. Let's here stick with sequential, only the maximum police effectiveness perceived will do! So now, how can we find out what are some good colours to use? Well, in the video we mentioned we'd learn some tips and tricks, so let's get started: 
 
 Go to the site [http://colorbrewer2.org/](http://colorbrewer2.org/), and select  sequential from the colour scheme options: 
 
@@ -360,7 +360,7 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 - Byte 3: blue value (color type blue)
 
 
-Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and html customisation. I guess a potentially more relevant venue would be tumlbr, if any of you use this and want to customise your pager, [you can use html to do this](https://www.tumblr.com/docs/en/custom_themes). Now you don't need to do this at all, but you should now know, that if you want to change the colour of something, you need to know the hex code for this colour. And this is what colourbrewer is telling you above. 
+Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and html customisation. We guess a potentially more relevant venue would be Tumlbr, if any of you use this and want to customise your pager, [you can use html to do this](https://www.tumblr.com/docs/en/custom_themes). Now you don't need to do this at all, but you should now know, that if you want to change the colour of something, you need to know the hex code for this colour. And this is what colourbrewer is telling you above. 
 
 
 If you want the three colours you see there you have to use the codes `#ffeda0`, `#feb24c`, `#f03b20`. 
@@ -372,7 +372,7 @@ You can also change the display, from HEX to RGB or CMYK codes, which are just u
 ![](imgs/choose_col_code.png)
 
 
-**DON'T FORGET ACCESSIBILITY** you can see that in colourbrewer you can also choose to select a scale which is "colourblind safe". Tick this box to filter out any schemes whihc might not comply withgood accessibility standards. Do pay attention to this sort of thing. If you have another scale, or want to use for example corporate colours, there are other tools available. FOr example, in the video lectures I mentioned the tool [https://coolors.co/](https://coolors.co/) where you can simulate different kinds of colourblindness. You can use this in your designs. 
+**DON'T FORGET ACCESSIBILITY** you can see that in colourbrewer you can also choose to select a scale which is "colourblind safe". Tick this box to filter out any schemes whihc might not comply withgood accessibility standards. Do pay attention to this sort of thing. If you have another scale, or want to use for example corporate colours, there are other tools available. For example, in the video lectures we mentioned the tool [https://coolors.co/](https://coolors.co/) where you can simulate different kinds of colour blindness. You can use this in your designs. 
 
 
 Right, but how do we get these colours into our excel graph? Well let's give it a go.
@@ -391,7 +391,7 @@ Open the data up in Excel, and have a look at it. You can see that it include th
 Well think about this - where do you expect more pickpocketing incidents, outside Piccadilly station, or in Platt Fields Park? Why? 
 
 
-My guess is that you said Piccadilly station, and because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime rate. In this case, they are accounting for changes in the population between the years, to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because as a percentage, the crime might not actually be increasing at all. So instead we consider the population. 
+Our guess is that you said Piccadilly station, and because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime rate. In this case, they are accounting for changes in the population between the years, to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because as a percentage, the crime might not actually be increasing at all. So instead we consider the population. 
 
 
 But is the population increasing? Well lets create a column graph of the population. 
@@ -498,7 +498,7 @@ So set each colour to this value, and click "OK", and ta-daaa, your graphs will 
 
 
 
-In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but I wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are very welcome to use the excel default colours in your graphs within this course, but if you're interested in learning more about colour [have a look at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
+In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are very welcome to use the excel default colours in your graphs within this course, but if you're interested in learning more about colour [have a look at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
 
 
 ## Reading between the lines (points) 
@@ -522,7 +522,7 @@ What sorts of relationships are inferred, and under what circumstances? In gener
 Data visualisation helps you unlock the hidden meaning in your data. It is the first tool of the data analyst. When you are given a heap of data, the only way to start getting some insight into it is to start making some visualisations. If you remember in weeks 2 and 3, when we did our univariate and bivariate analyses, we always started with graphing our data. And in some instances, visualising data itself can lead to surprising insights. 
 
 
-I suggest that in your own time, you listen to [this episode of the datastories podcast](http://datastori.es/66-iquantnyc/) which consists of an interview with Ben Wellington, the author of the blog [I Quant NY](http://iquantny.tumblr.com/). I mentioned him in the opening lecture, he's the guy who found the [fire hydrant that earns $30,000 a year](http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new). It's a good interview, so definitely bookmark it for later!
+We suggest that in your own time, you listen to [this episode of the DataStories podcast](http://datastori.es/66-iquantnyc/) which consists of an interview with Ben Wellington, the author of the blog [I Quant NY](http://iquantny.tumblr.com/). We mentioned him in the opening lecture, he's the guy who found the [fire hydrant that earns $30,000 a year](https://www.dailymail.co.uk/news/article-2618927/Blurred-lines-How-New-York-fire-hydrant-sees-33-000-flow-city-coffers-parking-fines.html). It's a good interview, so definitely bookmark it for later!
 
 
 Exploratory data visualisation is a way for you to get to know your data. It is a way to explore patterns and trends that you might not immediately see. We've covered some of this when we were performing univariate and bivariate analyses, but we will focus on how data visualisation can help you answer questions about your data, and also spend some time on making sure these graphs are in line with good practice. 
@@ -837,7 +837,7 @@ On a PC you won't have this option appear from the right-clicked menu, but you c
 
 
 
-Choose a location to save, give it a name you might remember (here I call this "bw", short for black and white): 
+Choose a location to save, give it a name you might remember (here we call this "bw", short for black and white): 
 
 
 
@@ -1140,13 +1140,13 @@ Pick all the true statements:
 
 
 
-Alright. Make a note of all of your answers in the google docco before reading the results ahead. 
+Alright. Make a note of all of your answers before reading the results ahead. 
 
 
 
 #### Results {-}
 
-OK I have the answers for you now: 
+OK, we have the answers for you now: 
 
 
 - For question 1 the correct answers were Options A and C
