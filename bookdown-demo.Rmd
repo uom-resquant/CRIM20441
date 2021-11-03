@@ -5510,10 +5510,10 @@ We saw, when discussing ways to summarise variables (univariate analysis) that i
 In this case, each data set has the same exact summary statistics, but it is through visualisation that we can see they look quite different actually!
 
 
-**Engaging your audiences:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at [this article in The Upshot (NYT's data-driven venture, focused on politics, policy and economic analysis) ](https://www.nytimes.com/interactive/2017/04/14/upshot/drug-overdose-epidemic-you-draw-it.html) and try this out yourselves. It should be an interesting little activity - you can draw the graph that represents the trends you think are happening, and then compare with the actual figures. Seriously try it out, it should be fun!
+**Engaging your audiences:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at some more examples of interactive data visualisations [here) ](https://www.tableau.com/en-gb/learn/articles/interactive-map-and-data-visualization-examples) and try them out yourselves. It should be an interesting little activity!
 
 
-So we won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualization. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
+We won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualization. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
 
 
 
@@ -5630,13 +5630,12 @@ So does this mean there are hard-and-fast rules for dos and donts in data visual
 You can see here: [https://parallel.co.uk/gla-population-projection/#9/51.5077/-0.1594/0/40](https://parallel.co.uk/gla-population-projection/#9/51.5077/-0.1594/0/40)
 
 
-
-So like all good questions, the answer is, "it depends".
+Like all good questions, the answer is, "it depends".
 
 
 ### It depends...
 
-So when to use what chart is really up to you, but it is important to justify the choices you make, and keep in mind what you learned in your readings about the truthful, functional, beautiful, insightful, enlightening role of each visualisation. There are also trends in data visualisation. A good example of this dilemma is the pie chart. 
+When to use what chart is mostly up to you, but it is important to justify the choices you make, and keep in mind what you learned in your readings about the truthful, functional, beautiful, insightful, enlightening role of each visualisation. There are also trends in data visualisation. A good example of this dilemma is the pie chart. 
 
 > A pie chart is perhaps the most ubiquitous of modern graphics. It has been reviled by statisticians (unjustifiably) and adored by managers (unjustifiably). It may be the most concrete chart, in the sense that it is a pie. A five-year-old can look at a slice and be a fairly good judge of proportion. (To prevent bias, give the child the knife and someone else the first choice of slices.) The pie is so popular nowadays that graphical operating systems include a primitive function for drawing a pie slice.
 
@@ -5656,7 +5655,7 @@ Now potentially, the  [kickstarter campaign](https://www.kickstarter.com/project
 
 
 
-There are some recommendations on what to use (and not use) in certain contexts, which can help you avoid making a bad graph. For example, most data visualisation experts agree that you should not use 3D graphics unless there is a meaning to the third dimension. So using 3D graphics just for decoration, as in [this case](https://mir-s3-cdn-cf.behance.net/project_modules/disp/2505dd10837923.56030acd2ef20.jpg) is normally frowned upon. However there are cases when including a third dimension is vital to communicating your findings. See this [example](http://www.visualisingdata.com/2015/03/when-3d-works/).
+There are some recommendations on what to use (and not use) in certain contexts, which can help you avoid making a bad graph. For example, most data visualisation experts agree that you should not use 3D graphics unless there is a meaning to the third dimension. Using 3D graphics just for decoration, as in [this case](https://mir-s3-cdn-cf.behance.net/project_modules/disp/2505dd10837923.56030acd2ef20.jpg) is normally frowned upon. However there are cases when including a third dimension is vital to communicating your findings. See this [example](http://www.visualisingdata.com/2015/03/when-3d-works/).
 
 
 
@@ -5735,7 +5734,7 @@ Our visual system is attracted to edges, and we assess contrast and brightness i
 
 
 
-So why does all this matter? What does this have to do with data analysis? These are all things that affect how your visualisation will be perceived by your audience. Your visualisation should consider how your audience will perceive, understand, misunderstand, etc what you show them. Every decision you make has an effect, not only what chart to choose, but also other details, such as questions of colour. In the next section we explore this more. 
+So, why does all this matter? What does this have to do with data analysis? These are all things that affect how your visualisation will be perceived by your audience. Your visualisation should consider how your audience will perceive, understand, misunderstand, etc what you show them. Every decision you make has an effect, not only what chart to choose, but also other details, such as questions of colour. In the next section we explore this more. 
 
 
 ## Colour

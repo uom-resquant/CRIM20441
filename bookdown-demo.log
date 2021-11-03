@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.25)  3 NOV 2021 12:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.25)  3 NOV 2021 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -216,26 +216,26 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math-table.tex))) (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/lat
 ex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
 .cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 227.
 
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex
 .def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 (c:/Users/david/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
@@ -505,10 +505,10 @@ Runaway argument?
 l.85 \begin{document}
                       
 Here is how much of TeX's memory you used:
- 15571 strings out of 478472
- 276301 string characters out of 5859791
+ 15568 strings out of 478472
+ 276280 string characters out of 5859791
  658940 words of memory out of 5000000
- 35747 multiletter control sequences out of 15000+600000
+ 35744 multiletter control sequences out of 15000+600000
  403806 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,0n,95p,332b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
