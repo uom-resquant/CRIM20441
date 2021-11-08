@@ -80,7 +80,7 @@
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2021-11-03}
+\date{2021-11-08}
 
 \begin{document}
 \maketitle
@@ -4515,17 +4515,17 @@ Recent research has revealed that papers which have good graphics are perceived 
 \hypertarget{why-visualise-data}{%
 \subsection{Why visualise data?}\label{why-visualise-data}}
 
-\textbf{New insights:} Visualising data can give you new insights into your own data (exploratory data visualisation) as well as effectively communicate the results from your studies to your audiences. You may recall the examples from the video lectures, about how data visualisation had allowed John Snow to determine where the Cholera infections were coming from, or Florence Nightingale to understand what were the causes of death of soldiers in the Chrimean War. By visualising data you allow yourself, and your readers to engage with the conclusions you are hoping to draw.
+\textbf{New insights:} Visualising data can give you new insights into your own data (exploratory data visualisation) as well as effectively communicate the results from your studies to your audiences. You may recall the examples from the video lectures, about how data visualisation had allowed John Snow to determine where the Cholera infections were coming from, or Florence Nightingale to understand what were the causes of death of soldiers in the Crimean War. By visualising data you allow yourself, and your readers to engage with the conclusions you are hoping to draw.
 
-We saw, when discussing ways to summarise variables (univariate analysis) that it is only through multiple approaches that we can get the full picture. Recall the issues with the mean (for example, remember the e.g.~of the white rainbow in the Tiger that Isn't book, or the rating for the film the sequel to an Inconvenient Truth, where we needed the standard deviation to fully understand what was going on, as well as the mean?). Well visualisation is another way to drill down. And it is often necessary. For example, have a look at the figure below, in which 4 data sets are graphed on 4 different graphs:
+We saw, when discussing ways to summarise variables (univariate analysis), that it is only through multiple approaches that we can get the full picture. Recall the issues with the mean (remember the example of the white rainbow in \emph{`The Tiger that Isn't'} book, or the rating for the film \emph{`An Inconvenient Truth'}, where we needed the standard deviation to fully understand what was going on, as well as the mean?). Well, visualisation is another way to drill this down. And it is often necessary. For example, have a look at the figure below, in which 4 data sets are graphed on 4 different graphs:
 
 \includegraphics{imgs/diff_viz_same_sums.png}
 
 In this case, each data set has the same exact summary statistics, but it is through visualisation that we can see they look quite different actually!
 
-\textbf{Engaging your audiences:} You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the united states? Have a look at some more examples of interactive data visualisations \href{https://www.tableau.com/en-gb/learn/articles/interactive-map-and-data-visualization-examples}{here)} and try them out yourselves. It should be an interesting little activity!
+\textbf{Engaging your audience:} You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the United States? Have a look at some more examples of interactive data visualisations \href{https://www.tableau.com/en-gb/learn/articles/interactive-map-and-data-visualization-examples}{here)} and try them out yourselves. It should be an interesting little activity!
 
-We won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualization. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
+We won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualisation. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
 
 \hypertarget{anatomy-of-a-plot---the-grammar-of-graphics}{%
 \section{Anatomy of a plot - the Grammar of Graphics}\label{anatomy-of-a-plot---the-grammar-of-graphics}}
@@ -4543,9 +4543,9 @@ sometimes aesthetic.
   Leland Wilkinson (2005) \emph{The Grammar of Graphics}
 \end{itemize}
 
-First things first, in order to create effective visualisations, we must learn the \textbf{grammar of graphics}. The grammar of graphics is about creating graphs mathematically. Essentially the philosophy behind this as that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms---visual marks that represent data points, and a coordinate system.
+First things first. In order to create effective visualisations, we must learn the \textbf{grammar of graphics}. The grammar of graphics is about creating graphs mathematically. Essentially the philosophy behind this is that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms---visual marks that represent data points, and a coordinate system.
 
-Take this example (taken from \emph{Wickham, H. (2010). A layered grammar of graphics. Journal of Computational and Graphical Statistics, 19(1), 3-28.})
+Take this example (taken from \emph{Wickham, H. (2010). A layered grammar of graphics. Journal of Computational and Graphical Statistics, 19(1), 3-28.}):
 
 You have a table such as:
 
@@ -4559,19 +4559,19 @@ This will result in a final plot:
 
 \includegraphics{imgs/combined.png}
 
-Here you see we have built up our visualisation incrementally. In EXcel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so we would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on.
+Here you see we have built up our visualisation incrementally. In Excel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so we would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on.
 
 \hypertarget{principles-of-good-data-visualisation}{%
 \section{Principles of good data visualisation}\label{principles-of-good-data-visualisation}}
 
 There is a vast amount of research into what works in displaying quantitative information. It is an emerging and ever growing field. You saw examples from the 19th century in the videos, and hopefully you listened to the podcast episode of data stories on the preparation material which discussed data visualisation of our most recent pandemic. In between there has been lots and lots of research and work in visualisation, which we can tap into.
 
-The classic book, which we mentioned in the video lectures is \href{https://www.edwardtufte.com/tufte/books_vdqi}{The Visual Dispay of Quantitative Information by Edward Tufte}, but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week include the book Truthful Art by Alberto Cairo, which is a great guide, and we can also recommend the books and website of \href{https://www.visualisingdata.com/}{Andy Kirk}. Or just listen through some more episodes of data stories podcast. It really is quite fun!! But now, let's move on to the lab activities for visualisation.
+The classic book, which we mentioned in the video lectures is \href{https://www.edwardtufte.com/tufte/books_vdqi}{The Visual Dispay of Quantitative Information by Edward Tufte}, but since him there are many other researchers as well who focus on approaches to displaying data. Your reading for this week include the book \emph{`The Truthful Art'} by Alberto Cairo, which is a great guide, and we can also recommend the books and website of \href{https://www.visualisingdata.com/}{Andy Kirk}. Or just listen through some more episodes of the Data Stories podcast. It really is quite fun! But now, let's move on to the lab activities for visualisation.
 
 \hypertarget{the-data-to-ink-ratio---minimalist-viz}{%
 \subsection{The data to ink ratio - minimalist viz}\label{the-data-to-ink-ratio---minimalist-viz}}
 
-The \textbf{Data-Ink ratio} is a concept introduced by Edward Tufte, the expert whose work has contributed significantly to designing effective data presentations. In his 1983 book, The Visual Display of Quantitative Data, he stated the goal is to ``Above all else show the data''.
+The \textbf{Data-Ink ratio} is a concept introduced by Edward Tufte, the expert whose work has contributed significantly to designing effective data presentations. In his 1983 book, \emph{`The Visual Display of Quantitative Data'}, he stated the goal of data visualisation is to ``Above all else show the data''.
 
 \begin{quote}
 A large share of ink on a graphic should present data-information, the ink changing as the data change. Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented
@@ -4590,7 +4590,8 @@ Tufte refers to data-ink as the non-erasable ink used for the presentation of da
 Good graphics should include only data-Ink. Non-Data-Ink is to be deleted everywhere where possible. The reason for this is to avoid drawing the attention of viewers of the data presentation to irrelevant elements.
 The goal is to design a display with the highest possible data-ink ratio (that is, as close to the total of 1.0), without eliminating something that is necessary for effective communication.
 
-\#\#\#~ An example:
+\hypertarget{an-example}{%
+\subsection{An example:}\label{an-example}}
 
 This is an example of a graph with a low Data-Ink Ratio:
 
@@ -4607,21 +4608,21 @@ We have deleted the border around the graph, the background color and the grid l
 \hypertarget{criticisms}{%
 \subsection{Criticisms}\label{criticisms}}
 
-Inbar, et al, evaluated in 2007 the people's acceptance of the minimalist approach to visualize information. They asked 87 students to rate their preference for two different graphs displaying identical information - a standard bar-graph and a minimalist version (\href{http://portal.acm.org/citation.cfm?id=1362587}{Inbar et al., 2007}). The results showed that the majority students did not like Tufte's minimalist design of bar-graphs - instead they seem to prefer ``chartjunk'' (\href{http://portal.acm.org/citation.cfm?id=1362587}{Inbar et al., 2007}).
+Ohad Inbar and his collaborators evaluated in 2007 the people's acceptance of the minimalist approach to visualise information. They asked 87 students to rate their preference for two different graphs displaying identical information - a standard bar-graph and a minimalist version (\href{http://portal.acm.org/citation.cfm?id=1362587}{Inbar et al., 2007}). The results showed that the majority students did not like Tufte's minimalist design of bar-graphs - instead they seem to prefer ``chartjunk'' (\href{http://portal.acm.org/citation.cfm?id=1362587}{Inbar et al., 2007}).
 
-In the example shown above, increasing the data-ink ratio made it harder to read most of the data. For example, removing the top border of the chart removed an implied 20\% line. It also made it harder to see how much the graph lies (in that it does not show a range from 0\% to 100\%, and/or does not show the domain from January through December). \href{https://www.librarysearch.manchester.ac.uk/primo-explore/fulldisplay?docid=44MAN_ALMA_DS21134626320001631\&context=L\&vid=MU_NUI\&search_scope=BLENDED\&isFrbr=true\&tab=local\&lang=en_US}{How to Lie with Statistics} discusses this flaw in the example charts.
+In the example shown above, increasing the data-ink ratio made it harder to read most of the data. For example, removing the top border of the chart removed an implied 20\% line. It also made it harder to see how much the graph lies (in that it does not show a range from 0\% to 100\%, and/or does not show the domain from January through December). \href{https://www.librarysearch.manchester.ac.uk/primo-explore/fulldisplay?docid=44MAN_ALMA_DS21134626320001631\&context=L\&vid=MU_NUI\&search_scope=BLENDED\&isFrbr=true\&tab=local\&lang=en_US}{`How to Lie with Statistics'} discusses this flaw in the example charts.
 
 \hypertarget{what-makes-a-bad-graph-bad}{%
 \section{What makes a bad graph bad?}\label{what-makes-a-bad-graph-bad}}
 
 Whether or not you subscribe to Tufte's school of minimalism, you should be able to recognise \emph{bad} graphs. What makes a bad graph bad though? The generic overview answer to this is that bad graphs are the ones where it becomes difficult for your audience to interpret the meaning you are trying to convey.
 
-Let's start with an activity where we engage with a chart
+Let's start with an activity where we engage with a chart.
 
 \hypertarget{activity-6.1-what-do-you-think}{%
 \subsection{Activity 6.1: What do you think?}\label{activity-6.1-what-do-you-think}}
 
-Here is a data visualisation that shows you the life expectancy of people who live on different continents. In your breakout rooms have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document.
+Here is a data visualisation that shows the life expectancy of people who live in different continents. In small rooms have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document.
 
 \includegraphics{http://socviz.co/assets/ch-02-chartjunk-life-expectancy.png}
 
@@ -4650,19 +4651,19 @@ A pie chart is perhaps the most ubiquitous of modern graphics. It has been revil
   Leland Wilkinson (2005) \emph{The Grammar of Graphics}
 \end{itemize}
 
-Indeed, a lot of people shun the pie chart (see for example this blog entry titled \href{http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts}{``Death to pie charts''}) or this story from Business Insider titled \href{http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T}{``The worst charts in the world''}, but managers have a particular affinity towards it. While these seem emotional and unfair, there is actually justification for these. People are actually \emph{not} that great in telling proportions from pie charts. If you are interested, have a look at \href{https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009}{this study}, where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents (also discussed in recorded lecture vids).
+Indeed, a lot of people shun the pie chart (see for example this blog entry titled \href{http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts}{``Death to pie charts''}, or this story from Business Insider titled \href{http://www.businessinsider.com/pie-charts-are-the-worst-2013-6?IR=T}{``The worst charts in the world''}), but managers have a particular affinity towards it. While these seem emotional and unfair, there is actually justification for these. People are actually \emph{not} that great in telling proportions from pie charts. If you are interested, have a look at \href{https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009}{this study}, where researchers found that a square pie chart performs the best, when people have to guess the proportion that it represents (also discussed in our recorded lecture videos).
 
 There are other charts as well, which are less popular to hate, but in certain situations may obscure important information. In some cases bar plots can hide important features of your data, and might not be the most appropriate means for comparison. See the below image for example, where the same data about 2 groups, green and purple, are visualised using 3 different methods, a histogram, which shows the green group following a normal distribution, and the purple group following a heavily skewed distribution (remember week 5), a boxplot that shows the same, and finally a bar plot, which makes the green and purple group appear identical:
 
 \includegraphics{https://pagepiccinini.files.wordpress.com/2016/02/barplot_psa1.jpg}
 
-Now potentially, the \href{https://www.kickstarter.com/projects/1474588473/barbarplots/description}{kickstarter campaign} around actually banning bar plots might be a bit of an extreme leap, but it is important to keep in mind that the kind of visualisation that you choose might greatly impact the conclusions that people will draw about your data, and the story that you are able to tell.
+The \href{https://www.kickstarter.com/projects/1474588473/barbarplots/description}{kickstarter campaign} around actually banning bar plots might be a bit of an extreme leap, but it is important to keep in mind that the kind of visualisation that you choose might greatly impact the conclusions that people will draw about your data, and the story that you are able to tell.
 
 There are some recommendations on what to use (and not use) in certain contexts, which can help you avoid making a bad graph. For example, most data visualisation experts agree that you should not use 3D graphics unless there is a meaning to the third dimension. Using 3D graphics just for decoration, as in \href{https://mir-s3-cdn-cf.behance.net/project_modules/disp/2505dd10837923.56030acd2ef20.jpg}{this case} is normally frowned upon. However there are cases when including a third dimension is vital to communicating your findings. See this \href{http://www.visualisingdata.com/2015/03/when-3d-works/}{example}.
 
 We want to create pictures of data that people, including ourselves, can look at and learn from.
 
-But it is not always enough for you to know the perfect visualisation, it is important that you also know that your audience is comfortable interpreting these types of visualisations. A friend of us told us once that before she became a lecturer, she worked as a crime analyst. She loves data, and was just coming out of her education, so she felt very comfortable with stats and data analysis, however her lack of real-world experience was made very evident when she entered her first ever briefing, with 3 Chief Inspectors from the Met Police to present them the work she'd done analysing confidence in police. Her second slide was a set of boxplots, comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious by the way):
+But it is not always enough for you to know the perfect visualisation, it is important that you also know that your audience is comfortable interpreting these types of visualisations. A friend of us told us once that before she became a lecturer, she worked as a crime analyst. She loves data, and was just coming out of her education, so she felt very comfortable with stats and data analysis, however her lack of real-world experience was made very evident when she entered her first ever briefing, with three Chief Inspectors from the Met Police to present them the work she'd done analysing confidence in police. Her second slide was a set of boxplots, comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious by the way):
 
 \includegraphics{bookdown-demo_files/figure-latex/unnamed-chunk-25-1.pdf}
 
@@ -4670,10 +4671,10 @@ If you don't understand boxplots then you are not alone. They are not the most c
 
 It was useless. Our friend spent basically all her allotted time trying to talk through the graph, and it achieved the opposite effect of clearly displaying information, and telling the story of the different levels of confidence in each Sector. She did not take her audience into account, and that made her visualisation ineffective.
 
-\hypertarget{sowhat-graph-should-we-use}{%
-\section{So\ldots What graph should we use?!?}\label{sowhat-graph-should-we-use}}
+\hypertarget{so-what-graph-should-we-use}{%
+\section{So\ldots{} what graph should we use?!?}\label{so-what-graph-should-we-use}}
 
-There are a lot of points to consider when you are choosing what graph to use to visually represent your data. There are some best practice guidelines, but at the end of the day, you need to consider what is best for your data. What do you want to show? What graph will best communicate your message? Is it a comparison between groups? Is it the frequency distribution of 1 variable?
+There are a lot of points to consider when you are choosing what graph to use to visually represent your data. There are some best practice guidelines, but at the end of the day, you need to consider what is best for your data. What do you want to show? What graph will best communicate your message? Is it a comparison between groups? Is it the frequency distribution of one variable?
 
 As some guidance, you can use the below \href{https://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/}{cheatsheet, taken from Nathan Yau's blog Flowingdata}:
 
@@ -4716,11 +4717,11 @@ For qualitative colour schemes, we want each category (each value for the variab
 \begin{itemize}
 \tightlist
 \item
-  \textbf{sequential scales} (also called gradients) go from low to high saturation of a colour.
+  \textbf{Sequential scales} (also called gradients) go from low to high saturation of a colour.
 \item
-  \textbf{diverging scales} represent a scale with a neutral mid-point (as when we are showing temperatures, for instance, or variance in either direction from a zero point or a mean value), where the steps away from the midpoint are perceptually even in both directions.
+  \textbf{Diverging scales} represent a scale with a neutral mid-point (as when we are showing temperatures, for instance, or variance in either direction from a zero point or a mean value), where the steps away from the midpoint are perceptually even in both directions.
 \item
-  \textbf{qualitative scales} identify as different the different values of your categorical nominal variable from each other.
+  \textbf{Qualitative scales} identify as different the different values of your categorical nominal variable from each other.
 \end{itemize}
 
 For your sequetial and diverging scales, the goal in each case is to generate a perceptually uniform scheme, where hops from one level to the next are seen as having the same magnitude. Excel will take care of these for you, by offering colour palettes in the ``Design'' section of the Chart Layout tab:
@@ -4731,7 +4732,7 @@ Of course, perceptual uniformity matters for your qualitative scales for your un
 
 The main message here is that you should generally not put together your color palettes in an ad hoc way. It is too easy to go astray. In addition to the considerations we have been discussing, there we might also want to avoid producing plots that confuse people who are colour blind, for example, and color blindness comes in a variety of forms. Fortunately for us, almost all of the work has been done for us already. Different color spaces have been defined and standardized in ways that account for these uneven or nonlinear aspects of human color perception.
 
-A good resource website is \href{http://colorbrewer2.org/}{colorbrewer}. This site offers many colour schemes that you can use in your graphs if you wanted to introduce manual colours. The site looks somewhat like this:
+A good resource website is \href{http://colorbrewer2.org/}{ColorBrewer}. This site offers many colour schemes that you can use in your graphs if you wanted to introduce manual colours. The site looks somewhat like this:
 
 \includegraphics{http://pic.accessify.com/thumbnails/777x423/c/colorbrewer2.org.png}
 
@@ -4773,27 +4774,27 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 \begin{itemize}
 \tightlist
 \item
-  Byte 1: red value (color type red)
+  Byte 1: red value (colour type red)
 \item
-  Byte 2: green value (color type green)
+  Byte 2: green value (colour type green)
 \item
-  Byte 3: blue value (color type blue)
+  Byte 3: blue value (colour type blue)
 \end{itemize}
 
 Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and html customisation. We guess a potentially more relevant venue would be Tumlbr, if any of you use this and want to customise your pager, \href{https://www.tumblr.com/docs/en/custom_themes}{you can use html to do this}. Now you don't need to do this at all, but you should now know, that if you want to change the colour of something, you need to know the hex code for this colour. And this is what colourbrewer is telling you above.
 
 If you want the three colours you see there you have to use the codes \texttt{\#ffeda0}, \texttt{\#feb24c}, \texttt{\#f03b20}.
 
-You can also change the display, from HEX to RGB or CMYK codes, which are just used in different contexts. You can ask colourbrewer to display these codes instead by changing the value in the dropdown menu:
+You can also change the display, from HEX to RGB or CMYK codes, which are just used in different contexts. You can ask \emph{ColorBrewer} to display these codes instead by changing the value in the dropdown menu:
 
 \includegraphics{imgs/choose_col_code.png}
 
-\textbf{DON'T FORGET ACCESSIBILITY} you can see that in colourbrewer you can also choose to select a scale which is ``colourblind safe''. Tick this box to filter out any schemes whihc might not comply withgood accessibility standards. Do pay attention to this sort of thing. If you have another scale, or want to use for example corporate colours, there are other tools available. For example, in the video lectures we mentioned the tool \url{https://coolors.co/} where you can simulate different kinds of colour blindness. You can use this in your designs.
+\textbf{DON'T FORGET ACCESSIBILITY}. You can see that in \emph{ColorBrewer} you can also choose to select a scale which is ``colourblind safe''. Tick this box to filter out any schemes which might not comply with good accessibility standards. Do pay attention to this sort of thing. If you have another scale, or want to use for example corporate colours, there are other tools available. For example, in the video lectures we mentioned the tool \url{https://coolors.co/} where you can simulate different kinds of colour blindness. You can use this in your designs.
 
-Right, but how do we get these colours into our excel graph? Well let's give it a go.
+Right, but how do we get these colours into our Excel graph? Let's give it a go.
 
-\hypertarget{activity-6.3-custom-colours-in-excel-graphs.}{%
-\subsection{Activity 6.3: Custom colours in Excel graphs.}\label{activity-6.3-custom-colours-in-excel-graphs.}}
+\hypertarget{activity-6.3-custom-colours-in-excel-graphs}{%
+\subsection{Activity 6.3: Custom colours in Excel graphs}\label{activity-6.3-custom-colours-in-excel-graphs}}
 
 Download the FBI crime statistics data from Blackboard under the Week 6 in Learning Materials.
 
