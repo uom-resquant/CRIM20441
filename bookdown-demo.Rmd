@@ -5854,16 +5854,16 @@ Right, but how do we get these colours into our Excel graph? Let's give it a go.
 Download the FBI crime statistics data from Blackboard under the Week 6 in Learning Materials.
 
 
-Open the data up in Excel, and have a look at it. You can see that it include the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rate. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
+Open the data up in Excel, and have a look at it. You can see that it includes the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rate. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
 
 
-Well think about this - where do you expect more pickpocketing incidents, outside Piccadilly station, or in Platt Fields Park? Why? 
+Well think about this - where do you expect more pickpocketing incidents, outside Piccadilly Station or in Platt Fields Park? Why? 
 
 
-Our guess is that you said Piccadilly station, and because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime rate. In this case, they are accounting for changes in the population between the years, to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because as a percentage, the crime might not actually be increasing at all. So instead we consider the population. 
+Our guess is that you said Piccadilly Station, because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years, to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because as a percentage, the crime might not actually be increasing at all. So instead we consider the population. 
 
 
-But is the population increasing? Well lets create a column graph of the population. 
+But is the population increasing? Well, lets create a column graph of the population. 
 
 
 To do this, select the *Population* column, and choose the clustered column graph option: 
@@ -5894,7 +5894,7 @@ Then, click into the text box next to the *Category (X) axis labels*, and then s
 
 
 
-Now we can see the differences. However what we wanted to demonstrate here is how to change the colour of your graphs to what you wanted, potentially some colours from colourbrewer. 
+Now we can see the differences. However, what we wanted to demonstrate here is how to change the colour of your graphs to what you wanted, potentially some colours from *ColorBrewer*. 
 
 
 
@@ -5908,7 +5908,7 @@ On this, select the "Fill" option. On this you can see there is a dropdown menu,
 
 
 
-If you're on a PC, if you double click on the bars to change the fill, the pop up window doesn't have the color option immediately like what is shown above (for mac). Instead you will have to first select the option for "Solid fill", an then the colour option will appear: 
+If you're on a PC, if you double click on the bars to change the fill, the pop up window doesn't have the colour option immediately like what is shown above (for Mac). Instead you will have to first select the option for "Solid fill", an then the colour option will appear: 
 
 
 
@@ -5940,13 +5940,13 @@ So let's say that we want to change the colour to the middle value from the colo
 ![](imgs/manual_fill_5.png)
 
 
-If you're on a PC, then you will have to change the drop down selection menu on the colorbrewer2.org:
+If you're on a PC, then you will have to change the drop down selection menu on the ['ColorBrewer' website](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3):
 
 ![](imgs/choose_col_code.png)
 
 
 
-and set it to "RGB" scale. This will give you the values for the red, green, and blue sliders. In this case, that will be:
+And set it to "RGB" scale. This will give you the values for the red, green, and blue sliders. In this case, that will be:
 
 - R: 254
 - G: 178
@@ -5959,7 +5959,7 @@ Enter those values in the pop-up window that appears:
 ![](imgs/pc_rbg.png)
 
 
-So set each colour to this value, and click "OK", and ta-daaa, your graphs will appear with manual colour: 
+So set each colour to this value, and click "OK", and ta-daa, your graphs will appear with manual colour: 
 
 
 ![](imgs/manual_fill_6.png)
@@ -5967,7 +5967,7 @@ So set each colour to this value, and click "OK", and ta-daaa, your graphs will 
 
 
 
-In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are very welcome to use the excel default colours in your graphs within this course, but if you're interested in learning more about colour [have a look at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
+In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are welcome to use the Excel default colours in your graphs within this course, but if you're interested in learning more about colour have a look [at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
 
 
 ## Reading between the lines (points) 
@@ -6004,7 +6004,7 @@ Let's practice answering questions with data. Go back to the FBI data you downlo
 
 
 
-So firstly, let's say we want to know the answer to the following question: 
+Firstly, let's say we want to know the answer to the following question: 
 
 - **What year had the highest violent crime rate?**
 
@@ -6019,7 +6019,7 @@ Select the column that contains the data for violent crime rate. Highlight it. W
 
 
 
-Once you select this, a default column chart should appear. You can see however that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer your question, *What year had the highest violent crime rate?*. 
+Once you select this, a default column chart should appear. You can see however that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer your question, *What year had the highest violent crime rate?*
 
 
 ![](imgs/desc_viz_2.png)
@@ -6097,7 +6097,7 @@ If you change your font, and also your font size, you should make sure to apply 
 
 
 The other bit of information you're providing here that doesn't really have much meaning attached to it here is colour. What does the blue in the bars mean? And why is there a gradient? Why are the bars lighter blue on the top, and darker blue on the bottom? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers to!
-(actually on the PC there might not be a gradient, but on a mac there is, and just in case, it's good to note this). 
+(actually on the PC there might not be a gradient, but on a Mac there is, and just in case, it's good to note this). 
 
 
 
@@ -6130,11 +6130,11 @@ Once you are done with all this, you can click on "OK" and you will have your fi
 
 
 
-Ta-daaa. So is this the best graph to answer our question? Well you could explore a few more, and see what happens. 
+Ta-daaa. Is this the best graph to answer our question? Well you could explore a few more, and see what happens. 
 
 ### Activity 6.5: Let's never make a pie chart again
 
-How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
+How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well, there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
 
 
 Once again, select the column you're interested in , which is the rate of violent crimes. Now, instead of choosing a column chart, choose a pie chart as your visualisation strategy. 
@@ -6158,7 +6158,7 @@ How about from a donut chart:
 
 
 
-Not really, eh? Well it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best, and which one best helps you tell your story, and answer the question you are asking, and align with the 5 principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
+Not really, eh? Well, it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best, and which one best helps you tell your story, and answer the question you are asking, and align with the 5 principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
 
 
 For example, to answer our question *What year had the highest violent crime rate?*, we could have just as well used a bar graph, as a column graph. A bar graph is basically a column graph on it's side:
@@ -6173,13 +6173,13 @@ For example, to answer our question *What year had the highest violent crime rat
 ### Activity 6.6: Exploring trends
 
 
-We'll be talking about changes over time and trends and such next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, instead this time we are interested in a new question: 
+We'll be talking about changes over time and trends next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, this time we are interested in a new question:
 
 
 - **Is violent crime rate going up, going down, or staying the same?**
 
 
-Now we could, in theory, answer this question by looking at our bar graphs above. But the slight difference is, bar graphs are good at comparing **categories**. But what they dont do, is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not hugely link. 
+We could, in theory, answer this question by looking at our bar graphs above. But the slight difference is, bar graphs are good at comparing **categories**. But what they don't do, is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not hugely link.
 
 
 However, those of you still on top of your *levels of measurement* will have noticed, that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation by being presented through a *line graph*. 
@@ -6216,7 +6216,7 @@ When you click OK, the labels should appear on your chart:
 
 
 
-Now you don't always have to manually change the bits of the graph, you can also use some pre-created layouts that exist. You can find this in the top bar of excel, under a label called "Chart Quick Layouts": 
+You don't always have to manually change the bits of the graph, you can also use some pre-created layouts that exist. You can find this in the top bar of excel, under a label called "Chart Quick Layouts": 
 
 
 
@@ -6224,7 +6224,7 @@ Now you don't always have to manually change the bits of the graph, you can also
 
 
 
-Again, a difference on the PC: When editing the line graph, there is not a heading called "Chart Quick Layouts". Instead, you can find the options for different layouts under the **"chart tools"** section and the tab called **"design"**. 
+Again, a difference on the PC: When editing the line graph, there is not a heading called "Chart Quick Layouts". Instead, you can find the options for different layouts under the **"Chart tools"** section and the tab called **"Design"**. 
 
 
 ![](imgs/pc_chart_tools.png)
@@ -6370,7 +6370,7 @@ Navigate to a folder where you collect your results, and save the image there.
 
 
 
-Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a word document. If you want to save it as an image from there, you must make sure to paste as picture (right click, paste as picture) and then, if you want, you can right click your pasted graph (in word) and from there select "save as picture". This way you will save your png of your graph into a folder, and you can insert it into future reports. 
+Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a Word document. If you want to save it as an image from there, you must make sure to paste as picture (right click, paste as picture) and then, if you want, you can right click your pasted graph (in Word) and from there select "Save as picture". This way you will save your png of your graph into a folder, and you can insert it into future reports. 
 
 
 Then when you are writing your essay, you can insert an image using the Insert > Picture from file option: 
@@ -6399,7 +6399,7 @@ While we only covered descriptive analysis for univariate and bivariate analysis
 Let's show an example now. 
 
 
-In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and also murder and nonnegligent manslaughter, but there is also robbery, Aggravated assault, burglary, and some more. Let's say that we want to compare the trajectories of all these variables over the years, over time. 
+In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and also murder and nonnegligent manslaughter, but there is also robbery, aggravated assault, burglary, and some more. Let's say that we want to compare the trajectories of all these variables over the years, over time. 
 
 
 You can start with a simple line graph for one of the variables. Let's select the violent crime rate, and build a line chart for this variable. You should be able to do this by now without guidance, but if you need assistance, just scroll up to where we did this earlier. 
@@ -6507,7 +6507,7 @@ Then finally you should end up with a stacked bar chart of all these variables, 
 
 
 
-So you can see that you can use data visualisation as a way of putting together many variables into one graph. Now don't forget to make sure you're conscious about your colour choices! These are the default colours, do we like them? Making no choice (ie sticking with the default) is still making a choice!!! I'll leave this up to you to see how you'd like to proceed...
+You can see that you can use data visualisation as a way of putting together many variables into one graph. Now, don't forget to make sure you're conscious about your colour choices! These are the default colours, do we like them? Making no choice (i.e., sticking with the default) is still making a choice! I'll leave this up to you to see how you'd like to proceed...
 
 
 ## More guidance on chart design
@@ -6521,7 +6521,7 @@ If you would like some even further tips and tricks about data visualisation, re
 We have been covering exploratory data analysis, where you take your data, and produce visualisations from that, but sometimes you can also compliment your results by visualising your tables and other outputs. An example would be the conditional formatting, which we covered in week 3. 
 
 
-The most important thing when communicating your results is that you know your audience. Know what they understand, what they don't, and what you can tell them in one graph. Your graph has to tell a story. Think about why you are making it? What is the message that you want to convey? What is the story this graph is telling? You need to be clear with this to yourself, to make sure that your graph accomplishes it's mission in telling an interesting story about your data. 
+The most important thing when communicating your results is that you know your audience. Know what they understand, what they don't, and what you can tell them in one graph. Your graph has to tell a story. Think about why you are making it. What is the message that you want to convey? What is the story this graph is telling? You need to be clear with this to yourself, to make sure that your graph accomplishes it's mission in telling an interesting story about your data. 
 
 > You should look at your data. Graphs and charts let you explore and learn about the structure of the information you collect. Good data visualizations also make it easier to communicate your ideas and findings to other people. Beyond that, producing effective plots from your own data is the best way to develop a good eye for reading and understanding graphs—good and bad—made by others, whether presented in research articles, business slide decks, public policy advocacy, or media reports.
 
