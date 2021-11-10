@@ -12,13 +12,21 @@ In this session you’ll learn:
 
 ## What is qualitative data analysis?
 
-If we want to know what is qualitative data analysis, first we need to understand what we mean by *qualitative data*. Qualitative data is pretty much any type of data that is not numbers. In previous sessions we saw how to analyse information recorded in quantitative variables, which as you already know can take different levels of measurement (categorical or numeric). But in reality there is a lot of information out there which is not quantified. In other words, there is a lot of information which is not quantitative. And we also use this information for research and practice. Thus, qualitative data refers to any type of non-numeric information, which can include interview transcripts, written notes, video and audio recordings, images and other types of text documents.
+If we want to know what is qualitative data analysis, first we need to understand what we mean by *qualitative data*. Qualitative data is pretty much any type of data that is not numbers. 
+
+In previous sessions we saw how to analyse information recorded in quantitative variables, which as you already know can take different levels of measurement (categorical or numeric). But in reality there is a lot of information out there which is not quantified. In other words, there is a lot of information which is not quantitative. 
+
+And we also use this information for research and practice. Thus, qualitative data refers to any type of non-numeric information, which can include interview transcripts, written notes, video and audio recordings, images and other types of text documents. We will learn here that we can also extract meaningful information from those - and use it in our research.
+
+![](imgs/coolright.gif)
 
 Qualitative data isn't just text-based data, and it can also include non-quantitative information included in images (e.g., whether a person is smiling, whether it reflects a happy or sad environment), audio recordings (e.g., whether the person talking had a particular accent, or if we can hear some background noise), etc.
 
 ### But how’s qualitative data different from quantitative data?
 
 To begin with, while quantitative data focuses on numbers or *quantities*, qualitative data is more about meanings, descriptions, concepts or ideas. One may even say that qualitative data is about the "soft side" of things, focusing on the implicit and explicit meanings of non-quantified information, while quantitative data is more about differences and relationships between information which has been previously quantified.
+
+![](imgs/quali_quanti.png)
 
 Let's give a very simple example. We may be interested in studying pub brawls between football fans. We can record *quantitative data* about the number of fights, teams of supporters involved, place where they place, time when they take place, if those involved required hospitalisation, and even if the police showed up to stop the fight. However, we may also be interested in the "words" used by those involved in the fight before, during and after the fight, as well as their body language and facial expressions. And we can even talk to them and ask them about their rationale for becoming involved in the fight and what it means to them. This sort of information is usually recorded is qualitative data.
 
@@ -29,18 +37,21 @@ Let's give a very simple example. We may be interested in studying pub brawls be
 
 Not quite. Qualitative data analysis can be extremely challenging and time-consuming. Not only we need to spend a lot of time and effort to collect qualitative data by interviewing a set of subjects or observing hours and hours of social interactions, but we also need to systematically code and analyse all this information, and make sense of it based on theory and previous research findings. Differences in meaning can be incredibly subtle and nuanced, so researchers need to put a lot of effort into extracting meaningful interpretations and meanings from qualitative information. Long story short: qualitative data analysis *is not* any easier than any other type of data analysis!
 
+![](imgs/disappointed.gif)
+
 It is key to say, however, that not all qualitative data is *primary data* (data collected by researchers themselves), but qualitative data can also be *secondary data* (when it was already published by someone else). For example, we may want to analyse the content of news articles which were already published in news websites, or we may use analyse open access interview transcripts recorded by other researchers in the past (see some examples about [hate crime victimisation experiences](https://reshare.ukdataservice.ac.uk/851570/) or the [2011 London riots](https://reshare.ukdataservice.ac.uk/853792/)).
 
 ### Types of qualitative data analysis
 
-While it is not at all the purpose of this course that you achieve complete understanding about the qualitative data analysis methods, we may also make a very brief introduction to the main approaches to qualitative data analysis.
+While it is not at all the purpose of this course that you achieve complete understanding about the qualitative data analysis methods, we may make a very brief introduction to the main existing approaches.
 
 - **Content analysis**: This refers to the process of coding and categorising qualitative data to extract classifications, summaries and hidden patterns. For example, we may count the number of times a politician speaks about ideas around *"security"* and *"securitisation"* in a political speech, and even observe patterns in his or her body language when doing so.
-- **Narrative analysis**: Narrative analysis is about listening to people telling stories, explaining experiences and sharing ideas, and analysing what all of this means. Researchers code and analyse what people say and take into account their contexts and experiences to obtain information about the meanings behind their discourse. For example, we may interview people in prison and analyse [their justifications](https://en.wikipedia.org/wiki/Techniques_of_neutralization) for being involved in crime, thus obtaining insights into their views of the world and perceptions about the criminal justice system.
-- **Discourse analysis**: This is about analysing spoken language or conversionation within their social context and culture. Researchers consider the culture where a discourse takes place, and its historical context, to understand the meaning of a given sentence or speech. For example, to understand the meaning of a conversation between a CEO and an employee we first need to be aware of the power dynamics and the organisation culture where it takes place. And to understand the meaning of a letter written in the XII Century we need to understand the historical background in which it was written.
+- **Narrative analysis**: Narrative analysis is about listening to people telling stories, explaining experiences and sharing ideas, and analysing what all of this means. Researchers analyse what respondents say taking into account their contexts and experiences, thus obtaining information about the context-dependent meanings of their discourse. For example, we may interview people in prison and analyse [their justifications](https://en.wikipedia.org/wiki/Techniques_of_neutralization) for being involved in crime, thus obtaining insights into their views of the world and perceptions about the criminal justice system.
+- **Discourse analysis**: This is about analysing spoken language or conversionation within its social context and culture. Researchers consider the culture where a discourse takes place, and its historical context, to understand the meaning of a given sentence or speech. For example, to understand the meaning of a conversation between a CEO and an employee we first need to be aware of the power dynamics and the organisation culture where it takes place. And to understand the meaning of a letter written in the 17th Century we need to understand the historical background in which it was written.
 - **Thematic analysis**: Thematic analysis takes a large body of qualitative data and groups it according to certain similarities - which we call *themes*. These themes help us organise the content of the data and make sense of it to understand its meaning. Thematic analysis is usually exploratory, in that researchers develop the codes of their themes as the analysis of the data progresses. For example, we can ask a group of people to talk about their perceptions of the criminal justice system, and identify themes around people focusing on positive experiences with the police, others about racial biases in the prison system, others about stop and search, and so on. 
 - **Grounded theory**: The purpose of the grounded theory method is build a new theoretical framework from our data, through a series of "tests". Researchers let the data "speak for itself" and transform its meaning into an explanatory theory. In grounded theory, researcher begin with an overarching question about a given topic of interest (e.g., when do people have fear of crime?). A small sample is then selected and asked to talk about this topic from their own experiences and perceptions. After analysing the qualitative data emerging from the analysis of thes first cases, some patterns will start to emerge (e.g., people may say narrow alleyways are scary) and you can even create a series of hypotheses. Then you may select another sample, and see whether this pattern holds true also for them. And then repeat the process with new samples. As this process goes on, a new theory may begin to develop.
 
+![](imgs/koala.jpg)
 
 You can watch [this Youtube video](https://www.youtube.com/watch?v=hECPeKv5tPM) to learn more about qualitative research methods, and how to combine quantitative and qualitative data analysis in mixed methods research.
 
@@ -61,9 +72,11 @@ Essentially, the NVivo Software allows you to analyse and manage a range of qual
 
 We know some of you are using your own laptops and you may want to download install NVivo to follow through the computer lab. If that's the case, you’ll need to download the version 12 of NVivo from their website. You can do this from the QSR website [here](https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home)
 
-First, you need to register using your own personal details. You need to click on "Sign In", and then on "Sign up".
+First, you need to register using your own personal details. You need to click on "Sign In":
 
 ![](imgs/nvivo_signin.png)
+
+And then press "Sign up":
 
 ![](imgs/nvivo_signup.png)
 
@@ -135,6 +148,8 @@ In brief, and just for your information, you can analyse the following kinds of 
 **Social media data** (e.g. from Facebook, LinkedIn and Twitter) and Evernotes – can be imported into NVivo. - WE’LL BE DOING THIS NEXT WEEK…
 
 **Ncapture** – an interface between Internet Explorer and NVivo can be used to capture web pages, pre-code them and then import them into a project
+
+![](imgs/endless-possibilities.gif)
 
 ### Activity 2: Find some data…
 
