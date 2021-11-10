@@ -14,9 +14,9 @@ In this session you’ll learn:
 
 If we want to know what is qualitative data analysis, first we need to understand what we mean by *qualitative data*. Qualitative data is pretty much any type of data that is not numbers. 
 
-In previous sessions we saw how to analyse information recorded in quantitative variables, which as you already know can take different levels of measurement (categorical or numeric). But in reality there is a lot of information out there which is not quantified. In other words, there is a lot of information which is not quantitative. 
+In previous sessions we saw how to analyse information recorded in quantitative variables, which as you already know can take different levels of measurement (categorical or numeric). But in reality there is a lot of information out there which is not quantified. In other words, there is a lot of information which is not quantitative. And we can also use this information for research! 
 
-And we also use this information for research and practice. Thus, *qualitative data* refers to any type of non-numeric information, which can include interview transcripts, written notes, video and audio recordings, images and other types of text documents. We will learn here that we can also extract meaningful information from those - and use it in our research.
+Thus, *qualitative data* refers to any type of non-numeric information, which can include interview transcripts, written notes, video and audio recordings, images and other types of text documents. We will learn here that we can extract meaningful information from those - and use it in our research.
 
 ![](imgs/coolright.gif)
 
@@ -28,7 +28,7 @@ To begin with, while quantitative data focuses on numbers or *quantities*, quali
 
 ![](imgs/quali_quanti.png)
 
-Let's give a very simple example. We may be interested in studying pub brawls between football fans. We can record *quantitative data* about the number of fights, teams of supporters involved, place where they place, time when they take place, if those involved required hospitalisation, and even if the police showed up to stop the fight. However, we may also be interested in the "words" used by those involved in the fight before, during and after the fight, as well as their body language and facial expressions. And we can even talk to them and ask them about their rationale for becoming involved in the fight and what it means to them. This sort of information is usually recorded is qualitative data.
+Let's give a very simple example. We may be interested in studying pub brawls between football fans. We can record *quantitative data* about the number of fights, teams of supporters involved, place where they occur, time when they take place, if those involved required hospitalisation, and even if the police showed up to stop the fight. All those variables can be quantified. However, we may also be interested in the "words" used by those involved in the brawl before, during and after the fight, as well as their body language and facial expressions. And we can even talk to them and ask them about their rationale for becoming involved in the fight, how they feel and what it means to them. This sort of information is usually recorded is *qualitative data*.
 
 
 ![](imgs/bar-brawl.gif)
@@ -157,7 +157,7 @@ In brief, and just for your information, you can analyse the following kinds of 
 
 Before we start with NVivo, we’d like you to find some data that you’ll use in the session today. You can use the data that we use, which are available on Blackboard but we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflect your own criminological interests.
 
-For instance, given the major news coverage of Danske Bank money laundering scandal, in our example we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’.
+For instance, given the major news coverage of [Danske Bank money laundering scandal](https://en.wikipedia.org/wiki/Danske_Bank_money_laundering_scandal), in our example we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’.
 
 
 ![](imgs/dankse.jpg)
@@ -168,7 +168,7 @@ We’ve simply saved each news article in a folder on our desktop:
 
 ![](imgs/dankse_folder.png)
  
-At this point, it’s important to save your web content as PDF files. This will make them easier to import into NVivo (we’ll get to this later.) If you’re on a Mac, you can do this by opening the web page, selecting print, then selecting ‘Save as PDF’. Save these in your Media Articles folder. There are different ways you can save as PDF, so stick with what you know.
+At this point, it’s important to save your web content as PDF files. This will make them easier to import into *NVivo* (we’ll get to this later.) If you’re on a Mac, you can do this by opening the web page, selecting print, then selecting ‘Save as PDF’. Save these in your Media Articles folder. There are different ways you can save as PDF, so stick with what you know.
 
 ![](imgs/mac_news_1.png)
  
@@ -188,20 +188,20 @@ Do this for each of your media articles.
 
 We then searched for reports and documents on money laundering strategy within the EU. We saved five of these to our documents folder.
 
-We then searched for ‘money laundering criminology’ on Google Scholar – you could also try the University’s online databases (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015.
+We then searched for ‘money laundering criminology’ on [Google Scholar](https://scholar.google.com/) – you could also try the [University’s online databases](https://www.librarysearch.manchester.ac.uk/) (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015.
 
-In order to keep it nice and tidy, we’ve organised our documents into three folders: ‘Media Articles’, ‘EU Strategy and ‘Journal Articles’.
+In order to keep it nice and tidy, we’ve organised our documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’**.
 
  
 ![](imgs/nice_tidy.png)
 
 They are now ready for ‘importing’ into NVivo.
 
-So, go and find your own media articles (x 5), academic journal articles (x 5) and non-academic official sources (x 5). Save these to your p:Drive or personal laptop in an accessible location.
+So, go and find your own media articles *(x 5)*, academic journal articles *(x 5)* and non-academic official sources *(x 5)*. Save these to your p:Drive or personal laptop in an accessible location.
 
 This is just an example data set, in a real research project, your literature and data search would need to be much more extensive and systematic, but for the purposes of demonstrating NVivo, it will suffice!
 
-Ok, so now you’ve identified 15 textual data sources and saved them somewhere easily accessible (e.g. in a folder entitled ‘NVivo Session’)
+Ok, so now you’ve identified 15 textual data sources and saved them somewhere easily accessible (e.g., in a folder entitled ‘NVivo Session’)
 
 Forget about these for now. We’ll be back.
 
@@ -244,9 +244,11 @@ So, what can you see in the interface?
 
 ## Understanding the NVivo interface
 
-At the top of the screen are the ‘ribbon tabs’:
+At the top of the screen are the ‘ribbon tabs’. In Mac:
 
 ![](imgs/ribbon_mac.png)
+
+In Windows:
 
 ![](imgs/ribbon_pc.png)
  
@@ -270,7 +272,7 @@ So, below is the main window of the interface:
 
 ![](imgs/interface_mac.png)
 
-You organise all your research materials in the ‘Navigation View’. The navigation pane (left hand portion of the screen) is the main way of moving around the main functional areas of the software, Sources, Nodes etc. – and getting into the right folder you need in order to see the relevant ‘list’ so that you can open individual items. When you select a function – a set of folders appears in the top half of the pane. Select a folder and the relevant List appears on the right. Double click on an item in the list and the relevant item opens up in the Detail pane below. Successive opened items are tabbed I along the central bar separating the List pane from the Detail pane.
+You organise all your research materials in the **‘Navigation View’**. The navigation pane (left hand portion of the screen) is the main way of moving around the main functional areas of the software, Sources, Nodes etc. – and getting into the right folder you need in order to see the relevant ‘list’ so that you can open individual items. When you select a function – a set of folders appears in the top half of the pane. Select a folder and the relevant List appears on the right. Double click on an item in the list and the relevant item opens up in the Detail pane below. Successive opened items are tabbed I along the central bar separating the List pane from the Detail pane.
 
 In PC, it may look like this:
 
