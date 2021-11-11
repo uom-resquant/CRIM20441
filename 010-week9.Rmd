@@ -5,7 +5,7 @@
 In this session you’ll learn:
 
 - How to interrogate qualitative data using NVivo. 
-- How to build theory through deductive, inductive and abductive strategising. 
+- How to build theory through *deductive*, *inductive* and *abductive* strategising. 
 - Some useful analysis features in NVivo, including how to work with non-textual data.
 
 ## Deduction, induction, abduction – key analytical strategies for qualitative data
@@ -20,7 +20,7 @@ We discussed this in the lecture so you’ll have an understanding now of strate
 
 **Deduction** is considered to be ‘top-down’ reasoning where we have predetermined ideas and theories and seek to test or evidence these. The coding categories we use are therefore explicit in directing the focus of our analysis.
 
-**Abduction* integrates these two approaches, giving flexibility across the analytical process, and ensuring interplay between our ideas and data.
+**Abduction** integrates these two approaches, giving flexibility across the analytical process, and ensuring interplay between our ideas and data.
 
 In this session you’ll learn how to interrogate your qualitative data using NVivo from all perspectives. You can read more about these strategies here.
 
@@ -43,6 +43,8 @@ So, let’s learn how to code using ‘nodes’.
 ### What are ‘Nodes’?
 
 Node is a term which refers to a point in the NVivo database but a code label may be the name you give the node. Codes or nodes can be your ideas about the data – they can be generated inductively, deductively or abductively and may be refined, changed, grouped or deleted at any time. Applying nodes etc., to passages of source data at a minimum, provides the basic code and retrieve actions needed to accumulate together, all the bits of data linked by common threads and themes.
+
+![](imgs/coding.gif)
 
 Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them in order to collect data about key themes. Nodes then are more reflective and act as containers for or links to data exemplars based on, conceptual ideas, themes, codes or more structurally for people, contexts, places etc. Essentially, the terms nodes, codes, keywords, and themes are used similarly.
 
@@ -96,6 +98,8 @@ Usually, as these two datasets are very separate in terms of the purpose, we wou
 
 At this point, we need to give our coding some focus. To do this we can use ‘mind maps’ so we know how to code our data. To demonstrate this, we are going to code the interview data in Dataset 1 using a deductive approach; and then code the Twitter data in Dataset 2 using an inductive approach.
 
+![](imgs/mindmapping.png)
+
 ### Activity 2: Deductive coding
 
 First, single click on ‘Maps’ in the Navigation Pane, then right click in the List Pane to create a new mind map. Call it Deductive Approach to Probation Interview Data. You should end up with the following:
@@ -128,7 +132,7 @@ For Windows users this looks slightly different. You have to have to click on �
 
 ![](imgs/code_selection_pc.png)
  
-You’ll notice the passage I’ve selected relates to ‘career histories’ so I’m going to code this sentence in the corresponding node. However, I also think it relates to ‘educational background’ so I’m going to code this sentence in two ‘nodes’:
+You’ll notice the passage I’ve selected relates to ‘career histories’ so I’m going to code this sentence in the corresponding node. However, we also think it relates to ‘educational background’ so we are coding this sentence in two ‘nodes’:
 
 ![](imgs/two_nodes.png)
  
@@ -138,7 +142,11 @@ In Windows, to select multiple codes, you must hit “ctrl” and then click the
  
 Keep reading through the transcript and coding segments at single or multiple nodes as you see fit. You’re now coding your data deductively using a predetermined conceptual/thematic framework.
 
-Keep coding until you feel like you fully understand how this works and until you’ve coded some data for each of the predetermined ‘nodes’. There is an option for “recent codes” that shows what nodes you have been using and this can be slightly easier than opening the window back up, but it depends on how you wish to code the data. Perhaps also code text from other interviews too. You don’t have to read all the transcripts, just read enough to understand the process and be comfortable with the software.
+Keep coding until you feel like you fully understand how this works and until you’ve coded some data for each of the predetermined ‘nodes’.
+
+![](imgs/coding_qual.jpg)
+
+There is an option for “recent codes” that shows what nodes you have been using and this can be slightly easier than opening the window back up, but it depends on how you wish to code the data. Perhaps also code text from other interviews too. You don’t have to read all the transcripts, just read enough to understand the process and be comfortable with the software.
 
 But where has all our coding gone? The best way to visualise what we’ve done is to go to the ribbon tab at the top, chose ‘view’, then ‘coding stripes’, then ‘nodes recently coding’ and you’ll see the following:
  
@@ -170,7 +178,7 @@ So now to the hard work again. But this time we’ll need to create our nodes, i
 
 Start by clicking on Dataset 2 in the Data section in the Navigation Pane, then double clicking on the dataset in the List Pane to open it up in the Detail Pane. For the purpose of the coding today we’re only really interested in the texts of the tweets.
 
-Read through the tweets one by one and each time you come across a theme of interest, code it by highlighting it, right-clicking and choosing ‘code selection’ then ‘at new node’. I think the first tweet relates to ‘partnership working’, so this is what I’ve called the node. I’ve now gone on to create more Nodes, some of the text relates to more than one Node. I’ve also started to create a hierarchy of Nodes and Sub-Nodes, as with the ‘Crime Types’ node folder. As you’ll see, I’ve changed the view to make it easier to create new Nodes and code at existing Nodes by dragging and dropping. I’ve also viewed the code stripes on the right hand side. You’ll notice that when you create Nodes that they are located in the top-level Nodes folder. So once you’ve finished your coding you can select and drag them into your Dataset 2 Nodes folder to keep it all well organised:
+Read through the tweets one by one and each time you come across a theme of interest, code it by highlighting it, right-clicking and choosing ‘code selection’ then ‘at new node’. We think the first tweet relates to ‘partnership working’, so this is what we’ve called the node. We’ve now gone on to create more Nodes, some of the text relates to more than one Node. We’ve also started to create a hierarchy of Nodes and Sub-Nodes, as with the ‘Crime Types’ node folder. As you’ll see, we’ve changed the view to make it easier to create new Nodes and code at existing Nodes by dragging and dropping. We’ve also viewed the code stripes on the right hand side. You’ll notice that when you create Nodes that they are located in the top-level Nodes folder. So once you’ve finished your coding you can select and drag them into your Dataset 2 Nodes folder to keep it all well organised:
 
 ![](imgs/codes_inductive.png)
  
@@ -266,7 +274,11 @@ Windows users might want to create a concept map to connect data to different id
 
 ## Other features…
 
-Finally, here are some features that the more innovative amongst you may wish to make use of. Much of my data is textual in that I often carry out interviews with people knowledgeable of white-collar and corporate crimes. But you might be interested in generating different data, such as audio or visual:
+Finally, here are some features that the more innovative amongst you may wish to make use of. Much of the *qualitative data* used in criminology is textual in that we often carry out interviews with offenders, victims and law enforcement. 
+
+![](imgs/police.gif)
+
+But you might be interested in generating different data, such as audio or visual:
 
 ### Graphics/pictures - making linked notes and coding
 
