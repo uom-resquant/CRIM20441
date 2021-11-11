@@ -167,7 +167,10 @@ The lab sessions will also be strongly supplemented with video tutorials from th
 
 Discover more about the NVivo tutorials [here](https://www.qsrinternational.com/nvivo/free-nvivo-resources/tutorials). Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
 
-- Watch the three NVivo 12 video tutorials for Windows – [here](https://www.qsrinternational.com/nvivo/nvivo-12-tutorial-windows/00-let-s-get-started) – and Mac – [here](https://www.qsrinternational.com/nvivo/nvivo-12-tutorial-mac/00-let-s-get-started). These tutorials will teach you how to ‘Import Documents’, ‘Code Your Data’, ‘Organise and Review Your Nodes’. It is very important that you watch these.
+- Watch the three *basic* NVivo 12 video tutorials. It is very important that you watch these. These tutorials will teach you how to:
+    + ‘Import Documents’, for [Windows](https://www.youtube.com/watch?v=QN6AAKmZvIo) or [Mac](https://www.youtube.com/watch?v=I7tJpX2ixDI). 
+    + ‘Code Your Data’, for [Windows](https://www.youtube.com/watch?v=vVEyhibQGog) or [Mac](https://www.youtube.com/watch?v=J-EZlNTZDrw).
+    + ‘Organise and Review Your Nodes’, for [Windows](https://www.youtube.com/watch?v=KEo3nt5GL7Y&t=2s) or [Mac](https://www.youtube.com/watch?v=p5ugfM6caBE).
 
 - For further details, you may also wish to watch the following short videos:
     + How to ‘Import Documents’, for [Windows](https://www.youtube.com/watch?v=NjTIYXTsYSE) or [Mac](https://www.youtube.com/watch?v=TmkqvFXKwo4).
