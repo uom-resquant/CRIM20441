@@ -7636,21 +7636,22 @@ You can download this file in *Excel* and explore it using the skills learnt in 
 You can find the correct answers after the gif...
 
 ...
+
 ...
 
 ![](imgs/horse_excel.gif)
 
 ...
+
 ...
 
 The correct answers are:
 
 - Which beneficiary bank received a larger number of suspicious transactions? How many suspicious transactions did it receive?
- + [Credit Suisse AG](https://en.wikipedia.org/wiki/Credit_Suisse). 
- + It received 768 suspicious transactions.
+[Credit Suisse AG](https://en.wikipedia.org/wiki/Credit_Suisse). It received 768 suspicious transactions.
+
 -  Which beneficiary bank received a larger amount in dollars from suspicious transactions? How much money did it receive?
- + [Rosbank](https://en.wikipedia.org/wiki/Rosbank). 
- + It received 3,559,645,309.54 US dollars from suspicious transactions.
+[Rosbank](https://en.wikipedia.org/wiki/Rosbank). It received 3,559,645,309.54 US dollars from suspicious transactions.
 
 Is this surprising to you? You can have a chat in small groups to discuss these results.
 
