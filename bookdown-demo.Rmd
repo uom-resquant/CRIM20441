@@ -8128,7 +8128,7 @@ Next week we’ll build on these basics and put our minds to work on developing 
 In this session you’ll learn:
 
 - How to interrogate qualitative data using NVivo. 
-- How to build theory through deductive, inductive and abductive strategising. 
+- How to build theory through *deductive*, *inductive* and *abductive* strategising. 
 - Some useful analysis features in NVivo, including how to work with non-textual data.
 
 ## Deduction, induction, abduction – key analytical strategies for qualitative data
@@ -8441,7 +8441,7 @@ Once installed, the process is as follows:
 -	Click Capture
 -	See NCapture Progress page below
 
-**NOTE:* WEB PAGES ARE CAPTURED USING THE PDF OPTION – SOCIAL MEDIA WOULD BE CAPTURED USING THE DATASET OPTION
+**NOTE:** WEB PAGES ARE CAPTURED USING THE PDF OPTION – SOCIAL MEDIA WOULD BE CAPTURED USING THE DATASET OPTION
 
 -	Go to the Sources section of the Navigation pane > Internals > Web Content subfolder (or wherever you’d like the new Sources to be created) 
 -	Go to the External Data Ribbon tab > From Other Sources > From NCapture (as seen left) 
@@ -8450,7 +8450,7 @@ Then analyse as we have been doing in the sessions.
 
 ## Summary
 
-You can use your nodes to build your ideas and theories, or identify evidence to support your theoretical propositions. You can focus in on particular themes, compare across nodes and the data, and extract to support your academic work in a systematic way. Using NVIVO gives you structure and management for your data, helps you develop clear organizing and conceptual frameworks, and allows you to interrogate the data at different levels and in different directions.
+You can use your nodes to build your ideas and theories, or identify evidence to support your theoretical propositions. You can focus in on particular themes, compare across nodes and the data, and extract to support your academic work in a systematic way. Using *NVivo* gives you structure and management for your data, helps you develop clear organizing and conceptual frameworks, and allows you to interrogate the data at different levels and in different directions.
 
 
 <!--chapter:end:010-week9.Rmd-->
