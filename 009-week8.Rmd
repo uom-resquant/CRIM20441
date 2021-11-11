@@ -460,7 +460,7 @@ This will open up the ‘Unnamed Query’ panel in the Detail View. At this poin
  
 This will produce a list of all the words in all your documents and order them according to ‘Count’ i.e. the word with the most hits appears at the top:
 
-![](imgs/freq_words.png)
+![](imgs/word_freq3.png)
  
 This is not great to look at so what we can do is create a ‘Word Cloud’. Simply choose the ‘Word Cloud’ option at the top of the Detail View and this translates your query into a neat visualisation of the word frequencies:
 
@@ -474,7 +474,7 @@ Make sure you choose a suitable file format, such as JPEG Image. Give the Word C
  
 Your Word Cloud is then saved as a picture, like below. You could then insert this into any of essays or reports as an example of a superficial, but indicative, insight into the content of your documents.
 
-![](imgs/word_cloud.jpg)
+![](imgs/word_cloud3.png)
  
 That said, considering all our documents were identified in relation to ‘money laundering’, it was pretty obvious that ‘money laundering’ would be the main term, isn’t it?! In other words, the findings here are an artefact of my data search at the start.
 
@@ -488,11 +488,42 @@ If you like the new Word Cloud better, you can then ‘Save Query’, give it an
  
 We’ve then followed the above directions again to save the Word Cloud as a JPEG for future use.
 
-![](imgs/word_cloud2.png)
+![](imgs/word_cloud4.png)
  
-What does this tell us? Well, to be clear, this is a crude analysis. But it does throw up some interesting key words: ‘information’, ‘bank’, ‘financial’.
+What does this tell us? Well, to be clear, this is a crude analysis. But it does throw up some interesting key words: ‘information’, 'aml' (which stands for 'anti-money laundering'), 'government', ‘bank’, ‘financial’, etc.
 
 We can use these words to direct our coding of the data (or not). We’ll look at this more next week.
+
+### Activity 9: Create two distinct word clouds
+
+This is pretty cool, isn't it? But we can even go one step further and ask ourselves: will the word cloud for 'academic journal articles' be similar to that of "media articles"? Do they use remarkably different terms when they discuss this issue?
+
+To do that, we first need to select the subset of pdf documents we are interested to analyse (by clicking on "Selected items"), and then click on "Run query" again.
+
+Let's start by generating the word cloud for *academic journal articles*. Click on "Selected items", open the "Files" folder, and select only the "academic journal articles folder". Like so:
+
+![](imgs/select_academic.png)
+
+Press "OK", and then "Run Query". Open the Word Cloud, and save it as a jpg file.
+
+Then repeat the same process but selecting only the pdfs in the "media articles" folder.
+
+![](imgs/select_media.png)
+
+And once again, press on "Run Query" and save the resulting word cloud.
+
+Now, these are our word clouds for **academic journal articles**:
+
+![](imgs/cloud_academic.png)
+
+And **media articles**:
+
+![](imgs/cloud_media.png)
+
+They looks quite different, don't they? Interesting! Have a chat in small groups to discuss why you think these two word clouds are so different from one another.
+
+If you obtained slightly different word clouds, it may be because we had previously added the words "money" and "laundering" to the "Stop words list"!
+
 
 ## Summary
 
