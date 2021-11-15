@@ -6695,7 +6695,7 @@ When you open the Excel spreadsheet, you will see that there is a column for dat
 But what if we asked you the question: which year had the most residential burglaries? Or what if we want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
 
 
-Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. How can we extract these variables from your date column? Well, luckily excel can help us do this. 
+Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. How can we extract these variables from your date column? Well, luckily Excel can help us do this. 
 
 
 ### Activity 7.1: Formatting your dates appropriately 
@@ -7131,7 +7131,7 @@ The inspiration for this time selector, which is documented in Tom Carden’s bl
 
 
 
-This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualusation). We know, we know, we covered data visualisation last week, can we please get over it. But it's one of the most fun aspects of data analysis so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse, she was a famous data pioneer!
+This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualisation). We know, we know, we covered data visualisation last week, can we please get over it. But it's one of the most fun aspects of data analysis so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse, she was a famous data pioneer!
 
 
 This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
@@ -7188,7 +7188,7 @@ Now there is something wrong with this graph. Can you spot it? Take a moment now
 
 
 
-Did you notice? If not, look again, this time, look at the graph, and tell us which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no)
+Did you notice? If not, look again, this time, look at the graph, and tell us which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no).
 
 
 Why is this? Well our axes are not actually labelled! Remember, to label your axes, do as you did in the line graph, right click on the graph, "Select Data..." and populate the 'Category (X) axis labels' section in the popup window that appears with the hours. Now your graph should make sense: 
@@ -7272,7 +7272,7 @@ To do this, change the pivot table to display percent instead of count. A remind
 
 
 
-This brings up a menu where you can select what to "show data as". Choose % of column (because we want to know the percent of weekday crimes in each hour, and percent of weekend crimes in each hour, so our 100% are our columns, we are looking at column percentages):
+This brings up a menu where you can select what to "show data as". Choose **% of column** (because we want to know the percent of weekday crimes in each hour, and percent of weekend crimes in each hour, so our 100% are our columns, we are looking at column percentages):
 
 ![](imgs/hr_r_27.png)
 
@@ -7449,7 +7449,7 @@ In this course we will explore smoothing in order to answer questions of the fir
 ## Moving averages
 
 
-Calculating a  **moving average** is a technique to get an overall idea of the trends in a data set. It is achieved by taking an average of any subset of numbers. The moving average is extremely useful for forecasting long-term trends. You can calculate it for any period of time. For example, if you have sales data for a twenty-year period, you can calculate a five-year moving average, a four-year moving average, a three-year moving average and so on. Stock market analysts will often use a 50 or 200 day moving average to help them see trends in the stock market and (hopefully) forecast where the stocks are headed.
+Calculating a **moving average** is a technique to get an overall idea of the trends in a data set. It is achieved by taking an average of any subset of numbers. The moving average is extremely useful for forecasting long-term trends. You can calculate it for any period of time. For example, if you have sales data for a twenty-year period, you can calculate a five-year moving average, a four-year moving average, a three-year moving average and so on. Stock market analysts will often use a 50 or 200 day moving average to help them see trends in the stock market and (hopefully) forecast where the stocks are headed.
 
 
 
@@ -7481,13 +7481,13 @@ Evidently we can use this moving average to tease out signal (what is happening)
 
 ### Activity 7.9 Hand calculate the moving average
 
-It is important that you understand the concept of what we are covering, before we move on to the excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what excel does behind the scenes can really help with this. So in this activity we really want you to take time and watch this  [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes about what you had just learned.
+It is important that you understand the concept of what we are covering, before we move on to the Excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what Excel does behind the scenes can really help with this. So in this activity we really want you to take time and watch this [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes about what you had just learned.
 
 
 ### Activity 7.10: Moving average in Excel
 
 
-With the previous activity we now have that experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So let's learn how to calculate the moving average in Excel. Initially we will practice on a smaller data set, in order to help see through the process, and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under Learning Materials > Module 7 > Data for labs and homework folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow along below this tutorial.
+With the previous activity we now have that experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So let's learn how to calculate the moving average in Excel. Initially we will practice on a smaller data set, in order to help see through the process, and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under **Learning Materials > Module 7 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow along below this tutorial.
 
 
 We will be needing the **Data analysis toolpak** for this one, so look back to previous weeks where we used it, or all the way back to week 1 when we installed it in case you've forgotten all about this. 
@@ -7555,7 +7555,7 @@ If you'd like to apply this to our burglary data to see what we can get out of t
 
 
 
-So that's about it. If you're feeling very adventurous you can have a look at [seasonal decomposition in excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and one more in-depth learning about [moving average and soothing techniques in excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
+So that's about it. If you're feeling very adventurous you can have a look at [seasonal decomposition in Excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and one more in-depth learning about [moving average and soothing techniques in Excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
 
 ## Summary
 
