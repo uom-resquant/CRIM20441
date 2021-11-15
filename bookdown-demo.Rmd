@@ -6678,21 +6678,21 @@ All crimes occur at a specific date and time. If there are victims or witnesses 
 
 Three types of trend can be identified:
 
-- *overall trend* – highlights if the problem is getting worse, better or staying the same over a period of time
-- *seasonal, monthly, weekly or daily cycles* of offenses – identifies whether there are any patterns in crimes associated with certain time periods, for example burglaries increasing in the winter, dying down in the summer, and increasing again the next winter.
-- *random fluctuations* – caused by a large number of minor influences, or a one-off event, and can include displacement of crime from neighbouring areas due to partnership activity or crime initiatives.
+- *Overall trend* – highlights if the problem is getting worse, better or staying the same over a period of time
+- *Seasonal, monthly, weekly or daily cycles* of offenses – identifies whether there are any patterns in crimes associated with certain time periods, for example burglaries increasing in the winter, dying down in the summer, and increasing again the next winter.
+- *Random fluctuations* – caused by a large number of minor influences, or a one-off event, and can include displacement of crime from neighbouring areas due to partnership activity or crime initiatives.
 
 
 This week we will be looking at crime data from the USA. As you saw, the data from police.uk is aggregated by months. We do not know when the offences happened, only the month, but nothing more granular than that. American police data on the other hand is much more granular. 
 
-Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to course Learning Materials > Module 7 > Data for Labs and Homework, and the file is *dallas_burg.xlsx*. Download this and open it up in Excel. 
+Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to **Learning Materials > Module 7 > Data for Labs and Homework**, and the file is *dallas_burg_correct.xlsx*. Download this and open it up in Excel. 
 
 
 
-When you open the Excel spreadsheet, you will see that there is a column for date called **Date.of.Occurrence**. The date is in the format dd/mm/yyyy. So the first date on there you can see is  16/11/2016. 
+When you open the Excel spreadsheet, you will see that there is a column for date called **Date.of.Occurrence**. The date is in the format dd/mm/yyyy. So the first date on there you can see is 31/12/14. 
 
 
-But what if I asked you the question: which year had the most residential burglaries? Or what if I want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
+But what if we asked you the question: which year had the most residential burglaries? Or what if we want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
 
 
 Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. So how can we extract these variables from your date column? Well luckily excel can help us do this. 
@@ -6765,7 +6765,7 @@ To answer this question, hopefully you built a pivot table with the year variabl
 ![](imgs/count_of_yr.png)
 
 
-Hopefully you got a similar result. If not, now is the time to discuss in your groups, or ask for help for someone to come o your breakout room to. You can now identify that the year with the highest number of residential burglaries in Dallas was... 2015. You should however note that since 2017 was not yet over at the time of data collection, you have incomplete data for this year, and so you're not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data. 
+Hopefully you got a similar result. If not, now is the time to discuss in your groups, or ask for help. You can now identify that the year with the highest number of residential burglaries in Dallas was... 2015. You should however note that since 2017 was not yet over at the time of data collection, you have incomplete data for this year, and so you're not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data. 
 
 
 ### Activity 7.3: Extract day of week from date column 
@@ -6890,14 +6890,14 @@ Now you can use this variable to carry out univariate analysis and create a freq
 
 
 
-Unsurprisingly, when we look at the number of burglaries in each group, we see there are a lot more burglaries on weekdays than weekends. Why do you think that is? Take a moment to discuss in your breakout groups, and write your thoughts on the Google doc now!
+Unsurprisingly, when we look at the number of burglaries in each group, we see there are a lot more burglaries on weekdays than weekends. Why do you think that is? Take a moment to discuss in small groups, and write your thoughts!
 
 
 
 ![](https://media.giphy.com/media/xT5LMPQWYPMrZOYjug/giphy.gif)
 
 
-So what did you discuss? I am hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. I know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekends might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a **rate**; to truly be able to compare, we should look at a rate such as the number of burglaries *per day* for weekdays, and the number of burglaries *per day* for weekend-days. 
+So what did you discuss? We are hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. We know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekends might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a **rate**; to truly be able to compare, we should look at a rate such as the number of burglaries *per day* for weekdays, and the number of burglaries *per day* for weekend-days. 
 
 
 How do you calculate the rate? Well you do this simply by dividing the numerator (number of burglaries) by an appropriate denominator. What is the best denominator? Well it depends on the question you're looking to answer. Usually it's what comes after the *per*. If we are looking for number of crimes *per population* then we will be dividing by the population. If we are looking at number of burglaries *per household* we will be dividing by the number of households in an area. In this case, we were talking about the number of burglaries *per day* to compare between weekends and weekdays. Your denominator will be the number of days for each group. 
@@ -6916,7 +6916,7 @@ And copy also for the weekends, and voila we have our answer to the question, ar
 
 
 
-Now you can discuss again why you think this might be. For example, during the week, people are away from their homes for work, for the majority of each day, which leaves their home unprotected. I've mentioned the [crime triangle](https://popcenter.asu.edu/content/problem-analysis-triangle-0) before. If the resident is not home, then there is an absence of a capable guardian, and there is an increased risk for a crime (such as burglary) to occur! Write down in the google doc any other theories/thoughts you might have about this!
+Now you can discuss again why you think this might be. For example, during the week, people are away from their homes for work, for the majority of each day, which leaves their home unprotected. I've mentioned the [crime triangle](https://popcenter.asu.edu/content/problem-analysis-triangle-0) before. If the resident is not home, then there is an absence of a capable guardian, and there is an increased risk for a crime (such as burglary) to occur! Write down any other theories/thoughts you might have about this!
 
 
 
@@ -6987,14 +6987,14 @@ So what can we do with all this great temporal data? Well let's start by visuali
 Depending on what you're visualising, you can use either a linear approach, or a cyclical approach. A linear approach makes sense if you're plotting something against passing time. If you are looking at whether a trend is increasing or decreasing, this is something you would look at over time, because it would be moving forward. 
 
 
-On the other hand, many measures of time are cyclical. For example, remember in the very first week, when we spoke about *levels of measurement* of variables, and we had a variable for time, and mentioned that this was *not* a numeric variable, instead it was categorical-ordinal, because it loops back around. After the 23rd hour of a day comes the 0 hour of the next! So representing this on a linear graph may mask some important variation. Let me show you an example: 
+On the other hand, many measures of time are cyclical. For example, remember in the very first week, when we spoke about *levels of measurement* of variables, and we had a variable for time, and mentioned that this was *not* a numeric variable, instead it was categorical-ordinal, because it loops back around. After the 23rd hour of a day comes the 0 hour of the next! So representing this on a linear graph may mask some important variation. Let us show you an example: 
 
 
 ![](imgs/time_line_ex.png)
 
 
 
-The above is some made-up data, of something, over the hours of a day. What do the peaks there look like to you? If I were looking at this, I would say we have 3 peaks. There is a peak in the early hours of the morning, like 1-2am, then again a peak midday, and again another peak in the evening around 9pm. 
+The above is some made-up data, of something, over the hours of a day. What do the peaks there look like to you? If we were looking at this, we would say we have 3 peaks. There is a peak in the early hours of the morning, like 1-2am, then again a peak midday, and again another peak in the evening around 9pm. 
 
 
 ![](imgs/time_radar_ex.png)
@@ -7005,7 +7005,7 @@ This is the same data, but visualised in a cyclical way. In this visualisation, 
 
 
 
-It might be worth to have a look at some examples of temporal data being visualised, as well as making our own visualisations of time. Here I will focus on 3 approaches, **line graphs**, **radar graphs**, and **heatmaps**. 
+It might be worth to have a look at some examples of temporal data being visualised, as well as making our own visualisations of time. Here we will focus on 3 approaches, **line graphs**, **radar graphs**, and **heatmaps**. 
 
 
 ## Visualising trends: Line graphs
@@ -7044,7 +7044,7 @@ That's right! Univariate analysis time. Go ahead and use a pivot table to build 
 
 ![](imgs/burg_day_pivot.png)
 
-**NOTE**: Remember the note I made just above about newer versions (2016+) of Excel automatically grouping our data? It is possible that this has happened to you now, and you have something like this instead: 
+**NOTE**: Remember the note we made just above about newer versions (2016+) of Excel automatically grouping our data? It is possible that this has happened to you now, and you have something like this instead: 
 
 ![](imgs/ex_2016_aggr.png)
 
@@ -7076,16 +7076,16 @@ So is residential burglary going up or down in the city of Dallas? It's not easy
 **Signal-to-noise ratio** (abbreviated SNR or S/N) is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. While SNR is commonly quoted for electrical signals, it can be applied to any form of signal, and is sometimes used metaphorically to refer to the ratio of useful information to false or irrelevant data. 
 
 
-An interesting book to read that talks a lot about how to identify signals within the noise is the aptly named [The Signal and the Noise by Nate Silver](https://www.theguardian.com/books/2012/nov/09/signal-and-noise-nate-silver-review) and if you enjoyed anything about this class, or you enjoyed reading the Tiger that Isn't text, I would highly recommend it! It can get a bit more technical in places, but it's got loads of very neat examples, and is an entertaining read overall. In this book, the author talks about the need to see past all the noise (the random variation in the data) in order to be able to make predictions (using the signal). 
+An interesting book to read that talks a lot about how to identify signals within the noise is the aptly named [The Signal and the Noise by Nate Silver](https://www.theguardian.com/books/2012/nov/09/signal-and-noise-nate-silver-review) and if you enjoyed anything about this class, or you enjoyed reading the Tiger that Isn't text, we would highly recommend it! It can get a bit more technical in places, but it's got loads of very neat examples, and is an entertaining read overall. In this book, the author talks about the need to see past all the noise (the random variation in the data) in order to be able to make predictions (using the signal). 
 
 
-So in this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes, to be able to look at overall trends. For example, we could start to **smooth** this data, and instead of looking at the number of burglaries each day, begin to consider the *average number of burglaries every 10 days*, which would be something called the **10-point moving average**. This would be one approach to smooth our data. I will return to this later today. 
+So in this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes, to be able to look at overall trends. For example, we could start to **smooth** this data, and instead of looking at the number of burglaries each day, begin to consider the *average number of burglaries every 10 days*, which would be something called the **10-point moving average**. This would be one approach to smooth our data. We will return to this later today. 
 
 
 ## The time cycle: visualising cyclical variables
 
 
-I've hinted at this throughout the course, that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the **levels of measurement** for the variables in the Twitter data we assembled? And I told you that time of Tweet for example was not a numeric variable, instead ordinal. Well hour of the day is a cyclical ordinal variable, as it *cycles* around. After 23h comes 0h, and not 24, as we would expect from a numeric variable. 
+I've hinted at this throughout the course, that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the **levels of measurement** for the variables in the Twitter data we assembled? And we told you that time of Tweet for example was not a numeric variable, instead ordinal. Well hour of the day is a cyclical ordinal variable, as it *cycles* around. After 23h comes 0h, and not 24, as we would expect from a numeric variable. 
 
 So how can we best represent this special nature of our variables?
 
@@ -7131,7 +7131,7 @@ The inspiration for this time selector, which is documented in Tom Carden’s bl
 
 
 
-This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, I wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualusation). I know, I know, we covered data visualisation last week, can I please get over it. But it's one of the most fun aspects of data analysis so no, I cannot, and now I will remind you again about why Florence Nightingale wasn't just a famous nurse, she was a famous data pioneer!
+This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualusation). We know, we know, we covered data visualisation last week, can we please get over it. But it's one of the most fun aspects of data analysis so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse, she was a famous data pioneer!
 
 
 This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
@@ -7181,14 +7181,14 @@ A radar graph will appear, something like this:
 
 
 
-Now there is something wrong with this graph. Can you spot it? Take a moment now to look... I'll wait here. Once you have some ideas, discuss in your groups, and write it in the Google Doc!
+Now there is something wrong with this graph. Can you spot it? Take a moment now to look... I'll wait here. Once you have some ideas, discuss in your groups, and write it down!
 
 
 ![](https://media.giphy.com/media/3ohhwIbKJAT3eUz38s/giphy.gif)
 
 
 
-Did you notice? If not, look again, this time, look at the graph, and tell me which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no)
+Did you notice? If not, look again, this time, look at the graph, and tell us which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no)
 
 
 Why is this? Well our axes are not actually labelled! Remember, to label your axes, do as you did in the line graph, right click on the graph, "Select Data..." and populate the 'Category (X) axis labels' section in the popup window that appears with the hours. Now your graph should make sense: 
@@ -7400,7 +7400,7 @@ Similarly Hans Rosling, who you might remember from the Joy of Stats video, was 
 
 
 
-You can see that there are many cool ways to represent time, and I've shown you only few. I hope you are interested to explore more!
+You can see that there are many cool ways to represent time, and I've shown you only few. We hope you are interested to explore more!
 
 
 
@@ -7465,7 +7465,7 @@ The simplest form of a moving average, appropriately known as a **simple moving 
 Perhaps you're wondering why this tool is called a "moving" average and not just a regular mean? The answer is that as new values become available, the oldest data points must be dropped from the set and new data points must come in to replace them. Thus, the data set is constantly "*moving*" to account for new data as it becomes available. 
 
 
-There is some more detailed explanation using the example of stock prices here: [Moving Averages: What Are They?](http://www.investopedia.com/university/movingaverage/movingaverages1.asp#ixzz4xbKq8xgI ). OK you say, why do I care about stock prices though, I'm a criminologist. Well anyone looking at something over time should be interested to calculate this. Moving averages are a general method for reducing random fluctuation in any time series by recomputing the value for every data point based on the average of preceding time periods. This can apply to calculating for example burglaries over time. 
+There is some more detailed explanation using the example of stock prices here: [Moving Averages: What Are They?](http://www.investopedia.com/university/movingaverage/movingaverages1.asp#ixzz4xbKq8xgI ). OK you say, why do we care about stock prices though, we are criminologists. Well, anyone looking at something over time should be interested to calculate this. Moving averages are a general method for reducing random fluctuation in any time series by recomputing the value for every data point based on the average of preceding time periods. This can apply to calculating for example burglaries over time. 
 
 
 Here is a real-world example: 
@@ -7481,7 +7481,7 @@ Evidently we can use this moving average to tease out signal (what is happening)
 
 ### Activity 7.9 Hand calculate the moving average
 
-It is important that you understand the concept of what we are covering, before we move on to the excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what excel does behind the scenes can really help with this. So in this activity I really want you to take time and watch this  [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes in your shared google doc about what you had just learned.
+It is important that you understand the concept of what we are covering, before we move on to the excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what excel does behind the scenes can really help with this. So in this activity we really want you to take time and watch this  [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes about what you had just learned.
 
 
 ### Activity 7.10: Moving average in Excel
@@ -7548,7 +7548,7 @@ Then you should see something like this:
 
 So that's how you calculate a simple moving average in Excel. If you want another toy example to play around with, you may try again following the steps in [this tutorial here](http://www.excel-easy.com/examples/moving-average.html)
 
-If you'd like to apply this to our burglary data to see what we can get out of that, you're very welcome to as well. I won't go into that now, as we've done enough today, but here's my Moving Average chart for burglary for only 2015 year from our Dallas data set using 30 days:
+If you'd like to apply this to our burglary data to see what we can get out of that, you're very welcome to as well. We won't go into that now, as we've done enough today, but here's our Moving Average chart for burglary for only 2015 year from our Dallas data set using 30 days:
 
 
 ![](imgs/burg_2015_MA.png)
