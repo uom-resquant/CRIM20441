@@ -5440,11 +5440,11 @@ This week we will be looking at crime data from the USA. As you saw, the data fr
 
 Specifically, we will be looking at crimes from Dallas, Texas. \href{https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd}{You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd}. However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to \textbf{Learning Materials \textgreater{} Module 7 \textgreater{} Data for Labs and Homework}, and the file is \emph{dallas\_burg\_correct.xlsx}. Download this and open it up in Excel.
 
-When you open the Excel spreadsheet, you will see that there is a column for date called \textbf{Date.of.Occurrence}. The date is in the format dd/mm/yyyy. So the first date on there you can see is 31/12/14.
+When you open the Excel spreadsheet, you will see that there is a column for date called \textbf{Date.of.Occurrence}. The date is in the format dd/mm/yyyy. The first date on there you can see is 31/12/14.
 
 But what if we asked you the question: which year had the most residential burglaries? Or what if we want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right?
 
-Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. So how can we extract these variables from your date column? Well luckily excel can help us do this.
+Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. How can we extract these variables from your date column? Well, luckily excel can help us do this.
 
 \hypertarget{activity-7.1-formatting-your-dates-appropriately}{%
 \subsection{Activity 7.1: Formatting your dates appropriately}\label{activity-7.1-formatting-your-dates-appropriately}}
@@ -5480,7 +5480,7 @@ Ta-daa! You now have a column of years! Now how do you find out which year has t
 
 Try to do this now with no further guidance. If you do need some help, have a look at your notes from the univariate analysis lab, in week 2.
 
-So which year had the most residential burglaries?
+So\ldots{} which year had the most residential burglaries?
 
 \includegraphics{https://media.giphy.com/media/8nZnnnvX5A4so/giphy.gif}
 
@@ -5543,7 +5543,7 @@ The value parameter, just like with the year function, is the cell in the \emph{
   \emph{dd/mm/yyyy hh:mm:ss:} 09/01/2012 17:15:00
 \end{itemize}
 
-Let's use the ``dddd'' option here to extract the full name of each weekday. So to do this, your formula should be:
+Let's use the ``dddd'' option here to extract the full name of each weekday. To do this, your formula should be:
 
 \texttt{=text(C2,\ "dddd")}
 
@@ -5555,16 +5555,16 @@ Now copy this for each row, and you will now find out the day of the week that e
 
 \includegraphics{imgs/dow_col.png}
 
-\textbf{NOTE} : If this is not working for you, it is possible that your laptop/Excel/operating system is set to a different language. For example, if you have a laptop that is set to French, instead of ``dddd'' (which means daydaydayday to Excel) it will be looking for ``jjjj'' (journéejournéejournéejournée). So if you have a laptop set to a language other than English, think about how you say the date you're trying to extract (day or month or year etc).
+\textbf{NOTE} : If this is not working for you, it is possible that your laptop/Excel/operating system is set to a different language. For example, if you have a laptop that is set to French, instead of ``dddd'' (which means daydaydayday to Excel) it will be looking for ``jjjj'' (journéejournéejournéejournée). If you have a laptop set to a language other than English, think about how you say the date you're trying to extract (day or month or year, etc.).
 
-Right, now we want to compare burglary in weekday to the weekend. So can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
+Right, now we want to compare burglary in weekday to the weekend. Can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
 
 \hypertarget{activity-7.4-recoding-days-of-the-week}{%
 \subsection{Activity 7.4: Recoding days of the week}\label{activity-7.4-recoding-days-of-the-week}}
 
 Well think back to when we did re-coding in week 4. Remember the \texttt{VLOOKUP()} function? Remember the \texttt{VLOOKUP()} function takes 4 parameters. You have to tell it the \textbf{lookup\_value} - the value to search for. You then have to tell it the \textbf{table\_array} - which is your lookup table, with two columns of data. The VLOOKUP function \emph{always} searches for the lookup value in the first column of table\_array. Your table\_array may contain various values such as text, dates, numbers, or logical values.You then have to tell it the \textbf{col\_index\_num} - the column number in table\_array from which the value in the corresponding row should be returned. Finally, you still have to specify the \textbf{range\_lookup}. This determines whether you are looking for an exact match (when you set to FALSE) or approximate match (when you set to TRUE or you omit it).
 
-So the first thing you have to create is your lookup table. For each value of day of the week, you should assign a value of Weekday or Weekend. Something like this:
+The first thing you have to create is your lookup table. For each value of day of the week, you should assign a value of Weekday or Weekend. Something like this:
 
 \includegraphics{imgs/wkday_lookup.png}
 
@@ -5603,7 +5603,7 @@ Unsurprisingly, when we look at the number of burglaries in each group, we see t
 
 \includegraphics{https://media.giphy.com/media/xT5LMPQWYPMrZOYjug/giphy.gif}
 
-So what did you discuss? We are hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. We know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekends might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a \textbf{rate}; to truly be able to compare, we should look at a rate such as the number of burglaries \emph{per day} for weekdays, and the number of burglaries \emph{per day} for weekend-days.
+What did you discuss? We are hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. We know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekends might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a \textbf{rate}; to truly be able to compare, we should look at a rate such as the number of burglaries \emph{per day} for weekdays, and the number of burglaries \emph{per day} for weekend-days.
 
 How do you calculate the rate? Well you do this simply by dividing the numerator (number of burglaries) by an appropriate denominator. What is the best denominator? Well it depends on the question you're looking to answer. Usually it's what comes after the \emph{per}. If we are looking for number of crimes \emph{per population} then we will be dividing by the population. If we are looking at number of burglaries \emph{per household} we will be dividing by the number of households in an area. In this case, we were talking about the number of burglaries \emph{per day} to compare between weekends and weekdays. Your denominator will be the number of days for each group.
 
@@ -5629,7 +5629,7 @@ First, we've not had a look at our time variable yet, so we could start with tha
 \hypertarget{activity-7.5-aggregate-to-hour}{%
 \subsection{Activity 7.5: Aggregate to hour}\label{activity-7.5-aggregate-to-hour}}
 
-Let's say we want a bit more granularity. We want to see \emph{when} within the day these crimes occur. We can see that we have a \texttt{Time.of.Occurrence} variable, which has the exact time. But this is very precise, and aggregating to the minute might not let us see greater patterns. Also, if we aggregate to the minute, we communicate that we really trust the precision of the data on when the crime occurred, which, especially in the case of burglary might be fishy. Think about it for a moment - if the home owner is out all day, and the burglar breaks in at 12:30, when will the crime be reported - when it occurred, or when the home owner returns from work in the evening? Hmm Hmm. So in this case, let's aggregate to the nearest hour.
+Let's say we want a bit more granularity. We want to see \emph{when} within the day these crimes occur. We can see that we have a \texttt{Time.of.Occurrence} variable, which has the exact time. But this is very precise, and aggregating to the minute might not let us see greater patterns. Also, if we aggregate to the minute, we communicate that we really trust the precision of the data on when the crime occurred, which, especially in the case of burglary might be fishy. Think about it for a moment - if the home owner is out all day, and the burglar breaks in at 12:30, when will the crime be reported - when it occurred, or when the home owner returns from work in the evening? Hmm Hmm. In this case, let's aggregate to the nearest hour.
 
 To do so, first create a new column for `Hour':
 
@@ -5657,7 +5657,7 @@ You can then copy this formula down the whole data set.
 
 \textbf{NOTE:} Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through \href{https://blogs.office.com/en-us/2015/10/13/time-grouping-enhancements-in-excel-2016/?eu=true}{this tutorial} to show you how you can use this new feature. This will be important in a moment as well, when we try to group for specific dates, so do take some time to think about this!
 
-So what can we do with all this great temporal data? Well let's start by visualising!
+What can we do with all this great temporal data? Well, let's start by visualising!
 
 \hypertarget{visualising-time}{%
 \section{Visualising time}\label{visualising-time}}
@@ -5694,7 +5694,7 @@ The point of the visualization is to disprove theories that claim that natural c
 \hypertarget{activity-7.6-visualising-trends-line-graphs}{%
 \subsection{Activity 7.6: Visualising trends: Line graphs}\label{activity-7.6-visualising-trends-line-graphs}}
 
-So if we wanted to see whether there is a particular drend in burglaries, we could create a line graph here.
+If we wanted to see whether there is a particular drend in burglaries, we could create a line graph here.
 
 To make a line graph, we need to think about what we will represent on our horizontal (x) axis, and what we will represent on our vertical (y) axis. Let's say that on the Y axis we want to represent \emph{number of burglaries}. OK, so what should we have on our X axis? That will be whatever we use to fill in the blank in the sentence: number of burglaries per \_\_\_\_\_\_\_\_\_\_\_\_\_. Let's say we want to know any changes in the number of burglaries \emph{per day}. Well to do this we will need to \emph{count the number of times that each date appears in the data}. Remember what this means?
 
@@ -5718,20 +5718,20 @@ When all said and done, you should end up with a chart that looks like this:
 
 \includegraphics{imgs/line_burgs.png}
 
-So is residential burglary going up or down in the city of Dallas? It's not easy to tell from this, is it? The thing with data at these intervals is that there is a lot of day-to-day variation, and what we would refer to as the \textbf{noise}. And in this \textbf{noise} we can loose sight of the \textbf{signal}.
+Is residential burglary going up or down in the city of Dallas? It's not easy to tell from this, is it? The thing with data at these intervals is that there is a lot of day-to-day variation, and what we would refer to as the \textbf{noise}. And in this \textbf{noise} we can loose sight of the \textbf{signal}.
 
 \textbf{Signal-to-noise ratio} (abbreviated SNR or S/N) is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. While SNR is commonly quoted for electrical signals, it can be applied to any form of signal, and is sometimes used metaphorically to refer to the ratio of useful information to false or irrelevant data.
 
 An interesting book to read that talks a lot about how to identify signals within the noise is the aptly named \href{https://www.theguardian.com/books/2012/nov/09/signal-and-noise-nate-silver-review}{The Signal and the Noise by Nate Silver} and if you enjoyed anything about this class, or you enjoyed reading the Tiger that Isn't text, we would highly recommend it! It can get a bit more technical in places, but it's got loads of very neat examples, and is an entertaining read overall. In this book, the author talks about the need to see past all the noise (the random variation in the data) in order to be able to make predictions (using the signal).
 
-So in this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes, to be able to look at overall trends. For example, we could start to \textbf{smooth} this data, and instead of looking at the number of burglaries each day, begin to consider the \emph{average number of burglaries every 10 days}, which would be something called the \textbf{10-point moving average}. This would be one approach to smooth our data. We will return to this later today.
+In this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes, to be able to look at overall trends. For example, we could start to \textbf{smooth} this data, and instead of looking at the number of burglaries each day, begin to consider the \emph{average number of burglaries every 10 days}, which would be something called the \textbf{10-point moving average}. This would be one approach to smooth our data. We will return to this later today.
 
 \hypertarget{the-time-cycle-visualising-cyclical-variables}{%
 \section{The time cycle: visualising cyclical variables}\label{the-time-cycle-visualising-cyclical-variables}}
 
 I've hinted at this throughout the course, that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the \textbf{levels of measurement} for the variables in the Twitter data we assembled? And we told you that time of Tweet for example was not a numeric variable, instead ordinal. Well hour of the day is a cyclical ordinal variable, as it \emph{cycles} around. After 23h comes 0h, and not 24, as we would expect from a numeric variable.
 
-So how can we best represent this special nature of our variables?
+How can we best represent this special nature of our variables?
 
 There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs The below graphs all represent the same data, of page views for a website across different times of day. Here's an example by Purna Duggirala that is essentailly a bubble chart that uses two clocks side by side:
 
@@ -5770,7 +5770,7 @@ So, how do we make these in Excel? Well let's return to our within-day variation
 
 To do this, we will first need to create a frequency table of the hour variable. Remember we are graphing UNIVARIATE ANALYSIS. We are describing one variable in our data, which is the hour variable. To know the frequency of each value of this variable (the number of burglaries in each hour), we must build a pivot table.
 
-So do this, create a pivot table that tells you the frequency of each hour:
+Do this, create a pivot table that tells you the frequency of each hour:
 
 \includegraphics{imgs/hr_freq.png}
 
@@ -5828,13 +5828,13 @@ Ta-daa here is your 2-variable radial graph.
 
 One issue though. Can you think of it?
 
-No? Well look how tiny the circle for the weekend is. This is because of the problem that we discussed earlier, there are simply many more burglaries in the weekday. So if we want to look at how within-day patterns differ between weekend and weekday, this graph isn't necessarily the best approach. Instead, we might want to look at \emph{percentage} distribution, instead of count.
+No? Well look how tiny the circle for the weekend is. This is because of the problem that we discussed earlier, there are simply many more burglaries in the weekday. If we want to look at how within-day patterns differ between weekend and weekday, this graph isn't necessarily the best approach. Instead, we might want to look at \emph{percentage} distribution, instead of count.
 
 To do this, change the pivot table to display percent instead of count. A reminder how to do this: you click on the little i (or arrow on a PC) to bring up a popup window, on which you select options:
 
 \includegraphics{imgs/hr_r_26.png}
 
-This brings up a menu where you can select what to ``show data as''. Choose \% of column (because we want to know the percent of weekday crimes in each hour, and percent of weekend crimes in each hour, so our 100\% are our columns, so we are looking at column percentages):
+This brings up a menu where you can select what to ``show data as''. Choose \% of column (because we want to know the percent of weekday crimes in each hour, and percent of weekend crimes in each hour, so our 100\% are our columns, we are looking at column percentages):
 
 \includegraphics{imgs/hr_r_27.png}
 
@@ -5864,7 +5864,7 @@ A legend is required alongside a Heatmap in order for it to be successfully read
 
 Because of their reliance on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it's harder to accurately tell the differences between colour shades and to extract specific data points from (unless of course, you include the raw data in the cells).
 
-Heatmaps can also be used to show the changes in data over time if one of the rows or columns are set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities, to see where's the hottest or coldest places. So the rows could list the cities to compare, the columns contain each month and the cells would contain the temperature values.
+Heatmaps can also be used to show the changes in data over time if one of the rows or columns are set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities, to see where's the hottest or coldest places. The rows could list the cities to compare, the columns contain each month and the cells would contain the temperature values.
 
 \begin{itemize}
 \tightlist
@@ -5872,7 +5872,7 @@ Heatmaps can also be used to show the changes in data over time if one of the ro
   \href{https://datavizcatalogue.com/methods/heatmap.html}{data viz catalogue}
 \end{itemize}
 
-So let's make a heatmap for burglary, from a crosstab looking at the frequency of burglary across days of the week \emph{and} hours of the day.
+Let's make a heatmap for burglary, from a crosstab looking at the frequency of burglary across days of the week \emph{and} hours of the day.
 
 You can know, by the way that question is phrased, that your task here will require a bivariate analysis. To produce this, we will need a pivot table. So let's create our crosstab with pivot table, where we have day of week in the columns, and hour of day in the rows:
 
@@ -5888,7 +5888,7 @@ Then find the conditional formatting tab, and select a colour scheme that works 
 
 \includegraphics{imgs/cond_2.png}
 
-In this case, red is bad because it means more burglaries! So select this colourscheme and as if by magic, our table will now be highlighted in the form of a heatmap:
+In this case, red is bad because it means more burglaries! Select this colourscheme and as if by magic, our table will now be highlighted in the form of a heatmap:
 
 \includegraphics{imgs/cond_3.png}
 
@@ -5903,7 +5903,7 @@ The Gantt chart is also a way to visualise the passage of time, or rather the ta
 
 \includegraphics{https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/300px-GanttChartAnatomy.svg.png}
 
-It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management. We covered how to do these in the research design session, so please do refer back to those if you are not sure how to make them any more\ldots!
+It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management. We covered how to do these in the research design session, please do refer back to those if you are not sure how to make them any more\ldots!
 
 There are also some non-conventional line-graph based timelines. While these appear initially like linear representations, it's actually possible for these to loop back, and reverse in time, making them slightly different. For example \href{http://www.nytimes.com/imagepages/2010/05/02/business/02metrics.html}{this one about gas prices and driving practices}, or this one about \href{http://www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html}{driving safely} demonstrate this approach quite neatly.
 
