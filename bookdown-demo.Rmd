@@ -7630,8 +7630,8 @@ We have uploaded a dataset with the main variables of the *FinCEN files* on Blac
 
 You can download this file in *Excel* and explore it using the skills learnt in previous weeks. Can you answer the following questions?
 
-- Which beneficiary bank (variable *'beneficiary_bank_id'*) received a larger number of suspicious transactions (variable *'number_transactions'*)? How many suspicious transactions did it receive?
-- Which beneficiary bank (variable *'beneficiary_bank_id'*) received a larger amount in dollars from suspicious transactions (variable *'amount_transactions'*)? How much money did it receive?
+- Which beneficiary bank (variable *'beneficiary_bank'*) received a larger number of suspicious transactions (variable *'number_transactions'*)? How many suspicious transactions did it receive?
+- Which beneficiary bank (variable *'beneficiary_bank'*) received a larger amount in dollars from suspicious transactions (variable *'amount_transactions'*)? How much money did it receive?
 
 You can find the correct answers after the gif...
 
@@ -7651,7 +7651,7 @@ The correct answers are:
 [Credit Suisse AG](https://en.wikipedia.org/wiki/Credit_Suisse). It received 768 suspicious transactions.
 
 -  *Which beneficiary bank received a larger amount in dollars from suspicious transactions? How much money did it receive?*
-[Rosbank](https://en.wikipedia.org/wiki/Rosbank). It received 3,559,645,309.54 US dollars from suspicious transactions.
+[Rosbank](https://en.wikipedia.org/wiki/Rosbank). It received 3,559,623,596.60 US dollars from suspicious transactions.
 
 Is this surprising to you? You can have a chat in small groups to discuss these results.
 
