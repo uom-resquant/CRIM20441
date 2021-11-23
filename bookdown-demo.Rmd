@@ -8243,7 +8243,7 @@ Now, *deductive logic* assumes that we have a predetermined set of codes, ideas 
 *2.	to explore their perceptions of community penalties, developments in these over the course of their careers and potential changes in the future;*
 *3.	to examine the role of CPOs as managers and their relationships with central government, local agencies and their probation committees.* 
 
-So we can extrapolate key ideas from these objectives and use them to guide our coding of the data. We’ve broken down the research objectives into key concepts and organised this in my mind map. Take a look at my screenshot below and see if you can replicate what we’ve done. You might choose to pick a different structure, or different codes, that’s fine too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure too.
+So we can extrapolate key ideas from these objectives and use them to guide our coding of the data. We’ve broken down the research objectives into key concepts and organised this in our mind map. Take a look at our screenshot below and see if you can replicate what we’ve done. You might choose to pick a different structure, or different codes, that’s fine too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure too.
 
 You can learn more about how to create and edit mind maps in [this Youtube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
 
@@ -8387,12 +8387,12 @@ In List pane – select the item/s you want to export content for, say a Node or
 
 ## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
 
-The formalized Reports and associated Extracts function (in Navigation bar or Explore/Ribbon group) specifically concerns the support provided for mixed qual/quant methods. Some of the reports only provide quantitative information or summaries. Experiment with these via the Help Menu.
+The formalized *Reports* and associated Extracts function (in Navigation bar or Explore/Ribbon group) specifically concerns the support provided for mixed qual/quant methods. Some of the reports only provide quantitative information or summaries. Experiment with these via the Help Menu.
 
 Two standardized Reports will also provide e.g. qualitative coded source data.
 
--	Coding Summary Report by Node
--	Coding Summary Report by Source
+-	Coding Summary Report by *Node*
+-	Coding Summary Report by *Source*
 
 These reports are essentially the same but allow for different sorting mechanisms. This would be a quick way to export many codes at once. Experiment with all the drop-down options and Select buttons.
 
@@ -8415,7 +8415,11 @@ This is a Word Cloud for Dataset 1 only.
 
 ### Create a Word Tree:
 
-Using the Query function, I’ve done a text search for the words ‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’ in Dataset 1 and then chosen the ‘Word Tree’ option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? My query produced this:
+Using the *Query* function, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
+
+![](imgs/query_nvivo.png)
+
+And then chosen the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
 
 ![](imgs/wordtree.png)
  
@@ -8435,7 +8439,7 @@ But you might be interested in generating different data, such as audio or visua
 
 ### Graphics/pictures - making linked notes and coding
 
-Try importing a picture. Find something online and save it. Then import it. Here’s my example:
+Try importing a picture. Find something online and save it. Then import it. Here’s our example:
 
 ![](imgs/code_pic.png)
  
@@ -8451,7 +8455,7 @@ Have a play with coding and analysing pictures.
 
 Coding multimedia data is very similar to coding textual data. For either audio or video sources, you can select transcript text and code per usual, or you can select a segment on the progress bar and code that directly as if you’d highlighted text.
 
-So, if you have some music on your iTunes, try importing a song to see what it looks like then see if you can code lyrics and sections of the song. I’ve put some Radiohead in my project if you want to try it out there…
+So, if you have some music on your iTunes, try importing a song to see what it looks like then see if you can code lyrics and sections of the song. We’ve put some Radiohead in our project if you want to try it out there…
 
 ## More on capturing web material
 
