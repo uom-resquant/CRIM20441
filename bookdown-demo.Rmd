@@ -313,7 +313,7 @@ library(tidyverse)
 library(lubridate)
 
 #gmp_crimes <- read.csv("/Users/reka/Dropbox\ (The\ University\ of\ #Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
-gmp_crimes <- read.csv("/Users/david/Dropbox (The University of Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
+gmp_crimes <- read.csv("C:/Users/mllxwbd2/Dropbox (The University of Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
 #gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
 
 topCrimTyp <- gmp_crimes %>%
