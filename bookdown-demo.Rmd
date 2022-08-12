@@ -1,6 +1,6 @@
 --- 
 title: "Making Sense of Crim Data"
-author: "Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)"
+author: "Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -313,7 +313,7 @@ library(tidyverse)
 library(lubridate)
 
 #gmp_crimes <- read.csv("/Users/reka/Dropbox\ (The\ University\ of\ #Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
-gmp_crimes <- read.csv("C:/Users/mllxwbd2/Dropbox (The University of Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
+gmp_crimes <- read.csv("C:/Users/mllxwdb2/Dropbox (The University of Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
 #gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
 
 topCrimTyp <- gmp_crimes %>%
