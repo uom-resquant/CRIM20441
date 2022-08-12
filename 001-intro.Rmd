@@ -21,8 +21,7 @@ Each element is described in detail below:
 
 For each week you will receive some preliminary reading or videos to watch, before coming to the session. It is very important that you read these before coming to the lab session, as it will make engaging with the lab material easier. Also, you can take the labs as an opportunity to ask questions about the readings, and discuss with us and the teaching assistants during the 2-hour lab sessions.
 
-The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/search-resources/reading-lists/) which you can access from within [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_12745591_1&course_id=_67464_1). 
-
+The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/search-resources/reading-lists/) which you can access from within [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_73767_1&content_id=_14091679_1). 
 
 #### 2) Pre-recorded lecture videos {-}
 
