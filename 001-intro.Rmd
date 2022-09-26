@@ -29,7 +29,7 @@ These short clips make up the lecture component of the module. They cover key co
 
 #### 3) Lab session {-}
 
-Lab sessions are the two-hour sessions which take every Tuesday from 9am to 11am (6.004 Computer Cluster in Simon Building). Those who cannot attend the computer lab on campus will also be able to attend remotely from their personal computer via Zoom (instructions to join available on [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_12745591_1&course_id=_67464_1)). In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials. 
+Lab sessions are the two-hour sessions which take every Tuesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials. 
 
 When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open up the link via Blackboard, and read through the instructions chronologically. That just means start at the top, and read through to the bottom. 
 

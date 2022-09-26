@@ -4,10 +4,10 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -33,15 +33,8 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Making Sense of Crim Data},
-  pdfauthor={Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -50,7 +43,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -75,12 +68,23 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Making Sense of Crim Data},
+  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{Making Sense of Crim Data}
-\author{Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2021-11-23}
+\author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
+\date{2022-09-26}
 
 \begin{document}
 \maketitle
@@ -154,7 +158,7 @@ Each element is described in detail below:
 
 For each week you will receive some preliminary reading or videos to watch, before coming to the session. It is very important that you read these before coming to the lab session, as it will make engaging with the lab material easier. Also, you can take the labs as an opportunity to ask questions about the readings, and discuss with us and the teaching assistants during the 2-hour lab sessions.
 
-The reading list can be found on the University of Manchester \href{https://www.library.manchester.ac.uk/search-resources/reading-lists/}{Library Reading List Online Services} which you can access from within \href{https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_12745591_1\&course_id=_67464_1}{Blackboard}.
+The reading list can be found on the University of Manchester \href{https://www.library.manchester.ac.uk/search-resources/reading-lists/}{Library Reading List Online Services} which you can access from within \href{https://online.manchester.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_73767_1\&content_id=_14091679_1}{Blackboard}.
 
 \hypertarget{pre-recorded-lecture-videos}{%
 \subsubsection*{2) Pre-recorded lecture videos}\label{pre-recorded-lecture-videos}}
@@ -166,7 +170,7 @@ These short clips make up the lecture component of the module. They cover key co
 \subsubsection*{3) Lab session}\label{lab-session}}
 \addcontentsline{toc}{subsubsection}{3) Lab session}
 
-Lab sessions are the two-hour sessions which take every Tuesday from 9am to 11am (6.004 Computer Cluster in Simon Building). Those who cannot attend the computer lab on campus will also be able to attend remotely from their personal computer via Zoom (instructions to join available on \href{https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_12745591_1\&course_id=_67464_1}{Blackboard}). In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials.
+Lab sessions are the two-hour sessions which take every Tuesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials.
 
 When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open up the link via Blackboard, and read through the instructions chronologically. That just means start at the top, and read through to the bottom.
 
@@ -232,17 +236,16 @@ The first thing you need to do is to create a working environment for yourself, 
 
 There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein:
 
-\includegraphics[width=13.33in]{imgs/einstein_desk}
+\includegraphics{imgs/einstein_desk.jpg}
 
 However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with these famous work spaces of: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
-\includegraphics[width=3.28in]{imgs/galileo_desk}
-\includegraphics[width=3.28in]{imgs/marie_curie}
-\includegraphics[width=6.28in]{imgs/Dalton_John_desk}
-\includegraphics[width=6.94in]{imgs/alan_turing_desk}
+\includegraphics{imgs/galileo_desk.jpg} \includegraphics{imgs/marie_curie.jpg} \includegraphics{imgs/Dalton_John_desk.jpg} \includegraphics{imgs/alan_turing_desk.jpg}
 
 \begin{figure}
-\includegraphics[width=6.94in]{imgs/charles_dickens_desk} \caption{\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces}\label{fig:unnamed-chunk-4}
+\centering
+\includegraphics{imgs/charles_dickens_desk.jpg}
+\caption{\label{fig:unnamed-chunk-4}\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces}
 \end{figure}
 
 When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised.
@@ -5568,7 +5571,7 @@ The first thing you have to create is your lookup table. For each value of day o
 
 \includegraphics{imgs/wkday_lookup.png}
 
-\textbf{Note}: Remember what you learned with lookup tables back in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, excel would fail to match something like " Wednesday" or ``Wednesday'' or ``wednesday'' because the value in the lookup table actually said ``Wednesday''. The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting \emph{values} (not the formula).
+\textbf{Note}: Remember what you learned with lookup tables back in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, excel would fail to match something like '' Wednesday'' or ``Wednesday'' or ``wednesday'' because the value in the lookup table actually said ``Wednesday''. The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting \emph{values} (not the formula).
 
 Now let's try to apply the formula.
 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 8 Week 8 | Making Sense of Crim Data</title>
   <meta name="description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the Universit of Manchester" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 8 Week 8 | Making Sense of Crim Data" />
   <meta property="og:type" content="book" />
@@ -21,10 +21,10 @@
   <meta name="twitter:description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the Universit of Manchester" />
   
 
-<meta name="author" content="Reka Solymosi (maintained by David Buil-Gil and Nicolas Trajtenberg)" />
+<meta name="author" content="Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)" />
 
 
-<meta name="date" content="2021-11-23" />
+<meta name="date" content="2022-09-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="week7.html"/>
 <link rel="next" href="week9.html"/>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,9 +51,9 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
@@ -73,286 +74,352 @@
 <li><a href="./">Making Sense of Criminological Data</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#disclaimer"><i class="fa fa-check"></i>Disclaimer</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#overview-of-course"><i class="fa fa-check"></i>Overview of course</a><ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#module-structure"><i class="fa fa-check"></i>Module structure</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="1" data-path="week1.html"><a href="week1.html"><i class="fa fa-check"></i><b>1</b> Week 1</a><ul>
-<li class="chapter" data-level="1.1" data-path="week1.html"><a href="week1.html#learning-outcomes"><i class="fa fa-check"></i><b>1.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="1.2" data-path="week1.html"><a href="week1.html#familiarising-yourself-with-the-course"><i class="fa fa-check"></i><b>1.2</b> Familiarising yourself with the course</a></li>
-<li class="chapter" data-level="1.3" data-path="week1.html"><a href="week1.html#asking-a-question-on-the-discussion-board"><i class="fa fa-check"></i><b>1.3</b> Asking a question on the discussion board</a><ul>
-<li class="chapter" data-level="1.3.1" data-path="week1.html"><a href="week1.html#activity-1-posting-on-the-discussion-board"><i class="fa fa-check"></i><b>1.3.1</b> Activity 1: Posting on the discussion board</a></li>
-</ul></li>
-<li class="chapter" data-level="1.4" data-path="week1.html"><a href="week1.html#setting-up-your-working-environment"><i class="fa fa-check"></i><b>1.4</b> Setting up your working environment</a><ul>
-<li class="chapter" data-level="1.4.1" data-path="week1.html"><a href="week1.html#activity-2-create-a-folder-for-this-module"><i class="fa fa-check"></i><b>1.4.1</b> Activity 2: Create a folder for this module</a></li>
-</ul></li>
-<li class="chapter" data-level="1.5" data-path="week1.html"><a href="week1.html#working-directory"><i class="fa fa-check"></i><b>1.5</b> Working directory</a></li>
-<li class="chapter" data-level="1.6" data-path="week1.html"><a href="week1.html#getting-to-know-excel"><i class="fa fa-check"></i><b>1.6</b> Getting to know Excel</a><ul>
-<li class="chapter" data-level="1.6.1" data-path="week1.html"><a href="week1.html#install-excel"><i class="fa fa-check"></i><b>1.6.1</b> Install Excel</a></li>
-<li class="chapter" data-level="1.6.2" data-path="week1.html"><a href="week1.html#install-data-analysis-toolpak"><i class="fa fa-check"></i><b>1.6.2</b> Install data analysis toolpak</a></li>
-</ul></li>
-<li class="chapter" data-level="1.7" data-path="week1.html"><a href="week1.html#data-variables-and-observations"><i class="fa fa-check"></i><b>1.7</b> Data: Variables and observations</a><ul>
-<li class="chapter" data-level="1.7.1" data-path="week1.html"><a href="week1.html#activity-3-building-your-own-data"><i class="fa fa-check"></i><b>1.7.1</b> Activity 3: Building your own data</a></li>
-</ul></li>
-<li class="chapter" data-level="1.8" data-path="week1.html"><a href="week1.html#questions-about-your-data"><i class="fa fa-check"></i><b>1.8</b> Questions about your data</a><ul>
-<li class="chapter" data-level="1.8.1" data-path="week1.html"><a href="week1.html#activity-4-thinking-about-what-our-data-tells-us"><i class="fa fa-check"></i><b>1.8.1</b> Activity 4: Thinking about what our data tells us</a></li>
-</ul></li>
-<li class="chapter" data-level="1.9" data-path="week1.html"><a href="week1.html#looking-at-real-data"><i class="fa fa-check"></i><b>1.9</b> Looking at real data</a></li>
-<li class="chapter" data-level="1.10" data-path="week1.html"><a href="week1.html#code-books"><i class="fa fa-check"></i><b>1.10</b> Code books</a></li>
-<li class="chapter" data-level="1.11" data-path="week1.html"><a href="week1.html#levels-of-measurement"><i class="fa fa-check"></i><b>1.11</b> Levels of measurement</a><ul>
-<li class="chapter" data-level="1.11.1" data-path="week1.html"><a href="week1.html#activity-5-levels-of-measurement-pt.-1"><i class="fa fa-check"></i><b>1.11.1</b> Activity 5: Levels of measurement pt. 1</a></li>
-<li class="chapter" data-level="1.11.2" data-path="week1.html"><a href="week1.html#activity-6-levels-of-measurement-pt.-2"><i class="fa fa-check"></i><b>1.11.2</b> Activity 6: Levels of measurement pt. 2</a></li>
-</ul></li>
-<li class="chapter" data-level="1.12" data-path="week1.html"><a href="week1.html#unit-of-analysis"><i class="fa fa-check"></i><b>1.12</b> Unit of analysis</a><ul>
-<li class="chapter" data-level="1.12.1" data-path="week1.html"><a href="week1.html#activity-7-abstract-ing-the-unit-of-analysis"><i class="fa fa-check"></i><b>1.12.1</b> Activity 7: <em>Abstract</em>-ing the unit of analysis</a></li>
-</ul></li>
-<li class="chapter" data-level="1.13" data-path="week1.html"><a href="week1.html#summary"><i class="fa fa-check"></i><b>1.13</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="week2.html"><a href="week2.html"><i class="fa fa-check"></i><b>2</b> Week 2</a><ul>
-<li class="chapter" data-level="2.1" data-path="week2.html"><a href="week2.html#learning-outcomes-1"><i class="fa fa-check"></i><b>2.1</b> Learning outcomes</a><ul>
-<li class="chapter" data-level="2.1.1" data-path="week2.html"><a href="week2.html#activity-2.1"><i class="fa fa-check"></i><b>2.1.1</b> Activity 2.1</a></li>
-<li class="chapter" data-level="2.1.2" data-path="week2.html"><a href="week2.html#terms-for-today"><i class="fa fa-check"></i><b>2.1.2</b> Terms for today:</a></li>
-</ul></li>
-<li class="chapter" data-level="2.2" data-path="week2.html"><a href="week2.html#univariate-analysis"><i class="fa fa-check"></i><b>2.2</b> Univariate analysis</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="week2.html"><a href="week2.html#the-importance-of-level-of-measurement"><i class="fa fa-check"></i><b>2.2.1</b> The importance of level of measurement</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="week2.html"><a href="week2.html#summarising-categorical-data"><i class="fa fa-check"></i><b>2.3</b> Summarising categorical data</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="week2.html"><a href="week2.html#activity-2.2-crime-types"><i class="fa fa-check"></i><b>2.3.1</b> Activity 2.2: Crime types</a></li>
-<li class="chapter" data-level="2.3.2" data-path="week2.html"><a href="week2.html#frequency-tables"><i class="fa fa-check"></i><b>2.3.2</b> Frequency tables</a></li>
-<li class="chapter" data-level="2.3.3" data-path="week2.html"><a href="week2.html#creating-a-frequency-table-in-excel"><i class="fa fa-check"></i><b>2.3.3</b> Creating a frequency table in Excel</a></li>
-<li class="chapter" data-level="2.3.4" data-path="week2.html"><a href="week2.html#activity-2.3-looking-at-frequency"><i class="fa fa-check"></i><b>2.3.4</b> Activity 2.3: Looking at frequency</a></li>
-<li class="chapter" data-level="2.3.5" data-path="week2.html"><a href="week2.html#visualising-a-frequency-table-with-bar-charts"><i class="fa fa-check"></i><b>2.3.5</b> Visualising a frequency table with bar charts</a></li>
-<li class="chapter" data-level="2.3.6" data-path="week2.html"><a href="week2.html#activity-2.4-bar-charts-in-excel"><i class="fa fa-check"></i><b>2.3.6</b> Activity 2.4: Bar charts in Excel</a></li>
-</ul></li>
-<li class="chapter" data-level="2.4" data-path="week2.html"><a href="week2.html#summarising-numeric-data"><i class="fa fa-check"></i><b>2.4</b> Summarising numeric data</a><ul>
-<li class="chapter" data-level="2.4.1" data-path="week2.html"><a href="week2.html#measures-of-central-tendency"><i class="fa fa-check"></i><b>2.4.1</b> Measures of central tendency</a></li>
-<li class="chapter" data-level="2.4.2" data-path="week2.html"><a href="week2.html#activity-2.5-mean-and-median-in-excel"><i class="fa fa-check"></i><b>2.4.2</b> Activity 2.5: Mean and median in Excel</a></li>
-<li class="chapter" data-level="2.4.3" data-path="week2.html"><a href="week2.html#distributions"><i class="fa fa-check"></i><b>2.4.3</b> Distributions</a></li>
-<li class="chapter" data-level="2.4.4" data-path="week2.html"><a href="week2.html#histograms"><i class="fa fa-check"></i><b>2.4.4</b> Histograms</a></li>
-<li class="chapter" data-level="2.4.5" data-path="week2.html"><a href="week2.html#activity-2.6-histograms-in-excel"><i class="fa fa-check"></i><b>2.4.5</b> Activity 2.6: Histograms in Excel</a></li>
-<li class="chapter" data-level="2.4.6" data-path="week2.html"><a href="week2.html#five-number-summary"><i class="fa fa-check"></i><b>2.4.6</b> Five-number summary</a></li>
-<li class="chapter" data-level="2.4.7" data-path="week2.html"><a href="week2.html#activity-2.7-calculate-quartiles"><i class="fa fa-check"></i><b>2.4.7</b> Activity 2.7: Calculate quartiles</a></li>
-</ul></li>
-<li class="chapter" data-level="2.5" data-path="week2.html"><a href="week2.html#standard-deviation"><i class="fa fa-check"></i><b>2.5</b> Standard deviation</a><ul>
-<li class="chapter" data-level="2.5.1" data-path="week2.html"><a href="week2.html#activity-2.8-standard-deviation-in-excel"><i class="fa fa-check"></i><b>2.5.1</b> Activity 2.8: Standard Deviation in Excel</a></li>
-</ul></li>
-<li class="chapter" data-level="2.6" data-path="week2.html"><a href="week2.html#writing-it-all-up"><i class="fa fa-check"></i><b>2.6</b> Writing it all up</a><ul>
-<li class="chapter" data-level="2.6.1" data-path="week2.html"><a href="week2.html#build-a-structure"><i class="fa fa-check"></i><b>2.6.1</b> Build a structure</a></li>
-</ul></li>
-<li class="chapter" data-level="2.7" data-path="week2.html"><a href="week2.html#summary-1"><i class="fa fa-check"></i><b>2.7</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="week3.html"><a href="week3.html"><i class="fa fa-check"></i><b>3</b> Week 3</a><ul>
-<li class="chapter" data-level="3.1" data-path="week3.html"><a href="week3.html#learning-outcomes-2"><i class="fa fa-check"></i><b>3.1</b> Learning outcomes</a><ul>
-<li class="chapter" data-level="3.1.1" data-path="week3.html"><a href="week3.html#terms-for-today-1"><i class="fa fa-check"></i><b>3.1.1</b> Terms for today</a></li>
-</ul></li>
-<li class="chapter" data-level="3.2" data-path="week3.html"><a href="week3.html#categorical-v-categorical"><i class="fa fa-check"></i><b>3.2</b> Categorical v categorical</a><ul>
-<li class="chapter" data-level="3.2.1" data-path="week3.html"><a href="week3.html#surviving-the-titanic"><i class="fa fa-check"></i><b>3.2.1</b> Surviving the Titanic</a></li>
-<li class="chapter" data-level="3.2.2" data-path="week3.html"><a href="week3.html#row-percentage-column-percentage-or-total-percentage"><i class="fa fa-check"></i><b>3.2.2</b> Row percentage, column percentage, or total percentage</a></li>
-<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#activity-3.3-calculating-row-vs-column-percentages"><i class="fa fa-check"></i><b>3.2.3</b> Activity 3.3: Calculating row vs column percentages</a></li>
-<li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#decimal-places-a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.4</b> Decimal places: A note on formatting cells</a></li>
-<li class="chapter" data-level="3.2.5" data-path="week3.html"><a href="week3.html#activity-3.4-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.5</b> Activity 3.4: Visualising the relationship - Stacked bar charts, and conditional formatting</a></li>
-</ul></li>
-<li class="chapter" data-level="3.3" data-path="week3.html"><a href="week3.html#categorical-v-numeric"><i class="fa fa-check"></i><b>3.3</b> Categorical v numeric</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-3.5-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 3.5: Age of offenders</a></li>
-<li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-3.6-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 3.6: Adding a column for median</a></li>
-</ul></li>
-<li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-v-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric v numeric</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-3.7-does-age-at-first-arrest-correlate-with-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity 3.7: Does age at first arrest correlate with total number of arrests?</a></li>
-<li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
-</ul></li>
-<li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="week4.html"><a href="week4.html"><i class="fa fa-check"></i><b>4</b> Week 4</a><ul>
-<li class="chapter" data-level="4.1" data-path="week4.html"><a href="week4.html#learning-outcomes-3"><i class="fa fa-check"></i><b>4.1</b> Learning outcomes</a><ul>
-<li class="chapter" data-level="4.1.1" data-path="week4.html"><a href="week4.html#terms-for-today-2"><i class="fa fa-check"></i><b>4.1.1</b> Terms for today:</a></li>
-</ul></li>
-<li class="chapter" data-level="4.2" data-path="week4.html"><a href="week4.html#population-parameters-versus-sample-statistics"><i class="fa fa-check"></i><b>4.2</b> Population parameters versus sample statistics</a><ul>
-<li class="chapter" data-level="4.2.1" data-path="week4.html"><a href="week4.html#activity-4.1-sample-statistisc-vs-population-parameters"><i class="fa fa-check"></i><b>4.2.1</b> Activity 4.1: Sample statistisc vs population parameters</a></li>
-</ul></li>
-<li class="chapter" data-level="4.3" data-path="week4.html"><a href="week4.html#central-limit-theorem"><i class="fa fa-check"></i><b>4.3</b> Central Limit Theorem</a></li>
-<li class="chapter" data-level="4.4" data-path="week4.html"><a href="week4.html#conceptualisation"><i class="fa fa-check"></i><b>4.4</b> Conceptualisation</a><ul>
-<li class="chapter" data-level="4.4.1" data-path="week4.html"><a href="week4.html#activity-4.2-conceptualise-hate-speech"><i class="fa fa-check"></i><b>4.4.1</b> Activity 4.2: Conceptualise ‘hate speech’</a></li>
-</ul></li>
-<li class="chapter" data-level="4.5" data-path="week4.html"><a href="week4.html#the-importance-of-conceptualisation"><i class="fa fa-check"></i><b>4.5</b> The importance of conceptualisation</a></li>
-<li class="chapter" data-level="4.6" data-path="week4.html"><a href="week4.html#measurement"><i class="fa fa-check"></i><b>4.6</b> Measurement</a><ul>
-<li class="chapter" data-level="4.6.1" data-path="week4.html"><a href="week4.html#measuring-constructs-with-composite-variables"><i class="fa fa-check"></i><b>4.6.1</b> Measuring constructs with composite variables</a></li>
-<li class="chapter" data-level="4.6.2" data-path="week4.html"><a href="week4.html#activity-4.3-computing-a-z-score-in-excel"><i class="fa fa-check"></i><b>4.6.2</b> Activity 4.3: Computing a z-score in Excel</a></li>
-<li class="chapter" data-level="4.6.3" data-path="week4.html"><a href="week4.html#activity-4.4-twitter-data-revisited"><i class="fa fa-check"></i><b>4.6.3</b> Activity 4.4: Twitter data revisited</a></li>
-</ul></li>
-<li class="chapter" data-level="4.7" data-path="week4.html"><a href="week4.html#composite-variables-created-from-categorical-variables"><i class="fa fa-check"></i><b>4.7</b> Composite variables created from categorical variables</a><ul>
-<li class="chapter" data-level="4.7.1" data-path="week4.html"><a href="week4.html#multi-item-scales-for-categorical-constructs"><i class="fa fa-check"></i><b>4.7.1</b> Multi-item scales for categorical constructs</a></li>
-</ul></li>
-<li class="chapter" data-level="4.8" data-path="week4.html"><a href="week4.html#a-note-on-validity-and-reliability"><i class="fa fa-check"></i><b>4.8</b> A note on Validity and Reliability</a><ul>
-<li class="chapter" data-level="4.8.1" data-path="week4.html"><a href="week4.html#activity-4.5-calculating-a-summative-score"><i class="fa fa-check"></i><b>4.8.1</b> Activity 4.5: Calculating a summative score</a></li>
-<li class="chapter" data-level="4.8.2" data-path="week4.html"><a href="week4.html#activity-4.6-testing-your-questions-cronbachs-alpha"><i class="fa fa-check"></i><b>4.8.2</b> Activity 4.6: Testing your questions: Cronbach’s alpha</a></li>
-</ul></li>
-<li class="chapter" data-level="4.9" data-path="week4.html"><a href="week4.html#recoding-some-more-transforming-your-variables-to-fit-with-your-concepts"><i class="fa fa-check"></i><b>4.9</b> Recoding some more: Transforming your variables to fit with your concepts</a><ul>
-<li class="chapter" data-level="4.9.1" data-path="week4.html"><a href="week4.html#activity-4.7-recoding-variables"><i class="fa fa-check"></i><b>4.9.1</b> Activity 4.7: Recoding Variables</a></li>
-</ul></li>
-<li class="chapter" data-level="4.10" data-path="week4.html"><a href="week4.html#summary-3"><i class="fa fa-check"></i><b>4.10</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="week5.html"><a href="week5.html"><i class="fa fa-check"></i><b>5</b> Week 5</a><ul>
-<li class="chapter" data-level="5.1" data-path="week5.html"><a href="week5.html#learning-outcomes-4"><i class="fa fa-check"></i><b>5.1</b> Learning outcomes</a><ul>
-<li class="chapter" data-level="5.1.1" data-path="week5.html"><a href="week5.html#terms-for-today-3"><i class="fa fa-check"></i><b>5.1.1</b> Terms for today</a></li>
-</ul></li>
-<li class="chapter" data-level="5.2" data-path="week5.html"><a href="week5.html#research-design"><i class="fa fa-check"></i><b>5.2</b> Research Design</a></li>
-<li class="chapter" data-level="5.3" data-path="week5.html"><a href="week5.html#experiments-and-evaluation"><i class="fa fa-check"></i><b>5.3</b> Experiments and evaluation</a><ul>
-<li class="chapter" data-level="5.3.1" data-path="week5.html"><a href="week5.html#activity-5.1-examples-of-experiments-in-criminology"><i class="fa fa-check"></i><b>5.3.1</b> Activity 5.1 Examples of Experiments in Criminology</a></li>
-<li class="chapter" data-level="5.3.2" data-path="week5.html"><a href="week5.html#what-influences-what-dependent-vs-independent-variables"><i class="fa fa-check"></i><b>5.3.2</b> What influences what? Dependent vs independent variables</a></li>
-<li class="chapter" data-level="5.3.3" data-path="week5.html"><a href="week5.html#activity-5.2-dependent-and-independent-variables"><i class="fa fa-check"></i><b>5.3.3</b> Activity 5.2: Dependent and independent variables</a></li>
-</ul></li>
-<li class="chapter" data-level="5.4" data-path="week5.html"><a href="week5.html#importance-of-randomisation"><i class="fa fa-check"></i><b>5.4</b> Importance of randomisation</a><ul>
-<li class="chapter" data-level="5.4.1" data-path="week5.html"><a href="week5.html#activity-5.3-random-assignment"><i class="fa fa-check"></i><b>5.4.1</b> Activity 5.3: Random assignment</a></li>
-<li class="chapter" data-level="5.4.2" data-path="week5.html"><a href="week5.html#note-freeze"><i class="fa fa-check"></i><b>5.4.2</b> Note: Freeze!</a></li>
-</ul></li>
-<li class="chapter" data-level="5.5" data-path="week5.html"><a href="week5.html#designing-your-study"><i class="fa fa-check"></i><b>5.5</b> Designing your study</a><ul>
-<li class="chapter" data-level="5.5.1" data-path="week5.html"><a href="week5.html#pre-registration-committing-to-your-research-plan"><i class="fa fa-check"></i><b>5.5.1</b> Pre-registration: committing to your research plan</a></li>
-<li class="chapter" data-level="5.5.2" data-path="week5.html"><a href="week5.html#activity-5.4-research-planning-with-gantt-charts-design-an-rtc-example"><i class="fa fa-check"></i><b>5.5.2</b> Activity 5.4: Research Planning with Gantt Charts: Design an RTC example</a></li>
-</ul></li>
-<li class="chapter" data-level="5.6" data-path="week5.html"><a href="week5.html#longitudinal-data"><i class="fa fa-check"></i><b>5.6</b> Longitudinal data</a><ul>
-<li class="chapter" data-level="5.6.1" data-path="week5.html"><a href="week5.html#what-does-longitudinal-data-look-like"><i class="fa fa-check"></i><b>5.6.1</b> What does longitudinal data look like?</a></li>
-<li class="chapter" data-level="5.6.2" data-path="week5.html"><a href="week5.html#activity-5.5-linking-data"><i class="fa fa-check"></i><b>5.6.2</b> Activity 5.5: Linking data</a></li>
-<li class="chapter" data-level="5.6.3" data-path="week5.html"><a href="week5.html#missing-data"><i class="fa fa-check"></i><b>5.6.3</b> Missing data</a></li>
-<li class="chapter" data-level="5.6.4" data-path="week5.html"><a href="week5.html#complete-cases-an-approach-to-missing-data"><i class="fa fa-check"></i><b>5.6.4</b> Complete cases (an approach to missing data)</a></li>
-<li class="chapter" data-level="5.6.5" data-path="week5.html"><a href="week5.html#activity-5.6-selecting-complete-cases"><i class="fa fa-check"></i><b>5.6.5</b> Activity 5.6: Selecting Complete Cases</a></li>
-</ul></li>
-<li class="chapter" data-level="5.7" data-path="week5.html"><a href="week5.html#ethics"><i class="fa fa-check"></i><b>5.7</b> Ethics</a></li>
-<li class="chapter" data-level="5.8" data-path="week5.html"><a href="week5.html#summary-4"><i class="fa fa-check"></i><b>5.8</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="week6.html"><a href="week6.html"><i class="fa fa-check"></i><b>6</b> Week 6</a><ul>
-<li class="chapter" data-level="6.1" data-path="week6.html"><a href="week6.html#learning-outcomes-5"><i class="fa fa-check"></i><b>6.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="6.2" data-path="week6.html"><a href="week6.html#visualising-data"><i class="fa fa-check"></i><b>6.2</b> Visualising data</a><ul>
-<li class="chapter" data-level="6.2.1" data-path="week6.html"><a href="week6.html#why-visualise-data"><i class="fa fa-check"></i><b>6.2.1</b> Why visualise data?</a></li>
-</ul></li>
-<li class="chapter" data-level="6.3" data-path="week6.html"><a href="week6.html#anatomy-of-a-plot---the-grammar-of-graphics"><i class="fa fa-check"></i><b>6.3</b> Anatomy of a plot - the Grammar of Graphics</a></li>
-<li class="chapter" data-level="6.4" data-path="week6.html"><a href="week6.html#principles-of-good-data-visualisation"><i class="fa fa-check"></i><b>6.4</b> Principles of good data visualisation</a><ul>
-<li class="chapter" data-level="6.4.1" data-path="week6.html"><a href="week6.html#the-data-to-ink-ratio---minimalist-viz"><i class="fa fa-check"></i><b>6.4.1</b> The data to ink ratio - minimalist viz</a></li>
-<li class="chapter" data-level="6.4.2" data-path="week6.html"><a href="week6.html#an-example"><i class="fa fa-check"></i><b>6.4.2</b> An example:</a></li>
-<li class="chapter" data-level="6.4.3" data-path="week6.html"><a href="week6.html#criticisms"><i class="fa fa-check"></i><b>6.4.3</b> Criticisms</a></li>
-</ul></li>
-<li class="chapter" data-level="6.5" data-path="week6.html"><a href="week6.html#what-makes-a-bad-graph-bad"><i class="fa fa-check"></i><b>6.5</b> What makes a bad graph bad?</a><ul>
-<li class="chapter" data-level="6.5.1" data-path="week6.html"><a href="week6.html#activity-6.1-what-do-you-think"><i class="fa fa-check"></i><b>6.5.1</b> Activity 6.1: What do you think?</a></li>
-<li class="chapter" data-level="6.5.2" data-path="week6.html"><a href="week6.html#it-depends"><i class="fa fa-check"></i><b>6.5.2</b> It depends…</a></li>
-</ul></li>
-<li class="chapter" data-level="6.6" data-path="week6.html"><a href="week6.html#so-what-graph-should-we-use"><i class="fa fa-check"></i><b>6.6</b> So… what graph should we use?!?</a></li>
-<li class="chapter" data-level="6.7" data-path="week6.html"><a href="week6.html#edges-contrasts-and-colors"><i class="fa fa-check"></i><b>6.7</b> Edges, Contrasts and Colors</a></li>
-<li class="chapter" data-level="6.8" data-path="week6.html"><a href="week6.html#colour"><i class="fa fa-check"></i><b>6.8</b> Colour</a><ul>
-<li class="chapter" data-level="6.8.1" data-path="week6.html"><a href="week6.html#activity-6.2-picking-a-colour-scheme"><i class="fa fa-check"></i><b>6.8.1</b> Activity 6.2: Picking a colour scheme</a></li>
-<li class="chapter" data-level="6.8.2" data-path="week6.html"><a href="week6.html#activity-6.3-custom-colours-in-excel-graphs"><i class="fa fa-check"></i><b>6.8.2</b> Activity 6.3: Custom colours in Excel graphs</a></li>
-</ul></li>
-<li class="chapter" data-level="6.9" data-path="week6.html"><a href="week6.html#reading-between-the-lines-points"><i class="fa fa-check"></i><b>6.9</b> Reading between the lines (points)</a></li>
-<li class="chapter" data-level="6.10" data-path="week6.html"><a href="week6.html#exploratory-data-visualisation"><i class="fa fa-check"></i><b>6.10</b> Exploratory data visualisation</a><ul>
-<li class="chapter" data-level="6.10.1" data-path="week6.html"><a href="week6.html#activity-6.4-comparing-categories"><i class="fa fa-check"></i><b>6.10.1</b> Activity 6.4: Comparing categories</a></li>
-<li class="chapter" data-level="6.10.2" data-path="week6.html"><a href="week6.html#activity-6.5-lets-never-make-a-pie-chart-again"><i class="fa fa-check"></i><b>6.10.2</b> Activity 6.5: Let’s never make a pie chart again</a></li>
-<li class="chapter" data-level="6.10.3" data-path="week6.html"><a href="week6.html#activity-6.6-exploring-trends"><i class="fa fa-check"></i><b>6.10.3</b> Activity 6.6: Exploring trends</a></li>
-<li class="chapter" data-level="6.10.4" data-path="week6.html"><a href="week6.html#activity-6.7-making-a-chart-template"><i class="fa fa-check"></i><b>6.10.4</b> Activity 6.7: Making a chart template</a></li>
-<li class="chapter" data-level="6.10.5" data-path="week6.html"><a href="week6.html#activity-6.7-saving-your-graph"><i class="fa fa-check"></i><b>6.10.5</b> Activity 6.7: Saving your graph</a></li>
-</ul></li>
-<li class="chapter" data-level="6.11" data-path="week6.html"><a href="week6.html#activity-6.8-more-complex-graphs"><i class="fa fa-check"></i><b>6.11</b> Activity 6.8: More complex graphs</a></li>
-<li class="chapter" data-level="6.12" data-path="week6.html"><a href="week6.html#more-guidance-on-chart-design"><i class="fa fa-check"></i><b>6.12</b> More guidance on chart design</a></li>
-<li class="chapter" data-level="6.13" data-path="week6.html"><a href="week6.html#communicating-results"><i class="fa fa-check"></i><b>6.13</b> Communicating results</a><ul>
-<li class="chapter" data-level="6.13.1" data-path="week6.html"><a href="week6.html#activity-6.9-interpreting-results"><i class="fa fa-check"></i><b>6.13.1</b> Activity 6.9: Interpreting results</a></li>
-</ul></li>
-<li class="chapter" data-level="6.14" data-path="week6.html"><a href="week6.html#summary-5"><i class="fa fa-check"></i><b>6.14</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="week7.html"><a href="week7.html"><i class="fa fa-check"></i><b>7</b> Week 7</a><ul>
-<li class="chapter" data-level="7.1" data-path="week7.html"><a href="week7.html#learning-outcomes-6"><i class="fa fa-check"></i><b>7.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="7.2" data-path="week7.html"><a href="week7.html#crime-and-incident-trend-identification"><i class="fa fa-check"></i><b>7.2</b> Crime and incident trend identification</a><ul>
-<li class="chapter" data-level="7.2.1" data-path="week7.html"><a href="week7.html#activity-7.1-formatting-your-dates-appropriately"><i class="fa fa-check"></i><b>7.2.1</b> Activity 7.1: Formatting your dates appropriately</a></li>
-<li class="chapter" data-level="7.2.2" data-path="week7.html"><a href="week7.html#activity-7.2-extracting-temporal-variables-from-dates"><i class="fa fa-check"></i><b>7.2.2</b> Activity 7.2: Extracting temporal variables from dates</a></li>
-<li class="chapter" data-level="7.2.3" data-path="week7.html"><a href="week7.html#activity-7.3-extract-day-of-week-from-date-column"><i class="fa fa-check"></i><b>7.2.3</b> Activity 7.3: Extract day of week from date column</a></li>
-<li class="chapter" data-level="7.2.4" data-path="week7.html"><a href="week7.html#activity-7.4-recoding-days-of-the-week"><i class="fa fa-check"></i><b>7.2.4</b> Activity 7.4: Recoding days of the week</a></li>
-<li class="chapter" data-level="7.2.5" data-path="week7.html"><a href="week7.html#activity-7.5-patterns-in-residential-burglary"><i class="fa fa-check"></i><b>7.2.5</b> Activity 7.5 patterns in residential burglary</a></li>
-</ul></li>
-<li class="chapter" data-level="7.3" data-path="week7.html"><a href="week7.html#aggregating-to-simple-intervals"><i class="fa fa-check"></i><b>7.3</b> Aggregating to simple intervals</a><ul>
-<li class="chapter" data-level="7.3.1" data-path="week7.html"><a href="week7.html#activity-7.5-aggregate-to-hour"><i class="fa fa-check"></i><b>7.3.1</b> Activity 7.5: Aggregate to hour</a></li>
-</ul></li>
-<li class="chapter" data-level="7.4" data-path="week7.html"><a href="week7.html#visualising-time"><i class="fa fa-check"></i><b>7.4</b> Visualising time</a></li>
-<li class="chapter" data-level="7.5" data-path="week7.html"><a href="week7.html#visualising-trends-line-graphs"><i class="fa fa-check"></i><b>7.5</b> Visualising trends: Line graphs</a><ul>
-<li class="chapter" data-level="7.5.1" data-path="week7.html"><a href="week7.html#activity-7.6-visualising-trends-line-graphs"><i class="fa fa-check"></i><b>7.5.1</b> Activity 7.6: Visualising trends: Line graphs</a></li>
-</ul></li>
-<li class="chapter" data-level="7.6" data-path="week7.html"><a href="week7.html#the-time-cycle-visualising-cyclical-variables"><i class="fa fa-check"></i><b>7.6</b> The time cycle: visualising cyclical variables</a><ul>
-<li class="chapter" data-level="7.6.1" data-path="week7.html"><a href="week7.html#activity-7.7-visualising-cycles-radar-charts"><i class="fa fa-check"></i><b>7.6.1</b> Activity 7.7: Visualising cycles: Radar charts</a></li>
-</ul></li>
-<li class="chapter" data-level="7.7" data-path="week7.html"><a href="week7.html#bivariate-analysis"><i class="fa fa-check"></i><b>7.7</b> Bivariate analysis</a><ul>
-<li class="chapter" data-level="7.7.1" data-path="week7.html"><a href="week7.html#activity-7.8-heatmaps"><i class="fa fa-check"></i><b>7.7.1</b> Activity 7.8: Heatmaps</a></li>
-<li class="chapter" data-level="7.7.2" data-path="week7.html"><a href="week7.html#more-charts"><i class="fa fa-check"></i><b>7.7.2</b> More charts?</a></li>
-</ul></li>
-<li class="chapter" data-level="7.8" data-path="week7.html"><a href="week7.html#time-series"><i class="fa fa-check"></i><b>7.8</b> Time series</a></li>
-<li class="chapter" data-level="7.9" data-path="week7.html"><a href="week7.html#moving-averages"><i class="fa fa-check"></i><b>7.9</b> Moving averages</a><ul>
-<li class="chapter" data-level="7.9.1" data-path="week7.html"><a href="week7.html#activity-7.9-hand-calculate-the-moving-average"><i class="fa fa-check"></i><b>7.9.1</b> Activity 7.9 Hand calculate the moving average</a></li>
-<li class="chapter" data-level="7.9.2" data-path="week7.html"><a href="week7.html#activity-7.10-moving-average-in-excel"><i class="fa fa-check"></i><b>7.9.2</b> Activity 7.10: Moving average in Excel</a></li>
-</ul></li>
-<li class="chapter" data-level="7.10" data-path="week7.html"><a href="week7.html#summary-6"><i class="fa fa-check"></i><b>7.10</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="week8.html"><a href="week8.html"><i class="fa fa-check"></i><b>8</b> Week 8</a><ul>
-<li class="chapter" data-level="8.1" data-path="week8.html"><a href="week8.html#learning-outcomes-7"><i class="fa fa-check"></i><b>8.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="8.2" data-path="week8.html"><a href="week8.html#what-is-qualitative-data-analysis"><i class="fa fa-check"></i><b>8.2</b> What is qualitative data analysis?</a><ul>
-<li class="chapter" data-level="8.2.1" data-path="week8.html"><a href="week8.html#hows-qualitative-data-different-from-quantitative-data"><i class="fa fa-check"></i><b>8.2.1</b> How’s qualitative data different from quantitative data?</a></li>
-<li class="chapter" data-level="8.2.2" data-path="week8.html"><a href="week8.html#activity-1-exploring-the-fincen-files"><i class="fa fa-check"></i><b>8.2.2</b> Activity 1: Exploring the FinCEN files</a></li>
-<li class="chapter" data-level="8.2.3" data-path="week8.html"><a href="week8.html#is-qualitative-data-analysis-easier"><i class="fa fa-check"></i><b>8.2.3</b> Is qualitative data analysis easier?</a></li>
-<li class="chapter" data-level="8.2.4" data-path="week8.html"><a href="week8.html#types-of-qualitative-data-analysis"><i class="fa fa-check"></i><b>8.2.4</b> Types of qualitative data analysis</a></li>
-</ul></li>
-<li class="chapter" data-level="8.3" data-path="week8.html"><a href="week8.html#introducing-nvivo-a-software-for-qualitative-data-analysis"><i class="fa fa-check"></i><b>8.3</b> Introducing NVivo, a software for qualitative data analysis</a><ul>
-<li class="chapter" data-level="8.3.1" data-path="week8.html"><a href="week8.html#intalling-nvivo-12"><i class="fa fa-check"></i><b>8.3.1</b> Intalling NVivo 12</a></li>
-<li class="chapter" data-level="8.3.2" data-path="week8.html"><a href="week8.html#activity-2-watch-nvivo-tutorials"><i class="fa fa-check"></i><b>8.3.2</b> Activity 2: Watch NVivo tutorials</a></li>
-</ul></li>
-<li class="chapter" data-level="8.4" data-path="week8.html"><a href="week8.html#what-kinds-of-data-can-i-input-into-nvivo-for-analysis"><i class="fa fa-check"></i><b>8.4</b> What kinds of data can I input into NVivo for analysis?</a><ul>
-<li class="chapter" data-level="8.4.1" data-path="week8.html"><a href="week8.html#activity-3-find-some-data"><i class="fa fa-check"></i><b>8.4.1</b> Activity 3: Find some data…</a></li>
-</ul></li>
-<li class="chapter" data-level="8.5" data-path="week8.html"><a href="week8.html#creating-your-nvivo-project"><i class="fa fa-check"></i><b>8.5</b> Creating your NVivo project</a><ul>
-<li class="chapter" data-level="8.5.1" data-path="week8.html"><a href="week8.html#activity-4-getting-started-with-nvivo"><i class="fa fa-check"></i><b>8.5.1</b> Activity 4: Getting started with NVivo</a></li>
-</ul></li>
-<li class="chapter" data-level="8.6" data-path="week8.html"><a href="week8.html#understanding-the-nvivo-interface"><i class="fa fa-check"></i><b>8.6</b> Understanding the NVivo interface</a></li>
-<li class="chapter" data-level="8.7" data-path="week8.html"><a href="week8.html#navigation-view"><i class="fa fa-check"></i><b>8.7</b> Navigation View</a><ul>
-<li class="chapter" data-level="8.7.1" data-path="week8.html"><a href="week8.html#data"><i class="fa fa-check"></i><b>8.7.1</b> Data</a></li>
-<li class="chapter" data-level="8.7.2" data-path="week8.html"><a href="week8.html#the-files-section"><i class="fa fa-check"></i><b>8.7.2</b> The ‘Files’ section</a></li>
-<li class="chapter" data-level="8.7.3" data-path="week8.html"><a href="week8.html#activity-5-folders"><i class="fa fa-check"></i><b>8.7.3</b> Activity 5: Folders</a></li>
-</ul></li>
-<li class="chapter" data-level="8.8" data-path="week8.html"><a href="week8.html#importing-data"><i class="fa fa-check"></i><b>8.8</b> Importing Data</a><ul>
-<li class="chapter" data-level="8.8.1" data-path="week8.html"><a href="week8.html#activity-6-import-data"><i class="fa fa-check"></i><b>8.8.1</b> Activity 6: Import data</a></li>
-</ul></li>
-<li class="chapter" data-level="8.9" data-path="week8.html"><a href="week8.html#memos"><i class="fa fa-check"></i><b>8.9</b> Memos</a><ul>
-<li class="chapter" data-level="8.9.1" data-path="week8.html"><a href="week8.html#activity-7-memos"><i class="fa fa-check"></i><b>8.9.1</b> Activity 7: Memos</a></li>
-</ul></li>
-<li class="chapter" data-level="8.10" data-path="week8.html"><a href="week8.html#word-frequency"><i class="fa fa-check"></i><b>8.10</b> Word frequency</a><ul>
-<li class="chapter" data-level="8.10.1" data-path="week8.html"><a href="week8.html#activity-8-word-frequency"><i class="fa fa-check"></i><b>8.10.1</b> Activity 8: Word frequency</a></li>
-<li class="chapter" data-level="8.10.2" data-path="week8.html"><a href="week8.html#activity-9-create-two-distinct-word-clouds"><i class="fa fa-check"></i><b>8.10.2</b> Activity 9: Create two distinct word clouds</a></li>
-</ul></li>
-<li class="chapter" data-level="8.11" data-path="week8.html"><a href="week8.html#summary-7"><i class="fa fa-check"></i><b>8.11</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="week9.html"><a href="week9.html"><i class="fa fa-check"></i><b>9</b> Week 9</a><ul>
-<li class="chapter" data-level="9.1" data-path="week9.html"><a href="week9.html#learning-outcomes-8"><i class="fa fa-check"></i><b>9.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="9.2" data-path="week9.html"><a href="week9.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data"><i class="fa fa-check"></i><b>9.2</b> Deduction, induction, abduction – key analytical strategies for qualitative data</a></li>
-<li class="chapter" data-level="9.3" data-path="week9.html"><a href="week9.html#coding-qualitative-data-using-nodes"><i class="fa fa-check"></i><b>9.3</b> ‘Coding’ qualitative data using ‘nodes’</a><ul>
-<li class="chapter" data-level="9.3.1" data-path="week9.html"><a href="week9.html#what-are-nodes"><i class="fa fa-check"></i><b>9.3.1</b> What are ‘Nodes’?</a></li>
-<li class="chapter" data-level="9.3.2" data-path="week9.html"><a href="week9.html#activity-1-coding"><i class="fa fa-check"></i><b>9.3.2</b> Activity 1: Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="9.4" data-path="week9.html"><a href="week9.html#using-mind-maps-to-organise-your-analytical-process-and-framework"><i class="fa fa-check"></i><b>9.4</b> Using ‘mind maps’ to organise your ‘analytical process and framework’</a><ul>
-<li class="chapter" data-level="9.4.1" data-path="week9.html"><a href="week9.html#activity-2-deductive-coding"><i class="fa fa-check"></i><b>9.4.1</b> Activity 2: Deductive coding</a></li>
-<li class="chapter" data-level="9.4.2" data-path="week9.html"><a href="week9.html#activity-3-inductive-coding"><i class="fa fa-check"></i><b>9.4.2</b> Activity 3: Inductive coding</a></li>
-</ul></li>
-<li class="chapter" data-level="9.5" data-path="week9.html"><a href="week9.html#abductive-coding"><i class="fa fa-check"></i><b>9.5</b> Abductive coding</a><ul>
-<li class="chapter" data-level="9.5.1" data-path="week9.html"><a href="week9.html#activity-4-retrieval-viewing-coded-data"><i class="fa fa-check"></i><b>9.5.1</b> Activity 4: Retrieval – viewing coded data</a></li>
-<li class="chapter" data-level="9.5.2" data-path="week9.html"><a href="week9.html#activity-5-viewing-more-context"><i class="fa fa-check"></i><b>9.5.2</b> Activity 5: Viewing more context</a></li>
-</ul></li>
-<li class="chapter" data-level="9.6" data-path="week9.html"><a href="week9.html#export-coded-data"><i class="fa fa-check"></i><b>9.6</b> Export coded data</a><ul>
-<li class="chapter" data-level="9.6.1" data-path="week9.html"><a href="week9.html#activity-6-exporting-via-the-list-pane"><i class="fa fa-check"></i><b>9.6.1</b> Activity 6: Exporting via the list pane</a></li>
-</ul></li>
-<li class="chapter" data-level="9.7" data-path="week9.html"><a href="week9.html#reports-note-windows-only-users-not-supported-by-mac-yet"><i class="fa fa-check"></i><b>9.7</b> Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)</a></li>
-<li class="chapter" data-level="9.8" data-path="week9.html"><a href="week9.html#some-other-useful-things-to-do"><i class="fa fa-check"></i><b>9.8</b> Some other useful things to do</a><ul>
-<li class="chapter" data-level="9.8.1" data-path="week9.html"><a href="week9.html#create-another-word-cloud"><i class="fa fa-check"></i><b>9.8.1</b> Create another Word Cloud:</a></li>
-<li class="chapter" data-level="9.8.2" data-path="week9.html"><a href="week9.html#create-a-word-tree"><i class="fa fa-check"></i><b>9.8.2</b> Create a Word Tree:</a></li>
-<li class="chapter" data-level="9.8.3" data-path="week9.html"><a href="week9.html#create-a-concept-map-windows-only"><i class="fa fa-check"></i><b>9.8.3</b> Create a Concept Map (WINDOWS ONLY!)</a></li>
-</ul></li>
-<li class="chapter" data-level="9.9" data-path="week9.html"><a href="week9.html#other-features"><i class="fa fa-check"></i><b>9.9</b> Other features…</a><ul>
-<li class="chapter" data-level="9.9.1" data-path="week9.html"><a href="week9.html#graphicspictures---making-linked-notes-and-coding"><i class="fa fa-check"></i><b>9.9.1</b> Graphics/pictures - making linked notes and coding</a></li>
-<li class="chapter" data-level="9.9.2" data-path="week9.html"><a href="week9.html#coding-audiovideo-data"><i class="fa fa-check"></i><b>9.9.2</b> Coding audio/video data</a></li>
-</ul></li>
-<li class="chapter" data-level="9.10" data-path="week9.html"><a href="week9.html#more-on-capturing-web-material"><i class="fa fa-check"></i><b>9.10</b> More on capturing web material</a></li>
-<li class="chapter" data-level="9.11" data-path="week9.html"><a href="week9.html#summary-8"><i class="fa fa-check"></i><b>9.11</b> Summary</a></li>
+<li><a href="index.html#introduction" id="toc-introduction">Introduction</a>
+<ul>
+<li><a href="index.html#disclaimer" id="toc-disclaimer">Disclaimer</a></li>
+<li><a href="index.html#overview-of-course" id="toc-overview-of-course">Overview of course</a>
+<ul>
+<li><a href="index.html#module-structure" id="toc-module-structure">Module structure</a></li>
+</ul></li>
+</ul></li>
+<li><a href="week1.html#week1" id="toc-week1"><span class="toc-section-number">1</span> Week 1</a>
+<ul>
+<li><a href="week1.html#learning-outcomes" id="toc-learning-outcomes"><span class="toc-section-number">1.1</span> Learning outcomes</a></li>
+<li><a href="week1.html#familiarising-yourself-with-the-course" id="toc-familiarising-yourself-with-the-course"><span class="toc-section-number">1.2</span> Familiarising yourself with the course</a></li>
+<li><a href="week1.html#asking-a-question-on-the-discussion-board" id="toc-asking-a-question-on-the-discussion-board"><span class="toc-section-number">1.3</span> Asking a question on the discussion board</a>
+<ul>
+<li><a href="week1.html#activity-1-posting-on-the-discussion-board" id="toc-activity-1-posting-on-the-discussion-board"><span class="toc-section-number">1.3.1</span> Activity 1: Posting on the discussion board</a></li>
+</ul></li>
+<li><a href="week1.html#setting-up-your-working-environment" id="toc-setting-up-your-working-environment"><span class="toc-section-number">1.4</span> Setting up your working environment</a>
+<ul>
+<li><a href="week1.html#activity-2-create-a-folder-for-this-module" id="toc-activity-2-create-a-folder-for-this-module"><span class="toc-section-number">1.4.1</span> Activity 2: Create a folder for this module</a></li>
+</ul></li>
+<li><a href="week1.html#working-directory" id="toc-working-directory"><span class="toc-section-number">1.5</span> Working directory</a></li>
+<li><a href="week1.html#getting-to-know-excel" id="toc-getting-to-know-excel"><span class="toc-section-number">1.6</span> Getting to know Excel</a>
+<ul>
+<li><a href="week1.html#install-excel" id="toc-install-excel"><span class="toc-section-number">1.6.1</span> Install Excel</a></li>
+<li><a href="week1.html#install-data-analysis-toolpak" id="toc-install-data-analysis-toolpak"><span class="toc-section-number">1.6.2</span> Install data analysis toolpak</a></li>
+</ul></li>
+<li><a href="week1.html#data-variables-and-observations" id="toc-data-variables-and-observations"><span class="toc-section-number">1.7</span> Data: Variables and observations</a>
+<ul>
+<li><a href="week1.html#activity-3-building-your-own-data" id="toc-activity-3-building-your-own-data"><span class="toc-section-number">1.7.1</span> Activity 3: Building your own data</a></li>
+</ul></li>
+<li><a href="week1.html#questions-about-your-data" id="toc-questions-about-your-data"><span class="toc-section-number">1.8</span> Questions about your data</a>
+<ul>
+<li><a href="week1.html#activity-4-thinking-about-what-our-data-tells-us" id="toc-activity-4-thinking-about-what-our-data-tells-us"><span class="toc-section-number">1.8.1</span> Activity 4: Thinking about what our data tells us</a></li>
+</ul></li>
+<li><a href="week1.html#looking-at-real-data" id="toc-looking-at-real-data"><span class="toc-section-number">1.9</span> Looking at real data</a></li>
+<li><a href="week1.html#code-books" id="toc-code-books"><span class="toc-section-number">1.10</span> Code books</a></li>
+<li><a href="week1.html#levels-of-measurement" id="toc-levels-of-measurement"><span class="toc-section-number">1.11</span> Levels of measurement</a>
+<ul>
+<li><a href="week1.html#activity-5-levels-of-measurement-pt.-1" id="toc-activity-5-levels-of-measurement-pt.-1"><span class="toc-section-number">1.11.1</span> Activity 5: Levels of measurement pt. 1</a></li>
+<li><a href="week1.html#activity-6-levels-of-measurement-pt.-2" id="toc-activity-6-levels-of-measurement-pt.-2"><span class="toc-section-number">1.11.2</span> Activity 6: Levels of measurement pt. 2</a></li>
+</ul></li>
+<li><a href="week1.html#unit-of-analysis" id="toc-unit-of-analysis"><span class="toc-section-number">1.12</span> Unit of analysis</a>
+<ul>
+<li><a href="week1.html#activity-7-abstract-ing-the-unit-of-analysis" id="toc-activity-7-abstract-ing-the-unit-of-analysis"><span class="toc-section-number">1.12.1</span> Activity 7: <em>Abstract</em>-ing the unit of analysis</a></li>
+</ul></li>
+<li><a href="week1.html#summary" id="toc-summary"><span class="toc-section-number">1.13</span> Summary</a></li>
+</ul></li>
+<li><a href="week2.html#week2" id="toc-week2"><span class="toc-section-number">2</span> Week 2</a>
+<ul>
+<li><a href="week2.html#learning-outcomes-1" id="toc-learning-outcomes-1"><span class="toc-section-number">2.1</span> Learning outcomes</a>
+<ul>
+<li><a href="week2.html#activity-2.1" id="toc-activity-2.1"><span class="toc-section-number">2.1.1</span> Activity 2.1</a></li>
+<li><a href="week2.html#terms-for-today" id="toc-terms-for-today"><span class="toc-section-number">2.1.2</span> Terms for today:</a></li>
+</ul></li>
+<li><a href="week2.html#univariate-analysis" id="toc-univariate-analysis"><span class="toc-section-number">2.2</span> Univariate analysis</a>
+<ul>
+<li><a href="week2.html#the-importance-of-level-of-measurement" id="toc-the-importance-of-level-of-measurement"><span class="toc-section-number">2.2.1</span> The importance of level of measurement</a></li>
+</ul></li>
+<li><a href="week2.html#summarising-categorical-data" id="toc-summarising-categorical-data"><span class="toc-section-number">2.3</span> Summarising categorical data</a>
+<ul>
+<li><a href="week2.html#activity-2.2-crime-types" id="toc-activity-2.2-crime-types"><span class="toc-section-number">2.3.1</span> Activity 2.2: Crime types</a></li>
+<li><a href="week2.html#frequency-tables" id="toc-frequency-tables"><span class="toc-section-number">2.3.2</span> Frequency tables</a></li>
+<li><a href="week2.html#creating-a-frequency-table-in-excel" id="toc-creating-a-frequency-table-in-excel"><span class="toc-section-number">2.3.3</span> Creating a frequency table in Excel</a></li>
+<li><a href="week2.html#activity-2.3-looking-at-frequency" id="toc-activity-2.3-looking-at-frequency"><span class="toc-section-number">2.3.4</span> Activity 2.3: Looking at frequency</a></li>
+<li><a href="week2.html#visualising-a-frequency-table-with-bar-charts" id="toc-visualising-a-frequency-table-with-bar-charts"><span class="toc-section-number">2.3.5</span> Visualising a frequency table with bar charts</a></li>
+<li><a href="week2.html#activity-2.4-bar-charts-in-excel" id="toc-activity-2.4-bar-charts-in-excel"><span class="toc-section-number">2.3.6</span> Activity 2.4: Bar charts in Excel</a></li>
+</ul></li>
+<li><a href="week2.html#summarising-numeric-data" id="toc-summarising-numeric-data"><span class="toc-section-number">2.4</span> Summarising numeric data</a>
+<ul>
+<li><a href="week2.html#measures-of-central-tendency" id="toc-measures-of-central-tendency"><span class="toc-section-number">2.4.1</span> Measures of central tendency</a></li>
+<li><a href="week2.html#activity-2.5-mean-and-median-in-excel" id="toc-activity-2.5-mean-and-median-in-excel"><span class="toc-section-number">2.4.2</span> Activity 2.5: Mean and median in Excel</a></li>
+<li><a href="week2.html#distributions" id="toc-distributions"><span class="toc-section-number">2.4.3</span> Distributions</a></li>
+<li><a href="week2.html#histograms" id="toc-histograms"><span class="toc-section-number">2.4.4</span> Histograms</a></li>
+<li><a href="week2.html#activity-2.6-histograms-in-excel" id="toc-activity-2.6-histograms-in-excel"><span class="toc-section-number">2.4.5</span> Activity 2.6: Histograms in Excel</a></li>
+<li><a href="week2.html#five-number-summary" id="toc-five-number-summary"><span class="toc-section-number">2.4.6</span> Five-number summary</a></li>
+<li><a href="week2.html#activity-2.7-calculate-quartiles" id="toc-activity-2.7-calculate-quartiles"><span class="toc-section-number">2.4.7</span> Activity 2.7: Calculate quartiles</a></li>
+</ul></li>
+<li><a href="week2.html#standard-deviation" id="toc-standard-deviation"><span class="toc-section-number">2.5</span> Standard deviation</a>
+<ul>
+<li><a href="week2.html#activity-2.8-standard-deviation-in-excel" id="toc-activity-2.8-standard-deviation-in-excel"><span class="toc-section-number">2.5.1</span> Activity 2.8: Standard Deviation in Excel</a></li>
+</ul></li>
+<li><a href="week2.html#writing-it-all-up" id="toc-writing-it-all-up"><span class="toc-section-number">2.6</span> Writing it all up</a>
+<ul>
+<li><a href="week2.html#build-a-structure" id="toc-build-a-structure"><span class="toc-section-number">2.6.1</span> Build a structure</a></li>
+</ul></li>
+<li><a href="week2.html#summary-1" id="toc-summary-1"><span class="toc-section-number">2.7</span> Summary</a></li>
+</ul></li>
+<li><a href="week3.html#week3" id="toc-week3"><span class="toc-section-number">3</span> Week 3</a>
+<ul>
+<li><a href="week3.html#learning-outcomes-2" id="toc-learning-outcomes-2"><span class="toc-section-number">3.1</span> Learning outcomes</a>
+<ul>
+<li><a href="week3.html#terms-for-today-1" id="toc-terms-for-today-1"><span class="toc-section-number">3.1.1</span> Terms for today</a></li>
+</ul></li>
+<li><a href="week3.html#categorical-v-categorical" id="toc-categorical-v-categorical"><span class="toc-section-number">3.2</span> Categorical v categorical</a>
+<ul>
+<li><a href="week3.html#surviving-the-titanic" id="toc-surviving-the-titanic"><span class="toc-section-number">3.2.1</span> Surviving the Titanic</a></li>
+<li><a href="week3.html#row-percentage-column-percentage-or-total-percentage" id="toc-row-percentage-column-percentage-or-total-percentage"><span class="toc-section-number">3.2.2</span> Row percentage, column percentage, or total percentage</a></li>
+<li><a href="week3.html#activity-3.3-calculating-row-vs-column-percentages" id="toc-activity-3.3-calculating-row-vs-column-percentages"><span class="toc-section-number">3.2.3</span> Activity 3.3: Calculating row vs column percentages</a></li>
+<li><a href="week3.html#decimal-places-a-note-on-formatting-cells" id="toc-decimal-places-a-note-on-formatting-cells"><span class="toc-section-number">3.2.4</span> Decimal places: A note on formatting cells</a></li>
+<li><a href="week3.html#activity-3.4-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting" id="toc-activity-3.4-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><span class="toc-section-number">3.2.5</span> Activity 3.4: Visualising the relationship - Stacked bar charts, and conditional formatting</a></li>
+</ul></li>
+<li><a href="week3.html#categorical-v-numeric" id="toc-categorical-v-numeric"><span class="toc-section-number">3.3</span> Categorical v numeric</a>
+<ul>
+<li><a href="week3.html#activity-3.5-age-of-offenders" id="toc-activity-3.5-age-of-offenders"><span class="toc-section-number">3.3.1</span> Activity 3.5: Age of offenders</a></li>
+<li><a href="week3.html#activity-3.6-adding-a-column-for-median" id="toc-activity-3.6-adding-a-column-for-median"><span class="toc-section-number">3.3.2</span> Activity 3.6: Adding a column for median</a></li>
+</ul></li>
+<li><a href="week3.html#numeric-v-numeric" id="toc-numeric-v-numeric"><span class="toc-section-number">3.4</span> Numeric v numeric</a>
+<ul>
+<li><a href="week3.html#activity-3.7-does-age-at-first-arrest-correlate-with-total-number-of-arrests" id="toc-activity-3.7-does-age-at-first-arrest-correlate-with-total-number-of-arrests"><span class="toc-section-number">3.4.1</span> Activity 3.7: Does age at first arrest correlate with total number of arrests?</a></li>
+<li><a href="week3.html#correlation-does-not-mean-causation" id="toc-correlation-does-not-mean-causation"><span class="toc-section-number">3.4.2</span> Correlation does not mean causation</a></li>
+</ul></li>
+<li><a href="week3.html#summary-2" id="toc-summary-2"><span class="toc-section-number">3.5</span> Summary</a></li>
+</ul></li>
+<li><a href="week4.html#week4" id="toc-week4"><span class="toc-section-number">4</span> Week 4</a>
+<ul>
+<li><a href="week4.html#learning-outcomes-3" id="toc-learning-outcomes-3"><span class="toc-section-number">4.1</span> Learning outcomes</a>
+<ul>
+<li><a href="week4.html#terms-for-today-2" id="toc-terms-for-today-2"><span class="toc-section-number">4.1.1</span> Terms for today:</a></li>
+</ul></li>
+<li><a href="week4.html#population-parameters-versus-sample-statistics" id="toc-population-parameters-versus-sample-statistics"><span class="toc-section-number">4.2</span> Population parameters versus sample statistics</a>
+<ul>
+<li><a href="week4.html#activity-4.1-sample-statistisc-vs-population-parameters" id="toc-activity-4.1-sample-statistisc-vs-population-parameters"><span class="toc-section-number">4.2.1</span> Activity 4.1: Sample statistisc vs population parameters</a></li>
+</ul></li>
+<li><a href="week4.html#central-limit-theorem" id="toc-central-limit-theorem"><span class="toc-section-number">4.3</span> Central Limit Theorem</a></li>
+<li><a href="week4.html#conceptualisation" id="toc-conceptualisation"><span class="toc-section-number">4.4</span> Conceptualisation</a>
+<ul>
+<li><a href="week4.html#activity-4.2-conceptualise-hate-speech" id="toc-activity-4.2-conceptualise-hate-speech"><span class="toc-section-number">4.4.1</span> Activity 4.2: Conceptualise ‘hate speech’</a></li>
+</ul></li>
+<li><a href="week4.html#the-importance-of-conceptualisation" id="toc-the-importance-of-conceptualisation"><span class="toc-section-number">4.5</span> The importance of conceptualisation</a></li>
+<li><a href="week4.html#measurement" id="toc-measurement"><span class="toc-section-number">4.6</span> Measurement</a>
+<ul>
+<li><a href="week4.html#measuring-constructs-with-composite-variables" id="toc-measuring-constructs-with-composite-variables"><span class="toc-section-number">4.6.1</span> Measuring constructs with composite variables</a></li>
+<li><a href="week4.html#activity-4.3-computing-a-z-score-in-excel" id="toc-activity-4.3-computing-a-z-score-in-excel"><span class="toc-section-number">4.6.2</span> Activity 4.3: Computing a z-score in Excel</a></li>
+<li><a href="week4.html#activity-4.4-twitter-data-revisited" id="toc-activity-4.4-twitter-data-revisited"><span class="toc-section-number">4.6.3</span> Activity 4.4: Twitter data revisited</a></li>
+</ul></li>
+<li><a href="week4.html#composite-variables-created-from-categorical-variables" id="toc-composite-variables-created-from-categorical-variables"><span class="toc-section-number">4.7</span> Composite variables created from categorical variables</a>
+<ul>
+<li><a href="week4.html#multi-item-scales-for-categorical-constructs" id="toc-multi-item-scales-for-categorical-constructs"><span class="toc-section-number">4.7.1</span> Multi-item scales for categorical constructs</a></li>
+</ul></li>
+<li><a href="week4.html#a-note-on-validity-and-reliability" id="toc-a-note-on-validity-and-reliability"><span class="toc-section-number">4.8</span> A note on Validity and Reliability</a>
+<ul>
+<li><a href="week4.html#activity-4.5-calculating-a-summative-score" id="toc-activity-4.5-calculating-a-summative-score"><span class="toc-section-number">4.8.1</span> Activity 4.5: Calculating a summative score</a></li>
+<li><a href="week4.html#activity-4.6-testing-your-questions-cronbachs-alpha" id="toc-activity-4.6-testing-your-questions-cronbachs-alpha"><span class="toc-section-number">4.8.2</span> Activity 4.6: Testing your questions: Cronbach’s alpha</a></li>
+</ul></li>
+<li><a href="week4.html#recoding-some-more-transforming-your-variables-to-fit-with-your-concepts" id="toc-recoding-some-more-transforming-your-variables-to-fit-with-your-concepts"><span class="toc-section-number">4.9</span> Recoding some more: Transforming your variables to fit with your concepts</a>
+<ul>
+<li><a href="week4.html#activity-4.7-recoding-variables" id="toc-activity-4.7-recoding-variables"><span class="toc-section-number">4.9.1</span> Activity 4.7: Recoding Variables</a></li>
+</ul></li>
+<li><a href="week4.html#summary-3" id="toc-summary-3"><span class="toc-section-number">4.10</span> Summary</a></li>
+</ul></li>
+<li><a href="week5.html#week5" id="toc-week5"><span class="toc-section-number">5</span> Week 5</a>
+<ul>
+<li><a href="week5.html#learning-outcomes-4" id="toc-learning-outcomes-4"><span class="toc-section-number">5.1</span> Learning outcomes</a>
+<ul>
+<li><a href="week5.html#terms-for-today-3" id="toc-terms-for-today-3"><span class="toc-section-number">5.1.1</span> Terms for today</a></li>
+</ul></li>
+<li><a href="week5.html#research-design" id="toc-research-design"><span class="toc-section-number">5.2</span> Research Design</a></li>
+<li><a href="week5.html#experiments-and-evaluation" id="toc-experiments-and-evaluation"><span class="toc-section-number">5.3</span> Experiments and evaluation</a>
+<ul>
+<li><a href="week5.html#activity-5.1-examples-of-experiments-in-criminology" id="toc-activity-5.1-examples-of-experiments-in-criminology"><span class="toc-section-number">5.3.1</span> Activity 5.1 Examples of Experiments in Criminology</a></li>
+<li><a href="week5.html#what-influences-what-dependent-vs-independent-variables" id="toc-what-influences-what-dependent-vs-independent-variables"><span class="toc-section-number">5.3.2</span> What influences what? Dependent vs independent variables</a></li>
+<li><a href="week5.html#activity-5.2-dependent-and-independent-variables" id="toc-activity-5.2-dependent-and-independent-variables"><span class="toc-section-number">5.3.3</span> Activity 5.2: Dependent and independent variables</a></li>
+</ul></li>
+<li><a href="week5.html#importance-of-randomisation" id="toc-importance-of-randomisation"><span class="toc-section-number">5.4</span> Importance of randomisation</a>
+<ul>
+<li><a href="week5.html#activity-5.3-random-assignment" id="toc-activity-5.3-random-assignment"><span class="toc-section-number">5.4.1</span> Activity 5.3: Random assignment</a></li>
+<li><a href="week5.html#note-freeze" id="toc-note-freeze"><span class="toc-section-number">5.4.2</span> Note: Freeze!</a></li>
+</ul></li>
+<li><a href="week5.html#designing-your-study" id="toc-designing-your-study"><span class="toc-section-number">5.5</span> Designing your study</a>
+<ul>
+<li><a href="week5.html#pre-registration-committing-to-your-research-plan" id="toc-pre-registration-committing-to-your-research-plan"><span class="toc-section-number">5.5.1</span> Pre-registration: committing to your research plan</a></li>
+<li><a href="week5.html#activity-5.4-research-planning-with-gantt-charts-design-an-rtc-example" id="toc-activity-5.4-research-planning-with-gantt-charts-design-an-rtc-example"><span class="toc-section-number">5.5.2</span> Activity 5.4: Research Planning with Gantt Charts: Design an RTC example</a></li>
+</ul></li>
+<li><a href="week5.html#longitudinal-data" id="toc-longitudinal-data"><span class="toc-section-number">5.6</span> Longitudinal data</a>
+<ul>
+<li><a href="week5.html#what-does-longitudinal-data-look-like" id="toc-what-does-longitudinal-data-look-like"><span class="toc-section-number">5.6.1</span> What does longitudinal data look like?</a></li>
+<li><a href="week5.html#activity-5.5-linking-data" id="toc-activity-5.5-linking-data"><span class="toc-section-number">5.6.2</span> Activity 5.5: Linking data</a></li>
+<li><a href="week5.html#missing-data" id="toc-missing-data"><span class="toc-section-number">5.6.3</span> Missing data</a></li>
+<li><a href="week5.html#complete-cases-an-approach-to-missing-data" id="toc-complete-cases-an-approach-to-missing-data"><span class="toc-section-number">5.6.4</span> Complete cases (an approach to missing data)</a></li>
+<li><a href="week5.html#activity-5.6-selecting-complete-cases" id="toc-activity-5.6-selecting-complete-cases"><span class="toc-section-number">5.6.5</span> Activity 5.6: Selecting Complete Cases</a></li>
+</ul></li>
+<li><a href="week5.html#ethics" id="toc-ethics"><span class="toc-section-number">5.7</span> Ethics</a></li>
+<li><a href="week5.html#summary-4" id="toc-summary-4"><span class="toc-section-number">5.8</span> Summary</a></li>
+</ul></li>
+<li><a href="week6.html#week6" id="toc-week6"><span class="toc-section-number">6</span> Week 6</a>
+<ul>
+<li><a href="week6.html#learning-outcomes-5" id="toc-learning-outcomes-5"><span class="toc-section-number">6.1</span> Learning outcomes</a></li>
+<li><a href="week6.html#visualising-data" id="toc-visualising-data"><span class="toc-section-number">6.2</span> Visualising data</a>
+<ul>
+<li><a href="week6.html#why-visualise-data" id="toc-why-visualise-data"><span class="toc-section-number">6.2.1</span> Why visualise data?</a></li>
+</ul></li>
+<li><a href="week6.html#anatomy-of-a-plot---the-grammar-of-graphics" id="toc-anatomy-of-a-plot---the-grammar-of-graphics"><span class="toc-section-number">6.3</span> Anatomy of a plot - the Grammar of Graphics</a></li>
+<li><a href="week6.html#principles-of-good-data-visualisation" id="toc-principles-of-good-data-visualisation"><span class="toc-section-number">6.4</span> Principles of good data visualisation</a>
+<ul>
+<li><a href="week6.html#the-data-to-ink-ratio---minimalist-viz" id="toc-the-data-to-ink-ratio---minimalist-viz"><span class="toc-section-number">6.4.1</span> The data to ink ratio - minimalist viz</a></li>
+<li><a href="week6.html#an-example" id="toc-an-example"><span class="toc-section-number">6.4.2</span> An example:</a></li>
+<li><a href="week6.html#criticisms" id="toc-criticisms"><span class="toc-section-number">6.4.3</span> Criticisms</a></li>
+</ul></li>
+<li><a href="week6.html#what-makes-a-bad-graph-bad" id="toc-what-makes-a-bad-graph-bad"><span class="toc-section-number">6.5</span> What makes a bad graph bad?</a>
+<ul>
+<li><a href="week6.html#activity-6.1-what-do-you-think" id="toc-activity-6.1-what-do-you-think"><span class="toc-section-number">6.5.1</span> Activity 6.1: What do you think?</a></li>
+<li><a href="week6.html#it-depends" id="toc-it-depends"><span class="toc-section-number">6.5.2</span> It depends…</a></li>
+</ul></li>
+<li><a href="week6.html#so-what-graph-should-we-use" id="toc-so-what-graph-should-we-use"><span class="toc-section-number">6.6</span> So… what graph should we use?!?</a></li>
+<li><a href="week6.html#edges-contrasts-and-colors" id="toc-edges-contrasts-and-colors"><span class="toc-section-number">6.7</span> Edges, Contrasts and Colors</a></li>
+<li><a href="week6.html#colour" id="toc-colour"><span class="toc-section-number">6.8</span> Colour</a>
+<ul>
+<li><a href="week6.html#activity-6.2-picking-a-colour-scheme" id="toc-activity-6.2-picking-a-colour-scheme"><span class="toc-section-number">6.8.1</span> Activity 6.2: Picking a colour scheme</a></li>
+<li><a href="week6.html#activity-6.3-custom-colours-in-excel-graphs" id="toc-activity-6.3-custom-colours-in-excel-graphs"><span class="toc-section-number">6.8.2</span> Activity 6.3: Custom colours in Excel graphs</a></li>
+</ul></li>
+<li><a href="week6.html#reading-between-the-lines-points" id="toc-reading-between-the-lines-points"><span class="toc-section-number">6.9</span> Reading between the lines (points)</a></li>
+<li><a href="week6.html#exploratory-data-visualisation" id="toc-exploratory-data-visualisation"><span class="toc-section-number">6.10</span> Exploratory data visualisation</a>
+<ul>
+<li><a href="week6.html#activity-6.4-comparing-categories" id="toc-activity-6.4-comparing-categories"><span class="toc-section-number">6.10.1</span> Activity 6.4: Comparing categories</a></li>
+<li><a href="week6.html#activity-6.5-lets-never-make-a-pie-chart-again" id="toc-activity-6.5-lets-never-make-a-pie-chart-again"><span class="toc-section-number">6.10.2</span> Activity 6.5: Let’s never make a pie chart again</a></li>
+<li><a href="week6.html#activity-6.6-exploring-trends" id="toc-activity-6.6-exploring-trends"><span class="toc-section-number">6.10.3</span> Activity 6.6: Exploring trends</a></li>
+<li><a href="week6.html#activity-6.7-making-a-chart-template" id="toc-activity-6.7-making-a-chart-template"><span class="toc-section-number">6.10.4</span> Activity 6.7: Making a chart template</a></li>
+<li><a href="week6.html#activity-6.7-saving-your-graph" id="toc-activity-6.7-saving-your-graph"><span class="toc-section-number">6.10.5</span> Activity 6.7: Saving your graph</a></li>
+</ul></li>
+<li><a href="week6.html#activity-6.8-more-complex-graphs" id="toc-activity-6.8-more-complex-graphs"><span class="toc-section-number">6.11</span> Activity 6.8: More complex graphs</a></li>
+<li><a href="week6.html#more-guidance-on-chart-design" id="toc-more-guidance-on-chart-design"><span class="toc-section-number">6.12</span> More guidance on chart design</a></li>
+<li><a href="week6.html#communicating-results" id="toc-communicating-results"><span class="toc-section-number">6.13</span> Communicating results</a>
+<ul>
+<li><a href="week6.html#activity-6.9-interpreting-results" id="toc-activity-6.9-interpreting-results"><span class="toc-section-number">6.13.1</span> Activity 6.9: Interpreting results</a></li>
+</ul></li>
+<li><a href="week6.html#summary-5" id="toc-summary-5"><span class="toc-section-number">6.14</span> Summary</a></li>
+</ul></li>
+<li><a href="week7.html#week7" id="toc-week7"><span class="toc-section-number">7</span> Week 7</a>
+<ul>
+<li><a href="week7.html#learning-outcomes-6" id="toc-learning-outcomes-6"><span class="toc-section-number">7.1</span> Learning outcomes</a></li>
+<li><a href="week7.html#crime-and-incident-trend-identification" id="toc-crime-and-incident-trend-identification"><span class="toc-section-number">7.2</span> Crime and incident trend identification</a>
+<ul>
+<li><a href="week7.html#activity-7.1-formatting-your-dates-appropriately" id="toc-activity-7.1-formatting-your-dates-appropriately"><span class="toc-section-number">7.2.1</span> Activity 7.1: Formatting your dates appropriately</a></li>
+<li><a href="week7.html#activity-7.2-extracting-temporal-variables-from-dates" id="toc-activity-7.2-extracting-temporal-variables-from-dates"><span class="toc-section-number">7.2.2</span> Activity 7.2: Extracting temporal variables from dates</a></li>
+<li><a href="week7.html#activity-7.3-extract-day-of-week-from-date-column" id="toc-activity-7.3-extract-day-of-week-from-date-column"><span class="toc-section-number">7.2.3</span> Activity 7.3: Extract day of week from date column</a></li>
+<li><a href="week7.html#activity-7.4-recoding-days-of-the-week" id="toc-activity-7.4-recoding-days-of-the-week"><span class="toc-section-number">7.2.4</span> Activity 7.4: Recoding days of the week</a></li>
+<li><a href="week7.html#activity-7.5-patterns-in-residential-burglary" id="toc-activity-7.5-patterns-in-residential-burglary"><span class="toc-section-number">7.2.5</span> Activity 7.5 patterns in residential burglary</a></li>
+</ul></li>
+<li><a href="week7.html#aggregating-to-simple-intervals" id="toc-aggregating-to-simple-intervals"><span class="toc-section-number">7.3</span> Aggregating to simple intervals</a>
+<ul>
+<li><a href="week7.html#activity-7.5-aggregate-to-hour" id="toc-activity-7.5-aggregate-to-hour"><span class="toc-section-number">7.3.1</span> Activity 7.5: Aggregate to hour</a></li>
+</ul></li>
+<li><a href="week7.html#visualising-time" id="toc-visualising-time"><span class="toc-section-number">7.4</span> Visualising time</a></li>
+<li><a href="week7.html#visualising-trends-line-graphs" id="toc-visualising-trends-line-graphs"><span class="toc-section-number">7.5</span> Visualising trends: Line graphs</a>
+<ul>
+<li><a href="week7.html#activity-7.6-visualising-trends-line-graphs" id="toc-activity-7.6-visualising-trends-line-graphs"><span class="toc-section-number">7.5.1</span> Activity 7.6: Visualising trends: Line graphs</a></li>
+</ul></li>
+<li><a href="week7.html#the-time-cycle-visualising-cyclical-variables" id="toc-the-time-cycle-visualising-cyclical-variables"><span class="toc-section-number">7.6</span> The time cycle: visualising cyclical variables</a>
+<ul>
+<li><a href="week7.html#activity-7.7-visualising-cycles-radar-charts" id="toc-activity-7.7-visualising-cycles-radar-charts"><span class="toc-section-number">7.6.1</span> Activity 7.7: Visualising cycles: Radar charts</a></li>
+</ul></li>
+<li><a href="week7.html#bivariate-analysis" id="toc-bivariate-analysis"><span class="toc-section-number">7.7</span> Bivariate analysis</a>
+<ul>
+<li><a href="week7.html#activity-7.8-heatmaps" id="toc-activity-7.8-heatmaps"><span class="toc-section-number">7.7.1</span> Activity 7.8: Heatmaps</a></li>
+<li><a href="week7.html#more-charts" id="toc-more-charts"><span class="toc-section-number">7.7.2</span> More charts?</a></li>
+</ul></li>
+<li><a href="week7.html#time-series" id="toc-time-series"><span class="toc-section-number">7.8</span> Time series</a></li>
+<li><a href="week7.html#moving-averages" id="toc-moving-averages"><span class="toc-section-number">7.9</span> Moving averages</a>
+<ul>
+<li><a href="week7.html#activity-7.9-hand-calculate-the-moving-average" id="toc-activity-7.9-hand-calculate-the-moving-average"><span class="toc-section-number">7.9.1</span> Activity 7.9 Hand calculate the moving average</a></li>
+<li><a href="week7.html#activity-7.10-moving-average-in-excel" id="toc-activity-7.10-moving-average-in-excel"><span class="toc-section-number">7.9.2</span> Activity 7.10: Moving average in Excel</a></li>
+</ul></li>
+<li><a href="week7.html#summary-6" id="toc-summary-6"><span class="toc-section-number">7.10</span> Summary</a></li>
+</ul></li>
+<li><a href="week8.html#week8" id="toc-week8"><span class="toc-section-number">8</span> Week 8</a>
+<ul>
+<li><a href="week8.html#learning-outcomes-7" id="toc-learning-outcomes-7"><span class="toc-section-number">8.1</span> Learning outcomes</a></li>
+<li><a href="week8.html#what-is-qualitative-data-analysis" id="toc-what-is-qualitative-data-analysis"><span class="toc-section-number">8.2</span> What is qualitative data analysis?</a>
+<ul>
+<li><a href="week8.html#hows-qualitative-data-different-from-quantitative-data" id="toc-hows-qualitative-data-different-from-quantitative-data"><span class="toc-section-number">8.2.1</span> How’s qualitative data different from quantitative data?</a></li>
+<li><a href="week8.html#activity-1-exploring-the-fincen-files" id="toc-activity-1-exploring-the-fincen-files"><span class="toc-section-number">8.2.2</span> Activity 1: Exploring the FinCEN files</a></li>
+<li><a href="week8.html#is-qualitative-data-analysis-easier" id="toc-is-qualitative-data-analysis-easier"><span class="toc-section-number">8.2.3</span> Is qualitative data analysis easier?</a></li>
+<li><a href="week8.html#types-of-qualitative-data-analysis" id="toc-types-of-qualitative-data-analysis"><span class="toc-section-number">8.2.4</span> Types of qualitative data analysis</a></li>
+</ul></li>
+<li><a href="week8.html#introducing-nvivo-a-software-for-qualitative-data-analysis" id="toc-introducing-nvivo-a-software-for-qualitative-data-analysis"><span class="toc-section-number">8.3</span> Introducing NVivo, a software for qualitative data analysis</a>
+<ul>
+<li><a href="week8.html#intalling-nvivo-12" id="toc-intalling-nvivo-12"><span class="toc-section-number">8.3.1</span> Intalling NVivo 12</a></li>
+<li><a href="week8.html#activity-2-watch-nvivo-tutorials" id="toc-activity-2-watch-nvivo-tutorials"><span class="toc-section-number">8.3.2</span> Activity 2: Watch NVivo tutorials</a></li>
+</ul></li>
+<li><a href="week8.html#what-kinds-of-data-can-i-input-into-nvivo-for-analysis" id="toc-what-kinds-of-data-can-i-input-into-nvivo-for-analysis"><span class="toc-section-number">8.4</span> What kinds of data can I input into NVivo for analysis?</a>
+<ul>
+<li><a href="week8.html#activity-3-find-some-data" id="toc-activity-3-find-some-data"><span class="toc-section-number">8.4.1</span> Activity 3: Find some data…</a></li>
+</ul></li>
+<li><a href="week8.html#creating-your-nvivo-project" id="toc-creating-your-nvivo-project"><span class="toc-section-number">8.5</span> Creating your NVivo project</a>
+<ul>
+<li><a href="week8.html#activity-4-getting-started-with-nvivo" id="toc-activity-4-getting-started-with-nvivo"><span class="toc-section-number">8.5.1</span> Activity 4: Getting started with NVivo</a></li>
+</ul></li>
+<li><a href="week8.html#understanding-the-nvivo-interface" id="toc-understanding-the-nvivo-interface"><span class="toc-section-number">8.6</span> Understanding the NVivo interface</a></li>
+<li><a href="week8.html#navigation-view" id="toc-navigation-view"><span class="toc-section-number">8.7</span> Navigation View</a>
+<ul>
+<li><a href="week8.html#data" id="toc-data"><span class="toc-section-number">8.7.1</span> Data</a></li>
+<li><a href="week8.html#the-files-section" id="toc-the-files-section"><span class="toc-section-number">8.7.2</span> The ‘Files’ section</a></li>
+<li><a href="week8.html#activity-5-folders" id="toc-activity-5-folders"><span class="toc-section-number">8.7.3</span> Activity 5: Folders</a></li>
+</ul></li>
+<li><a href="week8.html#importing-data" id="toc-importing-data"><span class="toc-section-number">8.8</span> Importing Data</a>
+<ul>
+<li><a href="week8.html#activity-6-import-data" id="toc-activity-6-import-data"><span class="toc-section-number">8.8.1</span> Activity 6: Import data</a></li>
+</ul></li>
+<li><a href="week8.html#memos" id="toc-memos"><span class="toc-section-number">8.9</span> Memos</a>
+<ul>
+<li><a href="week8.html#activity-7-memos" id="toc-activity-7-memos"><span class="toc-section-number">8.9.1</span> Activity 7: Memos</a></li>
+</ul></li>
+<li><a href="week8.html#word-frequency" id="toc-word-frequency"><span class="toc-section-number">8.10</span> Word frequency</a>
+<ul>
+<li><a href="week8.html#activity-8-word-frequency" id="toc-activity-8-word-frequency"><span class="toc-section-number">8.10.1</span> Activity 8: Word frequency</a></li>
+<li><a href="week8.html#activity-9-create-two-distinct-word-clouds" id="toc-activity-9-create-two-distinct-word-clouds"><span class="toc-section-number">8.10.2</span> Activity 9: Create two distinct word clouds</a></li>
+</ul></li>
+<li><a href="week8.html#summary-7" id="toc-summary-7"><span class="toc-section-number">8.11</span> Summary</a></li>
+</ul></li>
+<li><a href="week9.html#week9" id="toc-week9"><span class="toc-section-number">9</span> Week 9</a>
+<ul>
+<li><a href="week9.html#learning-outcomes-8" id="toc-learning-outcomes-8"><span class="toc-section-number">9.1</span> Learning outcomes</a></li>
+<li><a href="week9.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data" id="toc-deduction-induction-abduction-key-analytical-strategies-for-qualitative-data"><span class="toc-section-number">9.2</span> Deduction, induction, abduction – key analytical strategies for qualitative data</a></li>
+<li><a href="week9.html#coding-qualitative-data-using-nodes" id="toc-coding-qualitative-data-using-nodes"><span class="toc-section-number">9.3</span> ‘Coding’ qualitative data using ‘nodes’</a>
+<ul>
+<li><a href="week9.html#what-are-nodes" id="toc-what-are-nodes"><span class="toc-section-number">9.3.1</span> What are ‘Nodes’?</a></li>
+<li><a href="week9.html#activity-1-coding" id="toc-activity-1-coding"><span class="toc-section-number">9.3.2</span> Activity 1: Coding</a></li>
+</ul></li>
+<li><a href="week9.html#using-mind-maps-to-organise-your-analytical-process-and-framework" id="toc-using-mind-maps-to-organise-your-analytical-process-and-framework"><span class="toc-section-number">9.4</span> Using ‘mind maps’ to organise your ‘analytical process and framework’</a>
+<ul>
+<li><a href="week9.html#activity-2-deductive-coding" id="toc-activity-2-deductive-coding"><span class="toc-section-number">9.4.1</span> Activity 2: Deductive coding</a></li>
+<li><a href="week9.html#activity-3-inductive-coding" id="toc-activity-3-inductive-coding"><span class="toc-section-number">9.4.2</span> Activity 3: Inductive coding</a></li>
+</ul></li>
+<li><a href="week9.html#abductive-coding" id="toc-abductive-coding"><span class="toc-section-number">9.5</span> Abductive coding</a>
+<ul>
+<li><a href="week9.html#activity-4-retrieval-viewing-coded-data" id="toc-activity-4-retrieval-viewing-coded-data"><span class="toc-section-number">9.5.1</span> Activity 4: Retrieval – viewing coded data</a></li>
+<li><a href="week9.html#activity-5-viewing-more-context" id="toc-activity-5-viewing-more-context"><span class="toc-section-number">9.5.2</span> Activity 5: Viewing more context</a></li>
+</ul></li>
+<li><a href="week9.html#export-coded-data" id="toc-export-coded-data"><span class="toc-section-number">9.6</span> Export coded data</a>
+<ul>
+<li><a href="week9.html#activity-6-exporting-via-the-list-pane" id="toc-activity-6-exporting-via-the-list-pane"><span class="toc-section-number">9.6.1</span> Activity 6: Exporting via the list pane</a></li>
+</ul></li>
+<li><a href="week9.html#reports-note-windows-only-users-not-supported-by-mac-yet" id="toc-reports-note-windows-only-users-not-supported-by-mac-yet"><span class="toc-section-number">9.7</span> Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)</a></li>
+<li><a href="week9.html#some-other-useful-things-to-do" id="toc-some-other-useful-things-to-do"><span class="toc-section-number">9.8</span> Some other useful things to do</a>
+<ul>
+<li><a href="week9.html#create-another-word-cloud" id="toc-create-another-word-cloud"><span class="toc-section-number">9.8.1</span> Create another Word Cloud:</a></li>
+<li><a href="week9.html#create-a-word-tree" id="toc-create-a-word-tree"><span class="toc-section-number">9.8.2</span> Create a Word Tree:</a></li>
+<li><a href="week9.html#create-a-concept-map-windows-only" id="toc-create-a-concept-map-windows-only"><span class="toc-section-number">9.8.3</span> Create a Concept Map (WINDOWS ONLY!)</a></li>
+</ul></li>
+<li><a href="week9.html#other-features" id="toc-other-features"><span class="toc-section-number">9.9</span> Other features…</a>
+<ul>
+<li><a href="week9.html#graphicspictures---making-linked-notes-and-coding" id="toc-graphicspictures---making-linked-notes-and-coding"><span class="toc-section-number">9.9.1</span> Graphics/pictures - making linked notes and coding</a></li>
+<li><a href="week9.html#coding-audiovideo-data" id="toc-coding-audiovideo-data"><span class="toc-section-number">9.9.2</span> Coding audio/video data</a></li>
+</ul></li>
+<li><a href="week9.html#more-on-capturing-web-material" id="toc-more-on-capturing-web-material"><span class="toc-section-number">9.10</span> More on capturing web material</a></li>
+<li><a href="week9.html#summary-8" id="toc-summary-8"><span class="toc-section-number">9.11</span> Summary</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -374,10 +441,10 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="week8" class="section level1">
-<h1><span class="header-section-number">Chapter 8</span> Week 8</h1>
-<div id="learning-outcomes-7" class="section level2">
-<h2><span class="header-section-number">8.1</span> Learning outcomes</h2>
+<div id="week8" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Week 8<a href="week8.html#week8" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-outcomes-7" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Learning outcomes<a href="week8.html#learning-outcomes-7" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Welcome to the first of two qualitative data analysis computer lab sessions. Today we will learn about the software package <a href="https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home">NVivo</a> and how you can use this to analyse and manage your qualitative data (and literature).</p>
 <p>In this session you’ll learn:</p>
 <ul>
@@ -386,22 +453,22 @@
 <li>How to run some preliminary analysis in preparation for the real, heavy duty thought work next week.</li>
 </ul>
 </div>
-<div id="what-is-qualitative-data-analysis" class="section level2">
-<h2><span class="header-section-number">8.2</span> What is qualitative data analysis?</h2>
+<div id="what-is-qualitative-data-analysis" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> What is qualitative data analysis?<a href="week8.html#what-is-qualitative-data-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If we want to know what is qualitative data analysis, first we need to understand what we mean by <em>qualitative data</em>. Qualitative data is pretty much any type of data that is not numbers.</p>
 <p>In previous sessions we saw how to analyse information recorded in quantitative variables, which as you already know can take different levels of measurement (categorical or numeric). But in reality there is a lot of information out there which is not quantified. In other words, there is a lot of information which is not quantitative. And we can also use this information for research!</p>
 <p>Thus, <em>qualitative data</em> refers to any type of non-numeric information, which can include interview transcripts, written notes, video and audio recordings, images and other types of text documents. We will learn here that we can extract meaningful information from those - and use it in our research.</p>
 <p><img src="imgs/coolright.gif" /></p>
 <p>Qualitative data isn’t just text-based data, and it can also include non-quantitative information included in images (e.g., whether a person is smiling, whether it reflects a happy or sad environment), audio recordings (e.g., whether the person talking had a particular accent, or if we can hear some background noise), etc.</p>
-<div id="hows-qualitative-data-different-from-quantitative-data" class="section level3">
-<h3><span class="header-section-number">8.2.1</span> How’s qualitative data different from quantitative data?</h3>
+<div id="hows-qualitative-data-different-from-quantitative-data" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> How’s qualitative data different from quantitative data?<a href="week8.html#hows-qualitative-data-different-from-quantitative-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To begin with, while quantitative data focuses on numbers or <em>quantities</em>, qualitative data is more about meanings, descriptions, concepts or ideas. One may even say that qualitative data is about the “soft side” of things, focusing on the implicit and explicit meanings of non-quantified information, while quantitative data is more about differences and relationships between information which has been previously quantified.</p>
 <p><img src="imgs/quali_quanti.png" /></p>
 <p>Let’s give a very simple example. We may be interested in studying pub brawls between football fans. We can record <em>quantitative data</em> about the number of fights, teams of supporters involved, place where they occur, time when they take place, if those involved required hospitalisation, and even if the police showed up to stop the fight. All those variables can be quantified. However, we may also be interested in the “words” used by those involved in the brawl before, during and after the fight, as well as their body language and facial expressions. And we can even talk to them and ask them about their rationale for becoming involved in the fight, how they feel and what it means to them. This sort of information is usually recorded in <em>qualitative data</em>.</p>
 <p><img src="imgs/bar-brawl.gif" /></p>
 </div>
-<div id="activity-1-exploring-the-fincen-files" class="section level3">
-<h3><span class="header-section-number">8.2.2</span> Activity 1: Exploring the FinCEN files</h3>
+<div id="activity-1-exploring-the-fincen-files" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Activity 1: Exploring the FinCEN files<a href="week8.html#activity-1-exploring-the-fincen-files" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We can see another example of the difference between <em>qualitative</em> and <em>quantitative</em> data using real-world crime data.</p>
 <p>In September 2020, the <a href="https://www.icij.org/">International Consortium of Investigative Journalists</a> (ICIJ) published information about 2,657 leaked documents, including 2,121 <a href="https://en.wikipedia.org/wiki/Suspicious_activity_report">suspicious activity reports</a> (SARs) from the U.S. Treasury’s <a href="https://en.wikipedia.org/wiki/Financial_Crimes_Enforcement_Network">Financial Crimes Enforcement Network</a> (FinCEN). In total, those suspicious activity reports covered over 200,000 suspicious financial transactions between 1999 and 2017 valued at over 2 <em>trillion</em> US dollars, and they involved multiple global financial institutions. These files are knows as the <a href="https://en.wikipedia.org/wiki/FinCEN_Files">FinCEN leaked files</a>.</p>
 <p><img src="imgs/FinCEN_Files.jpg" /></p>
@@ -431,14 +498,14 @@
 <p>You can download two snapshots of two different suspicious activity reports from Blackboard (<strong>“Data for labs and homework” -&gt; “FinCEN files” -&gt; “suspicious activity report snapshot 1” and “suspicious activity report snapshot 2”</strong>). Read through them and start thinking how you would use all this qualitative data for research.</p>
 <p>In sum, <em>qualitative data analysis</em> is about collecting and systematically analysing non-numeric data to understand opinions, motivations, experiences and concepts in a particular context, thus gaining in-depth understanding about a particular problem.</p>
 </div>
-<div id="is-qualitative-data-analysis-easier" class="section level3">
-<h3><span class="header-section-number">8.2.3</span> Is qualitative data analysis easier?</h3>
+<div id="is-qualitative-data-analysis-easier" class="section level3 hasAnchor" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Is qualitative data analysis easier?<a href="week8.html#is-qualitative-data-analysis-easier" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Not quite. Qualitative data analysis can be extremely challenging and time-consuming. Not only we need to spend a lot of time and effort collecting qualitative data by interviewing a set of subjects or observing hours and hours of social interactions, but we also need to systematically code and analyse all this information, and make sense of it based on theory and previous research findings. Differences in meaning can be incredibly subtle and nuanced, so researchers need to put a lot of effort into extracting meaningful interpretations and meanings from qualitative information. Long story short: qualitative data analysis <em>is not</em> any easier than any other type of data analysis!</p>
 <p><img src="imgs/disappointed.gif" /></p>
 <p>It is key to say, however, that not all qualitative data is <em>primary data</em> (data collected by researchers themselves), but qualitative data can also be <em>secondary data</em> (when it was already published by someone else). For example, we may want to analyse the content of news articles which were already published online, or we may use analyse open access interview transcripts recorded by other researchers in the past (see some examples about <a href="https://reshare.ukdataservice.ac.uk/851570/">hate crime victimisation experiences</a> or the <a href="https://reshare.ukdataservice.ac.uk/853792/">2011 London riots</a>).</p>
 </div>
-<div id="types-of-qualitative-data-analysis" class="section level3">
-<h3><span class="header-section-number">8.2.4</span> Types of qualitative data analysis</h3>
+<div id="types-of-qualitative-data-analysis" class="section level3 hasAnchor" number="8.2.4">
+<h3><span class="header-section-number">8.2.4</span> Types of qualitative data analysis<a href="week8.html#types-of-qualitative-data-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>While it is not the purpose of this course that you achieve complete understanding about the different qualitative data analysis methods, we may make a very brief introduction to the main existing approaches.</p>
 <ul>
 <li><strong>Content analysis</strong>: This refers to the process of coding and categorising qualitative data to extract classifications, summaries and hidden patterns. For example, we may count the number of times a politician speaks about ideas around <em>“security”</em> and <em>“securitisation”</em> in a political speech, and even observe patterns in his or her body language when doing so.</li>
@@ -451,15 +518,15 @@
 <p>You can watch <a href="https://www.youtube.com/watch?v=hECPeKv5tPM">this Youtube video</a> to learn more about qualitative research methods, and how to combine quantitative and qualitative data analysis in mixed methods research.</p>
 </div>
 </div>
-<div id="introducing-nvivo-a-software-for-qualitative-data-analysis" class="section level2">
-<h2><span class="header-section-number">8.3</span> Introducing NVivo, a software for qualitative data analysis</h2>
+<div id="introducing-nvivo-a-software-for-qualitative-data-analysis" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Introducing NVivo, a software for qualitative data analysis<a href="week8.html#introducing-nvivo-a-software-for-qualitative-data-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In weeks 8 and 9 we will learn how to use a software for qualitative data analysis called <strong>NVivo</strong>.</p>
 <p>To give you the corporate spiel: NVivo provides a flexible range of different ways to handle the analysis of qualitative data - good code and retrieve tools with powerful tools for data visualisation and interrogation. A wide range of multimedia and social media data types are acceptable to NVivo.</p>
 <p>Essentially, the NVivo Software allows you to analyse and manage a range of qualitative data, from textual data such as interview transcripts or government documents, to videos, pictures and audio files. In these two sessions we’ll focus on textual data mainly, but once you feel comfortable with NVivo you might want to explore all the available functionality.</p>
 <p><strong>Note 1</strong>: Below we describe how to download and install NVivo in your laptops and home computers. For those of you using University computers, the Windows versions of NVivo 11 should be installed and ready for you to use.</p>
 <p><strong>Note 2:</strong> The directions below are for the Mac version of NVivo. The functionality between the two versions is slightly different in some cases, but not drastic, so you should be able to figure it out. But we will give you some indications of where you can find the main functionalities available in NVivo for Windows too.</p>
-<div id="intalling-nvivo-12" class="section level3">
-<h3><span class="header-section-number">8.3.1</span> Intalling NVivo 12</h3>
+<div id="intalling-nvivo-12" class="section level3 hasAnchor" number="8.3.1">
+<h3><span class="header-section-number">8.3.1</span> Intalling NVivo 12<a href="week8.html#intalling-nvivo-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We know some of you are using your own laptops and you may want to install NVivo to follow through the computer lab. If that’s the case, you’ll need to download the version 12 of NVivo from their website. You can do this from the QSR website <a href="https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home">here</a>.</p>
 <p>First, you need to register using your own personal details. To do so, first click on “Sign In”:</p>
 <p><img src="imgs/nvivo_signin.png" /></p>
@@ -483,8 +550,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p><img src="imgs/qual_01.png" /></p>
 <p>The lab sessions will also be strongly supplemented with video tutorials from the QSR website. QSR is the organisation that manages NVivo.</p>
 </div>
-<div id="activity-2-watch-nvivo-tutorials" class="section level3">
-<h3><span class="header-section-number">8.3.2</span> Activity 2: Watch NVivo tutorials</h3>
+<div id="activity-2-watch-nvivo-tutorials" class="section level3 hasAnchor" number="8.3.2">
+<h3><span class="header-section-number">8.3.2</span> Activity 2: Watch NVivo tutorials<a href="week8.html#activity-2-watch-nvivo-tutorials" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Discover more about the NVivo tutorials <a href="https://www.qsrinternational.com/nvivo/free-nvivo-resources/tutorials">here</a>. Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:</p>
 <ul>
 <li>Watch the three <em>basic</em> NVivo 12 video tutorials. It is very important that you watch these. These tutorials will teach you how to:
@@ -505,8 +572,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>We’ll be talking you through most of the above in the session notes today. If you get stuck at any point, it’s worth re-watching these videos or seeing if there is a video available for your specific query. It’s a useful website.</p>
 </div>
 </div>
-<div id="what-kinds-of-data-can-i-input-into-nvivo-for-analysis" class="section level2">
-<h2><span class="header-section-number">8.4</span> What kinds of data can I input into NVivo for analysis?</h2>
+<div id="what-kinds-of-data-can-i-input-into-nvivo-for-analysis" class="section level2 hasAnchor" number="8.4">
+<h2><span class="header-section-number">8.4</span> What kinds of data can I input into NVivo for analysis?<a href="week8.html#what-kinds-of-data-can-i-input-into-nvivo-for-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In brief, and just for your information, you can analyse the following kinds of data in NVivo:</p>
 <p><strong>Text</strong> – NVivo 11 can manage files that are .txt, .rtf, .doc, .docx, and .pdf. It is fine to include embedded charts, tables, graphs, or images. However, in Word files, headers and footers, page numbers, line numbering, comment boxes (as per MSWord) will not be visible once imported.</p>
 <p><strong>PDF format</strong> - where the file has been converted into PDF from Word or similar application, the file can be imported as it is, though some functions- like Text search will not work quite as well as if they were in Word/RTF/plain text. If the PDF document was created (possibly scanned) without optical character recognition it may just be an image style format which can still be imported but the more limited ‘region selection’ mode not ‘text’ mode will be required to apply codes or annotations and text search tools are unlikely to work.</p>
@@ -518,8 +585,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p><strong>Social media data</strong> (e.g. from Facebook, LinkedIn and Twitter) and Evernotes – can be imported into NVivo. - WE’LL BE DOING THIS NEXT WEEK…</p>
 <p><strong>Ncapture</strong> – an interface between Internet Explorer and NVivo can be used to capture web pages, pre-code them and then import them into a project</p>
 <p><img src="imgs/endless-possibilities.gif" /></p>
-<div id="activity-3-find-some-data" class="section level3">
-<h3><span class="header-section-number">8.4.1</span> Activity 3: Find some data…</h3>
+<div id="activity-3-find-some-data" class="section level3 hasAnchor" number="8.4.1">
+<h3><span class="header-section-number">8.4.1</span> Activity 3: Find some data…<a href="week8.html#activity-3-find-some-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Before we start with NVivo, we’d like you to find some data that you’ll use in the session today. You can use the data that we use, which are available on Blackboard (<strong>“Data for labs and homework” -&gt; “Dankse bank data”</strong>), but we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflect your own criminological interests.</p>
 <p>For instance, given the major news coverage of <a href="https://en.wikipedia.org/wiki/Danske_Bank_money_laundering_scandal">Danske Bank money laundering scandal</a>, in our example we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’.</p>
 <p><img src="imgs/dankse.jpg" /></p>
@@ -544,11 +611,11 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>Forget about these for now. We’ll be back.</p>
 </div>
 </div>
-<div id="creating-your-nvivo-project" class="section level2">
-<h2><span class="header-section-number">8.5</span> Creating your NVivo project</h2>
+<div id="creating-your-nvivo-project" class="section level2 hasAnchor" number="8.5">
+<h2><span class="header-section-number">8.5</span> Creating your NVivo project<a href="week8.html#creating-your-nvivo-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Before we open up our textual data in NVivo, we will need to learn how to create a new project.</p>
-<div id="activity-4-getting-started-with-nvivo" class="section level3">
-<h3><span class="header-section-number">8.5.1</span> Activity 4: Getting started with NVivo</h3>
+<div id="activity-4-getting-started-with-nvivo" class="section level3 hasAnchor" number="8.5.1">
+<h3><span class="header-section-number">8.5.1</span> Activity 4: Getting started with NVivo<a href="week8.html#activity-4-getting-started-with-nvivo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s get started then. First, you’ll need to open NVivo from your computer. Search for it on your computer. This will open up a folder something like the following in Mac:</p>
 <p><img src="imgs/welcome_mac.png" /></p>
 <p>Or PC:</p>
@@ -565,8 +632,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>So, what can you see in the interface?</p>
 </div>
 </div>
-<div id="understanding-the-nvivo-interface" class="section level2">
-<h2><span class="header-section-number">8.6</span> Understanding the NVivo interface</h2>
+<div id="understanding-the-nvivo-interface" class="section level2 hasAnchor" number="8.6">
+<h2><span class="header-section-number">8.6</span> Understanding the NVivo interface<a href="week8.html#understanding-the-nvivo-interface" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>At the top of the screen are the ‘ribbon tabs’. In Mac:</p>
 <p><img src="imgs/ribbon_mac.png" /></p>
 <p>In Windows:</p>
@@ -591,21 +658,21 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>In PC, it may look like this:</p>
 <p><img src="imgs/interface_pc.PNG" /></p>
 </div>
-<div id="navigation-view" class="section level2">
-<h2><span class="header-section-number">8.7</span> Navigation View</h2>
+<div id="navigation-view" class="section level2 hasAnchor" number="8.7">
+<h2><span class="header-section-number">8.7</span> Navigation View<a href="week8.html#navigation-view" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Today you’ll learn about three of the sections in the Navigation View: <em>Data</em>, <em>Nodes</em> and <em>Memos</em>.</p>
 <p>The layout varies slightly between the Mac and Windows software, and also between different versions of NVivo (e.g., NVivo 11, NVivo 12). So keep this in mind when following the below instructions.</p>
-<div id="data" class="section level3">
-<h3><span class="header-section-number">8.7.1</span> Data</h3>
+<div id="data" class="section level3 hasAnchor" number="8.7.1">
+<h3><span class="header-section-number">8.7.1</span> Data<a href="week8.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Data</em> (called <em>Sources</em> in NVivo 11) can be any type of data file or memo, embedded or external to the project.</p>
 <p>Data can be text, multimedia and datasets. There are three main folders associated with data. For now, we’ll just focus on the <em>‘Files’</em> folder.</p>
 </div>
-<div id="the-files-section" class="section level3">
-<h3><span class="header-section-number">8.7.2</span> The ‘Files’ section</h3>
+<div id="the-files-section" class="section level3 hasAnchor" number="8.7.2">
+<h3><span class="header-section-number">8.7.2</span> The ‘Files’ section<a href="week8.html#the-files-section" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <em>Files</em> folder (called <em>Internals</em> in NVivo 11) is designed to hold all ready-made data (to be ‘imported’) that you wish to work with directly within NVivo.</p>
 </div>
-<div id="activity-5-folders" class="section level3">
-<h3><span class="header-section-number">8.7.3</span> Activity 5: Folders</h3>
+<div id="activity-5-folders" class="section level3 hasAnchor" number="8.7.3">
+<h3><span class="header-section-number">8.7.3</span> Activity 5: Folders<a href="week8.html#activity-5-folders" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Have a go at creating folders to house your data in the Files section. In a project consisting of different types of data we’d usually recommend that folders could be based on the type of data. This choice will vary depending on the complexity and variety of types of data. If you only have Interview data, for instance, you might just create a folder called ‘Interviews’. You can decide to organise your folders in a way that suits your own thinking style.</p>
 <p><em>Tip</em>: Keep the folder structure simple - although you can scope and filter later queries by folder - folders cannot reflect all the different features of your data. The assigning of attributes (via node classifications) will eventually reflect things like socio-demographic information about your data/respondents/cases, etc. You’ll need to think about this more if you decide to use NVivo at some point in your research, but don’t worry about these complexities just now!</p>
 <p>So, right click at the top level (e.g. Files) -&gt; New Folder – provide a name for your folder:</p>
@@ -616,13 +683,13 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>Then click ‘Done’. You can then create a second folder entitled ‘EU Strategy’ and a third folder entitled ‘Academic Journal Articles’. We’re now beginning to organise where our documents will go.</p>
 </div>
 </div>
-<div id="importing-data" class="section level2">
-<h2><span class="header-section-number">8.8</span> Importing Data</h2>
+<div id="importing-data" class="section level2 hasAnchor" number="8.8">
+<h2><span class="header-section-number">8.8</span> Importing Data<a href="week8.html#importing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Now we have folders we can import our data into these.</p>
 <p>There are different things enabled during the import of data. For now, the straightforward importing of data, whether it is Text, PDF or the full range of audio-visual data – can follow essentially the same process. You just have to be careful to tell the software what type of data you are looking for (e.g., ‘document’, ‘PDF’, ‘NCapture’, etc.).</p>
 <p>Remember that ‘data’ and Files in NVivo are any material at all that will help you to integrate all the information that feeds into your project.</p>
-<div id="activity-6-import-data" class="section level3">
-<h3><span class="header-section-number">8.8.1</span> Activity 6: Import data</h3>
+<div id="activity-6-import-data" class="section level3 hasAnchor" number="8.8.1">
+<h3><span class="header-section-number">8.8.1</span> Activity 6: Import data<a href="week8.html#activity-6-import-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>For now, let’s just import your data and not worry about how you will organise data (with attributes or socio-demographic variables). First, make sure the Files folder where you want to import your documents in the Navigation View is highlighted. For instance, we’ll start by importing the PDFs of our media articles, so single click the ‘Media Articles’ folder to highlight it.</p>
 <p><img src="imgs/media_folder.png" /></p>
 <p>Second, right click in the ‘List View’ to access the menu. Your ‘List View’ always corresponds to which source (i.e., Files, Codes, Cases…) is in use in your Navigation View. Now select ‘Import’ and then ‘PDFs’.</p>
@@ -642,16 +709,16 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>So, we now have all our documents in NVivo. What next? We need to think about why we are going to analyse these documents. To do this, let’s use the ‘Memos’ folder that appears under the ‘Notes’ section on the left hand side.</p>
 </div>
 </div>
-<div id="memos" class="section level2">
-<h2><span class="header-section-number">8.9</span> Memos</h2>
+<div id="memos" class="section level2 hasAnchor" number="8.9">
+<h2><span class="header-section-number">8.9</span> Memos<a href="week8.html#memos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The <em>Memo</em> folder allows you to create any number of new documents as locations to write notes and keep track of your analysis. If the new documents are created within or moved into the memo folder, the software sees them as memos and each memo can be linked to one document or node (we’ll explain this in due course).</p>
 <p>Material inside any of the above sources can be classified, coded, linked, and annotated according to needs of the researcher. We’ll do this mostly next week…</p>
 <p>Memos are related to planning, tracking processes and thinking ‘out loud’ about what is going on in your data. With that in mind, let’s create a framework of memos. You can create folders to organize different aspects of note-making. Or you can have the one predefined folder Memos, but within it name your memos carefully with standard prefixes which tell you and others what type of memo it is – “PROCESS-…”, “THEORY…”</p>
 <p><img src="imgs/memos.jpg" /></p>
 <p>You create folders from the memos folder – Right click/New folder /name the folder as above.</p>
 <p>Or create memos within your chosen folder by using the <em>“Create”</em> ribbon tab along the tab/choose the memo icon - or alternatively as usual – you can select the correct folder and then right click in the List pane to create the new memo. We find right clicking is always the most straightforward way. The new memo opens up in Edit mode so that you can begin work in it. If the memo closes, double click on the memo in the list, it will re-open but you will have to ‘click to edit’ in order to write in it. So let’s try this.</p>
-<div id="activity-7-memos" class="section level3">
-<h3><span class="header-section-number">8.9.1</span> Activity 7: Memos</h3>
+<div id="activity-7-memos" class="section level3 hasAnchor" number="8.9.1">
+<h3><span class="header-section-number">8.9.1</span> Activity 7: Memos<a href="week8.html#activity-7-memos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>See if you can follow what we’ve done for your own data.</p>
 <p>We’ve created two folders: ‘Research Questions’ and ‘Theoretical Framework’:</p>
 <p><img src="imgs/memos_folders.png" /></p>
@@ -665,12 +732,12 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>For now, forget about ‘nodes’ and coding your data. We’ll do this next week in much more depth. Instead, we’re going to learn to do a basic, superficial analysis of our textual data.</p>
 </div>
 </div>
-<div id="word-frequency" class="section level2">
-<h2><span class="header-section-number">8.10</span> Word frequency</h2>
+<div id="word-frequency" class="section level2 hasAnchor" number="8.10">
+<h2><span class="header-section-number">8.10</span> Word frequency<a href="week8.html#word-frequency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Finding ways to give others insight into your qualitative data can be challenging. You often end up with pages of response text, which would quickly overwhelm readers. However, considering word frequency is a great option for instant accessibility to this qualitative data.</p>
 <p>Word clouds, a visualisation of word frequency, can add clarity during text analysis in order to effectively communicate your data results. Word clouds can also reveal patterns in your responses that may guide future analysis. You can read more about Word clouds <a href="https://boostlabs.com/blog/what-are-word-clouds-value-simple-visualizations/">here</a>.</p>
-<div id="activity-8-word-frequency" class="section level3">
-<h3><span class="header-section-number">8.10.1</span> Activity 8: Word frequency</h3>
+<div id="activity-8-word-frequency" class="section level3 hasAnchor" number="8.10.1">
+<h3><span class="header-section-number">8.10.1</span> Activity 8: Word frequency<a href="week8.html#activity-8-word-frequency" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You’re now going to analyse your imported documents by the frequency with which words appear in them. To do this, first, open up the <em>‘Queries’</em> section in the Navigation View under the ‘Search’ heading. Then select ‘Queries’ and right click in the List View pane. You’ll then get the options as below. Select ‘New Query’ and then ‘Word Frequency’:</p>
 <p><img src="imgs/navigation_freq.png" /></p>
 <p>This will open up the ‘Unnamed Query’ panel in the Detail View. At this point, simply ensure all the default settings are selected and click ‘Run Query’.</p>
@@ -694,8 +761,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>What does this tell us? Well, to be clear, this is a crude analysis. But it does throw up some interesting key words: ‘information’, ‘aml’ (which stands for ‘anti-money laundering’), ‘government’, ‘bank’, ‘financial’, etc.</p>
 <p>We can use these words to direct our coding of the data (or not). We’ll look at this more next week.</p>
 </div>
-<div id="activity-9-create-two-distinct-word-clouds" class="section level3">
-<h3><span class="header-section-number">8.10.2</span> Activity 9: Create two distinct word clouds</h3>
+<div id="activity-9-create-two-distinct-word-clouds" class="section level3 hasAnchor" number="8.10.2">
+<h3><span class="header-section-number">8.10.2</span> Activity 9: Create two distinct word clouds<a href="week8.html#activity-9-create-two-distinct-word-clouds" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is pretty cool, isn’t it? But we can even go one step further and ask ourselves: will the word cloud for ‘academic journal articles’ be similar to that of “media articles”? Do they use remarkably different terms when they discuss this issue?</p>
 <p>To do that, we first need to select the subset of pdf documents we are interested to analyse (by clicking on “Selected items”), and then click on “Run query” again.</p>
 <p>Let’s start by generating the word cloud for <em>academic journal articles</em>. Click on “Selected items”, open the “Files” folder, and select only the “academic journal articles folder”. Like so:</p>
@@ -712,8 +779,8 @@ You can now set up your account with your name and initiats, and start using NVi
 <p>If you obtained slightly different word clouds, it may be because we had previously added the words “money” and “laundering” to the “Stop words list”!</p>
 </div>
 </div>
-<div id="summary-7" class="section level2">
-<h2><span class="header-section-number">8.11</span> Summary</h2>
+<div id="summary-7" class="section level2 hasAnchor" number="8.11">
+<h2><span class="header-section-number">8.11</span> Summary<a href="week8.html#summary-7" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You now know how to create a project in NVivo, import relevant documents, organise them into folders, tidy them up, create memos to structure your thinking, and undertake a basic analysis of your documents for frequencies.</p>
 <p>These are all fundamentals to using NVivo. Of course, there are lots of tabs, functions and areas we haven’t explored, and won’t explore. These are much more advanced tools.
 Next week we’ll build on these basics and put our minds to work on developing conceptual frameworks through coding our data – this is where the systematic analysis begins…</p>
@@ -770,10 +837,6 @@ gitbook.start({
 "text": null
 },
 "download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
-"search": {
-"engine": "lunr",
-"options": null
-},
 "toc": {
 "collapse": "subsection"
 }
