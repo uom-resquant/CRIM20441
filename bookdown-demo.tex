@@ -33,6 +33,14 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Making Sense of Crim Data},
+  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -73,18 +81,10 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
-\hypersetup{
-  pdftitle={Making Sense of Crim Data},
-  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2022-09-26}
+\date{2022-10-12}
 
 \begin{document}
 \maketitle
@@ -2276,7 +2276,7 @@ Click OK, and you will see your column updated:
 
 Now we have a column that tells us the average age of people arrested for each value of the variable ``Reason for arrest''. Which one has the highest average age? It appears to be ``Sex Offense'' with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for reason of offense that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully you might find these results interesting, and therefore are getting some insight into offender demographics for various crime types. Our youngest average age of offenders does appear to be in the theft of vehicle category.
 
-\includegraphics{https://i0.wp.com/thehappihippi.com/wp-content/uploads/2016/01/tumblr_nk2z5noRCH1t0093do1_540.gif}
+\includegraphics{imgs/driving.gif}
 
 But remember our first question - \emph{Which reason for arrest do you think has the oldest arrestee}? Well this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So let's add a few more columns to our summary statistics table here. To do this, just drag ``Age'' to the ``Values'' box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So to add a new column, for minimum value you would drag age, and select minimum, like so:
 
