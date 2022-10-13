@@ -8252,7 +8252,7 @@ What we’ve done here is create a predetermined framework for coding the interv
 
 Plus, to save us having to create all the nodes individually, we can now just use the **‘Create as nodes’** option. Click it, then choose ‘Nodes’. 
 
-![](imgs/create_node.png)
+![](imgs/create_node.jpeg)
 
 Now click on ‘Nodes’ in the Navigation Pane and you’ll see the following – open up the folders so you can see all the nodes:
 
@@ -8416,7 +8416,7 @@ This is a Word Cloud for Dataset 1 only.
 
 Using the *Query* function, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
 
-![](imgs/query_nvivo.png)
+![](imgs/query_nvivo.jpeg)
 
 And then chosen the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
 
