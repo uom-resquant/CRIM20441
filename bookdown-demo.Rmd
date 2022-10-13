@@ -7729,7 +7729,7 @@ You will download an executable file in your computer, click on it once it is fu
 
 And then you can select your language, accept the terms in the license agreement, and press "Finish".
 
-You’ll need the License code to complete the installation process: **NVT12-KZ000-7HA20-UR680-622P8** (code for 2021)
+You’ll need the License code to complete the installation process: **NVT12-JZ000-PHA20-9R68M-EBADW** (code for 2022/2023)
 
 Then you should see a message saying "Your licence has now been activated".
 
