@@ -7716,12 +7716,12 @@ Then fill in your personal details and **your university email**, click on "I ag
 
 You will then see a "Download" tab in the upper part of the site, click on it:
 
-![](imgs/nvivo_download.png)
+![](imgs/nvivo_download.jpeg)
 
 Now find the "NVivo 12 for Windows" or "NVivo 12 for Mac" buttons, and press on it:
 
 
-![](imgs/nvivo_download12.png)
+![](imgs/nvivo_download12.jpeg)
 
 You will download an executable file in your computer, click on it once it is fully downloaded.
 
@@ -7809,10 +7809,10 @@ At this point, it’s important to save your web content as PDF files. This will
 
 If you are using a PC, these are the steps you need to take to download a news as a pdf:
 
-![](imgs/windows_print_1.png)
+![](imgs/windows_print_1.jpeg)
 
 
-![](imgs/windows_print_2.png)
+![](imgs/windows_print_2.jpeg)
 
 
 
@@ -7850,7 +7850,7 @@ Let’s get started then. First, you’ll need to open NVivo from your computer.
 
 Or PC:
 
-![](imgs/open_nvivo.png)
+![](imgs/open_nvivo.jpeg)
 
 
 Second, you need to ‘create new project’. So click on the appropriate option. You’ll then need to name and save the project, put it in the same folder as your data:
@@ -7867,7 +7867,7 @@ In Mac:
 
 Or in Windows:
 
-![](imgs/open_windows.png)
+![](imgs/open_windows.jpeg)
 
  
 Everything you do in NVivo saves automatically. However, it’s worthwhile getting into the habit of saving after you do something important, just in case something goes wrong! You can ‘Save’ via the file tab.
@@ -7882,7 +7882,7 @@ At the top of the screen are the ‘ribbon tabs’. In Mac:
 
 In Windows:
 
-![](imgs/ribbon_pc.png)
+![](imgs/ribbon_pc.jpeg)
  
 Ribbon tabs provide access to varying functions.
 
@@ -7908,7 +7908,7 @@ You organise all your research materials in the **‘Navigation View’**. The n
 
 In PC, it may look like this:
 
-![](imgs/interface_pc.png)
+![](imgs/interface_pc.jpeg)
 
 
 ## Navigation View
@@ -8045,7 +8045,7 @@ This will open up the ‘Unnamed Query’ panel in the Detail View. At this poin
  
 This will produce a list of all the words in all your documents and order them according to ‘Count’ i.e. the word with the most hits appears at the top:
 
-![](imgs/word_freq3.png)
+![](imgs/word_freq3.jpeg)
  
 This is not great to look at so what we can do is create a ‘Word Cloud’. Simply choose the ‘Word Cloud’ option at the top of the Detail View and this translates your query into a neat visualisation of the word frequencies:
 
@@ -8065,7 +8065,7 @@ That said, considering all our documents were identified in relation to ‘money
 
 How about we remove ‘money laundering’ from our word frequency query? To do this, you can go back to the ‘Summary’ tab, right click on the word you want to exclude, and then choose ‘Add to Stop Words List’.
 
-![](imgs/add_stop_word.png)
+![](imgs/add_stop_word.jpeg)
  
 Do this for ‘laundering’ as well, then run another query, as above, and see what happens now.
 
@@ -8087,13 +8087,13 @@ To do that, we first need to select the subset of pdf documents we are intereste
 
 Let's start by generating the word cloud for *academic journal articles*. Click on "Selected items", open the "Files" folder, and select only the "academic journal articles folder". Like so:
 
-![](imgs/select_academic.png)
+![](imgs/select_academic.jpeg)
 
 Press "OK", and then "Run Query". Open the Word Cloud, and save it as a jpg file.
 
 Then repeat the same process but selecting only the pdfs in the "media articles" folder.
 
-![](imgs/select_media.png)
+![](imgs/select_media.jpeg)
 
 And once again, press on "Run Query" and save the resulting word cloud.
 
