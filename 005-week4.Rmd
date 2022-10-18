@@ -167,13 +167,13 @@ You can watch [this video](https://www.youtube.com/watch?v=JNm3M9cqWyc) to learn
 Further, something called the **Law of Large Numbers** tells us where the center (maximum point) of the bell is located. Again, as the sample size approaches infinity the center of the distribution of the sample means becomes very close to the population mean. Basically, it means that the larger our sample, to more we can trust that our sample statistic reflects the population parameter. 
 
 
-Give this a go in our heights data in Excel. Let's select a mega sample of 150 people. Let's use odd numbered samples (1, 3 and 5) to do this. Calculate the average height of all the people who are in these 3 samples. To do this, go back to your filtering, and make sure that the boxes next to 1, 3 and 5 are all ticked. Then calculate the average. Add this as a new row in your sheet where you've already calculated all the averages. Pretty close to our population mean, no? 
+Give this a go in our heights data in Excel. Let's select a mega sample of 150 people. Let's use samples 4, 5 and 6 to do this. Calculate the average height of all the people who are in these 3 samples. To do this, go back to your filtering, and make sure that the boxes next to 4, 5 and 6 are all ticked. Then calculate the average. Add this as a new row in your sheet where you've already calculated all the averages. Pretty close to our population mean, no? 
 
 
-Let's try also for the even numbered samples: 2, 4 and 6. Add this as a new row as well. So? Close? We would say so: 
+Let's try also for the rest of samples: 1, 2 and 3. Add this as a new row as well. So? Close? We would say so: 
 
 
-![](imgs/larger_samples.png)
+![](imgs/samples123and456.JPG)
 
 
 
