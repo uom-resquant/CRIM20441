@@ -143,7 +143,7 @@ Let's start with an activity where we engage with a chart.
 
 ### Activity 6.1: What do you think?
 
-Here is a data visualisation that shows the life expectancy of people who live in different continents. In small rooms have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document.
+Here is a data visualisation that shows the life expectancy of people who live in different continents. In small groups have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document.
 
 
 ![](http://socviz.co/assets/ch-02-chartjunk-life-expectancy.png)
