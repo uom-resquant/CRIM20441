@@ -64,7 +64,7 @@ Each element is described in detail below:
 
 For each week you will receive some preliminary reading or videos to watch, before coming to the session. It is very important that you read these before coming to the lab session, as it will make engaging with the lab material easier. Also, you can take the labs as an opportunity to ask questions about the readings, and discuss with us and the teaching assistants during the 2-hour lab sessions.
 
-The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/search-resources/reading-lists/) which you can access from within [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_73767_1&content_id=_14091679_1). 
+The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/services/teaching-services/reading-lists/) which you can access from within [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_15287494_1&course_id=_79473_1). 
 
 #### 2) Pre-recorded lecture videos {-}
 
@@ -72,7 +72,7 @@ These short clips make up the lecture component of the module. They cover key co
 
 #### 3) Lab session {-}
 
-Lab sessions are the two-hour sessions which take every Tuesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials. 
+Lab sessions are the two-hour sessions which take every Wednesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials. 
 
 When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open up the link via Blackboard, and read through the instructions chronologically. That just means start at the top, and read through to the bottom. 
 

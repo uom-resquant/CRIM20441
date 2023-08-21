@@ -5,16 +5,19 @@
 \documentclass[
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -33,14 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Making Sense of Crim Data},
-  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -64,6 +59,7 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
+\usepackage{svg}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -81,10 +77,18 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Making Sense of Crim Data},
+  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2022-11-08}
+\date{2023-08-21}
 
 \begin{document}
 \maketitle
@@ -158,7 +162,7 @@ Each element is described in detail below:
 
 For each week you will receive some preliminary reading or videos to watch, before coming to the session. It is very important that you read these before coming to the lab session, as it will make engaging with the lab material easier. Also, you can take the labs as an opportunity to ask questions about the readings, and discuss with us and the teaching assistants during the 2-hour lab sessions.
 
-The reading list can be found on the University of Manchester \href{https://www.library.manchester.ac.uk/search-resources/reading-lists/}{Library Reading List Online Services} which you can access from within \href{https://online.manchester.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_73767_1\&content_id=_14091679_1}{Blackboard}.
+The reading list can be found on the University of Manchester \href{https://www.library.manchester.ac.uk/services/teaching-services/reading-lists/}{Library Reading List Online Services} which you can access from within \href{https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_15287494_1\&course_id=_79473_1}{Blackboard}.
 
 \hypertarget{pre-recorded-lecture-videos}{%
 \subsubsection*{2) Pre-recorded lecture videos}\label{pre-recorded-lecture-videos}}
@@ -170,7 +174,7 @@ These short clips make up the lecture component of the module. They cover key co
 \subsubsection*{3) Lab session}\label{lab-session}}
 \addcontentsline{toc}{subsubsection}{3) Lab session}
 
-Lab sessions are the two-hour sessions which take every Tuesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials.
+Lab sessions are the two-hour sessions which take every Wednesday on campus. In these labs we work together through the lab notes included in this book. You should take time to engage with these notes, and ask lots of questions to us and the teaching assistants. This is a time to really engage with the materials.
 
 When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open up the link via Blackboard, and read through the instructions chronologically. That just means start at the top, and read through to the bottom.
 
@@ -2871,7 +2875,7 @@ But first, to calculate the z-score, our data needs to meet some assumptions. Fi
 
 You can identify a normal distribution, because it follows a normal distribution curve, also called a \emph{bell curve}:
 
-\includegraphics{https://www.mathsisfun.com/data/images/normal-distribution-1.svg}
+\includesvg{https://www.mathsisfun.com/data/images/normal-distribution-1.svg}
 
 How do you test if your numeric variable is normally distributed? Well, for now we can simply decide this by plotting it in a histogram, and see if it (roughly) looks like it follows a bell-curve shape or not. So let's build a histogram of our height variable. Do you remember how to do this? If not, look back to our week of univariate analysis. You will need 3 things: your data, the data analysis toolpak, and a list of bins. You can choose whatever bins you like - we went for 5 cm intervals. Our histogram looks like this:
 

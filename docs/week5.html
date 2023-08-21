@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 5 Week 5 | Making Sense of Crim Data</title>
   <meta name="description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the Universit of Manchester" />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 5 Week 5 | Making Sense of Crim Data" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)" />
 
 
-<meta name="date" content="2022-11-08" />
+<meta name="date" content="2023-08-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,6 +55,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -564,9 +568,9 @@ the importance to separate confirmatory vs exploratory research.</p>
 <div id="activity-5.3-random-assignment" class="section level3 hasAnchor" number="5.4.1">
 <h3><span class="header-section-number">5.4.1</span> Activity 5.3: Random assignment<a href="week5.html#activity-5.3-random-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>How does random assignment work? Well, we could achieve this by going old-school, and writing everyone’s name on a piece of paper, and drawing the names out of a hat. But here we will use Excel’s ability to programmatically assign people into treatment or control. You are all Excel pros by now, with your formulas, and your lookups and pivot tables. So might as well hone these skills some more.</p>
-<div class="figure">
-<img src="http://resources.infosecinstitute.com/wp-content/uploads/121411_1611_SecureRando1.png" alt="" />
-<p class="caption"><a href="http://dilbert.com/strip/2001-10-25" class="uri">http://dilbert.com/strip/2001-10-25</a></p>
+<div class="float">
+<img src="http://resources.infosecinstitute.com/wp-content/uploads/121411_1611_SecureRando1.png" alt="http://dilbert.com/strip/2001-10-25" />
+<div class="figcaption"><a href="http://dilbert.com/strip/2001-10-25" class="uri">http://dilbert.com/strip/2001-10-25</a></div>
 </div>
 <p>To have random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let’s say we want to assign two groups. We want to assign people to a <strong>control group</strong> and a <strong>treatment group</strong>. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics <em>except</em> in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be for example if you were asking people to <em>self-select</em> into treatment or control. If people were given the chance to volunteer (<em>self-select</em>) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.</p>
 <p>Let’s say we have our sample of people who will be assigned either to the treatment group, of receiving the Scared Straight treatment, or the control group, who do not have to go through this treatment. Well let’s say we have our class here. We’ve got a total of 100 students enrolled in the class. Go ahead and download this list, from Blackboard. You can find it under the data folder for module week 5, it is called <code>student.xlsx</code>.</p>
@@ -948,7 +952,7 @@ A longitudinal study generally yields multiple or “repeated” measurements on
 <p>Double click on the little blue square on the bottom right hand of the blue frame around this cell to copy the formula all the way to the bottom.</p>
 <p>To get the other two columns from the same sheet, you use the <em>exact same formula</em> except you change the column index number. Does it make sense why you do this? Because you’re grabbing a <em>different column</em>. You’re always grabbing the one that corresponds to your header, which you’ve copied over. If this is unclear make sure to raise your hand, so we can go through this. It’s worth going through it even if you feel like you get it, as you will be doing this again in your task, and it’s something much easier explained in person!</p>
 <p>So now, copy the formula for the next two columns, change the column index number to 3 and to 4 as appropriate:</p>
-<p><img src="imgs/VLOOKUP.JPG" /></p>
+<p><img src="imgs/VLOOKUP.jpg" /></p>
 <p>and you will see the values for each person from both wave 1 and wave 2 in there:</p>
 <p><img src="imgs/nas_present.png" /></p>
 <p>You can see that for some rows, in wave 2 we have a value of <code>#N/A</code>. This is because, that NSID is <em>not</em> found in the wave 2 data.</p>
