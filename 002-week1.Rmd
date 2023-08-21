@@ -20,7 +20,7 @@ If you feel like you don't have any questions, we still encourage you to check t
 
 ### Activity 1: Posting on the discussion board
 
-All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/discussionboard/do/conference?toggle_mode=read&action=list_forums&course_id=_73767_1&nav=discussion_board_entry).
+All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/discussionboard/do/conference?toggle_mode=edit&action=list_forums&course_id=_79473_1&nav=discussion_board_entry&mode=cpview).
 
 Here you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For subject put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us, either a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
 
@@ -280,7 +280,7 @@ Let's have a go at recording some data observations and putting them into a data
 <!--Often you will have data readily created for you, such as we saw with the police.uk data set, which can be downloaded in the rectangle format, where your columns are your variables, and your rows are your observations. But data can take many forms. So we will have a go at dealing with some data that comes in a very unruly form: tweets!-->
 
 
-<span style="color:#d95f02"> You will get a better understanding of how data represents what you are measuring if you have a go at building your own dataset. We will do this here by using data from [Twitter](https://twitter.com/home). You are most likely familiar with Twitter. You probably even tweet yourself. But even if you have never used Twitter, you will no doubt know someone who does. In fact, many police forces use Twitter. Greater Manchester Police (GMP) is one of these forces, and in particular, GMP City Centre like to keep their followers updated. Recently, the Manchester Evening News had an article based on following GMP City Centre's tweets for one Saturday night. [You can read about that here](http://www.manchestereveningnews.co.uk/news/greater-manchester-news/what-police-city-centre-deal-13441129). 
+<span style="color:#d95f02"> You will get a better understanding of how data represents what you are measuring if you have a go at building your own dataset. We will do this here by using data from [X (formerly known as Twitter)](https://twitter.com/home). You are most likely familiar with Twitter. You probably even tweet yourself. But even if you have never used Twitter (recently renamed as "X"), you will no doubt know someone who does. In fact, many police forces use Twitter. Greater Manchester Police (GMP) is one of these forces, and in particular, GMP City Centre like to keep their followers updated. Recently, the Manchester Evening News had an article based on following GMP City Centre's tweets for one Saturday night. [You can read about that here](http://www.manchestereveningnews.co.uk/news/greater-manchester-news/what-police-city-centre-deal-13441129). 
 
 
 Evidently, tweets present really exciting and rich data. However they do not come in a format that is readily available for analysis in the form that we just presented here. But what you can do is collect data from tweets. And this is your task for your first lab activity.
@@ -475,7 +475,7 @@ Is there anything else that you would include? Why or why not? Have a think, and
 
 
 
-Similarly, access to anonymised crime data through [www.police.uk](www.police.uk), which you just downloaded, allows us to ask questions about levels of crime in our local area, and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions that we might have - such as, which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
+Similarly, access to anonymised crime data through [www.police.uk](https://www.police.uk), which you just downloaded, allows us to ask questions about levels of crime in our local area, and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions that we might have - such as, which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
 
 
 To answer these questions we need **data**. The data you can see above, on crimes that fall under GMP between May 2016 and May 2017 can be used to measure crime during this time period in this area. You can access the data dictionary for these data on the police.uk site at [https://data.police.uk/about/#columns](https://data.police.uk/about/#columns). 

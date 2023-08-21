@@ -197,11 +197,6 @@ Disadvantages
 
 How does random assignment work? Well, we could achieve this by going old-school, and writing everyone's name on a piece of paper, and drawing the names out of a hat. But here we will use Excel's ability to programmatically assign people into treatment or control.  You are all Excel pros by now, with your formulas, and your lookups and pivot tables. So might as well hone these skills some more. 
 
-
-![http://dilbert.com/strip/2001-10-25](http://resources.infosecinstitute.com/wp-content/uploads/121411_1611_SecureRando1.png)
-
-
-
 To have random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let's say we want to assign two groups. We want to assign people to a **control group** and a **treatment group**. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics *except* in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be for example if you were asking people to *self-select* into treatment or control. If people were given the chance to volunteer (*self-select*) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.  
 
 
