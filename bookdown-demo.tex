@@ -88,7 +88,7 @@
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2023-08-21}
+\date{2023-09-22}
 
 \begin{document}
 \maketitle
@@ -240,16 +240,17 @@ The first thing you need to do is to create a working environment for yourself, 
 
 There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein:
 
-\includegraphics{imgs/einstein_desk.jpg}
+\includegraphics[width=13.33in]{imgs/einstein_desk}
 
 However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with these famous work spaces of: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
-\includegraphics{imgs/galileo_desk.jpg} \includegraphics{imgs/marie_curie.jpg} \includegraphics{imgs/Dalton_John_desk.jpg} \includegraphics{imgs/alan_turing_desk.jpg}
+\includegraphics[width=3.28in]{imgs/galileo_desk}
+\includegraphics[width=3.28in]{imgs/marie_curie}
+\includegraphics[width=6.28in]{imgs/Dalton_John_desk}
+\includegraphics[width=6.94in]{imgs/alan_turing_desk}
 
 \begin{figure}
-\centering
-\includegraphics{imgs/charles_dickens_desk.jpg}
-\caption{\label{fig:unnamed-chunk-4}\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces}
+\includegraphics[width=6.94in]{imgs/charles_dickens_desk} \caption{\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces}\label{fig:unnamed-chunk-4}
 \end{figure}
 
 When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised.
@@ -475,9 +476,9 @@ You will see this open in a new window. Now let's try to find the value for each
 \item
   \emph{Tweet}: Man left £1000 Stella McCartney bag on seat in Village bar with person he had just met, and when returned, woman and his bag had gone
 \item
-  \emph{Likes}: 14
+  \emph{Likes}: 43
 \item
-  \emph{Retweets}: 43
+  \emph{Retweets}: 14
 \item
   \emph{Comments}: 20
 \end{itemize}
@@ -512,7 +513,7 @@ Once you have entered all these, you should have a pretty solid set of tweets, l
 
 \includegraphics{imgs/gmp_tweets.png}
 
-While entering your data, you probably noticed that there was variation in when the tweets were made, how much likes and retweets they received, and possibly also started interpreting the meaning of the tweet. Some of them disseminate stats, for example, about the number of arrests, or share information about an operation. Some appeal for information, for example, about the woman wanted for questions about the racial abuse incident. And some are just one-off cases presented to the public.
+While entering your data, you probably noticed that there was variation in when the tweets were made, how much likes and retweets they received, and possibly also started interpreting the meaning of the tweet. Some of them disseminate stats, for example, about the number of arrests, or share information about an operation. Some appeal for information. And some are just one-off cases presented to the public.
 
 But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.
 

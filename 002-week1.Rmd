@@ -323,8 +323,8 @@ You will see this open in a new window. Now let's try to find the value for each
 - *Hour*: 06
 - *Account*: GMPCityCentre
 - *Tweet*: Man left £1000 Stella McCartney bag on seat in Village bar with person he had just met, and when returned, woman and his bag had gone
-- *Likes*: 14
-- *Retweets*: 43
+- *Likes*: 43
+- *Retweets*: 14
 - *Comments*: 20
 
 
@@ -358,7 +358,7 @@ Once you have entered all these, you should have a pretty solid set of tweets, l
 ![](imgs/gmp_tweets.png)
 
 
-While entering your data, you probably noticed that there was variation in when the tweets were made, how much likes and retweets they received, and possibly also started interpreting the meaning of the tweet. Some of them disseminate stats, for example, about the number of arrests, or share information about an operation. Some  appeal for information, for example, about the woman wanted for questions about the racial abuse incident. And some are just one-off cases presented to the public. 
+While entering your data, you probably noticed that there was variation in when the tweets were made, how much likes and retweets they received, and possibly also started interpreting the meaning of the tweet. Some of them disseminate stats, for example, about the number of arrests, or share information about an operation. Some  appeal for information. And some are just one-off cases presented to the public. 
 
 
 But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.
