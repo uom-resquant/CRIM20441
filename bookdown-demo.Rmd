@@ -1797,7 +1797,7 @@ Once you have filled these fields, also click the tick-box next to the `Chart ou
 
 Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
 
-####Histograms in Excel without the data analysis toolpak
+###Activity 2.6(b): Histograms in Excel without the data analysis toolpak
 
 If you could not install the data analysis toolpak in your device, you can still produce a beautiful histogram by following the instructions below. **If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.**
 
