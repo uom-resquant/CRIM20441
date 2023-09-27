@@ -88,7 +88,7 @@
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2023-09-22}
+\date{2023-09-27}
 
 \begin{document}
 \maketitle
@@ -1592,7 +1592,7 @@ So once you've decided on your bin width, you have to tell excel what you would 
 
 \includegraphics{imgs/bin_col.png}
 
-The other thing you will need, besides to decide on some bins, is to use the data analysis toolpak. You will have installed this in the lab session last week. If you didn't, then refer back to the notes for last week on how to do this.
+The other thing you will need, besides to decide on some bins, is to use the data analysis toolpak. You will have installed this in the lab session last week. \textbf{If you could not install the data analysis toolpak on week one, you can scroll down to the section `Histograms in Excel without the data analysis toolpak'.}
 
 If you have the data analysis toolpak installed, then go back to your pivot table of number of crimes per borough, and select the ``Data'' tab. Then click on the ``Data Analysis'' icon at the top right:
 
@@ -1611,6 +1611,44 @@ Then do the same for the bin range, but select the bin range variables:
 Once you have filled these fields, also click the tick-box next to the \texttt{Chart\ output} option. When this is ticked as well, just click ``OK''. Your histogram is now ready, and should appear in a new sheet on your excel workbook:
 
 \includegraphics{imgs/hist_appears.png}
+
+Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this.
+
+\#\#\#\#Histograms in Excel without the data analysis toolpak
+
+If you could not install the data analysis toolpak in your device, you can still produce a beautiful histogram by following the instructions below. \textbf{If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.}
+
+First, you will need to select the resulting pivot table with the names of boroughs and count of crimes, and copy and paste this table in a new spreadsheet. You can do this by selecting the table, clicking Ctrl+C, opening a new spreadsheet, and copying the values (without format) in it. Like this:
+
+\includegraphics{imgs/copy_paste.png}
+
+The resulting table should look like this:
+\includegraphics{imgs/result_paste.png}
+
+Once this is done, we will need to add one small change manually. We are not interested in including the `Grand total' in our histogram (it is not one our our units units of analysis) but the sum of the totals across observations). However, we will need to manually tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is\ldots{} 0. We will remove `Grand total' and `420082', and add `Minimum' and `0' instead.
+
+\includegraphics{imgs/minumum_0.png}
+
+Now, we can select all values in the `Count of borough' column, and create out histogram.
+
+\includegraphics{imgs/select_column.png}
+
+From within the `Insert' menu, find the `Insert static chart' image, and select the `Histogram' option:
+
+\includegraphics{imgs/static_chart_arrow.png}
+
+\includegraphics{imgs/histogram.png}
+
+The resulting histogram doesn't quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x axis labels (the ones under the graph), and select the option `Format axis\ldots{}'
+
+\includegraphics{imgs/select_format_axis.png}
+
+And now we can change the width of bins to 10,000, just as the example above.
+
+\includegraphics{imgs/bin_width.png}
+The resulting histogram looks great!
+
+\includegraphics{imgs/final_hist.png}
 
 Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this.
 
@@ -2881,6 +2919,9 @@ You can identify a normal distribution, because it follows a normal distribution
 How do you test if your numeric variable is normally distributed? Well, for now we can simply decide this by plotting it in a histogram, and see if it (roughly) looks like it follows a bell-curve shape or not. So let's build a histogram of our height variable. Do you remember how to do this? If not, look back to our week of univariate analysis. You will need 3 things: your data, the data analysis toolpak, and a list of bins. You can choose whatever bins you like - we went for 5 cm intervals. Our histogram looks like this:
 
 \includegraphics{imgs/histo.png}
+Or like this if you create it without the data analysis toolpak:
+
+\includegraphics{imgs/hist_alternative.png}
 
 Looks like to us this follows our normal distribution curve. There are also numeric ways that test whether our data follows a normal distribution or not, and also ways that you can manipulate the data to make it follow a normal distribution curve, but we don't cover those just yet. For now we will rely on our eyeball measure - does this \emph{look} like it follows a bell curve? We think it does. So now that we know that our numeric variable of height meets the assumptions that it's numeric, and also it follows a normal distribution, we can calculate z-scores for each individual height.
 

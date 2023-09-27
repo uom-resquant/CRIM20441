@@ -23,7 +23,7 @@
 <meta name="author" content="Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)" />
 
 
-<meta name="date" content="2023-09-22" />
+<meta name="date" content="2023-09-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -851,7 +851,7 @@
 <p>There is no wrong answer here, but you want to choose a bin width that will make a histogram that will best protray the story you want to tell with your data.</p>
 <p>So once you’ve decided on your bin width, you have to tell excel what you would like this to be. You can to this by creating a new column, called bin, and putting your bins in there. So let’s pick 10,000 for this example. In this case you would enter the bins like this:</p>
 <p><img src="imgs/bin_col.png" /></p>
-<p>The other thing you will need, besides to decide on some bins, is to use the data analysis toolpak. You will have installed this in the lab session last week. If you didn’t, then refer back to the notes for last week on how to do this.</p>
+<p>The other thing you will need, besides to decide on some bins, is to use the data analysis toolpak. You will have installed this in the lab session last week. <strong>If you could not install the data analysis toolpak on week one, you can scroll down to the section ‘Histograms in Excel without the data analysis toolpak’.</strong></p>
 <p>If you have the data analysis toolpak installed, then go back to your pivot table of number of crimes per borough, and select the “Data” tab. Then click on the “Data Analysis” icon at the top right:</p>
 <p><img src="imgs/dat_loc.png" /></p>
 <p>Click on that and from the pop-up window select “Histogram”. Then click “OK”:</p>
@@ -861,6 +861,26 @@
 <p><img src="imgs/build_histo.gif" /></p>
 <p>Once you have filled these fields, also click the tick-box next to the <code>Chart output</code> option. When this is ticked as well, just click “OK”. Your histogram is now ready, and should appear in a new sheet on your excel workbook:</p>
 <p><img src="imgs/hist_appears.png" /></p>
+<p>Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this.</p>
+<p>####Histograms in Excel without the data analysis toolpak</p>
+<p>If you could not install the data analysis toolpak in your device, you can still produce a beautiful histogram by following the instructions below. <strong>If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.</strong></p>
+<p>First, you will need to select the resulting pivot table with the names of boroughs and count of crimes, and copy and paste this table in a new spreadsheet. You can do this by selecting the table, clicking Ctrl+C, opening a new spreadsheet, and copying the values (without format) in it. Like this:</p>
+<p><img src="imgs/copy_paste.png" /></p>
+<p>The resulting table should look like this:
+<img src="imgs/result_paste.png" /></p>
+<p>Once this is done, we will need to add one small change manually. We are not interested in including the ‘Grand total’ in our histogram (it is not one our our units units of analysis) but the sum of the totals across observations). However, we will need to manually tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is… 0. We will remove ‘Grand total’ and ‘420082’, and add ‘Minimum’ and ‘0’ instead.</p>
+<p><img src="imgs/minumum_0.png" /></p>
+<p>Now, we can select all values in the ‘Count of borough’ column, and create out histogram.</p>
+<p><img src="imgs/select_column.png" /></p>
+<p>From within the ‘Insert’ menu, find the ‘Insert static chart’ image, and select the ‘Histogram’ option:</p>
+<p><img src="imgs/static_chart_arrow.png" /></p>
+<p><img src="imgs/histogram.png" /></p>
+<p>The resulting histogram doesn’t quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x axis labels (the ones under the graph), and select the option ‘Format axis…’</p>
+<p><img src="imgs/select_format_axis.png" /></p>
+<p>And now we can change the width of bins to 10,000, just as the example above.</p>
+<p><img src="imgs/bin_width.png" />
+The resulting histogram looks great!</p>
+<p><img src="imgs/final_hist.png" /></p>
 <p>Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this.</p>
 </div>
 <div id="five-number-summary" class="section level3 hasAnchor" number="2.4.6">

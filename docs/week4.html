@@ -23,7 +23,7 @@
 <meta name="author" content="Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)" />
 
 
-<meta name="date" content="2023-09-22" />
+<meta name="date" content="2023-09-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -629,7 +629,9 @@
 <p>You can identify a normal distribution, because it follows a normal distribution curve, also called a <em>bell curve</em>:</p>
 <p><img src="https://www.mathsisfun.com/data/images/normal-distribution-1.svg" /></p>
 <p>How do you test if your numeric variable is normally distributed? Well, for now we can simply decide this by plotting it in a histogram, and see if it (roughly) looks like it follows a bell-curve shape or not. So let’s build a histogram of our height variable. Do you remember how to do this? If not, look back to our week of univariate analysis. You will need 3 things: your data, the data analysis toolpak, and a list of bins. You can choose whatever bins you like - we went for 5 cm intervals. Our histogram looks like this:</p>
-<p><img src="imgs/histo.png" /></p>
+<p><img src="imgs/histo.png" />
+Or like this if you create it without the data analysis toolpak:</p>
+<p><img src="imgs/hist_alternative.png" /></p>
 <p>Looks like to us this follows our normal distribution curve. There are also numeric ways that test whether our data follows a normal distribution or not, and also ways that you can manipulate the data to make it follow a normal distribution curve, but we don’t cover those just yet. For now we will rely on our eyeball measure - does this <em>look</em> like it follows a bell curve? We think it does. So now that we know that our numeric variable of height meets the assumptions that it’s numeric, and also it follows a normal distribution, we can calculate z-scores for each individual height.</p>
 <p>To calculate the z-score, we just need to subtract the mean from the score, and then divide the result by the standard deviation:</p>
 <p><span class="math inline">\(z = (score - mean) / standard deviation\)</span></p>
