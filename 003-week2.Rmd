@@ -852,34 +852,48 @@ First, you will need to select the resulting pivot table with the names of borou
 ![](imgs/copy_paste.png)
 
 The resulting table should look like this:
+
+
 ![](imgs/result_paste.png)
 
 
-Once this is done, we will need to add one small change manually. We are not interested in including the 'Grand total' in our histogram (it is not one our our units units of analysis) but the sum of the totals across observations). However, we will need to manually tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is... 0. We will remove 'Grand total' and '420082', and add 'Minimum' and '0' instead.
+Once this is done, we will need to manually add one small change in our data. We are not interested in including the 'Grand total' in our histogram (it is not one our our units units of analysis, but the sum of the totals across observations). However, we will need to tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is... 0. We will remove 'Grand total' and '420082', and add 'Minimum' and '0' instead in our dataset.
+
 
 ![](imgs/minumum_0.png)
 
 
 Now, we can select all values in the 'Count of borough' column, and create out histogram.
 
+
 ![](imgs/select_column.png)
 
 From within the 'Insert' menu, find the 'Insert static chart' image, and select the 'Histogram' option:
 
+
 ![](imgs/static_chart_arrow.png)
+
 
 ![](imgs/histogram.png)
 
+
 The resulting histogram doesn't quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x axis labels (the ones under the graph), and select the option 'Format axis...'
+
 
 ![](imgs/select_format_axis.png)
 
+
 And now we can change the width of bins to 10,000, just as the example above.
 
+
 ![](imgs/bin_width.png)
+
+
 The resulting histogram looks great!
 
+
 ![](imgs/final_hist.png)
+
 
 Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
 

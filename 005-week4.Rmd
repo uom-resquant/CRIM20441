@@ -471,7 +471,7 @@ How do you test if your numeric variable is normally distributed? Well, for now 
 ![](imgs/histo.png)
 Or like this if you create it without the data analysis toolpak:
 
-![](imgs/hist_alternative.png)
+![](imgs/hist_width5.png)
 
 
 
