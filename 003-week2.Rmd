@@ -30,19 +30,19 @@ Ready? OK, we can tell you now. Actually, according to this most recent count of
 
 ## Univariate analysis
 
-You want to analyse your variable. As you have likely pieced together by now,  *uni*variate analysis simply just means - the analysis of *one* variable. We are giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variable analysis which is the analysis of the relationship between *more than two* variables!!!
+You want to analyse your variable. As you have likely pieced together by now,  *uni*variate analysis simply just means - the analysis of *one* variable. We are giving you a sneak peak into next week's session now by telling you that *bi*variate analysis means that you are looking into the relationship between *two* variables...! And just you wait until we get to *multi*variate analysis which is the analysis of the relationship between *more than two* variables!!!
 
 
 So, just remember - uni = one, bi = two, and multi = many. That's it, no need to count past two. We data analysts are very lazy people, you will begin to figure this out as we go. 
 
 
-Right, now that we are confident with out terminology, let's think about what we can do, in order to carry out some univariate analysis. As mentioned, univariate analysis is the analysis of one variable. So we know that we want to be able to talk about *one* variable in our data set. For this we will need to select a variable we want to talk about. Often this will depend on the question being asked. So for example, if someone asked you the question "How many more men than women are in prison currently in England and Wales?" you can begin to think about the variable you will have to analyse - perhaps the variable of **gender**. But once you've picked your variable, how do you analyse it? That is what today will be about. 
+Right, now that we are confident with our terminology, let's think about what we can do, in order to carry out some univariate analysis. As mentioned, univariate analysis is the analysis of one variable. So we know that we want to be able to talk about *one* variable in our data set. For this we will need to select a variable we want to talk about. Often this will depend on the question being asked. So for example, if someone asked you the question "How many more men than women are in prison currently in England and Wales?" you can begin to think about the variable you will have to analyse - perhaps the variable of **gender**. But once you've picked your variable, how do you analyse it? That is what today will be about. 
 
 
 ### The importance of level of measurement
 
 
-Do you remember when we spoke about **levels of measurement** last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were **nominal**, **ordinal**, or **numeric**. If it still doesn't ring a bell, go back to last week's lab and `ctrl + f` for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate: 
+Do you remember when we spoke about **levels of measurement** last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were **nominal**, **ordinal**, or **numeric**. If it still doesn't ring a bell, go back to last week's lab and `ctrl + f` (or `command + f` for Mac) for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate: 
 
 
 
@@ -93,7 +93,7 @@ It should open up like this, with your **variable** names as column headers:
 ![](imgs/open_gmp_crimes.png)
 
 
-Under the column headers you have your `r I(nrow(gmp_crimes))` rows, one for each of the `r I(nrow(gmp_crimes))` crimes in your data. Recall that these are your **observations**. Also, that therefore your **unit of analysis** in this data at this moment is each individual crime. 
+Under the column headers you have your **420082** rows, one for each of the **420082** crimes in your data. Recall that these are your **observations**. Also, that therefore your **unit of analysis** in this data at this moment is each individual crime. 
 
 
 Anyway, let's say we want to talk about your variables. For instance, you may want to talk about the variable **crime type**. 
@@ -128,7 +128,7 @@ Here's an example of a frequency table. Let's say we have this data set of waite
 You can see here again that every row represents one waiter or waitress. We have even put in a little picture of each of them, to make it more personal. You can see them all now, forming rows of your data. You can also see one column, for the one variable here, which is gender. For each person we only recorded their gender, because for now, that's all we are interested in. We want to look at the gender of waiters and waitresses at Lil' Bits. Maybe we think that the manager is sexist and hires only females. Maybe we want to work out the likelihood of having a male waiter. Whatever our motivation, we just want to know!!! We want to know the number of men, and the number of women who work there. And it really is as simple as that - all we do is count the occurrence of each value of the variable, and then summarise that count in a table. 
 
 
-In this case, we could the number of times that we record 'female' value for the gender variable, and then the number of times that we record 'male' value for the gender variable, and then we say that there are 3 females and 2 males in our data. That's it. That's a frequency table! You build it by simply counting the number of times each value is present in the data frame. Because if each row is an observation, then every time you see 'female' in the gender column accounts for one observation of this value - one female waitress. 
+In this case, we could count the number of times that we record 'female' value for the gender variable, and then the number of times that we record 'male' value for the gender variable, and then we say that there are 3 females and 2 males in our data. That's it. That's a frequency table! You build it by simply counting the number of times each value is present in the data frame. Because if each row is an observation, then every time you see 'female' in the gender column accounts for one observation of this value - one female waitress. 
 
 
 We have even made a gif to illustrate the process, something like this: 
@@ -138,7 +138,7 @@ We have even made a gif to illustrate the process, something like this:
 
 
 
-We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However, in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the `r I(nrow(gmp_crimes))` rows in your GMP crimes data.
+We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However, in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the 420082 rows in your GMP crimes data.
 
 
 Luckily, Excel makes this much easier for us. 
@@ -192,7 +192,7 @@ Now, when you click OK, Excel should take you to the new worksheet where it has 
 
 
 
-It might also open a toolbar on the side, but it might not do this automatically. In any case, if the toolbar ever disappears, to summon it you have to do one simple step, which is to click *anywhere* inside the pivot tabe area: 
+It might also open a toolbar on the side, but it might not do this automatically. In any case, if the toolbar ever disappears, to summon it you have to do one simple step, which is to click *anywhere* inside the pivot table area: 
 
 
 ![](imgs/pivot_shell.png)
@@ -232,7 +232,7 @@ Now you will see that a new column appeared with the frequency values, letting y
 We can see that the most frequent crime type in the data set is 'Anti-social behaviour'. This makes anti-social behaviour **the modal category**. The mode is the most frequent score in our data set. It is possible for there to be more than one mode for the same distribution of data, (bi-modal, or multi-modal). It would be possible that there were the same number of crimes recorded in two crime type categories. But in this case, anti-social behaviour is the **mode**. It is the most frequently appearing value for the crime type variable. It is the most frequently occuring crime type. 
 
 
-But how much of all crimes does 'Anti-social behaviour' account for? When we are talking about your variables, we normally want to give detail and context, so that we tell a comprehensive, and easy to understand story with our data. We can at this stage say that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,443 incidents recorded by GMP. But *how much* is that? Well we can introduce another column to our pivot table, that tells us more about the **proportion** of all crimes that each crime type accounts for. 
+But how much of all crimes does 'Anti-social behaviour' account for? When we are talking about your variables, we normally want to give detail and context, so that we tell a comprehensive, and easy to understand story with our data. We can at this stage say that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,399 incidents recorded by GMP. But *how much* is that? Well we can introduce another column to our pivot table, that tells us more about the **proportion** of all crimes that each crime type accounts for. 
 
 
 To do this, drag from the top, the variable Crime Type into the values box once more: 
@@ -240,7 +240,7 @@ To do this, drag from the top, the variable Crime Type into the values box once 
 ![](imgs/drag_perc_valu.gif)
 
 
-You will see a third column appear, identical to the second one, with the frequencies. To turn this into percent values, click on the little downwards arrow on the yellow box of the value you just dragged into the values box: 
+You will see a third column appear, identical to the second one, with the frequencies. To turn this into percent values, click on the little downwards arrow on the yellow box of the value you just dragged into the values box (**some of these steps may look slightly different if you are working on a Mac**): 
 
 
 ![](imgs/down_arrow_perc.png)
