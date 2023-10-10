@@ -918,8 +918,8 @@ Regarding descriptive statistics to explore the relationship between two numeric
 
 What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around, and never offend again. In other words, we are thinking that either **as age of 1st arrest decreases, number of arrests will increase**, or we think that **as age of 1st arrest decreases, number of arrests will also decrease**. These two scenarios describe two different kinds of relationships, a positive relationship or a negative relationship. In either scenario we assume that as one goes up the other one goes up or as one goes up the other one goes down, but that this takes a linear relationship. If you imagine one numeric variable across the x axis and another cross the y axis, a positive and a negative relationship would look something like this: 
 
+![](imgs/pos_neg.png)
 
-![](http://www.statisticshowto.com/wp-content/uploads/2015/08/lin-rel.png)
 
 
 *Note:* 
