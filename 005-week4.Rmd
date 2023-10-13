@@ -35,7 +35,7 @@ This distinction might seem intuitive, but whether we're talking about our popul
 ## Population parameters versus sample statistics
 
 
-*Hold on a second!* Population parameter? But so far we have only been talking about samples? Well, this week we also discuss sampling, right? And the differences between sample statistics and population parameters.  A statistic and a parameter are very similar. They are both descriptions of groups, like “50% of dog owners prefer X Brand dog food.” The difference between a statistic and a parameter is that statistics describe a sample. A parameter describes an entire population. (You might recall this from week 1 readings.)
+*Hold on a second!* Population parameter? But so far we have only been talking about samples? Well, this week we also discuss sampling, right? And the differences between sample statistics and population parameters.  A statistic and a parameter are very similar. They are both descriptions of groups, like “50% of dog owners prefer X Brand dog food.” The difference between a statistic and a parameter is that statistics describe a sample. A parameter describes an entire population (you might recall this from week 1 readings).
 
 
 For example, say you want to know the mean income of the subscribers to a particular magazine—a parameter of a population. You draw a random sample of 100 subscribers and determine that their mean income is \$27,500 (a statistic). You conclude that the population mean income $μ$ is likely to be close to $27,500 as well. This example is one of **statistical inference**.
@@ -263,8 +263,7 @@ It's important that you play along and do this step. We'll wait here while you d
 OK, ready? Great, now let's test your conceptualisation of hate speech. *Relying strictly on the way that you conceptualised hate crime in the steps above*, for each of the following tweets, record whether it would be included in your study as exhibiting hate speech or not: 
 
 
-![](http://www.pressgazette.co.uk/wp-content/uploads/2017/05/Katie-Hopkins-Western-Men-TWEET.jpg)
-
+![](imgs/katie1.png)
 
 
 What about this one?
@@ -274,16 +273,14 @@ What about this one?
 
 And finally this third one?
 
-
-![](http://www.pressgazette.co.uk/wp-content/uploads/2017/05/hoops.jpg)
-
+![](imgs/katie3.png)
 
 
 Would you categorise these tweets as hate speech according to your criteria that you wrote out above? Why or why not? In fact, the included tweets have all been considered hateful by various people (see [here for the first and last one](http://www.pressgazette.co.uk/katie-hopkins-leaving-lbc-radio-effective-immediately-station-announces/), and [here about the second one](http://www.bbc.co.uk/news/uk-scotland-glasgow-west-30641705)). But when you are studying a concept as complex as hate speech, it's important that you can justify why or why not you include something as hate speech.  
 
 
 
-Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since we wrote this, you might be aware Katie Hopkins has been permanently banned from Twitter for her hateful comments...!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study?  Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
+Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since we wrote this, you might be aware Katie Hopkins was permanently banned from Twitter (now 'X' for her hateful comments...!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study?  Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
 
 
 If you did, that is very impressive. If you did not, don't despair, hate speech is a very complex concept, and therefore tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crime, and generally they reflect the core belief that hate crime policy should support a basic human right to be free from crime fueled by hostility because of an individual’s personal characteristics, but even in legislation this is quite hard to pin down.
@@ -624,7 +621,7 @@ Here we will consider scales for creating composite variables from numeric indic
  A lot of criminological research uses multi-item scales to measure constructs. For example we saw in the paper earlier how the constructs of *cooperation with the police* or *cooperation with the community* were measured through asking various questions which were compiled together into these variables.
 
 
-One primary technique for measuring concepts important for theory development is the use of multi-item scales. In many cases, single-item questions pertaining to a construct are not reliable and should not be used in drawing conclusions. There have been examination of the performance of single-item questions versus multi-item scales in terms of reliability, and [By comparing the reliability of a summated, multi-item scale versus a single-item question, the authors show how unreliable a single item is; and therefore it is not appropriate to make inferences based upon the analysis of single-item questions which are used in measuring a construct](https://scholarworks.iupui.edu/handle/1805/344). 
+One primary technique for measuring concepts important for theory development is the use of multi-item scales. In many cases, single-item questions pertaining to a construct are not reliable and should not be used in drawing conclusions. There have been examination of the performance of single-item questions versus multi-item scales in terms of reliability, and [By comparing the reliability of a summated, multi-item scale versus a single-item question, the authors show how unreliable a single item is; and therefore it is not appropriate to make inferences based upon the analysis of single-item questions which are used in measuring a construct](http://pioneer.netserv.chula.ac.th/~ppongsa/2013605/Cronbach.pdf). 
 
 
 
@@ -932,8 +929,8 @@ Like so:
 
 So that leaves us a value of 0.79. So what does this mean? Well it's a value between 0 and 1, so obviously 0 is the absolute worst, and 1 is the perfect score. But what sorts of scores are realistic? Well it depends on the concept you're measuring most likely. But in terms of acceptable thresholds, here is some guidance: 
 
+![](imgs/cronbach.png)
 
-![](http://www.statisticshowto.com/wp-content/uploads/2014/12/CA2.png)
 
 
 Our value is acceptable, and so we can rest assured, that these three indicators all tap in to a relatively similar thing, and we can use this result as our justification for bringing them together as multi-item indicators for feeling unsafe in one's neighbourhood. 
