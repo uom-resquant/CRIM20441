@@ -5,19 +5,16 @@
 \documentclass[
 ]{book}
 \usepackage{amsmath,amssymb}
+\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
+  \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else
-  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -36,6 +33,14 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Making Sense of Crim Data},
+  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -59,7 +64,6 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-\usepackage{svg}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -77,18 +81,10 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-\hypersetup{
-  pdftitle={Making Sense of Crim Data},
-  pdfauthor={Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
 
 \title{Making Sense of Crim Data}
 \author{Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)}
-\date{2023-09-27}
+\date{2023-10-13}
 
 \begin{document}
 \maketitle
@@ -1055,16 +1051,16 @@ Ready? OK, we can tell you now. Actually, according to this most recent count of
 \hypertarget{univariate-analysis}{%
 \section{Univariate analysis}\label{univariate-analysis}}
 
-You want to analyse your variable. As you have likely pieced together by now, \emph{uni}variate analysis simply just means - the analysis of \emph{one} variable. We are giving you a sneak peak into next week's session now by telling you that \emph{bi}variate analysis means that you are looking into the relationship between \emph{two} variables\ldots! And just you wait until we get to \emph{multi}variable analysis which is the analysis of the relationship between \emph{more than two} variables!!!
+You want to analyse your variable. As you have likely pieced together by now, \emph{uni}variate analysis simply just means - the analysis of \emph{one} variable. We are giving you a sneak peak into next week's session now by telling you that \emph{bi}variate analysis means that you are looking into the relationship between \emph{two} variables\ldots! And just you wait until we get to \emph{multi}variate analysis which is the analysis of the relationship between \emph{more than two} variables!!!
 
 So, just remember - uni = one, bi = two, and multi = many. That's it, no need to count past two. We data analysts are very lazy people, you will begin to figure this out as we go.
 
-Right, now that we are confident with out terminology, let's think about what we can do, in order to carry out some univariate analysis. As mentioned, univariate analysis is the analysis of one variable. So we know that we want to be able to talk about \emph{one} variable in our data set. For this we will need to select a variable we want to talk about. Often this will depend on the question being asked. So for example, if someone asked you the question ``How many more men than women are in prison currently in England and Wales?'' you can begin to think about the variable you will have to analyse - perhaps the variable of \textbf{gender}. But once you've picked your variable, how do you analyse it? That is what today will be about.
+Right, now that we are confident with our terminology, let's think about what we can do, in order to carry out some univariate analysis. As mentioned, univariate analysis is the analysis of one variable. So we know that we want to be able to talk about \emph{one} variable in our data set. For this we will need to select a variable we want to talk about. Often this will depend on the question being asked. So for example, if someone asked you the question ``How many more men than women are in prison currently in England and Wales?'' you can begin to think about the variable you will have to analyse - perhaps the variable of \textbf{gender}. But once you've picked your variable, how do you analyse it? That is what today will be about.
 
 \hypertarget{the-importance-of-level-of-measurement}{%
 \subsection{The importance of level of measurement}\label{the-importance-of-level-of-measurement}}
 
-Do you remember when we spoke about \textbf{levels of measurement} last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were \textbf{nominal}, \textbf{ordinal}, or \textbf{numeric}. If it still doesn't ring a bell, go back to last week's lab and \texttt{ctrl\ +\ f} for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate:
+Do you remember when we spoke about \textbf{levels of measurement} last week? We encountered it in the lab exercise, in the reading, and in the quiz as well. In case you need a refresher, it was the time when we looked at the different variables in terms of whether they were \textbf{nominal}, \textbf{ordinal}, or \textbf{numeric}. If it still doesn't ring a bell, go back to last week's lab and \texttt{ctrl\ +\ f} (or \texttt{command\ +\ f} for Mac) for these terms. But hopefully you will have retained some of this. Remember we can differentiate between numeric and categorical, and then categorical we can further sub-divide into nominal and ordinal. Here's a beautiful and scientific drawing to illustrate:
 
 \includegraphics{imgs/lvl_msr_diagr.png}
 
@@ -1090,7 +1086,7 @@ It should open up like this, with your \textbf{variable} names as column headers
 
 \includegraphics{imgs/open_gmp_crimes.png}
 
-Under the column headers you have your 420228 rows, one for each of the 420228 crimes in your data. Recall that these are your \textbf{observations}. Also, that therefore your \textbf{unit of analysis} in this data at this moment is each individual crime.
+Under the column headers you have your \textbf{420082} rows, one for each of the \textbf{420082} crimes in your data. Recall that these are your \textbf{observations}. Also, that therefore your \textbf{unit of analysis} in this data at this moment is each individual crime.
 
 Anyway, let's say we want to talk about your variables. For instance, you may want to talk about the variable \textbf{crime type}.
 
@@ -1113,13 +1109,13 @@ Here's an example of a frequency table. Let's say we have this data set of waite
 
 You can see here again that every row represents one waiter or waitress. We have even put in a little picture of each of them, to make it more personal. You can see them all now, forming rows of your data. You can also see one column, for the one variable here, which is gender. For each person we only recorded their gender, because for now, that's all we are interested in. We want to look at the gender of waiters and waitresses at Lil' Bits. Maybe we think that the manager is sexist and hires only females. Maybe we want to work out the likelihood of having a male waiter. Whatever our motivation, we just want to know!!! We want to know the number of men, and the number of women who work there. And it really is as simple as that - all we do is count the occurrence of each value of the variable, and then summarise that count in a table.
 
-In this case, we could the number of times that we record `female' value for the gender variable, and then the number of times that we record `male' value for the gender variable, and then we say that there are 3 females and 2 males in our data. That's it. That's a frequency table! You build it by simply counting the number of times each value is present in the data frame. Because if each row is an observation, then every time you see `female' in the gender column accounts for one observation of this value - one female waitress.
+In this case, we could count the number of times that we record `female' value for the gender variable, and then the number of times that we record `male' value for the gender variable, and then we say that there are 3 females and 2 males in our data. That's it. That's a frequency table! You build it by simply counting the number of times each value is present in the data frame. Because if each row is an observation, then every time you see `female' in the gender column accounts for one observation of this value - one female waitress.
 
 We have even made a gif to illustrate the process, something like this:
 
 \includegraphics{imgs/freq_table_gif.gif}
 
-We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However, in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the 420228 rows in your GMP crimes data.
+We hope that illustrates the concept of what a frequency table is. It should be very easy for you to manually count the number of men and women working at the Li'l Bits restaurant, as they only have 5 front of house staff apparently, making this a data set of 5 rows. However, in real life you are unlikely to want to manually count each occurrence of each value the variable can take in your data. It definitely would not be a fun activity with the 420082 rows in your GMP crimes data.
 
 Luckily, Excel makes this much easier for us.
 
@@ -1157,7 +1153,7 @@ Don't worry too much about the top option where you select your data, because th
 
 Now, when you click OK, Excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data.
 
-It might also open a toolbar on the side, but it might not do this automatically. In any case, if the toolbar ever disappears, to summon it you have to do one simple step, which is to click \emph{anywhere} inside the pivot tabe area:
+It might also open a toolbar on the side, but it might not do this automatically. In any case, if the toolbar ever disappears, to summon it you have to do one simple step, which is to click \emph{anywhere} inside the pivot table area:
 
 \includegraphics{imgs/pivot_shell.png}
 
@@ -1181,13 +1177,13 @@ Now you will see that a new column appeared with the frequency values, letting y
 
 We can see that the most frequent crime type in the data set is `Anti-social behaviour'. This makes anti-social behaviour \textbf{the modal category}. The mode is the most frequent score in our data set. It is possible for there to be more than one mode for the same distribution of data, (bi-modal, or multi-modal). It would be possible that there were the same number of crimes recorded in two crime type categories. But in this case, anti-social behaviour is the \textbf{mode}. It is the most frequently appearing value for the crime type variable. It is the most frequently occuring crime type.
 
-But how much of all crimes does `Anti-social behaviour' account for? When we are talking about your variables, we normally want to give detail and context, so that we tell a comprehensive, and easy to understand story with our data. We can at this stage say that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,443 incidents recorded by GMP. But \emph{how much} is that? Well we can introduce another column to our pivot table, that tells us more about the \textbf{proportion} of all crimes that each crime type accounts for.
+But how much of all crimes does `Anti-social behaviour' account for? When we are talking about your variables, we normally want to give detail and context, so that we tell a comprehensive, and easy to understand story with our data. We can at this stage say that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,399 incidents recorded by GMP. But \emph{how much} is that? Well we can introduce another column to our pivot table, that tells us more about the \textbf{proportion} of all crimes that each crime type accounts for.
 
 To do this, drag from the top, the variable Crime Type into the values box once more:
 
 \includegraphics{imgs/drag_perc_valu.gif}
 
-You will see a third column appear, identical to the second one, with the frequencies. To turn this into percent values, click on the little downwards arrow on the yellow box of the value you just dragged into the values box:
+You will see a third column appear, identical to the second one, with the frequencies. To turn this into percent values, click on the little downwards arrow on the yellow box of the value you just dragged into the values box (\textbf{some of these steps may look slightly different if you are working on a Mac}):
 
 \includegraphics{imgs/down_arrow_perc.png}
 
@@ -1614,7 +1610,8 @@ Once you have filled these fields, also click the tick-box next to the \texttt{C
 
 Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this.
 
-\#\#\#Activity 2.6(b): Histograms in Excel without the data analysis toolpak
+\hypertarget{activity-2.6b-histograms-in-excel-without-the-data-analysis-toolpak}{%
+\subsubsection{Activity 2.6(b): Histograms in Excel without the data analysis toolpak}\label{activity-2.6b-histograms-in-excel-without-the-data-analysis-toolpak}}
 
 If you could not install the data analysis toolpak in your device, you can still produce a beautiful histogram by following the instructions below. \textbf{If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.}
 
@@ -1623,9 +1620,10 @@ First, you will need to select the resulting pivot table with the names of borou
 \includegraphics{imgs/copy_paste.png}
 
 The resulting table should look like this:
+
 \includegraphics{imgs/result_paste.png}
 
-Once this is done, we will need to add one small change manually. We are not interested in including the `Grand total' in our histogram (it is not one our our units units of analysis) but the sum of the totals across observations). However, we will need to manually tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is\ldots{} 0. We will remove `Grand total' and `420082', and add `Minimum' and `0' instead.
+Once this is done, we will need to manually add one small change in our data. We are not interested in including the `Grand total' in our histogram (it is not one our our units units of analysis, but the sum of the totals across observations). However, we will need to tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is\ldots{} 0. We will remove `Grand total' and `420082', and add `Minimum' and `0' instead in our dataset.
 
 \includegraphics{imgs/minumum_0.png}
 
@@ -1646,6 +1644,7 @@ The resulting histogram doesn't quite look like the one we were trying to produc
 And now we can change the width of bins to 10,000, just as the example above.
 
 \includegraphics{imgs/bin_width.png}
+
 The resulting histogram looks great!
 
 \includegraphics{imgs/final_hist.png}
@@ -2397,7 +2396,7 @@ Regarding descriptive statistics to explore the relationship between two numeric
 
 What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around, and never offend again. In other words, we are thinking that either \textbf{as age of 1st arrest decreases, number of arrests will increase}, or we think that \textbf{as age of 1st arrest decreases, number of arrests will also decrease}. These two scenarios describe two different kinds of relationships, a positive relationship or a negative relationship. In either scenario we assume that as one goes up the other one goes up or as one goes up the other one goes down, but that this takes a linear relationship. If you imagine one numeric variable across the x axis and another cross the y axis, a positive and a negative relationship would look something like this:
 
-\includegraphics{http://www.statisticshowto.com/wp-content/uploads/2015/08/lin-rel.png}
+\includegraphics{imgs/pos_neg.png}
 
 \emph{Note:}
 The figure above shows you what a perfect positive relationship would look like, or a perfect negative relationship would look like. It also assume a \textbf{linear} relationship. This just means that we are looking at a ``straight line trend'' between the two variables.
@@ -2623,7 +2622,7 @@ This distinction might seem intuitive, but whether we're talking about our popul
 \hypertarget{population-parameters-versus-sample-statistics}{%
 \section{Population parameters versus sample statistics}\label{population-parameters-versus-sample-statistics}}
 
-\emph{Hold on a second!} Population parameter? But so far we have only been talking about samples? Well, this week we also discuss sampling, right? And the differences between sample statistics and population parameters. A statistic and a parameter are very similar. They are both descriptions of groups, like ``50\% of dog owners prefer X Brand dog food.'' The difference between a statistic and a parameter is that statistics describe a sample. A parameter describes an entire population. (You might recall this from week 1 readings.)
+\emph{Hold on a second!} Population parameter? But so far we have only been talking about samples? Well, this week we also discuss sampling, right? And the differences between sample statistics and population parameters. A statistic and a parameter are very similar. They are both descriptions of groups, like ``50\% of dog owners prefer X Brand dog food.'' The difference between a statistic and a parameter is that statistics describe a sample. A parameter describes an entire population (you might recall this from week 1 readings).
 
 For example, say you want to know the mean income of the subscribers to a particular magazine---a parameter of a population. You draw a random sample of 100 subscribers and determine that their mean income is \$27,500 (a statistic). You conclude that the population mean income \(μ\) is likely to be close to \$27,500 as well. This example is one of \textbf{statistical inference}.
 
@@ -2767,7 +2766,7 @@ It's important that you play along and do this step. We'll wait here while you d
 
 OK, ready? Great, now let's test your conceptualisation of hate speech. \emph{Relying strictly on the way that you conceptualised hate crime in the steps above}, for each of the following tweets, record whether it would be included in your study as exhibiting hate speech or not:
 
-\includegraphics{http://www.pressgazette.co.uk/wp-content/uploads/2017/05/Katie-Hopkins-Western-Men-TWEET.jpg}
+\includegraphics{imgs/katie1.png}
 
 What about this one?
 
@@ -2775,11 +2774,11 @@ What about this one?
 
 And finally this third one?
 
-\includegraphics{http://www.pressgazette.co.uk/wp-content/uploads/2017/05/hoops.jpg}
+\includegraphics{imgs/katie3.png}
 
 Would you categorise these tweets as hate speech according to your criteria that you wrote out above? Why or why not? In fact, the included tweets have all been considered hateful by various people (see \href{http://www.pressgazette.co.uk/katie-hopkins-leaving-lbc-radio-effective-immediately-station-announces/}{here for the first and last one}, and \href{http://www.bbc.co.uk/news/uk-scotland-glasgow-west-30641705}{here about the second one}). But when you are studying a concept as complex as hate speech, it's important that you can justify why or why not you include something as hate speech.
 
-Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since we wrote this, you might be aware Katie Hopkins has been permanently banned from Twitter for her hateful comments\ldots!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study? Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means?
+Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since we wrote this, you might be aware Katie Hopkins was permanently banned from Twitter (now `X' for her hateful comments\ldots!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study? Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means?
 
 If you did, that is very impressive. If you did not, don't despair, hate speech is a very complex concept, and therefore tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crime, and generally they reflect the core belief that hate crime policy should support a basic human right to be free from crime fueled by hostility because of an individual's personal characteristics, but even in legislation this is quite hard to pin down.
 
@@ -2914,14 +2913,14 @@ But first, to calculate the z-score, our data needs to meet some assumptions. Fi
 
 You can identify a normal distribution, because it follows a normal distribution curve, also called a \emph{bell curve}:
 
-\includesvg{https://www.mathsisfun.com/data/images/normal-distribution-1.svg}
+\includegraphics{https://www.mathsisfun.com/data/images/normal-distribution-1.svg}
 
 How do you test if your numeric variable is normally distributed? Well, for now we can simply decide this by plotting it in a histogram, and see if it (roughly) looks like it follows a bell-curve shape or not. So let's build a histogram of our height variable. Do you remember how to do this? If not, look back to our week of univariate analysis. You will need 3 things: your data, the data analysis toolpak, and a list of bins. You can choose whatever bins you like - we went for 5 cm intervals. Our histogram looks like this:
 
 \includegraphics{imgs/histo.png}
 Or like this if you create it without the data analysis toolpak:
 
-\includegraphics{imgs/hist_alternative.png}
+\includegraphics{imgs/hist_width5.png}
 
 Looks like to us this follows our normal distribution curve. There are also numeric ways that test whether our data follows a normal distribution or not, and also ways that you can manipulate the data to make it follow a normal distribution curve, but we don't cover those just yet. For now we will rely on our eyeball measure - does this \emph{look} like it follows a bell curve? We think it does. So now that we know that our numeric variable of height meets the assumptions that it's numeric, and also it follows a normal distribution, we can calculate z-scores for each individual height.
 
@@ -3027,7 +3026,7 @@ Here we will consider scales for creating composite variables from numeric indic
 
 A lot of criminological research uses multi-item scales to measure constructs. For example we saw in the paper earlier how the constructs of \emph{cooperation with the police} or \emph{cooperation with the community} were measured through asking various questions which were compiled together into these variables.
 
-One primary technique for measuring concepts important for theory development is the use of multi-item scales. In many cases, single-item questions pertaining to a construct are not reliable and should not be used in drawing conclusions. There have been examination of the performance of single-item questions versus multi-item scales in terms of reliability, and \href{https://scholarworks.iupui.edu/handle/1805/344}{By comparing the reliability of a summated, multi-item scale versus a single-item question, the authors show how unreliable a single item is; and therefore it is not appropriate to make inferences based upon the analysis of single-item questions which are used in measuring a construct}.
+One primary technique for measuring concepts important for theory development is the use of multi-item scales. In many cases, single-item questions pertaining to a construct are not reliable and should not be used in drawing conclusions. There have been examination of the performance of single-item questions versus multi-item scales in terms of reliability, and \href{http://pioneer.netserv.chula.ac.th/~ppongsa/2013605/Cronbach.pdf}{By comparing the reliability of a summated, multi-item scale versus a single-item question, the authors show how unreliable a single item is; and therefore it is not appropriate to make inferences based upon the analysis of single-item questions which are used in measuring a construct}.
 
 Oftentimes information gathered in the social sciences, including criminology, will make use of Likert-type scales. Rensis Likert was one of the researchers who worked in a systematized way with this type of variable. The Likert methodology is one of most used in many fields of social sciences, and even health sciences and medicine. When responding to a Likert item, respondents specify their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Thus, the range captures the intensity of their feelings for a given item.
 
@@ -3279,7 +3278,7 @@ Like so:
 
 So that leaves us a value of 0.79. So what does this mean? Well it's a value between 0 and 1, so obviously 0 is the absolute worst, and 1 is the perfect score. But what sorts of scores are realistic? Well it depends on the concept you're measuring most likely. But in terms of acceptable thresholds, here is some guidance:
 
-\includegraphics{http://www.statisticshowto.com/wp-content/uploads/2014/12/CA2.png}
+\includegraphics{imgs/cronbach.png}
 
 Our value is acceptable, and so we can rest assured, that these three indicators all tap in to a relatively similar thing, and we can use this result as our justification for bringing them together as multi-item indicators for feeling unsafe in one's neighbourhood.
 
