@@ -7749,25 +7749,32 @@ We know some of you are using your own laptops and you may want to install NVivo
 
 First, you need to register using your own personal details. To do so, first click on "Sign In":
 
-![](imgs/nvivo_signin.png)
-
-And then press "Sign up":
-
-![](imgs/nvivo_signup.png)
-
-Then fill in your personal details and **your university email**, click on "I agree to the privacy policy" and "I agree to the terms and conditions", and press "Sign Up":
+![](imgs/NVIVO2023-1.png)
 
 
-![](imgs/nvivo_register.png)
+Press "NVivo Login":
 
-You will then see a "Download" tab in the upper part of the site, click on it:
 
-![](imgs/nvivo_download.jpeg)
+![](imgs/NVIVO2023-2.png)
+
+
+Select 'Register now':
+
+
+![](imgs/NVIVO2023-3.png)
+
+Then fill in your personal details and **your UNIVERSITY EMAIL**. Agree the terms and conditions and privacy policies, and sign up.
+
+You will then see a "Downloads" tab in the upper part of the site, click on it and select "Older versions":
+
+![](imgs/NVIVO2023-4.png)
 
 Now find the "NVivo 12 for Windows" or "NVivo 12 for Mac" buttons, and press on it:
 
 
-![](imgs/nvivo_download12.jpeg)
+![](imgs/NVIVO2023-5.png)
+
+![](imgs/NVIVO2023-6.png)
 
 You will download an executable file in your computer, click on it once it is fully downloaded.
 
@@ -7782,7 +7789,7 @@ Then you should see a message saying "Your licence has now been activated".
 ![](imgs/nvivo_activated.png)
 You can now set up your account with your name and initiats, and start using NVivo!
 
-**Note 3:** If you have issues with downloading and installing NVivo, take a look at the IT Services Software Centre where [guidance on installation can be accessed](https://manchester.saasiteu.com/Modules/SelfService/?NoDefaultProvider=True#knowledgeBase/view/60A01BC1B8C84E6C8C8FE2B3C73B84E4). If you still have issues, you’ll need to contact IT services.
+**Note 3:** If you have issues with downloading and installing NVivo from the software website, take a look at the IT Services Software Centre where [guidance on installation can be accessed](https://manchester.saasiteu.com/Modules/SelfService/?NoDefaultProvider=True#knowledgeBase/view/60A01BC1B8C84E6C8C8FE2B3C73B84E4). You can also download NVivo 12 directly from the University of Manchester Electronic Software Delivery System, for Windows [here](https://www.software.itservices.manchester.ac.uk/software/538) and for Mac [here](https://www.software.itservices.manchester.ac.uk/software/538). If you still have issues, you’ll need to contact IT services.
 
 **Note 4**: Please do not forget to read Chapters 1 and 5 of the ["Using Software in Qualitative Research: A Step-By-Step Guide"](https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/bofker/alma992976454286501631) book. These are key for you to fully understand how to use software for qualitative data analysis.
 
