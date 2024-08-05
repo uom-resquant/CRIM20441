@@ -14,7 +14,7 @@ description: "This is a companion workbook for the 2nd year undergraduate module
 
 # Introduction {-}
 
-This workbook contains the lab materials and homework assignments for an introduction to data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduate module of the BA Criminology programme at the University of Manchester. 
+This workbook contains the lab materials and homework assignments for an introduction to a data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduate module of the BA Criminology programme at the University of Manchester. 
 
 It makes use of Excel, as we have identified a gap in training students to use Excel, despite it being a primary tool for data analysis (whether we like it or not) in many public and private sector organisations. As many students take [Q-step internships](https://www.humanities.manchester.ac.uk/q-step/), this skill was identified as important. 
 
@@ -27,7 +27,7 @@ Making Sense of Crim Data introduces students to data, and the concepts of descr
 Please beware that:
 
 - In making these notes, while we briefly cover some concepts, students are expected to do the weekly reading, and attend the weekly lectures, as well as participate in lab discussions to receive a complete course experience. These notes are *not* intended to be a stand-alone reference or textbook, rather a set of exercises to gain hands-on practice with the concepts introduced during the course.
-- These pages are the content of the BA Criminology 2nd year course Making Sense of Criminological Data. They are meant to (very gently) introduce undergraduates to the concept of data analysis, and cover descriptive statistics and the key concepts required to build an understanding of quantitative data analysis in crime research. It is followed in the second term by Modelling Criminological Data where students cover inferential statistics. The notes presented here are supported by compulsory reading and some lectures, and so do not provide a comprehensive description of these techniques and tools and how to use them.
+- These pages are the content of the BA Criminology 2nd year course Making Sense of Criminological Data. They are meant to (very gently) introduce undergraduates to the concept of data analysis, and cover descriptive statistics and the key concepts required to build an understanding of quantitative and qualitative data analysis in crime research. It is followed in the second term by Modelling Criminological Data where students cover inferential statistics. The notes presented here are supported by compulsory reading and some lectures, and so do not provide a comprehensive description of these techniques and tools and how to use them.
 - The handouts below use, among other data sets, data from the [UK Data Service](https://ukdataservice.ac.uk/) such as the [Crime Survey for England and Wales](https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=200009) that is available under a Open Government Licence. This dataset is designed to be a learning resource and should not be used for research purposes or the production of summary statistics.
 
 

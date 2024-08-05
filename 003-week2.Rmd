@@ -73,7 +73,7 @@ Hopefully these words sound familiar from your reading and some of the lecture v
 Let's start with some exercises in talking about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself though, because we have put the data on Blackboard for you. 
 
 
-So, to find this data set, just go to Blackboard, and under 'Learning materials' > week 2 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using Excel. 
+So, to find this data set, just go to Blackboard, and under 'Learning materials' > week 2 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using Excel.
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -81,7 +81,8 @@ library(tidyverse)
 library(lubridate)
 
 #gmp_crimes <- read.csv("/Users/mllxwdb2/Dropbox (The University of #Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
-gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
+#gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
+gmp_crimes <- read.csv("D:/_Acer 26 March 2024/My files/Manchester 2024/Making sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
 
 
 ```
