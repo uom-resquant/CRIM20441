@@ -20,7 +20,7 @@ If you feel like you don't have any questions, we still encourage you to check t
 
 ### Activity 1: Posting on the discussion board
 
-All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/discussionboard/do/conference?toggle_mode=edit&action=list_forums&course_id=_79473_1&nav=discussion_board_entry&mode=cpview).
+All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_82193_1&tool_id=_119_1&tool_type=TOOL&mode=cpview&mode=reset).
 
 Here you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For subject put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us, either a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
 
