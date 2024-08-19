@@ -28,7 +28,7 @@ In this session you’ll learn how to interrogate your qualitative data using NV
 
 > 'A code in qualitative inquiry is most often a word or short phrase that symbolically assigns a summative, salient, essence-capturing, and/or evocative attribute for a portion of language-based or visual data’
 
- - Saldaña (2016) [*The Coding Manual*](https://uk.sagepub.com/en-gb/eur/the-coding-manual-for-qualitative-researchers/book273583) (p. 3)
+ - Saldaña (2016) [*The Coding Manual*](https://uk.sagepub.com/en-gb/eur/the-coding-manual-for-qualitative-researchers/book243616) (p. 3)
 
 You can find copies of Saldaña’s *The Coding Manual* in the [University Library](https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/1r887gn/alma992975869959501631).
 
