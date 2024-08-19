@@ -115,7 +115,7 @@ Essentially, the NVivo Software allows you to analyse and manage a range of qual
 
 **Note 2:** The directions below are for the Mac version of NVivo. The functionality between the two versions is slightly different in some cases, but not drastic, so you should be able to figure it out. But we will give you some indications of where you can find the main functionalities available in NVivo for Windows too.
 
-### Installing NVivo 12
+### Intalling NVivo 12
 
 We know some of you are using your own laptops and you may want to install NVivo to follow through the computer lab. If that's the case, you’ll need to download the version 12 of NVivo from their website. You can do this from the QSR website [here](https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home).
 
