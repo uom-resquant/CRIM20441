@@ -2,932 +2,364 @@
 
 ## Learning outcomes
 
-This week we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well-off or deprived area you have different access to resources, and therefore your outcomes in terms of involvement with criminal justice system also differ. However time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important, that as well-rounded criminologists, you are able to talk about these concepts with appropriate knowledge and understanding. 
+In this session you’ll learn:
 
-When violence increases between March and August, is that because we are seeing an increase in crime and offending? Or is it possible that the time of year has something to do with this? How much must crime increase and over how long of a time, in order to be able to confidently say that crime is on the increase? These are important, and not always easy questions to answer, and this week we will begin to think about this. 
+- How to interrogate qualitative data using NVivo. 
+- How to build theory through *deductive*, *inductive* and *abductive* strategising. 
+- Some useful analysis features in NVivo, including how to work with non-textual data.
 
-Here are some terms that we will cover today: 
+## Deduction, induction, abduction – key analytical strategies for qualitative data
 
+To recap from the lecture, this diagram gives some indication as to the directions of data analysis:
 
-- Crime trends
-- Temporal crime analysis
-- Seasonality
-- Time series data analysis
-    + Moving averages
-    + Smoothing techniques
-    + Seasonal decomposition
-- Signal vs noise
+![](imgs/diagram_quali.png)
+ 
+We discussed this in the lecture so you’ll have an understanding now of strategies for approaching research including data collection and data analysis.
 
+**Induction** is considered to be ‘bottom-up’ where we start with very broad general interests but build theory and concepts by first coding and interrogating the data. The key here is to ensure existing theoretical perspectives and concepts do not over-define our analysis and thus obscure the possibility of identifying and developing new concepts and theories.
 
+**Deduction** is considered to be ‘top-down’ reasoning where we have predetermined ideas and theories and seek to test or evidence these. The coding categories we use are therefore explicit in directing the focus of our analysis.
 
-## Crime and incident trend identification
+**Abduction** integrates these two approaches, giving flexibility across the analytical process, and ensuring interplay between our ideas and data.
 
+In this session you’ll learn how to interrogate your qualitative data using NVivo from all perspectives. You can read more about these strategies here.
 
-All crimes occur at a specific date and time. If there are victims or witnesses present, or alarms are triggred, we can note this specific time. Unfortunately, this is not always the case. For example, burglary is often discovered only when the homeowner returns from work, which may be hours after it actually happened. This is something to keep in mind when working with temporal data. 
+## ‘Coding’ qualitative data using ‘nodes’
 
+> 'A code in qualitative inquiry is most often a word or short phrase that symbolically assigns a summative, salient, essence-capturing, and/or evocative attribute for a portion of language-based or visual data’
 
-**Temporal crime analysis** looks at trends in crime or incidents. A crime or incident **trend** is a broad direction or pattern that crime and/or incidents are following.
+ - Saldaña (2016) [*The Coding Manual*](https://uk.sagepub.com/en-gb/eur/the-coding-manual-for-qualitative-researchers/book273583) (p. 3)
 
+You can find copies of Saldaña’s *The Coding Manual* in the [University Library](https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/1r887gn/alma992975869959501631).
 
-Three types of trend can be identified:
+*‘Coding’*, *‘coding schemes’* and *‘coded retrieval’* of our data are key tools of qualitative analysis. The terminology and philosophies that underpin coding processes are explained below (but mainly in the lectures) and we find that specific methodologies use particular routines when coding. For instance, one common approach is informed by ‘Grounded Theory’ that involves both induction and deduction to code data. 
 
-- *Overall trend* – highlights if the problem is getting worse, better or staying the same over a period of time
-- *Seasonal, monthly, weekly or daily cycles* of offenses – identifies whether there are any patterns in crimes associated with certain time periods, for example burglaries increasing in the winter, dying down in the summer, and increasing again the next winter.
-- *Random fluctuations* – caused by a large number of minor influences, or a one-off event, and can include displacement of crime from neighbouring areas due to partnership activity or crime initiatives.
+Here, researchers would undertake a first layer of ‘coding’, often called [‘open coding’](https://en.wikipedia.org/wiki/Open_coding), to break down data into indicative themes and concepts. This precedes more granular coding referred to as [‘axial coding’](https://en.wikipedia.org/wiki/Axial_coding), where categories and concepts are further refined. We’ll draw on this approach in today’s session. The structures of coding schemes, alternate groupings and basic retrieval mechanisms are key to moving forward with analysis.
 
+In NVivo we code our data using ‘nodes’. This is sometimes also termed the ‘indexing’ of our data.
 
-This week we will be looking at crime data from the USA. As you saw, the data from police.uk is aggregated by months. We do not know when the offences happened, only the month, but nothing more granular than that. American police data on the other hand is much more granular. 
+**Note 1**: If you only take one thing away from today’s session then it should be the importance of nodes. These are the fundamental building blocks of the theories and concepts we interpret in our data.
 
-Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to **Learning Materials > Module 7 > Data for Labs and Homework**, and the file is *dallas_burg_correct.xlsx*. Download this and open it up in Excel. 
+So, let’s learn how to code using ‘nodes’.
 
+### What are ‘Nodes’?
 
+Node is a term which refers to a point in the NVivo database but a code label may be the name you give the node. Codes or nodes can be your ideas about the data – they can be generated inductively, deductively or abductively and may be refined, changed, grouped or deleted at any time. Applying nodes etc., to passages of source data at a minimum, provides the basic code and retrieve actions needed to accumulate together, all the bits of data linked by common threads and themes.
 
-When you open the Excel spreadsheet, you will see that there is a column for date called **Date.of.Occurrence**. The date is in the format dd/mm/yyyy. The first date on there you can see is 31/12/14. 
+![](imgs/coding.gif)
 
+Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them in order to collect data about key themes. Nodes then are more reflective and act as containers for or links to data exemplars based on, conceptual ideas, themes, codes or more structurally for people, contexts, places etc. Essentially, the terms nodes, codes, keywords, and themes are used similarly.
 
-But what if we asked you the question: which year had the most residential burglaries? Or what if we want to know if residential burglaries happen more in the weekday, when people are at work, or in the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
+Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to, data. So, we might have created a top-level node entitled ‘money laundering’ and then created sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on.
 
+These node layers therefore build a structural framework for our data. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
 
-Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. How can we extract these variables from your date column? Well, luckily Excel can help us do this. 
+Let’s do this then. Here we’ll focus on using nodes for reflective purposes and for thematic purposes.
 
+### Activity 1: Coding
 
-### Activity 7.1: Formatting your dates appropriately 
+We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session e.g. Lab Session Week 9.
 
-In this activity we will learn how to take a date, and extract from it different elements that are required for our analyses. First you want to make sure that your date column is, in fact, a date, and so interpreted by Excel as well. To be sure, you can right click on the column, and select "Format cells...":
+On Blackboard you’ll fine two datasets in the Week 9 folder: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
 
+You’ll need to download and save these to your p:drive or your personal computer. (Dataset 1 is a zip file, you’ll need to [unzip it](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)). 
 
+Once you’ve done this, go back to *NVivo* and import them, using the knowledge you gained last week. For instance, first, create folders within your Files section to house the data (see below). Second, import your data. If you import all the interviews at once, there is a small chance your computer will explode, catch fire, and burn the lab down. But let’s hope not. Be patient though, it can take a few minutes to import so much data at once. 
 
-![](imgs/format_date_1.png)
+![](imgs/mr-bean-waiting.gif)
 
+If it does crash though, you might just need to import the transcripts in smaller numbers. Or, just import a few of them so you get a feel for the process, rather than importing the full lot. You can see what we’ve done in the screenshot below:
 
+![](imgs/interview_w9.png)
+ 
+If you double click on any of the transcripts in the **List Pane** you’ll be able to see the content in the **Detail Pane**.
 
-Under the "Category" sidebar select "Date", and pick a format that matches your date layout (for example, in this case it's date-month-year). 
+For Mac users, when you import the *GMP Twitter Data*, you can import as a ‘Dataset’, rather than as ‘Documents’. You’ll first encounter the screen below:
 
+![](imgs/dataset_asistant.png)
+ 
+Simply click ‘next’, then ‘next’ again in the following window and then ‘Import’. You’ll then be able to see the Twitter data in the Detail View as below:
 
+![](imgs/twitter_nvivo.png)
+ 
+For Windows users, the process is slightly different as there is no ‘Datasets’ option. To import data from an Excel file on the Windows version of NVivo, go to “Import”, “Import survey” and “From Microsoft Excel File”. Alternatively, click on the “Data” heading and select “Survey”. In the drop down menu, select the file type (Excel or CSV, in this case our data is an Excel file).
 
-![](imgs/format_date_2.png)
+![](imgs/excel_pc.png)
+ 
+You will have to click through the Survey Import Wizard which looks something like this:
 
+![](imgs/import_wizard.png)
+ 
+There are four steps to click through where you check to ensure the data will be imported correctly. In this case, you can just click ok through each step without making any changes. After step 4, click “Finish”. It may take a few minutes for NVivo to process the request.
 
-This way you make sure that Excel knows that your date column is a date. It also ensures it is the appropriate format. In some countries dates will be formatted differently. For example, in the United States, it is customary to format the date as month/day/year. In the UK this is formatted as day/month/year. 
+![](imgs/identify_open_close.png)
+ 
+This should be the end result when you finish the import wizard:
 
+![](imgs/import_wizard2.png)
+ 
+Ok. So now we have both our datasets imported into NVivo. It’s probably worth saving your project now, just in case something goes wrong.
 
+Usually, as these two datasets are very separate in terms of the purpose, we would probably create two separate projects in NVivo in order to keep our separate research projects apart. For the purposes of getting to know the software though, we can analyse both in one project today.
 
-### Activity 7.2: Extracting temporal variables from dates
+## Using ‘mind maps’ to organise your ‘analytical process and framework’
 
+At this point, we need to give our coding some focus. To do this we can use **‘mind maps’** so we know how to code our data. To demonstrate this, we are going to code the interview data in *Dataset 1* using a deductive approach; and then code the Twitter data in *Dataset 2* using an inductive approach.
 
-Now, let's start by answering our first question: which year had the most burglaries. To answer this, we first need a variable for year. Let's extract this from the date column. We can do this with the `=year()` function. Inside the brackets, you just have to put the date from which to extract the year. 
+![](imgs/mindmapping.png)
 
+### Activity 2: Deductive coding
 
+First, single click on ‘Maps’ in the Navigation Pane, then right click in the List Pane to create a new mind map. Call it Deductive Approach to Probation Interview Data. You should end up with the following:
 
+![](imgs/mindmap.png)
+ 
+Now, *deductive logic* assumes that we have a predetermined set of codes, ideas and themes that we intend to better understand. For instance, the interviews that were carried out with **Chief Probation Officers (CPOs)** in this research had the following clear research objectives:
 
-First, let's create a new column, called "Year", like so:
+*1.	to investigate the social and educational backgrounds and career histories of CPOs;*
+*2.	to explore their perceptions of community penalties, developments in these over the course of their careers and potential changes in the future;*
+*3.	to examine the role of CPOs as managers and their relationships with central government, local agencies and their probation committees.* 
 
+So we can extrapolate key ideas from these objectives and use them to guide our coding of the data. We’ve broken down the research objectives into key concepts and organised this in our mind map. Take a look at our screenshot below and see if you can replicate what we’ve done. You might choose to pick a different structure, or different codes, that’s fine too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure too.
 
+You can learn more about how to create and edit mind maps in [this Youtube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
 
-![](imgs/create_year_col.png)
+![](imgs/mindmap2.png)
+ 
+What we’ve done here is create a predetermined framework for coding the interview data. That is, when we read the transcripts, we can assign these themes to what was said in the interviews. 
 
+Plus, to save us having to create all the nodes individually, we can now just use the **‘Create as nodes’** option. Click it, then choose ‘Nodes’. 
 
+![](imgs/create_node.jpeg)
 
-Then for the first cell, enter the formula `=year()`, and inside the brackets, put the date value for the first row, in this case, cell `C2`: 
+Now click on ‘Nodes’ in the Navigation Pane and you’ll see the following – open up the folders so you can see all the nodes:
 
+![](imgs/nodes.png)
+ 
+This is where the hard work begins. We now have to code our interview data.
 
-![](imgs/extract_year_formula.png)
+There are multiple ways to code data at nodes you have already created. You can also use some of these methods to select more than one code to apply to the selected passage of data.
 
+The easiest way to do this is as follows (though *NVivo* gives you many ways to code the data). First, go back to your Files, click on the Dataset 1 folder, and double click on Interview 1 (int01). This will open the transcript in the *Detail Pane*. For ease, now click on ‘Nodes’ so you can see all your created nodes and have them in mind when you read the transcript. Now start reading the transcript and each time you read something that corresponds with your ‘nodes’, you need to ‘code’ it.
 
+![](imgs/highlight.gif)
 
-You will see the cell be populated with the value for year, in this case 2016. Copy the formatting down to populate the whole "Year" column: 
+For Mac users, to do this, simply highlight the text and right-click on it, choose *‘code selection’* and then *‘at existing nodes or cases’*:
 
+![](imgs/code_selection.png)
+ 
+For Windows users this looks slightly different. You have to have to click on *“Code”* then a new window pops up with the nodes and you select from there. The right-click menu to code selected text looks like this:
 
-![](imgs/year_col_pop.png)
+![](imgs/code_selection_pc.png)
+ 
+You’ll notice the passage we’ve selected relates to ‘career histories’ so we are going to code this sentence in the corresponding node. However, we also think it relates to ‘educational background’ so we are coding this sentence in two ‘nodes’:
 
+![](imgs/two_nodes.png)
+ 
+In Windows, to select multiple codes, you must hit “ctrl” and then click the additional node you want:
 
-Ta-daa! You now have a column of years! Now how do you find out which year has the most number of burglaries? We've now created a variable year, that you can use to be able to apply your learnings from the previous weeks, specifically, since we are analysing one variable we will apply.... **uni**variate analysis. You can create a frequency table for the 'Year' column you selected using a *pivot table* 
+![](imgs/two_nodes_pc.png)
+ 
+Keep reading through the transcript and coding segments at single or multiple nodes as you see fit. You’re now coding your data deductively using a predetermined conceptual/thematic framework.
 
+Keep coding until you feel like you fully understand how this works and until you’ve coded some data for each of the predetermined ‘nodes’.
 
-Try to do this now with no further guidance. If you do need some help, have a look at your notes from the univariate analysis lab, in week 2. 
+![](imgs/coding_qual.jpg)
 
-So... which year had the most residential burglaries? 
+There is an option for “recent codes” that shows what nodes you have been using and this can be slightly easier than opening the window back up, but it depends on how you wish to code the data. Perhaps also code text from other interviews too. 
 
+**You don’t have to read all the transcripts**, just read enough to understand the process and be comfortable with the software.
 
-![](https://media.giphy.com/media/8nZnnnvX5A4so/giphy.gif)
+But where has all our coding gone? The best way to visualise what we’ve done is to go to the ribbon tab at the top, chose ‘view’, then ‘coding stripes’, then ‘nodes recently coding’ and you’ll see the following:
+ 
+![](imgs/code_gone.png)
+ 
+At the bottom right corner in the *Detail Pane* you’ll be able to see the nodes that we have coded.
 
+To speed up the coding, you might want to ‘drag and drop’. This is a favourite for many researchers, as coding in this way allows you to drag a highlighted selection of data onto any code showing in the List pane. This, of course, necessitates the list pane be showing Nodes (as opposed to Memos or anything else from the Navigation pane). Simply hold down left click of mouse and drag it onto the desired node.
 
+**IMPORTANT:** One way to speed up drag and drop coding and see the most nodes possible on the screen at one time is to rearrange the windows so that the List containing the nodes is on the left side, and the Detail pane of the source is on the right side. Do this by going to **View Ribbon tab /Detail View (Window) /Right**. Then arrange vertical splitter bars to accommodate as much text on the right as possible while seeing enough of the code labels on the left. You’ll then be able to view like this:
 
-To answer this question, hopefully you built a pivot table with the year variable, and your table look should like this:
+![](imgs/codes_view.png)
+ 
+In theory, you would now read every single transcript and code your data. We’ll look at what you can do with this coding after we’ve looked at inductive coding.
 
-![](imgs/count_of_yr.png)
+### Activity 3: Inductive coding
 
+To better organise our data and to keep our nodes for our two datasets separate, it’s worth creating two ‘node folders’. If we were working on only one dataset we wouldn’t necessarily need to do this. However, for now, right-click on the ‘Nodes’ folder in the Codes section in the Navigation Pane. Create a folder called Dataset 1, then another called Dataset 2. Now, click back on the Nodes folder, select all the Nodes you created, and drag them into the Dataset 1 folder. You might need to rearrange the hierarchy again slightly. We can then put all our new Nodes for the Twitter data in the folder entitled Dataset 2, as below:
 
-Hopefully you got a similar result. If not, now is the time to discuss in your groups, or ask for help. You can now identify that the year with the highest number of residential burglaries in Dallas was... 2015. You should however note that since 2017 was not yet over at the time of data collection, you have incomplete data for this year, and so you're not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data. 
+![](imgs/inductive.png)
+ 
+Now let’s start our Twitter data inductive coding. As above, let’s start by creating another mind map, but this time for the Twitter data. 
 
+![](imgs/tweet.gif)
 
-### Activity 7.3: Extract day of week from date column 
+We’re not looking to create predetermined codes as with the deductive approach. Instead, we want to remain open minded about what themes are in the data. So let’s remind ourselves of this. See if you can produce something like the following:
 
+![](imgs/inductive_map.png)
+ 
+Remember, we don’t want to approach the data with too many concrete, predetermined ideas about what we will find in the data. Instead, we want to have a few open, guiding questions that will allow us to code our data as we read it.
 
-Now let's go back to our 2nd question - do residential burglaries happen more on weekdays, when people are at work (pre-covid times anyway...), or in the weekends, maybe when people are away for a holiday? 
+So now to the hard work again. But this time we’ll need to create our nodes, **inductively**, as we read through the tweets.
 
+Start by clicking on *Dataset 2* in the Data section in the *Navigation Pane*, then double clicking on the dataset in the *List Pane* to open it up in the Detail Pane. For the purpose of the coding today we’re only really interested in the texts of the tweets.
 
-To answer this question, we need another variable to represent the day of the week. First, create a new column call it Day.of.Week: 
+Read through the tweets one by one and each time you come across a theme of interest, code it by highlighting it, right-clicking and choosing ‘code selection’ then ‘at new node’. We think the first tweet relates to ‘partnership working’, so this is what we’ve called the node. We’ve now gone on to create more Nodes, some of the text relates to more than one Node.
 
+We’ve also started to create a hierarchy of Nodes and Sub-Nodes, as with the ‘Crime Types’ node folder. As you’ll see, we’ve changed the view to make it easier to create new Nodes and code at existing Nodes by dragging and dropping. We’ve also viewed the code stripes on the right hand side. 
 
-![](imgs/create_day_of_wk_col.png)
+You’ll notice that when you create Nodes that they are located in the top-level Nodes folder. So once you’ve finished your coding you can select and drag them into your Dataset 2 Nodes folder to keep it all well organised:
 
+![](imgs/codes_inductive.png)
+ 
+In theory, you’d read through all the tweets and code everything you consider important thematically in this case. You’d then read them all again; and again; and then again, and so on, until you’re happy with the coding framework you’ve developed. You can do this in your own time. You could end up with hundreds of Nodes; you can merge Nodes; un-code text; delete nodes etc., until you’re satisfied.
 
-Then populate this column with the day of the week. To do this, you can use the `=text()` function. You have to pass this function two parameters. The first is the value of the date column again, as was the case with the year function, and the second is the format that you want the text to take. 
+**Tip:** The great thing about folders in NVivo is that you can change your mind, restructure them and move or drag nodes around between them whenever you like – really easily. I’ll let you explore all this in your own time. It’s all intuitive and if you ever get stuck you can watch the tutorials on the QSR website.
 
+## Abductive coding
 
-If you ever forget this, you can use the little popup help that Excel uses to remind you: 
+Essentially, this involves going back and forth between the deductive approach and the inductive approach. You might wish to create some pre-determined codes/nodes based on your interests and/or theory and then flexibly adapt these as you interrogate your data.
 
+### Activity 4: Retrieval – viewing coded data
 
-![](imgs/text_params.png)
+If you need to look vertically through one file at a time, reviewing what you have done, open a document and ensure Select Coding stripes /All has been selected:
 
+![](imgs/abductive.png)
+ 
+This way, you will see any codes appearing in the data. Though this is not so easy since all codes may occupy a very wide margin space and require much scrolling. Or you can selectively review individual nodes:
+ 
+![](imgs/select_items.png)
+ 
+![](imgs/select_items2.png)
+ 
+Once you have done some coding, you may want to review the passages you have selected for a particular node. To do so, double click on the node you want in the List pane. This will open the node in the Detail pane. Each source that has references to the chosen code is listed, headed by a hyperlink back to the source.
 
+The tabs down the side provide different ways to view the references and are dependent on the type of data media coded there.
 
-The value parameter, just like with the year function, is the cell in the *Date.of.Occurrence* column. In the case of our first row here, it's C2. The second value is the format parameter. Depending on what you enter here, a different value will be returned by the `text()` function. Here is a list of values, and their results: 
+**ANALYSIS COMMENT:** There are many reasons why you may wish to see what coding you’ve done, or what content is coded at a node. You may want to review your coding, to compare each passage with the other passages or by means of showing Coding stripes to browse what else is coded in this source at that node, or simply to get back to coding where you left off.
 
+### Activity 5: Viewing more context
 
+It may be useful to be able to see the surrounding context of a coding reference you’re examining. This can be done in several ways:
 
-- *d:*	9
-- *dd:*	09
-- *ddd:*	Mon
-- *dddd:*	Monday
-- *m:*	1
-- *mm:*	01
-- *mmm:*	Jan
-- *mmmm:*	January
-- *mmmmm*:	J
-- *yy:*	12
-- *yyyy:*	2012
-- *mm/dd/yyyy:*	01/09/2012
-- *m/d/y:*	1/9/12
-- *ddd, mmm d:*	Mon, Jan 9
-- *mm/dd/yyyy h:mm AM/PM:*	01/09/2012 5:15 PM
-- *dd/mm/yyyy hh:mm:ss:*	09/01/2012 17:15:00
+You can jump to the source by Right-clicking on the passage > Open Referenced File. This will take you to the source and highlight the passage in which you were interested: 
 
+![](imgs/open_ref_file.png)
+  
+You can view additional content surrounding your passage of interest without going back to the whole source by R-clicking on the passage > Coding Context > and choosing how much you wish to see: 
 
+![](imgs/coding_broad.png)
+ 
+This will bring in your selected quantity in light grey type so you can differentiate it from what’s actually coded at that node at which point you can select more of it to code into that node if you would like.
 
-Let's use the "dddd" option here to extract the full name of each weekday. To do this, your formula should be: 
+## Export coded data
 
+There are extensive ways to output data material about your data to other formats and applications. Not all ways are included here since there are infinite combinations of settings required for different reasons which will be based on your own particular requirements.
 
-`=text(C2, "dddd")`
+### Activity 6: Exporting via the list pane
 
+This is the general and usually used qualitative form of output which can be achieved almost anywhere in the package by different methods. This would usually be what is required for e.g. coded output and is easier to generate than the more formal Reporting functions below.
 
-Like so: 
+In List pane – select the item/s you want to export content for, say a Node or a Document, Right click > Export. Give this a go now with the Nodes for Dataset 1. First, click on Dataset 1 Nodes in the Navigation pane. Then Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save as a Word file. This will be easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
 
+## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
 
+The formalized *Reports* and associated Extracts function (in Navigation bar or Explore/Ribbon group) specifically concerns the support provided for mixed qual/quant methods. Some of the reports only provide quantitative information or summaries. Experiment with these via the Help Menu.
 
-![](imgs/c2_dddd.png)
+Two standardized Reports will also provide e.g. qualitative coded source data.
 
+-	Coding Summary Report by *Node*
+-	Coding Summary Report by *Source*
 
-Now copy this for each row, and you will now find out the day of the week that each one of these burglaries falls on:
+These reports are essentially the same but allow for different sorting mechanisms. This would be a quick way to export many codes at once. Experiment with all the drop-down options and Select buttons.
 
+See if you can create a Report on your Nodes and Sources.
 
-![](imgs/dow_col.png)
+**MAC USERS** – play around to see what kind of things you can create. It’s all about trial and error at this stage.
 
+## Some other useful things to do
 
-**NOTE** : If this is not working for you, it is possible that your laptop/Excel/operating system is set to a different language. For example, if you have a laptop that is set to French, instead of "dddd" (which means daydaydayday to Excel) it will be looking for "jjjj" (journéejournéejournéejournée). If you have a laptop set to a language other than English, think about how you say the date you're trying to extract (day or month or year, etc.). 
+Below are some more tools you might get some use out of.
 
-Right, now we want to compare burglary in weekday to the weekend. Can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
+### Create another Word Cloud:
 
+See if you can replicate something like this from last week:
 
-### Activity 7.4: Recoding days of the week 
+![](imgs/cloud_w9.png)
 
+ 
+This is a Word Cloud for Dataset 1 only.
 
-Well think back to when we did re-coding in week 4. Remember the `VLOOKUP()` function? Remember the `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. You then have to tell it the **table_array** - which is your lookup table, with two columns of data. The VLOOKUP function *always* searches for the lookup value in the first column of table_array. Your table_array may contain various values such as text, dates, numbers, or logical values.You then have to tell it the **col_index_num** - the column number in table_array from which the value in the corresponding row should be returned. Finally, you still have to specify the **range_lookup**. This determines whether you are looking for an exact match (when you set to FALSE) or approximate match (when you set to TRUE or you omit it).
+### Create a Word Tree:
 
+Using the *Query* function, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
 
-The first thing you have to create is your lookup table. For each value of day of the week, you should assign a value of Weekday or Weekend. Something like this: 
+![](imgs/query_nvivo.jpeg)
 
+And then chosen the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
 
-![](imgs/wkday_lookup.png)
+![](imgs/wordtree.png)
+ 
+Whilst you can export your Word Tree into jpeg or PDF form, in NVivo you can also click on the different branches to better understand the connections. Try it out.
 
+### Create a Concept Map (WINDOWS ONLY!)
 
+Windows users might want to create a concept map to connect data to different ideas and thoughts. It is very similar to the Mind Map function that we did earlier. You can learn more about it [here](https://www.youtube.com/watch?v=NRSPP6eZd0s).
 
-**Note**: Remember what you learned with lookup tables back in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, excel would fail to match something like " Wednesday" or "Wednesday " or "wednesday" because the value in the lookup table actually said "Wednesday". The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting *values* (not the formula). 
+## Other features…
 
+Finally, here are some features that the more innovative amongst you may wish to make use of. Much of the *qualitative data* used in criminology is textual in that we often carry out interviews with offenders, victims and law enforcement. 
 
+![](imgs/police.gif)
 
-Now let's try to apply the formula. 
+But you might be interested in generating different data, such as audio or visual:
 
-- **lookup_value** is the day of the week
-- **table_array** is this table we just created
-- **col_index_num** is the column which contains the values to translate into 
-- **range_lookup** set this to FALSE, so we match on exact matched only
+### Graphics/pictures - making linked notes and coding
 
+Try importing a picture. Find something online and save it. Then import it. Here’s our example:
 
+![](imgs/code_pic.png)
+ 
+With the picture on view, click to edit, or enable the editing feature. You can then:
 
+-	Make a selection within the graphic/right click/ Insert a row – and write notes.
+-	Make a selection/right click /Code selection. 
+-	Code the notes instead
 
+Have a play with coding and analysing pictures.
 
-![](imgs/vlookup_formula_wkday.png)
+### Coding audio/video data
 
+Coding multimedia data is very similar to coding textual data. For either audio or video sources, you can select transcript text and code per usual, or you can select a segment on the progress bar and code that directly as if you’d highlighted text.
 
+So, if you have some music on your iTunes, try importing a song to see what it looks like then see if you can code lyrics and sections of the song. We’ve put some Radiohead in our project if you want to try it out there…
 
+## More on capturing web material
 
-Make sure to add the dollar signs (`$`), to ensure that you can copy the formatting!
+Last week we imported webpages for our media articles by saving them as PDFs. But another, and actually better, way of doing this is by using **NCapture**.
 
+A growing variety of web content and social media is available to you using NCapture, a web browser extension, that is available for free with NVivo. It allows you to capture and import a screenshot of any webpage as a PDF or various social media sites (such as Twitter, Facebook, and LinkedIn) as a dataset (table).
 
-Now, finally you have a variable that tells you whether each burglary took place on a weekday or a weekend: 
+To learn more about this click [here](https://www.youtube.com/watch?v=-rex1HaRg3k&t=3s).
 
+Once you have NCapture installed, open your browser, and navigate to the website of interest. You’ll need to do this on your personal machines as it is unlikely to be installed on the lab computers.
 
+Once installed, the process is as follows:
 
-![](imgs/wkday_var_created.png)
+-	Click the *NCapture* icon in your browser bar
+-	A dialogue box opens (right)
+-	Choose your source type (probably ‘Web Page as PDF’), source name, optional description, memo nodes, etc.
+-	Click Capture
+-	See NCapture Progress page below
 
+**NOTE:** WEB PAGES ARE CAPTURED USING THE PDF OPTION – SOCIAL MEDIA WOULD BE CAPTURED USING THE DATASET OPTION
 
-### Activity 7.5 patterns in residential burglary
-
-
-Now you can use this variable to carry out univariate analysis and create a frequency table to see the number of burglaries on weekdays or weekends. Let's create this pivot table: 
-
-
-![](imgs/wkday_pivot.png)
-
-
-
-Unsurprisingly, when we look at the number of burglaries in each group, we see there are a lot more burglaries on weekdays than weekends. Why do you think that is? Take a moment to discuss in small groups, and write your thoughts!
-
-
-
-![](https://media.giphy.com/media/xT5LMPQWYPMrZOYjug/giphy.gif)
-
-
-What did you discuss? We are hoping that you mentioned that there were a lot more weekdays than weekend-days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays than weekends in a week. We know, it's a sad truth, we work a lot more than we get to rest. But another thing that happens because of this, is that simply looking at the number of burglaries in weekdays and in weekends might not be a very meaningful measure. Remember earlier, when we spoke about comparing like for like? Or last week, when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well again here, we should calculate a **rate**; to truly be able to compare, we should look at a rate such as the number of burglaries *per day* for weekdays, and the number of burglaries *per day* for weekend-days. 
-
-
-How do you calculate the rate? Well you do this simply by dividing the numerator (number of burglaries) by an appropriate denominator. What is the best denominator? Well it depends on the question you're looking to answer. Usually it's what comes after the *per*. If we are looking for number of crimes *per population* then we will be dividing by the population. If we are looking at number of burglaries *per household* we will be dividing by the number of households in an area. In this case, we were talking about the number of burglaries *per day* to compare between weekends and weekdays. Your denominator will be the number of days for each group. 
-
-
-To get the burglary rate (per day), we simply take our total number of burglaries from our pivot table, and divide by the number of days for each. As we know, there are 5 weekdays (boo) and 2 weekends (yaay). So let's divide accordingly: 
-
-
-![](imgs/burg_1.png)
-
-
-And copy also for the weekends, and voila we have our answer to the question, are there more burglaries on weekdays or weekends:
-
-
-![](imgs/burg_2.png)
-
-
-
-Now you can discuss again why you think this might be. For example, during the week, people are away from their homes for work, for the majority of each day, which leaves their home unprotected. I've mentioned the [crime triangle](https://popcenter.asu.edu/content/problem-analysis-triangle-0) before. If the resident is not home, then there is an absence of a capable guardian, and there is an increased risk for a crime (such as burglary) to occur! Write down any other theories/thoughts you might have about this!
-
-
-
-There are many things that peak on certain days of the week. If you're interested in some more examples, [read this article in the Guardian about the most dangerous days of the week](https://www.theguardian.com/lifeandstyle/2013/may/29/most-dangerous-day-of-week). 
-
-
-
-## Aggregating to simple intervals
-
-Above the activities have you the ability to extract certain types of date categories from the date column. If we want to compare year on year increase or decrease, this is one approach. Or if we want to compare day of week, month of year, and so on. We did this by creating a new variable, and then using a pivot table. We could also look at the date as it is, we could have a look at the number of crimes each day, but often this can be noisy. Instead, sometimes we want to aggregate (group) these into simpler time intervals.
-
-First, we've not had a look at our time variable yet, so we could start with that. 
-
-
-### Activity 7.5: Aggregate to hour
-
-
-Let's say we want a bit more granularity. We want to see *when* within the day these crimes occur. We can see that we have a `Time.of.Occurrence` variable, which has the exact time. But this is very precise, and aggregating to the minute might not let us see greater patterns. Also, if we aggregate to the minute, we communicate that we really trust the precision of the data on when the crime occurred, which, especially in the case of burglary might be fishy. Think about it for a moment - if the home owner is out all day, and the burglar breaks in at 12:30, when will the crime be reported - when it occurred, or when the home owner returns from work in the evening? Hmm Hmm. In this case, let's aggregate to the nearest hour. 
-
-
-To do so, first create a new column for 'Hour':
-
-
-![](imgs/hour_1.png)
-
-
-
-Then, use the `=HOUR()` function to extract the hour, just like we did to get the year using the `=YEAR()` function. Except, this time we are extracting hour from the "Time.of.Occurrence" variable, rather than the "Date.of.Occurrence" variable. Like so: 
-
-
-
-
-![](imgs/hour_2.png)
-
-
-
-And finally, copy your formatting to all the rows: 
-
-
-
-![](imgs/hour_3.png)
-
-
-
-Now you have a column for the hour that the offence was committed in! Have a think about how you are aggregating here though. As you can see, this function simply takes the hour when the incident occurred. So something that happened at 14:01 and 14:59 will both be grouped to 14:00. Is this a problem? Well it depends on the sort of granularity of analysis that you will be carrying out. Most of the time (particularly with burglary, as mentioned above) we will struggle to get an accurate understanding of what time the incident happened anyway. But there may be cases when more precision is needed, in that case you might want to consider the hours and minutes, or think about other ways to aggregate (group) your data. 
-
-
-You could also extract something else, for example the month and year from the date. To do this, you simply use this, you again create a new column, and this time use a formula that extracts text from the date: 
-
-`=TEXT(*cell reference*,"mmm-yyyy")`
-
-In where it says cell reference, just put in the reference to the column from the date (in this case it's C) and the cell number (2 for the first row). 
-
-`=TEXT(C2,"mmm-yyyy")`
-
-You can then copy this formula down the whole data set. 
-
-
-**NOTE:** Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through [this tutorial](https://blogs.office.com/en-us/2015/10/13/time-grouping-enhancements-in-excel-2016/?eu=true) to show you how you can use this new feature. This will be important in a moment as well, when we try to group for specific dates, so do take some time to think about this!
-
-
-What can we do with all this great temporal data? Well, let's start by visualising!
-
-
-## Visualising time
-
-
-Depending on what you're visualising, you can use either a linear approach, or a cyclical approach. A linear approach makes sense if you're plotting something against passing time. If you are looking at whether a trend is increasing or decreasing, this is something you would look at over time, because it would be moving forward. 
-
-
-On the other hand, many measures of time are cyclical. For example, remember in the very first week, when we spoke about *levels of measurement* of variables, and we had a variable for time, and mentioned that this was *not* a numeric variable, instead it was categorical-ordinal, because it loops back around. After the 23rd hour of a day comes the 0 hour of the next! So representing this on a linear graph may mask some important variation. Let us show you an example: 
-
-
-![](imgs/time_line_ex.png)
-
-
-
-The above is some made-up data, of something, over the hours of a day. What do the peaks there look like to you? If we were looking at this, we would say we have 3 peaks. There is a peak in the early hours of the morning, like 1-2am, then again a peak midday, and again another peak in the evening around 9pm. 
-
-
-![](imgs/time_radar_ex.png)
-
-
-
-This is the same data, but visualised in a cyclical way. In this visualisation, it actually appears that there are two main peaks. The peaks that were previously identified as two separate, possibly independent peaks have now bridged into 1, and we can see that instead there might be a continuum, and an ongoing event from 9pm to 2am. It is important to consider the cyclical nature of some of your temporal variables, and use the appropriate means to visualise them. 
-
-
-
-It might be worth to have a look at some examples of temporal data being visualised, as well as making our own visualisations of time. Here we will focus on 3 approaches, **line graphs**, **radar graphs**, and **heatmaps**. 
-
-
-## Visualising trends: Line graphs
-
-
-Let's start with viewing some examples of time visualised using a timeline, of continuous time passing: 
-
-
-The world of sports is rich with data, but that data isn't always presented effectively (or accurately, for that matter). The folks over at FiveThirtyEight do it particularly well, though. In this interactive visualization below, they calculated what's called an "Elo rating" -- a simple measure of strength based on game-by-game results -- for every game in the history of the National Football League. That's over 30,000 ratings in total. Viewers can compare each team's Elo to see how each team performed across decades of play. [See here](http://projects.fivethirtyeight.com/complete-history-of-the-nfl/#ari)
-
-
-
-![](https://blog.hubspot.com/hs-fs/hubfs/history-of-football-teams.png?t=1510614058976&width=669&height=475&name=history-of-football-teams.png)
-
-
-
-Another example of a continuous timeline is the "what is warming the world" visualisation. Ever heard a version of the advice, "Don't simply show the data; tell a story with it"? That's exactly what this visualization from Bloomberg Business does -- and it's the interactive part that makes the story move along from beginning to end. 
-
-The point of the visualization is to disprove theories that claim that natural causes explain global warming. The first thing you'll see is the observed temperature as it's risen from 1880 to present day. As you scroll down, the visualization takes you through exactly how much different factors contribute to global warming in comparison to what's been observed, adding a richer layer of storytelling. The conclusion the authors want viewers to draw is made very clear. [See here](http://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
-
-
-
-![](https://blog.hubspot.com/hs-fs/hubfs/bloomberg-climate-change.png?t=1510614058976&width=669&height=277&name=bloomberg-climate-change.png)
-
-
-### Activity 7.6: Visualising trends: Line graphs
-
-If we wanted to see whether there is a particular drend in burglaries, we could create a line graph here. 
-
-
-To make a line graph, we need to think about what we will represent on our horizontal (x) axis, and what we will represent on our vertical (y) axis. Let's say that on the Y axis we want to represent *number of burglaries*. OK, so what should we have on our X axis? That will be whatever we use to fill in the blank in the sentence: number of burglaries per _____________. Let's say we want to know any changes in the number of burglaries *per day*. Well to do this we will need to *count the number of times that each date appears in the data*. Remember what this means?
-
-
-That's right! Univariate analysis time. Go ahead and use a pivot table to build a frequency table of the `Date.of.Occurrence` variable. You will eventually end up with something like this: 
-
-
-![](imgs/burg_day_pivot.png)
-
-**NOTE**: Remember the note we made just above about newer versions (2016+) of Excel automatically grouping our data? It is possible that this has happened to you now, and you have something like this instead: 
-
-![](imgs/ex_2016_aggr.png)
-
-
-In this case you will have to ungroup the data. In this case, please right click anywhere on the pivot table, and select the option to "ungroup" your data: 
-
-![](imgs/ex_2016_ungroup.png)
-
-
-Once you have done this, you will see a pivot table where each date appears only the once. 
-
-
-Now to turn this into a line graph. We've made quite a few line graphs before, including last week as well, but never with this many data points. However, the motions are still the same. You highlight your data, you select your appropriate chart (line graph), and then you also add the labels, using "Select Data" and populating the 'Category (X) axis labels' section in the popup window that appears. If any of this is confusing to you, re-visit last week's lab notes about data visualisation. 
-
-
-
-When all said and done, you should end up with a chart that looks like this: 
-
-
-
-![](imgs/line_burgs.png)
-
-
-
-
-Is residential burglary going up or down in the city of Dallas? It's not easy to tell from this, is it? The thing with data at these intervals is that there is a lot of day-to-day variation, and what we would refer to as the **noise**. And in this **noise** we can loose sight of the **signal**. 
-
-
-**Signal-to-noise ratio** (abbreviated SNR or S/N) is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. While SNR is commonly quoted for electrical signals, it can be applied to any form of signal, and is sometimes used metaphorically to refer to the ratio of useful information to false or irrelevant data. 
-
-
-An interesting book to read that talks a lot about how to identify signals within the noise is the aptly named [The Signal and the Noise by Nate Silver](https://www.theguardian.com/books/2012/nov/09/signal-and-noise-nate-silver-review) and if you enjoyed anything about this class, or you enjoyed reading the Tiger that Isn't text, we would highly recommend it! It can get a bit more technical in places, but it's got loads of very neat examples, and is an entertaining read overall. In this book, the author talks about the need to see past all the noise (the random variation in the data) in order to be able to make predictions (using the signal). 
-
-
-In this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes, to be able to look at overall trends. For example, we could start to **smooth** this data, and instead of looking at the number of burglaries each day, begin to consider the *average number of burglaries every 10 days*, which would be something called the **10-point moving average**. This would be one approach to smooth our data. We will return to this later today. 
-
-
-## The time cycle: visualising cyclical variables
-
-
-I've hinted at this throughout the course, that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the **levels of measurement** for the variables in the Twitter data we assembled? And we told you that time of Tweet for example was not a numeric variable, instead ordinal. Well hour of the day is a cyclical ordinal variable, as it *cycles* around. After 23h comes 0h, and not 24, as we would expect from a numeric variable. 
-
-How can we best represent this special nature of our variables?
-
-
-There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs The below graphs all represent the same data, of page views for a website across different times of day. Here’s an example by Purna Duggirala that is essentailly a bubble chart that uses two clocks side by side: 
-
-
-![](http://dougmccune.com/blog/wp-content/uploads/2011/04/two_clocks-300x163.png)
-
-
-The biggest problem with the chart is the incorrect continuity. A single clock on its own isn’t a continuous range, it’s really only half a range. So the clock on the left is showing 12am – 12pm, but when you reach the end of the circle the data doesn’t continue on like the representation shows. Instead you need to jump over to the second clock and continue on around. It’s difficult to see the ranges right around both 12pm and 12am, since you lose context in one direction or another (and worse, you get the incorrect context from the bordering bubbles).
-
-
-
-
-In a great show of Internet collaboration, the double clock chart spurred some other experimentation. Jorge Camos came up with a polar chart that plots the data on a single “clock face,” showing two 12 hour charts overlaid on top of each other.
-
-
-
-![](http://dougmccune.com/blog/wp-content/uploads/2011/04/polar_chart2-300x256.png)
-
-
-
-
-
-
-Given that the 12-hour clock is a difficult metaphor to use for a visualization, many people choose to use a 24-hour circle. 24-hour circular charts typically start with midnight at the top of the chart and then proceed clockwise, showing all 24 hours in one 360-degree range. The benefit of a 24-hour circular chart is that the cyclical nature of the data is represented and the viewer can easily read the continuity at any point on the chart.
-
-
-
-A simple example of a 24-hour circle comes from Stamen Design‘s Crimespotting. This isn’t a data-heavy visualization chart, since it doesn’t actually show any data other than sunrise and sunset times (instead it’s main purpose is as a filtering control). But it’s a good example of the general layout of 24-hour charts, and it’s very clean and well-labeled. You can read about the thinking that went into designing this “time of pie” on Stamen’s blog.
-
-
-
-![](imgs/crimespotting_time_pie.png)
-
-
-The inspiration for this time selector, which is documented in Tom Carden’s blog post, was the real-life timer control used for automating lights in your house.
-
-
-![](imgs/real_life_time_pie-150x150.png)
-
-
-
-
-This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualisation). We know, we know, we covered data visualisation last week, can we please get over it. But it's one of the most fun aspects of data analysis so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse, she was a famous data pioneer!
-
-
-This is Florence Nightingale's 'coxcomb' diagram on mortality in the army:
-
-![](imgs/FlorenceData900.jpg)
-
-
-
-We all have an image of Nightingale - who died over 100 years ago - as a nurse, lady with the lamp, medical reformer and campaigner for soldiers' health. But she was also a data journalist. After the disasters of the Crimean war, Florence Nightingale returned to become a passionate campaigner for improvements in the health of the British army. She developed the visual presentation of information, including the pie chart, first developed by William Playfair in 1801. Nightingale also used statistical graphics in reports to Parliament, realising this was the most effective way of bringing data to life.
-
-
-Her report on mortality of the British Army, published in 1858, was packed with diagrams and tables of data. The coxcomb chart demonstrates the ratio of British soldiers who died during the Crimean War of sickness, rather than of wounds or other causes. Her work changed the course of history, enabling pro-active change through data collection. In 1858 Nightingale presented her visualisations to the health department demonstrating the conditions of the hospitals, and whose actions resulted in deaths being cut by two thirds.
-
-
-### Activity 7.7: Visualising cycles: Radar charts
-
-
-So, how do we make these in Excel? Well let's return to our within-day variation in residential burglaries. Let's visualise when they take place. 
-
-
-To do this, we will first need to create a frequency table of the hour variable. Remember we are graphing UNIVARIATE ANALYSIS. We are describing one variable in our data, which is the hour variable. To know the frequency of each value of this variable (the number of burglaries in each hour), we must build a pivot table. 
-
-
-Do this, create a pivot table that tells you the frequency of each hour: 
-
-
-
-
-![](imgs/hr_freq.png)
-
-
-
-Now highlight the "Total" column, as it represents the number of burglaries in each hour, and this is what you want to graph. Then for charts select "Other", and then "Radar":
-
-
-![](imgs/hr_radar_1.png)
-
-Or, in some cases it might be under the waterfall chart option (symbolising "other"):
-
-![](imgs/waterfall_radial.png)
-
-
-A radar graph will appear, something like this: 
-
-
-![](imgs/wrong_radar.png)
-
-
-
-Now there is something wrong with this graph. Can you spot it? Take a moment now to look... I'll wait here. Once you have some ideas, discuss in your groups, and write it down!
-
-
-![](https://media.giphy.com/media/3ohhwIbKJAT3eUz38s/giphy.gif)
-
-
-
-Did you notice? If not, look again, this time, look at the graph, and tell us which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no).
-
-
-Why is this? Well our axes are not actually labelled! Remember, to label your axes, do as you did in the line graph, right click on the graph, "Select Data..." and populate the 'Category (X) axis labels' section in the popup window that appears with the hours. Now your graph should make sense: 
-
-
-![](imgs/correct_hr_1.png)
-
-
-
-Much better. Clearly residential burglaries are happening in the morning, and in the day, and much less so in the night. But, is this any different between weekend and weekday? 
-
-
-Now we are introducing a *second* variable. By now you should know that this means to answer this question, we will need **bivariate** analysis. So, create a bivariate table, by dragging the weekday variable which we created earlier into the "Column Labels" box in the pivot table options. This will create a crosstab for you: 
-
-
-![](imgs/bi_radar_1.png)
-
-
-
-
-Now select the values for the "Weekday" column, and again for charts choose Other > Radial:
-
-
-![](imgs/hr_r_20.png)
-
-
-
-A chart will appear, showing you only the weekday burglaries. Now, right click this chart and select "Select Data..." option: 
-
-
-
-![](imgs/hr_r_21.png)
-
-
-First, label your current data. Do this by clicking in the textbox next to the "Name:" label, and then clicking on the column header (cell B4):
-
-
-![](imgs/hr_r_22.png)
-
-
-
-
-Then add the correct labels, but clicking on the box next to "Category (X) axis labels", and selecting the hours in the "Row Labels" column.
-
-
-
-![](imgs/hr_r_23.png)
-
-
-
-Now, add the weekend burglaries. Do this the same way we added multiple lines last week. You click on the "Add" button, and you put the name in the textbox next to "Name:", and the values in the text box next to the "Y-values" box. This time you can leave "Category (X) axis labels" empty, as it's already populated by the previous series:
-
-
-
-![](imgs/hr_r_24.png)
-
-
-
-Ta-daa here is your 2-variable radial graph. 
-
-
-
-
-![](imgs/hr_r_25.png)
-
-
-
-One issue though. Can you think of it? 
-
-
-
-No? Well look how tiny the circle for the weekend is. This is because of the problem that we discussed earlier, there are simply many more burglaries in the weekday. If we want to look at how within-day patterns differ between weekend and weekday, this graph isn't necessarily the best approach. Instead, we might want to look at *percentage* distribution, instead of count. 
-
-
-
-To do this, change the pivot table to display percent instead of count. A reminder how to do this: you click on the little i (or arrow on a PC) to bring up a popup window, on which you select options: 
-
-
-
-![](imgs/hr_r_26.png)
-
-
-
-This brings up a menu where you can select what to "show data as". Choose **% of column** (because we want to know the percent of weekday crimes in each hour, and percent of weekend crimes in each hour, so our 100% are our columns, we are looking at column percentages):
-
-![](imgs/hr_r_27.png)
-
-
-For doing this on a PC, to get the percentages for weekday/weekend burglaries, the options are slightly different. Need to go to the tab called "Show Values As" and then select % of Column:
-
-
-![](imgs/pc_radial.png)
-
-
-
-And finally, ta-daa you have a radial graph that helps you compare the within-day temporal patterns of residential burglary between weekdays and weekends. 
-
-![](imgs/hr_r_28.png)
-
-Now we can talk about what is the temporal distribution of burglary within the day, and how this pattern is different between weekday and weekends. Think about how these might map on to people's routine activities. What time do you think most people leave to go to work in the morning? Could that explain the spike in weekday early hours, which we don't see in the weekend chart? Hmm hmm!
-
-
-## Bivariate analysis 
-
-
-Another way we might want to apply bivariate analysis to temporal data is to look at patterns within the day and within the week, or within the week and within the month. This allows us to drill down with more granularity to see when specific crimes are happening. One way to do this is to appeal to our cross tabs, from back in week 3, and use heatmaps to visualise these. 
-
-
-### Activity 7.8: Heatmaps
-
-
-Heatmaps visualise data through variations in colouring. When applied to a tabular format, Heatmaps are useful for cross-examining multivariable data, through placing variables in the rows and columns and colouring the cells within the table. Heatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.
-
-Typically, all the rows are one category (labels displayed on the left or right side) and all the columns are another category (labels displayed on the top or bottom). The individual rows and columns are divided into the subcategories, which all match up with each other in a matrix. The cells contained within the table either contain colour-coded categorical data or numerical data, that is based on a colour scale. The data contained within a cell is based on the relationship between the two variables in the connecting row and column.
-
-A legend is required alongside a Heatmap in order for it to be successfully read. Categorical data is colour-coded, while numerical data requires a colour scale that blends from one colour to another, in order to represent the difference in high and low values. A selection of solid colours can be used to represent multiple value ranges (0-10, 11-20, 21-30, etc) or you can use a gradient scale for a single range (for example 0 - 100) by blending two or more colours together. Refer back to what we learned about colour last week in data visualisation. 
-
-Because of their reliance on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it’s harder to accurately tell the differences between colour shades and to extract specific data points from (unless of course, you include the raw data in the cells).
-
-Heatmaps can also be used to show the changes in data over time if one of the rows or columns are set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities, to see where’s the hottest or coldest places. The rows could list the cities to compare, the columns contain each month and the cells would contain the temperature values.
-
-- [data viz catalogue](https://datavizcatalogue.com/methods/heatmap.html)
-
-
-
-Let's make a heatmap for burglary, from a crosstab looking at the frequency of burglary across days of the week *and* hours of the day. 
-
-
-You can know, by the way that question is phrased, that your task here will require a bivariate analysis. To produce this, we will need a pivot table. So let's create our crosstab with pivot table, where we have day of week in the columns, and hour of day in the rows: 
-
-
-![](imgs/hm_pivot.png)
-
-
-Now this tells you all the information you want to know, but there are a lot of cells, with a lot of numbers, and it's not immediately obvious where we should be looking. A heatmap (via conditional formatting) creates an option for us to nudge people to find the high and low values in this table. 
-
-
-
-To implement this, highlight the values in your table: 
-
-
-![](imgs/cond_1.png)
-
-
-Then find the conditional formatting tab, and select a colour scheme that works for you. Remember to consider whether red values should be high or low? Is a high number good? Or is it bad? 
-
-
-![](imgs/cond_2.png)
-
-
-
-In this case, red is bad because it means more burglaries! Select this colourscheme and as if by magic, our table will now be highlighted in the form of a heatmap: 
-
-
-![](imgs/cond_3.png)
-
-
-Now your eyes are immediately drawn to where the high values are, which apparently is Monday to Friday, 7 and 8 AM. We can see that on Saturday and Sunday even burglars want a lie-in, and therefore you see the green low burglary rate creep up later than on weekdays. Exciting stuff!
-
-
-Do remember thought what we learned about colour coding, and make sure you consider your colourblind audiences when presenting such data!
-
-
-
-### More charts?
-
-
-The Gantt chart is also a way to visualise the passage of time, or rather the tasks that you must complete as this time passes. You learned in the session covering research design about Gantt charts, which are essentially horizontal bar charts showing work completed in a certain period of time with respect to the time allocated for that particular task.
-
-
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/300px-GanttChartAnatomy.svg.png)
-
-
-It is named after the American engineer and management consultant Henry Gantt who extensively used this framework for project management. We covered how to do these in the research design session, please do refer back to those if you are not sure how to make them any more...!
-
-
-
-There are also some non-conventional line-graph based timelines. While these appear initially like linear representations, it's actually possible for these to loop back, and reverse in time, making them slightly different. For example [this one about gas prices and driving practices](http://www.nytimes.com/imagepages/2010/05/02/business/02metrics.html), or this one about [driving safely](http://www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html) demonstrate this approach quite neatly. 
-
-
-
-You could also have a stacked line chart to represent time: 
-
-
-![](imgs/other_time_graph_1.png)
-
-
-Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.
-
-The order in which we stack the variables is crucial because there can sometimes be a difference in the actual plot versus human perception. The chart plots the value vertically whereas we perceive the value to be at right angles to the general direction of the chart. For instance, in the case below, a bar graph would be a cleaner alternative.
-
-
-![](imgs/other_time_graph_2.jpg)
-
-
-
-
-Time is dynamic, and as a result there are many dynamic visualisations of time as well. For example, it is possible to build a gif as a graph output, with each measurement in time being one frame. This example, which represents time as frames in a gif, shows how the percent of the US population by age group has changed, and is predicted to change over time: 
-
-
-![](https://www.pewresearch.org/wp-content/uploads/2016/04/Age-Pyramids.gif)
-
-
-Similarly Hans Rosling, who you might remember from the Joy of Stats video, was known for his dynamic representation of time, using videos and gifs:
-
-
-![](https://media.giphy.com/media/3o6Ygfw40tlnPhX87m/giphy.gif)
-
-
-
-You can see that there are many cool ways to represent time, and I've shown you only few. We hope you are interested to explore more!
-
-
-
-
-## Time series
-
-When reading and discussing about temporal time analysis, you will hear such data referred to as a **time series**. A Time Series is an ordered sequence of values of a variable at equally spaced time intervals.For example, when we aggregate our burglaries data to dates, then we have a series of observations (each day in our data set) and a corresponding number of burglaries which take place on each day. It becomes a time series of burglaries. 
-
-
-**Time Series Analysis** is an analytic technique that uses such a sequence of data points measured at successive, uniform time intervals (such as each day like in the burglary data), to identify *trends* and other *characteristics* of the data. For example, a time series analysis may be used to study our data of burglary rate over time, and based on the patterns we find, it may be able to predict future crime trends.
-
-
-So what makes time series data special? Well all time series data have three basic parts:
-
-- A *trend* component; this is the overall trend we might observe in the data e.g. is burglary going up, going down, or staying constant?
-- A *seasonal* component; this is the seasonal variation, a repeated fluctuation pattern, such that we saw with different crimes in the lecture videos e.g. that burglary varies within the week, we expect a peak in weekday sand a dip in weekends like we saw above.
-- A *random* component; we have to account for this element of random fluctuation, the "noise" on our data. Sometimes crime goes up or down due to random events - a prolific burglar has broken her arm, a homeowner who may have otherwise been burgled has a child fall sick who has to stay home from school for a week, and even less discernable, less specific reasons, there is always an element of random variation in data, and we always must be conscious of this "noise" from which we must discern the signal. 
-
-
-Trends are often masked because of the combination of these components – especially the random noise! It is our task, with temporal analysis to make sense of these components, separate them, and extract meaning from our data. 
-
-
-When we extract these elements, two types of patterns are important:
-- The trends, which can be linear or non-linear (i.e., upwards or downwards or both (quadratic)); and
-- The seasonal effects which follow the same overall trend but repeat themselves in systematic intervals over time. 
-
-We care less about the random noise, only to quieten it, but not to find patterns in that, as it is random errors. 
-
-
-There is a whole area of research and data analysis which focuses on making sense of time series data, here we will cover only a brief overview, so you are aware of them. To manipulate and extract meaning from time series data, researchers and analysts turn to time series *models*. 
-
-The usage of time series models can serve to:
-
-- To help reveal or clarify trends by obtaining an understanding of the underlying forces and structure that produced the observed data
-- To forecast future patterns of events by fitting a model
-– To test the impact of interventions 
-
-
-One approach we will explore here is **smoothing** our time series data. Smoothing data removes random variation and shows trends and cyclic components. Inherent in the collection of data taken over time is some form of random variation. There exist methods for reducing of canceling the effect due to random variation. Smoothing can reveal more clearly the underlying trend, seasonal and cyclic components.
-
-
-In this course we will explore smoothing in order to answer questions of the first option from those above, '*To help reveal or clarify trends by obtaining an understanding of the underlying forces and structure that produced the observed data*'. In particular we will look into producing *moving averages*. You should also know about the existence of *smoothing techniques*, and the sophisticated method for revealing trends is known as *seasonal decomposition*, however we will not be performing these ourselves today. 
-
-
-
-## Moving averages
-
-
-Calculating a **moving average** is a technique to get an overall idea of the trends in a data set. It is achieved by taking an average of any subset of numbers. The moving average is extremely useful for forecasting long-term trends. You can calculate it for any period of time. For example, if you have sales data for a twenty-year period, you can calculate a five-year moving average, a four-year moving average, a three-year moving average and so on. Stock market analysts will often use a 50 or 200 day moving average to help them see trends in the stock market and (hopefully) forecast where the stocks are headed.
-
-
-
-We have learned about the mean (or average) in this course, and how it represents the “middling” value of a set of numbers. The *moving* average is exactly the same, but this average is calculated several times for several subsets of data. For example, if you want a two-year moving average for a data set from 2000, 2001, 2002 and 2003 you would find averages for the subsets 2000/2001, 2001/2002 and 2002/2003. 
-
-
-Moving averages are used to see seasonal fluctuations, or to gauge the direction of the current trend. Every type of moving average is a mathematical result that is calculated by averaging a number of past data points. Once determined, the resulting average is then plotted onto a chart in order to allow analysts to look at smoothed data rather than focusing on the day-to-day fluctuations that are inherent in time series. To help aid understanding of trends, moving averages are usually plotted and are best visualized.
-
-
-The simplest form of a moving average, appropriately known as a **simple moving average (SMA)**, is calculated by taking the arithmetic mean of a given set of values like described above. For example, to calculate a basic 10-day moving average for the number of burglaries mentioned above, you would add up the total number of burglaries from the past 10 days and then divide the result by 10. If an analyst wishes to see a 50-day average instead, the same type of calculation would be made, but it would include the number of burglaries over the past 50 days. The resulting average takes into account the past 50 data points in order to give traders an idea of how an asset is priced relative to the past 50 days. 
-
-
-Perhaps you're wondering why this tool is called a "moving" average and not just a regular mean? The answer is that as new values become available, the oldest data points must be dropped from the set and new data points must come in to replace them. Thus, the data set is constantly "*moving*" to account for new data as it becomes available. 
-
-
-There is some more detailed explanation using the example of stock prices here: [Moving Averages: What Are They?](http://www.investopedia.com/university/movingaverage/movingaverages1.asp#ixzz4xbKq8xgI ). OK you say, why do we care about stock prices though, we are criminologists. Well, anyone looking at something over time should be interested to calculate this. Moving averages are a general method for reducing random fluctuation in any time series by recomputing the value for every data point based on the average of preceding time periods. This can apply to calculating for example burglaries over time. 
-
-
-Here is a real-world example: 
-
-
-Paul Barclay and colleagues evaluated the effects of bike patrols on auto theft from a large commuter parking lot outside Vancouver, British Columbia. Vehicle theft dropped after the response, but it had been dropping for several weeks prior to the bike patrols, since the implementation of a publicity campaign that preceded the bike patrols. In this case, an anticipatory effect may have added a great deal to the overall effectiveness of the patrols. Though a moving average was used to smooth out random variation, the drop in thefts between the beginning of the publicity and the beginning of the bike patrols is too large to be due to data smoothing.
-
-![](https://popcenter.asu.edu/sites/default/files/learning/60steps/graphics/step_52.gif)
-Source: Barclay, Paul and colleagues (1996) "Preventing Auto Theft in Suburban Vancouver Commuter Lots: Effects of a Bike Patrol." Crime Prevention Studies, volume 6, Monsey, NY: Criminal Justice Press.
-
-
-Evidently we can use this moving average to tease out signal (what is happening) from noise (random fluctuations in our data/measurement).
-
-### Activity 7.9 Hand calculate the moving average
-
-It is important that you understand the concept of what we are covering, before we move on to the Excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what Excel does behind the scenes can really help with this. So in this activity we really want you to take time and watch this [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes about what you had just learned.
-
-
-### Activity 7.10: Moving average in Excel
-
-
-With the previous activity we now have that experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So let's learn how to calculate the moving average in Excel. Initially we will practice on a smaller data set, in order to help see through the process, and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under **Learning Materials > Module 7 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow along below this tutorial.
-
-
-We will be needing the **Data analysis toolpak** for this one, so look back to previous weeks where we used it, or all the way back to week 1 when we installed it in case you've forgotten all about this. 
-
-
-In our toy data set, someone has collected daily temperature information. Tempreature fluctuates both seasonally, and with random noise (especially in Manchester...!) so to make sense of the trends in temperature, we want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
-
-
-![](imgs/430314.image0.jpg)
-
-
-To calculate a moving average, first click the Data tab’s Data Analysis command button.
-
-
-When Excel displays the Data Analysis dialog box, select the Moving Average item from the list and then click OK.
-
-
-![](imgs/da_ma.png)
-
-
-
-Identify the data that you want to use to calculate the moving average.
-
-
-Click in the Input Range text box of the Moving Average dialog box. Then identify the input range, either by typing a worksheet range address or by using the mouse to select the worksheet range. Your range reference should use absolute cell addresses. An absolute cell address precedes the column letter and row number with `$` signs, as in `$A$1:$A$10`. This should be familiar by now! 
-
-Once you have the correct cells in the 'Input Range', make sure to tick the box that says "Labels in First Row" (this means that the first row (A1) has the name (or label) of the column, rather than a value to be used in the calculations):
-
-![](imgs/mov_av_1.png)
-
-
-
-In the Interval text box, tell Excel how many values to include in the moving average calculation.
-You can calculate a moving average using any number of values. By default, Excel uses the most recent three values to calculate the moving average. To specify that some other number of values be used to calculate the moving average, enter that value into the Interval text box. Here let's enter 3 (which is the default, but why not be specific).
-
-
-Finally, tell Excel where to place the moving average data. Use the Output Range text box to identify the worksheet range into which you want to place the moving average data. In the worksheet example, the moving average data has been placed into the worksheet range B2:B10 (the next column over from the A column). 
-
-
-
-<!-- (Optional) Specify whether you want a chart. If you want a chart that plots the moving average information, select the Chart Output check box. -->
-
-
-<!-- (Optional) Indicate whether you want standard error information calculated. If you want to calculate standard errors for the data, select the Standard Errors check box. Excel places standard error values next to the moving average values. (The standard error information goes into C2:C10.) -->
-
-
-After you finish specifying what moving average information you want calculated and where you want it placed, click OK.
-
-Then you should see something like this:
-
-
-![](imgs/mov_av_2.png)
-
-
-
-
-**Note:** If Excel doesn’t have enough information to calculate a moving average for a standard error, it places the error message into the cell. You can see several cells that show this error message as a value. This is normal, it's because there is nothing to calculate from. You saw this in the previous exercise as well when the video mentioned the "gaps". 
-
-So that's how you calculate a simple moving average in Excel. If you want another toy example to play around with, you may try again following the steps in [this tutorial here](http://www.excel-easy.com/examples/moving-average.html)
-
-If you'd like to apply this to our burglary data to see what we can get out of that, you're very welcome to as well. We won't go into that now, as we've done enough today, but here's our Moving Average chart for burglary for only 2015 year from our Dallas data set using 30 days:
-
-
-![](imgs/burg_2015_MA.png)
-
-
-
-So that's about it. If you're feeling very adventurous you can have a look at [seasonal decomposition in Excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and one more in-depth learning about [moving average and soothing techniques in Excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
+-	Go to the Sources section of the Navigation pane > Internals > Web Content subfolder (or wherever you’d like the new Sources to be created) 
+-	Go to the External Data Ribbon tab > From Other Sources > From NCapture (as seen left) 
+-	A dialogue box opens, as seen below, showing recent captures. Choose the captures you’d like, and click Import. Webpages will be brought in as pdfs; social media files as tables, depending on your choices during capture.
+Then analyse as we have been doing in the sessions.
 
 ## Summary
 
-
-In sum, you should now be able to begin to make sense of temporal data in criminology. You should know how to extract variables from a date variable, how to aggregate into meaningful intervals, know how to best visualise temporal trends, and know the approach of the moving average in order to be able to find the signal amidst the noise. You should be comfortable with the following terms: 
-
-- time-series
-- seasonality
-- cyclical variable
-- radar graph
-- heatmap
-- moving average
-- smoothing
-- signal & noise
-- trend, seasonality, and randomness
-- how to use the following formulas
-  + text()
-  + year()
-  + hour()
-
-
+You can use your nodes to build your ideas and theories, or identify evidence to support your theoretical propositions. You can focus in on particular themes, compare across nodes and the data, and extract to support your academic work in a systematic way. Using *NVivo* gives you structure and management for your data, helps you develop clear organizing and conceptual frameworks, and allows you to interrogate the data at different levels and in different directions.
 
