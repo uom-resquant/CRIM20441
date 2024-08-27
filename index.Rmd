@@ -14,13 +14,13 @@ description: "This is a companion workbook for the 2nd year undergraduate module
 
 # Introduction {-}
 
-This workbook contains the lab materials and homework assignments for an introduction to a data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduate module of the BA Criminology programme at the University of Manchester. 
+This workbook contains the lab materials and homework assignments for an introduction to a data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd year undergraduate module of the BA Criminology programme at the University of Manchester.
 
-It makes use of Excel, as we have identified a gap in training students to use Excel, despite it being a primary tool for data analysis (whether we like it or not) in many public and private sector organisations. As many students take [Q-step internships](https://www.humanities.manchester.ac.uk/q-step/), this skill was identified as important. 
+Throughout this module, you'll explore the essential techniques of descriptive data analysis in criminology, integrating both quantitative and qualitative approaches. Quantitative methods provide structured ways to measure and analyse crime data patterns, while qualitative methods offer deeper into the meanings and contexts behind those numbers. The distinction between being solely a "quantitative person" or a "qualitative person" is increasingly outdated. Mastering both techniques will enhance your ability to analyse and interpret diverse datasets, depending on the research question and project goals, making you a more versatile and effective analyst.
 
+The course makes use of Excel, as we have identified a gap in training students to use Excel, despite it being a primary tool for data analysis (whether we like it or not) in many public and private sector organisations. As many students take [Q-step internships](https://www.humanities.manchester.ac.uk/q-step/), this skill was identified as important. 
 
-Making Sense of Crim Data introduces students to data, and the concepts of descriptive data analysis. The role of this term is to familiarise students with basic concepts of data analysis, and get acquainted with descriptive statistics to be able to talk about data about crime, policing, and criminal justice topics. 
-
+By the end of this module, you will have a strong foundation in various data types, the methods to generate them, and the approaches to analyse them. Engage actively with the materials, and consider how these techniques can be applied in real-world scenarios.
 
 ## Disclaimer {-}
 

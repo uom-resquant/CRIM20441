@@ -82,7 +82,7 @@ library(lubridate)
 
 #gmp_crimes <- read.csv("/Users/mllxwdb2/Dropbox (The University of #Manchester)/MakingSenseOfCrimData/Data/gmp_crimes.csv")
 #gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
-gmp_crimes <- read.csv("D:/_Acer 26 March 2024/My files/Manchester 2024/Making sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
+gmp_crimes <- read.csv("C:/Users/josep/OneDrive/Manchester/Making Sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
 
 
 ```
