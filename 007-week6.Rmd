@@ -105,7 +105,7 @@ You can watch [this Youtube video](https://www.youtube.com/watch?v=hECPeKv5tPM) 
 
 ## Introducing NVivo, a software for qualitative data analysis
 
-In weeks 8 and 9 we will learn how to use a software for qualitative data analysis called **NVivo**.
+In weeks 6 and 7 we will learn how to use a software for qualitative data analysis called **NVivo**.
 
 To give you the corporate spiel: NVivo provides a flexible range of different ways to handle the analysis of qualitative data - good code and retrieve tools with powerful tools for data visualisation and interrogation. A wide range of multimedia and social media data types are acceptable to NVivo.
 
@@ -137,7 +137,10 @@ Select 'Register now':
 
 Then fill in your personal details and **your UNIVERSITY EMAIL**. Agree the terms and conditions and privacy policies, and sign up.
 
-You will then see a "Downloads" tab in the upper part of the site, click on it and select "Older versions":
+As this website updates frequently, we have provided two ways to download the file.
+
+**VERSION 1**
+You see a "Downloads" tab in the upper part of the site, click on it and select "Older versions":
 
 ![](imgs/NVIVO2023-4.png)
 
@@ -148,13 +151,19 @@ Now find the "NVivo 12 for Windows" or "NVivo 12 for Mac" buttons, and press on 
 
 ![](imgs/NVIVO2023-6.png)
 
+**VERSION 2**
+
+Click [here](https://my.lumivero.com/products/nvivo/download) to go directly to the downloads page. Click on 'Older versions', then select Nvivo Version 12 either for Windows or Mac.
+
+**NEXT STEP**
+
 You will download an executable file in your computer, click on it once it is fully downloaded.
 
 ![](imgs/nvivo_downloading.png)
 
 And then you can select your language, accept the terms in the license agreement, and press "Finish".
 
-You’ll need the License code to complete the installation process: **NVT12-JZ000-9HA20-9R68K-0MHPX** (code for 2023/2024)
+You’ll need the License code to complete the installation process: **NVT12-IZ000-SHA20-UR685-NNZYI** (code for 2023/2024)
 
 Then you should see a message saying "Your licence has now been activated".
 
@@ -172,7 +181,7 @@ The lab sessions will also be strongly supplemented with video tutorials from th
 
 ### Activity 2: Watch NVivo tutorials
 
-Discover more about the NVivo tutorials [here](https://www.qsrinternational.com/nvivo/free-nvivo-resources/tutorials). Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
+Discover more about the NVivo tutorials [here](https://help-nv.qsrinternational.com/20/win/Content/tutorials/nvivo-tutorials.htm). Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
 
 - Watch the three *basic* NVivo 12 video tutorials. It is very important that you watch these. These tutorials will teach you how to:
     + ‘Import Documents’, for [Windows](https://www.youtube.com/watch?v=QN6AAKmZvIo) or [Mac](https://www.youtube.com/watch?v=I7tJpX2ixDI). 

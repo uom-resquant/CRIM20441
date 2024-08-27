@@ -40,7 +40,7 @@ We saw, when discussing ways to summarise variables (univariate analysis), that 
 In this case, each data set has the same exact summary statistics, but it is through visualisation that we can see they look quite different actually!
 
 
-**Engaging your audience:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the United States? Have a look at some more examples of interactive data visualisations [here) ](https://www.tableau.com/en-gb/learn/articles/interactive-map-and-data-visualization-examples) and try them out yourselves. It should be an interesting little activity!
+**Engaging your audience:** You might also recall seeing some interactive data visualisations. These are something that has the power to really engage people with a topic. Instead of just passively telling people numbers in a table, visualisations can help engage your reader. But don't take our word for it, give it a go yourself! Remember in the video lecture where we draw the line, trying to guess the relationship between poverty and university attendance in the United States? Have a look at some more examples of interactive data visualisations [here)](https://www.tableau.com/en-gb/learn/articles/interactive-map-and-data-visualization-examples) and try them out yourselves. It should be an interesting little activity!
 
 
 We won't quite be learning how to make these kinds of interactive visualisations, but we will learn some basic principles behind effective data visualisation. By the end of today you should also have a practical sense for why some graphs and figures work well, while others may fail to inform or actively mislead. You will know how to create a wide range of plots in Excel as well as how to refine plots for effective presentation.
@@ -141,7 +141,7 @@ Whether or not you subscribe to Tufte's school of minimalism, you should be able
 
 Let's start with an activity where we engage with a chart.
 
-### Activity 6.1: What do you think?
+### Activity 8.1: What do you think?
 
 Here is a data visualisation that shows the life expectancy of people who live in different continents. In small groups have a chat about this. What do you like about it? What do you not like about it? Do you think it meets the 5 criteria set out by Alberto Cairo in your readings (truthful, functional, beautiful, insightful, enlightening)? Write some notes about this in your shared document.
 
@@ -306,7 +306,7 @@ A good resource website is [ColorBrewer](http://colorbrewer2.org/). This site of
 
 
 
-### Activity 6.2: Picking a colour scheme
+### Activity 8.2: Picking a colour scheme
 
 
 Let's say we want to pick a colour scheme to visualise the variable of perception of police. Let's say we're measuring this with one variable, operationalised as having asked people the extent to which they agree with the following statement: "I think the police are doing a good job in my area" where the values for this variable are: Strongly agree, Agree, Neither agree nor disagree, Disagree, and Strongly Disagree.
@@ -377,7 +377,7 @@ You can also change the display, from HEX to RGB or CMYK codes, which are just u
 Right, but how do we get these colours into our Excel graph? Let's give it a go.
 
 
-### Activity 6.3: Custom colours in Excel graphs 
+### Activity 8.3: Custom colours in Excel graphs 
 
 
 
@@ -527,7 +527,7 @@ We suggest that in your own time, you listen to [this episode of the DataStories
 Exploratory data visualisation is a way for you to get to know your data. It is a way to explore patterns and trends that you might not immediately see. We've covered some of this when we were performing univariate and bivariate analyses, but we will focus on how data visualisation can help you answer questions about your data, and also spend some time on making sure these graphs are in line with good practice. 
 
 
-### Activity 6.4: Comparing categories
+### Activity 8.4: Comparing categories
 
 
 Let's practice answering questions with data. Go back to the FBI data you downloaded from Blackboard. 
@@ -662,7 +662,7 @@ Once you are done with all this, you can click on "OK" and you will have your fi
 
 Ta-daaa. Is this the best graph to answer our question? Well you could explore a few more, and see what happens. 
 
-### Activity 6.5: Let's never make a pie chart again
+### Activity 8.5: Let's never make a pie chart again
 
 How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well, there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
 
@@ -700,7 +700,7 @@ For example, to answer our question *What year had the highest violent crime rat
 
 
 
-### Activity 6.6: Exploring trends
+### Activity 8.6: Exploring trends
 
 
 We'll be talking about changes over time and trends next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, this time we are interested in a new question:
@@ -814,7 +814,7 @@ Make any changes you would like, and finally click "OK" to produce your final gr
 
 
 
-### Activity 6.7: Making a chart template
+### Activity 8.7: Making a chart template
 
 
 Now you will probably find your own style for a graph, and you might not want to change these settings every time you create a graph. Let's say we want to create a separate graph for the rates of various crime types in this data. To make our lives easier, once we've gotten one graph to look just how we would like, we can save this as a template. 
@@ -880,7 +880,7 @@ Click on the template, then click OK, and you should have your graph be updated 
 You can now see that the default chart that appears follows the formatting that you have carefully devised as your ideal format. You will still have to add any sort of data addition (for example specify where to find the years to populate the Category (X) axis labels). But it definitely saves you some time in terms of formatting. 
 
 
-### Activity 6.7: Saving your graph
+### Activity 8.7: Saving your graph
 
 
 
@@ -920,7 +920,7 @@ It is important that you label your graphs. You should include a short and to-th
 
 
 
-## Activity 6.8: More complex graphs
+## Activity 8.8: More complex graphs
 
 
 While we only covered descriptive analysis for univariate and bivariate analysis, when it comes to making sense of your data graphically, you can include further variables. 
@@ -1059,7 +1059,7 @@ The most important thing when communicating your results is that you know your a
 
 
 
-### Activity 6.9: Interpreting results
+### Activity 8.9: Interpreting results
 
 
 You should, by becoming a maker of good graphs, become literate about graphs as well. If you are interested in something like a role as a crime analyst, part of your interview process might include something like a numeracy test, which will test your ability to interpret trends and data from graphs (among some other things). 

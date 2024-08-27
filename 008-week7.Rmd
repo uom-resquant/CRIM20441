@@ -58,7 +58,7 @@ Let’s do this then. Here we’ll focus on using nodes for reflective purposes 
 
 ### Activity 1: Coding
 
-We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session e.g. Lab Session Week 9.
+We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session e.g. Lab Session Week 7.
 
 On Blackboard you’ll fine two datasets in the Week 9 folder: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
 

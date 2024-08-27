@@ -38,7 +38,7 @@ Three types of trend can be identified:
 
 This week we will be looking at crime data from the USA. As you saw, the data from police.uk is aggregated by months. We do not know when the offences happened, only the month, but nothing more granular than that. American police data on the other hand is much more granular. 
 
-Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to **Learning Materials > Module 7 > Data for Labs and Homework**, and the file is *dallas_burg_correct.xlsx*. Download this and open it up in Excel. 
+Specifically, we will be looking at crimes from Dallas, Texas. [You can see more about these data, and find the download link to the data dictionary here: https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd](https://www.dallasopendata.com/Public-Safety/Police-Bulk-Data/ftja-9jxd). However, for this lab, you can download a subset of Dallas crime data from blackboard. Go to **Learning Materials > Module 9 > Data for Labs and Homework**, and the file is *dallas_burg_correct.xlsx*. Download this and open it up in Excel. 
 
 
 
@@ -51,7 +51,7 @@ But what if we asked you the question: which year had the most residential burgl
 Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for year. To know what day of the week has the most burglaries, you need to have a variable for day of the week. How can we extract these variables from your date column? Well, luckily Excel can help us do this. 
 
 
-### Activity 7.1: Formatting your dates appropriately 
+### Activity 9.1: Formatting your dates appropriately 
 
 In this activity we will learn how to take a date, and extract from it different elements that are required for our analyses. First you want to make sure that your date column is, in fact, a date, and so interpreted by Excel as well. To be sure, you can right click on the column, and select "Format cells...":
 
@@ -72,7 +72,7 @@ This way you make sure that Excel knows that your date column is a date. It also
 
 
 
-### Activity 7.2: Extracting temporal variables from dates
+### Activity 9.2: Extracting temporal variables from dates
 
 
 Now, let's start by answering our first question: which year had the most burglaries. To answer this, we first need a variable for year. Let's extract this from the date column. We can do this with the `=year()` function. Inside the brackets, you just have to put the date from which to extract the year. 
@@ -121,7 +121,7 @@ To answer this question, hopefully you built a pivot table with the year variabl
 Hopefully you got a similar result. If not, now is the time to discuss in your groups, or ask for help. You can now identify that the year with the highest number of residential burglaries in Dallas was... 2015. You should however note that since 2017 was not yet over at the time of data collection, you have incomplete data for this year, and so you're not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data. 
 
 
-### Activity 7.3: Extract day of week from date column 
+### Activity 9.3: Extract day of week from date column 
 
 
 Now let's go back to our 2nd question - do residential burglaries happen more on weekdays, when people are at work (pre-covid times anyway...), or in the weekends, maybe when people are away for a holiday? 
@@ -190,7 +190,7 @@ Now copy this for each row, and you will now find out the day of the week that e
 Right, now we want to compare burglary in weekday to the weekend. Can you make a pivot table that answers our question about weekends and weekdays yet? Well, not quite just yet. You would need a column for weekday/weekend. How can we do this?
 
 
-### Activity 7.4: Recoding days of the week 
+### Activity 9.4: Recoding days of the week 
 
 
 Well think back to when we did re-coding in week 4. Remember the `VLOOKUP()` function? Remember the `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. You then have to tell it the **table_array** - which is your lookup table, with two columns of data. The VLOOKUP function *always* searches for the lookup value in the first column of table_array. Your table_array may contain various values such as text, dates, numbers, or logical values.You then have to tell it the **col_index_num** - the column number in table_array from which the value in the corresponding row should be returned. Finally, you still have to specify the **range_lookup**. This determines whether you are looking for an exact match (when you set to FALSE) or approximate match (when you set to TRUE or you omit it).
@@ -233,7 +233,7 @@ Now, finally you have a variable that tells you whether each burglary took place
 ![](imgs/wkday_var_created.png)
 
 
-### Activity 7.5 patterns in residential burglary
+### Activity 9.5 patterns in residential burglary
 
 
 Now you can use this variable to carry out univariate analysis and create a frequency table to see the number of burglaries on weekdays or weekends. Let's create this pivot table: 
@@ -284,7 +284,7 @@ Above the activities have you the ability to extract certain types of date categ
 First, we've not had a look at our time variable yet, so we could start with that. 
 
 
-### Activity 7.5: Aggregate to hour
+### Activity 9.5: Aggregate to hour
 
 
 Let's say we want a bit more granularity. We want to see *when* within the day these crimes occur. We can see that we have a `Time.of.Occurrence` variable, which has the exact time. But this is very precise, and aggregating to the minute might not let us see greater patterns. Also, if we aggregate to the minute, we communicate that we really trust the precision of the data on when the crime occurred, which, especially in the case of burglary might be fishy. Think about it for a moment - if the home owner is out all day, and the burglar breaks in at 12:30, when will the crime be reported - when it occurred, or when the home owner returns from work in the evening? Hmm Hmm. In this case, let's aggregate to the nearest hour. 
@@ -328,8 +328,7 @@ In where it says cell reference, just put in the reference to the column from th
 You can then copy this formula down the whole data set. 
 
 
-**NOTE:** Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through [this tutorial](https://blogs.office.com/en-us/2015/10/13/time-grouping-enhancements-in-excel-2016/?eu=true) to show you how you can use this new feature. This will be important in a moment as well, when we try to group for specific dates, so do take some time to think about this!
-
+**NOTE:** Now there is also a new feature in Excel 2016 that allows you to do automatic grouping by time. You can have a look through [this tutorial](https://www.microsoft.com/en-us/microsoft-365/blog/2015/10/13/time-grouping-enhancements-in-excel-2016/) to show you how you can use this new feature. This will be important in a moment as well, when we try to group for specific dates, so do take some time to think about this!
 
 What can we do with all this great temporal data? Well, let's start by visualising!
 
@@ -384,7 +383,7 @@ The point of the visualization is to disprove theories that claim that natural c
 ![](https://blog.hubspot.com/hs-fs/hubfs/bloomberg-climate-change.png?t=1510614058976&width=669&height=277&name=bloomberg-climate-change.png)
 
 
-### Activity 7.6: Visualising trends: Line graphs
+### Activity 9.6: Visualising trends: Line graphs
 
 If we wanted to see whether there is a particular drend in burglaries, we could create a line graph here. 
 
@@ -452,15 +451,11 @@ There are also multiple cyclical ways to visualise your data. One approach is to
 The biggest problem with the chart is the incorrect continuity. A single clock on its own isn’t a continuous range, it’s really only half a range. So the clock on the left is showing 12am – 12pm, but when you reach the end of the circle the data doesn’t continue on like the representation shows. Instead you need to jump over to the second clock and continue on around. It’s difficult to see the ranges right around both 12pm and 12am, since you lose context in one direction or another (and worse, you get the incorrect context from the bordering bubbles).
 
 
-
-
 In a great show of Internet collaboration, the double clock chart spurred some other experimentation. Jorge Camos came up with a polar chart that plots the data on a single “clock face,” showing two 12 hour charts overlaid on top of each other.
 
 
 
 ![](http://dougmccune.com/blog/wp-content/uploads/2011/04/polar_chart2-300x256.png)
-
-
 
 
 
@@ -499,7 +494,7 @@ We all have an image of Nightingale - who died over 100 years ago - as a nurse, 
 Her report on mortality of the British Army, published in 1858, was packed with diagrams and tables of data. The coxcomb chart demonstrates the ratio of British soldiers who died during the Crimean War of sickness, rather than of wounds or other causes. Her work changed the course of history, enabling pro-active change through data collection. In 1858 Nightingale presented her visualisations to the health department demonstrating the conditions of the hospitals, and whose actions resulted in deaths being cut by two thirds.
 
 
-### Activity 7.7: Visualising cycles: Radar charts
+### Activity 9.7: Visualising cycles: Radar charts
 
 
 So, how do we make these in Excel? Well let's return to our within-day variation in residential burglaries. Let's visualise when they take place. 
@@ -650,7 +645,7 @@ Now we can talk about what is the temporal distribution of burglary within the d
 Another way we might want to apply bivariate analysis to temporal data is to look at patterns within the day and within the week, or within the week and within the month. This allows us to drill down with more granularity to see when specific crimes are happening. One way to do this is to appeal to our cross tabs, from back in week 3, and use heatmaps to visualise these. 
 
 
-### Activity 7.8: Heatmaps
+### Activity 9.8: Heatmaps
 
 
 Heatmaps visualise data through variations in colouring. When applied to a tabular format, Heatmaps are useful for cross-examining multivariable data, through placing variables in the rows and columns and colouring the cells within the table. Heatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.
@@ -832,12 +827,12 @@ Source: Barclay, Paul and colleagues (1996) "Preventing Auto Theft in Suburban V
 
 Evidently we can use this moving average to tease out signal (what is happening) from noise (random fluctuations in our data/measurement).
 
-### Activity 7.9 Hand calculate the moving average
+### Activity 9.9 Hand calculate the moving average
 
 It is important that you understand the concept of what we are covering, before we move on to the Excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper working out what Excel does behind the scenes can really help with this. So in this activity we really want you to take time and watch this [video on how to calculate moving average by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI), and follow along. In your groups, you might want to watch the video together and follow along, or individually and discuss afterwards. When you have finished watching make some notes about what you had just learned.
 
 
-### Activity 7.10: Moving average in Excel
+### Activity 9.10: Moving average in Excel
 
 
 With the previous activity we now have that experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So let's learn how to calculate the moving average in Excel. Initially we will practice on a smaller data set, in order to help see through the process, and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under **Learning Materials > Module 7 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow along below this tutorial.
