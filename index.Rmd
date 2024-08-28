@@ -1,6 +1,6 @@
 --- 
 title: "Making Sense of Crime Data"
-<!--author: "Reka Solymosi (maintained and updated by David Buil-Gil and Nicolas Trajtenberg)" -->
+author: 
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
