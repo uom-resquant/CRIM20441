@@ -12,16 +12,13 @@ github-repo: rstudio/bookdown-demo
 description: "This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester."
 ---
 
-# Preface {-}
-
-
 # Introduction {-}
 
 This study material is designed to introduce Criminology students at the University of Manchester to using data analysis in crime research and practice. This is an improved version of the material originally developed by Reka Solymosi, and is currently being updated and maintained by Ana Maria Nicoriciu and Nico Trajtenberg.
 
 This lab note is a work in process. If you have any suggestions or find any errors, please don’t hesitate to contact us. We appreciate your feedback and will use it to improve the material for future students.
 
-This workbook contains the lab materials and homework assignments for an introduction to a data analysis course designed for CRIM20441 Making Sense of Criminological Data, a 2nd-year undergraduate module of the BA Criminology programme at the University of Manchester.
+This workbook contains the lab materials and homework assignments for an introduction to a data analysis course designed for **CRIM20441 Making Sense of Criminological Data**, a 2nd-year undergraduate module of the BA Criminology programme at the University of Manchester.
 
 Throughout this module, you'll explore the essential techniques of descriptive data analysis in criminology, integrating both quantitative and qualitative approaches. Quantitative methods provide structured ways to measure and analyse crime data patterns, while qualitative methods offer a deeper understanding of the meanings and contexts behind those numbers. The distinction between being solely a "quantitative person" or a "qualitative person" is increasingly outdated. Mastering both techniques will enhance your ability to analyse and interpret diverse datasets, depending on the research question and project goals, making you a more versatile and effective analyst.
 
