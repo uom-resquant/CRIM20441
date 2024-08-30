@@ -2,26 +2,26 @@
 
 ## Learning outcomes
 
-Welcome to week 1! This week is all about getting set up, and taking some first steps in learning about what is *data*. These are the building blocks of all the weeks to come, so pay special attention, and do set a pattern of asking questions! Now without further ado, let's get started. 
+Welcome to week 1! This week is all about getting set up, and taking some first steps in learning about what is *data*. These are the building blocks of all the weeks to come, so pay special attention, and do set a pattern of asking questions! Now, without further ado, let's get started. 
 
 
 ## Familiarising yourself with the course
 
-If you haven’t already, please watch the videos on Blackboard that explain the course setup. It's important to understand how the six elements (Preparation materials, Lecture videos, Lab session, Homework task, Homework quiz, Feedback session) interconnect. We also strongly recommend reading the Week 1 Introduction to gain further context on the course objectives for this week. You can watch the videos after this session and before tackling the homework and quiz. In the future, make it a habit to go through Blackboard materials first, as they will prepare you for the lab sessions. If you have any questions, ask now or post on the **Discussion board**. 
+If you haven’t already, please watch the videos on Blackboard that explain the course setup. It's essential to understand how the six elements (Preparation materials, Lecture videos, Lab session, Homework task, Homework quiz, Feedback session) interconnect. We also strongly recommend reading the Week 1 Introduction to gain further context on the course objectives for this week. You can watch the videos after this session and before tackling the homework and quiz. In the future, make it a habit to go through Blackboard materials first, as they will prepare you for the lab sessions. If you have any questions, ask now or post on the **Discussion board** on Blackboard. 
 
 
 ## Asking a question on the discussion board
 
-For almost all of the questions you will have throughout this module, you will be asked to post them on the discussion board. This is because if you have a question, there is very good odds that others in your class have the same question as well. If you ask on the discussion board, we can keep track of all the questions on there, and build a FAQ of sorts. Then, if someone else has the same question, they might come to the discussion board, and see that a similar question has already been asked and in fact answered. In this case, you get an instant answer to your query! Very useful! 
+For almost all of the questions you will have throughout this module, you will be asked to post them on the discussion board. This is because if you have a question, there are very good odds that others in your class also have the same question. If you ask on the discussion board, we can keep track of all the questions there and build a FAQ of sorts. Then, if someone else has the same question, they might come to the discussion board and see that a similar question has already been asked and, in fact, answered. In this case, you get an instant answer to your query! Very useful! 
 
-If you feel like you don't have any questions, we still encourage you to check the discussion board occasionally, to see what others are asking. Maybe there is some interesting discussion you hadn't thought of. Maybe someone asked a question that you know the answer to. In such a case, feel free to answer - don't worry, we are monitoring the board, so if your answer isn't quite right we can follow up. So there is no risk, only reward of having helped your colleagues :) 
+If you feel like you don't have any questions, we still encourage you to check the discussion board occasionally to see what others are asking. Maybe there is some interesting discussion you hadn't thought of. Maybe someone asked a question that you know the answer to. In such a case, feel free to answer - don't worry we are monitoring the discussion board, so if your answer isn't quite right, we can follow up. So there is no risk, only the reward of having helped your colleagues :) 
 
 
 ### Activity 1: Posting on the discussion board
 
 All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_82193_1&tool_id=_119_1&tool_type=TOOL&mode=cpview&mode=reset).
 
-Here you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For subject put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us, either a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
+Here, you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For the subject put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us: a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
 
 ![](imgs/db_activity.png)
 
@@ -31,17 +31,17 @@ Here you will see a forum titled "week 1 discussion". Click on this, and then cl
 ## Setting up your working environment
 
 
-The first thing you need to do is to create a working environment for yourself, for this course, and for all projects you will work on, using data. Just because everything is on your computer or laptop does not mean this is something you can ignore. 
+The first thing you need to do is to create a working environment for yourself for this course and for all projects you will work on using data. Just because everything is on your computer or laptop does not mean this is something you can ignore. 
 
 
-There is a myth about the scientist and the messy workspace, typically illustrated with Albert Einstein: 
+There is a myth about the scientist and the messy workspace, typically illustrated with a picture of Albert Einstein: 
 
 ```{r, echo=FALSE}
 knitr::include_graphics("imgs/einstein_desk.jpg") 
 ```
 
 
-However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with these famous work spaces of: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
+However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
 ```{r, echo=FALSE, fig.height=100}
 knitr::include_graphics("imgs/galileo_desk.jpg") 
@@ -52,7 +52,7 @@ knitr::include_graphics("imgs/alan_turing_desk.jpg")
 
 ```
 
-```{r, echo=FALSE, fig.height=100, fig.cap="\\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy work spaces"}
+```{r, echo=FALSE, fig.height=100, fig.cap="\\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces"}
 knitr::include_graphics("imgs/charles_dickens_desk.jpg") 
 
 
@@ -60,10 +60,10 @@ knitr::include_graphics("imgs/charles_dickens_desk.jpg")
 
 
 
-When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, your code and your notes organised. 
+When working with data, you have to consider your workspace. You can think of your computer folders as your desk. It helps immensely to keep our data, code and notes organised. 
 
 
-There are as many approaches as people. Some people save everything to Desktop. I strongly recommend if you do this, you stop, now! 
+There are as many approaches as people. Some people save everything to their Desktop. I strongly recommend that if you do this, you stop now! 
 
 
 I recommend going through [this resource from the University of Cambridge data management guide](https://www.data.cam.ac.uk/data-management-guide/organising-your-data) to consider Naming and Organising Files, Documentation and Metadata, Managing References, and Organising E-mail. 
@@ -76,29 +76,29 @@ Some key points you might find relevant:
 - **Name folders appropriately** - name folders after the areas of work to which they relate. Think of informative and descriptive names - your future self will thank you when trying to locate old notes, data, and files. 
 - **Be consistent** – when developing a naming scheme for your folders, it is important that once you have decided on a method, you stick to it. If you can, try to agree on a naming scheme from the outset of your research project.
 - **Structure folders hierarchically** - start with a limited number of folders for the broader topics, and then create more specific folders within these.
-- **Backup** – ensure that your files, whether they are on your local drive, or on a network drive, are backed up. You have some options for backup using the university infrastructure, specifically your [P drive](https://pdrives.manchester.ac.uk/horde/login.php) - you can save items there. Or you might use an external hard drive backup. You might also use something like [Dropbox](https://www.dropbox.com/home) or [OneDrive](https://onedrive.live.com/about/en-gb/signin/). No matter what, **BACK UP YOUR WORK**! There is nothing worse than when a laptop crashes irrecoverably, or gets stolen, and you've lost everything you've been working on. Trust me, this is a really important thing to think about!
+- **Backup** – ensure that your files, whether they are on your local drive or a network drive, are backed up. You have some options for backup using the university infrastructure, specifically your [P drive](https://pdrives.manchester.ac.uk/horde/login.php) - you can save items there. Or you might use an external hard drive backup. You might also use something like [Dropbox](https://www.dropbox.com/home) or [OneDrive](https://onedrive.live.com/about/en-gb/signin/). No matter what, **BACK UP YOUR WORK**! There is nothing worse than when a laptop crashes irrecoverably or gets stolen, and you've lost everything you've been working on. Trust me, this is a really important thing to consider!
 
 
 ### Activity 2: Create a folder for this module
 
-In your preferred location, create a folder where you will save all your data, materials, notes, and Excel files for this module. You can create sub folders in these as well if you like, or you can create these later. Discuss within your peer students your preferred data management structure, taking the key points from the [Cambridge data management guide](https://www.data.cam.ac.uk/data-management-guide/organising-your-data) into consideration. 
+In your preferred location, create a folder where you will save all your data, materials, notes, and Excel files for this module. You can also create subfolders in these if you like, or you can create these later. Discuss with your peer students your preferred data management structure, taking the key points from the [Cambridge data management guide](https://www.data.cam.ac.uk/data-management-guide/organising-your-data) into consideration. 
 
 
 #### Note for students using the Computer Cluster on campus. 
 
-If you use computer cluster PCs there is some extra information you need to know, so please read on. 
+If you use computer cluster PCs, there is some extra information you need to know, so please read on. 
 
 
-**NOTE: If you are using your own laptop/home computer then you do not need to read this, you can skip to the section 'Getting to know Excel'**
+**NOTE: If you are using your own laptop/home computer, then you do not need to read this; you can skip to the section 'Getting to know Excel'**
 
 
-OK, so if you are using a cluster PC on campus, you need to make sure that everything you are working on is saved in you [**P:drive**](https://pdrives.manchester.ac.uk/horde/login.php). 
+OK, so if you are using a cluster PC on campus, you need to make sure that everything you are working on is saved in your [**P:drive**](https://pdrives.manchester.ac.uk/horde/login.php). 
 
 
-All students and staff have a personal file storage space on the University network - known as the **P: drive** as this is usually the network drive letter allocated to it. Wherever you log on to the campus network your P: drive is available (in PC Clusters, the **My Documents** icon on the desktop is a shortcut to the P: drive).
+All students and staff have a personal file storage space on the University network - known as the **P: drive** as this is usually the network drive letter allocated to it. Wherever you log on to the campus network, your P: drive is available (in PC Clusters, the **My Documents** icon on the desktop is a shortcut to the P: drive).
 
 
-You should already have a **username** and **password** with which to log on. Your username has 7 or 8 letters/digits, typically beginning 'm...'. On the computers in the Faculty clusters (where you work in class time), you will see the Faculty computer 'image' and a version of the operating systems Windows 7.
+You should already have a **username** and **password** with which to log on. Your username has 7 or 8 letters/digits, typically beginning 'm...'. On the computers in the Faculty clusters (where you work during class time), you will see the Faculty computer 'image' and a version of the operating system Windows 7.
 
 
 Away from the campus, you can download and upload files to and from your P: drive over an Internet connection - for example, to and from your home computer. You can access the files on your P-drive from anywhere using the link [https://pdrives.manchester.ac.uk/horde/login.php](https://pdrives.manchester.ac.uk/horde/login.php).
@@ -112,7 +112,7 @@ To create a new folder within your P: drive, click on the 'Create new folder' ic
 
  
  
-For this specific module, you might want to label the new folder **'CRIM20441'**. You will now have a series of folders in your p: drive (some of these you haven't created yourself, they have been provided for you by the University), one of which you can store course material in. 
+For this specific module, you might want to label the new folder **'CRIM20441'**. You will now have a series of folders in your p: drive (some of these you haven't created yourself; they have been provided for you by the University), one of which you can store course material in. 
 Finally, name your Word document 'Trial Document' (in the filename box) and click 'Save'. As noted above, you can remotely access your p: drive (from home or elsewhere). You can do this by logging into your personalised University portal (https://my.manchester.ac.uk).
 </span> 
 
@@ -120,24 +120,24 @@ Finally, name your Word document 'Trial Document' (in the filename box) and clic
 A word of caution - if your P: drive is full (and this tends to happen when you save image or sound files to it), there is a chance that some of the applications you want to use do not work. So make sure you keep your P: drive tidy if you don’t want to run into problems.
 
 
-One last note for using cluster PCs: because cluster PCs come pre-installed with Excel you can skip section 1.6.1 and go straight to "1.6.2 Install data analysis toolpak".
+One last note for using cluster PCs: because cluster PCs come pre-installed with Excel, you can skip section 1.6.1 and go straight to "1.6.2 Install data analysis toolpak".
 
 
  
 
 ## Working directory
 
-If you are using your own laptop, you can create save your files anywhere. However, if you are on the cluster PC you should always save your files on your P:drive. OK - then what?
+If you are using your own laptop, you can create and save your files anywhere. However, if you are on the cluster PC you should always save your files on your P:drive. OK - then what?
 
 
-It's generally good to create a folder to save your data and outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder, where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder, and also give it some name you remember, that will be meaningful. Generally, try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
+It's generally good to create a folder to save your data and outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder and also give it some name you remember that will be meaningful. Generally, try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
 
 
 
 ## Getting to know Excel
 
 
-The main tool we'll be using throughout the course is  [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel). You will be using it to explore, learn about, and manipulate criminological data throughout this course. 
+The main tool we'll use throughout the course is [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel). You will be using it to explore, learn about, and manipulate criminological data throughout this course. 
 
 
 ![I excel](imgs/bill_gates_excel.jpg)
@@ -148,7 +148,7 @@ The main tool we'll be using throughout the course is  [Microsoft Excel](https:/
 Through the University of Manchester IT Services website, all taught students have access to Office Suite, which includes Microsoft Excel. This means you can download Microsoft Excel **for free**, courtesy of the UoM Library. [Follow the instructions here to get Microsoft Office on your laptops](http://www.itservices.manchester.ac.uk/students/office365/). 
 
 
-You likely have come across Excel before, but it is also possible that you have not, so I will start with the assumption that this is your first time opening it up. Exciting. So let's get to it.
+You likely have come across Excel before, but it is also possible that you have not, so I will start with the assumption that this is your first time opening it up. Exciting. So, let's get to it.
 
 
 First, find where you've installed Excel on your own machine. If you have a Mac, it will be in your "Applications" folder:
