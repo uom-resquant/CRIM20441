@@ -205,8 +205,8 @@ You can now move on to the substantive part of today's course. In the next secti
 library(tidyverse) 
 library(lubridate)
 
-#gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
-gmp_crimes <- read.csv("C:/Users/josep/OneDrive/Manchester/Making Sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
+gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
+#gmp_crimes <- read.csv("C:/Users/josep/OneDrive/Manchester/Making Sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
 
 topCrimTyp <- gmp_crimes %>%
   group_by(Crime.type) %>%
