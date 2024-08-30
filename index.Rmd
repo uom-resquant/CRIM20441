@@ -11,6 +11,7 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester."
 ---
+
 # Preface {-}
 This study material is designed to introduce Criminology students at the University of Manchester to using data analysis in crime research and practice. This is an improved version of the material originally developed by Reka Solymosi, and is currently being updated and maintained by Ana Maria Nicoriciu and Nico Trajtenberg.
 
