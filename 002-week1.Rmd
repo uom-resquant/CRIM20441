@@ -156,7 +156,7 @@ First, find where you've installed Excel on your own machine. If you have a Mac,
 ![](imgs/finder_excel.png)
 
 
-If you have a PC, you will find it under the Microsoft Office bundle:
+If you have a PC, use the search option on the taskbar and look for Excel:
 
 
 ![](imgs/open_excel.png)
