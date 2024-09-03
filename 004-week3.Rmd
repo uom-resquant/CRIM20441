@@ -231,7 +231,7 @@ Summing the observations in either way gives you a column total and a row total 
 
 
 
-You can calculate these yourself in the Excel sheet you have downloaded from Blackboard, using the `=SUM()` function, the way that we did this in the previous session. 
+You can calculate these yourself in the Excel sheet you have downloaded from Blackboard, using the `=SUM()` function, the way that we did this in the previous session. Sometimes, these totals are already calculated when the pivot table is created. 
 
 
 
@@ -255,7 +255,8 @@ For example, for the Yes percent column for first-class passengers, you have to 
 But in any case, for the cell that represents the row percentage for the yes survived and first-class combination, you should have the below formula: 
 
 
-`=C3/E3*100`
+`=C3/E3*100` 
+Note: the above cell numbers might be different depending on the placement of your crosstab.
 
 
 Once you type this, you will see the percent value appear for the percent of all first-class passengers who survived: 
@@ -267,7 +268,7 @@ Once you type this, you will see the percent value appear for the percent of all
 
 
 
-You will see that in the formula bar at the top, you see the formula you typed, but in the cell you see the value appear. In this case we can see that about 62.5% of first class passengers survived the sinking of the RMS Titanic. Let's calculate the values for the other cells as well: 
+You will see that in the formula bar at the top, you see the formula you typed, but in the cell, you see the value appear. In this case, we can see that about 62.5% of first-class passengers survived the sinking of the RMS Titanic. Let's calculate the values for the other cells as well: 
 
 
 
@@ -275,7 +276,7 @@ You will see that in the formula bar at the top, you see the formula you typed, 
 
 
 
-Row percentages allow you to talk about the percentage of each value in the variable that's displayed along the rows, in terms of the outcomes displayed across the columns. What does that mean? Essentially, you can talk about the percent of each class that belong to each survival outcome. So you use row percentages to say: 62.5% of those in first class survived, but only 25% of third class passengers did. This is the kind of stuff we can say with row percentages. You get all sorts of better insight, than just talking about the number of passengers who survived. There were 203 1st class survivors, and 178 3rd class, however this doesn't seem to be that much of a difference. But once you take into account, how many *more* 3rd class passengers were than 1st class, you can see that actually it does make a huge difference, as percentage wise, many more 1st class passengers survived. Turning your numbers into percentages tells you these kinds of things. Isn't that exciting? Well, not for Leo...
+Row percentages allow you to talk about the percentage of each value in the variable that's displayed along the rows in terms of the outcomes displayed across the columns. What does that mean? Essentially, you can talk about the percent of each class that belongs to each survival outcome. So you use row percentages to say 62.5% of those in first class survived, but only 25% of third class passengers did. This is the kind of stuff we can say with row percentages. You get all sorts of better insight than just talking about the number of passengers who survived. There were 203 1st class survivors and 178 3rd class; however, this doesn't seem to be that much of a difference. But once you take into account how many *more* 3rd class passengers were than 1st class, you can see that actually it does make a huge difference, as percentage-wise, many more 1st class passengers survived. Turning your numbers into percentages tells you these kinds of things. Isn't that exciting? Well, not for Leo...
 
 
 
@@ -285,18 +286,18 @@ Row percentages allow you to talk about the percentage of each value in the vari
 
 
 
-But what about column percentages? What do those tell us? Well just as row percentages tell you about the percent of the *row* values, distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values, distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly, it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story to what the row percent says. 
+But what about column percentages? What do those tell us? Well, just as row percentages tell you about the percent of the *row* values distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values, distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly, it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story from what the row percent says. 
 
 
 
-Why is that? Well, let's look at the numbers to illustrate. To calculate the column percentages, you have to do the mirror image of what we did for row percentages, just create some new rows, one percentage equivalent for each class, so 1st %, 2nd %, 3rd % and crew %. Again, for each one, populate it with a formula starting with the `=` sign, then the cell of the matching value (so C3 for 1st class survived) divided this time by the column total (C7), and again times by 100. As such: 
+Why is that? Well, let's look at the numbers to illustrate. To calculate the column percentages, you have to do the mirror image of what we did for row percentages and create some new rows, one percentage equivalent for each class, so 1st %, 2nd %, 3rd % and crew %. Again, for each one, populate it with a formula starting with the `=` sign, then the cell of the matching value (so C3 for 1st class survived) divided this time by the column total (C7), and again times by 100. As such: 
 
 
 ![](imgs/col_perc_calc.png)
 
 
 
-Repeat the same for all cells (remember how you can copy formulas by clicking on the bottom right corner of the cell there, and dragging? No? Raise your hand now to ask about it! It saves time, we swear...!)
+Repeat the same for all cells (remember how you can copy formulas by clicking on the bottom right corner of the cell there and dragging it? No? Raise your hand now to ask about it! It saves time, we swear...!)
 
 
 Then you will end up with some results like this: 
@@ -305,7 +306,7 @@ Then you will end up with some results like this:
 ![](imgs/all_col_perc.png)
 
 
-What does that tell you? Well, this tells you about the % of Survivors who were travelling in each class. So we can now see that of all the survivors, 28.6% were 1st class, 16.6% were 2nd class, 25% were 3rd class, and 30% were crew. This doesn't really illustrate any huge disproportionality, does it? Well again, that's because it doesn't compare to those who died. Instead it just looks at the distribution of the survivors between those travelling in different class. And this is why it's really important for you to consider - what is the best way of presenting the data, that considers all angles, and presents the most truthful story? There is a popular book used to teach statistics called [How to Lie With Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics). This is a good point to illustrate again, how important it is for you to understand how to make sense of data, and how to draw meaning from it, in order to be able to scrutinize what stories people may tell you. Depending on what results would be presented from this analysis, we could easily write a different headline. 
+What does that tell you? Well, this tells you about the % of Survivors who were travelling in each class. So we can now see that of all the survivors, 28.6% were 1st class, 16.6% were 2nd class, 25% were 3rd class, and 30% were crew. This doesn't really illustrate any huge disproportionality, does it? Well, again, that's because it doesn't compare to those who died. Instead, it just looks at the distribution of the survivors between those travelling in different classes. And this is why it's really important for you to consider - what is the best way of presenting the data that considers all angles and presents the most truthful story? There is a popular book used to teach statistics called [How to Lie With Statistics](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics). This is a good point to illustrate how important it is for you to understand how to make sense of data and how to draw meaning from it in order to scrutinize what stories people may tell you. Depending on what results would be presented from this analysis, we could easily write a different headline. 
 
 
 Consider this: 
@@ -317,10 +318,10 @@ Consider this:
 The numbers in this headline are all correct. It is true that 30% of the survivors were crew members. But it doesn't take into account the original number of crew members present, from which the survivors could be selected. A very different headline would be: 
 
 
-**Rich leave the poor to sink into icy ocean - 62.5% of 1st class passengers survive, compared with 41.4% of 2nd class, 25.2% 3rd class, and only 24% of crew members who made it out**
+**Rich leave the poor to sink into the icy ocean - 62.5% of 1st class passengers survive, compared with 41.4% of 2nd class, 25.2% 3rd class, and only 24% of crew members who made it out**
 
 
-Very different conclusions, no? All from the same data. The numbers are correct, but they are framed very very differently. This is why it is so important to report all your findings, including the right statistics, as well as to be able to scrutinize other reports as well. To the first statement you might want to pose the question - OK, but what percentage of the non-survivors were crew members? You would receive the figure of 45%, immediately indicating that they would be the largest group represented in the fatalities as well. Then you would begin to realise that the reason they might be a large proportion of the survivors, is because they made up such a large proportion of anyone on board, in the first place. There was simply more of them present! But when you consider their survival rate (which is illustrated better by the row percentages) you gain some insight into the inequalities. And our qualitative information from the movie Titanic further supports this finding, that we need to consider the proportion who did not make it out as well: 
+Very different conclusions, no? All from the same data. The numbers are correct, but they are framed very, very differently. This is why it is so important to report all your findings, including the right statistics, as well as to be able to scrutinize other reports. To the first statement, you might want to pose the question - OK, but what percentage of the non-survivors were crew members? You would receive the figure of 45%, immediately indicating that they would be the largest group represented in the fatalities as well. Then you would begin to realise that the reason they might be a large proportion of the survivors is because they made up such a large proportion of anyone on board in the first place. There were simply more of them present! However, when you consider their survival rate (which is illustrated better by the row percentages), you gain some insight into the inequalities. And our qualitative information from the movie Titanic further supports this finding that we need to consider the proportion of those who did not make it out as well: 
 
 
 ![](https://media.giphy.com/media/bQw045yld4nra/giphy.gif)
@@ -328,22 +329,22 @@ Very different conclusions, no? All from the same data. The numbers are correct,
 
 
 
-I hope that illustrated a bit how you can calculate your row and column percentages, as well as what they mean, and how they help you extract meaning from your data. Usually you will only display *either* row percentages *or* column percentages, *not both*. You will have to choose which one you think is most appropriate for telling your story. 
+I hope that illustrated a bit how you can calculate your row and column percentages, as well as what they mean and how they help you extract meaning from your data. Usually, you will only display *either* row percentages *or* column percentages, *not both*. You will have to choose which one you think is most appropriate for telling your story. 
 
 
-But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1t class and survivors, or 2nd class and survivors, and so on and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it, we have to tell you... So we won't even bother with them any more. 
+But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1st class and survivors, or 2nd class and survivors, and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it, we have to tell you... So we won't even bother with them any more. 
 
 
-So which one you use (row or column) is dictated by the question you ask. There's also this Youtube video where the creator switches between row and column percents, which can further illustrate how it makes a difference which one you use: [you can watch the video here](https://www.youtube.com/watch?v=tGVTIrNeWio). 
+So, which one you use (row or column) is dictated by the question you ask. There's also this YouTube video where the creator switches between row and column percents, which can further illustrate how it makes a difference which one you use: [you can watch the video here](https://www.youtube.com/watch?v=tGVTIrNeWio). 
 
 
-If you're still unsure about these let us know, raise your hand, and we will come to help!
+If you're still unsure about these, let us know. Raise your hand, and we will come to help!
 
 
 ### Decimal places: A note on formatting cells
 
 
-Just before we move on, we quickly want to take a side step and talk about formatting of the cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So what if you wanted to format your results?
+Just before we move on, we quickly want to take a side step and talk about the formatting of cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say, "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived" in terms of their understanding of what that means? In some cases, it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So, what if you wanted to format your results?
 
 
 Well, you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to "Format Cells..."
@@ -352,27 +353,27 @@ Well, you can always round your numbers manually. But as always, there is a way 
 ![](imgs/format_cells.png)
 
 
-This will bring up another window, where on the left hand side you will see a list of possible types of data that your cell could contain. Most likely this will be set to "General" which is a pretty meaningless category. Instead, choose the "Number" option, as your cells contain numbers (percentages). When you click on the "Number" option, you will see a text box, that says "Decimal places: " in front of it. 
+This will bring up another window, where on the left-hand side, you will see a list of possible types of data that your cell could contain. Most likely, this will be set to "General", which is a pretty meaningless category. Instead, choose the "Number" option, as your cells contain numbers (percentages). When you click on the "Number" option, you will see a text box that says "Decimal places: " in front of it. 
 
 
 ![](imgs/num_dec_set.png)
 
 
-Here you can enter the number of decimal places you want to display. Change it to "1". Then click OK. Once you've done that, your percentages should now be displayed with only one decimal point. A bit less noise, don't you agree?
+Here, you can enter the number of decimal places you want to display. Change it to "1". Then click OK. Once you've done that, your percentages should now be displayed with only one decimal point. A bit less noise, don't you agree?
 
 
 ![](imgs/one_dec_row_perc.png)
 
 
 
-### Activity 3.4: Visualising the relationship - Stacked bar charts, and conditional formatting
+### Activity 3.4: Visualising the relationship - Stacked bar charts and conditional formatting
 
 
-Last week we visualised frequency tables using a bar chart. This week we have two variables to visualise. Luckily we can still do this, but with a stacked bar chart. What is this? Well this time, the bar chart will have a consistent height (100%) but will be shaded according to which percentage each category takes up. Let's illustrate to make this more clear. 
+Last week, we visualised frequency tables using a bar chart. This week, we have two variables to visualise. Luckily, we can still do this with a stacked bar chart. What is this? Well, this time, the bar chart will have a consistent height (100%) but will be shaded according to which percentage each category takes up. Let's illustrate this to make it clearer. 
 
 
 
-We've decided that row percentages are the more meaningful of the two here for us, so let's go ahead, and highlight the cells where we have our row percentages. Once this is highlighted, select the stacked bar chart. 
+We've decided that row percentages are the more meaningful of the two here for us, so let's go ahead and highlight the cells where we have our row percentages. Once this is highlighted, select the stacked bar chart. 
 
 ![](imgs/stacked_col.png)
 
@@ -383,24 +384,24 @@ Once you click on that, our chart will appear:
 
 
 
-This looks about right, however you can see that our axes are not properly labeled. Each category is called 1, 2, 3, and 4, instead of 1st class, 2nd class, 3rd class, and crew. So to fix this, you can right click anywhere in the chart area, and as the little window of options appears, click on **"Select data..."**:
+This looks about right, however, you can see that our axes are not properly labeled. Each category is called 1, 2, 3, and 4, instead of 1st class, 2nd class, 3rd class, and crew. So to fix this, you can right-click anywhere in the chart area, and as the little window of options appears, click on **"Select data..."**:
 
 
 ![](imgs/stacked_col_3.png)
 
-This will open a pop-up window. Again, this may look different on different computers. we will show some options but what you are after is something labeled **"Horizontal Category Axis Labels"**. You will see this and here you want to select where the values for your variable along the horizontal axis are (in this case the values for Class which is: First, Second, Third, and Crew)
+This will open a pop-up window. Again, this may look different on different computers. We will show some options, but what you are after is something labeled **"Horizontal Category Axis Labels"**. You will see this, and here you want to select where the values for your variable along the horizontal axis are (in this case, the values for Class which are First, Second, Third, and Crew)
 
 
 Pop-up window on Mac: 
 
 ![](imgs/horizontalcataxislabels.png)
 
-For some others it might look like this:
+For some others, it might look like this:
 
 ![](imgs/stacked_col_4.png)
 
 
-In the version above, above the right-hand box, you can see a label telling you that this is to do with the "Horizontal (Category) Axis Labels". You can click on the "Edit" button under that which will open a selection window. Select the row labels by clicking and dragging to highlight them all:
+In the version above, above the right-hand box, you can see a label telling you that this has to do with the "Horizontal (Category) Axis Labels". You can click on the "Edit" button under that, which will open a selection window. Select the row labels by clicking and dragging to highlight them all:
 
 
 
@@ -408,14 +409,14 @@ In the version above, above the right-hand box, you can see a label telling you 
 
 
 
-Once you hit enter it will populate, and you can click on "OK" to update your graph. You will see it updated hopefully looking like the graph below: 
+Once you hit enter, it will populate, and you can click on "OK" to update your graph. You will see it updated, hopefully looking like the graph below: 
 
 
 
 ![](imgs/stacked_col_5.png)
 
 
-You might have noticed there was an option for stacked bad with percentage next to it. This is quite handy if you have not computed row percentages. Excel will go ahead and do this for you in graph form. If you want to give this a go, go back and this time, highlight the count of the people who survived, not your percentage calculations. Now when you've highlighted that this time select the percentage graph bar charts: 
+You might have noticed there was an option for stacked bars with percentages next to it. This is quite handy if you have not computed row percentages. Excel will go ahead and do this for you in graph form. If you want to give this a go, go back and, this time, highlight the count of the people who survived, not your percentage calculations. Now, when you've highlighted that this time select the percentage graph bar charts: 
 
 
 
@@ -431,32 +432,32 @@ When your new graph appears, you will see that it looks exactly the same as when
 
 
 
-You might be wondering - how does Excel know that you want the row percentages, and not the column percentages, when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds in data analysis that you should arrange your data in a way that the row percentages are the meaningful ones. Think about it, if we wrote the table with the survival in the rows, and the class in the columns, that still makes sense - it is still the same data, right? But then what is represented by column and by row percentages gets switched. The meaning is the same, but they are just calculated into different places. 
+You might be wondering - how does Excel know that you want the row percentages and not the column percentages when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds that in data analysis, you should arrange your data in a way that the row percentages are meaningful. Think about it: if we wrote the table with the survival in the rows and the class in the columns, that still makes sense - it is still the same data, right? But then, what is represented by column and row percentages gets switched. The meaning is the same, but they are just calculated into different places. 
 
 
 
-Another way to visually display the differences in your data, while still presenting the numbers in a table, is to use conditional formatting. To do this, select again the cells with your percentage values in it:
+Another way to visually display the differences in your data while still presenting the numbers in a table is to use conditional formatting. To do this, select again the cells with your percentage values in it:
 
 
 ![](imgs/cond_form.png)
 
 
-This time in the "Home" tab, you will see a little sign that says conditional formatting. Click on the little arrow next to it (with your data still highlighted):
+This time, in the "Home" tab, you will see a little sign that says conditional formatting. Click on the little arrow next to it (with your data still highlighted):
 
 
 ![](imgs/cond_form_2.png)
 
 
 
-Hover over "colour scales" and pick a colour scale that you think is appropriate. Often you will hear people talk about a "RAG" rating (red, amber, green). So you might want to choose a red-amber-green colour scale. However, you might want to consider that some people have red-green colour blindness. To make your representation accessible to people with this particular condition, you might actually want to use a scale that goes from red to blue. 
+Hover over "colour scales" and pick a colour scale that you think is appropriate. Often, you will hear people talk about a "RAG" rating (red, amber, green). So you might want to choose a red-amber-green colour scale. However, you might want to consider that some people have red-green colour blindness. To make your representation accessible to people with this particular condition, you might actually want to use a scale that goes from red to blue. 
 
 
-Have a look at this Tweet which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://twitter.com/MartinRGalpin/status/1317552302207737856](https://twitter.com/MartinRGalpin/status/1317552302207737856)
+Have a look at this Tweet, which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://twitter.com/MartinRGalpin/status/1317552302207737856](https://twitter.com/MartinRGalpin/status/1317552302207737856)
 
 ![](imgs/colb_condf.png)
 
 
-Also you want to decide what is coloured red (or your high value). You can see the same colour scales on there twice, once with red at the top, and once flipped around with red at the bottom. Which one you choose is dependent on the *meaning* of your colour scale. Is a high number a good thing or a bad thing? In this case this changes between our two columns. However if we were colour-coding the number of crimes per borough for example, a table we created last week, then red would be better suited to illustrate higher numbers (so we would pick the scales with the red on top) to indicate more crimes in an area. You can also choose a neutral scale, going from yellow to green for example and so on. The choice is yours, you have options!
+Also, you want to decide what is coloured red (your high value or the low one). You can see the same colour scales on there twice, once with red at the top and once flipped around with red at the bottom. Which one you choose is dependent on the *meaning* of your colour scale. Is a high number a good thing or a bad thing? In this case, this changes between our two columns. However, if we were colour-coding the number of crimes per borough, for example, a table we created last week, then red would be better suited to illustrate higher numbers (so we would pick the scales with the red on top) to indicate more crimes in an area. For example, you can also choose a neutral scale, going from yellow to green. The choice is yours; you have options!
 
 
 
@@ -468,40 +469,39 @@ Here's ours anyway:
 
 
 
-You can see that the yes % is quite a high value, an appears with an orange colour for the 1st class passengers, but for all others, it is their no % which contains the higher numbers, with dark red especially for 3rd class and crew members. Using conditional formatting in this way can help draw out patters, that further emphasise the story that the numbers in your crosstab are telling. They can be useful in reports (just make sure that whoever will be reading them will be reading on screen, or has access to a colour printer!). 
+You can see that the yes % is quite a high value and appears with the orange colour for the 1st class passengers, but for all others, it is their no % which contains the higher numbers, with dark red especially for 3rd class and crew members. Using conditional formatting in this way can help draw out patterns that further emphasise the story that the numbers in your crosstab are telling. They can be useful in reports (just make sure that whoever will be reading them will be reading on screen or has access to a colour printer!). 
 
 
 
-## Categorical v numeric
+## Categorical vs numeric
 
 
-The Arrestee Survey 2003-2006 was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include: demographic characteristics; arrest, prison history and past contact with CJS; offending and offence categories; drug and alcohol use; drug purchasing and availability; drug and alcohol treatment needs; treatment offered and received; and gang involvement. Some of the above questions were answered by self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
+The Arrestee Survey 2003-2006 was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include demographic characteristics, arrest, prison history and past contact with CJS, offending and offence categories, drug and alcohol use, drug purchasing and availability, drug and alcohol treatment needs, treatment offered and received, and gang involvement. Some of the above questions were answered by a self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
 
 
-If you wanted to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here, and uploaded this subset onto Blackboard. You can go to Blackboard (Learning Materials > Module 3 > data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
+If you want to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here and uploaded this subset onto Blackboard. You can go to Blackboard (Learning Materials > Module 3 > data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
 
 
 
 The first thing we want to do is have a look at our variables. We have 5 variables, which are: 
 
 - **Interview reference index:** This is just a reference number to identify each person interviewed. For anonymity reasons, a number is used to identify them, rather than their names 	
-- **Age:**	Age of the person being interviewed, at the time of interview
-- **Age at first arrest:** The age at which they person had their first arrest	
-- **Number of times arrested:**	The number of times this person has been arrested, up to this point
+- **Age:**	Age of the person being interviewed at the time of the interview
+- **Age at first arrest:** The age at which the person had their first arrest	
+- **Number of times arrested:**	The number of times this person has been arrested up to this point
 - **Reason for arrest:** The reason given for this particular arrest 
 
 
-In the following questions, we will explore the relationship that age has with offending. In the first instance, we might want to find out the age profile for different offences. Do you think there would be a difference between the different offences that people are likely to get arrested for?
+In the following questions, we will explore the relationship that age has with offending. In the first instance, we might want to find out the age profile of the different offences. Do you think there would be a difference between the different offences that people are likely to get arrested for?
 
 
-For example, [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle' which appears in our data as a possible value for the "Reason for Arrest" variable. So we might expect for the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than a crime that might be associated with an older demographic. Any ideas what crime types those could be? 
+For example, [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle', which appears in our data as a possible value for the "Reason for Arrest" variable. So, we might expect the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than a crime that might be associated with an older demographic. Any idea what crime types those could be? 
 
 ### Activity 3.5: Age of offenders
 
 
 
-Let's have a look at just the possible values that the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are any cell that's part of our data set, and then go to Insert 
-and choose pivot table:
+Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose pivot table:
 
 
 ![](imgs/click_pivot.png)
