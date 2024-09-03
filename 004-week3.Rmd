@@ -3,32 +3,32 @@
 ## Learning outcomes
 
 
-Much of statistics is about making comparisons. Human beings are not good at sifting through large streams of data; we understand data much better when it is summarized for us. This is true for looking for patterns in both *uni*variate and *bi*variate analysis. As discussed last week with univariate, when presenting descriptive analysis, we often display summary statistics in one of two ways: with tables and figures. 
+Much of statistics is about making comparisons. Human beings are not good at sifting through large streams of data; we understand data much better when it is summarized for us. This is true for looking for patterns in both *uni*variate and *bi*variate analysis. As discussed last week with univariate analysis, when presenting descriptive analysis, we often display summary statistics in one of two ways: with tables and figures. 
 
 
-Tables of summary statistics are very common (we already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data, that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know, is it related to another variable. Because this is where the interesting questions are that we can start asking. 
+Tables of summary statistics are very common (we already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data, that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know if it is related to another variable. This is where the interesting questions that we can start asking are. 
 
 
-For example here are some criminological papers that explore the relationship between two variables: 
+For example, here are some criminological papers that explore the relationship between two variables: 
 
 
 - [Do older people have higher fear of crime?](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1989.tb01051.x/full) compares the variables age and worry about crime
 - [Is there a relationship between adolescent drug use and psychological health?](http://psycnet.apa.org/record/1990-22928-001) compares the variable measuring psychological health with drug use in adolescence
-- [Does design of a street affect burglary risk of the houses on it?](https://link.springer.com/article/10.1007/s10940-009-9084-8) looks at the variable of design of street, and considers its relationship with increased burglary risk
+- [Does the design of a street affect the burglary risk of the houses on it?](https://link.springer.com/article/10.1007/s10940-009-9084-8) looks at the variable of design of street, and considers its relationship with increased burglary risk
 - [Does ethnicity affect trust in the police?](http://journals.sagepub.com/doi/abs/10.1177/1098611104271105) looks at the variable of ethnicity, and its relationship with variable measuring trust in the police.
 
 
-And so on and so on and so on. You will notice that most of the research questions that criminological research attempts to address are based on comparisons. You want to be able to explore the relationship that one variable has with other variables. That is where exciting new insights come from. We will talk next week about how you can go about identifying what variables to test against each other to be able to answer your research questions, including how to measure these variables, or even define them in the first place. But today we will explore how to go about assessing any *bivariate* (meaning two-way) relationships - relationships between two variables. 
+And so on and so on and so on. You will notice that most of the research questions that criminological research attempts to address are based on comparisons. You want to be able to explore the relationship that one variable has with other variables. That is where exciting new insights come from. We will talk next week about how you can go about identifying what variables to test against each other to be able to answer your research questions, including how to measure these variables or even define them in the first place. But today, we will explore how to go about assessing any *bivariate* (meaning two-way) relationships - relationships between two variables. 
 
 
 
 ### Terms for today
 
 - Bivariate analysis
-- Categorical v categorical
+- Categorical vs. categorical
     + Crosstabs with pivot tables
     + Stacked column chart
-- Categorical v numeric 
+- Categorical vs. numeric 
     + Summaries by group with pivot tables
 - Numeric v numeric
     + Scatterplot
@@ -39,21 +39,21 @@ And so on and so on and so on. You will notice that most of the research questio
 
 
 
-## Categorical v categorical
+## Categorical vs. categorical
 
-Here's an example of a bivariate frequency table. Remember **bivariate** just means that there are **two variables**.  Let's say we have this data set of waiters and waitresses who work at Lil' Bits restaurant. But this time we don't just have their gender, we also have some information about their tip earnings. We know whether they are high earners or low earners. Here is our data in table format:
+Here's an example of a bivariate frequency table. Remember **bivariate** just means that there are **two variables**. Let's say we have this data set of waiters and waitresses who work at Lil' Bits restaurant. But this time, we don't just have their gender; we also have some information about their tip earnings. We know whether they are high earners or low earners. Here is our data in table format:
 
 
 ![](imgs/waiter_height_and_tip.png)
 
 
-Again, all we are doing with a frequency table is counting the number of occurrences. Except this time we need to know the number of occurrences of variable *pairs*. So we need to know not only the number of times that *female* appears, but when the pair of *female* and *high earner* appear. We made a gif to illustrate: 
+Again, all we are doing with a frequency table is counting the number of occurrences. Except this time, we need to know the number of occurrences of variable *pairs*. So we need to know not only the number of times that *female* appears but also when the pair of *female* and *high earner* appear. We made a GIF to illustrate: 
 
 
 ![](imgs/bivar_freq_table_gif.gif)
 
 
-This two-way frequency table is also called a **cross tabulation** or **crosstab**. Also a **contingency table**. We like to give the same thing many names, but just know, if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
+This two-way frequency table is also called a **cross-tabulation** or **crosstab**. Also, a **contingency table**. We like to give the same thing many names but know that if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
 
 
 > The table of counts for the various combinations of categories is a contingency table.
@@ -62,26 +62,26 @@ This two-way frequency table is also called a **cross tabulation** or **crosstab
 
 
 
-For example, a researcher might be investigating the relationship between the class on which a passenger was travelling on the RMS Titanic (which, in case you're not familiar, was a British passenger liner that sank in the North Atlantic Ocean in 1912, after it collided with an iceberg) and whether that person survived or not. The two variables would be class (1st, 2nd, 3rd, or crew) and survived (yes/no). The question is "Is there a significant relationship between class of passenger and survival?". In this course, we don't yet learn how to answer this question with  *inferential statistics*. Instead, here we  only begin to explore this question (and other questions of comparison) using *descriptive statistics*. If you are unsure about the difference, ask now, or consult your readings from the first week. 
+For example, a researcher might be investigating the relationship between the class on which a passenger was travelling on the RMS Titanic (which, in case you're not familiar, was a British passenger liner that sank in the North Atlantic Ocean in 1912 after it collided with an iceberg) and whether that person survived or not. The two variables would be class (1st, 2nd, 3rd, or crew) and survived (yes/no). The question is, "Is there a significant relationship between class of passenger and survival?". In this course, we don't yet learn how to answer this question with  *inferential statistics*. Instead, here we only begin to explore this question (and other comparison questions) using *descriptive statistics*. If you are unsure about the difference, ask now or consult your readings from the first week. 
 
 
 ### Surviving the Titanic
 
 
-Let's return to our question about survival in the Titanic. We want to know the relationship between the variable for class of passenger, and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available open data, so we can use it to explore any questions we might have about it. [You can read a bit about the data here](https://www.statisticalconsultants.co.nz/blog/titanic-survival-data.html). In this instance though, you can download the data from Blackboard. As always it's in your Learning Materials for the week, under Module 3 > data for labs and homework. It is the one labelled "Titanic survivors data". Under it you will see a link to titanic3.xls. Right click and select "Save link as", and save it in your working directory you had set up for this course. 
+Let's return to our question about survival in the Titanic. We want to know the relationship between the variable for the class of a passenger and the variable for survival. First, we need some data. Data about the fate of the RMS Titanic's passengers is actually available as open data, so we can use it to explore any questions we might have about it. [You can read a bit about the data here](https://www.statisticalconsultants.co.nz/blog/titanic-survival-data.html). In this instance, though, you can download the data from Blackboard. As always, it's in your Learning Materials for the week, under Module 3 > data for labs and homework. It is the one labelled "Titanic survivors data". Under it, you will see a link to titanic3.xlsx. Right-click and select "Save link as", and save it in the working directory you set up for this course. 
 
 
-Once you download the data, open it up in Excel. You should see your variables in your columns and your observations in rows. Each observation is one passenger who was on board the ship. The variable "Class" tells whether the passenger was traveling 1st class, 2nd class, 3rd class, or as a member of the crew. The variable "Survived" tells whether that person survived the RMS Titanic's collision with the iceberg or not. 
+Once you download the data, open it up in Excel. You should see your variables in your columns and your observations in rows. Each observation is of one passenger who was on board the ship. The variable "Class" tells whether the passenger was travelling 1st class, 2nd class, 3rd class, or as a member of the crew. The variable "Survived" tells whether that person survived the RMS Titanic's collision with the iceberg or not. 
 
 
-We might be interested in looking at the rate of survival by passengers who were traveling on various class tickets. For example, we might have seen the 1997 classic film [Titanic](http://www.imdb.com/title/tt0120338/) by James Cameron, and might be wondering - was there a priority given to first class passengers when boarding the lifeboats, and did that result in them being more likely to survive? Well, to be able to answer questions like this, we would need to compare the survival (yes/no) between the class (1st/2nd/3rd/crew) variables. Both of these are categorical variables, and so to be able to talk about their relationship, we will have to build a **crosstab**.
+We might be interested in looking at the rate of survival by passengers who were travelling on various class tickets. For example, we might have seen the 1997 classic film [Titanic](http://www.imdb.com/title/tt0120338/) by James Cameron and might be wondering - was there a priority given to first-class passengers when boarding the lifeboats, and did that result in them being more likely to survive? Well, to be able to answer questions like this, we would need to compare the survival (yes/no) between the class (1st/2nd/3rd/crew) variables. Both of these are categorical variables, so to talk about their relationship, we will have to build a **crosstab**.
 
 #### Activity 3.1: Crosstab of survivors by class
 
-To do this, we return to our trusty friend, the pivot table again. But this time, instead of using it to summarise one variable, we can use it to summarise the relationship between two variables. The same way that the gif above illustrated with gender and the tips example, what this does is it counts the frequency of the combination of each category. But lets see how to do this. 
+To do this, we return to our trusty friend, the pivot table again. But this time, instead of using it to summarise one variable, we can use it to summarise the relationship between two variables. In the same way that the gif above illustrated with gender and the tips example, what this does is it counts the frequency of the combination of each category. But let's see how to do this. 
 
 
-First, just create the pivot table environment to be able to build our pivot table. Just like last week, click into the **Insert** tab, click on **pivot table**  and then again on **pivot table**:
+First, just create the pivot table environment to be able to build our pivot table. Just like last week, click into the **Insert** tab and click on **pivot table**:
 
 
 
@@ -90,7 +90,7 @@ First, just create the pivot table environment to be able to build our pivot tab
 
 
 
-This will open a popup window, where you want to make sure that you select 'New worksheet' where it asks where your pivot table should be placed, and then click OK, again just like last week. When you click OK, Excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data, again exactly the same as last week. Remember, if the toolbar doesn't appear, or ever disappears, to summon it you have to do one simple step, which is to click *anywhere* inside the pivot table area.
+This will open a popup window, where you want to make sure that you select 'New worksheet' where it asks where your pivot table should be placed, and then click OK, again, just like last week. When you click OK, Excel should take you to the new worksheet where it has set up a pivot table for you, ready to get into your data, again exactly the same as last week. Remember, if the toolbar doesn't appear or ever disappears, to summon it, you have to do one simple step, which is to click *anywhere* inside the pivot table area.
 
 
 ![](imgs/pivot_shell.png)
@@ -102,17 +102,17 @@ This will open a popup window, where you want to make sure that you select 'New 
  
 
 
-Great, now you can create your two-way frequency table. First, drag the "Class" variable to the "Row labels" box, and also into the values box. This should produce a table that looks familiar, it's a one-way frequency table. It's what we would do if we were carrying out some *univariate*  analysis on the "Class" variable. It should look something like this: 
+Great, now you can create your two-way frequency table. First, drag the "Class" variable to the "Row labels" box, and also into the values box. This should produce a table that looks familiar; it's a one-way frequency table. It's what we would do if we were carrying out some *univariate*  analysis on the "Class" variable. It should look something like this: 
 
 
 ![](imgs/class_uni.png)
 
 
 
-We can take a moment to look at the frequency table of just the class variable. It tells us how many passengers were travelling aboard the ship in each group. You can see there were the most people travelling as crew, while the least populous group is the 2nd class ticket holders. 
+We can take a moment to look at the frequency table of just the class variable. It tells us how many passengers were travelling aboard the ship in each group. You can see that most people were travelling as crew, while the least populous group is the 2nd class ticket holders. 
 
 
-But to answer our question about the relationship between survival and class, we don't want *univariate*  analysis on the "Class" variable. We want to compare the survival of passengers between these classes, so we want *bivariate* analysis on the "Class" variable with the "Survival" variable.
+But to answer our question about the relationship between survival and class, we don't want a *univariate* analysis of the "Class" variable. We want to compare the survival of passengers between these classes, so we want a *bivariate* analysis of the "Class" variable with the "Survival" variable.
 
 
 Luckily, there is really only one more step we need to take to achieve this, which is to introduce the Survived variable into our pivot table. To do this, drag the "Survived" variable into the "Column Labels" box (this box may also be called "Columns"). Once you've done that, you should see your frequency table appear:
@@ -124,49 +124,49 @@ Luckily, there is really only one more step we need to take to achieve this, whi
 
 
 
-You can see that we have a frequency table that has the variable of *Class* as the rows, and the variable of *Survived* across the columns. Note that this is different from a data set, where each variable would be a column and each row an observation. This here is a frequency table (or cross tab, or contingency table) where both the rows and columns are made up the values of each variable. Variable 1 in our rows is "Class" and has the values First, Second, Third, and Crew, while Variable 2 is "Survived" and has the values Yes or No.  
+You can see that we have a frequency table that has the variable of *Class* as the rows and the variable of *Survived* across the columns. Note that this is different from a data set, where each variable would be a column and each row an observation. This here is a frequency table (or cross tab, or contingency table) where both the rows and columns are made up of the values of each variable. Variable 1 in our rows is "Class" and has the values First, Second, Third, and Crew, while Variable 2 is "Survived" and has the values Yes or No.  
 
 #### Activity 3.2: Don't forget the levels of measurement!
 
 You might have noticed one thing that could be bothering you in this table. Do you see it? Discuss in groups what this might be, and take notes. 
 
 
-Did you have some ideas? If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order, it's categorical - ordinal.  
+Do you have some ideas? If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order, it's categorical - ordinal.  
 
 
 Is this reflected in the table above?
 
 
 
-No, it is not, because Excel puts the values of the class variable in alphabetical order, it doesn't know what the real order is. Good news is that we can fix this. 
+No, it is not because Excel puts the values of the class variable in alphabetical order; it doesn't know what the real order is. The good news is that we can fix this. 
 
 
-To rearrange, first you have to think: what is the order that we need our values in? Discuss in your groups what you think the order might be.
+To rearrange, first, you have to think: what is the order in which we need our values to be? Discuss in your groups what you think the order might be.
 
 
 
-Let's think about the passengers of the Titanic - we can arrange them in order of how much money they paid to be on board. The most money was paid by those traveling First class, followed by Second an Third. We can also think that the least money was paid by the Crew, who instead were given wages to work on board the ship. So the order would be: First > Second > Third > Crew. 
+Let's think about the passengers of the Titanic - we can arrange them according to how much money they paid to be on board. The most money was paid by those travelling First class, followed by Second and Third. We can also think that the least money was paid by the Crew, who were instead given wages to work on board the ship. So the order would be: First > Second > Third > Crew. 
 
 
-Now we can move around the values by right clicking on their cells, and choosing "Move" and then the appropriate place to move the value.
+Now, we can move around the values by right-clicking on their cells, and choosing "Move", and then the appropriate place to move the value.
 
 ![](imgs/rearrange_crew.png)
 
-In this case, we are quite lucky and we need to move only 'Crew' to the end of the list, to achieve our ideal order. 
-You can rearrange this manually, and copy over into a new sheet. 
+In this case, we are quite lucky, and we need to move only 'Crew' to the end of the list to achieve our ideal order. 
+You can rearrange this manually and copy it over into a new sheet. 
 
 
 
 ***Note: for older versions of Excel, "move" might not be available.***
 
-If you have an older version of Excel and there is no option to use 'move', you can use the following work-around to rearrange the order manually. Just click on the arrow next to "Class" > "More sort options" > "Manual". To open a new sheet just click on the little plus sign on the bottom of your current sheet: 
+If you have an older version of Excel and there is no option to use 'move', you can use the following workaround to rearrange the order manually. Just click on the arrow next to "Class" > "More sort options" > "Manual". To open a new sheet, just click on the little plus sign at the bottom of your current sheet: 
 
 
 ![](imgs/new_sheet_2.png)
 
 
 
-Then copy over the values from your pivot table, making sure that your rows are in order, from 1st, to 2nd, to 3rd, to crew. You can also add labels if you  like. In the end you should have something like this: 
+Then copy over the values from your pivot table, making sure that your rows are in order, from 1st, to 2nd, to 3rd, to crew. You can also add labels if you like. In the end, you should have something like this: 
 
 
 
@@ -177,7 +177,7 @@ Then copy over the values from your pivot table, making sure that your rows are 
 
 ### Row percentage, column percentage, or total percentage
 
-You can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident, or watched that film with Kate Winslet and Leo DiCaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class, or crew. However, if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
+You can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident or watched that film with Kate Winslet and Leo DiCaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class, or crew. However, if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
 
 
 
@@ -185,10 +185,10 @@ But what about if you look at the column that represents the number of people wh
 
 
 
-One thing you will be able to use, which we approached last week, is the use of percentages, to make sense of your data. With a frequency table of only one variable, this was easy, you just consider what percentage of the whole, each cell represents. However, with a **bivariate**  frequency table, we have *three* different options for percentages. We can consider the **row percentage**, the **column percentage** or the **total percentage**. And all three tell us very different things. Let's take a look. 
+One thing you will be able to use, which we approached last week, is the use of percentages to make sense of your data. With a frequency table of only one variable, this was easy; you just consider what percentage of the whole each cell represents. However, with a **bivariate**  frequency table, we have *three* different options for percentages. We can consider the **row percentage**, the **column percentage** or the **total percentage**. And all three tell us very different things. Let's take a look. 
 
 
-Column percentages are computed by dividing the counts for an individual cell by the total number of counts for the column. A column percent shows the proportion of observations in each row from among those in the column. Row percentages are computed by dividing the count for a cell by the total sample size for that row. A row percent shows the proportion of observations in a column category from among those in the row. Total percentages are computed by dividing the count for a cell by the total sample size - the grand total. A total percent shows the proportion of all observations in you sample that match that particular row and column combination. 
+Column percentages are computed by dividing the counts for an individual cell by the total number of counts for the column. A column percent shows the proportion of observations in each row from among those in the column. Row percentages are computed by dividing the count for a cell by the total sample size for that row. A row percent shows the proportion of observations in a column category from among those in the row. Total percentages are computed by dividing the count for a cell by the total sample size - the grand total. A total percent shows the proportion of all observations in your sample that match that particular row and column combination. 
 
 
 Simply put:
@@ -214,14 +214,14 @@ The row total for the 1st class row will just be the sum of all people (both tho
 ![](imgs/titanic_row_total_calc.png)
 
 
-For column totals it's the same thing, except you are calculating the total of each column, so the total number of people who survived, by adding up survivors in 1st class, 2nd class, 3rd class, and crew, and the total of those who did not survive, adding up non-survivors in 1st class, 2nd class, 3rd class, and crew. Like so: 
+For column totals, it's the same thing, except you are calculating the total of each column, so the total number of people who survived by adding up survivors in 1st class, 2nd class, 3rd class, and crew, and the total of those who did not survive, adding up non-survivors in 1st class, 2nd class, 3rd class, and crew. Like so: 
 
 
 ![](imgs/titanic_col_total_calc.png)
 
 
 
-Summing the observations in either way give you a column total and a row total column. If you take the sum of those (so the sum of the column totals, that is all the people who survived and all the people who did not, **or** the sum of the row totals, which is the sum of all people in all the classes and crew), that gives you the grand total, which, incidentally, is all the people who were on board the RMS Titanic, in all classes, and whether they survived or not. In this case, that is a total of 2201 people. You can get this from either the row total or the column total, they will both equal the same thing, which is *all your observations*. 
+Summing the observations in either way gives you a column total and a row total column. If you take the sum of those (so the sum of the column totals, that is, all the people who survived and all the people who did not, **or** the sum of the row totals, which is the sum of all people in all the classes and crew), that gives you the grand total, which, incidentally, is all the people who were on board the RMS Titanic, in all classes, and whether they survived or not. In this case, that is a total of 2201 people. You can get this from either the row total or the column total; they will both equal the same thing, which is *all your observations*. 
 
 
 ![](imgs/titanic_w_total_cols.png)
@@ -231,34 +231,34 @@ Summing the observations in either way give you a column total and a row total c
 
 
 
-You can calculate these yourself, in the Excel sheet you have downloaded from Blackboard, using the `=SUM()` function, the way that we did this in the previous session. 
+You can calculate these yourself in the Excel sheet you have downloaded from Blackboard, using the `=SUM()` function, the way that we did this in the previous session. 
 
 
 
 Now that we have these totals, we can calculate our percentages. 
 
-To get your row percentage, you have to take each cell and divide it by the row total (and then times by 100 to get the percent value). You can do this in a new column, creating a new column for survived - Yes % and No % : 
+To get your row percentage, you have to take each cell and divide it by the row total (and then multiply by 100 to get the percent value). You can do this in a new column, creating a new column for survived - Yes % and No % : 
 
 
 ![](imgs/surv_perc_cols.png)
 
 
-Now you can enter the calculation as a formula for each row. Remember for something to be a formula, you will start with `=`, and then follow with your equation. Here the equation will be:
+Now, you can enter the calculation as a formula for each row. Remember, for something to be a formula, you will start with `=` and then follow with your equation. Here the equation will be:
 
 `cell divided by the total, times 100`
 
 `cell/total*100`
 
-For example, for the Yes percent column for first class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders, and divide by the cell reference of the total number of first class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`) or you can do it by highlighting as well. If you're not sure how to do the highlighting approach, raise your hand now, we will come to help!
+For example, for the Yes percent column for first-class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders and divide it by the cell reference of the total number of first-class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`) or you can do it by highlighting as well. If you're not sure how to do the highlighting approach, raise your hand now, we will come to help!
 
 
-But in any case, for the cell that represents the row percentage for the yes survived and first class combination, you should have the below formula: 
+But in any case, for the cell that represents the row percentage for the yes survived and first-class combination, you should have the below formula: 
 
 
 `=C3/E3*100`
 
 
-Once you type this, you will see the percent value appear for the percent of all first class passengers who survived: 
+Once you type this, you will see the percent value appear for the percent of all first-class passengers who survived: 
 
 
 
