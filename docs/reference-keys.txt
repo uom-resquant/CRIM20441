@@ -28,7 +28,7 @@ learning-outcomes-1
 activity-2.1
 terms-for-today
 univariate-analysis
-the-importance-of-level-of-measurement
+the-importance-of-the-level-of-measurement
 summarising-categorical-data
 activity-2.2-crime-types
 frequency-tables
