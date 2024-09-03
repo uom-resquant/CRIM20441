@@ -53,7 +53,7 @@ summary-1
 week3
 learning-outcomes-2
 terms-for-today-1
-categorical-v-categorical
+categorical-vs.-categorical
 surviving-the-titanic
 activity-3.1-crosstab-of-survivors-by-class
 activity-3.2-dont-forget-the-levels-of-measurement
@@ -61,11 +61,11 @@ row-percentage-column-percentage-or-total-percentage
 activity-3.3-calculating-row-vs-column-percentages
 decimal-places-a-note-on-formatting-cells
 activity-3.4-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting
-categorical-v-numeric
+categorical-vs-numeric
 activity-3.5-age-of-offenders
 activity-3.6-adding-a-column-for-median
-numeric-v-numeric
-activity-3.7-does-age-at-first-arrest-correlate-with-total-number-of-arrests
+numeric-vs.-numeric
+activity-3.7-does-age-at-first-arrest-correlate-with-the-total-number-of-arrests
 correlation-does-not-mean-causation
 summary-2
 week4
