@@ -514,7 +514,7 @@ Now take the variable 'reason for arrest', and drag it to the "Row Labels" box. 
 ![](imgs/reason_arr_values.png)
 
 
-You can see here a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above. Are there any other ones that you think would have a generally younger demographics? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
+You can see here a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
 
 
 So, answer the following questions for me, without peaking ahead, or checking the data, just in terms of your perceptions of the relationship between age and types of offences committed:
@@ -525,15 +525,15 @@ So, answer the following questions for me, without peaking ahead, or checking th
 - Which reason for arrest for you think has the lowest average age of arrestees?
 
 
-Take some time to think about this, discuss in your groups, and write down your guesses. 
+Take some time to think about this, discuss it in your groups, and write down your guesses. 
 
 
 
-Now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles, let's have a look at what the data says. In order to be able to compare a numeric variable across values of a categorical variable, we can consider different summaries across each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well, now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maxiumum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look on how to do this. 
+Now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles let's have a look at what the data says. In order to compare a numeric variable across values of a categorical variable, we can consider different summaries across each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well, now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maximum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look at how to do this. 
 
 
 
-On our pivot table panel, grab the age variable, and drag it into the "Values" box. When you let it go, your table should look something like this: 
+On our pivot table panel, grab the age variable and drag it into the "Values" box. When you let it go, your table should look something like this: 
 
 
 
@@ -541,11 +541,11 @@ On our pivot table panel, grab the age variable, and drag it into the "Values" b
 
 
 
-Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for reason of "theft of vehicle". This is very hard to make sense of, and instead we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
+Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for the reason of "theft of vehicle". This is very hard to make sense of, and instead, we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
 
 
 
-Well, on the right hand side of the item "Sum of Age" in the Values box there is a little letter "i". This is on a Mac, but on a PC it might be a downwards arrow. Whatever it is, click on it, and a new popup window will appear. 
+Well, on the right-hand side of the item "Sum of Age" in the Values box, there is a little letter "i". This is on a Mac, but on a PC, it might be a downward arrow. Whatever it is, click on it, and a new popup window will appear. 
 
 
 ![](imgs/change_from_sum.png)
@@ -558,11 +558,11 @@ If you're on a PC, when you click on the downward arrow this set of options will
 ![](imgs/windows_pivot_change_sum.png)
 
 
-In this case select "Value Field Settings..." - this is the same as the steps we followed last week to add the column of percentages for out univariate frequency table. Then the popup that appears will look roughly the same, with the option to change the Field Name (as "Custom Name") and the Summarize by (as "Summarize Values By"). 
+In this case, select "Value Field Settings..." - this is the same as the steps we followed last week to add the column of percentages for our univariate frequency table. Then the popup that appears will look roughly the same, with the option to change the Field Name (as "Custom Name") and the Summarize by (as "Summarize Value field by By"). 
 
 
 
-In the new popup window, you can see that you have a list of options in a window under the description that says "Summarize by". You can see that initially (by default) this is set to sum: 
+In the new popup window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default) this is set to sum: 
 
 
 ![](imgs/set_to_sum.png)
@@ -585,7 +585,7 @@ Click OK, and you will see your column updated:
 
 
 
-Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offense" with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for reason of offense that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully you might find these results interesting, and therefore are getting some insight into offender demographics for various crime types. Our youngest average age of offenders does appear to be in the theft of vehicle category. 
+Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offence", with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for the reason of offence that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully, you might find these results interesting and therefore get some insight into offender demographics for various crime types. Our youngest average age of offenders appears to be in the category of theft of vehicles. 
 
 
 
@@ -593,7 +593,7 @@ Now we have a column that tells us the average age of people arrested for each v
 
 
 
-But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So to add a new column, for minimum value you would drag age, and select minimum, like so: 
+But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So to add a new column for minimum value, you would drag age and select minimum, like so: 
 
 
 ![](imgs/make_min_col.gif)
@@ -603,83 +603,83 @@ But remember our first question - *Which reason for arrest do you think has the 
 Now do this again to create a column for maximum, and another column for standard deviation to be able to talk about variance as well. 
 
 
-In the end your table should look like this: 
+In the end, your table should look like this: 
 
 
 ![](imgs/reason_v_age_no_med.png)
 
 
-If it doesn't, ask for some help from the teaching staff, to go through this together. 
+If it doesn't, ask for some help from the teaching staff to go through this together. 
 
 
-Note: for creating the standard deviation column you have two choices there, *StdDev* and *StdDevp*. The one to choose will depend if you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a *sample* of people, who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to, they are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. But with descriptive statistics we are actually talking only about our sample. So in this case you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this, ask now!
+Note: To create the standard deviation column, you have two choices: *StdDev* and *StdDevp*. The one to choose will depend on whether you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a *sample* of people who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. However, with descriptive statistics, we are actually talking only about our sample. So, in this case, you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this, ask now!
 
 
 
 Right, so now, we can finally answer our first question, *Which reason for arrest do you think has the oldest arrestee*? So, which is it? 
 
 
-Well the oldest arrestee appears to have been arrested for *Assault*, at the age of 82 years old. Is this the category you were expecting the oldest offender in our sample to appear? Why or why not? Take a moment to try to interpret the data. It's important to always return to the meaning that we can extract from our numbers. Talk to someone next to you about this. 
+Well, the oldest arrestee appears to have been arrested for *Assault*, at the age of 82 years old. Is this the category you were expecting the oldest offender in our sample to appear in? Why or why not? Take a moment to try to interpret the data. It's important to always return to the meaning that we can extract from our numbers. Talk to someone next to you about this. 
 
 
 
-The other interesting column here to pay attention to is the standard deviation (the minimum age column is not super exciting. People under 17 were excluded from the survey, and so the youngest possible age in the sample is 17. It appears that at least one 17-year-old was arrested in every single one of these offence categories.) But the standard deviation, that tells us something new. Remember that it is a measure by which we can describe the variation of our individual observations around the mean. So the larger the standard deviation the larger the variation around the mean age in a particular subset of our data. Which offence category has the highest standard deviation? Which has the lowest? 
+The other interesting column here to pay attention to is the standard deviation (the minimum age column is not super exciting. People under 17 were excluded from the survey, and so the youngest possible age in the sample is 17. It appears that at least one 17-year-old was arrested in every single one of these offence categories.) But the standard deviation tells us something new. Remember that it is a measure by which we can describe the variation of our individual observations around the mean. So, the larger the standard deviation, the larger the variation around the mean age in a particular subset of our data. Which offence category has the highest standard deviation? Which has the lowest? 
 
 
-Theft of and theft from vehicle both have a standard deviation of about 7, as well as young mean ages. It appears that these crimes are mostly committed by younger offenders, with only a few of them committed by older offenders. Sex offences however appear to have a greater standard deviation, where offenders come from all ages. Any particular reasons why you think this might be the case? 
+Theft of and theft from vehicles both have a standard deviation of about 7, as well as young mean ages. It appears that these crimes are mostly committed by younger offenders, with only a few of them committed by older offenders. Sex offences, however, appear to have a greater standard deviation, where offenders come from all ages. Any particular reasons why you think this might be the case? 
 
 
 
-Now finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop down menu, when selecting how to summarise the "age" variable? Well, for some reason it's not as easy as calculating the other ones. Instead, to display the median we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
+Now, finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop-down menu when selecting how to summarise the "age" variable? Well, for some reason, it's not as easy as calculating the other ones. Instead, to display the median we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
 
 
 ### Activity 3.6: Adding a column for median
 
 
 
-To add a column for median, we will have to use something called an "IF" statement in Excel. The IF function is one of Excel's logical functions, used to return one value if a condition is true and another value if it's false. We can use that here, because we want to include a value in our calculations *if* it belongs to the value of reason for offence that we are calculating the median for. If it's any of the other offences, we *do not* want to include it. 
+To add a column for the median, we will have to use something called an "IF" statement in Excel. The IF function is one of Excel's logical functions, used to return one value if a condition is true and another value if it's false. We can use that here because we want to include a value in our calculations *if* it belongs to the value of reason for the offence for which we are calculating the median. If it's any of the other offences, we *do not* want to include it. 
 
 
-It might help to think about this conceptually, before we write the formula. Let's say we go through our data row by row. Remember in our data, each row is one arrestee who was interviewed. We want to go through every one of these people, and include their age in our calculation for the median for each offence category, **only if** the reason that that particular person was arrested *is* the offence category for which we are calculating the median. 
+It might help to think about this conceptually before we write the formula. Let's say we go through our data row by row. Remember, in our data, each row is one arrestee who was interviewed. We want to go through every one of these people and include their age in our calculation for the median for each offence category, **only if** the reason that that particular person was arrested *is* the offence category for which we are calculating the median. 
 
 
-So for every person, we want to check if their value for *reason for arrest* is the one we are currently interested in. 
+So, for every person, we want to check if their value for *reason for arrest* is the one we are currently interested in. 
 
 
 
-For example, if we are calculating the median age for assault, for every line we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate mean age for theft of vehicle. If it is not, we do not. 
+For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate the median age for theft of vehicle. If it is not, we do not. 
 
 
-How would you write this in a formula? Well for assault we could say something like: 
+How would you write this in a formula? Well, for assault, we could say something like: 
 
 
 `include IF 'Reason for arrest column' = 'assault'`
 
 
-Now we just have to translate this to Excel language, and put it inside a median calculation formula. Remember this one from last week? It's simply `=MEDIAN()`. 
+Now, we just have to translate this into Excel language and put it inside a median calculation formula. Remember this one from last week? It's simply `=MEDIAN()`. 
 
 
 We also have to refer to some cells. You can select these values by simply clicking on the cells that you need, but I'll go through the notation here again, just as a refresher. 
 
 
-To specity what sheet you are taking your data from, you put the sheet name followed by an exclamation mark (`!`). So to refer to columns that are on the arrestees_subset.csv sheet, Excel notation for that is: `arrestees_subset.csv!`. 
+To specify what sheet you are taking your data from, you put the sheet name followed by an exclamation mark (`!`). So, to refer to columns on the arrestees_subset.csv sheet, the Excel notation for that is `arrestees_subset.csv!`. 
 
 
-A cell you refer to by the letter of the column it's in, and the number of the row that it's in. So the cell that contains the value for "Assault" is "A5". However, when you copy references, this will change. If you wanted to statically **always** refer to A5 you have to use the dollar sign in front of each element (row letter, column number). So if we always want A5 to be the cell we refer to, we would type: `$A$5`. 
+A cell you refer to by the letter of the column it's in and the number of the row that it's in. So, the cell that contains the value for "Assault" is "A5" (find the appropriate cell number for your table). However, when you copy references, this will change. If you wanted to statically **always** refer to A5, you have to use the dollar sign in front of each element (row letter, column number). So if we always want A5 to be the cell we refer to, we would type: `$A$5`. 
 
 
 
 And to refer to a range of values, you denote them as `first value:last value`. To get all the values from row 2 of column E to row number 19897 of column E, we would type: `E2:E19897`. And if we wanted to make sure that we **always** refer to these values, again we just inject a `$` in front of the column reference (E) and the row reference (2 and 19897). For example: `$E$2:$E$19897`. 
 
 
-Now building it all together, for assault, we could calculate the median like so: 
+Now, building it all together, for assault, we could calculate the median like so: 
 
 
 `=MEDIAN(IF(arrestees_subset.csv!$E$2:$E$19897=A5,arrestees_subset.csv!$B$2:$B$19897))`
 
 
-
-Just to re-iterate again, this is what each part of this formula does:
+**NOTE: Hit Ctrl+Shift+Enter** This is important!
+Just to reiterate, this is what each part of this formula does:
 
 
 
@@ -687,7 +687,7 @@ Just to re-iterate again, this is what each part of this formula does:
 
 
 
-When you are comfortable with this formula, paste it over into the cell in the new "median" column you've created in your table, and hit Ctrl+Shift+Enter. 
+When you are comfortable with this formula, paste it over into the cell in the new "median" column you've created in your table and hit Ctrl+Shift+Enter. 
 
 
 
@@ -698,7 +698,7 @@ When you are comfortable with this formula, paste it over into the cell in the n
 
 
 
-You can copy the formula by double clicking on the bottom right hand corner of the cell, or grabbing it and dragging it down. Whichever option you prefer, they achieve the same thing. After which you will end up with a brand new column you made all on your own, for the median: 
+You can copy the formula by double-clicking on the bottom right-hand corner of the cell or grabbing it and dragging it down. Whichever option you prefer, they achieve the same thing. After which you will end up with a brand new column you made all on your own for the median: 
 
 
 
@@ -707,7 +707,7 @@ You can copy the formula by double clicking on the bottom right hand corner of t
 
 
 
-Now, finally you have a median column in your pivot table as well. You can now begin to think about what the difference between mean and median means in terms of the skew in your data as well. We don't seem to be getting huge differences, and this can potentially be put down to our *large sample size*. We have almost 20,000 rows in this data, which is 20,000 people who were interviewed and answered all these questions. We'll speak more about the importance of sample size later in the course, but now you know, that your means and your medians are not too far apart in either of the offense categories people were arrested for, with a maximum difference of around 3 years. 
+Now, finally, you have a median column in your pivot table as well. You can now begin to think about what the difference between the mean and median means in terms of the skew in your data. We don't seem to be getting huge differences, and this can potentially be put down to our *large sample size*. We have almost 20,000 rows in this data, which is 20,000 people who were interviewed and answered all these questions. We'll speak more about the importance of sample size later in the course, but now you know that your means and your medians are not too far apart in either of the offence categories people were arrested for, with a maximum difference of around 3 years. 
 
 
 
@@ -910,27 +910,27 @@ You can see that you tend to get younger arrestees for robbery as well as theft 
 
 -->
 
-## Numeric v numeric
+## Numeric vs. numeric
 
 
-Regarding descriptive statistics to explore the relationship between two numeric variables in our sample, to analyse the relationship between two quantitative variables, we consider how one variable, called a response variable, changes in relation to changes in the other variable, called an explanatory variable. Graphically we use scatterplots to display two quantitative variables, as comparing two numeric variables is best achieved through the use of graphics and visualisation. As you might imagine, it becomes very difficult to create any sort of crosstabs between numbers. Instead, you want to be able to determine whether there is a relationship between two numbers in other ways. We'll illustrate with two other variables from the arrestee survey. Let's consider the relationship between "Age at first arrest" and "Number of arrests". We might be interested about this if we are thinking about criminal trajectories, for example [delinquency careers](http://www.journals.uchicago.edu/doi/abs/10.1086/449107) or [life course trajectories](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1995.tb01173.x/full). 
+Regarding descriptive statistics to explore the relationship between two numeric variables in our sample, to analyse the relationship between two quantitative variables, we consider how one variable, called a response variable, changes in relation to changes in the other variable, called an explanatory variable. Graphically, we use scatterplots to display two quantitative variables, as comparing two numeric variables is best achieved through the use of graphics and visualisation. As you might imagine, it becomes very difficult to create any sort of crosstabs between numbers. Instead, you want to be able to determine whether there is a relationship between two numbers in other ways. We'll illustrate this with two other variables from the arrestee survey. Let's consider the relationship between "Age at first arrest" and "Number of arrests". We might be interested in this if we are thinking about criminal trajectories, for example, [delinquency careers](http://www.journals.uchicago.edu/doi/abs/10.1086/449107) or [life course trajectories](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1995.tb01173.x/full). 
 
 
-What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around, and never offend again. In other words, we are thinking that either **as age of 1st arrest decreases, number of arrests will increase**, or we think that **as age of 1st arrest decreases, number of arrests will also decrease**. These two scenarios describe two different kinds of relationships, a positive relationship or a negative relationship. In either scenario we assume that as one goes up the other one goes up or as one goes up the other one goes down, but that this takes a linear relationship. If you imagine one numeric variable across the x axis and another cross the y axis, a positive and a negative relationship would look something like this: 
+What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around and never offend again. In other words, we are thinking that either **as the age of 1st arrest decreases, the number of arrests will increase**, or we think that **as the age of 1st arrest decreases, the number of arrests will also decrease**. These two scenarios describe two different kinds of relationships: a positive or a negative relationship. In either scenario, we assume that as one goes up, the other one goes up, or as one goes up, the other one goes down, but this takes a linear relationship. If you imagine one numeric variable across the x-axis and another across the y-axis, a positive and a negative relationship would look something like this: 
 
 ![](imgs/pos_neg.png)
 
 
 
 *Note:* 
-The figure above shows you what a perfect positive relationship would look like, or a perfect negative relationship would look like. It also assume a **linear** relationship. This just means that we are looking at a "straight line trend " between the two variables. 
+The figure above shows you what a perfect positive relationship would look like, or a perfect negative relationship would look like. It also assumes a **linear** relationship. This just means that we are looking at a "straight line trend " between the two variables. 
 
 
 
-As discussed, a graphical representation, in this case a scatterplot is the most useful display technique for comparing two quantitative variables. We plot on the y-axis the variable we consider the response variable and on the x-axis we place the explanatory or predictor variable.
+As discussed, a graphical representation, in this case a scatterplot, is the most useful display technique for comparing two quantitative variables. We plot on the y-axis the variable we consider the response variable, and on the x-axis, we place the explanatory or predictor variable.
 
 
-How do we determine which variable is which? In general, the explanatory variable attempts to explain, or predict, the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, age at first arrest would be the explanatory variable used to explain the variation in the response variable number of arrests.
+How do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, age at first arrest would be the explanatory variable used to explain the variation in the response variable number of arrests.
 
 In summarizing the relationship between two quantitative variables, we need to consider:
 
@@ -939,25 +939,25 @@ In summarizing the relationship between two quantitative variables, we need to c
 - Strength (weak, moderate, strong)
 
 
-A scatter plot is a useful visual representation of the relationship between two numerical variables (attributes) and is usually drawn before working out a linear correlation or fitting a regression line, which are the next steps that you would take, if you were to also perform *inferential statistics*. The resulting pattern indicates the elements of the relationship outlined above, the association, the form, and the strength of the relationship between two variables. 
+A scatter plot is a useful visual representation of the relationship between two numerical variables (attributes) and is usually drawn before working out a linear correlation or fitting a regression line, which are the next steps you would take if you were to also perform *inferential statistics*. The resulting pattern indicates the elements of the relationship outlined above, as well as the association, form, and strength of the relationship between the two variables. 
 
 
-So what are some examples of correlations? Here are a few: 
+So, what are some examples of correlations? Here are a few: 
 
 
 - [Interactive Correlation Matrix and Scatter Plot All NBA Team Statistical Data 1951-2015 Seasons](http://asbcllc.com/blog/2014/december/nba_team_corr_matrix/scaled/)
-- [Correlation between statewise obesity and voting for Trump](https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png)
+- [Correlation between statewide obesity and voting for Trump](https://fsmedia.imgix.net/af/f3/d7/f5/b2df/470f/8f8c/4b41daf55348/the-correlation-between-trump-voters-and-obesity-has-a-strong-positive-correlation-at-0717.png)
 
 You can understand the basic premise. 
 
-### Activity 3.7: Does age at first arrest correlate with total number of arrests?
+### Activity 3.7: Does age at first arrest correlate with the total number of arrests?
 
 
 
-So let's build one for our arrestees. Since we are trying to explain number of arrests with the age of first arrest, we would plot on the y-axis the variable we consider the response variable (number of arrests) and on the x-axis we place the explanatory or predictor variable (age of first arrest).
+So, let's build one for our arrestees. Since we are trying to explain the number of arrests with the age of the first arrest, we would plot on the y-axis the variable we consider the response variable (number of arrests) and on the x-axis, we place the explanatory or predictor variable (age of first arrest).
 
 
-First, just return to the Excel spreadsheet where you have your data. Firstly arrest the two columns that contain our variables of interest: 
+First, just return to the Excel spreadsheet where you have your data. Firstly, arrest the two columns that contain our variables of interest: 
 
 
 ![](imgs/scatter_1.png)
@@ -977,20 +977,20 @@ The graph that initially appears might look something like this:
 
 
 
-You can see that actually we have age of first arrest on the x axis, and number of arrests on the y axis, as we prefer. If this was not the case, you can change this by right clicking anywhere on the chart, and selecting "Select Data..." on the options that pop up: 
+You can see that actually, we have the age of first arrest on the x-axis and the number of arrests on the y-axis, as we prefer. If this is not the case, you can change this by right-clicking anywhere on the chart and selecting "Select Data..." on the options that pop up: 
 
 
 ![](imgs/scatter_4.png) 
 
 
-And then on the popup there is an option to switch row/column: 
+And then, on the popup, there is an option to switch row/column: 
 
 
 ![](imgs/scatter_5.png)
 
 
 
-But in this case we are alright. One thing you should do though, is label your axes. Although, we might be able to infer that the axis with a value that goes up to 300 is not *likely* to be the one for age, it's always nice to have some certainty, and axis labels will provide this. To do this, click anywhere inside the chart, and click n the "Chart Layout" tab:
+But in this case, we are alright. One thing you should do, though, is label your axes. Although we might be able to infer that the axis with a value that goes up to 300 is not *likely* to be the one for age, it's always nice to have some certainty, and axis labels will provide this. To do this, click anywhere inside the chart and click on the "Chart Layout" tab:
 
 
 
@@ -1002,24 +1002,24 @@ But in this case we are alright. One thing you should do though, is label your a
 
 
 
-Then click on the "Axes" option, and for both horizontal and vertical axes add a title:
+Then click on the "Axes" option, and for both horizontal and vertical axes, add a title:
 
 
 ![](imgs/scatter_8.png)
 
 
 
-You can also stylize your scatterplot, make it look the way that you are most happy with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
+You can also stylize your scatterplot to make it look how you are most happy with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
 
 
 ![](imgs/scatter_9.png)
 
 
 
-So let's try to infer our indicators of the relationship between the two variables. What about association/direction? Form? And strength? Well the easiest way to think about this is to think about drawing a *line of best fit*. Could you draw a straight line through the cloud of points? If yes what does this line look like? 
+So, let's try to infer our indicators of the relationship between the two variables. What about association/direction? Form? And strength? Well, the easiest way to think about this is to think about drawing a *line of best fit*. Could you draw a straight line through the cloud of points? If so, what does this line look like? 
 
 
-We can ask Excel to draw this line for us. You can do this by going back to the "Chart layout" tab, and this time clicking on the "Trendline" option: 
+We can ask Excel to draw this line for us. You can do this by going back to the "Chart layout" tab and, this time, click on the "Trendline" option: 
 
 
 ![](imgs/scatter_10.png)
@@ -1038,32 +1038,32 @@ Now you can see your trendline appear:
 
 ![](imgs/scatter_12.png)
 
-What does this line look like? Well it definitely has a negative slope (it's pointing down, rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to *no slope* or a slope of zero, because it is essentially a straight line. To give you an idea of weak/strong relationships based on slope of a line, here is a handy image: 
+What does this line look like? Well, it definitely has a negative slope (it's pointing down rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case, it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to *no slope* or a slope of zero because it is essentially a straight line. To give you an idea of weak/strong relationships based on the slope of a line, here is a handy image: 
 
 
 ![](imgs/examples2_corr.jpg)
 
 
-You can imagine here that our relationship is quite weak, as it is close to a zero slope. Finally is the relationship linear or non linear? Well how well does this straight line represent your data? And where the points deviate from the line, do they do so in a systematic manner? To be fair, this question is a bit tough to answer, just on visual assessment through a scatterplot alone. As is the strength without a numeric interpretation of the slope. 
+You can imagine here that our relationship is quite weak, as it is close to a zero slope. Finally, is the relationship linear or non-linear? Well, how well does this straight line represent your data? And where the points deviate from the line, do they do so in a systematic manner? To be fair, this question is a bit tough to answer, just on visual assessment through a scatterplot alone. As is the strength without a numeric interpretation of the slope. 
 
 
 
-So far we have visualized relationships between two quantitative variables using scatterplots, and described the overall pattern of a relationship by considering its direction, form, and strength. We noted that assessing the strength of a relationship just by looking at the scatterplot is quite difficult, and therefore we need to supplement the scatterplot with some kind of numerical measure that will help us assess the strength. This is what inferential statistics like correlation coefficients will be able to do, but that's for the future. 
+So far, we have visualized relationships between two quantitative variables using scatterplots and described the overall pattern of a relationship by considering its direction, form, and strength. We noted that assessing the strength of a relationship just by looking at the scatterplot is quite difficult, and therefore, we need to supplement the scatterplot with some kind of numerical measure that will help us assess the strength. This is what inferential statistics like correlation coefficients will be able to do, but that's for the future. 
 
 
 
-Even though in the rest of the time we talk about these we are going to focus only on linear relationships, it is important to remember that not every relationship between two quantitative variables has a linear form. There are several examples of relationships that are not linear. The statistical tools that will be introduced here are appropriate only for examining linear relationships, and as we will see, when they are used in nonlinear situations, these tools can lead to errors in reasoning. While we don't require it for this session, if you wanted to read up a bit about identifying linear vs non-linear relationships [here](http://blog.minitab.com/blog/adventures-in-statistics-2/linear-or-nonlinear-regression-that-is-the-question). 
+Even though the rest of the time we talk about these, we are going to focus only on linear relationships, it is important to remember that not every relationship between two quantitative variables has a linear form. There are several examples of relationships that are not linear. The statistical tools that will be introduced here are appropriate only for examining linear relationships, and as we will see when they are used in nonlinear situations, these tools can lead to errors in reasoning. While we don't require it for this session, if you wanted to read up a bit about identifying linear vs non-linear relationships [here](http://blog.minitab.com/blog/adventures-in-statistics-2/linear-or-nonlinear-regression-that-is-the-question). 
 
 
-But based on our observations, we can say that there appears to be a very weak negative relationship between the age of first arrest, and the number of times that someone has been arrested to date, in our sample of arrestees interviewed as part of this arrestee survey. And we can support this with our scatterplot as well. 
+But based on our observations, we can say that there appears to be a very weak negative relationship between the age of first arrest and the number of times that someone has been arrested to date in our sample of arrestees interviewed as part of this arrestee survey. And we can support this with our scatterplot as well. 
 
 
 ### Correlation does not mean causation
 
 
-You may have heard this phrase before - that correlation does not mean causation. This is important to mention here, and for you to take this forward. Just because two variables show a relationship, even if it is a strong relationship, it does not mean that one actually causes the other, no matter how attractive telling that story would be.
+You may have heard this phrase before - that correlation does not mean causation. It is important to mention this here and for you to take this forward. Just because two variables show a relationship, even if it is a strong relationship, it does not mean that one actually causes the other, no matter how attractive telling that story would be.
 
-There is an interesting site here that has a lot of **spurious** correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are, due to either coincidence, or the presence of a certain third, unseen factor (referred to as a "common response variable", "confounding factor", or "lurking variable"). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, we think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both...! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers. 
+There is an interesting site here that has a lot of **spurious** correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are due to either coincidence or the presence of a certain third, unseen factor (referred to as a "common response variable", "confounding factor", or "lurking variable"). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, we think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both...! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers. 
 
 
 Have a listen to this [Ted talk](https://www.youtube.com/watch?v=8B271L3NtAw) which explains better. 
@@ -1071,7 +1071,7 @@ Have a listen to this [Ted talk](https://www.youtube.com/watch?v=8B271L3NtAw) wh
 
 
 
-Spurious correlations are all over the place, and while sometimes they are very obvious, for example, here is one that correlates the number of films that Nicholas Cage has appeared in, and the number of people who drowned by falling into a pool: 
+Spurious correlations are all over the place, and while sometimes they are very obvious, for example, here is one that correlates the number of films that Nicholas Cage has appeared in and the number of people who drowned by falling into a pool: 
 
 
 ![](imgs/supr_corr.png)
@@ -1079,7 +1079,7 @@ Spurious correlations are all over the place, and while sometimes they are very 
 ([and you can see more strange correlations here](http://www.tylervigen.com/spurious-correlations))
 
 
-But in other cases its much more subtle. And can happen between variables that you can weave together a very nice story or explanation as for why they should be related. No matter what, you should think about these examples always when you are looking at correlations. We will talk later about study design, especially in relation to being able to infer causality, but do make a note now, to keep in mind in the future, that *correlation does not prove causation*. 
+But in other cases, it's much more subtle. And it can happen between variables that you can weave together a very nice story or explanation as to why they should be related. No matter what, you should think about these examples always when you are looking at correlations. We will talk later about study design, especially in relation to being able to infer causality, but do make a note now to keep in mind in the future that *correlation does not prove causation*. 
 
 
 ![](https://imgs.xkcd.com/comics/correlation.png)
@@ -1090,10 +1090,10 @@ But in other cases its much more subtle. And can happen between variables that y
 ## Summary
 
 
-In sum, you should now be able to begin to make comparisons between two variables in your data set, and talk about the possible relationships between them, and support (or question) the assumptions that you might have with some evidence. You should be comfortable with the following terms: 
+In sum, you should now be able to begin to make comparisons between two variables in your data set and talk about the possible relationships between them, and support (or question) the assumptions that you might have with some evidence. You should be comfortable with the following terms: 
 
 - bivariate
-- crosstab (or two-way frequency table, or contingency table)
+- crosstab (or two-way frequency table or contingency table)
 - row percentage
 - column percentage
 - stacked bar chart
