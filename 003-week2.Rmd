@@ -835,18 +835,18 @@ Then do the same for the bin range, but select the bin range variables:
 ![](imgs/build_histo.gif)
 
 
-Once you have filled these fields, also click the tick-box next to the `Chart output` option. When this is ticked as well, just click "OK". Your histogram is now ready, and should appear in a new sheet on your excel workbook: 
+Once you have filled these fields, also click the tick-box next to the **`Chart output`** option. When this is ticked as well, just click "OK". Your histogram is now ready, and should appear in a new sheet on your Excel workbook: 
 
 
 ![](imgs/hist_appears.png)
 
-Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
+Right, so now we know how to get a feel for the distribution by looking at a histogram of our numeric variable. We have also begun to think about outliers and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
 
 #### Activity 2.6(b): Histograms in Excel without the data analysis toolpak
 
-If you could not install the data analysis toolpak in your device, you can still produce a beautiful histogram by following the instructions below. **If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.**
+If you could not install the data analysis toolpak on your device, you can still produce a beautiful histogram by following the instructions below. **If you could generate the histogram with the data analysis toolpak, you can safely ignore this section.**
 
-First, you will need to select the resulting pivot table with the names of boroughs and count of crimes, and copy and paste this table in a new spreadsheet. You can do this by selecting the table, clicking Ctrl+C, opening a new spreadsheet, and copying the values (without format) in it. Like this:
+First, you will need to select the resulting pivot table with the names of boroughs and counts of crimes, and copy and paste this table into a new spreadsheet. You can do this by selecting the table, clicking Ctrl+C/ Command+C, opening a new spreadsheet, and copying the values (without format) in it. Like this:
 
 
 ![](imgs/copy_paste.png)
@@ -857,13 +857,13 @@ The resulting table should look like this:
 ![](imgs/result_paste.png)
 
 
-Once this is done, we will need to manually add one small change in our data. We are not interested in including the 'Grand total' in our histogram (it is not one our our units units of analysis, but the sum of the totals across observations). However, we will need to tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is... 0. We will remove 'Grand total' and '420082', and add 'Minimum' and '0' instead in our dataset.
+Once this is done, we will need to manually add one small change in our data. We are not interested in including the 'Grand total' in our histogram (it is not one of our units units of analysis, but the sum of the totals across observations). However, we will need to tell Excel which is the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is... 0. We will remove 'Grand total' and '420082', and add 'Minimum' and '0' instead in our dataset.
 
 
 ![](imgs/minumum_0.png)
 
 
-Now, we can select all values in the 'Count of borough' column, and create out histogram.
+Now, we can select all values in the 'Count of borough' column, and create our histogram.
 
 
 ![](imgs/select_column.png)
@@ -877,13 +877,13 @@ From within the 'Insert' menu, find the 'Insert static chart' image, and select 
 ![](imgs/histogram.png)
 
 
-The resulting histogram doesn't quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x axis labels (the ones under the graph), and select the option 'Format axis...'
+The resulting histogram doesn't quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x-axis labels (the ones under the graph), and select the option 'Format axis...'
 
 
 ![](imgs/select_format_axis.png)
 
 
-And now we can change the width of bins to 10,000, just as the example above.
+And now we can change the width of bins to 10,000, just as in the example above.
 
 
 ![](imgs/bin_width.png)
@@ -895,7 +895,7 @@ The resulting histogram looks great!
 ![](imgs/final_hist.png)
 
 
-Right, so now we know how to get a feel for the distribution from looking at a histogram of our numeric variable. We have also begun to think about outliers, and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
+Right, so now we know how to get a feel for the distribution by looking at a histogram of our numeric variable. We have also begun to think about outliers and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
 
 
 
@@ -1032,7 +1032,7 @@ Remember what we said at the outset. The standard deviation does not quite work 
 
 ### Activity 2.8: Standard Deviation in Excel
 
-Finally, we will leave you with a note on how to calculate the standard deviation in Excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV()`, and you apply it the same way you did the functions above by selecting the cells that contain the data you want to calculate and putting them inside the brackets. 
+Finally, we will leave you with a note on how to calculate the standard deviation in Excel. Similar to how you calculated the mean and the median, you can use the formula option to calculate the standard deviation. The formula you need to use is `=STDEV.S()`, and you apply it the same way you did the functions above by selecting the cells that contain the data you want to calculate and putting them inside the brackets. 
 
 
 
