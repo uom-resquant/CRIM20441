@@ -764,13 +764,13 @@ Let's give it a go. Open up your data (`csew_small.xlsx`) and have a look at the
 
 
 
-Well, now we can consider calculating the variation in answers to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, in the first instance, we would suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to  reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
+Well, now we can consider calculating the variation in answers to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, in the first instance, we suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to  reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
 
 
 Once we've decided on a scoring system like this, we can write it down in a little table. This is both for ourselves, so we know what the numbers mean later (and maybe also for anyone else using our data afterwards), but also so that we can use this as a lookup table for our re-coding. 
 
 
-We can create a mini table in our data that has our codes and values. Something like this: 
+We can create a mini table with our codes and values in the data. Make sure the formatting follows exactly like in the original table. Sometimes, Excel will give you an error if you try to match something where a word is capitalised in one table but in the other one is not. Something like this:
 
 
 ![](imgs/lookup_table.png)
