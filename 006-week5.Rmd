@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-This week we are interested in taking a step back even further from the analysis of data. Last week we spoke about **conceptualisation** and **operationalisation**, the steps that you take as a researcher to turn your ideas and topics of interest into variables to measure. But how do you then go about designing your research study?  This week we take a step back, conceptually, to the highest level of research oversight, to consider the process of research design, and consider the various ways that you can go about collecting data. 
+This week, we are interested in taking a step back even further from the analysis of data. Last week, we spoke about **conceptualisation** and **operationalisation**, the steps that you take as a researcher to turn your ideas and topics of interest into variables to measure. But how do you then go about designing your research study?  This week, we take a step back, conceptually, to the highest level of research oversight to consider the process of research design and consider the various ways that you can go about collecting data. 
 
 
 
@@ -10,12 +10,12 @@ Much of the data that we work with are collected as part of the research process
 
 
 **Research design** can be described as a general plan about what you will do to answer your research question. It is the overall plan for connecting the conceptual research problems to the pertinent (and achievable) empirical research. In other words, the research design articulates what data will be required, what methods are going to be used to collect and analyse the data, and how all of this is going to answer your research question. We will talk about **pre-registration** and 
-the importance to separate confirmatory vs exploratory research. 
+the importance of separating confirmatory vs exploratory research. 
 
-Both data and methods, and the way in which these will be configured in the research project, need to be the most effective in producing the answers to the research question (taking into account practical and other constraints of the study). Different design logics are used for different types of study, and the best choice depends on what sorts of research questions you want to be able to answer. 
+Both data and methods, as well as the way in which these will be configured in the research project, need to be the most effective in producing the answers to the research question (taking into account practical and other constraints of the study). Different design logics are used for different types of study, and the best choice depends on what sorts of research questions you want to be able to answer. 
 
 
-Since your readings provide a comprehensive overview of different types of research designs, we will not attempt to replicate this here. Instead we will cover some general practical points, with focus on two different study designs. These are experiments, and longitudinal studies. However the skills we will practice today are relevant for data collected from various research resigns. For example, we will learn about **missing data**, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the **Gantt chart** as a way to plan your study design, which can be applied to any form of research design. 
+Since your readings provide a comprehensive overview of different types of research designs, we will not attempt to replicate this here. Instead, we will cover some general practical points, with a focus on two different study designs. These are experiments and longitudinal studies. However, the skills we will practice today are relevant to data collected from various research resigns. For example, we will learn about **missing data**, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the **Gantt chart** as a way to plan your study design, which can be applied to any form of research design. 
 
 ### Terms for today
 
@@ -35,13 +35,13 @@ Since your readings provide a comprehensive overview of different types of resea
 ## Research Design 
 
 
-When you're designing your research, and developing your research design, you can imagine yourself as the architect of the research project. You lay down the blueprints and identify all the tasks and elements that will need to be realised in order for your research project to be successful. The type of research design used in a crime and justice study influences its conclusions. Studies suggest that design does have a systematic effect on outcomes in criminal justice studies. For example, when determining the effect of an intervention (known as evaluation research, as you are *evaluating* the effect of the intervention), when comparing randomized studies with strong quasi-experimental research designs, systematic and statistically significant differences are observed ([Weisburd et al., 2001](http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf)). 
+When planning your research and developing your research design, you can imagine yourself as the architect of the research project. You lay down the blueprints and identify all the tasks and elements that will need to be realised for your research project to succeed. The type of research design used in a crime and justice study influences its conclusions. Studies suggest that design does have a systematic effect on outcomes in criminal justice studies. For example, when determining the effect of an intervention (known as evaluation research, as you are *evaluating* the effect of the intervention), when comparing randomized studies with strong quasi-experimental research designs, systematic and statistically significant differences are observed ([Weisburd et al., 2001](http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf)). 
 
 
 
 
 
-Those interested in the study of criminology and criminal justice have at their disposal a wide range of research methods. Which of the particular research methods to use is entirely contingent upon the question being studied. Research questions typically fall into four categories of research: 
+Those interested in the study of criminology and criminal justice have a wide range of research methods at their disposal. Which of the particular research methods to use is entirely contingent upon the question being studied. Research questions typically fall into four categories of research: 
 
 - (1) *descriptive* (define and describe the social phenomena), 
 - (2) *exploratory* (identify the underlying meaning behind the phenomena), 
@@ -49,17 +49,17 @@ Those interested in the study of criminology and criminal justice have at their 
 - (4) *evaluative* (determine the effects of an intervention on an outcome). 
 
 
-Your readings will have gone through a lot of examples and details about each one of these approaches, and what research design you can use to answer which sort of categories of research questions. These books give you a fantastic theoretical overview of the methods, and so we will not reiterate those here. 
+In your readings, you will have gone through many examples and details about each one of these approaches, as well as what research design you can use to answer which sort of categories of research questions. These books give you a fantastic theoretical overview of the methods, and so we will not reiterate those here. 
 
 
-Instead, today we will go through some of the nuances and key important tasks to cover in research design, and we will use some specific research design examples, specifically we will look at experimental work, and longitudinal designs in criminology. But remember - what we are learning applies to all research design, we are just using these specific cases to illustrate the points. 
+Instead, today, we will go through some of the nuances and key important tasks to cover in research design, and we will use some specific research design examples; specifically, we will look at experimental work and longitudinal designs in criminology. But remember - what we are learning applies to all research designs, and we are just using these specific cases to illustrate the points. 
 
 
 
 ## Experiments and evaluation
 
 
-Experimental criminology is a family of research methods that involve the controlled study of cause and effect. Research designs fall into two broad classes: quasi-experimental and experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative **treatment**, or an alternate intervention condition (**control**). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Exponential growth in the field of experimental criminology began in the 1990s, leading to the establishment of a number of key entities (such as the Campbell Collaboration, the Academy of Experimental Criminology, the Journal of Experimental Criminology, and the Division of Experimental Criminology within the American Society of Criminology) that have significantly advanced the field of experimental criminology into the 21st century. These initiatives have extended the use of experiments (including randomised field experiments as well as quasi-experiments) to answer key questions about the causes and effects of crime and the ways criminal justice agencies might best prevent or control crime problems. The use of experimental methods is very important for building a solid evidence base for policymakers, and a number of advocacy organizations (such as the Coalition for Evidence- Based Policy) argue for the use of scientifically rigorous studies, such as randomized controlled trials, to identify criminal justice programs and practices capable of improving policy-relevant outcomes.
+Experimental criminology is a family of research methods that involve the controlled study of cause and effect. Research designs fall into two broad classes: quasi-experimental and experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative **treatment**, or an alternate intervention condition (**control**). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, and perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Exponential growth in the field of experimental criminology began in the 1990s, leading to the establishment of a number of key entities (such as the Campbell Collaboration, the Academy of Experimental Criminology, the Journal of Experimental Criminology, and the Division of Experimental Criminology within the American Society of Criminology) that have significantly advanced the field of experimental criminology into the 21st century. These initiatives have extended the use of experiments (including randomised field experiments as well as quasi-experiments) to answer key questions about the causes and effects of crime and the ways criminal justice agencies might best prevent or control crime problems. The use of experimental methods is very important for building a solid evidence base for policymakers, and a number of advocacy organizations (such as the Coalition for Evidence-Based Policy) argue for the use of scientifically rigorous studies, such as randomized controlled trials, to identify criminal justice programs and practices capable of improving policy-relevant outcomes.
 
 
 - How much crime does prison prevent--or cause--for different kinds of offenders?
@@ -68,7 +68,7 @@ Experimental criminology is a family of research methods that involve the contro
 - How can murder be prevented among high-risk groups of young men?
 
 
-These and other urgent questions can be answered most clearly by the use of a research design called the "randomized controlled trial." This method takes large samples of people--or places, or schools, prisons, police beats or other units of analysis--who might become, or have already been, involved in crimes, either as victims or offenders. It then uses a statistical formula to select a portion of them for one treatment, and (with equal likelihood) another portion to receive a different treatment. Any difference, on average, in the two groups in their subsequent rates of crime or other dimensions of life can then be interpreted as having been caused by the randomly assigned difference in the treatment. All other differences, on average, between the two groups can usually be ruled out as potential causes of the difference in outcome. That is because with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.
+These and other urgent questions can be answered most clearly by the use of a research design called the "randomized controlled trial." This method takes large samples of people--or places, or schools, prisons, police beats or other units of analysis--who might become, or have already been, involved in crimes, either as victims or offenders. It then uses a statistical formula to select a portion of them for one treatment and (with equal likelihood) another portion to receive a different treatment. Any difference, on average, in the two groups in their subsequent rates of crime or other dimensions of life can then be interpreted as having been caused by the randomly assigned difference in the treatment. All other differences, on average, between the two groups can usually be ruled out as potential causes of the difference in outcome. That is because, with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.
 
 (You can read more about Experimental Criminology in [this chapter](http://www.oxfordbibliographies.com/view/document/obo-9780195396607/obo-9780195396607-0085.xml) written by Lorraine Mazerolle and Sarah Bennett).
 
@@ -77,62 +77,62 @@ These and other urgent questions can be answered most clearly by the use of a re
 
 Below are two short videos to watch that show examples of how experiments can be used in Criminology. Take time now to watch these in your groups:
 
-First, watch this [6 minute video from the University of Cambridge to learn a bit more about experimental criminology](https://www.youtube.com/watch?v=IGDF1-B1Yjs&feature=player_embedded). If you are on the BA Criminology programme, you may have seen this video in your lecture for Criminal Justice in Action, when learning about how criminology has an impact. It you are on the BASS program, it might be something new. 
+First, watch this [6-minute video from the University of Cambridge to learn a bit more about experimental criminology](https://www.youtube.com/watch?v=IGDF1-B1Yjs&feature=player_embedded). If you are in the BA Criminology programme, you may have seen this video in your lecture for Criminal Justice in Action when learning about how criminology has an impact. If you are in the BASS program, it might be something new. 
 
 
 
-And then [this video that describes the Philadelphia foot patrol experiment](https://www.youtube.com/watch?v=0NUQsK0vnnM). Pay attention to how the blocks are assigned to the treatment (foot patrol) and the control (normal, business as usual policing) groups. 
+And then [this video that describes the Philadelphia foot patrol experiment](https://www.youtube.com/watch?v=0NUQsK0vnnM). Pay attention to how the blocks are assigned to the treatment (foot patrol) and the control (normal, business-as-usual policing) groups. 
 
 
-Take some notes about what you think are elements of the **research design** when you watch these videos, they will help you understand how and why we can use experiments in criminological research! Take time to get through these, it will help, but also we hope that they are interesting examples of criminological research in action! Quantitative criminology isn't all about sitting around playing with spreadsheets and reading equations - we do get out sometimes, and get to have an impact on things like policing!
+Take some notes about what you think are elements of the **research design** when you watch these videos; they will help you understand how and why we can use experiments in criminological research! Take time to get through these; it will help, but we also hope they are interesting examples of criminological research in action! Quantitative criminology isn't all about sitting around playing with spreadsheets and reading equations - we do get out sometimes and get to have an impact on things like policing!
 
 
 ![](https://media.giphy.com/media/pUeXcg80cO8I8/giphy.gif)
 
 
 
-Evaluation of programmes is very important. As you heard the police chiefs explain in the Philadelphia video above, it can make the difference between investing in a helpful intervention (foot patrols in this case) or not. By being able to quantify the crime reduction effect that foot patrols had on particular areas, it became possible to support and lobby for these to be implemented. 
+Evaluation of programmes is very important. As you heard the police chiefs explain in the Philadelphia video above, investing in a helpful intervention (foot patrols in this case) can make a difference or not. By being able to quantify the crime reduction effect that foot patrols had on particular areas, it became possible to support and lobby for these to be implemented. 
 
 
-While it's great that evaluations can be used to build a case for effective interventions, it is equally important to know whether something doesn't work. Have you heard of the scared straight program? The term “scared straight” dates to 1978, and a hit documentary by the same name. The film featured hardened convicts who shared their prison horror stories with juvenile offenders convicted of arson, assault, and other crimes. The convicts screamed, yelled, and swore at the young people. The concept behind the approach was that kids could be frightened into avoiding criminal acts. 
+While it's great that evaluations can be used to build a case for effective interventions, it is equally important to know whether something doesn't work. Have you heard of the Scared Straight program? The term “scared straight” dates back to 1978 and a hit documentary by the same name. The film featured hardened convicts who shared their prison horror stories with juvenile offenders convicted of arson, assault, and other crimes. The convicts screamed, yelled, and swore at the young people. The concept behind the approach was that kids could be frightened into avoiding criminal acts. 
 
 
-You can see how people are immediately averse to this idea. It is, quite obviously distressing to kids that are being subjected to these Scared Straight programmes, through the yelling, the gruesome violence, and so on. But if the end result is that this shock and horror deters kids from offending, or young drivers from being careless on the roads, then it might be considered a "necessary evil", right? It might be short-term pain inflicted, but in the interest of long-term gain, whereby these kids will avoid a life of offending, or ending up in a horrible road traffic collision. But in order to make this argument, we need to be able to tell - does this work? 
+You can see how people are immediately averse to this idea. It is quite obviously distressing to kids that are being subjected to these Scared Straight programmes through the yelling, the gruesome violence, and so on. But if the end result is that this shock and horror deters kids from offending or young drivers from being careless on the roads, then it might be considered a "necessary evil", right? It might be short-term pain inflicted but in the interest of long-term gain, whereby these kids will avoid a life of offending or ending up in a horrible road traffic collision. But to make this argument, we need to be able to tell - does this work? 
 
 
 ### What influences what? Dependent vs independent variables
 
 
-In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate out our dependent and independent variables, to determine what we expect is evoking a change in what. 
+In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate our dependent and independent variables to determine what we expect is evoking a change in what. 
 
 
-What is a **dependent variable**? It's what you are looking to explain. Remember in week 3, when we were talking about bivariate analysis to assess the relationship between two variables? And we spoke about one of them being a **response** variable and the other the **predictor** variable, and how do we determine which variable is which? In general, the explanatory variable attempts to explain, or predict, the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.
+What is a **dependent variable**? It's what you are looking to explain. Remember in week 3, when we were talking about bivariate analysis to assess the relationship between two variables? And we spoke about one of them being a **response** variable and the other the **predictor** variable, and how do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.
 
 
-Well, these variables can also be called **dependent** and **independent** variables. **Dependent variables** are another name for response variables. They *depend* on the values of the independent variable. It can also have a third name, and be called an *outcome variable*.  The **independent variable** on the other hand is another name for predictor variables. 
+Well, these variables can also be called **dependent** and **independent** variables. **Dependent variables** are another name for response variables. They *depend* on the values of the independent variable. It can also have a third name and be called an *outcome variable*.  The **independent variable**, on the other hand, is another name for predictor variables. 
 
 
 
-For example, if you are trying to predict fear of crime using age (so your research question might ask:  *are older people more worried about crime?*) then in this case, you believe that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So your *dependent* variable is fear. And since it's influenced by age, age is the *independent* variable. 
+For example, if you are trying to predict fear of crime using age (so your research question might ask:  *are older people more worried about crime?*) then in this case, you believe that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So, your *dependent* variable is fear. And since it's influenced by age, age is the *independent* variable. 
 
 
 ### Activity 5.2: Dependent and independent variables
 
 
-What about in the case of an experiment? Let's return to our example with the scared straight programmes. We want to know whether scared straight has an effect on future offending, correct? So... what are our variables here? Remember last week, when we were identifying concepts in research questions in the feedback session? That might help. We want to know the effect of *scared straight* on the people's *future offending*. Our variables are in italics; they are: 
+What about in the case of an experiment? Let's return to our example with the Scared Straight programmes. We want to know whether Scared Straight has an effect on future offending, correct? So... what are our variables here? Remember last week when we were identifying concepts in research questions in the feedback session? That might help. We want to know the effect of *scared straight* on the people's *future offending*. Our variables are in italics; they are: 
 
 - exposure to scared straight programme
 - future offending behaviour.
 
 
-Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in scared straight offend less than they would have if they didn't participate. So, for this we know that we have one variable (in this case offending) that *depends on* the other (participating in scared straight or not). What does this mean for which is dependent variable and which is the independent?
+Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn't participate. So, for this, we know that we have one variable (in this case, offending) that *depends on* the other (participating in scared straight or not). What does this mean for which is the dependent variable and which is the independent?
 
 
-Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here, because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups, and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!
+Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!
 
 
 
-Take a moment to think through, and decide which variable is dependent or independent. Here is a corgi running around in circles to separate the answer, so you don't accidentally read ahead: 
+Take a moment to think through and decide which variable is dependent or independent. Here is a corgi running around in circles to separate the answer so you don't accidentally read ahead: 
 
 
 ![](https://media.giphy.com/media/RrFZIzK3coIMg/giphy.gif)
@@ -140,24 +140,24 @@ Take a moment to think through, and decide which variable is dependent or indepe
 
 
 
-Right, so now you're hopefully reading on after your own consideration, and you may have found that your **dependent variable** is the one that depends on the intervention, which is - whether the young person exposed to the scared straight programme offends or not. So your *dependent* variable is *future offending*. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then in turn operationalised, to be measured somehow. 
+Right, so now you're hopefully reading on after your own consideration, and you may have found that your **dependent variable** is the one that depends on the intervention, which is - whether the young person exposed to the scared straight programme offends or not. So, your *dependent* variable is *future offending*. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then, in turn, operationalised to be measured somehow. 
 
 
-Your independent variable, on the other hand, is the thing that you want to see the effect of, in this case, it's participation in the scared straight programme. Right? You are interested in whether participation causes less offending in the future. Your *independent* variable is *participating in scared straight*. Again, you would have to conceptualise scared straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).
+Your independent variable, on the other hand, is the thing that you want to see the effect of, in this case, it's participation in the Scared Straight programme. Right? You are interested in whether participation will cause fewer offences in the future. Your *independent* variable is *participating in Scared Straight*. Again, you would have to conceptualise scared straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).
 
 
 But no matter how you conceptualise and operationalise these variables, you will still have to be able to determine the effect of one or the other. And the *research design* of your study will greatly affect whether or not you can do that. 
 
 
-Experiments provide you with a research design that may allow you to make these cause and effect conclusions. If you design your study as experiments, you will be able to control for certain variation, and employ methods that give you certainty about what causes what, and which event came first. This is a huge strength of experimental design. When talking about causation, or in evaluations, experimental design has features that mean that it is an optimal methodology for evaluation. Of course this does *not* mean it's the *only* appropriate design. But it's one approach that we explore here. 
+Experiments provide you with a research design that may allow you to make these cause-and-effect conclusions. If you design your study as an experiment, you will be able to control for certain variations and employ methods that give you certainty about what causes what and which event comes first. This is a huge strength of experimental design. When talking about causation or in evaluations, experimental design has features that mean that it is an optimal methodology for evaluation. Of course, this does *not* mean it's the *only* appropriate design. But it's one approach that we explore here. 
 
 
-So for your research design to be considered an experiment the three criteria listed above should be met (the two comparison groups, the variation in the independent variable before change in dependent variable and the random assignment between the groups).  
+So, for your research design to be considered an experiment, the three criteria listed above should be met (the two comparison groups, the variation in the independent variable before the change in the dependent variable and the random assignment between the groups).  
 
-Let's talk about the two groups. These two groups are often called your **treatment** and your **control** groups, because one group is administered some treatment (such as they took part in the intervention you are hoping to evaluate) while the other one receives the business as usual approach. 
+Let's talk about the two groups. These two groups are often called your **treatment** and your **control** groups because one group is administered some treatment (such as taking part in the intervention you are hoping to evaluate) while the other one receives the business-as-usual approach. 
 
 
-Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That's where beats were drawn up to, and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there were also another set of street segments, right? The ones that were assigned to the control groups did *not* receive foot patrol. Police still responded to calls for service, and everything went on as usual, but there was no patrol there - this is the control group. 
+Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That's where beats were drawn up to and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there was also another set of street segments, right? The ones that were assigned to the control groups did *not* receive foot patrol. Police still responded to calls for service, and everything went on as usual, but there was no patrol there - this is the control group. 
 
 
 You then expose the treatment group to the intervention (the foot patrol). Then, if after this, you find that the two groups are *different* on the value of the independent variable (crime). But how can we know that this difference is because one group had the treatment and the other didn't? Can't it be that the groups would have changed differently because of another reason difference?
@@ -166,7 +166,7 @@ You then expose the treatment group to the intervention (the foot patrol). Then,
 ## Importance of randomisation
 
 
-This is why **random assignment** is important. Randomisation is what makes the comparison group in a true experiment a powerful approach for identifying the effects of the treatment. Assigning groups randomly to the experimental and comparison groups ensures that systematic bias does not affect the assignment of subjects to groups. This is important if researchers wish to generalise their findings regarding cause and effect among key variables within and across groups. Remember all our discussion around validity and reliability last week!
+This is why **random assignment** is important. Randomisation is what makes the comparison group in a true experiment a powerful approach for identifying the effects of the treatment. Assigning groups randomly to the experimental and comparison groups ensures that systematic bias does not affect the assignment of subjects to groups. This is important if researchers wish to generalise their findings regarding cause and effect among key variables within and across groups. Remember all our discussions around validity and reliability last week!
 
 
 
@@ -176,12 +176,12 @@ This is why **random assignment** is important. Randomisation is what makes the 
 -[Criminology and Criminal Justice Research: Methods - Quantitative Research Methods](http://law.jrank.org/pages/923/Criminology-Criminal-Justice-Research-Methods-Quantitative-research-methods.html)
 
 
-You can read about these studies above for some examples of experiments in criminal justice research. The Philadelphia foot patrol experiment was just one of many. In particular, the Philadelphia foot patrol experiment is an example of a **randomised control trial**. You will have read about a few types of experimental design in your textbooks, but here we will focus on this particular one. The randomised controlled trial (RCT for short) is considered often as the most rigorous method of determining whether a cause-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the process of randomisation that is unique to this type of research study design.
+You can read about these studies above for some examples of experiments in criminal justice research. The Philadelphia foot patrol experiment was just one of many. In particular, the Philadelphia foot patrol experiment is an example of a **randomised control trial**. You will have read about a few types of experimental design in your textbooks, but here, we will focus on this particular one. The randomised controlled trial (RCT for short) is often considered as the most rigorous method of determining whether a cause-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the process of randomisation, which is unique to this type of research study design.
 
 Advantages
 
 - Good randomisation will “wash out” any population bias
-- Results can be analyzed with well known statistical tools
+- Results can be analyzed with well-known statistical tools
 - Populations of participating individuals are clearly identified
 
 
@@ -195,16 +195,16 @@ Disadvantages
 ### Activity 5.3: Random assignment 
 
 
-How does random assignment work? Well, we could achieve this by going old-school, and writing everyone's name on a piece of paper, and drawing the names out of a hat. But here we will use Excel's ability to programmatically assign people into treatment or control.  You are all Excel pros by now, with your formulas, and your lookups and pivot tables. So might as well hone these skills some more. 
+How does random assignment work? Well, we could achieve this by going old-school, and writing everyone's name on a piece of paper, and drawing the names out of a hat. But here, we will use Excel's ability to programmatically assign people into treatment or control groups. You are all Excel pros by now, with your formulas and your lookups and pivot tables. So, I might as well hone these skills some more. 
 
-To have random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let's say we want to assign two groups. We want to assign people to a **control group** and a **treatment group**. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics *except* in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be for example if you were asking people to *self-select* into treatment or control. If people were given the chance to volunteer (*self-select*) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.  
-
-
-
-Let's say we have our sample of people who will be assigned either to the treatment group, of receiving the Scared Straight treatment, or the control group, who do not have to go through this treatment. Well let's say we have our class here. We've got a total of 100 students enrolled in the class. Go ahead and download this list, from Blackboard. You can find it under the data folder for module week 5, it is called `student.xlsx`.
+To have a random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let's say we want to assign two groups. We want to assign people to a **control group** and a **treatment group**. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics *except* in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be, for example, if you were asking people to *self-select* into treatment or control. If people were given the chance to volunteer (*self-select*) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.  
 
 
-Once you have downloaded the data, open it with Excel, and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have 2 variables: FIRST NAME and LAST NAME.
+
+Let's say we have our sample of people who will be assigned either to the treatment group receiving the Scared Straight treatment or the control group, who do not have to go through this treatment. Well, let's say we have our class here. We've got a total of 100 students enrolled in the class. Go ahead and download this list from Blackboard. You can find it under the data folder for module week 5; it is called `student.xlsx`.
+
+
+Once you have downloaded the data, open it with Excel and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have 2 variables: FIRST NAME and LAST NAME.
 
 
 
@@ -217,20 +217,20 @@ Give it a go. Create a new column called "random number" on our data. Now simply
 ![](imgs/type_rand.png)
 
 
-When you hit enter, the formula will generate a random number, between 0 and 1. Something like this: 
+When you hit enter, the formula will generate a random number between 0 and 1. Something like this: 
 
 
 ![](imgs/first_rand.png)
 
 
 
-Did you get a different number for Ella there, than we did? Chances are, you did. This `RAND()` function generates a random number each time used. If we did this again (and try this on your data), it will give a different number. Give it a try. Go into the cell, where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should, now, have another random number appear. Now copy and paste the formula (and make sure its the formula you're copying, and not the value) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
+Did you get a different number for Ella there than we did? Chances are, you did. This `RAND()` function generates a random number each time it is used. If we do this again (and try this on your data), it will give a different number. Give it a try. Go into the cell where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should now have another random number appear. Now drag the formula (press on the first cell you wrote the formula in, go to the bottom right corner, and double-click on the black plus sign that appears +) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
 
 
 ![](imgs/rand_nums.png)
 
 
-We can use these values, which have been assigned *randomly* to assign students to a control or treatment groups. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data get put into one group, and 50% of your data into the other group? This question should already be familiar to you, but let us re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
+We can use these values, which have been *randomly* created, to assign students to a control or treatment group. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data gets put into one group and 50% of your data into the other group? This question should already be familiar to you, but let us re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
 
 
 Are you thinking **median**??
@@ -239,26 +239,26 @@ Are you thinking **median**??
 ![](https://media.giphy.com/media/YcMs3OGd89Pxu/giphy.gif)
 
 
-Nice work! Indeed, the median is the value that divides our data right smack in half. Now are you starting to realise where I'm going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the `=IF()` statements we were using last week to re-code data!
+Nice work! Indeed, the median is the value that divides our data right smack in half. Now, are you starting to realise where I'm going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the `=IF()` statements we were using last week to re-code data!
 
 
-How? Well, remember what we did to assign people into tall or short categorical variable values, based on the numeric value for height? We decided that if a  person is taller than average, they will be labelled "Tall" and "Short" if they are not. Then, what are the elements of our statement? We need to check *if* the person height is *greater than* the *average height* and if it is, type "Tall", else type "Short". Remember now? 
+How? Well, remember what we did to assign people to tall or short categorical variable values based on the numeric value for height? We decided that if a  person is taller than average, they will be labelled "Tall" and "Short" if they are not. Then, what are the elements of our statement? We need to check *if* the person's height is *greater than* the *average height*, and if it is, type "Tall", else type "Short". Remember now? 
 
 
-We can apply this again here. To recap,  we know that the `IF()` function takes 3 arguments. 1st the logical statement, that has to be either true or false. Then the other 2 values that the `IF()` function needs is what to do if the statement is true, and what to do if the statement is false. 
+We can apply this again here. To recap,  we know that the `IF()` function takes 3 arguments. 1st, the logical statement that has to be either true or false. Then, the other 2 values that the `IF()` function needs are what to do if the statement is true and what to do if the statement is false. 
 Altogether, your function will look like this:
 
 
 `=IF(condition, do if true, do if false)`
 
 
-What is our condition here? Well, this time we are using the median to divide our randomly assigned numbers into 2. We want to assign people into treatment or control, if they are above or below the median in their random number, that was allocated to them randomly. This ensures the *random* element of the randomized control trial, and ensures that people have equal probability of ending up in either group. 
+What is our condition here? Well, this time, we are using the median to divide our randomly assigned numbers into 2. We want to assign people into treatment or control if they are above or below the median in their randomly allocated number. This ensures the *random* element of the randomized control trial and that people have an equal probability of ending up in either group. 
 
 
 Let's say anyone with a random number above the median will be in the treatment group, and anyone with a random number below the median will be in the control group. What is our condition in this case? What is it that we are testing each number against?
 
 
-Well, in this case we are testing people against whether their random number is greater than the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if condition is true). On the other hand, if their random number is **not** greater than the median of all the random numbers, then they are assigned to the control group (what happens if condition is false). If any of this is unclear for you at the moment, then please raise your hand, and make one of us explain this. 
+Well, in this case, we are testing people against whether their random number is greater than the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if the condition is true). On the other hand, if their random number is **not** greater than the median of all the random numbers, then they are assigned to the control group (what happens if the condition is false). If any of this is unclear to you at the moment, then please raise your hand and ask one of us to explain this. 
 
 
 Translated into Excel language, our formula is: 
@@ -279,7 +279,7 @@ As such :
 ![](imgs/first_rand_assig.png)
 
 
-Hit 'Enter', and then copy the formatting all the way down, so that everyone in the class has been assigned to the control and treatment groups. 
+Hit 'Enter', and then copy the formatting all the way down so that everyone in the class has been assigned to the control and treatment groups. 
 
 
 You should have something like this: 
@@ -288,24 +288,24 @@ You should have something like this:
 ![](imgs/students_assigned.png)
 
 
-Don't worry if you don't get the same values, as we said this is *random* and so you should not get consistently the same answers. In fact, you should get different ones to your friends next to you as well. 
+Don't worry if you don't get the same values; as we said, this is *random* so you should not consistently get the same answers. In fact, you should get different ones from your friends next to you as well. 
 
 
-One way that you can sense check your results is to have a look at your treatment and control groups. Let's see how many students we have in each. You can use a Pivot Table to do this, and create a *univariate* *frequency table* to look at this new "Group" variable. 
+One way that you can sense check your results is to have a look at your treatment and control groups. Let's see how many students we have in each. You can use a Pivot Table to do this and create a *univariate* *frequency table* to look at this new "Group" variable. 
 
 
 
-You've built enough of these by now that you should be OK making this pivot table on your own, without guidance. If you get stuck on something though, let us know!
+You've built enough of these by now that you should be OK making this pivot table on your own, without guidance. If you get stuck on something, though, let us know!
 
 
-If all goes well, your pivot table should let you know that you have 50 students in your control group, and that minus 100 (your total) students in your treatment group (also 50): 
+If all goes well, your pivot table should let you know that you have 50 students in your control group and that minus 100 (your total) students in your treatment group (also 50): 
 
 
 ![](imgs/freq_groups.png)
 
 
 
-How did it go? Who's in your treatment and who's in your control group? 
+How did it go? Who's in your treatment, and who's in your control group? 
 
 <!--
 Where did you end up? Find your name in your sample. Are you in the treatment or the control group? What about in the spreadsheet of the person next to you? 
@@ -324,10 +324,10 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 ### Note: Freeze!
 
 
-Before you're done here, there is one last thing to note. Remember when describing the `=RAND()` formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let's say we've assigned everyone to treatment or control conditions, and then, we save our worksheet, to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. But if upon reopening, the random numbers are changed, then the assigned groups will also change! Since we don't want this, we want to somehow "freeze the values". 
+Before you're done here, there is one last thing to note. Remember when describing the `=RAND()` formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let's say we've assigned everyone to treatment or control conditions, and then we save our worksheet to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. But if the random numbers are changed upon reopening, then the assigned groups will also change! Since we don't want this, we want to somehow "freeze the values". 
 
 
-You can do this by highlighting the column and going to Formulas > Settings > and selecting "Calculate Manually":
+You can do this by highlighting the column and going to Formulas > Calculation Options> and selecting "Manual":
 
 ![](imgs/calc_man_pc.png)
 
@@ -346,21 +346,21 @@ And on PC:
 
 
 
-This way you will be able to keep track of who was assigned to control and who was assigned to the treatment groups. 
+This way, you will be able to keep track of who was assigned to control and who was assigned to the treatment groups. 
 
 ##### IMPORTANT NOTE!!!
 
-**When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations, otherwise your future formulas won't update!**
+**When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations otherwise your future formulas won't update!**
 
 
 ## Designing your study
 
-Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your **research design**. This is important not only to make sure you have all the resources (time, finding, staff/people power) to complete your study, but also so you have a clear idea of your expected outcomes, and you communicate this to yourself, your research team, and the wider scientific community. 
+Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your **research design**. This is important not only to make sure you have all the resources (time, finding, staff/people power) to complete your study but also so you have a clear idea of your expected outcomes, and you communicate this to yourself, your research team, and the wider scientific community. 
 
 
 ### Pre-registration: committing to your research plan
 
-Pre-registration makes your science better by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier, and facilitates for you to plan for better research. 
+Pre-registration makes your science better by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier and facilitates your planning for better research. 
 
 
 When you preregister your research, you're simply specifying your research plan in advance of your study and submitting it to a registry. This will help to improve your research. By writing out specific details such as data collection methods, analysis plans, and rules for data exclusion, you can make important decisions early on and have a clear record of these choices. This can help reduce biases that occur once the data are in front of you.
@@ -381,7 +381,7 @@ Let's explore the difference between the two.
 - Data-independent
 - Minimizes false positives
 - P-values retain diagnostic value
-- Inferences may be drawn to wider population
+- Inferences may be drawn to the wider population
 
 
 **Exploratory Research**
@@ -397,16 +397,16 @@ Let's explore the difference between the two.
 It is important that you are clear from the start about the type of research you want to carry out, and planning and pre-registration can really help with that!
 
 
-The [Turing Way](https://the-turing-way.netlify.app/welcome.html), an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a nice (beautifully illustrated!) [Guide to Research Design](https://the-turing-way.netlify.app/project-design/project-design.html) that you can take time to scroll through to explore some guidance around research resign. 
+The [Turing Way](https://the-turing-way.netlify.app/welcome.html), an open-source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a nice (beautifully illustrated!) [Guide to Research Design](https://the-turing-way.netlify.app/project-design/project-design.html) that you can take time to scroll through to explore some guidance around research resign. 
 
 
-Specifically here, we will look at a tool that can help you get a good grasp of what is required at each stage of the research process. In order to help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT, to evaluate the effectiveness of the scared straight programme. But you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
+Specifically, here, we will look at a tool that can help you understand what is required at each stage of the research process. To help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT to evaluate the effectiveness of the Scared Straight programme. However, you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
 
 
 #### What is a Gantt chart?
 
 
-A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflects the start date, duration and end date of the activity. This allows you to see at a glance:
+A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities, and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflect the start date, duration and end date of the activity. This allows you to see at a glance:
 
 - What the various activities are
 - When each activity begins and ends
@@ -421,7 +421,7 @@ To summarize, a Gantt chart shows you what has to be done (the activities) and w
 ![](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/2excel-gantt-chart-temp1.jpg)
 
 
-In order to be able to build a Gantt chart, you need to know the following about your project: 
+To be able to build a Gantt chart, you need to know the following about your project: 
 
 
 - The tasks required to carry it out
@@ -429,11 +429,11 @@ In order to be able to build a Gantt chart, you need to know the following about
 - Approximate start and finish dates for the individual tasks
 
 
-Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., "data collection") and be able to sub-divide into the individual elements that make up that task (e.g.,"identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take, and how feasible it is within your given set of resources (including your time). 
+Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., "data collection") and be able to sub-divide into the individual elements that make up that task (e.g., "identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take and how feasible it is within your given set of resources (including your time). 
 
 
 
-How is this helpful in research design? Well, let's consider the example of designing an RCT to evaluate Scared Straight. In order to be able to carry out this RCT, we need to be able to grab a basic outline for one, and turn it into a Gantt chart. Then we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
+How is this helpful in research design? Well, let's consider the example of designing an RCT to evaluate Scared Straight. To be able to carry out this RCT, we need to grab a basic outline for one and turn it into a Gantt chart. Then, we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
 
 
 Let's start with the basic outline.
@@ -441,9 +441,9 @@ Let's start with the basic outline.
 
 ### Activity 5.4: Research Planning with Gantt Charts: Design an RTC example
 
-In this activity we're going to plan a RTC using a Gantt Chart. 
+In this activity, we're going to plan an RTC using a Gantt Chart. 
 
-The basic outline of the design of a randomised controlled trial will vary from trial to trial. It depends on many many factors. The rough outline for our research design will follow something like this: 
+The basic outline of the design of a randomised controlled trial will vary from trial to trial. It depends on many, many factors. The rough outline for our research design will follow something like this: 
 
 - Planning and conceptualisation
 - Operationalisation and data collection
@@ -452,25 +452,25 @@ The basic outline of the design of a randomised controlled trial will vary from 
 
 
 
-This is not necessarily always a linear process. It can be that after data analysis you return for more data collection, or even go back to the conceptualisation stage.  But as we mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?
+This is not necessarily always a linear process. It can be that after data analysis, you return for more data collection or even go back to the conceptualisation stage. But as we mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?
 
 
-Well, let's try to build a Gantt chart with just these elements first to illustrate. As seen above, you need to know the approximate duration for your project, the tasks, and how long they will take. 
+Well, let's try to build a Gantt chart with just these elements first to illustrate. As seen above, you need to know the approximate duration of your project, the tasks, and how long they will take. 
 
 
-Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks, up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about for operationalisation and data collection or the Data analysis? Take a moment to think about this, discuss in small groups.
+Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about operationalisation and data collection or data analysis? Please take a moment to think about this and discuss it in small groups.
 
 
 
 
-Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as "data analysis" will take, would be an incredible tough task even for the most seasoned researcher. Instead, the way to be able to better guestimate the length for tasks is to break them into their components, which can give you a better indicator of how long things will take. 
+Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as "data analysis" will take would be an incredibly tough task, even for the most seasoned researcher. Instead, the way to be able to better guestimate the length of tasks is to break them into their components, which can give you a better indicator of how long things will take. 
 
 
 
 Let's try this for the Scared Straight RCT. 
 
 
-Let's start with our main overarching categories for above, but break each one down into its components. Something like this: 
+Let's start with our main overarching categories for the above, but break each one down into its components. Something like this: 
 
 
 - Planning and conceptualisation
@@ -482,8 +482,8 @@ Let's start with our main overarching categories for above, but break each one d
 - Operationalisation and data collection
     + Sample size calculations
     + Define reference population
-    + Define way variables will be measured
-    + Choose comparison treatment (what happens to control group)
+    + Define the way variables will be measured
+    + Choose comparison treatment (what happens to the control group)
     + Selection of intervention and control groups, including source, inclusion and exclusion criteria, and methods of recruitment
     + Informed consent procedures
     + Collection of baseline measurements, including all variables considered or known to affect the outcome(s) of interest
@@ -499,13 +499,13 @@ Let's start with our main overarching categories for above, but break each one d
     + Final write-up of results
 
 
-So, how do you come up with individual sub-elements? Well, there is no simple answer to this, the way that you come up with these categories is by thinking about what it is that you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps, all the actions that you need to take, to reach your end goal of a set of data that you can analyse in order to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly, and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first, and spend more time on it, before they can show someone else to receive comments. Because of this, not only does each project have its nuances and differences when building a Gantt chart, but each person will as well. 
+So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. 
 
 
-This exercise is aimed to help you get thinking about projects in this way, but also to illustrate, once you have the above information for a project, how you can draw it up into a visual timeline that can help you plan your research project, and make sure that it runs on time. So let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
+This exercise is aimed to help you get thinking about projects in this way, but also to illustrate, once you have the above information for a project, how you can draw it up into a visual timeline that can help you plan your research project, and make sure that it runs on time. So, let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
 
 
-First you will have to open a new Excel spreadsheet. Just a blank one. We'll be building our Gantt chart from scratch. 
+First, you will have to open a new Excel spreadsheet. Just a blank one. We'll be building our Gantt chart from scratch. 
 
 
 So once you have your blank Excel sheet, create 4 columns:
@@ -523,26 +523,26 @@ Something like this:
 
 
 
-The *Task* column refers to each individual activity, that are the detailed steps that we have to take, in order to be able to complete our project. These are all the activities that we've broken the tasks into. If we were considering this Gantt chart table as a data set, you can now begin to guess, that our unit of analysis is the *task*. Each one activity we have to do is one row. These include the bigger group that each sub-task it belongs to as well as the sub tasks themselves. This will be meaningful later on. 
+The *Task* column refers to each individual activity, which are the detailed steps that we have to take, in order to be able to complete our project. These are all the activities that we've broken the tasks into. If we were considering this Gantt chart table as a data set, you can now begin to guess that our unit of analysis is the *task*. Each activity we have to do is one row. These include the bigger group that each sub-task belongs to and the sub-tasks themselves. This will be meaningful later on. 
 
-In the other columns, *start date*, *end date*, and *duration* we will record the temporal information around each task - that is - when will it start? when will it end? how long will it take?
+In the other columns, *start date*, *end date*, and *duration*, we will record the temporal information around each task - that is - when will it start? When will it end? How long will it take?
 
 
 
-So as a first step, let's populate the *task* column. You can copy and paste from the list above.  Should look something like this: 
+So, as a first step, let's populate the *task* column. You can copy and paste from the list above. It should look something like this: 
 
 
 ![](imgs/task_subtask_pop.png)
 
 
 
-Great, now how will we populate the start date and end date columns. This is where the Gantt chart is very much a tool for you to plan your research project. How can we know how long will something take? The short answer is: we can't.  We don't have a crystal ball. But we can *guess*. We can start with the project start date (or if you work better counting backwards, you can start with the project end date if it's a known hard deadline), and then just try to estimate how long each phase will take to complete, and when we can start the next. 
+Great, now how will we populate the start date and end date columns? This is where the Gantt chart is very much a tool for you to plan your research project. How can we know how long will something take? The short answer is we can't.  We don't have a crystal ball. But we can *guess*. We can start with the project start date (or if you work better counting backwards, you can start with the project end date if it's a known hard deadline), and then just try to estimate how long each phase will take to complete, and when we can start the next. 
 
 
-Tasks can run simultaneously. You don't always have to wait for one task to finish before you start the next. Sometimes one task needs to finish for the next to start, for example: you cannot begin data analysis until you have finished data collection. On the other hand, you can (and should) begin writing while still continuing your data analysis. So you can have temporal overlap - or be working on multiple projects at once. 
+Tasks can run simultaneously. You don't always have to wait for one task to finish before you start the next. Sometimes, one task needs to be finished before the next one starts; for example, you cannot begin data analysis until you have finished data collection. On the other hand, you can (and should) begin writing while still continuing your data analysis. So you can have temporal overlap - or be working on multiple projects at once. 
 
 
-Now let's say that we are starting our Scared Straight evaluation quite soon, we have a start date of the 1st of November. Using some very rough guessing, and [this proposed outline](https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct) for RCTs, we can come up with a tentative timeline:
+Now, let's say that we are starting our Scared Straight evaluation quite soon; we have a start date of the 1st of November. Using some very rough guessing and [this proposed outline](https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct) for RCTs, we can come up with a tentative timeline:
 
 
 - Background/review of published literature:	01/11/20	to 01/12/20
@@ -552,27 +552,27 @@ Now let's say that we are starting our Scared Straight evaluation quite soon, we
 - Ethical considerations	08/12/20 to	18/12/20
 - Sample size calculations	18/12/20 to	19/12/20
 - Define reference population	18/12/20 to	28/12/20
-- Define way variables will be measured	28/12/20 to	07/01/21
-- Choose comparison treatment (what happens to control group)	01/01/21 to	07/01/21
+- Define the way variables will be measured	28/12/20 to	07/01/21
+- Choose comparison treatment (what happens to the control group)	01/01/21 to	07/01/21
 - Selection of intervention and control groups, including source, inclusion and exclusion criteria, and methods of recruitment	18/01/21 to	21/01/21
 - Informed consent procedures	22/01/21 to	23/01/21
 - Collection of baseline measurements, including all variables considered or known to affect the outcome(s) of interest	23/01/21 to	23/01/21
 - Random allocation of study participants to treatment groups (standard or placebo vs. new)	21/01/21 to	23/01/21
-- Follow-up of all treatment groups, with assessment of outcomes continuously or intermittently	24/01/21 to	23/01/22
+- Follow-up of all treatment groups, with the assessment of outcomes continuously or intermittently	24/01/21 to	23/01/22
 - Descriptive analysis	24/01/22 to	24/02/22
 - Comparison of treatment groups	30/01/22 to	24/02/22
- - Interpretation (assess the strength of effect, alternative explanations such as sampling variation, bias)	20/02/22 to	20/03/22
+ - Interpretation (assess the strength of the effect, alternative explanations such as sampling variation, bias)	20/02/22 to	20/03/22
 - First draft	20/03/22 to	25/03/22
 - Get feedback & make changes	25/03/22 to	05/04/22
 - Final write-up of results	05/04/22 to	30/04/22
 
 
 
-You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself, and come up with how long you think each stage would take you. 
+You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself and come up with how long you think each stage will take you. 
 
 
 
-Notice that we did not give a start or end time to the *overarching categories* of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results? We mentioned earlier, that these categories are so vague, that it becomes a very difficult task indeed to be able to guess their duration. Instead we break them down into smaller tasks, and calculate those. Well to get the start and end date for the overarching tasks, you just need the first start date for the first task, and the last end date for the last task that belongs to this overarching group. How can we find this? Well, we can use the `=MIN()` and the `=MAX()` functions in Excel. 
+Notice that we did not give a start or end time to the *overarching categories* of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results. We mentioned earlier that these categories are so vague, that it becomes a very difficult task indeed to be able to guess their duration. Instead, we break them down into smaller tasks and calculate those. Well, to get the start and end date for the overarching tasks, you just need the first start date for the first task and the last end date for the last task that belongs to this overarching group. How can we find this? Well, we can use the `=MIN()` and the `=MAX()` functions in Excel. 
 
 
 ![](imgs/ gantt_min.png)
@@ -583,7 +583,7 @@ Notice that we did not give a start or end time to the *overarching categories* 
 
 
 
-Make sure that you only select the sub-tasks that belong to each individual overarching task. So for example, for Planning and conceptualisation, only select up until "Ethical considerations" and *do not* also include the "Operationalisation and data collection" stage!
+Make sure that you only select the sub-tasks that belong to each individual overarching task. So, for example, for Planning and conceptualisation, only select up until "Ethical considerations" and *do not* also include the "Operationalisation and data collection" stage!
 
 
 Once you have all your start and end dates, your table should look something like this: 
@@ -595,27 +595,27 @@ Once you have all your start and end dates, your table should look something lik
 
 
 
-You might find that Excel changes the formatting of your dates in some of the cells, like mine did on the first 8 rows. You can see in those, the date is formatted as 01-Dec for example, whereas later it is formatted the way we entered it, such as 22/01/19. This is because Excel *knows* that the value you are entering here is a *date*.  It doesn't just think you're entering some weird words, it deduces that if what you are entering follows this rough format of 2 digits/ 2 digits / 2 digits, then it's likely to be a date. This is really handy, because you can do calculations on these cells now, that you would not be able to do, if Excel just thought that these were weird words. We will take advantage of this to calculate the duration column here. Do you really want to count out how many days are between the start and end date? Well in some cases it might be easy. It could be that you thought, "well I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January", but often you will have deadlines, that you need to work towards, or you might want to double check that you are counting correctly. In any case, to get the last, *duration* column, you can simply use an equation, where you subtract the start date from the end date, and you get the number of days that are inbetween. Isn't that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then!
+You might find that Excel changes the formatting of your dates in some of the cells, as mine did on the first 8 rows. You can see in those the date is formatted as 01-Dec, for example, whereas later, it is formatted the way we entered it, such as 22/01/19. This is because Excel *knows* that the value you are entering here is a *date*.  It doesn't just think you're entering some weird words; it deduces that if what you are entering follows this rough format of 2 digits/ 2 digits / 2 digits, then it's likely to be a date. This is really handy because you can do calculations on these cells now, which you would not be able to do if Excel had just thought that these were weird words. We will take advantage of this to calculate the duration column here. Do you really want to count how many days are between the start and end date? Well, in some cases, it might be easy. It could be that you thought, "Well, I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January", but often you will have deadlines, that you need to work towards, or you might want to double-check that you are counting correctly. In any case, to get the last, *duration* column, you can simply use an equation where you subtract the start date from the end date, and you get the number of days that are in-between. Isn't that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then!
 
 
-Right, back to our dates, so remember, all formulas start with the `=` equation, and here all we are doing is subtracting the value of one cell (start date) from another cell (end date). Like so: 
+Right, back to our dates, so remember, all formulas start with the `=` equation, and here, all we are doing is subtracting the value of one cell (start date) from another cell (end-date). Like so: 
 
 
 ![](imgs/calc_dur.png)
 
 
-Copy and paste the formatting all the way down, and ta-daa you have your column for the duration of each task:
+Copy and paste the formatting all the way down, and ta-daa, you have your column for the duration of each task:
 
 
 ![](imgs/all_cols_gantt.png)
 
 
 
-Now you have all the columns you need, to be able to build your Gantt chart. 
+Now, you have all the columns you need to build your Gantt chart. 
 
 
 
-To do this, click on an empty cell, anywhere *outside* your table, and select Charts > Stacked Bar Chart: 
+To do this, click on an empty cell anywhere *outside* your table and select Charts > Stacked Bar Chart: 
 
 
 ![](imgs/gantt_select_bar.png)
@@ -631,7 +631,7 @@ An empty chart will appear like so:
 Right-click anywhere in the empty chart space, and choose the option "Select Data...":
 
 
-On a mac: 
+On a Mac: 
 
 ![](imgs/gantt_select_data.png)
 
@@ -641,7 +641,7 @@ On a PC:
 ![](https://img.officetimeline.com/website/Content/images/articles/gantt-chart/3_selectdata.png)
 
 
-This will open a dialogue box. This dialogue box might look different if you're on PC or on Mac (and even on Mac your version will be newer than mine, so might look slightly different) but the basic commands should be the same. If you cannot find anything, let us know!
+This will open a dialogue box. This dialogue box might look different if you're on PC or on Mac (and even on Mac, your version will be newer than mine, so it might look slightly different), but the basic commands should be the same. If you cannot find anything, let us know!
 
 
 So on this popup window, select the option to *Add* data. 
@@ -663,7 +663,7 @@ On Mac:
 
 
 
-When you select this option, you have to supply 2 values to this series. First you have to tell it the name. This is simply the cell that contains your column header. Then you have to tell it the values. These are all your start dates. You can select by clicking in the blank box for each value, and then clicking/ drag dropping on the spreadsheet. Like so: 
+When you select this option, you have to supply 2 values to this series. First, you have to tell it the name. This is simply the cell that contains your column header. Then you have to tell it the values. These are all your start dates. You can select by clicking in the blank box for each value and then clicking/drag-dropping on the spreadsheet. Like so: 
 
 
 ![](imgs/gantt_select_data_1.gif)
@@ -674,13 +674,13 @@ When you're done, click "OK".
 
 
 
-On a PC, when you click the "Add" button it will open a new window, but again, all you have to enter in that new window is the name and the values, the exact same way. Here is an illustrative example of what this will look like on PC: 
+On a PC, when you click the "Add" button, it will open a new window, but again, all you have to enter in that new window is the name and the values, the exact same way. Here is an illustrative example of what this will look like on PC: 
 
 
 ![](https://img.officetimeline.com/website/Content/images/articles/gantt-chart/3_select-data-start-date-added.png)
 
 
-Now click OK, and you will see some bars appear, reaching to each start date that we have. Now we have to add the *duration*. To do this, just repeat the steps, for adding a series, but with the duration column this time.
+Now click OK, and you will see some bars appear, reaching each start date that we have. Now we have to add the *duration*. To do this, just repeat the steps to add a series, but with the duration column this time.
 
 
 
@@ -688,13 +688,13 @@ Now click OK, and you will see some bars appear, reaching to each start date tha
 
 
 
-The part that appears in red above represents the duration of each task. The blue part now is actually redundant. We just needed it there, so that the red part (the actual task) begins at the correct point. So we clear the fill, we clear the line, and in case there is a shadow there, we clear that as well, so that we don't confuse ourselves by having that blue part there. This is how we can clear these sections. First, click on the blue section of the graph to select it: 
+The part that appears in red above represents the duration of each task. The blue part now is actually redundant. We just needed it there, so that the red part (the actual task) begins at the correct point. So we clear the fill, we clear the line, and in case there is a shadow there, we clear that as well so that we don't confuse ourselves by having that blue part there. This is how we can clear these sections. First, click on the blue section of the graph to select it: 
 
 
 ![](imgs/gantt_select_blue.png)
 
 
-And then right click and choose 'Format Data Series...':
+And then right-click and choose 'Format Data Series...':
 
 
 ![](imgs/gantt_format.png)
@@ -702,7 +702,7 @@ And then right click and choose 'Format Data Series...':
 
 
 
-Then on the side tabs, you can go through and select fill, and line, and even shadow, and make sure that they are all set to no fill/ no line/ no shadow: 
+Then, on the side tabs, you can go through and select fill, line, and even shadow, and make sure that they are all set to no fill/ no line/ no shadow: 
 
 
 ![](imgs/gant_no_fill.png)
@@ -722,24 +722,24 @@ Then click OK, and you will see only the red parts of your graph, which represen
 
 
 
-**NOTE**: you might have an issue where Excel starts counting at the year 1900 for some reason. In that case your chart might have looked like this: 
+**NOTE**: you might have an issue where Excel starts counting at the year 1900 for some reason. In that case, your chart might have looked like this: 
 
 ![](imgs/1900_chart_default.jpg)
 
 
-In this case, you can fix this by editing the axis through right click, format axis, put in the correct minimum, like so: 
+In this case, you can fix this by editing the axis through right-click, format axis, put in the correct minimum, like so: 
 
 ![](imgs/Fixing_Gantt.jpg)
 
 
-Now you have a timeline for each task... but how do you know what is each task? We just see numbers. Well we need to add the labels, from the task column of your data, to give it some sort of meaning. To do this, once again right click anywhere on your chart area, and select "Select Data...", and this time, for where it asks for axis labels, click in that box, and then highlight the column with the tasks in it: 
+Now, you have a timeline for each task, but how do you know what each task is? We just see numbers. Well, we need to add the labels from the task column of your data to give it some sort of meaning. To do this, once again right-click anywhere on your chart area and select "Select Data...", this time, for where it asks for axis labels, click in that box and then highlight the column with the tasks in it: 
 
 
 ![](imgs/axis_labels_gantt.png)
 
 
 
-On a PC you will have to click the "Edit" button under the "Horizontal category axis labels" box. This will look something like this: 
+On a PC, you will have to click the "Edit" button under the "Horizontal category axis labels" box. This will look something like this: 
 
 
 ![](https://img.officetimeline.com/website/Content/images/articles/gantt-chart/5_select-data-source.png)
@@ -753,29 +753,29 @@ When you then select the column with the tasks in it and click OK, it should lab
 
 
 
-Now your Gantt chart is basically ready. It can be that yours looks sort of in a different order? If this is the case, go back to your data, and sort your data on the "End date" column. If you do this, then you will have your first tasks at your top, and the last tasks at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find it the most helpful. For example, here's mine: 
+Now, your Gantt chart is basically ready. It can be that yours looks sort of in a different order. If this is the case, go back to your data and sort it in the "End date" column. If you do this, then you will have your first tasks at your top and the last tasks at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find it the most helpful. For example, here's mine: 
 
 
 ![](imgs/final_gantt.png)
 
 
 
-So what's going to take the longest? As you can see there, the longest duration is for the operationalisation and data collection tab. It's an overarching category, but there are not any sub-tasks associated with it for the majority of its duration. Well, the thing is, even though we are not actively collecting data in that longer period, we are still in the data collection phase. Can you think why?
+So what's going to take the longest? As you can see there, the longest duration is for the operationalisation and data collection tab. It's an overarching category, but there are not any sub-tasks associated with it for the majority of its duration. Well, the thing is, even though we have not actively collected data for that long period, we are still in the data-collection phase. Can you think why?
 
-We want to know if scared straight works on reducing offending, right? For this, we need to recruit our people, assign them into a control and a treatment group, and then *wait for a pre-determined amount of time* before we can collect the follow-up data - or the *after* data. Remember back to conceptualisation. How do we conceptualise re-offending? Well in this case, we conceptualise it as if the person has offended in the 12 months following taking part in the scared straight programme. Because of this, we have to wait 12 months until we collect our "after" data. 
-
-
-
-Planning is a very important part of the research project, and the research design which you pick will greatly affect your research plan. Think about if we considered instead a one-time survey? We could ask people - "have you ever taken part in a scared straight programme?" And then ask them "have you offended in the last 12 months?". But this is a **cross-sectional** study design, in which we only take measurement at one point in time. This is a very different study design, and the advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings. However you can also imagine how it would be an easier study to carry out, right? The data collection part of your Gantt chart there would reduce significantly, from over 12 months, to something much shorter, just the length of time it takes to conduct one survey. 
+We want to know if Scared Straight works on reducing offending, right? For this, we need to recruit our people, assign them to a control and a treatment group, and then *wait for a pre-determined amount of time* before we can collect the follow-up data - or the *after* data. Remember, back to conceptualisation. How do we conceptualise re-offending? Well, in this case, we conceptualise it as if the person has offended in the 12 months following taking part in the Scared Straight programme. Because of this, we have to wait 12 months until we collect our "after" data. 
 
 
-Hopefully you are beginning to get an idea into the nuances of finding your optimal research design. To a certain extent this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. But RCTs are not the only way for causal inference of course, there are many other methods and study designs you might be able to use. 
+
+Planning is a very important part of the research project, and the research design which you pick will greatly affect your research plan. Think about whether we should consider a one-time survey instead. We could ask people - "have you ever taken part in a scared straight programme?" And then ask them, "Have you offended in the last 12 months?". But this is a **cross-sectional** study design, in which we only take measurements at one point in time. This is a very different study design, and the advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings. However, you can also imagine how it would be an easier study to carry out, right? The data collection part of your Gantt chart there would reduce significantly, from over 12 months to something much shorter, just the length of time it takes to conduct one survey. 
 
 
-For example, in the paper ['Behavioral nudges reduce failure to appear for court'](https://science.sciencemag.org/content/early/2020/10/07/science.abb6591/tab-pdf), Alissa Fishbane and colleagues take advantage of a gradual roll-out of an intervention and use [regression discontinuity](https://methods.sagepub.com/reference/encyc-of-research-design/n375.xml) approach to find that re-wording a court summons actually helps people turn up for their court date, and reduces arrests!
+Hopefully, you are beginning to get an idea of the nuances of finding your optimal research design. To a certain extent, this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. However, RCTs are not the only way to achieve causal inference; of course, there are many other methods and study designs you might be able to use. 
 
 
-So there are many research designs, and you want to think about which one best fits your research questions. However there are other things to consider around your access to resources, and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT but you are doing this in the context of your 3rd year dissertation project which has a much shorter timeline than required - in this case you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data, and missing data!
+For example, in the paper ['Behavioral nudges reduce failure to appear for court'](https://science.sciencemag.org/content/early/2020/10/07/science.abb6591/tab-pdf), Alissa Fishbane and colleagues take advantage of a gradual roll-out of intervention and use [regression discontinuity](https://methods.sagepub.com/reference/encyc-of-research-design/n375.xml) approach to find that re-wording a court summons actually helps people turn up for their court date, and reduces arrests!
+
+
+So, there are many research designs, and you want to think about which one best fits your research questions. However, there are other things to consider around your access to resources and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT, but you are doing this in the context of your 3rd-year dissertation project, which has a much shorter timeline than required - in this case, you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data and missing data!
 
 
 
