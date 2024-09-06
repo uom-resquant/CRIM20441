@@ -784,50 +784,50 @@ So, there are many research designs, and you want to think about which one best 
 There are two commonly used longitudinal research designs, **panel** and **cohort** studies. Both study the same group over a period of time and are generally concerned with assessing within- and between-group change. Panel studies follow the same group or sample over time, while cohort studies examine more specific populations (i.e., cohorts) as they change over time. Panel studies typically interview the same set of people at two or more periods of time. 
 
 
-For example, the 1970 British Cohort Study (BCS70) follows the lives of more than 17,000 people born in England, Scotland and Wales in a single week of 1970. Over the course of cohort members' lives, the BCS70 has broadened from a strictly medical focus at birth to collect  information on health, physical, educational and social development, and economic circumstances among other factors.
+For example, the 1970 British Cohort Study (BCS70) follows the lives of more than 17,000 people born in England, Scotland and Wales in a single week of 1970. Over the course of cohort members' lives, the BCS70 has broadened from a strictly medical focus at birth to collect  information on health, physical, educational and social development, and economic circumstances, among other factors.
 
-The Millennium Cohort Study (MCS), which began in 2000, is conducted by the Centre for Longitudinal Studies (CLS). It aims to chart the conditions of social, economic and health advantages and disadvantages facing children born at the start of the 21st century.
+The Millennium Cohort Study (MCS), which began in 2000, is conducted by the Centre for Longitudinal Studies (CLS). It aims to chart the social, economic, and health advantages and disadvantages facing children born at the start of the 21st century.
 
 
-Our Future (formerly the Longitudinal Study of Young People in England (LSYPE2)), is a major longitudinal study of young people that began in 2013. It aims to track a sample of over 13,000 young people from the age of 13/14 annually through to the age of 20 (seven waves).
+Our Future (formerly the Longitudinal Study of Young People in England (LSYPE2)) is a major longitudinal study of young people that began in 2013. It aims to track a sample of over 13,000 young people from the age of 13/14 annually through to the age of 20 (seven waves).
 
 
 These are some examples from the UK Data Service ([see those and more here](https://www.ukdataservice.ac.uk/get-data/key-data/cohort-and-longitudinal-studies)).
 
 
 
-The main advantage of longitudinal studies is that you can track change over time, and you meet the temporal criteria for causality. You collect data from people across multiple **waves**. Waves refer to the times of data collection in your data. For example, if you follow a cohort from birth until their 30th birthday, and you take measurements every 10 years, once at point of birth, once at age 10, once at age 20, and finally at age 30, then you will have 4 waves in this longitudinal data about these people you're following. 
+The main advantage of longitudinal studies is that you can track change over time and you meet the temporal criteria for causality. You collect data from people across multiple **waves**. Waves refer to the times of data collection in your data. For example, if you follow a cohort from birth until their 30th birthday, and you take measurements every 10 years, once at the point of birth, once at age 10, once at age 20, and finally at age 30, then you will have 4 waves in this longitudinal data about these people you're following. 
 
 
 ### What does longitudinal data look like?
 
 
-So far we've only shown you cross-sectional data. Each row was one observation, each column as one variable, and they were collected at a single point in time. So what do longitudinal data look like? 
-A longitudinal study generally yields multiple or “repeated” measurements on each subject. So you will have many, repeated measure, from the same person, or neighbourhood, or whatever it is that you are studying (most likely people though... when you take repeated observations about places it's more likely to be a time-series designs. Time-series designs typically involve variations of multiple observations of the same group (i.e., person, city, area, etc.) over time or at successive points in time. Typically, they analyze a single variable (such as the crime rate) at successive time periods, and are especially useful for studies of the impact of new laws or social programs. An example of a time-series design would be to examine the burglary rate across the boroughs of Greater Manchester over the last five years. We'll be dealing with time series in week 9.)
+So far, we've only shown you cross-sectional data. Each row was one observation, each column was one variable, and they were collected at a single point in time. So, what do longitudinal data look like? 
+A longitudinal study generally yields multiple or “repeated” measurements on each subject. So you will have many repeated measures from the same person, or neighbourhood, or whatever it is that you are studying (most likely people, though... when you take repeated observations about places, it's more likely to be a time-series design. Time-series designs typically involve variations of multiple observations of the same group (i.e., person, city, area, etc.) over time or at successive points in time. Typically, they analyze a single variable (such as the crime rate) at successive time periods, and are especially useful for studies of the impact of new laws or social programs. An example of a time-series design would be to examine the burglary rate across the boroughs of Greater Manchester over the last five years. We'll be dealing with time series in week 9.)
 
 
-Okay, so what do these data actually look like? You can have a look at the description for the [Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1))](https://discover.ukdataservice.ac.uk/series/?sn=2000030). Briefly mentioned above, the Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1)) is a major longitudinal study that follows the lives of around 16,000 people born in 1989-90 in England. The first seven sweeps of the study (2004-2010) were funded and managed by the Department for Education (DfE) and mainly focused on the educational and early labour market experiences of young people.
+Okay, so how does this data actually look like? You can have a look at the description for the [Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1))](https://discover.ukdataservice.ac.uk/series/?sn=2000030). Briefly mentioned above, the Next Steps (formerly the Longitudinal Study of Young People in England (LSYPE1)) is a major longitudinal study that follows the lives of around 16,000 people born in 1989-90 in England. The first seven sweeps of the study (2004-2010) were funded and managed by the Department for Education (DfE) and mainly focused on the educational and early labour market experiences of young people.
 
-The study began in 2004 and included young people in Year 9 who attended state and independent schools in England. Following the initial survey at age 13-14, the cohort members were interviewed every year until 2010. The survey data have also been linked to the National Pupil Database (NPD) records, including cohort members’ individual scores at Key Stage 2, 3 and 4.
+The study began in 2004 and included young people in Year 9 who attended state and independent schools in England. Following the initial survey at ages 13-14, the cohort members were interviewed every year until 2010. The survey data have also been linked to the National Pupil Database (NPD) records, including cohort members’ individual scores at Key Stage 2, 3 and 4.
 
-In 2013 the management of Next Steps was transferred to the Centre for Longitudinal Studies (CLS) at the UCL Institute of Education and in 2015 Next Steps was restarted, under the management of CLS, to find out how the lives of the cohort members had turned out at age 25. It maintained the strong focus on education, but the content was broadened to become a more multi-disciplinary research resource.
-
-
-There are now two separate studies that began under the LSYPE programme. The second study, Our Future (formerly LSYPE2), began in 2013 and will track a sample of over 13,000 young people from the age of 13/14 annually through to the age of 20 (seven waves).
+In 2013, the management of Next Steps was transferred to the Centre for Longitudinal Studies (CLS) at the UCL Institute of Education and in 2015, Next Steps was restarted under the management of CLS to find out how the lives of the cohort members had turned out at age 25. It maintained a strong focus on education, but the content was broadened to become a more multi-disciplinary research resource.
 
 
-There are a lot of interesting variables in there for those interested in young people and delinquent behaviour. There is some data about drug and alcohol, some about offending such as graffiti, vandalism, shoplifting, as well as social control factors such as family relationship, bullying, and so on. If you are interested in the data, you can always have a browse through the [site here](https://discover.ukdataservice.ac.uk/Catalogue/?sn=5545&type=Data%20catalogue&lt) and [have a read of one of the questionnaires as well](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/pdf/age_25_survey_questionnaire.pdf). 
+Two separate studies have begun under the LSYPE programme. The second study, Our Future (formerly LSYPE2), began in 2013 and will track a sample of over 13,000 young people from the age of 13/14 annually through to the age of 20 (seven waves).
 
 
-In any case, we should get back to our question, what does this data look like. And it looks exactly as you would imagine, it looks like the results of survey questionnaires, completed by people, but over time. If you were to download the next steps data for example, you will end up with a separate file for each wave. But in each wave, you would have **repeat measures** of the same variables, from the same people. So each wave you see the exact same variables, and the exact same people making up the rows of answers, but you know that time has passed. 
-
-The benefit of a longitudinal study is that researchers are able to detect developments or changes in the characteristics of the target population at both the group and the individual level. The key here is that longitudinal studies extend beyond a single moment in time. As a result, they can establish sequences of events. It is generally admitted that causes precede their effects in time. This usually justifies the preference for longitudinal studies over cross-sectional ones, because the former allow the modelling of the dynamic process generating the outcome, while the latter cannot. Supporters of the longitudinal view make two interrelated claims: (i) causal inference requires following the same individuals over time, and (ii) no causal inference can be drawn from cross-sectional data. 
+There are a lot of interesting variables for those interested in young people and delinquent behaviour. There is some data about drugs and alcohol, some about offending such as graffiti, vandalism, and shoplifting, as well as social control factors such as family relationships, bullying, and so on. If you are interested in the data, you can always browse through the [site here](https://discover.ukdataservice.ac.uk/Catalogue/?sn=5545&type=Data%20catalogue&lt) and [have a read of one of the questionnaires as well](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/pdf/age_25_survey_questionnaire.pdf). 
 
 
-Anyway have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID" is the unique identifier for each person. Then there are three variables that contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had proper alcoholic drink (yes yes, the survey question does ask "proper" alcoholic drink, see [data dictionary](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/ukda_data_dictionaries.zip)), and *W1cignowYP* is the answer to whether the young person ever smoked cigarettes.
+In any case, we should get back to our question: what does this data look like? And it looks exactly as you would imagine, it looks like the results of survey questionnaires, completed by people, but over time. If you were to download The Next Steps data, for example, you would end up with a separate file for each wave. But in each wave, you would have **repeat measures** of the same variables from the same people. So, in each wave, you see the exact same variables and the exact same people making up the rows of answers, but you know that time has passed. 
+
+The benefit of a longitudinal study is that researchers are able to detect developments or changes in the characteristics of the target population at both the group and the individual level. The key here is that longitudinal studies extend beyond a single moment in time. As a result, they can establish sequences of events. It is generally admitted that causes precede their effects in time. This usually justifies the preference for longitudinal studies over cross-sectional ones because the former allows the modelling of the dynamic process generating the outcome, while the latter cannot. Supporters of the longitudinal view make two interrelated claims: (i) causal inference requires following the same individuals over time, and (ii) no causal inference can be drawn from cross-sectional data. 
 
 
-So you can download these three waves of young people being surveyed from blackboard. You can find them labelled wave_1.xlsx, wave_2.xlsx, and wave_3.xlsx in the data folder for this week on BB. Download all three onto your computer, and open them up in Excel. 
+Anyway, have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID", is the unique identifier for each person. Then, three variables contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had a proper alcoholic drink (yes, yes, the survey question does ask "proper" alcoholic drink; see [data dictionary](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/ukda_data_dictionaries.zip)), and *W1cignowYP* is the answer to whether the young person ever smoked cigarettes.
+
+
+You can download these three waves of young people being surveyed from Blackboard. You can find them labelled wave_1.xlsx, wave_2.xlsx, and wave_3.xlsx in the data folder for this week on BB. Download all three on your computer and open them up in Excel. 
 
 
 
@@ -837,7 +837,7 @@ So you can download these three waves of young people being surveyed from blackb
 Hopefully, if we've taught you anything about the structure of data, is that you have *all* your observations in your rows and *all* your variables in your columns. If you want to be able to look at changes in people's responses over time, for example, you will need to be able to link these data sets together into one spreadsheet. 
 
 
-How do we do this? Well what you can do is to link one data set with another. Data linking is used to bring together information from different sources in order to create a new, richer dataset. This involves identifying and combining information from corresponding records on each of the different source datasets. The records in the resulting linked dataset contain some data from each of the source datasets. Most linking techniques combine records from different datasets if they refer to the same entity. (An entity may be a person, organisation, household or even a geographic region.) 
+How do we do this? Well, you can link one data set to another. Data linking is used to bring together information from different sources in order to create a new, richer dataset. This involves identifying and combining information from corresponding records on each of the different source datasets. The records in the resulting linked dataset contain some data from each of the source datasets. Most linking techniques combine records from different datasets if they refer to the same entity. (An entity may be a person, organisation, household or even a geographic region.) 
 
 
 
@@ -847,7 +847,7 @@ You can merge (combine) rows from one table into another just by pasting them in
 Merging rows is pretty straightforward, but merging columns can be tricky if the rows of one table don't always line up with the rows in the other table. By using `VLOOKUP()`, you can avoid some of the alignment problems.
 
 
-To merge tables, you can use the VLOOKUP function to lookup and retrieve data from one table to the other. To use `VLOOKUP()` this way, both tables must share a common id or key.
+To merge tables, you can use the VLOOKUP function to look up and retrieve data from one table to the other. To use `VLOOKUP()` this way, both tables must share a common ID or key.
 
 
 This is a standard "exact match" `VLOOKUP()` formula (remember that means you have to set the last parameter to 'FALSE' for an exact match). 
@@ -861,14 +861,14 @@ First things first. Open up all three waves in three separate Excel spreadsheets
 - *W1alceverYP*: ever had alcohol
 
 
-Then you can have a look at wave 2. You will see in wave two that the unique ID column stays the same (*NSID*: the unique ID), but the other three columns are named slightly different: 
+Then, you can have a look at wave 2. You will see in wave two that the unique ID column stays the same (*NSID*: the unique ID), but the other three columns are named slightly differently: 
 
 - *W2canntryYP*: ever tried cannabis	
 - *W2cignowYP*: ever smoked	
 - *W2alceverYP*: ever had alcohol
 
 
-It might be a subtle difference, but the first two characters in the variable name actually refer to the wave in which this variable was collected. This is very handy, because if you imagine that they were just called "canntryYP" and "cignowYP" and "alceverYP", once they would be joined together into one data set, then how would you be able to tell which one came from which wave? You could rename them yourself (which is what you would do in this case) but it's very nice that these data were already collected with this joining in mind, and so the variable naming was addressed for us in this way. 
+It might be a subtle difference, but the first two characters in the variable name actually refer to the wave in which this variable was collected. This is very handy because if you imagine that they were just called "canntryYP", "cignowYP", and "alceverYP" if they would be joined together into one data set, how would you be able to tell which one came from which wave? You could rename them yourself (which is what you would do in this case) but it's very nice that these data were already collected with this joining in mind, and so the variable naming was addressed for us in this way. 
 
 
 If you're still curious, have a look at wave 3, where you will see the familiar NSID column, as well as these three: 
@@ -878,28 +878,28 @@ If you're still curious, have a look at wave 3, where you will see the familiar 
 - *W3alceverYP*: ever had alcohol
 
 
-Why doesn't the NSID column change? Well, this is the same value for all participants all throughout. This is so that we can identify each one. Due to ethics and the data protection act, we cannot share data that contains personally identifiable information, especially in cases where it refers to some pretty sensitive stuff, such as someone's drug use, alcohol use, or some delinquent behaviour. Instead each person is given a unique code. This code can be used to track them, over time, without identifying them personally. 
+Why doesn't the NSID column change? Well, this is the same value for all participants throughout. This is so that we can identify each one. Due to ethics and the Data Protection Act, we cannot share data that contains personally identifiable information, especially in cases where it refers to some pretty sensitive stuff, such as someone's drug use, alcohol use, or some delinquent behaviour. Instead, each person is given a unique code. This code can be used to track them over time without identifying them personally. 
 
 
 ![](imgs/fn2187.png)
 
 
-You need a unique identifier to be present for each row in all the data sets that you wish to join. This is how Excel knows what values belong to what row! What you are doing is matching each value from one table to the next, using this unique identified column, that exists in both tables. For example, let's say we have two data sets from some people in Hawkins, Indiana. In one data set we collected information about their age. In another one, we collected information about their hair colour. If we collected some information that is unique to each observation, and this is the *same* in both sets of data, for example their names, then we can link them up, based on this information.  Something like this: 
+You need a unique identifier to be present for each row in all the data sets that you wish to join. This is how Excel knows what values belong to what row! You are matching each value from one table to the next, using this unique identified column that exists in both tables. For example, let's say we have two data sets from some people in Hawkins, Indiana. In one data set, we collected information about their age. In another one, we collected information about their hair colour. If we collected some information that is unique to each observation, and this is the *same* in both sets of data, for example, their names, then we can link them up based on this information. Something like this: 
 
 
 ![](imgs/merge_logic_1.png)
 
 
 
-And by doing so, we produce a final table that contains all values, lined up *correctly* for each individual observation, like this: 
+By doing so, we produce a final table that contains all values, lined up *correctly* for each individual observation, like this: 
 
 
 ![](imgs/merge_logic_2.png)
 
-This is all we are doing, when merging tables: we are making use that we line up the correct value for all the variables, for all our observations. 
+This is all we do when merging tables: we make sure that we line up the correct values for all the variables and all our observations. 
 
 
-Let's do this with our young people. Let's say we want to look at the extent of cannabis, alcohol, and cigarette trying in each wave of our cohort, as they age. To do this, we need to link all the waves in to one data set. We have established that the variable *NSID* is an anonymous identifier, that is unique to each person, so we can use that to link their answers in each wave. 
+Let's do this with our young people. Let's say we want to look at the extent of cannabis, alcohol, and cigarette trying in each wave of our cohort as they age. To do this, we need to link all the waves into one data set. We have established that the variable *NSID* is an anonymous identifier that is unique to each person, so we can use that to link their answers in each wave. 
 
 
 So remember the parameters you need to pass to the `VLOOKUP()` function, from last week? You need to tell it:
@@ -907,31 +907,31 @@ So remember the parameters you need to pass to the `VLOOKUP()` function, from la
 - first *what value to match*, 
 - then *where the lookup table is*, 
 - then *which column of this table you want*, 
-- and finally *whether or not you want exact match*. 
+- and finally *whether or not you want an exact match*. 
 
 
-In this case, we want to match the unique identifier, found for each person in the *NSID* column. This is the value to match. Then our lookup table is now *the other data set* which we want to link. The column will be the matching column to what we are copying over, and the exact match parameter we will set to "FALSE" (meaning we *do* want exact matches only). 
+In this case, we want to match the unique identifier found for each person in the *NSID* column. This is the value to match. Then our lookup table is now *the other data set* which we want to link. The column will match what we are copying over, and we will set the exact match parameter to "FALSE" (meaning we *do* want exact matches only). 
 
 
 
 What does this look like in practice? 
 
 
-Well, let's open up our wave 1 (well technically you have them all open, so just bring wave 1 to the front). Now we don't want to overwrite this file, so save it as something new. Do this by selecting File > Save As... and choosing where to save it, and giving it a name. Here we will save it in the same folder where we've saved the individual waves data, and call it "next_stepsw1-3.xlsx" as it will contain waves one through three of the next steps longitudinal survey:
+Well, let's open up our wave 1 (well, technically, you have them all open, so just bring wave 1 to the front). We don't want to overwrite this file, so save it as something new. Do this by selecting File > Save As..., choosing where to save it, and giving it a name. Here, we will save it in the same folder where we've saved the individual waves data and call it "next_stepsw1-3.xlsx" as it will contain waves one through three of The Next Steps longitudinal survey:
 
 
 ![](imgs/rename.png)
 
 
 
-Now that you have this as a new file (which already contains the data from wave 1), you can get ready to merge in the data from waves 2 and 3. First, lets create column headers for the variables we will copy over. You can do this by simply copying over the column headers from the other data sets (waves 2 and 3). Like so: 
+Now that you have this as a new file (which already contains the data from wave 1), you can get ready to merge in the data from waves 2 and 3. First, let's create column headers for the variables we will copy over. You can do this by simply copying over the column headers from the other data sets (waves 2 and 3). Like so: 
 
 
 ![](imgs/merge_copy_headers.png)
 
 
 
-Notice that we are not copying over the NSID column. This is because it would be exactly the same. It's enough to have this once, there is no need for three replications of the same exact column. If you are participant NS23533L, you will always have this value for the NSID column. This is used to match all your answers, and to copy over into this sheet, but it is *not* itself copied over. If this is confusing as to why, just raise your hand now, and we will come around to talk through it. 
+Notice that we are not copying over the NSID column. This is because it would be exactly the same. It's enough to have this once, there is no need for three replications of the same exact column. If you are participant NS23533L, you will always have this value for the NSID column. This is used to match all your answers and to copy over into this sheet, but it is *not* itself copied over. If this is confusing as to why, just raise your hand now, and we will come around to talk through it. 
 
 
 
@@ -946,7 +946,7 @@ Right, so now we have all our column headers, let's copy over the column content
 - *lookup value* - what value to match, 
 - *table array* - where the lookup table is, 
 - *col index num* - which column of this table you want, 
-- and finally *range lookup* - whether or not you want exact match.
+- and finally, *range lookup* - whether or not you want an exact match.
 
 
 Our lookup value will be the NSID for this particular person. Here we find this in cell A2: 
@@ -954,7 +954,7 @@ Our lookup value will be the NSID for this particular person. Here we find this 
 ![](imgs/lookup_val_nsid.png)
 
 
-Now the table array is the lookup table. Where can we find the values for "W2canntryYP"? Well, this is in the data set for wave 2. We've grabbed data from other sheets before, but never from a totally different file...! However the process is exactly the same. All you need to do, is find the data set, and select the range that represents your lookup table, which is all the data in this sheet!
+Now, the table array is the lookup table. Where can we find the values for "W2canntryYP"? Well, this is in the data set for wave 2. We've grabbed data from other sheets before, but never from a totally different file...! However, the process is exactly the same. All you need to do is find the data set and select the range that represents your lookup table, which is all the data in this sheet!
 
 
 Something like this: 
@@ -963,10 +963,10 @@ Something like this:
 ![](imgs/select_from_w2.gif)
 
 
-You can see that by going to the  sheet and highlighting the appropriate columns, your formula bar there, in your original file, is populated with the code to refer to those columns in that file! Just like we did when grabbing data from a different sheet within the same file. 
+You can see that by going to the  sheet and highlighting the appropriate columns, your formula bar in your original file is populated with the code to refer to those columns in that file! Just like we did when grabbing data from a different sheet within the same file. 
 
 
-Remember the reference of a cell is `column letter + row number`? The reference for a cell from a sheet is `sheet name + ! + column letter + row number`? Well the reference for a cell from a sheet on an entirely different file is `[ + file name + ] + sheet name + ! + column letter + row number`. 
+Remember the reference of a cell is `column letter + row number`? The reference for a cell from a sheet is `sheet name + ! + column letter + row number`? Well, the reference for a cell from a sheet on an entirely different file is `[ + file name + ] + sheet name + ! + column letter + row number`. 
 
 
 So you can see that by clicking and highlighting, excel has automatically populated with the reference, which in our case is: 
@@ -975,10 +975,10 @@ So you can see that by clicking and highlighting, excel has automatically popula
 `[wave_2.xlsx]wave_2.csv!$A:$D` - which means we want from wave_2.xlsx file, the wave_2.csv sheet, columns A through D (static, because I've included the dollar signs there). 
 
 
-If any of this is unclear flag us down to talk through these now. You've been slowly building up to this though. We have gradually made formulas more and more complex, so all these are, are formulas you've learned before, but all patched together, to be making some new formulas. 
+If any of this is unclear, flag us down so we can talk through these now. You've been slowly building up to this, though. We have gradually made formulas more complex, so all these are formulas you've learned before, but all patched together to make some new formulas. 
 
 
-Now we still have two parameters to define, the column index number, and the range lookup. Column index number asks you, which column, from your reference table do you want to grab. Since we've copied over our headings in order, we know that the first heading will be column number 2 (column 1 contains the reference IDs in the NSID variable. Remember the reference tables you made for recoding last week? Same concept, the values *to match* are in the first column). Then the second one will be column number 3, and the third, column number 4. So in this case, our column index number is 2, and the range lookup is FALSE, because we want an *exact match*. 
+We still have two parameters to define: the column index number and the range lookup. Column index number asks you which column from your reference table you want to grab. Since we've copied over our headings in order, we know that the first heading will be column number 2 (column 1 contains the reference IDs in the NSID variable. Remember the reference tables you made for recoding last week? Same concept, the values *to match* are in the first column). Then, the second one will be column number 3, and the third, column number 4. So, in this case, our column index number is 2, and the range lookup is FALSE because we want an *exact match*. 
 
 
 So our final formula looks like this: 
@@ -992,7 +992,7 @@ So our final formula looks like this:
 
 
 
-**NOTE** it's possible that for some of you (likely those on PCs) there will be quotes around the sheet reference in this formula, something like this: 
+**NOTE** It's possible that for some of you (likely those on PCs), there will be quotes around the sheet reference in this formula, something like this: 
 
 
 `=VLOOKUP(A2,'[wave_2(1).xlsx]wave_2.csv'!$A:$D,4,FALSE) `
@@ -1002,19 +1002,19 @@ See the `'` around the `[wave_2(1).xlsx]wave_2.csv`? You *might* see this in you
 
 
 
-Double click on the little blue square on the bottom right hand of the blue frame around this cell to copy the formula all the way to the bottom. 
+Double-click on the little blue square on the bottom right hand of the blue frame around this cell to copy the formula all the way to the bottom. 
 
 
-To get the other two columns from the same sheet, you use the *exact same formula* except you change the column index number. Does it make sense why you do this? Because you're grabbing a *different column*. You're always grabbing the one that corresponds to your header, which you've copied over. If this is unclear make sure to raise your hand, so we can go through this. It's worth going through it even if you feel like you get it, as you will be doing this again in your task, and it's something much easier explained in person!
+To get the other two columns from the same sheet, you use the *exact same formula* except you change the column index number. Does it make sense why you do this? Because you're grabbing a *different column*. You're always grabbing the one that corresponds to your header, which you've copied over. If this is unclear, make sure to raise your hand, so we can go through this. It's worth going through it even if you feel like you get it, as you will be doing this again in your task, and it's something much easier explained in person!
 
 
-So now, copy the formula for the next two columns, change the column index number to 3 and to 4 as appropriate:
+So now, copy the formula for the next two columns and change the column index number to 3 and to 4 as appropriate:
 
 
 ![](imgs/VLOOKUP.jpg)
 
 
-and you will see the values for each person from both wave 1 and wave 2 in there:
+And you will see the values for each person from both wave 1 and wave 2 in there:
 
 
 
@@ -1022,20 +1022,20 @@ and you will see the values for each person from both wave 1 and wave 2 in there
 
 
 
-You can see that for some rows, in wave 2 we have a value of `#N/A`. This is because, that NSID is *not* found in the wave 2 data. 
+You can see that for some rows in wave 2, we have a value of `#N/A`. This is because that NSID is *not* found in the wave 2 data. 
 
 ### Missing data
 
-One issue with longitudinal studies is something called **attrition**. Attrition occurs when cases are lost from a sample over time or over a series of sequential processes. One form of sample attrition occurs in longitudinal research when the subjects studied drop out of the research for a variety of reasons, which can include: unwillingness of subjects to continue to participate in research, difficulties in tracing original respondents for follow-up (for example, because of change of address) and nonavailability for other reasons (for example, death, serious illness). [A survey of major longitudinal studies in the United States found that the average attrition rate was 17 per cent](http://methods.sagepub.com/reference/the-sage-dictionary-of-social-research-methods/n9.xml). Therefore, quite a lot of cases may be lost. Attrition is one of the major methodological problems in longitudinal studies. It can deteriorate generalizability of findings if participants who stay in a study differ from those who drop out.
+One issue with longitudinal studies is something called **attrition**. Attrition occurs when cases are lost from a sample over time or over a series of sequential processes. One form of sample attrition occurs in longitudinal research when the subjects studied drop out of the research for a variety of reasons, which can include unwillingness of subjects to continue to participate in research, difficulties in tracing original respondents for follow-up (for example, because of change of address) and nonavailability for other reasons (for example, death, serious illness). [A survey of major longitudinal studies in the United States found that the average attrition rate was 17 per cent](http://methods.sagepub.com/reference/the-sage-dictionary-of-social-research-methods/n9.xml). Therefore, quite a lot of cases may be lost. Attrition is one of the major methodological problems in longitudinal studies. It can deteriorate the generalizability of findings if participants who stay in a study differ from those who drop out.
 
 
-What you are seeing here are the presence of people who took part in wave 1, but not in wave 2. Attrition rates are important to know and mention in analysis of longitudinal data, to be able to discuss the issues which it may cause, as described above and in your readings. 
+What you are seeing here is the presence of people who took part in wave 1, but not in wave 2. Attrition rates are important to know and mention in the analysis of longitudinal data to discuss the issues it may cause, as described above and in your readings. 
 
 
-Attrition is only one cause of **missing data**. Sooner or later (usually sooner), anyone who does statistical analysis runs into problems with missing data. In a typical data set, information is missing for some variables for some cases. In surveys that ask people to report their income, for example, a sizable fraction of the respondents typically refuse to answer. Outright refusals are only one cause of missing data. In self-administered surveys, people often overlook or forget to answer some of the questions. Even trained interviewers occasionally may neglect to ask some questions. Sometimes respondents say that they just do not know the answer or do not have the information available to them. Sometimes the question is inapplicable to some respondents, such as asking unmarried people to rate the quality of their marriage. In longitudinal studies, people who are interviewed in one wave may die or move away before the next wave. When data are collated from multiple administrative records, some records may have become inadvertently lost.
+Attrition is only one cause of **missing data**. Sooner or later (usually sooner), anyone who does statistical analysis runs into problems with missing data. In a typical data set, information is missing for some variables in some cases. In surveys that ask people to report their income, for example, a sizable fraction of the respondents typically refuse to answer. Outright refusals are only one cause of missing data. In self-administered surveys, people often overlook or forget to answer some of the questions. Even trained interviewers occasionally may neglect to ask some questions. Sometimes, respondents say they just do not know the answer or do not have the information available to them. Sometimes, the question is inapplicable to some respondents, such as asking unmarried people to rate the quality of their marriage. In longitudinal studies, people who are interviewed in one wave may die or move away before the next wave. When data are collated from multiple administrative records, some records may have become inadvertently lost.
 
 
-You can see our second person with NAs there, NS15760C, also has NA values for the first wave. This means that while NS15760C was interviewed in the 1st wave (and potentially in waves 2 and 3 as well), they did not answer these questions! This could be because they put one of the answers that were coded as "NA", such as Refused to answer, wrote "Not applicable", or responses "Don't know", or because they were unable to complete or refused this whole section. Missing data is important, and it's important to know *why* your data is missing. When people refuse to answer something, it might be motivated by very different things than when people say "don't know" to something. If people with certain characteristics are more likely to not respond, then there might be systematic biases introduced through missing data. This is important to keep in mind. 
+You can see our second person with NAs there, NS15760C, also has NA values for the first wave. This means that while NS15760C was interviewed in the 1st wave (and potentially in waves 2 and 3 as well), they did not answer these questions! This could be because they put one of the answers that were coded as "NA", such as Refused to answer, "Not applicable", or "Don't know", or because they were unable to complete or refused this whole section. Missing data is important, and it's important to know *why* your data is missing. When people refuse to answer something, it might be motivated by very different things than when people say "don't know" to something. If people with certain characteristics are more likely to not respond, then systematic biases might be introduced through missing data. This is important to keep in mind. 
 
 
 
@@ -1049,21 +1049,21 @@ If you need a little nudge, the formula which we ended up with was: `=VLOOKUP(A2
 
 
 
-Then, when that is done, you will see a final data set with all the three waves of these questions present in your data:
+Then, when that is done, you will see a final data set with all three waves of these questions present in your data:
 
 
 ![](imgs/merged_data_final.png)
 
 
 
-We picked up in the #N/A last time, there is another issue with longitudinal, and generally self-report data collection methods, available to spot here. Remember that all of our questions are asking people whether they have *ever* smoked, or *ever* tried cannabis, or *ever* had an alcoholic drink. So surely, once someone answers yes, you would expect them to keep answering yes, correct? Well, have a look at respondent number "NS23533L". While in wave 2, they admit to trying all cannabis and cigarettes and  alcohol, in wave three they seem to have forgotten this experience, and report that they have not ever tried either cannabis or cigarettes. The issue here is called **response bias**. 
+We picked up in the #N/A last time; there is another issue with longitudinal and generally self-report data collection methods, which are available to spot here. Remember that all of our questions are asking people whether they have *ever* smoked, or *ever* tried cannabis, or *ever* had an alcoholic drink. So surely, once someone answers yes, you would expect them to keep answering yes, correct? Well, have a look at respondent number "NS23533L". While in wave 2, they admit to trying all cannabis, cigarettes and alcohol, in wave three, they seem to have forgotten this experience and report that they have not ever tried either cannabis or cigarettes. The issue here is called **response bias**. 
 
 #### Response Bias
 
-Response bias is a general term for anything that influences the responses of participants away from an accurate or truthful response. These biases are most prevalent in the types of studies and research that involve participant self-report, such as structured interviews or surveys. It can be caused by a variety of factors, for example the phrasing of questions in surveys, the demeanour of the researcher, the way the experiment is conducted, or the desires of the participant to be a good experimental subject and to provide socially desirable responses may affect the response in some way. All of these "artifact" of survey and self-report research may have the potential to damage the validity of a measure or study. Because of response bias, it is possible that some study results are due to a systematic response bias rather than the hypothesized effect, which can have a profound effect on psychological and other types of research using questionnaires or surveys. It is therefore important for researchers to be aware of response bias and the effect it can have on their research so that they can attempt to prevent it from impacting their findings in a negative manner. Response biases can have a large impact on the validity of questionnaires or surveys.
+Response bias is a general term for anything that influences participants' responses away from an accurate or truthful response. These biases are most prevalent in studies and research involving participant self-reporting, such as structured interviews or surveys. A variety of factors can cause it, for example, the phrasing of questions in surveys, the demeanour of the researcher, the way the experiment is conducted, or the desires of the participant to be a good experimental subject and to provide socially desirable responses may affect the response in some way. All of these "artefacts" of survey and self-report research may have the potential to damage the validity of a measure or study. Because of response bias, some study results may be due to a systematic response bias rather than the hypothesized effect, which can have a profound effect on psychological and other types of research using questionnaires or surveys. It is, therefore, important for researchers to be aware of response bias and the effect it can have on their research so that they can attempt to prevent it from impacting their findings in a negative manner. Response biases can have a large impact on the validity of questionnaires or surveys.
 
 
-There isn't much that we can do (at the stage of data analysis) to control for this. If you suspect that you will encounter response bias, you should consider this in your research design, and build measures into the data collection phase, that try to  account for or at least identify sources of response bias in your survey. 
+There isn't much that we can do (at the stage of data analysis) to control for this. If you suspect that you will encounter response bias, you should consider this in your research design and build measures into the data collection phase that try to account for or at least identify sources of response bias in your survey. 
 
 
 
@@ -1071,61 +1071,61 @@ There isn't much that we can do (at the stage of data analysis) to control for t
 
 
 
-There are a vast range of statistical techniques for accommodating missing data (see some examples [here](https://www.lshtm.ac.uk/research/centres-projects-groups/missing-data)). Perhaps the most commonly adopted is to simply exclude those participants in our dataset who have any data missing (in those variables we are concerned with) from our analysis. This is what is commonly known as a '**complete case analysis**' or 'listwise deletion' - we analyse only the complete cases. This approach simply says "we will not deal with any of the missing data", and instead subsets the analysis to the sample where participants have answered every question - in other words, only use the rows which do not have missing data. 
+There is a vast range of statistical techniques for accommodating missing data (see some examples [here](https://www.lshtm.ac.uk/research/centres-projects-groups/missing-data)). Perhaps the most commonly adopted is to simply exclude those participants in our dataset who have any data missing (in those variables we are concerned with) from our analysis. This is what is commonly known as a '**complete case analysis**' or 'listwise deletion' - we analyse only the complete cases. This approach simply says, "We will not deal with any of the missing data", and instead subsets the analysis to the sample where participants have answered every question - in other words, only use the rows which do not have missing data. 
 
 
-If data are missing complete randomly, meaning that the chance of data being missing is unrelated to any of the variables involved in our analysis, a complete case analysis is unbiased. This is because the subset of complete cases represent a random (albeit smaller than intended) sample from the population. In general, if the complete cases are systematically different from the sample as a whole (i.e. different to the incomplete cases), i.e. the data are not missing completely randomly, analysing only the complete cases will lead to biased estimates.
+If data are missing completely randomly, meaning that the chance of data being missing is unrelated to any of the variables involved in our analysis, a complete case analysis is unbiased. This is because the subset of complete cases represents a random (albeit smaller than intended) sample from the population. In general, if the complete cases are systematically different from the sample as a whole (i.e. different to the incomplete cases), i.e. the data are not missing completely randomly, analysing only the complete cases will lead to biased estimates.
 
 
-For example, suppose we are interested in estimating the median income of the some population. We send out an email asking a questionnaire to be completed, amongst which participants are asked to say how much they earn. But only a proportion of the target sample return the questionnaire, and so we have missing incomes for the remaining people. If those that returned an answer to the income question have systematically higher or lower incomes than those who did not return an answer, the median income of the complete cases will be biased. This is something to keep in mind when choosing the route of complete case analysis. 
+For example, suppose we are interested in estimating the median income of some population. We send out an email asking for a questionnaire to be completed, amongst which participants are asked to say how much they earn. However, only a proportion of the target sample returned the questionnaire, and so we have missing incomes for the remaining people. Suppose those who returned an answer to the income question have systematically higher or lower incomes than those who did not return an answer. In that case, the median income of the complete cases will be biased. This is something to keep in mind when choosing the route of complete case analysis. 
 
 
 ### Activity 5.6: Selecting Complete Cases
 
 
-But how can we include only the compete cases? Well for this you can use the filter function of Excel. Remember the little funnel icon? Well if you go to the Data tab, you will see it: 
+But how can we include only the complete cases? You can use the Excel filter function to do this. Remember the little funnel icon? Well, if you go to the Data tab, you will see it: 
 
 
 ![](imgs/cc_filter.png)
 
 
-If you click on the Filter icon, you will see small downwards arrows appear on the column headers for your data, like so: 
+If you click on the Filter icon, you will see small downward arrows appear on the column headers for your data, like so: 
 
 
 ![](imgs/cc_arrows.png)
 
 
-If you click on these arrows, you can see all the possible values that the variable can take, and you can see little check boxes next to these values. If you click in them you can toggle the tick/untick of these boxes, which means that you can hide the values which are not ticked. So in the first column, untick any value that is not "Yes" or "No", like so: 
+If you click on these arrows, you can see all the possible values that the variable can take, and you can see little check boxes next to these values. If you click on them, you can toggle the tick/untick of these boxes, which means that you can hide the values that are not ticked. So in the first column, untick any value that is not "Yes" or "No", like so: 
 
 
 ![](imgs/untick_not_yn.png)
 
 
 
-You can see that any rows that had an NA value have been hidden. For example in the above image you can see that row 18 is gone, and instead we see row 17 followed by row 19. You can repeat this for all your rows, and you will end up with only cases where the person has answered "Yes" or "No" to these questions across all three waves of the study. You now have only the *complete cases* for your analysis. 
+You can see that any rows that had an NA value have been hidden. For example, in the above image, you can see that row 18 is gone, and instead, we see row 17 followed by row 19. You can repeat this for all your rows, and you will end up with only cases where the person has answered "Yes" or "No" to these questions across all three waves of the study. You now have only the *complete cases* for your analysis. 
 
-Filtering only hides these rows though, and they could still show up in your analysis. You don't really want to delete data, because that's never a good idea in case you make a mistake, or want to go back and re-do some analysis this time including some missing variables as well. Instead, one thing that you could do is to copy the complete cases only, over to a new sheet called "complete cases". To do this, create a new sheet (remember, plus sign at bottom of spreadsheet) and call it  "complete cases".
+Filtering only hides these rows, though, and they could still show up in your analysis. You don't really want to delete data because that's never a good idea if you make a mistake or want to go back and re-do some analysis this time, including some missing variables. Instead, one thing that you could do is copy the complete cases only to a new sheet called "complete cases". To do this, create a new sheet (remember, plus sign at the bottom of the spreadsheet) and call it  "complete cases".
 
 
 ![](imgs/cc_new_sheet.png)
 
 
-Then go back to your wave_1 sheet and copy all the columns, and then go back to your new, complete cases sheet, and paste in the values. You now have a new sheet, in your excel workbook, that has only the complete cases. 
+Then, go back to your wave_1 sheet and copy all the columns. Then, go back to your new, complete cases sheet and paste the values. You now have a new sheet in your Excel workbook with only the complete cases. 
 
 
-So what do these complete cases look like? We can tell you that there were originally 1000 people in this sample that we've subset for you. So now, after you've removed all the NAs, and have only complete cases, how many complete cases do you have?
+So, what do these complete cases look like? We can tell you that there were originally 1000 people in this sample that we've subset for you. So now, after you've removed all the NAs and have only complete cases, how many complete cases do you have?
 
 
 If you did the same thing to me, you should have 622 cases left. Pretty big attrition rate, eh? Something to think about...!
 
 
-Now, finally, since we've worked so hard on this data, let's have a look at it. Can you tell me, whether the percent of those who answered all questions in all three waves who *have* tried cannabis increases from wave to wave? 
+Now, finally, since we've worked so hard on this data, let's have a look at it. Can you tell me whether the percentage of those who answered all questions in all three waves who *have* tried cannabis increases from wave to wave? 
 
 
-If your gut reaction to this question was to do with fear and confusion, one thing you could do is think back to all the skills that we've learned so far, and which one of these you would need to draw on, to be able to answer this question. First, if you want to know if the percent of people who have tried cannabis (that is - answered yes to the question about trying cannabis) is greater for each wave than the wave before, you need to find out: what percent of people tried cannabis in wave 1, what about wave 2, and what about wave 3? In our newly created, complete cases data set, we know that we have one variable for cannabis trying in each wave. These are W1canntryYP for wave 1, W2canntryYP for wave 2, and W3canntryYP for wave 3. How can you find out the % who said yes for each one of these? Well remember our univariate analysis of a categorical variable, where we can find out the count of values for each variable with a pivot table? And then how we can translate those into percentages? 
+If your gut reaction to this question was to do with fear and confusion, one thing you could do is think back to all the skills that we've learned so far and which one of these you would need to draw on to be able to answer this question. First, if you want to know if the percentage of people who have tried cannabis (that is - answered yes to the question about trying cannabis) is greater for each wave than the wave before, you need to find out: what percent of people tried cannabis in wave 1, what about wave 2, and what about wave 3? In our newly created, complete cases data set, we know that we have one variable for cannabis trying in each wave. These are W1canntryYP for wave 1, W2canntryYP for wave 2, and W3canntryYP for wave 3. How can you find out the % who said yes for each one of these? Well remember our univariate analysis of a categorical variable, where we can find out the count of values for each variable with a pivot table? How can we translate those into percentages? 
 
 
-If not, then refer back to your notes from the 2nd week on univariate analysis. If yes, you now know you need to make 3 pivot tables, and save the answers from each. You can then combine those into a **complex table**. Remember complex tables from the feedback session after the bivariate analysis labs, on week 3? 
+If not, then refer back to your notes from the 2nd week on univariate analysis. If yes, you now know you need to make 3 pivot tables and save the answers from each. You can then combine those into a **complex table**. Remember complex tables from the feedback session after the bivariate analysis labs on week 3? 
 
 
 So you can do something like this: 
@@ -1136,39 +1136,39 @@ So you can do something like this:
 
 
 
-In the end you will end up with a table like this: 
+In the end, you will end up with a table like this: 
 
 ![](imgs/final_cc_ct.png)
 
 
-And you can even get fancy and plot this change over time, to emphasise that indeed, there is an increase in the percent of respondents who answer yes to trying cannabis wave on wave: 
+And you can even get fancy and plot this change over time to emphasise that; indeed, there is an increase in the percentage of respondents who answer yes to trying cannabis wave on wave: 
 
 
 ![](imgs/incr_yes_can.png)
 
 
-We'll do more plotting and visualisation after reading week, when we have our data viz session. 
+We'll do more plotting and visualisation after reading week when we have our data viz session. 
 
 
 
 ## Ethics
 
-We wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implication of your study, both on your participants, on your researchers (including yourself), and on the wider community. 
+We wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implications of your study, both on your participants, on your researchers (including yourself), and on the wider community. 
 
-Watch [this 8 minute video that gives a good introduction to research ethics](https://www.youtube.com/watch?v=nX4c3V23DZI), and pay particular attention to the concepts of: 
+Watch [this 8-minute video that gives a good introduction to research ethics](https://www.youtube.com/watch?v=nX4c3V23DZI), and pay particular attention to the concepts of: 
 
 - informed consent
 - beneficence (benefits and harms to society)
 - justice
 
 
-The "IRB" section is specific to the USA, however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate through this tool to determine whether or not your research requires ethical approval. You can access the tool, and read more about the university's ethics procedures [here](https://www.manchester.ac.uk/research/environment/governance/ethics/).
+The "IRB" section is specific to the USA; however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate through this tool to determine whether or not your research requires ethical approval. You can access the tool and read more about the university's ethics procedures [here](https://www.manchester.ac.uk/research/environment/governance/ethics/).
 
 
 
 ## Summary
 
-In sum, you should now be able to think about the research design that either you need to create to collect data, or that someone else has created in order to collect the data that you are working with. There are many decisions that go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment, when you use longitudinal data, you will have to join the data sets collected at different points in time, and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer, and what analysis you'll be able to carry out.  You should be comfortable with the following terms:
+In sum, you should now be able to think about the research design that you either need to create to collect data or that someone else has created in order to collect the data that you are working with. Many decisions go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment; when you use longitudinal data, you will have to join the data sets collected at different points in time and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer and what analysis you can carry out.  You should be comfortable with the following terms:
 
 - dependent (response/ outcome) variable
 - independent (predictor) variable
