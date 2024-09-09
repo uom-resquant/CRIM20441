@@ -72,7 +72,7 @@ week4
 learning-outcomes-3
 terms-for-today-2
 population-parameters-versus-sample-statistics
-activity-4.1-sample-statistisc-vs-population-parameters
+activity-4.1-sample-statistics-vs-population-parameters
 central-limit-theorem
 conceptualisation
 activity-4.2-conceptualise-hate-speech
@@ -118,7 +118,7 @@ summary-4
 week6
 learning-outcomes-5
 what-is-qualitative-data-analysis
-hows-qualitative-data-different-from-quantitative-data
+how-is-qualitative-data-different-from-quantitative-data
 activity-1-exploring-the-fincen-files
 is-qualitative-data-analysis-easier
 types-of-qualitative-data-analysis
