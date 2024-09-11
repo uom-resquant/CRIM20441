@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-In this session you’ll learn:
+In this session, you’ll learn the following:
 
 - How to interrogate qualitative data using NVivo. 
 - How to build theory through *deductive*, *inductive* and *abductive* strategising. 
@@ -14,15 +14,15 @@ To recap from the lecture, this diagram gives some indication as to the directio
 
 ![](imgs/diagram_quali.png)
  
-We discussed this in the lecture so you’ll have an understanding now of strategies for approaching research including data collection and data analysis.
+We discussed this in the lecture, so you’ll now understand strategies for approaching research, including data collection and data analysis.
 
 **Induction** is considered to be ‘bottom-up’ where we start with very broad general interests but build theory and concepts by first coding and interrogating the data. The key here is to ensure existing theoretical perspectives and concepts do not over-define our analysis and thus obscure the possibility of identifying and developing new concepts and theories.
 
-**Deduction** is considered to be ‘top-down’ reasoning where we have predetermined ideas and theories and seek to test or evidence these. The coding categories we use are therefore explicit in directing the focus of our analysis.
+**Deduction** is considered to be ‘top-down’ reasoning where we have predetermined ideas and theories and seek to test or evidence these. The coding categories we use are, therefore, explicit in directing the focus of our analysis.
 
-**Abduction** integrates these two approaches, giving flexibility across the analytical process, and ensuring interplay between our ideas and data.
+**Abduction** integrates these two approaches, giving flexibility across the analytical process and ensuring interplay between our ideas and data.
 
-In this session you’ll learn how to interrogate your qualitative data using NVivo from all perspectives. You can read more about these strategies here.
+In this session, you’ll learn to interrogate your qualitative data using NVivo from all perspectives. You can read more about these strategies here.
 
 ## ‘Coding’ qualitative data using ‘nodes’
 
@@ -32,107 +32,107 @@ In this session you’ll learn how to interrogate your qualitative data using NV
 
 You can find copies of Saldaña’s *The Coding Manual* in the [University Library](https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/1r887gn/alma992975869959501631).
 
-*‘Coding’*, *‘coding schemes’* and *‘coded retrieval’* of our data are key tools of qualitative analysis. The terminology and philosophies that underpin coding processes are explained below (but mainly in the lectures) and we find that specific methodologies use particular routines when coding. For instance, one common approach is informed by ‘Grounded Theory’ that involves both induction and deduction to code data. 
+*‘Coding’*, *‘coding schemes’* and *‘coded retrieval’* of our data are key tools of qualitative analysis. The terminology and philosophies that underpin coding processes are explained below (but mainly in the lectures), and we find that specific methodologies use particular routines when coding. For instance, one common approach is informed by the ‘Grounded Theory’, which involves both the induction and deduction approaches to coding data. 
 
-Here, researchers would undertake a first layer of ‘coding’, often called [‘open coding’](https://en.wikipedia.org/wiki/Open_coding), to break down data into indicative themes and concepts. This precedes more granular coding referred to as [‘axial coding’](https://en.wikipedia.org/wiki/Axial_coding), where categories and concepts are further refined. We’ll draw on this approach in today’s session. The structures of coding schemes, alternate groupings and basic retrieval mechanisms are key to moving forward with analysis.
+Here, researchers would undertake a first layer of ‘coding’, often called [‘open coding’](https://en.wikipedia.org/wiki/Open_coding), to break down data into indicative themes and concepts. This precedes more granular coding, called [‘axial coding’](https://en.wikipedia.org/wiki/Axial_coding), where categories and concepts are refined further. We’ll draw on this approach in today’s session. The structures of coding schemes, alternate groupings and basic retrieval mechanisms are key to moving forward with analysis.
 
-In NVivo we code our data using ‘nodes’. This is sometimes also termed the ‘indexing’ of our data.
+In NVivo, we code our data using ‘nodes’. This is sometimes also termed the ‘indexing’ of our data.
 
-**Note 1**: If you only take one thing away from today’s session then it should be the importance of nodes. These are the fundamental building blocks of the theories and concepts we interpret in our data.
+**Note 1**: If you only take one thing away from today’s session, then it should be the importance of nodes. These are the fundamental building blocks of the theories and concepts we interpret in our data.
 
 So, let’s learn how to code using ‘nodes’.
 
 ### What are ‘Nodes’?
 
-Node is a term which refers to a point in the NVivo database but a code label may be the name you give the node. Codes or nodes can be your ideas about the data – they can be generated inductively, deductively or abductively and may be refined, changed, grouped or deleted at any time. Applying nodes etc., to passages of source data at a minimum, provides the basic code and retrieve actions needed to accumulate together, all the bits of data linked by common threads and themes.
+Node is a term that refers to a point in the NVivo database, but a code label may be the name you give the node. Codes or nodes can be your ideas about the data – they can be generated inductively, deductively or abductively and may be refined, changed, grouped or deleted at any time. Applying nodes, etc., to passages of source data, at a minimum, provides the basic code and retrieves actions needed to accumulate together all the bits of data linked by common threads and themes.
 
 ![](imgs/coding.gif)
 
-Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them in order to collect data about key themes. Nodes then are more reflective and act as containers for or links to data exemplars based on, conceptual ideas, themes, codes or more structurally for people, contexts, places etc. Essentially, the terms nodes, codes, keywords, and themes are used similarly.
+Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes, ’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes are more reflective and act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
 
-Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to, data. So, we might have created a top-level node entitled ‘money laundering’ and then created sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on.
+Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to data. So, we might have created a top-level node entitled ‘money laundering’ and then sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level, e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on.
 
-These node layers therefore build a structural framework for our data. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
+These node layers, therefore, build a structural framework for our data. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
 
-Let’s do this then. Here we’ll focus on using nodes for reflective purposes and for thematic purposes.
+Let’s do this then. Here, we’ll focus on using nodes for reflective purposes and thematic purposes.
 
 ### Activity 1: Coding
 
-We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session e.g. Lab Session Week 7.
+We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session, e.g. Lab Session Week 7.
 
-On Blackboard you’ll fine two datasets in the Week 9 folder: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
+You’ll find two datasets on Blackboard in the Week 7 folder: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
 
-You’ll need to download and save these to your p:drive or your personal computer. (Dataset 1 is a zip file, you’ll need to [unzip it](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)). 
+You’ll need to download and save these to your p: drive or personal computer. (Dataset 1 is a zip file, you’ll need to [unzip it](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)). 
 
-Once you’ve done this, go back to *NVivo* and import them, using the knowledge you gained last week. For instance, first, create folders within your Files section to house the data (see below). Second, import your data. If you import all the interviews at once, there is a small chance your computer will explode, catch fire, and burn the lab down. But let’s hope not. Be patient though, it can take a few minutes to import so much data at once. 
+Once you’ve done this, return to *NVivo* and import them using the knowledge you gained last week. For instance, first, create folders within your Files section to house the data (see below). Second, import your data. If you import all the interviews simultaneously, there is a small chance your computer will explode, catch fire, and burn the lab down. But let’s hope not. Be patient; importing so much data at once can take a few minutes. 
 
 ![](imgs/mr-bean-waiting.gif)
 
-If it does crash though, you might just need to import the transcripts in smaller numbers. Or, just import a few of them so you get a feel for the process, rather than importing the full lot. You can see what we’ve done in the screenshot below:
+If it does crash, you should import the transcripts in smaller numbers. Or, import a few of them to get a feel for the process rather than importing the full lot. You can see what we’ve done in the screenshot below:
 
 ![](imgs/interview_w9.png)
  
-If you double click on any of the transcripts in the **List Pane** you’ll be able to see the content in the **Detail Pane**.
+If you double-click on any of the transcripts in the **List Pane**, you’ll be able to see the content in the **Detail Pane**.
 
-For Mac users, when you import the *GMP Twitter Data*, you can import as a ‘Dataset’, rather than as ‘Documents’. You’ll first encounter the screen below:
+For Mac users, when you import the *GMP Twitter Data*, you can import it as a ‘Dataset’ rather than as ‘Documents’. You’ll first encounter the screen below:
 
 ![](imgs/dataset_asistant.png)
  
-Simply click ‘next’, then ‘next’ again in the following window and then ‘Import’. You’ll then be able to see the Twitter data in the Detail View as below:
+Simply click ‘next’, then ‘next’ again in the following window and then ‘Import’. You’ll then be able to see the Twitter data in the Detail View, as below:
 
 ![](imgs/twitter_nvivo.png)
  
-For Windows users, the process is slightly different as there is no ‘Datasets’ option. To import data from an Excel file on the Windows version of NVivo, go to “Import”, “Import survey” and “From Microsoft Excel File”. Alternatively, click on the “Data” heading and select “Survey”. In the drop down menu, select the file type (Excel or CSV, in this case our data is an Excel file).
+For Windows users to import data from an Excel file, go to “Import” and select “Excel”. 
 
 ![](imgs/excel_pc.png)
  
-You will have to click through the Survey Import Wizard which looks something like this:
+You will have to click through the Survey Import Wizard, which looks something like this:
 
 ![](imgs/import_wizard.png)
  
-There are four steps to click through where you check to ensure the data will be imported correctly. In this case, you can just click ok through each step without making any changes. After step 4, click “Finish”. It may take a few minutes for NVivo to process the request.
+There are five steps to click through where you check to ensure the data will be imported correctly. In this case, you can click ok through each step until step 5 without making any changes. **In "Step 5", unclick the autocoding themes and sentiments options**. It may take a few minutes for NVivo to process the request.
 
 ![](imgs/identify_open_close.png)
  
-This should be the end result when you finish the import wizard:
+This should be the result when you finish with the import wizard:
 
 ![](imgs/import_wizard2.png)
  
-Ok. So now we have both our datasets imported into NVivo. It’s probably worth saving your project now, just in case something goes wrong.
+Ok. So now we have both our datasets imported into NVivo. It’s probably worth saving your project in case something goes wrong.
 
-Usually, as these two datasets are very separate in terms of the purpose, we would probably create two separate projects in NVivo in order to keep our separate research projects apart. For the purposes of getting to know the software though, we can analyse both in one project today.
+Usually, as these two datasets are very separate in terms of purpose, we would probably create two separate projects in NVivo to keep our separate research projects apart. For the purposes of getting to know the software, though, we can analyse both in one project today.
 
 ## Using ‘mind maps’ to organise your ‘analytical process and framework’
 
-At this point, we need to give our coding some focus. To do this we can use **‘mind maps’** so we know how to code our data. To demonstrate this, we are going to code the interview data in *Dataset 1* using a deductive approach; and then code the Twitter data in *Dataset 2* using an inductive approach.
+At this point, we need to give our coding some focus. To do this, we can use **‘mind maps’** so we know how to code our data. To demonstrate this, we will code the interview data in *Dataset 1* using a deductive approach and then code the Twitter data in *Dataset 2* using an inductive approach.
 
 ![](imgs/mindmapping.png)
 
 ### Activity 2: Deductive coding
 
-First, single click on ‘Maps’ in the Navigation Pane, then right click in the List Pane to create a new mind map. Call it Deductive Approach to Probation Interview Data. You should end up with the following:
+First, single-click on ‘Maps’ in the Navigation Pane, then right-click in the List Pane to create a new mind map. Call it "Deductive Approach to Probation Interview Data". You should end up with the following:
 
 ![](imgs/mindmap.png)
  
-Now, *deductive logic* assumes that we have a predetermined set of codes, ideas and themes that we intend to better understand. For instance, the interviews that were carried out with **Chief Probation Officers (CPOs)** in this research had the following clear research objectives:
+Now, *deductive logic* assumes that we have a predetermined set of codes, ideas and themes that we want to understand better. For instance, the interviews that were carried out with **Chief Probation Officers (CPOs)** in this research had the following clear research objectives:
 
 *1.	to investigate the social and educational backgrounds and career histories of CPOs;*
-*2.	to explore their perceptions of community penalties, developments in these over the course of their careers and potential changes in the future;*
+*2.	to explore their perceptions of community penalties, developments in these throughout their careers and potential changes in the future;*
 *3.	to examine the role of CPOs as managers and their relationships with central government, local agencies and their probation committees.* 
 
-So we can extrapolate key ideas from these objectives and use them to guide our coding of the data. We’ve broken down the research objectives into key concepts and organised this in our mind map. Take a look at our screenshot below and see if you can replicate what we’ve done. You might choose to pick a different structure, or different codes, that’s fine too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure too.
+So we can extrapolate key ideas from these objectives and use them to guide our coding of the data. We’ve divided the research objectives into key concepts and organised this in our mind map. Look at our screenshot below and see if you can replicate our work. You might pick a different structure or codes; that’s fine, too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure, too.
 
-You can learn more about how to create and edit mind maps in [this Youtube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
+You can learn more about creating and editing mind maps in [this YouTube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
 
 ![](imgs/mindmap2.png)
  
-What we’ve done here is create a predetermined framework for coding the interview data. That is, when we read the transcripts, we can assign these themes to what was said in the interviews. 
+What we’ve done here is create a predetermined framework for coding the interview data. When we read the transcripts, we can assign these themes to what was said in the interviews. 
 
-Plus, to save us having to create all the nodes individually, we can now just use the **‘Create as nodes’** option. Click it, then choose ‘Nodes’. 
+Plus, to save us from having to create all the nodes individually, we can now use the **‘Create as nodes’** option. This should only be used after you have finished writing all the themes from the picture above. Click it, then choose ‘Nodes’. 
 
 ![](imgs/create_node.jpeg)
 
-Now click on ‘Nodes’ in the Navigation Pane and you’ll see the following – open up the folders so you can see all the nodes:
+Now click on ‘Nodes’ in the Navigation Pane, and you’ll see the following – open up the folders so you can see all the nodes:
 
 ![](imgs/nodes.png)
  
@@ -148,7 +148,7 @@ For Mac users, to do this, simply highlight the text and right-click on it, choo
 
 ![](imgs/code_selection.png)
  
-For Windows users this looks slightly different. You have to have to click on *“Code”* then a new window pops up with the nodes and you select from there. The right-click menu to code selected text looks like this:
+For Windows users, this looks slightly different. You have to have to click on *“Code”* then a new window pops up with the nodes and you select from there. The right-click menu to code selected text looks like this:
 
 ![](imgs/code_selection_pc.png)
  
