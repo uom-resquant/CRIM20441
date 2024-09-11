@@ -161,7 +161,7 @@ You will download an executable file on your computer; click on it once it is fu
 
 And then you can select your language, accept the terms in the license agreement, and press "Finish".
 
-You’ll need the License code to complete the installation process: **NVT12-IZ000-SHA20-UR685-NNZYI** (code for 2023/2024)
+You’ll need the License code to complete the installation process: **NVT12-IZ000-SHA20-UR685-NNZYI** (code for 2024/2025)
 
 Then you should see a message saying, "Your licence has now been activated".
 

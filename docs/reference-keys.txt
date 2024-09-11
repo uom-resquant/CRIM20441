@@ -200,11 +200,11 @@ learning-outcomes-8
 crime-and-incident-trend-identification
 activity-9.1-formatting-your-dates-appropriately
 activity-9.2-extracting-temporal-variables-from-dates
-activity-9.3-extract-day-of-week-from-date-column
+activity-9.3-extract-the-day-of-the-week-from-the-date-column
 activity-9.4-recoding-days-of-the-week
 activity-9.5-patterns-in-residential-burglary
 aggregating-to-simple-intervals
-activity-9.5-aggregate-to-hour
+activity-9.5-aggregate-by-hour
 visualising-time
 visualising-trends-line-graphs
 activity-9.6-visualising-trends-line-graphs
