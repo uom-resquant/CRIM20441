@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-Welcome to week 1! This week is all about getting set up, and taking some first steps in learning about what is *data*. These are the building blocks of all the weeks to come, so pay special attention, and do set a pattern of asking questions! Now, without further ado, let's get started. 
+Welcome to week 1! This week is all about getting set up and taking some first steps to learn what *data is. These are the building blocks of all the weeks to come, so pay special attention and set a pattern for asking questions! Now, without further ado, let's get started. 
 
 
 ## Familiarising yourself with the course
@@ -14,14 +14,14 @@ If you haven’t already, please watch the videos on Blackboard that explain the
 
 For almost all of the questions you will have throughout this module, you will be asked to post them on the discussion board. This is because if you have a question, there are very good odds that others in your class also have the same question. If you ask on the discussion board, we can keep track of all the questions there and build a FAQ of sorts. Then, if someone else has the same question, they might come to the discussion board and see that a similar question has already been asked and, in fact, answered. In this case, you get an instant answer to your query! Very useful! 
 
-If you feel like you don't have any questions, we still encourage you to check the discussion board occasionally to see what others are asking. Maybe there is some interesting discussion you hadn't thought of. Maybe someone asked a question that you know the answer to. In such a case, feel free to answer - don't worry we are monitoring the discussion board, so if your answer isn't quite right, we can follow up. So there is no risk, only the reward of having helped your colleagues :) 
+If you feel like you don't have any questions, we still encourage you to check the discussion board occasionally to see what others are asking. Maybe there is some interesting discussion you hadn't thought of. Maybe someone asked a question that you know the answer to. In such a case, feel free to answer - don't worry; we are monitoring the discussion board, so if your answer isn't quite right, we can follow up. So there is no risk, only the reward of having helped your colleagues :) 
 
 
 ### Activity 1: Posting on the discussion board
 
 All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_82193_1&tool_id=_119_1&tool_type=TOOL&mode=cpview&mode=reset).
 
-Here, you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For the subject put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us: a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
+Here, you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For the subject, put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us: a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
 
 ![](imgs/db_activity.png)
 
@@ -41,7 +41,7 @@ knitr::include_graphics("imgs/einstein_desk.jpg")
 ```
 
 
-However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
+However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
 ```{r, echo=FALSE, fig.height=100}
 knitr::include_graphics("imgs/galileo_desk.jpg") 
@@ -127,7 +127,7 @@ One last note for using cluster PCs: because cluster PCs come pre-installed with
 
 ## Working directory
 
-If you are using your own laptop, you can create and save your files anywhere. However, if you are on the cluster PC you should always save your files on your P:drive. OK - then what?
+If you are using your own laptop, you can create and save your files anywhere. However, if you are on the cluster PC, you should always save your files on your P:drive. OK - then what?
 
 
 It's generally good to create a folder to save your data and outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder and also give it some name you remember that will be meaningful. Generally, try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
@@ -180,7 +180,7 @@ This will bring up a pop-up window. Here, click on 'Add-Ins', and then highlight
 ![](imgs/install_analysis_toolpak.png)
 
 
-This will open another pop-up window. Here, make sure you tick the box next to 'Analysis Toolpak', and click 'OK':
+This will open another pop-up window. Here, make sure you tick the box next to 'Analysis Toolpak' and click 'OK':
 
 
 ![](imgs/install_toolpak_after_go_popup.png)
@@ -238,7 +238,7 @@ gmp_crimes %>%
 ```
 
 
-How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [www.police.uk/](https://www.police.uk/) website. This means that by visiting the [data.police.uk](https://data.police.uk/) website, you can access data about street-level crime, outcome, and stop and search information, broken down by police forces. What does this mean? What do these data look like? Let's have a look:
+How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the [www.police.uk/](https://www.police.uk/) website. This means that by visiting the [data.police.uk](https://data.police.uk/) website, you can access data about street-level crime and its outcome, as well as stop and search information broken down by police forces. What does this mean? What do these data look like? Let's have a look:
 
 
 ```{r, echo=FALSE}
@@ -294,7 +294,7 @@ Your first activity is to create a column header for each variable we want to co
 
 - **Month**: The month in which the tweet was sent.
 - **Day**: The day of the month in which the tweet was sent.
-- **Hour**: The hour when the tweet was sent, in 24h format (where 13:00 is 1pm and 01:00 is 1am).
+- **Hour**: The hour when the tweet was sent, in 24-hour format (where 13:00 is 1pm and 01:00 is 1am).
 - **Account**: The account who tweeted this tweet.
 - **Tweet**: The content of the tweet itself.
 - **Likes**: Number of likes for this tweet.
@@ -362,7 +362,7 @@ While entering your data, you probably noticed variations in when the tweets wer
 But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.
 
 
-Once you are done, save your data. You can do this by clicking on *"file"* and then *"save as"* and navigating to your working directory to save your file. You can save it as a *comma separated value* file, or '.csv'. Next term you will be dealing with data in this format. This way any formatting that you do to the spreadsheet (e.g., making the column titles bold, etc.) will *not* be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. It doesn't hugely matter at this stage how you save your data. 
+Once you are done, save your data. You can do this by clicking on *"file"* and then *"save as"* and navigating to your working directory to save your file. You can save it as a *comma separated value* file or '.csv'. Next term, you will be dealing with data in this format. This way, any formatting that you do on the spreadsheet (e.g., making the column titles bold, etc.) will *not* be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. How you save your data doesn't hugely matter at this stage. 
 
 
 In any case, if you follow these steps, you will have a saved set of data in a *.csv* file, hopefully with some meaningful name: 
@@ -410,7 +410,7 @@ To do this, open the [https://data.police.uk/data/](https://data.police.uk/data/
 - In `Data sets` tick `Include crime data`.
 - Finally, click on the `Generate File` button.
 
-This will take you to a download page, where you have to click the `Download now` button. This will open a dialogue to save a *'.zip'* file. Navigate to the working directory folder you created before and save it there. Navigate to the folder again and unzip the file by either double-clicking it, or by using right-clicking, and then click on "extract". Then, open the file in Excel (by double-clicking it).  If you're stuck, here is a guide on how to do it: 
+This will take you to a download page, where you have to click the `Download now` button. This will open a dialogue to save a *'.zip'* file. Navigate to the working directory folder you created before and save it there. Navigate to the folder again and unzip the file by either double-clicking it or by using right-clicking, and then click on "extract". Then, open the file in Excel (by double-clicking it).  If you're stuck, here is a guide on how to do it: 
 
 - [Unzip a file on Mac](https://www.dummies.com/computers/macs/how-to-zip-and-unzip-files-on-your-mac/)
 - [Unzip a file on Windows](https://support.microsoft.com/en-us/help/4028088/windows-10-zip-and-unzip-files)
@@ -425,7 +425,7 @@ You should be looking at one month's worth of crime data from the Metropolitan P
 
 To understand what the variables (columns) in our data mean, we usually look for resources that can tell us about this. A reference guide that tells you what the variables mean is usually called a **code book**, which is essential for both quantitative and qualitative datasets.
 
-Creating data is a gift that keeps on giving, not just for yourself but for others as well. Data collected by researchers is often shared and made available for others to use as well, so that they can explore their own research questions. For example, the [UK Data Service](https://www.ukdataservice.ac.uk/) is a large repository of data where you can sign up and access secondary data to analyse (both quantitative and qualitative). You may have heard of the [Crime Survey for England and Wales](http://www.crimesurvey.co.uk/) or the [Smoking, Drinking and Drug Use among Young People Survey](https://tinyurl.com/bdddmy7a). The data collected by these surveys are online. Many many variables collected about individuals, neighbourhoods, and other units of analysis (to be returned to later) are available to us. Isn't that really cool!? If you want to know what thousands of people replied to the question asking them what the most important issue was to them when they voted in an election, you can find out just by downloading the correct dataset!
+Creating data is a gift that keeps on giving, not just for yourself but for others as well. Data collected by researchers is often shared and made available for others to use as well so that they can explore their own research questions. For example, the [UK Data Service](https://www.ukdataservice.ac.uk/) is a large repository of data where you can sign up and access secondary data to analyse (both quantitative and qualitative). You may have heard of the [Crime Survey for England and Wales](http://www.crimesurvey.co.uk/) or the [Smoking, Drinking and Drug Use among Young People Survey](https://tinyurl.com/bdddmy7a). The data collected by these surveys are online. Many variables collected about individuals, neighbourhoods, and other units of analysis (to be returned to later) are available to us. Isn't that really cool!? If you want to know what thousands of people replied to the question asking them what the most important issue was to them when they voted in an election, you can find out just by downloading the correct dataset!
 
 Some more fantastic examples of qualitative and quantitative datasets can be found on the [Sage Research Methods website](https://methods.sagepub.com/Search/Results?contentTypes=Datasets&disciplines=[3]).
 
@@ -467,18 +467,18 @@ df %>%
 
 
 
-Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a *codebook* (or *data dictionary*) is, and that if you come across a dataset, always make sure to look for the associated *codebook*/ *data dictionary* to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from. 
+Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a *codebook* (or *data dictionary*) is and that if you come across a dataset, always make sure to look for the associated *codebook*/ *data dictionary* to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from. 
 
 
 
 
-Similarly, access to anonymised crime data through [www.police.uk](https://www.police.uk), which you just downloaded, allows us to ask questions about levels of crime in our local area and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions - such as, which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
+Similarly, access to anonymised crime data through [www.police.uk](https://www.police.uk), which you just downloaded, allows us to ask questions about levels of crime in our local area and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions - such as which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same? 
 
 
 To answer these questions, we need **data**. The data you can see above on crimes that fall under GMP between May 2016 and May 2017 can be used to measure crime during this time period in this area. You can access the data dictionary for these data on the police.uk site at [https://data.police.uk/about/#columns](https://data.police.uk/about/#columns). 
 
 
-It is important to always seek out a data dictionary when using data to know what the variables represent. And if you are making your own dataset, then to create a data dictionary to let others (and even your future self) know what your dataset is all about. 
+It is important to always seek out a data dictionary when using data to know what the variables represent. And if you are making your own dataset, then create a data dictionary to let others (and even your future self) know what your dataset is all about. 
 
 
 ## Levels of measurement
@@ -490,17 +490,17 @@ It is important to always seek out a data dictionary when using data to know wha
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number, because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as number of likes, retweets, etc. So we know that a variable is *something that varies*, that you can note about an observation. It's really important to spot what *type* of variables you are using. When we talk about kinds of variables, we begin to talk about **levels of measurement**.
+As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as number of likes, retweets, etc. So we know that a variable is *something that varies*, that you can note about an observation. It's really important to spot what *type* of variables you are using. When we talk about kinds of variables, we begin to talk about **levels of measurement**.
 
 
 
 We can speak about the **level of measurement** of a variable, which refers to whether that variable belongs to the category of *nominal*, *ordinal* or *numeric*. Let's explore what these categories mean.
 
 
-If we set out to collect our own data, we need to make sure that we collect all the variables needed to answer our question, from all the observations that we have. The types of variables we have determine the kinds of questions that we can answer. For example, if we want to ask questions such as the one about the tweets above: "*Which tweet has the highest number of likes?*", we need to have a **numeric** variable. **Numeric** variables let us answer questions about *quantity*. For example, if we want to know the *average number of crimes per month*, we will need a numeric variable of the number of crimes for each month. Just like for the tweets, we had a numeric variable of the *number of likes* for each tweet. Put simply, number questions are answered by **numeric** variables. 
+If we set out to collect our own data, we need to make sure that we collect all the variables needed to answer our question from all the observations that we have. The types of variables we have determine the kinds of questions that we can answer. For example, if we want to ask questions such as the one about the tweets above: "*Which tweet has the highest number of likes?*", we need to have a **numeric** variable. **Numeric** variables let us answer questions about *quantity*. For example, if we want to know the *average number of crimes per month*, we will need a numeric variable of the number of crimes for each month. Just like for the tweets, we had a numeric variable of the *number of likes* for each tweet. Put simply, number questions are answered by **numeric** variables. 
 
 
-You can always refer back to the lecture video, on blackboard, about levels of measurement here if you like!
+You can always refer back to the lecture video on blackboard, about levels of measurement here if you like!
 
 
 ### Activity 5: Levels of measurement pt. 1
@@ -537,10 +537,10 @@ OK, here's your answer:
 So, is this the same as you thought? If yes, nice work! 
 
 
-If you did not get this right, was that because you also selected the **day** and the **hour** variables? If it was, then that is perfect, because that is what we were secretly hoping you would do! But that's not quite correct.
+If you did not get this right, was that because you also selected the **day** and the **hour** variables? If it was, then that is perfect because that is what we were secretly hoping you would do! But that's not quite correct.
 
 
-Why are day and hour **not** numeric variables? After all, they *are* numbers, right? Well, a simple way to think about that is - does it make sense to calculate the average hour in which tweets were sent? If I told you the average hour for GMP tweets is 13.5, is that something meaningful? Or if I told you that the average day is 15? Not hugely. Hour of the day and day of the month, which is what these variables represent, are variables which fall into a different level of measurement. These are **ordinal** variables. What does that mean? Well, the clue is in the name, **ordinal** variables that are not numeric, but they do fall into a *natural order*. 
+Why are day and hour **not** numeric variables? After all, they *are* numbers, right? Well, a simple way to think about that is - does it make sense to calculate the average hour in which tweets were sent? If I told you the average hour for GMP tweets is 13.5, is that something meaningful? Or if I told you that the average day is 15? Not hugely. Hour of the day and day of the month, which are what these variables represent, fall into a different level of measurement. These are **ordinal** variables. What does that mean? Well, the clue is in the name, **ordinal** variables that are not numeric, but they do fall into a *natural order*. 
 
 *Natural order?* What's that? Well, natural order just means that there is a meaningful order in which you can put these variables. You know which comes after which one. For example, you can consider letters of the alphabet to follow a natural order, so common we call it alphabetical order. If I tell you to arrange medium, large, small, you know that what we mean is to put them in this order: small, medium, large. **Ordinal variables** are variables where such a known order exists. 
 
@@ -563,16 +563,16 @@ So, now you know that hour in the day and day in the month are *ordinal* variabl
 ...ready?
  
 
-The other ordinal variable is *Month*. You know that if I say January, February, March, then the value to follow is April, and not November. There is an *order* that these values fall, making *Month* an **ordinal** variable. 
+The other ordinal variable is *Month*. You know that if I say January, February, or March, then the value to follow is April and not November. There is an *order* that these values fall, making *Month* an **ordinal** variable. 
 
 
-What about the others? *Account* and *Tweet*? These are **nominal** variables. These are sometimes also referred to as *qualitative variables*. But you can still carry out quantitative analysis on them. You will very often see **nominal** variables in quantitative analysis. In this case, the *Account* variable tells you who is tweeting, and if you have tweets from many different accounts, for example, if we also looked at \@gmptraffic and \@GMPMcrAirport, we could compare tweets between them. These variables are **nominal** and **not** ordinal because they do not fall into any particular order. You can arrange them in any order, and it would look just as legitimate as any other order. For example, if I say January, February, September, May, August ... you immediately look and see that it is not in its natural order. However, if I say \@gmptraffic, \@GMPMcrAirport, \@GMPCityCentre or \@GMPMcrAirport, \@GMPCityCentre, \@gmptraffic, you don't feel a need to reorder one way or the other. **Nominal** variables have no natural order.
+What about the others? *Account* and *Tweet*? These are **nominal** variables. These are sometimes also referred to as *qualitative variables*. But you can still carry out a quantitative analysis of them. You will very often see **nominal** variables in quantitative analysis. In this case, the *Account* variable tells you who is tweeting, and if you have tweets from many different accounts, for example, if we also looked at \@gmptraffic and \@GMPMcrAirport, we could compare tweets between them. These variables are **nominal** and **not** ordinal because they do not fall into any particular order. You can arrange them in any order, and it would look just as legitimate as any other order. For example, if I say January, February, September, May, August ... you immediately look and see that it is not in its natural order. However, if I say \@gmptraffic, \@GMPMcrAirport, \@GMPCityCentre or \@GMPMcrAirport, \@GMPCityCentre, \@gmptraffic, you don't feel a need to reorder one way or the other. **Nominal** variables have no natural order.
 
 
 Is it starting to make sense? To recap, each variable can fall into measurement levels, and these are **numeric**, **ordinal** or **nominal**. By the way, **ordinal** and **nominal** are also called **categorical** variables because they assign each observation into a *category*. Then, depending on whether the category values can be put in a meaningful order or not, you can tell if it's an *ordinal-categorical* or *nominal-categorical* variable. 
 
 
-Confused? Let's look at this again, but with the crimes data. 
+Confused? Let's look at this again but with the crime data. 
 
 
 
@@ -626,7 +626,7 @@ This dataset is made up of 10 **observations** and 2 **variables**. You might no
 
 
 
-The reason we need to know what type of variable we are dealing with is because this will determine the kinds of analyses we can do to it, further down the line. For example, next week we will talk about summarising data. As discussed above, for a *numeric* variable, we can take the average, and use this to summarise it, whereas for a *categorical* variable, you can't. Think about it if someone asked you, "What is the average gender in the class?" This doesn't make sense. Instead, you would look at proportions. Gender is a *categorical* variable. However, if someone asked you what is the average age in the class, you could easily answer it because age is a *numeric* variable. 
+We need to know what type of variable we are dealing with because this will determine the kinds of analyses we can do on it further down the line. For example, next week we will talk about summarising data. As discussed above, for a *numeric* variable, we can use the average to summarise it, whereas for a *categorical* variable, you can't. Consider it if someone asks you, "What is the average gender in the class?" This doesn't make sense. Instead, you would look at proportions. Gender is a *categorical* variable. However, if someone asked you what is the average age in the class, you could easily answer it because age is a *numeric* variable. 
 
 
 
@@ -812,7 +812,7 @@ Conclusions: The qualitative results of previous crime and place trajectory anal
 
 
 
-But the most important thing here is that you understand what is meant by **unit of analysis**. It is not always the level at which your data is collected. For example, we have the crime data from [police.uk](police.uk), where each row is one measurement. This is called **individual level** unit of analysis. But we can still use that to talk about the number of crimes in boroughs. But for us to be able to do that, we need to convert that into a table where each row is the borough; we need to aggregate up and just count the number of crimes in each one. Therefore this is an **aggregate level** unit of analysis. 
+But the most important thing here is that you understand what is meant by **unit of analysis**. It is not always the level at which your data is collected. For example, we have the crime data from [police.uk](police.uk), where each row is one measurement. This is called **individual level** unit of analysis. But we can still use that to talk about the number of crimes in boroughs. But for us to be able to do that, we need to convert that into a table where each row is the borough; we need to aggregate up and just count the number of crimes in each one. Therefore, this is an **aggregate-level** unit of analysis. 
 
 
 Have a watch of this quick video [here](https://www.youtube.com/watch?v=XHXTR8jeEUg) for some more examples and explanations. 
