@@ -6,16 +6,16 @@
 Much of statistics is about making comparisons. Human beings are not good at sifting through large streams of data; we understand data much better when it is summarized for us. This is true for looking for patterns in both *uni*variate and *bi*variate analysis. As discussed last week with univariate analysis, when presenting descriptive analysis, we often display summary statistics in one of two ways: with tables and figures. 
 
 
-Tables of summary statistics are very common (we already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data, that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know if it is related to another variable. This is where the interesting questions that we can start asking are. 
+Tables of summary statistics are very common (we already created some of these last week) – nearly all published studies in criminology will contain a table of basic summary statistics describing their sample. However, figures offer a visually more appealing interpretation of our data that allows people to easily identify trends from large amounts of information. This is also true for exploring relationships between two variables. In this course we will have a look at ways of producing these visuals (and some tables) that can help you get started in thinking about the relationships between different variables in your data. Not only do we want to be able to summarise one variable, but we want to know if it is related to another variable. This is where the interesting questions that we can start asking are. 
 
 
 For example, here are some criminological papers that explore the relationship between two variables: 
 
 
-- [Do older people have higher fear of crime?](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1989.tb01051.x/full) compares the variables age and worry about crime
+- [Do older people have higher fear of crime?](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-9125.1989.tb01051.x/full) compares the variables of age and worry about crime
 - [Is there a relationship between adolescent drug use and psychological health?](http://psycnet.apa.org/record/1990-22928-001) compares the variable measuring psychological health with drug use in adolescence
-- [Does the design of a street affect the burglary risk of the houses on it?](https://link.springer.com/article/10.1007/s10940-009-9084-8) looks at the variable of design of street, and considers its relationship with increased burglary risk
-- [Does ethnicity affect trust in the police?](http://journals.sagepub.com/doi/abs/10.1177/1098611104271105) looks at the variable of ethnicity, and its relationship with variable measuring trust in the police.
+- [Does the design of a street affect the burglary risk of the houses on it?](https://link.springer.com/article/10.1007/s10940-009-9084-8) looks at the variable of the design of streets and considers its relationship with increased burglary risk
+- [Does ethnicity affect trust in the police?](http://journals.sagepub.com/doi/abs/10.1177/1098611104271105) looks at the variable of ethnicity and its relationship with the variable measuring trust in the police.
 
 
 And so on and so on and so on. You will notice that most of the research questions that criminological research attempts to address are based on comparisons. You want to be able to explore the relationship that one variable has with other variables. That is where exciting new insights come from. We will talk next week about how you can go about identifying what variables to test against each other to be able to answer your research questions, including how to measure these variables or even define them in the first place. But today, we will explore how to go about assessing any *bivariate* (meaning two-way) relationships - relationships between two variables. 
@@ -29,7 +29,7 @@ And so on and so on and so on. You will notice that most of the research questio
     + Crosstabs with pivot tables
     + Stacked column chart
 - Categorical vs. numeric 
-    + Summaries by group with pivot tables
+    + Summaries by a group with pivot tables
 - Numeric v numeric
     + Scatterplot
     + Association, strength, and form of relationship
@@ -53,7 +53,7 @@ Again, all we are doing with a frequency table is counting the number of occurre
 ![](imgs/bivar_freq_table_gif.gif)
 
 
-This two-way frequency table is also called a **cross-tabulation** or **crosstab**. Also, a **contingency table**. We like to give the same thing many names but know that if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
+This two-way frequency table is also called a **cross-tabulation** or **crosstab**. Also, a **contingency table**. We like to give the same thing many names, but know that if you hear any of these terms, people are referring to the frequency table that considers the relationship between **two categorical variables**. 
 
 
 > The table of counts for the various combinations of categories is a contingency table.
@@ -81,7 +81,7 @@ We might be interested in looking at the rate of survival by passengers who were
 To do this, we return to our trusty friend, the pivot table again. But this time, instead of using it to summarise one variable, we can use it to summarise the relationship between two variables. In the same way that the gif above illustrated with gender and the tips example, what this does is it counts the frequency of the combination of each category. But let's see how to do this. 
 
 
-First, just create the pivot table environment to be able to build our pivot table. Just like last week, click into the **Insert** tab and click on **pivot table**:
+First, just create the pivot table environment to build our pivot table. Just like last week, click into the **Insert** tab and click on **pivot table**:
 
 
 
@@ -131,7 +131,7 @@ You can see that we have a frequency table that has the variable of *Class* as t
 You might have noticed one thing that could be bothering you in this table. Do you see it? Discuss in groups what this might be, and take notes. 
 
 
-Do you have some ideas? If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order, it's categorical - ordinal.  
+Do you have some ideas? If not, here is a hint: think back to *levels of measurement*. The "Survived" variable is categorical - nominal. However, the "Class" variable does have an order; it's categorical - ordinal.  
 
 
 Is this reflected in the table above?
@@ -145,10 +145,10 @@ To rearrange, first, you have to think: what is the order in which we need our v
 
 
 
-Let's think about the passengers of the Titanic - we can arrange them according to how much money they paid to be on board. The most money was paid by those travelling First class, followed by Second and Third. We can also think that the least money was paid by the Crew, who were instead given wages to work on board the ship. So the order would be: First > Second > Third > Crew. 
+Let's think about the passengers of the Titanic - we can arrange them according to how much money they paid to be on board. The most money was paid by those travelling First class, followed by Second and Third. We can also think that the least money was paid by the Crew, who were instead given wages to work on board the ship. So the order would be First > Second > Third > Crew. 
 
 
-Now, we can move around the values by right-clicking on their cells, and choosing "Move", and then the appropriate place to move the value.
+Now, we can move around the values by right-clicking on their cells, choosing "Move", and then the appropriate place to move the value.
 
 ![](imgs/rearrange_crew.png)
 
@@ -177,7 +177,7 @@ Then copy over the values from your pivot table, making sure that your rows are 
 
 ### Row percentage, column percentage, or total percentage
 
-You can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident or watched that film with Kate Winslet and Leo DiCaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class, or crew. However, if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
+You can see here the number of people who survived or died on the Titanic, by the class on which they were travelling. Do you see any interesting patterns? If you've heard of the incident or watched that film with Kate Winslet and Leo DiCaprio, then you might be expecting to see more 1st class ticket holders amongst the survivors than 2nd and 3rd class or crew. However, if we look at the number of people who survived, is there a lot of difference? In fact it looks like more crew members survived than did 1st class passengers... 
 
 
 
@@ -200,9 +200,9 @@ Simply put:
 
 In the case of the Titanic survivors data, we might be wondering three things: 
 
-- **row percentage:** what percent of the passengers in 1st class survived vs did not survive?
-- **column percentage:** what percent of the survivors were passengers in 1st class vs 2nd, 3rd class or Crew?
-- **total percentage:** what percent of all passengers were those who were 1st class and survived, 1st class and did not survive, 2nd class and survived, 2nd class and did not survive, etc.
+- **row percentage:** What percent of the passengers in 1st class survived vs did not survive?
+- **column percentage:** What percent of the survivors were passengers in 1st class vs 2nd, 3rd class or Crew?
+- **total percentage:** What percent of all passengers were those who were 1st class and survived, 1st class and did not survive, 2nd class and survived, 2nd class and did not survive, etc.?
 
 
 To calculate each one of these, we need to know each  **row total**, each **column total**, and the **grand total**. In this case, if we look at our data, our rows are represented by the classes, and the columns represent the survival (or not) of passengers (and crew). 
@@ -249,7 +249,7 @@ Now, you can enter the calculation as a formula for each row. Remember, for some
 
 `cell/total*100`
 
-For example, for the Yes percent column for first-class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders and divide it by the cell reference of the total number of first-class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`) or you can do it by highlighting as well. If you're not sure how to do the highlighting approach, raise your hand now, we will come to help!
+For example, for the Yes percent column for first-class passengers, you have to find the cell reference for the cell that represents the number of people who survived and were 1st class ticket holders and divide it by the cell reference of the total number of first-class ticket holders (your row total for this row). You can do this by typing in the reference for each cell (so typing out `C3` and `E3`), or you can do it by highlighting. If you're not sure how to use the highlighting approach, raise your hand now, and we will come to help!
 
 
 But in any case, for the cell that represents the row percentage for the yes survived and first-class combination, you should have the below formula: 
@@ -286,7 +286,7 @@ Row percentages allow you to talk about the percentage of each value in the vari
 
 
 
-But what about column percentages? What do those tell us? Well, just as row percentages tell you about the percent of the *row* values distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values, distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly, it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story from what the row percent says. 
+But what about column percentages? What do those tell us? Well, just as row percentages tell you about the percent of the *row* values distributed across the categories of the *columns*, column percentages tell you about the percent of the *column* values distributed across the categories of the *rows*. In this case, the column percentages would tell us what percent of the survivors were 1st, 2nd, 3rd class or crew. Similarly, it can also tell us what percent of the non-survivors were 1st, 2nd, 3rd class or crew. This is a *slightly* different story from what the row percent says. 
 
 
 
@@ -332,7 +332,7 @@ Very different conclusions, no? All from the same data. The numbers are correct,
 I hope that illustrated a bit how you can calculate your row and column percentages, as well as what they mean and how they help you extract meaning from your data. Usually, you will only display *either* row percentages *or* column percentages, *not both*. You will have to choose which one you think is most appropriate for telling your story. 
 
 
-But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1st class and survivors, or 2nd class and survivors, and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it, we have to tell you... So we won't even bother with them any more. 
+But what about total percentages?!?! The truth is, you will very rarely use these. Total percentages tell you what proportion of all your passengers were 1st class and survivors, or 2nd class and survivors, and so on. They are not frequently used to show relationships between variables. If you want to calculate them, you just have to divide each cell by the grand total (all the passengers) and times that by 100. You can go ahead and try if you want. But you won't really get a lot of insight from it; we have to tell you... So we won't even bother with them any more. 
 
 
 So, which one you use (row or column) is dictated by the question you ask. There's also this YouTube video where the creator switches between row and column percents, which can further illustrate how it makes a difference which one you use: [you can watch the video here](https://www.youtube.com/watch?v=tGVTIrNeWio). 
@@ -344,7 +344,7 @@ If you're still unsure about these, let us know. Raise your hand, and we will co
 ### Decimal places: A note on formatting cells
 
 
-Just before we move on, we quickly want to take a side step and talk about the formatting of cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say, "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived" in terms of their understanding of what that means? In some cases, it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So, what if you wanted to format your results?
+Just before we move on, we quickly want to take a side step and talk about the formatting of cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say, "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases, it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So, what if you wanted to format your results?
 
 
 Well, you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to "Format Cells..."
@@ -384,15 +384,15 @@ Once you click on that, our chart will appear:
 
 
 
-This looks about right, however, you can see that our axes are not properly labeled. Each category is called 1, 2, 3, and 4, instead of 1st class, 2nd class, 3rd class, and crew. So to fix this, you can right-click anywhere in the chart area, and as the little window of options appears, click on **"Select data..."**:
+This looks about right. However, you can see that our axes are not properly labelled. Each category is called 1, 2, 3, and 4, instead of 1st class, 2nd class, 3rd class, and crew. So to fix this, you can right-click anywhere in the chart area, and as the little window of options appears, click on **"Select data..."**:
 
 
 ![](imgs/stacked_col_3.png)
 
-This will open a pop-up window. Again, this may look different on different computers. We will show some options, but what you are after is something labeled **"Horizontal Category Axis Labels"**. You will see this, and here you want to select where the values for your variable along the horizontal axis are (in this case, the values for Class which are First, Second, Third, and Crew)
+This will open a pop-up window. Again, this may look different on different computers. We will show some options, but what you are after is something labelled **"Horizontal Category Axis Labels"**. You will see this, and here you want to select where the values for your variable along the horizontal axis are (in this case, the values for Class, which are First, Second, Third, and Crew)
 
 
-Pop-up window on Mac: 
+A pop-up window on Mac: 
 
 ![](imgs/horizontalcataxislabels.png)
 
@@ -514,15 +514,15 @@ Now take the variable 'reason for arrest', and drag it to the "Row Labels" box. 
 ![](imgs/reason_arr_values.png)
 
 
-You can see here a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
+Here, you can see a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
 
 
-So, answer the following questions for me, without peaking ahead, or checking the data, just in terms of your perceptions of the relationship between age and types of offences committed:
+So, answer the following questions for me, without peaking ahead or checking the data, just in terms of your perceptions of the relationship between age and types of offences committed:
 
 
 - Which reason for arrest do you think has the oldest arrestee?
-- Which reason for arrest for you think has the highest average age of arrestees?
-- Which reason for arrest for you think has the lowest average age of arrestees?
+- Which reason for arrest do you think has the highest average age of arrestees?
+- Which reason for arrest do you think has the lowest average age of arrestees?
 
 
 Take some time to think about this, discuss it in your groups, and write down your guesses. 
@@ -541,7 +541,7 @@ On our pivot table panel, grab the age variable and drag it into the "Values" bo
 
 
 
-Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for the reason of "theft of vehicle". This is very hard to make sense of, and instead, we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
+Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well, if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for the reason of "theft of vehicle". This is very hard to make sense of, and instead, we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
 
 
 
@@ -552,7 +552,7 @@ Well, on the right-hand side of the item "Sum of Age" in the Values box, there i
 
 
 
-If you're on a PC, when you click on the downward arrow this set of options will appear: 
+If you're on a PC, when you click on the downward arrow, this set of options will appear: 
 
 
 ![](imgs/windows_pivot_change_sum.png)
@@ -562,13 +562,13 @@ In this case, select "Value Field Settings..." - this is the same as the steps w
 
 
 
-In the new popup window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default) this is set to sum: 
+In the new popup window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default), this is set to sum: 
 
 
 ![](imgs/set_to_sum.png)
 
 
-Change this to select "Average", like so: 
+Change this to select "Average" like so: 
 
 
 ![](imgs/set_to_avg.png)
@@ -585,7 +585,7 @@ Click OK, and you will see your column updated:
 
 
 
-Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offence", with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value for the reason of offence that you thought would be oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully, you might find these results interesting and therefore get some insight into offender demographics for various crime types. Our youngest average age of offenders appears to be in the category of theft of vehicles. 
+Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offence", with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value of the reason for the offence that you thought would be the oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully, you might find these results interesting and therefore, get some insight into offender demographics for various crime types. Our youngest average age of offenders appears to be in the category of theft of vehicles. 
 
 
 
@@ -593,7 +593,7 @@ Now we have a column that tells us the average age of people arrested for each v
 
 
 
-But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So to add a new column for minimum value, you would drag age and select minimum, like so: 
+But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So, to add a new column for minimum value, you would drag age and select minimum, like so: 
 
 
 ![](imgs/make_min_col.gif)
@@ -647,7 +647,7 @@ So, for every person, we want to check if their value for *reason for arrest* is
 
 
 
-For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate the median age for theft of vehicle. If it is not, we do not. 
+For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it does, then we use that person's age to calculate the median age for theft of a vehicle. If it is not, we do not. 
 
 
 How would you write this in a formula? Well, for assault, we could say something like: 
@@ -719,13 +719,13 @@ Now, finally, you have a median column in your pivot table as well. You can now 
 Remember that we spoke about box plots last week? You had the option of having a go at making one, but we didn't get too much into it. Well that's because the strength of the boxplot lies more in comparing groups, so in other words, in *bi*variate analysis, rather than *uni*variate analysis. 
 
 
-Now to be able to visualise the differences with boxplots, you will need all the 5 elements of the 5 number summary in your table, separated out by all the possible values for reason for arrest. We already have the minimum and the maximum, and the median, but we are missing Q1 and Q3, our first and third quartile. To calculate these, we can use the same approach as we used to calculate the median, by making use of the `IF` function of Excel. Except this time, instead of the `MEDIAN()` function, we use the `QUARTILE()` function. And remember that for the `QUARTILE()` function you also have to add a number at the end, between 0 and 4, indicating if you want the minimum value, the 1st quartile, the median, the 3rd quartile, or the maximum value. 
+Now to be able to visualise the differences with boxplots, you will need all the 5 elements of the 5 number summary in your table, separated out by all the possible values for reason for arrest. We already have the minimum and the maximum, and the median, but we are missing Q1 and Q3, our first and third quartile. To calculate these, we can use the same approach as we used to calculate the median by using the `IF` function of Excel. Except this time, instead of the `MEDIAN()` function, we use the `QUARTILE()` function. And remember that for the `QUARTILE()` function you also have to add a number at the end, between 0 and 4, indicating if you want the minimum value, the 1st quartile, the median, the 3rd quartile, or the maximum value. 
 
 
-So create two new columns, next to where you created the median column, one for Q1, and one for Q3: 
+So create two new columns next to where you created the median column, one for Q1, and one for Q3: 
 
 
-Then you simply amend your formula. So to get the first quartile (Q1) for Assault, you simply put: 
+Then you simply amend your formula. So, to get the first quartile (Q1) for Assault, you simply put: 
 
 
 `=QUARTILE(IF(arrestees_subset.csv!$E$2:$E$19897=A5,arrestees_subset.csv!$B$2:$B$19897),1)`
@@ -741,7 +741,7 @@ and to get the 3rd quartile, you would put:
 
 
 
-Again, a breakdown of what everything in the formula means: 
+Again, here is a breakdown of what everything in the formula means: 
 
 
 ![](imgs/quart_excel_equ.png)
@@ -758,7 +758,7 @@ In the end, you should end up with a table of values just like this:
 Now we have all of our 5 numbers for our 5 number summaries for all of our possible values that the categorical variable *reason for arrest* can take. This is all the information that we need in order to be able to visualise the difference in the numeric variable (age) across the values for the categorical variable (reason for arrest). 
 
 
-So as a first step, you will have to compute some distances between some of our 5-numer summary values.
+So, as a first step, you will have to compute some distances between some of our 5-number summary values.
 We will put each one in a new column. We need: 
 
 - `Q1 - minimum`
@@ -767,7 +767,7 @@ We will put each one in a new column. We need:
 - `maximum - Q3`
 
 
-You can create these with simple mathematical functions in Excel. Remember that you always start a function with `=`, and you can identify cells by either naming them (so typing out `A5`, or by click on them). 
+You can create these with simple mathematical functions in Excel. Remember that you always start a function with `=`, and you can identify cells by either naming them (so typing out `A5`, or by clicking on them). 
 
 
 ![](imgs/calc_stats_for_box.gif)
@@ -777,22 +777,22 @@ You can create these with simple mathematical functions in Excel. Remember that 
 This final group of statistics holds the values you put directly into the box-and-whisker plot. Why is this group necessary?
 
 
-You can turn a Stacked Column chart into a box-and-whisker plot. In a stacked column, each segment’s size is proportional to how much it contributes to the size of the column. In a box-and-whisker box, however, the size of a segment represents a difference between one value and another — like the difference between the quartile and the median, or between the median and the first quartile.
+You can turn a Stacked Column chart into a box-and-whisker plot. In a stacked column, each segment’s size is proportional to how much it contributes to the size of the column. In a box-and-whisker box, however, the size of a segment represents a difference between one value and another — like the difference between the quartile and the median or between the median and the first quartile.
 
 
-So the box is really a stacked column with three segments. The first segment is the first quartile. The second is the difference between the median and the first quartile. The third is the difference between the third quartile and the median.
+So, the box is really a stacked column with three segments. The first segment is the first quartile. The second is the difference between the median and the first quartile. The third is the difference between the third quartile and the median.
 
 
 But wait. Won’t that just look like a column that starts at the x-axis? Not after you make the first segment disappear!
 
 
-The other two differences — between the maximum and the third quartile and between the first quartile and the minimum— become the whiskers. Let's see for ourselves. I've adapted the steps from [statistical Analysis with Excel For Dummies by Joseph Schmuller](http://www.dummies.com/education/math/statistics/box-and-whisker-charts-for-excel/) that make use of these statistics and a stacked bar chart to build your very own boxplots, to compare the distribution of the numeric variable of age across the values for the categorical variable of reason for arrest. 
+The other two differences — between the maximum and the third quartile and between the first quartile and the minimum— become the whiskers. Let's see for ourselves. I've adapted the steps from [Statistical Analysis with Excel For Dummies by Joseph Schmuller](http://www.dummies.com/education/math/statistics/box-and-whisker-charts-for-excel/) that make use of these statistics and a stacked bar chart to build your very own boxplots, to compare the distribution of the numeric variable of age across the values for the categorical variable of the reason for arrest. 
 
 
-So first, highlight the columns for `Q1`, `med-Q1`, and `Q3-med`. You can highlight multiple columns that are not connected to each other by holding down the `cmd` button on a mac, or the *??* button on a PC. 
+So first, highlight the columns for `Q1`, `med-Q1`, and `Q3-med`. You can highlight multiple columns that are not connected to each other by holding down the `cmd` button on a Mac or the *??* button on a PC. 
 
 
-So make sure all 3 columns are highlighted, and then select a stacked column graph from the *Charts* tab on a mac, or *Insert* tab on a PC: 
+So make sure all 3 columns are highlighted, and then select a stacked column graph from the *Charts* tab on a Mac or *Insert* tab on a PC: 
 
 
 ![](imgs/box_step_1.png)
@@ -805,7 +805,7 @@ A chart like this should appear:
 ![](imgs/box_step_2.png)
 
 
-First, let's create the bottom whisker. To do this click on any one of the bottom (blue in the chart above) segments of the stacked bar charts. Then select "Chart Layout" tab, and then on there, click on the "Error Bars" option: 
+First, let's create the bottom whisker. To do this, click on any one of the bottom (blue in the chart above) segments of the stacked bar charts. Then select "Chart Layout" tab, and then click on the "Error Bars" option: 
 
 
 
@@ -821,7 +821,7 @@ Select "Error Bar Options...":
 
 
 
-This will bring up a new popup window. Make sure that the "Error Bars" tab is selected on the left hand side. Then select the "Minus" option under Display, and under "Error amount" tick the button next to "Custom". Once you've done that, click on the button that says "Specify value":
+This will bring up a new popup window. Make sure that the "Error Bars" tab is selected on the left-hand side. Then select the "Minus" option under Display, and under "Error amount", tick the button next to "Custom". Once you've done that, click on the button that says "Specify value":
 
 
 
@@ -829,7 +829,7 @@ This will bring up a new popup window. Make sure that the "Error Bars" tab is se
 
 
 
-This brings up a new window, where you can select the value for the positive and negative error. Leave the positive as it is, and click inside the box next to "Negative Error Value", and then highlight the values in the `Q1-Min' column. Then click OK, like so: 
+This brings up a new window where you can select the value for the positive and negative errors. Leave the positive as it is, click inside the box next to "Negative Error Value", and then highlight the values in the `Q1-Min' column. Then click OK, like so: 
 
 
 ![](imgs/box_step_6.gif)
@@ -837,10 +837,10 @@ This brings up a new window, where you can select the value for the positive and
 
 
 
-This will take you back to the original window, where you just need to click "OK" and you will see the bars appear. 
+This will take you back to the original window, where you just need to click "OK", and you will see the bars appear. 
 
 
-Now you want to take away the background bar so to do this, click on the blue bars again. Make sure that you click on the blue bars, and **not**  the error bars that you just created. When you have highlighted the blue bars, select the "Format" tab, and there you will see an option for "Fill" and "Line". Set the fill to "No fill" and the line to "No line": 
+Now, you want to take away the background bar, so to do this, click on the blue bars again. Make sure that you click on the blue bars and **not**  the error bars that you just created. When you have highlighted the blue bars, select the "Format" tab, and there you will see an option for "Fill" and "Line". Set the fill to "No fill" and the line to "No line": 
 
 
 ![](imgs/box_step_7.png)
@@ -849,13 +849,13 @@ Now you want to take away the background bar so to do this, click on the blue ba
 This should make the blue part disappear. 
 
 
-Alright now let's make the top bar. This time click on the top bar (here in green) and again click on chart layout, error bars, error bar options... :  
+Alright, now let's make the top bar. This time, click on the top bar (here in green) and again click on chart layout, error bars, error bar options... :  
 
 ![](imgs/box_step_8.png)
 
 
 
-This will open the pop up window again. This time select "Plus" under "Display", and again check "Custom" and click on "Specify Value":
+This will open the pop-up window again. This time, select "Plus" under "Display", and again check "Custom" and click on "Specify Value":
 
 
 ![](imgs/box_step_9.png)
@@ -873,20 +873,20 @@ Click on OK, and then again, and you should see the top whiskers appear like so:
 ![](imgs/box_step_11.png)
 
 
-So now you just have to change the formatting on the green and red parts, by clicking on each, and going again into the formatting tab, and selecting "No fill" for fill, and just a black colour for the outline under "Line":
+So now you just have to change the formatting on the green and red parts by clicking on each, going again into the formatting tab, and selecting "No fill" for fill, and just a black colour for the outline under "Line":
 
 
 ![](imgs/box_step_12.png)
 
 
 
-Then, finally you should have a box plot that shows you the distribution of the numeric variable of age across each reason for offence: 
+Then, finally, you should have a box plot that shows you the distribution of the numeric variable of age across each reason for offence: 
 
 
 ![](imgs/box_step_13.png)
 
 
-There is one last step to do though. The labels aren't very meaningful. They are just 1-17. Let's change these to meaningful labels. To do this, click on the labels, and right click, which should make a set of options appear. Click on "select data...":
+There is one last step to take, though. The labels aren't very meaningful. They are just 1-17. Let's change these to meaningful labels. To do this, click on the labels and right-click, which should make a set of options appear. Click on "select data...":
 
 
 ![](imgs/box_step_14.png)
@@ -899,14 +899,14 @@ This will open a new window. Click in the text box next to "Category (X) axis la
 ![](imgs/box_step_15.png)
 
 
-Then click "OK" and ta-daa you have a boxplot comparing the age distribution of people arrested for each one of these offences:
+Then click "OK", and ta-daa, you have a boxplot comparing the age distribution of people arrested for each one of these offences:
 
 
 ![](imgs/box_step_16.png)
 
 
 
-You can see that you tend to get younger arrestees for robbery as well as theft of vehicle. You can also see that the offences with older age groups being more represented are sexual offences, but also drink driving, drunk and disorderly, and also fraud. Of course there is quite a lot of overlap between the categories. 
+You can see that you tend to get younger arrestees for robbery as well as theft of vehicles. You can also see that the offences with older age groups being more represented are sexual offences, but also drunk driving, drunk and disorderly, and fraud. Of course, there is quite a lot of overlap between the categories. 
 
 -->
 
@@ -977,7 +977,7 @@ The graph that initially appears might look something like this:
 
 
 
-You can see that actually, we have the age of first arrest on the x-axis and the number of arrests on the y-axis, as we prefer. If this is not the case, you can change this by right-clicking anywhere on the chart and selecting "Select Data..." on the options that pop up: 
+You can see that we actually have the age of the first arrest on the x-axis and the number of arrests on the y-axis, which we prefer. If this is not the case, you can change this by right-clicking anywhere on the chart and selecting "Select Data..." on the options that pop up: 
 
 
 ![](imgs/scatter_4.png) 
@@ -1052,7 +1052,7 @@ So far, we have visualized relationships between two quantitative variables usin
 
 
 
-Even though the rest of the time we talk about these, we are going to focus only on linear relationships, it is important to remember that not every relationship between two quantitative variables has a linear form. There are several examples of relationships that are not linear. The statistical tools that will be introduced here are appropriate only for examining linear relationships, and as we will see when they are used in nonlinear situations, these tools can lead to errors in reasoning. While we don't require it for this session, if you wanted to read up a bit about identifying linear vs non-linear relationships [here](http://blog.minitab.com/blog/adventures-in-statistics-2/linear-or-nonlinear-regression-that-is-the-question). 
+Even though the rest of the time we talk about these, we are going to focus only on linear relationships, it is important to remember that not every relationship between two quantitative variables has a linear form. There are several examples of relationships that are not linear. The statistical tools that will be introduced here are appropriate only for examining linear relationships, and as we will see, when they are used in nonlinear situations, these tools can lead to errors in reasoning. While we don't require it for this session, if you wanted to read up a bit about identifying linear vs non-linear relationships [here](http://blog.minitab.com/blog/adventures-in-statistics-2/linear-or-nonlinear-regression-that-is-the-question). 
 
 
 But based on our observations, we can say that there appears to be a very weak negative relationship between the age of first arrest and the number of times that someone has been arrested to date in our sample of arrestees interviewed as part of this arrestee survey. And we can support this with our scatterplot as well. 
@@ -1066,7 +1066,7 @@ You may have heard this phrase before - that correlation does not mean causation
 There is an interesting site here that has a lot of **spurious** correlations. Spurious correlations are when there is a strong correlation between two or more variables that are not causally related to each other, yet it may be wrongly inferred that they are due to either coincidence or the presence of a certain third, unseen factor (referred to as a "common response variable", "confounding factor", or "lurking variable"). A good example is the relationship between drownings and ice cream. Ice cream consumption per capita increases at the same rate as people drowning in pools. But if you think about why this might be, we think you might struggle to find a reason why ice cream would cause drownings. But there is something that would cause an increase in both...! And that is the temperature. As temperature increases, particularly in the summer, there are more people outside, buying ice cream, but also more people outside swimming in pools, lakes, and rivers. 
 
 
-Have a listen to this [Ted talk](https://www.youtube.com/watch?v=8B271L3NtAw) which explains better. 
+Have a listen to this [Ted talk](https://www.youtube.com/watch?v=8B271L3NtAw), which explains things better. 
  
 
 
@@ -1090,7 +1090,7 @@ But in other cases, it's much more subtle. And it can happen between variables t
 ## Summary
 
 
-In sum, you should now be able to begin to make comparisons between two variables in your data set and talk about the possible relationships between them, and support (or question) the assumptions that you might have with some evidence. You should be comfortable with the following terms: 
+In sum, you should now be able to begin to compare two variables in your data set, talk about the possible relationships between them, and support (or question) the assumptions you might have with some evidence. You should be comfortable with the following terms: 
 
 - bivariate
 - crosstab (or two-way frequency table or contingency table)
