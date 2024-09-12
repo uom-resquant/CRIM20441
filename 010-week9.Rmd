@@ -48,7 +48,7 @@ When you open the Excel spreadsheet, you will see that there is a column for dat
 But what if we asked you the question: which year had the most residential burglaries? Or what if we want to know if residential burglaries happen more on the weekday when people are at work, or at the weekends, maybe when people are away for a holiday? You have the date, so you should be able to answer these questions, right? 
 
 
-Well you need to be able to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for the year. To know what day of the week has the most burglaries, you need to have a variable for the day of the week. How can we extract these variables from your date column? Luckily, Excel can help us do this. 
+Well, you need to have the right variables to answer these questions. To know what year saw the most residential burglaries, you need to have a variable for the year. To know what day of the week has the most burglaries, you need to have a variable for the day of the week. How can we extract these variables from your date column? Luckily, Excel can help us do this. 
 
 
 ### Activity 9.1: Formatting your dates appropriately 
@@ -512,7 +512,7 @@ Do this, create a pivot table that tells you the frequency of each hour:
 
 
 
-Now highlight the "Total" column, as it represents the number of burglaries in each hour, and this is what you want to graph. Then, from charts, select "Other" and then "Radar":
+Now highlight the "Total" column, as it represents the number of burglaries in each hour, and this is what you want to graph. Then, from Charts, select "Other" and then "Radar":
 
 
 ![](imgs/hr_radar_1.png)
@@ -587,7 +587,7 @@ Then, add the correct labels by clicking on the box next to "Category (X) axis l
 
 
 
-Now, add the weekend burglaries. Do this the same way we added multiple lines last week. You click on the "Add" button, and you put the name in the textbox next to "Name:" and the values in the text box next to the "Y-values" box. This time you can leave "Category (X) axis labels" empty, as it's already populated by the previous series:
+Now, add the weekend burglaries. Do this the same way we added multiple lines last week. You click on the "Add" button, and you put the name in the textbox next to "Name:" and the values in the text box next to the "Y-values" box. This time, you can leave "Category (X) axis labels" empty, as the previous series already populate it:
 
 
 
@@ -654,7 +654,7 @@ Typically, all the rows are one category (labels displayed on the left or right 
 
 A legend is required alongside a Heatmap in order for it to be successfully read. Categorical data is colour-coded, while numerical data requires a colour scale that blends from one colour to another in order to represent the difference in high and low values. A selection of solid colours can be used to represent multiple value ranges (0-10, 11-20, 21-30, etc), or you can use a gradient scale for a single range (for example, 0 - 100) by blending two or more colours together. Refer back to what we learned about colour last week in data visualisation. 
 
-Because of their reliance on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it’s harder to accurately tell the differences between colour shades and to extract specific data points from (unless, of course, you include the raw data in the cells).
+Because of their reliance on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it’s harder to accurately tell the differences between colour shades and to extract specific data points from (unless of course, you include the raw data in the cells).
 
 Heatmaps can also be used to show the changes in data over time if one of the rows or columns is set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities to see where the hottest or coldest places are. The rows could list the cities to compare, the columns contain each month, and the cells would contain the temperature values.
 
@@ -694,7 +694,7 @@ In this case, red is bad because it means more burglaries! Select this colour sc
 ![](imgs/cond_3.png)
 
 
-Now your eyes are immediately drawn to where the high values are, which apparently is Monday to Friday, 7 and 8 AM. We can see that on Saturday and Sunday, even burglars want a lie-in, and therefore you see the green low burglary rate creep up later than on weekdays. Exciting stuff!
+Now your eyes are immediately drawn to where the high values are, which apparently is Monday to Friday, 7 and 8 AM. We can see that on Saturdays and Sundays, even burglars want a lie-in, and therefore, you see the low green burglary rate creep up later than on weekdays. Exciting stuff!
 
 
 Do remember, though, what we learned about colour coding, and make sure you consider your colourblind audiences when presenting such data!
@@ -829,19 +829,19 @@ Evidently, we can use this moving average to tease out signal (what is happening
 
 ### Activity 9.9 Hand calculate the moving average
 
-It is important that you understand the concept of what we are covering, before we move on to the Excel part of things. To de-mystify what we are actually doing, sitting down with a pen and paper and working out what Excel does behind the scenes can really help with this. So, in this activity, we really want you to take time and watch this [video on how to calculate moving averages by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI) and follow along. In your groups, you might want to watch the video together and follow along or individually and discuss afterwards. When you have finished watching, make some notes about what you have just learned.
+It is important that you understand the concept of what we are covering before we move on to the Excel part. To de-mystify what we are actually doing, sitting down with a pen and paper and working out what Excel does behind the scenes can really help with this. So, in this activity, we really want you to take time and watch this [video on how to calculate moving averages by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI) and follow along. In your groups, you might want to watch the video together and follow along or individually and discuss afterwards. When you have finished watching, make some notes about what you have just learned.
 
 
 ### Activity 9.10: Moving average in Excel
 
 
-With the previous activity, we now have the experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So, let's learn how to calculate the moving average in Excel. Initially, we will practice on a smaller data set, in order to help see through the process and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under **Learning Materials > Module 9 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then you can use it to follow the tutorial below.
+With the previous activity, we now have the experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So, let's learn how to calculate the moving average in Excel. Initially, we will practice on a smaller data set in order to help see through the process and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Blackboard under **Learning Materials > Module 9 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then, you can use it to follow the tutorial below.
 
 
-We will be needing the **Data analysis toolpak** for this one, so look back to previous weeks where we used it or all the way back to week 1 when we installed it in case you've forgotten all about this. 
+We will need the **Data analysis toolpak** for this one, so look back to previous weeks where we used it or all the way back to week 1 when we installed it in case you've forgotten all about this. 
 
 
-In our toy data set, someone has collected daily temperature information. The temperature fluctuates both seasonally and with random noise (especially in Manchester...!) so to make sense of the trends in temperature, we want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
+In our toy data set, someone has collected daily temperature information. The temperature fluctuates both seasonally and with random noise (especially in Manchester...!), so to make sense of the trends in temperature, we want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
 
 
 ![](imgs/430314.image0.jpg)
