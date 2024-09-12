@@ -26,7 +26,7 @@ In this session, you’ll learn to interrogate your qualitative data using NVivo
 
 ## ‘Coding’ qualitative data using ‘nodes’
 
-> 'A code in qualitative inquiry is most often a word or short phrase that symbolically assigns a summative, salient, essence-capturing, and/or evocative attribute for a portion of language-based or visual data’
+> 'A code in qualitative inquiry is most often a word or short phrase that symbolically assigns a summative, salient, essence-capturing, and/or evocative attribute for a portion of language-based or visual data.’
 
  - Saldaña (2016) [*The Coding Manual*](https://uk.sagepub.com/en-gb/eur/the-coding-manual-for-qualitative-researchers/book273583) (p. 3)
 
@@ -72,7 +72,7 @@ If it does crash, you should import the transcripts in smaller numbers. Or, impo
 
 ![](imgs/interview_w9.png)
  
-If you double-click on any of the transcripts in the **List Pane**, you’ll be able to see the content in the **Detail Pane**.
+If you double-click on any of the transcripts in the **List Pane**, you can see the content in the **Detail Pane**.
 
 For Mac users, when you import the *GMP Twitter Data*, you can import it as a ‘Dataset’ rather than as ‘Documents’. You’ll first encounter the screen below:
 
@@ -120,7 +120,7 @@ Now, *deductive logic* assumes that we have a predetermined set of codes, ideas 
 *2.	to explore their perceptions of community penalties, developments in these throughout their careers and potential changes in the future;*
 *3.	to examine the role of CPOs as managers and their relationships with central government, local agencies and their probation committees.* 
 
-So we can extrapolate key ideas from these objectives and use them to guide the data's coding. We’ve divided the research objectives into key concepts and organised this in our mind map. Look at our screenshot below and see if you can replicate our work. You might pick a different structure or codes; that’s fine, too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure, too.
+So, we can extrapolate key ideas from these objectives and use them to guide the data's coding. We’ve divided the research objectives into key concepts and organised this in our mind map. Look at our screenshot below and see if you can replicate our work. You might pick a different structure or codes; that’s fine, too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure, too.
 
 You can learn more about creating and editing mind maps in [this YouTube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
 
@@ -207,7 +207,7 @@ So now to the hard work again. But this time, we’ll need to create our nodes, 
 
 Start by clicking on *Dataset 2* in the Data section in the *Navigation Pane*, then double-clicking on the dataset in the *List Pane* to open it up in the Detail Pane. For the coding today, we’re only really interested in the tweets' texts.
 
-Read through the tweets one by one and each time you come across a theme of interest, code it by highlighting it, right-clicking and choosing ‘code selection’ then ‘at new node’. We think the first tweet relates to ‘partnership working’, so this is what we’ve called the node. We’ve now gone on to create more nodes, and some of the text relates to more than one node.
+Read through the tweets one by one, and each time you come across a theme of interest, code it by highlighting it, right-clicking, and choosing ‘code selection’ and then ‘at new node. ' We think the first tweet relates to ‘partnership working’, so this is what we’ve called the node. We’ve now gone on to create more nodes, and some of the text relates to more than one node.
 
 We’ve also started to create a hierarchy of Nodes and Sub-Nodes, as with the ‘Crime Types’ node folder. As you’ll see, we’ve changed the view to make it easier to create new Nodes and code at existing Nodes by dragging and dropping. We’ve also viewed the code stripes on the right-hand side. 
 
@@ -299,7 +299,7 @@ Using the *Query* function, we’ve done a text search for the words **‘Career
 
 ![](imgs/query_nvivo.jpeg)
 
-And then, chose the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
+Then, choose the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
 
 ![](imgs/wordtree.png)
  
