@@ -2,7 +2,7 @@
 
 ## Learning outcomes
 
-This week is the most fun week in all of data analysis - the week where we learn about the principles of data visualisation. The visual display of your data is so important because it allows you to communicate what is interesting in pictures. Simple, neat graphs can tell you, in one glance, what you might have to read many paragraphs of text to learn otherwise. Visualisation is an art and a science, and this week we will explore the work in this area, and hopefully, you will only produce beautiful and meaningful visualisations of your data from now on. 
+This week is the most fun week in all of data analysis - the week where we learn about the principles of data visualisation. The visual display of your data is so important because it allows you to communicate what is interesting in pictures. Simple, neat graphs can tell you, in one glance, what you might have to read many paragraphs of text to learn otherwise. Visualisation is an art and a science, and this week, we will explore the work in this area. Hopefully, you will only produce beautiful and meaningful visualisations of your data from now on. 
 
 Here are some terms that we will cover today: 
 
@@ -23,7 +23,7 @@ A picture is worth a thousand words; when presenting and interpreting data, this
 
 Good graphics not only help researchers make their data easier to understand by the general public, but they are also a useful way to understand the data ourselves. In many ways, it is very often more intuitive to understand patterns in our data than to look at numerical results presented in a tabular form. 
 
-Recent research has revealed that papers which have good graphics are perceived as overall more clear and more interesting, and their authors are perceived as smarter (see [this presentation](https://vimeo.com/181771433)).
+Recent research has revealed that papers with good graphics are perceived as clearer and more interesting overall, and their authors are perceived as smarter (see [this presentation](https://vimeo.com/181771433)).
 
 
 
@@ -58,7 +58,7 @@ sometimes aesthetic.
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-First things first. In order to create effective visualisations, we must learn the **grammar of graphics**. The grammar of graphics is about creating graphs mathematically. Essentially the philosophy behind this is that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms—visual marks that represent data points, and a coordinate system.
+First things first. In order to create effective visualisations, we must learn the **grammar of graphics**. The grammar of graphics is about creating graphs mathematically. Essentially, the philosophy behind this is that all graphics are made up of layers, the idea that you can build every graph from the same few components: a data set, a set of geoms—visual marks that represent data points, and a coordinate system.
 
 Take this example (taken from *Wickham, H. (2010). A layered grammar of graphics. Journal of Computational and Graphical Statistics, 19(1), 3-28.*):
 
@@ -75,7 +75,7 @@ This will result in a final plot:
 ![](imgs/combined.png)
 
 
-Here you see we have built up our visualisation incrementally. In Excel this is a bit backwards, in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so we would encourage you to take a step back, and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
+Here, you see, we have built up our visualisation incrementally. In Excel, this is a bit backwards in that rather than adding the layers, we will have to start by selecting a chart type (which we've been doing thus far), so we would encourage you to take a step back and for each visualisation you produce, try to think, what would the layers look like? That sort of thinking should be used to guide you towards the selection of the appropriate chart and so on. 
 
 
 ## Principles of good data visualisation 
@@ -175,7 +175,7 @@ When to use what chart is mostly up to you, but it is important to justify the c
 Indeed, a lot of people shun the pie chart (see, for example, this blog entry titled ["Death to pie charts"](http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts), but managers have a particular affinity towards it. While these seem emotional and unfair, there is actually a justification for these. People are actually *not* that great at telling proportions from pie charts. If you are interested, have a look at [this study](https://eagereyes.org/blog/2016/a-reanalysis-of-a-study-about-square-pie-charts-from-2009), where researchers found that a square pie chart performs the best when people have to guess the proportion that it represents (also discussed in our recorded lecture videos). 
 
 
-There are other charts as well, which are less popular to hate but in certain situations, may obscure important information. In some cases, bar plots can hide important features of your data and might not be the most appropriate means for comparison. See the below image, for example, where the same data about two groups, green and purple, are visualised using three different methods: a histogram, which shows the green group following a normal distribution and the purple group following a heavily skewed distribution (remember week 5), a boxplot that shows the same, and finally a bar plot, which makes the green and purple group appear identical: 
+There are other charts as well, which are less popular to hate but, in certain situations, may obscure important information. In some cases, bar plots can hide important features of your data and might not be the most appropriate means for comparison. See the below image, for example, where the same data about two groups, green and purple, are visualised using three different methods: a histogram, which shows the green group following a normal distribution and the purple group following a heavily skewed distribution (remember week 5), a boxplot that shows the same, and finally a bar plot, which makes the green and purple group appear identical: 
 
 
 ![](https://pagepiccinini.files.wordpress.com/2016/02/barplot_psa1.jpg)
@@ -194,7 +194,7 @@ There are some recommendations on what to use (and not use) in certain contexts,
 
 We want to create pictures of data that people, including ourselves, can look at and learn from.
 
-However, it is not always enough for you to know the perfect visualisation; it is important that you also know that your audience is comfortable interpreting these types of visualisations. A friend of ours told us once that before she became a lecturer, she worked as a crime analyst. She loves data and was coming out of her education, so she felt very comfortable with statistics and data analysis. However, her lack of real-world experience was evident when she entered her first-ever briefing, with three Chief Inspectors from the Met Police to present them with the work she'd done analysing confidence in the police. Her second slide was a set of boxplots, comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious by the way): 
+However, it is not always enough for you to know the perfect visualisation; it is important that you also know that your audience is comfortable interpreting these types of visualisations. A friend of ours told us once that before she became a lecturer, she worked as a crime analyst. She loves data and was coming out of her education, so she felt very comfortable with statistics and data analysis. However, her lack of real-world experience was evident when she entered her first-ever briefing, with three Chief Inspectors from the Met Police to present them with the work she'd done analysing confidence in the police. Her second slide was a set of boxplots comparing the scores on a public attitudes survey between their sectors. It might have looked something like this (the data is fictitious, by the way): 
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -321,7 +321,7 @@ Now, what does that mean for your colour scheme that you might use? Are you goin
 
 OK, hopefully, you had a discussion here. What did you answer? Did you pick qualitative? We hope not... Did you pick sequential? Good, you recognised there is an order that should be visualised. Did you pick Divergent? Also, it's good that you decided that you want to balance agreement vs disagreement! 
 
-But wait, why is there more than one right answer?? Well **it depends** on how we interpret our values for our variable. We know this is a categorical ordinal variable, as there is an order from most to least agreement. However, there is a middle point. We might say that what we want is a completely positive perception of police effectiveness. In that case, we are happy when people answer 'Strongly agree', so we will pick this as our strongest saturation of a sequential palette, and anything less than this is an issue to be remedied. In that case, the answer 'neither agree nor disagree' is not a neutral outcome because it's someone who isn't convinced of the effectiveness of the police. 
+But wait, why is there more than one right answer?? Well **it depends** on how we interpret our values for our variable. We know this is a categorical, ordinal variable, as there is an order from most to least agreement. However, there is a middle point. We might say that what we want is a completely positive perception of police effectiveness. In that case, we are happy when people answer 'Strongly agree', so we will pick this as our strongest saturation of a sequential palette, and anything less than this is an issue to be remedied. In that case, the answer 'neither agree nor disagree' is not a neutral outcome because it's someone who isn't convinced of the effectiveness of the police. 
 
 On the other hand, you might think that any agreement is good and any disagreement is bad. In that case, the neither agree nor disagree represents a neutral middle ground, and in that case, you would want your colour scheme to reflect that by having a neutral middle point, and you choose a divergent scale. 
 
@@ -359,7 +359,7 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 - Byte 3: blue value (colour type blue)
 
 
-Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and HTML customisation. We guess a potentially more relevant venue would be Tumblr, if any of you use this and want to customise your pager, [you can use HTML to do this](https://www.tumblr.com/docs/en/custom_themes). Now, you don't need to do this at all, but you should now know that if you want to change the colour of something, you need to know the hex code for this colour. And this is what Colourbrewer is telling you above. 
+Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and HTML customisation. We guess a potentially more relevant venue would be Tumblr; if any of you use this and want to customise your pager, [you can use HTML to do this](https://www.tumblr.com/docs/en/custom_themes). Now, you don't need to do this at all, but you should now know that if you want to change the colour of something, you need to know the hex code for this colour. And this is what Colourbrewer is telling you above. 
 
 
 If you want the three colours you see there, you must use the codes `#ffeda0`, `#feb24c`, `#f03b20`. 
@@ -390,10 +390,10 @@ Open the data in Excel and have a look at it. You can see that it includes the n
 Well, think about this - where do you expect more pickpocketing incidents, outside Piccadilly Station or in Platt Fields Park? Why? 
 
 
-Our guess is that you said Piccadilly Station because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because as a percentage, the crime might not actually be increasing at all. So, instead, we consider the population. 
+Our guess is that you said Piccadilly Station because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing because as a percentage, the crime might not actually be increasing at all. So, instead, we consider the population. 
 
 
-But is the population increasing? Well, lets create a column graph of the population. 
+But is the population increasing? Well, let's create a column graph of the population. 
 
 
 To do this, select the *Population* column and choose the clustered column graph option: 
@@ -403,7 +403,7 @@ To do this, select the *Population* column and choose the clustered column graph
 
 
 
-You can see however that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer whether the population changes between the years. 
+You can see, however, that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer whether the population changes between the years. 
 
 
 
@@ -497,7 +497,7 @@ Enter those values in the pop-up window that appears:
 
 
 
-In this case we don't have a stacked bar, we just have the one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later, in the more complex graphs. Your decisions about color will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest, and can really make a difference to your graph. You are welcome to use the Excel default colours in your graphs within this course, but if you're interested in learning more about colour have a look [at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
+In this case, we don't have a stacked bar; we just have one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later in the more complex graphs. Your decisions about colour will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest and can really make a difference to your graph. You are welcome to use the Excel default colours in your graphs within this course, but if you're interested in learning more about colour, have a look [at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
 
 
 ## Reading between the lines (points) 
@@ -625,7 +625,11 @@ If you change your font, and also your font size, you should make sure to apply 
 
 
 
-The other bit of information you're providing here that doesn't really have much meaning attached to it here is colour. What does the blue in the bars mean? And why is there a gradient? Why are the bars lighter blue on the top, and darker blue on the bottom? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers to!
+The other bit of information you're providing here that doesn't have much meaning attached is colour. What does the blue in the bars mean? Is there a gradient on the colour of your graph? Why? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers!
+
+You can change the aspect of your chart. If you click on your chart, two tabs will become available at the top, "Chart Design" and "Format", along with the window on the right side of Excel. These can be used to format your grpahs. Explore these options and see if you can improve the way your graph looks.
+
+<!--And why is there a gradient? Why are the bars lighter blue on the top and darker blue on the bottom? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers to!
 (actually on the PC there might not be a gradient, but on a Mac there is, and just in case, it's good to note this). 
 
 
@@ -656,17 +660,14 @@ Once you are done with all this, you can click on "OK" and you will have your fi
 ![](imgs/final_bar.png)
 
 
-
-
-
-Ta-daaa. Is this the best graph to answer our question? Well you could explore a few more, and see what happens. 
+Ta-daaa. Is this the best graph to answer our question? Well you could explore a few more, and see what happens. -->
 
 ### Activity 8.5: Let's never make a pie chart again
 
 How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well, there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
 
 
-Once again, select the column you're interested in , which is the rate of violent crimes. Now, instead of choosing a column chart, choose a pie chart as your visualisation strategy. 
+Once again, select the column you're interested in, which is the rate of violent crimes. Now, instead of choosing a column chart, choose a pie chart as your visualisation strategy. 
 
 
 Now how does that look? Is it something like this: 
@@ -687,10 +688,10 @@ How about from a donut chart:
 
 
 
-Not really, eh? Well, it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best, and which one best helps you tell your story, and answer the question you are asking, and align with the 5 principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
+Not really, eh? Well, it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best and which one best helps you tell your story and answer the question you are asking, and align with the five principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
 
 
-For example, to answer our question *What year had the highest violent crime rate?*, we could have just as well used a bar graph, as a column graph. A bar graph is basically a column graph on it's side:
+For example, to answer our question *What year had the highest violent crime rate?* we could have just as well used a bar graph as a column graph. A bar graph is basically a column graph on its side:
 
 
 ![](imgs/bar_same_col.png)
@@ -705,13 +706,13 @@ For example, to answer our question *What year had the highest violent crime rat
 We'll be talking about changes over time and trends next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, this time we are interested in a new question:
 
 
-- **Is violent crime rate going up, going down, or staying the same?**
+- **Is the violent crime rate going up, going down, or staying the same?**
 
 
-We could, in theory, answer this question by looking at our bar graphs above. But the slight difference is, bar graphs are good at comparing **categories**. But what they don't do, is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not hugely link.
+We could, in theory, answer this question by looking at our bar graphs above. But the slight difference is bar graphs are good at comparing **categories**. But what they don't do is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not hugely link.
 
 
-However, those of you still on top of your *levels of measurement* will have noticed, that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation by being presented through a *line graph*. 
+However, those of you still on top of your *levels of measurement* will have noticed that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation by being presented through a *line graph*. 
 
 
 To select this, once again highlight the column with the data of interest (violent crime rate) and then this time select Line > Line for chart type: 
@@ -721,14 +722,14 @@ To select this, once again highlight the column with the data of interest (viole
 
 
 
-Once again you will see that your x-axis labels are not very helpful, they are numbersfrom 1 to 20, rather than labelled with the years that each data point represents. To address this, once again right-click anywhere in the chart, and select the "Select Data..." option: 
+Once again, you will see that your x-axis labels are not very helpful; they are numbers from 1 to 20 rather than labelled with the years that each data point represents. To address this, once again right-click anywhere in the chart and select the "Select Data..." option: 
 
 
 
 ![](imgs/desc_line_2.png)
 
 
-In the popup, once again click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values, and not also the column header: 
+In the popup, once again, click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values and not also the column header: 
 
 
 ![](imgs/desc_viz_4.png)
@@ -745,7 +746,7 @@ When you click OK, the labels should appear on your chart:
 
 
 
-You don't always have to manually change the bits of the graph, you can also use some pre-created layouts that exist. You can find this in the top bar of excel, under a label called "Chart Quick Layouts": 
+You don't always have to manually change the bits of the graph; you can also use some pre-created layouts that exist. You can find this in the top bar of Excel, under "Chart Design" -> "Quick Layout": 
 
 
 
@@ -753,16 +754,16 @@ You don't always have to manually change the bits of the graph, you can also use
 
 
 
-Again, a difference on the PC: When editing the line graph, there is not a heading called "Chart Quick Layouts". Instead, you can find the options for different layouts under the **"Chart tools"** section and the tab called **"Design"**. 
+<!--Again, a difference on the PC: When editing the line graph, there is not a heading called "Chart Quick Layouts". Instead, you can find the options for different layouts under the **"Chart tools"** section and the tab called **"Design"**. 
 
 
-![](imgs/pc_chart_tools.png)
+![](imgs/pc_chart_tools.png)-->
 
 
 You can browse through and select one that looks like something you would like. 
 
 
-Once you pick a quick chart format, you can still make edits to your graphs. For example, you can double click on the line to make another popup window appear. 
+Once you pick a quick chart format, you can still make edits to your graphs. For example, you can double-click on the line to make another popup, or on the right-hand side, a window will appear - "Format Data Series". 
 
 
 On this new window, you can click on "Line" option, and choose the colour you would like for the line. 
@@ -772,7 +773,7 @@ On this new window, you can click on "Line" option, and choose the colour you wo
 
 
 
-You can also see 3 options along the topic there, where you can choose between whether you want to edit the line etc, under the "Solid" option, but also change gradients under the "Gradient" option, and also edit the style of the line using the "Weights & Arrows" option. Click on this, and have a play with this as well: 
+You can also see several options along the topic there, where you can choose between whether you want to edit the line etc, under the "Solid" option, but also change gradients under the "Gradient" option, and also edit the style of the line using the "Weights & Arrows" option. Click on this, and have a play with this as well: 
 
 ![](imgs/desc_line_type.png)
 
@@ -784,9 +785,9 @@ Again these might be slightly different on your version, or on a PC to a mac. Fo
 ![](imgs/pc_line_2.png)
 
 
-![](imgs/pc_edit_line.png)
+<!-- ![](imgs/pc_edit_line.png) -->
 
-You can also add point markers to the line, this can help add clarity to your graph. Select the "Marker Style" option and you can choose a marker.
+You can also add point markers to the line. This can help add clarity to your graph. Select the "Marker Style" option and choose a marker.
 
 
 ![](imgs/desc_line_markers.png)
@@ -801,10 +802,10 @@ On PC:
 
 
 
-![](imgs/pc_edit_marker.png)
+<!--![](imgs/pc_edit_marker.png)-->
 
 
-Make any changes you would like, and finally click "OK" to produce your final graph. 
+Make any changes you would like, and produce your final graph. 
 
 
 ![](imgs/desc_line_final.png)
@@ -816,10 +817,10 @@ Make any changes you would like, and finally click "OK" to produce your final gr
 ### Activity 8.7: Making a chart template
 
 
-Now you will probably find your own style for a graph, and you might not want to change these settings every time you create a graph. Let's say we want to create a separate graph for the rates of various crime types in this data. To make our lives easier, once we've gotten one graph to look just how we would like, we can save this as a template. 
+Now, you will probably find your own style for a graph, and you might not want to change these settings every time you create a graph. Let's say we want to create a separate graph for the rates of various crime types in this data. To make our lives easier, once we've gotten one graph to look just how we would like, we can save this as a template. 
 
 
-To do this, click anywhere in the graph, and select "Save as Template...". 
+To do this, right-click anywhere in the graph and select "Save as Template...". 
 
 
 
@@ -827,11 +828,11 @@ To do this, click anywhere in the graph, and select "Save as Template...".
 
 
 
-On a PC you won't have this option appear from the right-clicked menu, but you can find the "Save As Template" on the Chart tools > Design tab on the top menu in Excel: 
+<!--On a PC you won't have this option appear from the right-clicked menu, but you can find the "Save As Template" on the Chart tools > Design tab on the top menu in Excel: 
 
 
 ![](imgs/pc_save_template.png)
-
+-->
 
 
 
@@ -848,30 +849,32 @@ On PC:
 
 ![](imgs/pc_save_template_3.png)
 
-Now, next time you build a graph you can use this template. Let's try, let's create another line graph this time for the rate of murder and nonnegligent manslaughter. So as you would, select the column with the data for rate of murder and nonnegligent manslaughter:
+Next time you build a graph, you can use this template. Let's try. Let's create another line graph, this time for the rate of murder and nonnegligent manslaughter. So, as you would, select the column with the data for the rate of murder and nonnegligent manslaughter:
 
 
 
 ![](imgs/select_mm_col.png)
 
 
-but instead of selecting Line graph, click on the "Other" option for graphs, and scroll to the bottom. You should see your template appear as one of the possible selections!
+But instead of selecting Line graph, click on the "Other" option for graphs and scroll to the bottom. You should see your template appear as one of the possible selections!
 
 
 ![](imgs/choose_template.png)
 
 
-Again on the PC this is slightly different, you first create your graph with the line graph, and then when it's created, you right click anywhere in the chart and choose: 
+On a PC, go to "Insert" -> "Charts" and press the downward pointing arrow in the corner; a window will pop up; from there, select "All Charts" -> "Templates" and select the template you saved.  
+
+
 
 
 ![](imgs/pc_apply_template.png)
 
 
-Then go to templates, and choose "My templates":
+<!--Then go to templates, and choose "My templates":
 
 
 ![](imgs/pc_my_templates.png)
-
+-->
 
 Click on the template, then click OK, and you should have your graph be updated to the new template. 
 
@@ -886,7 +889,7 @@ You can now see that the default chart that appears follows the formatting that 
 When you are making your reports, there are two ways you can include your graph. 
 
 
-One approach is just to save your graphs as pictures. To do this, you can just right click anywhere in the graph area, and select the "Save as picture..." option. 
+One approach is just to save your graphs as pictures. To do this, you can just right-click anywhere in the graph area, and select the "Save as picture..." option. 
 
 
 ![](imgs/save_as_pic.png)
@@ -902,17 +905,17 @@ Navigate to a folder where you collect your results, and save the image there.
 Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a Word document. If you want to save it as an image from there, you must make sure to paste as picture (right click, paste as picture) and then, if you want, you can right click your pasted graph (in Word) and from there select "Save as picture". This way you will save your png of your graph into a folder, and you can insert it into future reports. 
 
 
-Then when you are writing your essay, you can insert an image using the Insert > Picture from file option: 
+Then, when you are writing your essay, you can insert an image using the Insert > Picture from file option: 
 
 ![](imgs/find_pic.png)
 
-This will open up a popup window you can use to navigate to the picture you just saved, and selecting it. When you are done, click "OK", and your graph will appear :
+This will open up a popup window you can use to navigate to the picture you just saved and select it. When you are done, click "OK", and your graph will appear :
 
 
 ![](imgs/inserted_graph.png)
 
 
-It is important that you label your graphs. You should include a short and to-the-point caption for the graph. You should also refer to the graph in your writing. Something like this: 
+It is important that you **label your graphs**. You should include a short and to-the-point caption for the graph. You should also refer to the graph in your writing. Something like this: 
 
 
 ![](imgs/ref_and_caption.png)
@@ -928,13 +931,13 @@ While we only covered descriptive analysis for univariate and bivariate analysis
 Let's show an example now. 
 
 
-In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and also murder and nonnegligent manslaughter, but there is also robbery, aggravated assault, burglary, and some more. Let's say that we want to compare the trajectories of all these variables over the years, over time. 
+In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and murder and nonnegligent manslaughter, but there is also robbery, aggravated assault, burglary, and some more. Let's say that we want to compare the trajectories of all these variables over the years, over time. 
 
 
 You can start with a simple line graph for one of the variables. Let's select the violent crime rate, and build a line chart for this variable. You should be able to do this by now without guidance, but if you need assistance, just scroll up to where we did this earlier. 
 
 
-Now once you've created this graph, right-click anywhere on the chart itself, and select the "Select Data..." option: 
+Now, once you've created this graph, right-click anywhere on the chart itself and select the "Select Data..." option: 
 
 
 
@@ -942,14 +945,14 @@ Now once you've created this graph, right-click anywhere on the chart itself, an
 
 
 
-In the popup that appears, under the series box, click on the "Add" button:
+In the popup that appears under the series box, click on the "Add" button:
 
 
 
 ![](imgs/comp_c_2.png)
 
 
-Once you clicked on the "Add" button, the field for "Name" and "Y values" should appear empty. Click in the text box next to name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate":
+Once you click on the "Add" button, the fields for "Name"/ "Series name" and "Y values"/ "Series values" should appear empty. Click in the text box next to name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate":
 
 
 
@@ -989,7 +992,7 @@ Finally, when you have added all these variables, click on OK, make any changes 
 You could also create a stacked column chart, that shows you the cumulative crime rate in each year, while separating out for categories, using all the same variables. 
 
 
-Again, start with building a column chart for just one of the variables. Let's build this for rate of violent crimes: 
+Again, start with building a column chart for just one of the variables. Let's build this for the rate of violent crimes: 
 
 
 ![](imgs/stackedbar_1.png)
@@ -1014,7 +1017,7 @@ And again, this will bring up a popup. Here, once again, you can add variables w
 
 
 
-Once you click on the "Add" button, the fields for "Name" and "Y values" should appear empty. Click in the text box next to "Name", and then click on the column header (variable name) for the next variable. Select the "Robbery Rate" column header. Then click in the text box next to "Y values",  and then select the values for robbery rate: 
+Once you click on the "Add" button, the fields for "Series name" and "Series values" should appear empty. Click in the text box next to "Series name", and then click on the column header (variable name) for the next variable. Select the "Robbery Rate" column header. Then click in the text box next to "Series values",  and then select the values for robbery rate: 
 
 
 
@@ -1022,10 +1025,10 @@ Once you click on the "Add" button, the fields for "Name" and "Y values" should 
 
 
 
-Then, repeat this for every variable you want to add. For every variable, click on "Add", then for "Name", select the column header, and for "Y values", select the values for that variable. So in this case, again as we did for the line graphs, repeat this for "Aggravated Assault Rate" and again for "Burglary Rate": 
+Then, repeat this for every variable you want to add. For every variable, click on "Add", then for "Series name", select the column header, and for "Series values", select the values for that variable. So in this case, again as we did for the line graphs, repeat this for "Aggravated Assault Rate" and again for "Burglary Rate": 
 
 
-![](imgs/comp_c_5.png)
+![](imgs/comp_c_5_pc.png)
 
 
 Then, finally, you should end up with a stacked bar chart of all these variables that allows you to compare the rate of each crime type between years but also allows you to compare a cumulative crime rate if you consider the crimes of Violent crimes, Robbery, Assault, and Burglary together: 
