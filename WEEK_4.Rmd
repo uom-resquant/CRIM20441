@@ -140,7 +140,7 @@ You should end up with the average height for 6 different samples of your 300 pe
 Now, this is interesting. Depending on which sample you end up with, you get a different **sample statistic** for the mean. With only one of the samples, you would use that sample statistic to make inferences about the population parameter. So, if you ended up with sample 1, you would assume the average height is 169.7 centimetres. On the other hand, if you ended up with sample 5, you would say the average height is 173.1 centimetres. 
 
 
-Well, in our special case, we can know the population parameter. To get this, simply get rid of your filters so you have all 300 observations, and get the average for these. I'll let you figure out yourself how to do this. Add it as a row in our table of averages under the "sample 6" average. 
+Well, in our special case, we can know the population parameter. To get this, simply get rid of your filters so you have all 300 observations and get the average for these. I'll let you figure out how to do this yourself. Add it as a row in our table of averages under the "sample 6" average. 
 
 
 So... did you get it? 
@@ -181,7 +181,7 @@ If you're still unsure, [this video may help](https://www.youtube.com/watch?v=ag
 
 
 
-This might not seem obvious at first, but really, it's something that you probably already use in your everyday life. Think about when you are visiting a new city, and you are looking to find a nice place to eat. You might use Tripadvisor. Or Yelp. In case you're not familiar with them, these are review sites where people can give a star rating (usually out of 5) to an establishment, and then others looking to visit these venues can see what ratings others have given them. You probably have used something like this when you are exploring a new part of town or in an area you might be unfamiliar with. And chances are, you refer to the law of large numbers when deciding where to eat. Take this example. You come across the below reviews: 
+This might not seem obvious at first, but really, it's something that you probably already use in your everyday life. Think about when you are visiting a new city and you are looking to find a nice place to eat. You might use Tripadvisor. Or Yelp. In case you're not familiar with them, these are review sites where people can give a star rating (usually out of 5) to an establishment, and then others looking to visit these venues can see what ratings others have given them. You probably have used something like this when you are exploring a new part of town or in an area you might be unfamiliar with. And chances are, you refer to the law of large numbers when deciding where to eat. Take this example. You come across the below reviews: 
 
 
 ![](imgs/review_1.png)
@@ -215,7 +215,7 @@ So, how tall can Alice be? Alice can be any height we want. Pick a number for Al
 `(195 + 185 + 156 + 200 + X) / 5 = 172`
 
 
-From your days of maths this might look familiar, but even if it does not, you should be able to know that this equation only has one solution. X can only be one value. Because we *know* what the final average will be, and because we could freely choose the heights of the first 4 people, the 5th height is restricted (in this case, it will have to be 124cm, so Daniel is the shortest in our sample). Therefore, we are only *free* to choose the first 4 heights, which is our sample *minus 1*. Our degrees of freedom are sample *minus 1*.  As degrees of freedom refer to the number of independent ways by which a dynamic system can move without violating any constraint imposed on it, this is why it is called the number of degrees of freedom. In other words, the number of degrees of freedom can be defined as the minimum number of independent coordinates that can specify the position of the system completely. As illustrated above, in this case, that is the sample size minus one. 
+From your days of maths this might look familiar, but even if it does not, you should be able to know that this equation only has one solution. X can only be one value. Because we *know* what the final average will be, and because we could freely choose the heights of the first 4 people, the 5th height is restricted (in this case, it will have to be 124cm, so Daniel is the shortest in our sample). Therefore, we are only *free* to choose the first 4 heights, which is our sample *minus 1*. Our degrees of freedom are sample *minus 1*. As degrees of freedom refer to the number of independent ways by which a dynamic system can move without violating any constraint imposed on it, this is why it is called the number of degrees of freedom. In other words, the number of degrees of freedom can be defined as the minimum number of independent coordinates that can specify the position of the system completely. As illustrated above, in this case, that is the sample size minus one. 
 
 
 So when you are calculating the standard deviation for *the population*, you divide by the degrees of freedom rather than by the number of observations in your sample. This is the difference between the StdDev and StdDevp functions in Excel to calculate your standard deviation. 
@@ -248,7 +248,7 @@ To really demonstrate this, it's a good idea for you to have a go at conceptuali
 
 Imagine you are about to embark on a study of *hate speech*. This is a growing area of research interest in criminology, and some criminologists have used X (Twitter) data to [analyse radicalisation towards the alt right](https://www.washingtonpost.com/news/the-intersect/wp/2016/09/26/these-charts-show-exactly-how-racist-and-radical-the-alt-right-has-gotten-this-year/?noredirect=on&utm_term=.aeb311ab060c). Let's say we want to carry out a similar study. 
 
-You have some Twitter data, which includes 100,000 tweets, and you want to be able to select which one of these tweets includes hate speech and which one does not. For you to be able to carry out this research and be transparent about it as well, ensuring the reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working within your groups, conceptualise hate speech. Write down your conceptualisation of hate speech - how you define hate speech for the purposes of your study. When you have your concept ready, talk it over, and ensure that this is a comprehensive definition you are all happy with. 
+You have some Twitter data, which includes 100,000 tweets, and you want to be able to select which one of these tweets includes hate speech and which one does not. For you to be able to carry out this research and be transparent about it as well, ensuring the reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working within your groups, conceptualise hate speech. Write down your conceptualisation of hate speech - how you define hate speech for the purposes of your study. When you have your concept ready, talk it over and ensure that this is a comprehensive definition you are all happy with. 
 
 
 
@@ -288,7 +288,7 @@ If you did, that is very impressive. If you did not, don't despair; hate speech 
 
 One study looking at hate speech is [Burnap, P., & Williams, M. L. (2016). Us and them: identifying cyber hate on Twitter across multiple protected characteristics. EPJ Data Science, 5(1)](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0072-6). They defined hate speech to include the following: 
 
-> "Text that is offensive or antagonistic in terms of race ethnicity/sexual orientation/disability"
+> "Text that is offensive or antagonistic in terms of race ethnicity/sexual orientation/disability."
 
 By this definition, they may include the above tweets. However, in their conceptualisation of hate crime, they are explicit about not only what is included but what may be excluded from their concept: 
 
@@ -332,7 +332,7 @@ One approach could be to conceptualise hate speech as an **indirectly observable
 
 
 
-However, if you were surveying individuals only about each tweet and were interested in what certain people class as hate speech or not hate speech, you might want to consider a more complex assessment. You might conceptualise something as hate speech as something that evokes a variety of emotions from people, and you might want to ask about all these measures in separate questions to make sure that you are really tapping into what hate crime means to people. In this case, you would be conceptualising hate speech as a **construct**. If you recall from the reading (or above), *constructs are theoretical creations that are based on observations but that cannot be observed directly or indirectly. Concepts such as compassion and prejudice are constructs created from your conception of them, our conception of them, and the conceptions of all those who have ever used these terms. They cannot be observed directly or indirectly because they don't exist. We made them up.* Constructs are usually complex and not easily measured with a single item. Instead, we tend to approach them by measuring their many indicators and assembling the responses to those to create a measure that is more reliable and less prone to random measurement errors than single-item measures since a single item often cannot discriminate between fine degrees of an attribute. So, if you have conceptualised hate crime as something more abstract and complex, and therefore a construct, that would mean you would have to measure it differently than the example given in the paper above. In the next section, we'll explore exactly how conceptualisation affects measurement. 
+However, if you were surveying individuals only about each tweet and were interested in what certain people class as hate speech or not hate speech, you might want to consider a more complex assessment. You might conceptualise something as hate speech as something that evokes a variety of emotions from people, and you might want to ask about all these measures in separate questions to make sure that you are really tapping into what hate crime means to people. In this case, you would be conceptualising hate speech as a **construct**. If you recall from the reading (or above), *constructs are theoretical creations that are based on observations, but that cannot be observed directly or indirectly. Concepts such as compassion and prejudice are constructs created from your conception of them, our conception of them, and the conceptions of all those who have ever used these terms. They cannot be observed directly or indirectly because they don't exist. We made them up.* Constructs are usually complex and not easily measured with a single item. Instead, we tend to approach them by measuring their many indicators and assembling the responses to those to create a measure that is more reliable and less prone to random measurement errors than single-item measures since a single item often cannot discriminate between fine degrees of an attribute. So, if you have conceptualised hate crime as something more abstract and complex, and therefore a construct, that would mean you would have to measure it differently than the example given in the paper above. In the next section, we'll explore exactly how conceptualisation affects measurement. 
 
 
 
@@ -343,7 +343,7 @@ However, if you were surveying individuals only about each tweet and were intere
 
 
 
-> In science, we use measurement to make accurate observations. All measurement must begin with a classification process—a process that in science is carried out according to systematic criteria. This process implies that we can place units of scientific study in clearly defined categories. The end result of classification is the development of variables.
+> In science, we use measurement to make accurate observations. All measurements must begin with a classification process—a process that is carried out according to systematic criteria in science. This process implies that we can place units of scientific study in clearly defined categories. The end result of classification is the development of variables.
 
 - *Chapter 2 Statistics in Criminal Justice - David Weisburd, Chester Britt*
 
@@ -366,7 +366,7 @@ Think back to some of the studies you might be learning about in your other cour
 For example, in this paper by Tom R. Tyler about [ethnic group differences in trust and confidence in the police](http://journals.sagepub.com/doi/abs/10.1177/1098611104271105), if you find the *method* section, you will see a brief discussion of the sample, followed by a list of the concepts of interest (which will be the variables in the analysis, if you skip ahead to results, you will see this), and a description of how they were measured. For example, these are a few listed: 
 
 
-- *Cooperation with the police*: People responded to three questions which asked: “How likely would you be to call the police to report a crime that was occurring in your neighborhood?” “How likely would you be to help the police to find someone suspected of committing a crime by providing them with information?” “How likely would you be to report dangerous or suspicious activities in your neighborhood to the police?”
+- *Cooperation with the police*: People responded to three questions: “How likely would you be to call the police to report a crime that was occurring in your neighborhood?” “How likely would you be to help the police to find someone suspected of committing a crime by providing them with information?” “How likely would you be to report dangerous or suspicious activities in your neighborhood to the police?”
 - *Cooperation with the community*: People responded to three questions, which asked the following: “How likely would you be to volunteer your time on nights or weekends to help the police in your community?” “How likely would you be to volunteer your time on nights or weekends to patrol the streets as part of a neighborhood watch program?” “How likely would you be to volunteer your time on nights or weekends to attend a community meeting to discuss crime in your community?”
 
 
@@ -515,7 +515,7 @@ $=(B2-AVERAGE(B:B))/STDEVP(B:B)$
 If any one of these steps doesn't quite make sense, raise your hand now and ask us to explain!
 
 
-Now, create a column called "z-score" and populate it with the z-scores of each individual's height, using the formula above. You should end up with something like this: 
+Now, create a column called "z-score" and populate it with the z-scores of each individual's height using the formula above. You should end up with something like this: 
 
 
 
@@ -564,7 +564,7 @@ When you are done, you should have three columns for z-scores, one for favourite
 
 
 
-Now, you can use these z-scores to calculate an average between them, which will give you your measure for your composite variable. To take the average of 3 values, you can just use the `=AVERAGE()` formula and highlight the columns from which you want to use the values to calculate the average from. In this case, the new z-score values you've just created: 
+Now, you can use these z-scores to calculate an average between them, which will give you your measure for your composite variable. To take the average of 3 values, you can just use the `=AVERAGE()` formula and highlight the columns from which you want to use the values to calculate the average. In this case, the new z-score values you've just created: 
 
 
 ![](imgs/calc_popul.png)
@@ -590,14 +590,14 @@ Very good GMP, very good. But something really interesting as well: if you look 
 
 
 
-This should illustrate the importance of measuring something as a construct. We could have conceptualised the popularity of GMP's tweets as an indirectly observable concept, which we could then operationalise as the "number of favourites per tweet". However, this would be a one-dimensional measure of our concept. Instead, by choosing to conceptualise popularity as a construct made up of favourites, retweets, and replies, we create a composite variable, that reflects more of the nuances of our concept. 
+This should illustrate the importance of measuring something as a construct. We could have conceptualised the popularity of GMP's tweets as an indirectly observable concept, which we could then operationalise as the "number of favourites per tweet". However, this would be a one-dimensional measure of our concept. Instead, by choosing to conceptualise popularity as a construct made up of favourites, retweets, and replies, we create a composite variable that reflects more of the nuances of our concept. 
 
 
 In fact, most of the things we study in the social sciences and in criminology are very complex social processes and often best represented by constructs, which can be measured this way through composite variables. 
 
 ## Composite variables created from categorical variables
 
-Another thing to mention regarding measurement in social sciences and criminology is that often times our data come from surveys. In surveys, you don't only deal with numeric variables but with categorical variables as well. And it is in these surveys that we can ask people some questions about the really nuanced and complex issues, such as trust in the police or fear of crime. Of course, the responses to such questions tend to be categorical, often ordinal, asking people to rank their agreement with various statements. So we should also take time to consider the other case, where the indicator variables that you wish to combine into a composite measure are *categorical*. These are most often made up of multi-item scales, which we'll move on to in the next section. 
+Another thing to mention regarding measurement in social sciences and criminology is that often times, our data come from surveys. In surveys, you don't only deal with numeric variables but with categorical variables as well. And it is in these surveys that we can ask people some questions about the really nuanced and complex issues, such as trust in the police or fear of crime. Of course, the responses to such questions tend to be categorical, often ordinal, asking people to rank their agreement with various statements. So we should also take time to consider the other case, where the indicator variables that you wish to combine into a composite measure are *categorical*. These are most often made up of multi-item scales, which we'll move on to in the next section. 
 
 
 Meaningful grouping is the nonstatistical combination of selected original variables based on the interpretation of the variables’ values or scores, guided by the science of the field. Meaningful grouping can be used to create a composite outcome variable from multiple continuous or categorical variables or both. These original variables, when combined into a composite, can indicate an attribute (e.g., high risk for mortality) that is meaningful. A composite variable created by meaningful grouping is often categorical. For example, a composite variable may include categories improved, no change, and worse to indicate the direction of overall change from baseline to determine whether or not an intervention was efficacious. The key point is that the composite should be meaningful with respect to the context and purpose of the study and should be determined based on the science of the field with a predefined algorithm.
@@ -625,7 +625,7 @@ One primary technique for measuring concepts important for theory development is
 
 
 
-Often information gathered in the social sciences, including criminology, will make use of Likert-type scales.  Rensis Likert was one of the researchers who worked in a systematized way with this type of variable. The Likert methodology is one of the most used in many fields of social sciences, and even health sciences and medicine. When responding to a Likert item, respondents specify their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Thus, the range captures the intensity of their feelings for a given item.  
+Often information gathered in the social sciences, including criminology, will make use of Likert-type scales.  Rensis Likert was one of the researchers who worked in a systematized way with this type of variable. The Likert methodology is one of the most used in many fields of social sciences, even health sciences and medicine. When responding to a Likert item, respondents specify their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Thus, the range captures the intensity of their feelings for a given item.  
 
 
 You will have definitely seen Likert scales before, but you might have just not known they were called as such. Here is one example: 
@@ -719,7 +719,7 @@ So you can have a reliable but not valid measure or a valid but not reliable mea
 > The worst-case scenario, when we have low validity and low reliability (lower left), looks like buckshot, scattered all over the target. We are neither accurate nor precise. We're not measuring what we think we are, and at that even, we're doing it inconsistently.
 When we have high validity but low reliability (upper left), our packing may be loose, but the shots are near the bull's-eye. We are accurate but not precise. We're likely measuring what we think we are, just not consistently.
 When we have high reliability but low validity (upper right), we may be off of the bull's-eye, but our packing is tight. We are precise but not accurate. We're not measuring what we think we are, but whatever we're measuring, we're doing so consistently.
-The best-case scenario, high validity and high reliability (lower right), is when the shots are clustered on the bull's-eye. We are both accurate and precise. In other words, our question/variable consistently measures the intended concept.
+The best-case scenario, high validity and high reliability (lower right) is when the shots are clustered on the bull's-eye. We are both accurate and precise. In other words, our question/variable consistently measures the intended concept.
 
 -[Bradley A. Koch](http://www.socingoutloud.com/2012/10/teaching-validity-and-reliability-in.html)
 
@@ -736,7 +736,7 @@ These are the main criteria that your measurements need to meet in order to be c
 
 
 
-But as we were saying, building reliable and valid measurements is tough work. People at the Office of National Statistics work tirelessly to come up with multi-item scales to measure fear of crime, trust in the police, and similar constructs using the Crime Survey for England and Wales. For them to introduce, a new construct and some new questions takes, *literally* years of work. So it's definitely a good approach to try to make use of the data which they collect. If you are interested, watch [this video on what sorts of data they have](https://www.youtube.com/watch?v=cCpHnqn0Q2c&list=PLG87Imnep1SljSqc0yLIHYBP1w0saMJn-&index=2), and [this other video on how to acquire data](https://www.youtube.com/watch?v=M-tN2FP0_0k). 
+But as we were saying, building reliable and valid measurements is tough work. People at the Office of National Statistics work tirelessly to come up with multi-item scales to measure fear of crime, trust in the police, and similar constructs using the Crime Survey for England and Wales. For them to introduce a new construct and some new questions takes, *literally* years of work. So it's definitely a good approach to try to make use of the data which they collect. If you are interested, watch [this video on what sorts of data they have](https://www.youtube.com/watch?v=cCpHnqn0Q2c&list=PLG87Imnep1SljSqc0yLIHYBP1w0saMJn-&index=2), and [this other video on how to acquire data](https://www.youtube.com/watch?v=M-tN2FP0_0k). 
 
 
 
@@ -830,7 +830,7 @@ We can quickly verify that this looks right; since the value there in the 'Walkd
 
 
 
-Now, you have your numeric values for the indicators of the construct. As this is a summative score, it just means that the score is the result of the **sum** of the indicators. So, to calculate the value for our composite variable, we need to calculate the total score people achieved by summing up their answers to all three questions. We can do this by creating a new "total" column, and populating it with the sums using the `SUM()` function: 
+Now, you have your numeric values for the indicators of the construct. As this is a summative score, it just means that the score is the result of the **sum** of the indicators. So, to calculate the value for our composite variable, we need to calculate the total score people achieved by summing up their answers to all three questions. We can do this by creating a new "total" column and populating it with the sums using the `SUM()` function: 
 
 
 
@@ -842,7 +842,7 @@ And the values in this column represent the score that these people have on the 
 </span>
 
 
-But to what extent do these measures all indicate the same concept? Is someone who feels the same towards their safety going to answer similarly on all onf these questions? We want to try to find this out, in order to be able to speak about our measure confidently. And as mentioned earlier, you can put a number to the extent to which you can rely on your measures, using Cronbach's alpha.
+But to what extent do these measures all indicate the same concept? Is someone who feels the same towards their safety going to answer all of these questions similarly? We want to try to find this out in order to be able to speak about our measure confidently. And as mentioned earlier, you can put a number to the extent to which you can rely on your measures using Cronbach's alpha.
 
 
 
