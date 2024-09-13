@@ -3,7 +3,10 @@ title: "Making Sense of Crime Data"
 author: 
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    includes:
+      in_header: header.html
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
