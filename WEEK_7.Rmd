@@ -265,7 +265,7 @@ This is the general and usually used qualitative form of output, which can be ac
 
 In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click> Export. Give this a go now with the Nodes for Dataset 1. First, click on Dataset 1 Node in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
 
-## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
+<!--## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
 
 The formalized *Reports* and associated Extracts function (in the Navigation bar or Explore/Ribbon group) specifically concerns the support provided for mixed qual/quant methods. Some of the reports only provide quantitative information or summaries. You can just experiment with these through the Help Menu.
 
@@ -278,7 +278,7 @@ These reports are essentially the same but allow for different sorting mechanism
 
 See if you can create a Report on your Nodes and Sources.
 
-**MAC USERS** – play around to see what kind of things you can create. It’s all about trial and error at this stage.
+**MAC USERS** – play around to see what kind of things you can create. It’s all about trial and error at this stage.-->
 
 ## Some other useful things to do
 

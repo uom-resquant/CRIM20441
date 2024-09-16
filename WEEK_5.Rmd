@@ -1011,7 +1011,7 @@ To get the other two columns from the same sheet, you use the *exact same formul
 So now, copy the formula for the next two columns and change the column index number to 3 and to 4 as appropriate:
 
 
-![](imgs/VLOOKUP.jpg)
+![](imgs/VLOOKUP_2.jpg)
 
 
 And you will see the values for each person from both wave 1 and wave 2 in there:

@@ -156,7 +156,6 @@ activity-4-retrieval-viewing-coded-data
 activity-5-viewing-more-context
 export-coded-data
 activity-6-exporting-via-the-list-pane
-reports-note-windows-only-users-not-supported-by-mac-yet
 some-other-useful-things-to-do
 create-another-word-cloud
 create-a-word-tree
