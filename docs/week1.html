@@ -57,13 +57,24 @@ document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll('a[href]');
 
   links.forEach(link => {
-    // Exclude links inside the search results container (adjust the selector as needed)
-    if (!link.closest('.book-search')) {  // Assuming '.book-search' is the search container
+
       link.setAttribute('target', '_blank');  // Open non-search links in a new tab
       link.setAttribute('rel', 'noopener noreferrer');  // Security attributes
-    }
   });
 })
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Find the search button
+    const searchButton = document.querySelector('a[href][target="_blank"] .fa-search').parentElement;
+
+    // Remove the 'target="_blank"' attribute to stop it from opening in a new tab
+    if (searchButton) {
+        searchButton.removeAttribute('target');
+    }
+});
 </script>
 
 
@@ -1301,7 +1312,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown-demo.pdf"],
+"download": {},
 "search": {
 "engine": "fuse",
 "options": null

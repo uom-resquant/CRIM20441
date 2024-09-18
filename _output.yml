@@ -6,6 +6,7 @@ bookdown::gitbook:
         <li>Making Sense of Criminological Data</li>
       after: |
        <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+    download: []
 
 # bookdown::pdf_book:
 #   includes:
