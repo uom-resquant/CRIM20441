@@ -3,15 +3,14 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Making Sense of Criminological Data</a></li>
+        <li>Making Sense of Criminological Data</li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+       <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+# bookdown::pdf_book:
+#   includes:
+#     in_header: preamble.tex
+#   latex_engine: xelatex
+#   citation_package: natbib
+#   keep_tex: yes
+# bookdown::epub_book: default

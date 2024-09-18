@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-09-16" />
+<meta name="date" content="2024-09-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -53,13 +53,17 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('a[href]');
-    links.forEach(link => {
-      link.setAttribute('target', '_blank');  // Open links in a new tab
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll('a[href]');
+
+  links.forEach(link => {
+    // Exclude links inside the search results container (adjust the selector as needed)
+    if (!link.closest('.book-search')) {  // Assuming '.book-search' is the search container
+      link.setAttribute('target', '_blank');  // Open non-search links in a new tab
       link.setAttribute('rel', 'noopener noreferrer');  // Security attributes
-    });
+    }
   });
+})
 </script>
 
 
@@ -82,7 +86,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Making Sense of Criminological Data</a></li>
+<li>Making Sense of Criminological Data</li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
@@ -432,7 +436,7 @@
 <li class="chapter" data-level="9.10" data-path="week9.html"><a href="week9.html#summary-8"><i class="fa fa-check"></i><b>9.10</b> Summary</a></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
 
 </ul>
 
@@ -1055,8 +1059,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/WEEK_2.Rmd",
-"text": "Edit"
+"link": null,
+"text": null
 },
 "history": {
 "link": null,
@@ -1066,7 +1070,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"download": ["bookdown-demo.pdf"],
 "search": {
 "engine": "fuse",
 "options": null
