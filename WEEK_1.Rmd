@@ -168,7 +168,7 @@ When Excel opens, you usually see an empty spreadsheet. We will be using this ju
 ### Install data analysis toolpak
 
 
-To install data analysis toolpak, click on the 'File' tab, and click on 'Options':
+To install data analysis toolpak for Windows, click on the 'File' tab, and click on 'Options':
 
 
 ![](imgs/file_tab_options.png)
@@ -192,7 +192,26 @@ Click 'OK' and you should be done! You can check by clicking on the 'Data' tab a
 ![](imgs/data_tab_analysis_appears.png)
 
 
-If you are confused, see [here](https://support.office.com/en-gb/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4) for instructions on how to get this. You can find the instructions for Mac [here](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4#OfficeVersion=macOS). Once you have successfully installed the data analysis toolpak, it will appear.  
+If you are confused, see [here](https://support.office.com/en-gb/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4) for instructions on how to get this. 
+
+To install the Data Analysis ToolPak for Mac, follow the instructions: 
+
+- Click the Tools menu, and then click Excel Add-ins.
+![](imgs/install_analysis_toolpak_mac.png)
+
+- In the Add-Ins available box, select the Analysis ToolPak check box, and then click OK.
+
+![](imgs/add_ins_toolpak_mac.png)
+
+- If Analysis ToolPak is not listed in the Add-Ins available box, click Browse to locate it.
+
+- If you get a prompt that the Analysis ToolPak is not currently installed on your computer, click Yes to install it.
+
+You can check by clicking on the 'Data' tab and checking to see if a little **Data Analysis** icon has appeared: 
+
+![](imgs/data_tab_analysis_appears_mac.png)
+
+Further instructions available [here](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4#OfficeVersion=macOS). Once you have successfully installed the data analysis toolpak, it will appear.  
 
 And that's it - you are now set up! Excellent! 
 
