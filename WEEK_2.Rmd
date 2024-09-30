@@ -968,7 +968,7 @@ You will notice that some authors talk about the 5-number summary of a distribut
 - The maximum value: 117,663
 - The first quartile: 33463
 - The third quartile: 39,312
-- The median: 34870.5
+- The median: 34,870.5
 
 
 
