@@ -1019,17 +1019,17 @@ You can also stylize your scatterplot to make it look how you are most happy wit
 So, let's try to infer our indicators of the relationship between the two variables. What about association/direction? Form? And strength? Well, the easiest way to think about this is to think about drawing a *line of best fit*. Could you draw a straight line through the cloud of points? If so, what does this line look like? 
 
 
-We can ask Excel to draw this line for us. You can do this by going back to the "Chart layout" tab and, this time, click on the "Trendline" option: 
+We can ask Excel to draw this line for us. You can do this by going back to the "Chart Design" tab and, this time, click on "Add Chart Element", then "Trendline" option. From the dropdown options, select "Linear Trendline":  
 
 
 ![](imgs/scatter_10.png)
 
 
 
-From the dropdown options, select "Linear Trendline": 
 
 
-![](imgs/scatter_11.png)
+
+<!-- ![](imgs/scatter_11.png)-->
 
 
 
