@@ -273,7 +273,7 @@ What about this one?
 
 And finally, this third one?
 
-![](imgs/katie3.png)
+![](imgs/katie31.png)
 
 
 Would you categorise these tweets as hate speech according to the criteria that you wrote out above? Why or why not? In fact, the included tweets have all been considered hateful by various people (see [here for the first and last one](http://www.pressgazette.co.uk/katie-hopkins-leaving-lbc-radio-effective-immediately-station-announces/), and [here about the second one](http://www.bbc.co.uk/news/uk-scotland-glasgow-west-30641705)). But when you are studying a concept as complex as hate speech, it's important that you can justify why or why not you include something as hate speech.  
@@ -447,10 +447,7 @@ For example, let’s say you are 180 cm tall. Given our mean (μ) of 172.1 and c
 
 
 
-But first, to calculate the z-score, our data needs to meet some assumptions. First, it needs to be a numeric variable. To be fair, though, in order to calculate a mean and a standard deviation in the first place, we needed this variable to be numeric. But the other assumption it makes is that this numeric variable follows a **normal distribution**. You might remember this concept from the very first week when you watched the [joy of stats](http://www.gapminder.org/videos/the-joy-of-stats/) video by Hans Rosling. If you didn't watch it, you definitely should! But in any case, here's a quick video to re-cap normal distribution to you, this time by Chris Wilde: 
-
-
-
+But first, to calculate the z-score, our data needs to meet some assumptions. First, it needs to be a numeric variable. To be fair, though, in order to calculate a mean and a standard deviation in the first place, we needed this variable to be numeric. But the other assumption it makes is that this numeric variable follows a **normal distribution**. You might remember this concept from the very first week when you watched the [joy of stats](http://www.gapminder.org/videos/the-joy-of-stats/) video by Hans Rosling. If you didn't watch it, you definitely should! 
 
 
 
