@@ -271,7 +271,7 @@ Translated into Excel language, our formula is:
 For example, for our first person in the list there, the formula will look like: 
 
 
-`=IF(D2 > MEDIAN(D:D), "Treatment", "Control")`
+`=IF(C2 > MEDIAN(C:C), "Treatment", "Control")`
 
 
 As such :
@@ -328,8 +328,6 @@ Before you're done here, there is one last thing to note. Remember when describi
 
 
 You can do this by highlighting the column and going to Formulas > Calculation Options> and selecting "Manual":
-
-![](imgs/calc_man_pc.png)
 
 
 On Mac: 
