@@ -437,9 +437,9 @@ How is this helpful in research design? Well, let's consider the example of desi
 Let's start with the basic outline.
 
 
-### Activity 5.4: Research Planning with Gantt Charts: Design an RTC example
+### Activity 5.4: Research Planning with Gantt Charts: Design an RCT example
 
-In this activity, we're going to plan an RTC using a Gantt Chart. 
+In this activity, we're going to plan an RCT using a Gantt Chart. 
 
 The basic outline of the design of a randomised controlled trial will vary from trial to trial. It depends on many, many factors. The rough outline for our research design will follow something like this: 
 

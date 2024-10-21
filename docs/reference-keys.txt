@@ -105,7 +105,7 @@ designing-your-study
 pre-registration-committing-to-your-research-plan
 confirmatory-vs-exploratory-research
 what-is-a-gantt-chart
-activity-5.4-research-planning-with-gantt-charts-design-an-rtc-example
+activity-5.4-research-planning-with-gantt-charts-design-an-rct-example
 longitudinal-data
 what-does-longitudinal-data-look-like
 activity-5.5-linking-data
