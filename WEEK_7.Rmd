@@ -339,11 +339,11 @@ So, if you have some music on your iTunes, try importing a song to see what it l
 
 ## More on capturing web material
 
-Last week, we imported web pages for our media articles and saved them as PDFs. But another, and actually better, way of doing this is by using **NCapture**.
+Last week, we imported web pages for our media articles and saved them as PDFs. But another, and actually better, way of doing this is by using **NCapture** (a web browser extension, search for it in your browser to install).
 
 A growing variety of web content and social media is available to you using NCapture, a web browser extension that is available for free with NVivo. It allows you to capture and import a screenshot of any webpage as a PDF or various social media sites (such as Twitter, Facebook, and LinkedIn) as a dataset (table).
 
-To learn more about this, click [here](https://www.youtube.com/watch?v=-rex1HaRg3k&t=3s).
+To learn more about this, click [here](https://www.youtube.com/watch?v=ciwMX4Xvu_s&ab_channel=DrPaulinePrevettandDrHaleemaSadiaMian).
 
 Once you have NCapture installed, open your browser and navigate to the website of interest. You’ll need to do this on your personal machines as it is unlikely to be installed on the lab computers.
 
