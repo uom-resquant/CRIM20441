@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Making Sense of Crime Data</title>
+  <meta name="description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
+  <meta name="generator" content="bookdown 0.44 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Making Sense of Crime Data" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Making Sense of Crime Data" />
+  
+  <meta name="twitter:description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
+  
+
+<meta name="author" content="" />
+
+
+<meta name="date" content="2025-09-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll('a[href]');
+
+  links.forEach(link => {
+
+      link.setAttribute('target', '_blank');  // Open non-search links in a new tab
+      link.setAttribute('rel', 'noopener noreferrer');  // Security attributes
+  });
+})
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Find the search button
+    const searchButton = document.querySelector('a[href][target="_blank"] .fa-search').parentElement;
+
+    // Remove the 'target="_blank"' attribute to stop it from opening in a new tab
+    if (searchButton) {
+        searchButton.removeAttribute('target');
+    }
+});
+</script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li>Making Sense of Criminological Data</li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="#introduction"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#disclaimer"><i class="fa fa-check"></i>Disclaimer</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#overview-of-course"><i class="fa fa-check"></i>Overview of course</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#module-structure"><i class="fa fa-check"></i>Module structure</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Making Sense of Crime Data</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Making Sense of Crime Data</h1>
+<p class="author"><em></em></p>
+<p class="date"><em>2025-09-08</em></p>
+</div>
+<div id="introduction" class="section level1 unnumbered hasAnchor">
+<h1>Introduction<a href="#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This study material is designed to introduce Criminology students at the University of Manchester to using data analysis in crime research and practice. These teaching materials were originally developed by Reka Solymosi and are currently being updated and maintained by Ana Nicoriciu and Sam Langton.</p>
+<p>These lab notes are a work in progress. If you have any suggestions or find any errors, please don’t hesitate to contact us. We appreciate your feedback and will use it to improve the material for future students.</p>
+<p>This workbook contains the lab materials for an introduction to a data analysis course designed for <strong>CRIM20441 Making Sense of Criminological Data</strong>, a 2nd-year undergraduate module of the BA Criminology programme at the University of Manchester.</p>
+<p>Throughout this course unit, you’ll explore the essential techniques of descriptive data analysis in criminology, integrating both quantitative and qualitative approaches. Quantitative methods provide structured ways to measure and analyse crime data patterns, while qualitative methods offer a deeper understanding of the meanings and contexts behind those numbers. The distinction between being solely a “quantitative person” or a “qualitative person” is increasingly outdated. Mastering both techniques will enhance your ability to analyse and interpret diverse datasets, depending on the research question and project goals, making you a more versatile and practical analyst.</p>
+<p>The course uses Excel, as we have identified a gap in training students to use Excel, despite it being a primary tool for data analysis (whether we like it or not) in many public and private sector organisations. As many students take <a href="https://www.humanities.manchester.ac.uk/q-step/">Q-step internships</a>, this skill was identified as necessary.</p>
+<p>By the end of this module, you will have a strong foundation in various data types, the methods to generate them, and the approaches to analyse them. Engage actively with the materials, and consider how these techniques can be applied in real-world scenarios.</p>
+<div id="disclaimer" class="section level2 unnumbered hasAnchor">
+<h2>Disclaimer<a href="#disclaimer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Please beware that:</p>
+<ul>
+<li>In making these notes, while we briefly cover some concepts, students are expected to do the weekly reading, watch the pre-recorded videos and participate in lab discussions to receive a complete course experience. These notes are <em>not</em> intended to be a stand-alone reference or textbook but rather a set of exercises to gain hands-on practice with the concepts introduced during the course.</li>
+<li>These pages are the content of the BA Criminology 2nd year course, Making Sense of Criminological Data. They are meant to (very gently) introduce undergraduates to the concept of data analysis and cover descriptive statistics and the key concepts required to build an understanding of quantitative and qualitative data analysis in crime research. It is followed in the second term by Modelling Criminological Data, where students cover inferential statistics. The notes presented here are supported by compulsory reading, so they do not comprehensively describe these techniques and tools and how to use them.
+The handouts below use, among other data sets, data from the <a href="https://ukdataservice.ac.uk/">UK Data Service</a>, such as the <a href="https://beta.ukdataservice.ac.uk/datacatalogue/series/series?id=200009">Crime Survey for England and Wales</a>, which is available under an Open Government Licence. This dataset is designed to be a learning resource and should not be used for research purposes or the production of summary statistics.</li>
+</ul>
+</div>
+<div id="overview-of-course" class="section level2 unnumbered hasAnchor">
+<h2>Overview of course<a href="#overview-of-course" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this module, you will learn how to source, interpret, wrangle, analyse, visualise, and draw meaningful conclusions from data. Over the coming 10 weeks, you will build your knowledge and understanding of data analysis within the context of Criminological and broader Social Science research. We will cover quantitative and qualitative data analysis techniques, research design, and visualisations to give you a well-rounded and comprehensive introduction to the world of data in these domains.</p>
+<p>You should watch the introduction videos on Canvas for an overview of this course and for a guide on how to navigate this module.</p>
+<div id="module-structure" class="section level3 unnumbered hasAnchor">
+<h3>Module structure<a href="#module-structure" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>This module’s setup is different from your other lectures and seminar-based courses. This course is 10 weeks, and each week is made up of the following elements:</p>
+<ol style="list-style-type: decimal">
+<li>Preparatory reading</li>
+<li>Pre-recorded lecture videos</li>
+<li>Lab session</li>
+<li>Homework task</li>
+<li>Homework quiz</li>
+<li>Recap &amp; Discussion session</li>
+</ol>
+<p>Each element is described in detail below:</p>
+<div id="preparatory-reading" class="section level4 unnumbered hasAnchor">
+<h4>1) Preparatory reading<a href="#preparatory-reading" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Each week, you will receive some preliminary reading or videos to watch before coming to the session. You should read these before coming to the lab session, because it will make engaging with the lab material easier for you.</p>
+<p>The reading list can be found on the University of Manchester <a href="https://www.library.manchester.ac.uk/services/teaching-services/reading-lists/">Library Reading List Online Services</a>, which you can access from Canvas as well.</p>
+</div>
+<div id="pre-recorded-lecture-videos" class="section level4 unnumbered hasAnchor">
+<h4>2) Pre-recorded lecture videos<a href="#pre-recorded-lecture-videos" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>These short clips make up the lecture component of the module. They cover the key concepts you will learn each week, which you are also exposed to in your readings (Preparatory materials) and in your exercises (Lab session). We recommend watching these once before the lab and again after the lab session to really deepen your understanding.</p>
+</div>
+<div id="lab-session" class="section level4 unnumbered hasAnchor">
+<h4>3) Lab session<a href="#lab-session" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Lab sessions are two-hour sessions held every week (except reading week - check your <a href="https://timetables.manchester.ac.uk/">personal university timetable</a>) on campus. In these labs, you work together through the lab notes included in this book, and the teaching staff will be there to assist. Take the time to engage with these notes and ask the teaching team lots of questions. This is an opportunity to engage with the materials thoroughly.</p>
+<p>When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open the link via Canvas and read the instructions chronologically. That means starting at the top and reading through to the bottom.</p>
+<p>Usually, within the notes, you will find some general introduction to the topic covered that week, with links to <a href="http://www.gapminder.org/videos/the-joy-of-stats/">videos</a> or further <a href="http://flowingdata.com/2015/10/26/top-brewery-road-trip-routed-algorithmically/">reading</a>. You should come equipped with headphones to watch the videos.</p>
+<p>These lab notes also contain activities within them. You should do these activities in the lab and ask the teaching team for help when you are stuck or if you do not understand a concept. Even if everything goes smoothly and you do understand, if you want to clarify or ask further questions, please raise your hand during the session, and we will come to you. You can do this live in the sessions. You should come to these labs and engage to make sure you really follow the material. If you’re unable to attend the lab sessions, you can ask questions on Canvas in the respective weeks. Please make lots of use of this.</p>
+<p>These activities will help you with your learning and contribute towards your post-lab task and homework quiz. You are welcome to talk with each other and with us, but please make sure that when it comes to understanding the learning behind these activities, you are confident in your ability. Again, we are happy for you to work together and help each other! The lab is here for you to engage with the activities, the teaching team, and each other. So do this! But also make sure you can independently make sense of what you have learned. The final essay will rely heavily on your ability to apply the concepts you learned during these activities and apply them in a way that shows your understanding.</p>
+</div>
+<div id="homework-task" class="section level4 unnumbered hasAnchor">
+<h4>4) Homework task<a href="#homework-task" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Each week, after completing the lab notes, you must complete some post-lab tasks in the form of a Homework task. These will take the form of a worksheet. You can find each worksheet and relevant material (e.g. data) on Canvas in the module for that week. You have to complete these tasks to be able to take the homework quiz <strong>(which is assessed)</strong>. The tasks will always mirror the in-lab activities, so if you get through those, the task should be a breeze.</p>
+</div>
+<div id="homework-quiz" class="section level4 unnumbered hasAnchor">
+<h4>5) Homework quiz<a href="#homework-quiz" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Each week, you will have to complete a homework quiz. This quiz is assessed, and the average of your seven highest scores counts for 20% of your final mark (the other 80% is your final essay). The questions in the homework quiz will ask about key concepts from your reading, the lectures, and the answers to the homework task. Please make sure you have finished the task before you begin your homework quiz, and have it with you while doing so. The homework quiz will be available on Canvas and will be open as soon as the lab session is finished. It will then close again before the Recap &amp; Discussion session (check Canvas for the exact timeframe). You can take the homework quiz any time between these times. You can take it only once. Once you activate the quiz, you will have only 30 minutes to complete it. Please make sure you are in a quiet environment where you will not be disturbed, with your reading notes and your post-lab task with you, so that you can complete the homework quiz successfully. After you submit it, you will receive immediate feedback.</p>
+<p>Don’t forget your homework is graded and counts towards your final mark. But you get to practice completing the tasks with the activities in the lab. And if you have time left over, you can always complete these tasks here in the lab. No matter where you complete them, having the tasks done and with you when you take the quiz will increase your confidence in the homework quiz exercises.</p>
+</div>
+<div id="recap-discussion-session" class="section level4 unnumbered hasAnchor">
+<h4>6) Recap &amp; Discussion session<a href="#recap-discussion-session" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>In this session, we will recap some key concepts from the week, review relevant work from the lab session, address some key questions from the discussion boards, and hold a Q&amp;A session where you can ask questions about the lecture videos, labs, or homework tasks. We encourage you to bring your own examples to these sessions whenever you encounter them. If you’re unable to attend these sessions, please post your questions on Canvas in the respective weeks.</p>
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": {},
+  "search": false,
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>
