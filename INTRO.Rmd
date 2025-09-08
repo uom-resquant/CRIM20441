@@ -2,58 +2,57 @@
 
 In this module, you will learn how to source, interpret, wrangle, analyse, visualise, and draw meaningful conclusions from data. Over the coming 10 weeks, you will build your knowledge and understanding of data analysis within the context of Criminological and broader Social Science research. We will cover quantitative and qualitative data analysis techniques, research design, and visualisations to give you a well-rounded and comprehensive introduction to the world of data in these domains. 
 
-Please watch the introduction videos on Blackboard for an overview of this course, for some tips on how to succeed from one of last years' students, and for a guide on how to navigate this module. 
+You should watch the introduction videos on Canvas for an overview of this course and for a guide on how to navigate this module. 
 
 ### Module structure {-}
 
-This module's setup is somewhat different from your other lectures and seminar-based courses. This course is 10 weeks, and each week is made up of 6 elements: 
+This module's setup is different from your other lectures and seminar-based courses. This course is 10 weeks, and each week is made up of the following elements: 
 
 1) Preparatory reading
 2) Pre-recorded lecture videos
 3) Lab session
 4) Homework task
 5) Homework quiz
-6) Feedback session
+6) Recap & Discussion session
 
 Each element is described in detail below:
 
 #### 1) Preparatory reading {-}
 
-Each week, you will receive some preliminary reading or videos to watch before coming to the session. It is very important that you read these before coming to the lab session, as it will make engaging with the lab material easier. Also, you can take the labs as an opportunity to ask questions about the readings and discuss them with us and the teaching assistants during the 2-hour lab sessions.
+Each week, you will receive some preliminary reading or videos to watch before coming to the session. You should read these before coming to the lab session, because it will make engaging with the lab material easier for you.
 
-The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/services/teaching-services/reading-lists/), which you can access from within [Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_15983604_1&course_id=_82193_1&mode=reset). 
+The reading list can be found on the University of Manchester [Library Reading List  Online Services](https://www.library.manchester.ac.uk/services/teaching-services/reading-lists/), which you can access from Canvas as well.
 
 #### 2) Pre-recorded lecture videos {-}
 
-These short clips make up the lecture component of the module. They cover the key concepts you will learn each week, which you are exposed to also in your readings (Preparatory materials) and in your exercises (Lab session). We recommend watching these once before the lab and again after the lab session to really deepen your understanding. 
+These short clips make up the lecture component of the module. They cover the key concepts you will learn each week, which you are also exposed to in your readings (Preparatory materials) and in your exercises (Lab session). We recommend watching these once before the lab and again after the lab session to really deepen your understanding. 
 
 #### 3) Lab session {-}
 
-Lab sessions are two-hour sessions held every Monday on campus. In these labs, we work together through the lab notes included in this book. You should take time to engage with these notes and ask us and the teaching assistants lots of questions. This is a time to really engage with the materials. 
+Lab sessions are two-hour sessions held every week (except reading week - check your [personal university timetable](https://timetables.manchester.ac.uk/)) on campus. In these labs, you work together through the lab notes included in this book, and the teaching staff will be there to assist. Take the time to engage with these notes and ask the teaching team lots of questions. This is an opportunity to engage with the materials thoroughly. 
 
-When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open the link via Blackboard and read the instructions chronologically. That just means starting at the top and reading through to the bottom. 
+When you join a lesson, you will be able to get started straight away. You will find the instructions for each week in this booklet. You can open the link via Canvas and read the instructions chronologically. That means starting at the top and reading through to the bottom. 
 
 Usually, within the notes, you will find some general introduction to the topic covered that week, with links to [videos](http://www.gapminder.org/videos/the-joy-of-stats/) or further [reading](http://flowingdata.com/2015/10/26/top-brewery-road-trip-routed-algorithmically/). You should come equipped with headphones to watch the videos. 
 
+These lab notes also contain activities within them. You should do these activities in the lab and ask the teaching team for help when you are stuck or if you do not understand a concept. Even if everything goes smoothly and you do understand, if you want to clarify or ask further questions, please raise your hand during the session, and we will come to you. You can do this live in the sessions. You should come to these labs and engage to make sure you really follow the material. If you're unable to attend the lab sessions, you can ask questions on Canvas in the respective weeks. Please make lots of use of this. 
 
-These lab notes also contain activities within them. You should do these activities in the lab and ask for our help when you are stuck or if you do not understand a concept. Even if everything goes smoothly and you do understand, if you want to clarify or ask further questions, please raise your hand during the session, and we will come to you. You can do this live in the sessions. It is important that you come to these labs and engage to make sure you really follow the material. If you cannot attend the live sessions, then you can ask questions on Blackboard using the **Discussion Forum**. Please make lots of use of this. 
-
-These activities will help you with your learning and contribute towards your post-lab task and homework quiz. You are welcome to discuss with each other and with us, but please make sure that when it comes to understanding the learning behind these activities, you are confident in your ability. Again, we are happy for you to work together and help each other! The lab is here for you to engage with the activities, us, the teaching assistants, and each other. So do this! But also make sure you can independently make sense of what you have learned. The final essay will rely heavily on your ability to take the concepts you learned during the activities and apply them in a way that shows your understanding.
+These activities will help you with your learning and contribute towards your post-lab task and homework quiz. You are welcome to talk with each other and with us, but please make sure that when it comes to understanding the learning behind these activities, you are confident in your ability. Again, we are happy for you to work together and help each other! The lab is here for you to engage with the activities, the teaching team, and each other. So do this! But also make sure you can independently make sense of what you have learned. The final essay will rely heavily on your ability to apply the concepts you learned during these activities and apply them in a way that shows your understanding.
 
 #### 4) Homework task {-}
 
-Each week, after you have completed the lab notes, you must complete some post-lab tasks in the form of a Homework task. These will take the form of a worksheet. You can find each worksheet and relevant material (e.g. data) on Blackboard in the folder for that week. You have to complete these tasks to be able to take the homework quiz **(which is assessed)**. The tasks will always mirror the in-lab activities, so if you get through those, the task should be a breeze. 
+Each week, after completing the lab notes, you must complete some post-lab tasks in the form of a Homework task. These will take the form of a worksheet. You can find each worksheet and relevant material (e.g. data) on Canvas in the module for that week. You have to complete these tasks to be able to take the homework quiz **(which is assessed)**. The tasks will always mirror the in-lab activities, so if you get through those, the task should be a breeze. 
 
 #### 5) Homework quiz {-}
 
-Each week, you will have to complete a homework quiz. This quiz is assessed, and your score on all the quizzes combined counts for 20% of your final mark (the other 80% is your final essay). The questions in the homework quiz will ask about key concepts from your reading, the lectures, and about the answers to the homework task. Ensure you have finished the task before you begin your homework quiz, and have it with you while doing so. The homework quiz will be available on Blackboard and will be open as soon as the lab session is finished. It will then close again the night before the feedback session. You can take the homework quiz any time between these times. You can take it only once. Once you activate the quiz, you will have only 30 minutes to complete it. Please make sure you are in a quiet environment where you will not be disturbed, with your reading notes and your post-lab task with you, so you can complete the homework quiz successfully. Upon submission, you will receive immediate feedback. 
+Each week, you will have to complete a homework quiz. This quiz is assessed, and the average of your seven highest scores counts for 20% of your final mark (the other 80% is your final essay). The questions in the homework quiz will ask about key concepts from your reading, the lectures, and the answers to the homework task. Please make sure you have finished the task before you begin your homework quiz, and have it with you while doing so. The homework quiz will be available on Canvas and will be open as soon as the lab session is finished. It will then close again before the Recap & Discussion session (check Canvas for the exact timeframe). You can take the homework quiz any time between these times. You can take it only once. Once you activate the quiz, you will have only 30 minutes to complete it. Please make sure you are in a quiet environment where you will not be disturbed, with your reading notes and your post-lab task with you, so that you can complete the homework quiz successfully. After you submit it, you will receive immediate feedback. 
 
-Don't forget your homework is graded and counts towards your final mark. But you get to practice completing the tasks with the activities in the lab. And if you have time left over, you can always complete these tasks here in the lab. No matter where you do them, by having the tasks completed and with you when you take the quiz, you will be more confident in the homework quiz exercises. 
+Don't forget your homework is graded and counts towards your final mark. But you get to practice completing the tasks with the activities in the lab. And if you have time left over, you can always complete these tasks here in the lab. No matter where you complete them, having the tasks done and with you when you take the quiz will increase your confidence in the homework quiz exercises. 
 
 
-#### 6) Feedback sessions {-}
+#### 6) Recap & Discussion session {-}
 
-In the feedback session, we will demonstrate how we solved the homework tasks. This should give you an opportunity to see how we go about getting the correct answers, in case you didn't get there yourself, or to compare your solution with ours. The rest of this hour is made up of live Q&A; it is your chance to ask questions, discuss, and further interrogate the material we cover. We encourage you to bring your own examples to these sessions wherever you encounter them. If you cannot attend this live, post your questions on the Blackboard Discussion Board. 
+In this session, we will recap some key concepts from the week, review relevant work from the lab session, address some key questions from the discussion boards, and hold a Q&A session where you can ask questions about the lecture videos, labs, or homework tasks. We encourage you to bring your own examples to these sessions whenever you encounter them. If you're unable to attend these sessions, please post your questions on Canvas in the respective weeks. 
 
 
 
