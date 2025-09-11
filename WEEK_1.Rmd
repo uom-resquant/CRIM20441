@@ -7,23 +7,23 @@ Welcome to week 1! This week is all about getting set up and taking some first s
 
 ## Familiarising yourself with the course
 
-If you haven’t already, please watch the videos on Blackboard that explain the course setup. It's essential to understand how the six elements (Preparation materials, Lecture videos, Lab session, Homework task, Homework quiz, Feedback session) interconnect. We also strongly recommend reading the Week 1 Introduction to gain further context on the course objectives for this week. You can watch the videos after this session and before tackling the homework and quiz. In the future, make it a habit to go through Blackboard materials first, as they will prepare you for the lab sessions. If you have any questions, ask now or post on the **Discussion board** on Blackboard. 
+If you haven’t already, please watch the videos on Canvas that explain the course setup. It's essential to understand how the course elements (Preparation materials, Lecture videos, Lab session, Homework task, Homework quiz, Recap & Discussion session) interconnect. You can watch the videos after this session and before tackling the homework and quiz. In the future, make it a habit to go through Canvas materials first, as they will prepare you for the lab sessions. If you have any questions, ask now or use the **Ask Questions** option in each week on Canvas. 
 
 
 ## Asking a question on the discussion board
 
-For almost all of the questions you will have throughout this module, you will be asked to post them on the discussion board. This is because if you have a question, there are very good odds that others in your class also have the same question. If you ask on the discussion board, we can keep track of all the questions there and build a FAQ of sorts. Then, if someone else has the same question, they might come to the discussion board and see that a similar question has already been asked and, in fact, answered. In this case, you get an instant answer to your query! Very useful! 
+For all (non-personal) questions you will have throughout this module, you will be asked to post them on Canvas. This is because if you have a question, there are very good odds that others in your class also have the same question. If you ask on Canvas, we can keep track of all the questions there and build a FAQ of sorts. Then, if someone else has the same question, they might come to the discussion board and see that a similar question has already been asked and, in fact, answered. In this case, you get an instant answer to your query! Very useful! 
 
 If you feel like you don't have any questions, we still encourage you to check the discussion board occasionally to see what others are asking. Maybe there is some interesting discussion you hadn't thought of. Maybe someone asked a question that you know the answer to. In such a case, feel free to answer - don't worry; we are monitoring the discussion board, so if your answer isn't quite right, we can follow up. So there is no risk, only the reward of having helped your colleagues :) 
 
 
-### Activity 1: Posting on the discussion board
+### Activity 1: Posting on Canvas
 
-All of you should go find where is the [discussion board on Blackboard](https://online.manchester.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_82193_1&tool_id=_119_1&tool_type=TOOL&mode=cpview&mode=reset){target="_blank" rel="noopener noreferrer"}.
+All of you should go find where is the [Ask questions week 1](https://canvas.manchester.ac.uk/courses/41784){target="_blank" rel="noopener noreferrer"} option in Canvas. 
 
-Here, you will see a forum titled "week 1 discussion". Click on this, and then click on "Create a Thread". For the subject, put **“Activity 1: NAME”** where you replace **NAME** with your name and surname, and write a message to us. What to put in the message? Write a recommendation for us: a book to read, a TV show to watch, or a recipe for us to try and cook. When you are finished, click "Submit". 
+Click on this and write a recommendation for us: a book to read, a TV show to watch, or a recipe for us to try and cook. Make sure you press reply to post your recommendation.
 
-![](imgs/db_activity.png)
+![](imgs/week1/cavas_discussion.png)
 
 
 
@@ -37,23 +37,23 @@ The first thing you need to do is to create a working environment for yourself f
 There is a myth about the scientist and the messy workspace, typically illustrated with a picture of Albert Einstein: 
 
 ```{r, echo=FALSE}
-knitr::include_graphics("imgs/einstein_desk.jpg") 
+knitr::include_graphics("imgs/week1/einstein_desk.jpg") 
 ```
 
 
 However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:
 
 ```{r, echo=FALSE, fig.height=100}
-knitr::include_graphics("imgs/galileo_desk.jpg") 
-knitr::include_graphics("imgs/marie_curie.jpg") 
-knitr::include_graphics("imgs/Dalton_John_desk.jpg") 
-knitr::include_graphics("imgs/alan_turing_desk.jpg") 
+knitr::include_graphics("imgs/week1/galileo_desk.jpg") 
+knitr::include_graphics("imgs/week1/marie_curie.jpg") 
+knitr::include_graphics("imgs/week1/Dalton_John_desk.jpg") 
+knitr::include_graphics("imgs/week1/alan_turing_desk.jpg") 
 
 
 ```
 
 ```{r, echo=FALSE, fig.height=100, fig.cap="\\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces"}
-knitr::include_graphics("imgs/charles_dickens_desk.jpg") 
+knitr::include_graphics("imgs/week1/charles_dickens_desk.jpg") 
 
 
 ```
@@ -140,7 +140,7 @@ It's generally good to create a folder to save your data and outputs in, which w
 The main tool we'll use throughout the course is [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel). You will be using it to explore, learn about, and manipulate criminological data throughout this course. 
 
 
-![I excel](imgs/bill_gates_excel.jpg)
+![I excel](imgs/week1/bill_gates_excel.jpg)
 
 
 ### Install Excel
@@ -153,13 +153,13 @@ You likely have come across Excel before, but it is also possible that you have 
 
 First, find where you've installed Excel on your own machine. If you have a Mac, it will be in your "Applications" folder:
 
-![](imgs/finder_excel.png)
+![](imgs/week1/finder_excel.png)
 
 
 If you have a PC, use the search option on the taskbar and look for Excel:
 
 
-![](imgs/open_excel.png)
+![](imgs/week1/open_excel.png)
 
 
 When Excel opens, you usually see an empty spreadsheet. We will be using this just a little bit later. But for now, there is one more step we need to take to be fully set up. **We need to install the data analysis toolpak.**
@@ -171,25 +171,25 @@ When Excel opens, you usually see an empty spreadsheet. We will be using this ju
 To install data analysis toolpak for Windows, click on the 'File' tab, and click on 'Options':
 
 
-![](imgs/file_tab_options.png)
+![](imgs/week1/file_tab_options.png)
 
 
 This will bring up a pop-up window. Here, click on 'Add-Ins', and then highlight 'Analysis Toolpak'. Click on 'Go':
 
 
-![](imgs/install_analysis_toolpak.png)
+![](imgs/week1/install_analysis_toolpak.png)
 
 
 This will open another pop-up window. Here, make sure you tick the box next to 'Analysis Toolpak' and click 'OK':
 
 
-![](imgs/install_toolpak_after_go_popup.png)
+![](imgs/week1/install_toolpak_after_go_popup.png)
 
 
 Click 'OK' and you should be done! You can check by clicking on the 'Data' tab and checking to see if a little **Data Analysis** icon has appeared: 
 
 
-![](imgs/data_tab_analysis_appears.png)
+![](imgs/week1/data_tab_analysis_appears.png)
 
 
 If you are confused, see [here](https://support.office.com/en-gb/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4) for instructions on how to get this. 
@@ -197,11 +197,11 @@ If you are confused, see [here](https://support.office.com/en-gb/article/Load-th
 To install the Data Analysis ToolPak for Mac, follow the instructions: 
 
 - Click the Tools menu, and then click Excel Add-ins.
-![](imgs/install_analysis_toolpak_mac.png)
+![](imgs/week1/install_analysis_toolpak_mac.png)
 
 - In the Add-Ins available box, select the Analysis ToolPak check box, and then click OK.
 
-![](imgs/add_ins_toolpak_mac.png)
+![](imgs/week1/add_ins_toolpak_mac.png)
 
 - If Analysis ToolPak is not listed in the Add-Ins available box, click Browse to locate it.
 
@@ -209,7 +209,7 @@ To install the Data Analysis ToolPak for Mac, follow the instructions:
 
 You can check by clicking on the 'Data' tab and checking to see if a little **Data Analysis** icon has appeared: 
 
-![](imgs/data_tab_analysis_appears_mac.png)
+![](imgs/week1/data_tab_analysis_appears_mac.png)
 
 Further instructions available [here](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4#OfficeVersion=macOS). Once you have successfully installed the data analysis toolpak, it will appear.  
 
@@ -519,7 +519,7 @@ We can speak about the **level of measurement** of a variable, which refers to w
 If we set out to collect our own data, we need to make sure that we collect all the variables needed to answer our question from all the observations that we have. The types of variables we have determine the kinds of questions that we can answer. For example, if we want to ask questions such as the one about the tweets above: "*Which tweet has the highest number of likes?*", we need to have a **numeric** variable. **Numeric** variables let us answer questions about *quantity*. For example, if we want to know the *average number of crimes per month*, we will need a numeric variable of the number of crimes for each month. Just like for the tweets, we had a numeric variable of the *number of likes* for each tweet. Put simply, number questions are answered by **numeric** variables. 
 
 
-You can always refer back to the lecture video on blackboard, about levels of measurement here if you like!
+You can always refer back to the lecture video on Canvas, about levels of measurement here if you like!
 
 
 ### Activity 5: Levels of measurement pt. 1
