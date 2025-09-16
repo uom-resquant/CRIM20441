@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-09-11" />
+<meta name="date" content="2025-09-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -205,7 +205,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul>
 <li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-3.5-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 3.5: Age of offenders</a></li>
 <li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-3.6-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 3.6: Adding a column for median</a></li>
-<li class="chapter" data-level="3.3.3" data-path="week3.html"><a href="week3.html#visualising-the-differences-between-groups"><i class="fa fa-check"></i><b>3.3.3</b> Visualising the differences between groups</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-vs.-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric vs. numeric</a>
 <ul>
@@ -492,11 +491,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2><span class="header-section-number">1.4</span> Setting up your working environment<a href="week1.html#setting-up-your-working-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The first thing you need to do is to create a working environment for yourself for this course and for all projects you will work on using data. Just because everything is on your computer or laptop does not mean this is something you can ignore.</p>
 <p>There is a myth about the scientist and the messy workspace, typically illustrated with a picture of Albert Einstein:</p>
-<p><img src="imgs/week1/einstein_desk.jpg" width="480" /></p>
+<p><img src="imgs/week1/einstein_desk.jpg" /><!-- --></p>
 <p>However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:</p>
-<p><img src="imgs/week1/galileo_desk.jpg" width="118" /><img src="imgs/week1/marie_curie.jpg" width="118" /><img src="imgs/week1/Dalton_John_desk.jpg" width="226" /><img src="imgs/week1/alan_turing_desk.jpg" width="250" /></p>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
-<img src="imgs/week1/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces" width="250" />
+<p><img src="imgs/week1/galileo_desk.jpg" /><!-- --><img src="imgs/week1/marie_curie.jpg" /><!-- --><img src="imgs/week1/Dalton_John_desk.jpg" /><!-- --><img src="imgs/week1/alan_turing_desk.jpg" /><!-- --></p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="imgs/week1/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces"  />
 <p class="caption">
 Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces
 </p>
@@ -589,7 +588,7 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 <h2><span class="header-section-number">1.7</span> Data: Variables and observations<a href="week1.html#data-variables-and-observations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We know that in the period from May 2016 to May 2017, Greater Manchester Police recorded a total of 420228 crimes. We also know that the largest numbers were recorded in the “Anti-social behaviour” crime category, with 122443 instances. The fewest number of incidents was recorded for the “Possession of weapons” category, with 2009 instances.</p>
 <p>We can also track changes in the number of crimes over time:</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <p>How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the <a href="https://www.police.uk/">www.police.uk/</a> website. This means that by visiting the <a href="https://data.police.uk/">data.police.uk</a> website, you can access data about street-level crime and its outcome, as well as stop and search information broken down by police forces. What does this mean? What do these data look like? Let’s have a look:</p>
 <table>
 <colgroup>
@@ -1339,6 +1338,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
