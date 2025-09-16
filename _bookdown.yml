@@ -8,12 +8,12 @@ output_dir: "docs"
 rmd_files:
   - index.Rmd
   - WEEK_1.Rmd
-#  - 02-week2.Rmd
-#  - 03-week3.Rmd
-#  - 04-week4.Rmd
-#  - 05-week5.Rmd
-#  - 06-week6.Rmd
-#  - 07-week7.Rmd
-#  - 08-week8.Rmd
-#  - 09-week9.Rmd
-#  - 10-week10.Rmd
+#  - WEEK_2.Rmd
+#  - WEEK_3.Rmd
+#  - WEEK_4.Rmd
+#  - WEEK_5.Rmd
+#  - WEEK_6.Rmd
+#  - WEEK_7.Rmd
+#  - WEEK_8.Rmd
+#  - WEEK_9.Rmd
+#  - WEEK_10.Rmd
