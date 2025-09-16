@@ -4,3 +4,16 @@ language:
     chapter_name: "Chapter "
 delete_merged_file: true
 output_dir: "docs"
+
+rmd_files:
+  - index.Rmd
+  - WEEK_1.Rmd
+#  - 02-week2.Rmd
+#  - 03-week3.Rmd
+#  - 04-week4.Rmd
+#  - 05-week5.Rmd
+#  - 06-week6.Rmd
+#  - 07-week7.Rmd
+#  - 08-week8.Rmd
+#  - 09-week9.Rmd
+#  - 10-week10.Rmd

@@ -552,7 +552,7 @@ So, now you know that hour in the day and day in the month are *ordinal* variabl
 <details>
 <summary><i>Reveal answer!</i></summary>
 
-The other ordinal variable is *Month*. You know that if I say January, February, or March, then the value to follow is April and not November. There is an *order* that these values fall, making *Month* an **ordinal** variable. 
+- The other ordinal variable is *Month*. You know that if I say January, February, or March, then the value to follow is April and not November. There is an *order* that these values fall, making *Month* an **ordinal** variable. 
 
 </details>
 
@@ -732,7 +732,7 @@ We want to see whether men consume more illegal drugs than women. To be able to 
 <details>
 <summary><i>Reveal answer!</i></summary>
 
-person! (or individual, or subject)
+- <b>person! (or individual, or subject) </b>
 
 </details>
 
