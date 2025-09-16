@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-09-11" />
+<meta name="date" content="2025-09-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -205,7 +205,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul>
 <li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-3.5-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 3.5: Age of offenders</a></li>
 <li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-3.6-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 3.6: Adding a column for median</a></li>
-<li class="chapter" data-level="3.3.3" data-path="week3.html"><a href="week3.html#visualising-the-differences-between-groups"><i class="fa fa-check"></i><b>3.3.3</b> Visualising the differences between groups</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-vs.-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric vs. numeric</a>
 <ul>
@@ -495,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p><img src="imgs/week1/einstein_desk.jpg" width="480" /></p>
 <p>However, many of us need order to be able to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:</p>
 <p><img src="imgs/week1/galileo_desk.jpg" width="118" /><img src="imgs/week1/marie_curie.jpg" width="118" /><img src="imgs/week1/Dalton_John_desk.jpg" width="226" /><img src="imgs/week1/alan_turing_desk.jpg" width="250" /></p>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
 <img src="imgs/week1/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces" width="250" />
 <p class="caption">
 Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces
@@ -589,7 +588,7 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 <h2><span class="header-section-number">1.7</span> Data: Variables and observations<a href="week1.html#data-variables-and-observations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We know that in the period from May 2016 to May 2017, Greater Manchester Police recorded a total of 420228 crimes. We also know that the largest numbers were recorded in the “Anti-social behaviour” crime category, with 122443 instances. The fewest number of incidents was recorded for the “Possession of weapons” category, with 2009 instances.</p>
 <p>We can also track changes in the number of crimes over time:</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <p>How do we do this? Well, in the United Kingdom, since 2011 data regarding individual police recorded crimes have been made openly available to the public via the <a href="https://www.police.uk/">www.police.uk/</a> website. This means that by visiting the <a href="https://data.police.uk/">data.police.uk</a> website, you can access data about street-level crime and its outcome, as well as stop and search information broken down by police forces. What does this mean? What do these data look like? Let’s have a look:</p>
 <table>
 <colgroup>
@@ -674,13 +673,13 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 </table>
 <p>In this dataset, each row is one crime record:</p>
 <div class="float">
-<img src="imgs/rowIsObservation.png" alt="Each row is one observation" />
+<img src="imgs/week1/rowIsObservation.png" alt="Each row is one observation" />
 <div class="figcaption"><strong>Each row is one observation</strong></div>
 </div>
 <p>For every single crime event recorded in this data, there is a row, and it contains all the information that we know about this crime incident. It will have a value for each variable that we are interested in. The variables are the columns.</p>
 <p>So, for example, <em>month</em> is a variable in our data, and for every row (which is every crime incident), this variable can take a value. Every crime incident occurred at one specific month, and that month when each incident happened will be the value that the <em>month</em> variable will take. And the month column will contain all the instances of the month variable for each crime incident recorded. Each observation (crime) will have a value for this variable (the month when it was recorded).</p>
 <div class="float">
-<img src="imgs/columnIsVariable.png" alt="Each column is a variable" />
+<img src="imgs/week1/columnIsVariable.png" alt="Each column is a variable" />
 <div class="figcaption"><strong>Each column is a variable</strong></div>
 </div>
 <p>Let’s have a go at recording some data observations and putting them into a database to give you some hands-on experience here. If you’re interested in the open data from police.uk, do read <a href="http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456">this paper here about it.</a>. You can also read about some problems Greater Manchester Police has faced when recording crime data in these two news: (a) “<a href="https://www.bbc.co.uk/news/uk-england-manchester-55251366">Greater Manchester Police ‘failed to record 80,000 crimes in a year’</a>”, (b) “<a href="https://www.theguardian.com/uk-news/2021/jun/29/greater-manchesters-27m-recording-system-doesnt-work-says-police-chief">Greater Manchester’s £27m crime recording system ‘doesn’t work’, says police chief</a>”.</p>
@@ -697,58 +696,57 @@ Finally, name your Word document ‘Trial Document’ (in the filename box) and 
 <li><strong>Day</strong>: The day of the month in which the tweet was sent.</li>
 <li><strong>Hour</strong>: The hour when the tweet was sent, in 24-hour format (where 13:00 is 1pm and 01:00 is 1am).</li>
 <li><strong>Account</strong>: The account who tweeted this tweet.</li>
-<li><strong>Tweet</strong>: The content of the tweet itself.</li>
-<li><strong>Likes</strong>: Number of likes for this tweet.</li>
-<li><strong>Retweets</strong>: Number of times this tweet was retweeted.</li>
+<li><strong>Text</strong>: The content of the tweet itself.
+-<strong>Views</strong>: Number of time the tweet was viewed.</li>
 <li><strong>Comments</strong>: Number of comments made as reply to this tweet.</li>
+<li><strong>Reshares</strong>: Number of times this tweet was reshared.</li>
+<li><strong>Likes</strong>: Number of likes for this tweet.</li>
 </ul>
-<p><img src="imgs/column_headers_tweets.png" /></p>
+<p><img src="imgs/week1/column_headers_tweets.png" /></p>
 <p>Now, you will just have to create a new row for each tweet and populate a value for each variable we collect in our data. We will go through the first tweet with you so we’re clear on what’s happening.
 This is tweet number 1:</p>
 <ul>
-<li><a href="https://twitter.com/GMPCityCentre/status/891900693585506304">Tweet 1</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1966454074380796019">Tweet 1</a></li>
 </ul>
 <p>You will see this open in a new window. Now, let’s try to find the value for each variable in this tweet:</p>
 <div class="float">
-<img src="imgs/tweet1.png" alt="Tweet1" />
+<img src="imgs/week1/tweet1.png" alt="Tweet1" />
 <div class="figcaption">Tweet1</div>
 </div>
 <ul>
-<li><em>Month</em>: July</li>
-<li><em>Day</em>: 31</li>
-<li><em>Hour</em>: 06</li>
+<li><em>Month</em>: Sep</li>
+<li><em>Day</em>: 12</li>
+<li><em>Hour</em>: 11</li>
 <li><em>Account</em>: GMPCityCentre</li>
-<li><em>Tweet</em>: Man left £1000 Stella McCartney bag on seat in Village bar with person he had just met, and when returned, woman and his bag had gone</li>
-<li><em>Likes</em>: 43</li>
-<li><em>Retweets</em>: 15</li>
-<li><em>Comments</em>: 15</li>
+<li><em>Text</em>:#ARREST | We have arrested two men on suspicion of robbery on Nicholas Street, #Manchester at 2am this morning (12/09/25). The victim reported being punched and kicked before having his wallet with £300 stolen. Read more➡️ <a href="https://orlo.uk/DLpUL" class="uri">https://orlo.uk/DLpUL</a></li>
+<li><strong>Views</strong>: 2610</li>
+<li><strong>Comments</strong>: 0</li>
+<li><strong>Reshares</strong>: 2</li>
+<li><strong>Likes</strong>: 9</li>
 </ul>
 <p>When you enter these values, your data will look like this:</p>
-<p><img src="imgs/tweet1_entered.png" /></p>
-<p>Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the ‘Tweet’ variable, rather than typing it out yourself, to save time and also ensure accuracy.</p>
+<p><img src="imgs/week1/tweet1_entered.png" /></p>
+<p>Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the ‘Text’ variable, rather than typing it out yourself, to save time and also ensure accuracy.</p>
 <blockquote>
-<p><strong>NOTE:</strong> It is possible that you see a slightly different time, number of retweets, comments, etc. than what I have here. This could be because you are logged into your own Twitter account, and <a href="http://www.adweek.com/digital/tweet-timestamps/">Twitter shows you the time in your own time zone</a>. Don’t worry about this for the purpose of this exercise, just type what time, retweets, comments, etc., you see, even if it’s different to the results here.</p>
+<p><strong>NOTE:</strong> It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don’t worry about this. For the purpose of this exercise, just type what time, rshares, comments, etc., you see, even if it’s different to the results here.</p>
 </blockquote>
 <p>OK, ready? Then, let’s build our data by adding the following tweets as additional rows:</p>
 <ul>
-<li><a href="https://twitter.com/GMPCityCentre/status/891762454337867776">Tweet 2</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/894515606321590273">Tweet 3</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/894024570109386752">Tweet 4</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/891247668772708352">Tweet 5</a></li>
-<li><a href="https://twitter.com/GMPCityCentre/status/891254643078176768">Tweet 6</a>
-<!-- - [Tweet 7](https://twitter.com/GMPCityCentre/status/890871354924421120) -->
-<!-- - [Tweet 8](https://twitter.com/GMPCityCentre/status/890594946536927233) -->
-<!-- - [Tweet 9](https://twitter.com/GMPCityCentre/status/890161961626996736) -->
-<!-- - [Tweet 10](https://twitter.com/GMPCityCentre/status/889084990495051776) --></li>
+<li><a href="https://x.com/GMPCityCentre/status/1963624177446817933">Tweet 2</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1957389249927323866">Tweet 3</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1945180614887448919">Tweet 4</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1937060435015999940">Tweet 5</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1925558433618489427">Tweet 6</a></li>
+<li><a href="https://x.com/GMPCityCentre/status/1902386697637138827">Tweet 7</a></li>
 </ul>
 <p>Once you have entered all these, you should have a pretty solid set of tweets looking something like this:</p>
-<p><img src="imgs/gmp_tweets.png" /></p>
+<p><img src="imgs/week1/gmp_tweets.png" /></p>
 <p>While entering your data, you probably noticed variations in when the tweets were made, how many likes and retweets they received, and possibly also started interpreting the tweet’s meaning. Some of them disseminate stats, for example, about the number of arrests or share information about an operation. Some appeal for information. And some are just one-off cases presented to the public.</p>
-<p>But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you’re interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.</p>
+<p>But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you’re interested in (month, day, hour, account, text, views, comments, reshares, likes) are all columns.</p>
 <p>Once you are done, save your data. You can do this by clicking on <em>“file”</em> and then <em>“save as”</em> and navigating to your working directory to save your file. You can save it as a <em>comma separated value</em> file or ‘.csv’. Next term, you will be dealing with data in this format. This way, any formatting that you do on the spreadsheet (e.g., making the column titles bold, etc.) will <em>not</em> be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. How you save your data doesn’t hugely matter at this stage.</p>
 <p>In any case, if you follow these steps, you will have a saved set of data in a <em>.csv</em> file, hopefully with some meaningful name:</p>
-<p><img src="imgs/save_tweets.png" /></p>
-<p>And now, you have created your first dataset. Your columns are your variables, which correspond to <em>Month</em>, <em>Day</em>, <em>Hour</em>, <em>Account</em>, <em>Tweet</em>, <em>Likes</em>, <em>Retweets</em> and <em>Comments</em>. Your rows are the tweets from which you have collected this information.</p>
+<p><img src="imgs/week1/save_tweets.png" /></p>
+<p>And now, you have created your first dataset. Your columns are your variables, which correspond to <em>Month</em>, <em>Day</em>, <em>Hour</em>, <em>Account</em>, <em>Text</em>, <em>Likes</em>, <em>Reshares</em>, <em>Views</em> and <em>Comments</em>. Your rows are the tweets from which you have collected this information.</p>
 </div>
 </div>
 <div id="questions-about-your-data" class="section level2 hasAnchor" number="1.8">
@@ -818,20 +816,24 @@ This is tweet number 1:</p>
 <td align="left">The account that sent the tweet</td>
 </tr>
 <tr class="odd">
-<td align="left">Tweet</td>
-<td align="left">The tweet text</td>
+<td align="left">Text</td>
+<td align="left">The text</td>
 </tr>
 <tr class="even">
-<td align="left">Likes</td>
-<td align="left">Number of likes</td>
+<td align="left">Views</td>
+<td align="left">Numbers of views</td>
 </tr>
 <tr class="odd">
-<td align="left">Retweets</td>
-<td align="left">Number of retweets</td>
+<td align="left">Comments</td>
+<td align="left">Number of comments to the tweet</td>
 </tr>
 <tr class="even">
-<td align="left">Comments</td>
-<td align="left">Number of replies to the tweet</td>
+<td align="left">Reshares</td>
+<td align="left">Number of reshares</td>
+</tr>
+<tr class="odd">
+<td align="left">Likes</td>
+<td align="left">Number of likes</td>
 </tr>
 </tbody>
 </table>
@@ -862,7 +864,7 @@ This is tweet number 1:</p>
 <p>…</p>
 <p>…ready?</p>
 <p>OK, here’s your answer:</p>
-<p><img src="imgs/num_vars.png" /></p>
+<p><img src="imgs/week1/num_vars.png" /></p>
 <p>So, is this the same as you thought? If yes, nice work!</p>
 <p>If you did not get this right, was that because you also selected the <strong>day</strong> and the <strong>hour</strong> variables? If it was, then that is perfect because that is what we were secretly hoping you would do! But that’s not quite correct.</p>
 <p>Why are day and hour <strong>not</strong> numeric variables? After all, they <em>are</em> numbers, right? Well, a simple way to think about that is - does it make sense to calculate the average hour in which tweets were sent? If I told you the average hour for GMP tweets is 13.5, is that something meaningful? Or if I told you that the average day is 15? Not hugely. Hour of the day and day of the month, which are what these variables represent, fall into a different level of measurement. These are <strong>ordinal</strong> variables. What does that mean? Well, the clue is in the name, <strong>ordinal</strong> variables that are not numeric, but they do fall into a <em>natural order</em>.</p>
@@ -1339,6 +1341,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

@@ -223,9 +223,9 @@ You can now move on to the substantive part of today's course. In the next secti
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(tidyverse) 
 library(lubridate)
-
 gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv?dl=1")
-#gmp_crimes <- read.csv("C:/Users/josep/OneDrive/Manchester/Making Sense/MSCD_labs/gmp_crimes.csv") #Jo made local path use above if you have good wifi
+
+#gmp_crimes <- read.csv("data/gmp_crimes.csv")
 
 topCrimTyp <- gmp_crimes %>%
   group_by(Crime.type) %>%
@@ -273,7 +273,7 @@ gmp_crimes %>%
 In this dataset, each row is one crime record:
 
 
-![**Each row is one observation**](imgs/rowIsObservation.png)
+![**Each row is one observation**](imgs/week1/rowIsObservation.png)
 
 
 
@@ -283,7 +283,7 @@ For every single crime event recorded in this data, there is a row, and it conta
 So, for example, *month* is a variable in our data, and for every row (which is every crime incident), this variable can take a value. Every crime incident occurred at one specific month, and that month when each incident happened will be the value that the *month* variable will take. And the month column will contain all the instances of the month variable for each crime incident recorded. Each observation (crime) will have a value for this variable (the month when it was recorded).
 
 
-![**Each column is a variable**](imgs/columnIsVariable.png)
+![**Each column is a variable**](imgs/week1/columnIsVariable.png)
 
 
 
@@ -313,72 +313,72 @@ Your first activity is to create a column header for each variable we want to co
 
 - **Month**: The month in which the tweet was sent.
 - **Day**: The day of the month in which the tweet was sent.
-- **Hour**: The hour when the tweet was sent, in 24-hour format (where 13:00 is 1pm and 01:00 is 1am).
+- **Hour**: The hour when the tweet was sent,  in 24-hour format (where 13:00 is 1pm and 01:00 is 1am).
 - **Account**: The account who tweeted this tweet.
-- **Tweet**: The content of the tweet itself.
-- **Likes**: Number of likes for this tweet.
-- **Retweets**: Number of times this tweet was retweeted.
+- **Text**: The content of the tweet itself.
+-**Views**: Number of time the tweet was viewed.
 - **Comments**: Number of comments made as reply to this tweet.
+- **Reshares**: Number of times this tweet was reshared.
+- **Likes**: Number of likes for this tweet.
 
 
-![](imgs/column_headers_tweets.png)
+
+![](imgs/week1/column_headers_tweets.png)
 
 
 Now, you will just have to create a new row for each tweet and populate a value for each variable we collect in our data. We will go through the first tweet with you so we're clear on what's happening. 
 This is tweet number 1: 
 
-- [ Tweet 1 ](https://twitter.com/GMPCityCentre/status/891900693585506304) 
+- [ Tweet 1 ](https://x.com/GMPCityCentre/status/1966454074380796019) 
 
 You will see this open in a new window. Now, let's try to find the value for each variable in this tweet: 
 
 
-![Tweet1](imgs/tweet1.png)
+![Tweet1](imgs/week1/tweet1.png)
 
 
-- *Month*: July
-- *Day*: 31
-- *Hour*: 06
+- *Month*: Sep
+- *Day*: 12
+- *Hour*: 11
 - *Account*: GMPCityCentre
-- *Tweet*: Man left £1000 Stella McCartney bag on seat in Village bar with person he had just met, and when returned, woman and his bag had gone
-- *Likes*: 43
-- *Retweets*: 15
-- *Comments*: 15
+- *Text*:#ARREST | We have arrested two men on suspicion of robbery on Nicholas Street, #Manchester at 2am this morning (12/09/25). The victim reported being punched and kicked before having his wallet with £300 stolen. Read more➡️ https://orlo.uk/DLpUL
+- **Views**: 2610
+- **Comments**: 0
+- **Reshares**: 2
+- **Likes**: 9
 
 
 When you enter these values, your data will look like this: 
 
 
-![](imgs/tweet1_entered.png)
+![](imgs/week1/tweet1_entered.png)
 
 
-Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the 'Tweet' variable, rather than typing it out yourself, to save time and also ensure accuracy. 
+Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the 'Text' variable, rather than typing it out yourself, to save time and also ensure accuracy. 
 
 
-> **NOTE:** It is possible that you see a slightly different time, number of retweets, comments, etc. than what I have here. This could be because you are logged into your own Twitter account, and [Twitter shows you the time in your own time zone](http://www.adweek.com/digital/tweet-timestamps/). Don't worry about this for the purpose of this exercise, just type what time, retweets, comments, etc., you see, even if it's different to the results here. 
+> **NOTE:** It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don't worry about this. For the purpose of this exercise, just type what time, rshares, comments, etc., you see, even if it's different to the results here. 
 
 OK, ready? Then, let's build our data by adding the following tweets as additional rows: 
 
-- [Tweet 2](https://twitter.com/GMPCityCentre/status/891762454337867776)
-- [Tweet 3](https://twitter.com/GMPCityCentre/status/894515606321590273)
-- [Tweet 4](https://twitter.com/GMPCityCentre/status/894024570109386752)
-- [Tweet 5](https://twitter.com/GMPCityCentre/status/891247668772708352)
-- [Tweet 6](https://twitter.com/GMPCityCentre/status/891254643078176768)
-<!-- - [Tweet 7](https://twitter.com/GMPCityCentre/status/890871354924421120) -->
-<!-- - [Tweet 8](https://twitter.com/GMPCityCentre/status/890594946536927233) -->
-<!-- - [Tweet 9](https://twitter.com/GMPCityCentre/status/890161961626996736) -->
-<!-- - [Tweet 10](https://twitter.com/GMPCityCentre/status/889084990495051776) -->
+- [Tweet 2](https://x.com/GMPCityCentre/status/1963624177446817933)
+- [Tweet 3](https://x.com/GMPCityCentre/status/1957389249927323866)
+- [Tweet 4](https://x.com/GMPCityCentre/status/1945180614887448919)
+- [Tweet 5](https://x.com/GMPCityCentre/status/1937060435015999940)
+- [Tweet 6](https://x.com/GMPCityCentre/status/1925558433618489427)
+- [Tweet 7](https://x.com/GMPCityCentre/status/1902386697637138827)
 
 
 Once you have entered all these, you should have a pretty solid set of tweets looking something like this:
 
 
-![](imgs/gmp_tweets.png)
+![](imgs/week1/gmp_tweets.png)
 
 
 While entering your data, you probably noticed variations in when the tweets were made, how many likes and retweets they received, and possibly also started interpreting the tweet's meaning. Some of them disseminate stats, for example, about the number of arrests or share information about an operation. Some appeal for information. And some are just one-off cases presented to the public. 
 
 
-But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, tweet, likes, retweets, comments) are all columns.
+But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, text, views, comments, reshares, likes) are all columns.
 
 
 Once you are done, save your data. You can do this by clicking on *"file"* and then *"save as"* and navigating to your working directory to save your file. You can save it as a *comma separated value* file or '.csv'. Next term, you will be dealing with data in this format. This way, any formatting that you do on the spreadsheet (e.g., making the column titles bold, etc.) will *not* be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. How you save your data doesn't hugely matter at this stage. 
@@ -387,10 +387,10 @@ Once you are done, save your data. You can do this by clicking on *"file"* and t
 In any case, if you follow these steps, you will have a saved set of data in a *.csv* file, hopefully with some meaningful name: 
 
 
-![](imgs/save_tweets.png)
+![](imgs/week1/save_tweets.png)
 
 
-And now, you have created your first dataset. Your columns are your variables, which correspond to *Month*, *Day*, *Hour*, *Account*, *Tweet*, *Likes*, *Retweets* and *Comments*. Your rows are the tweets from which you have collected this information. 
+And now, you have created your first dataset. Your columns are your variables, which correspond to *Month*, *Day*, *Hour*, *Account*, *Text*, *Likes*, *Reshares*, *Views* and *Comments*. Your rows are the tweets from which you have collected this information. 
  
  
 ## Questions about your data
@@ -467,15 +467,16 @@ If we were to share our tweet dataset, we would have to create something similar
 ```{r, echo=FALSE}
 
 df <- data.frame(Variable = c(
-  "Month", "Day", "Hour", "Account", "Tweet", "Likes", "Retweets", "Comments"), 
+  "Month", "Day", "Hour", "Account", "Text", "Views", "Comments", "Reshares", "Likes"), 
   Description = c("The month in which the tweet was sent", 
                   "The day of the month in which the tweet was sent", 
                   "The hour when the tweet was sent", 
                   "The account that sent the tweet", 
-                  "The tweet text", 
-                  "Number of likes", 
-                  "Number of retweets", 
-                  "Number of replies to the tweet")
+                  "The text", 
+                  "Numbers of views", 
+                  "Number of comments to the tweet",
+                  "Number of reshares", 
+                  "Number of likes")
   )
 
 df %>%
@@ -549,7 +550,7 @@ OK, here's your answer:
 
 
 
-![](imgs/num_vars.png)
+![](imgs/week1/num_vars.png)
 
 
 
