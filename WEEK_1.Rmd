@@ -92,7 +92,10 @@ If you use computer cluster PCs, there is some extra information you need to kno
 **NOTE: If you are using your own laptop/home computer, then you do not need to read this; you can skip to the section 'Getting to know Excel'**
 
 
-If you are using a cluster PC on campus, you need to make sure that all your work is saved in your [**OneDrive account**](https://onedrive.live.com/about/en-gb/signin/) or [**P:drive**](https://pdrives.manchester.ac.uk/horde/login.php). For Pdrive instructions, see below. 
+If you are using a cluster PC on campus, you need to make sure that all your work is saved in your **OneDrive account**. All students and staff have a personal file storage space on the University's One Drive. This should be available the moment you log in on any of the cluster PCs. Away from the campus, you can access the files on your One Drive from anywhere using the link [https://onedrive.live.com/about/en-gb/signin/](https://onedrive.live.com/about/en-gb/signin/). Use your student log in credentials to access your One Drive.
+
+
+<!--or [**P:drive**](https://pdrives.manchester.ac.uk/horde/login.php). For Pdrive instructions, see below. 
 
 
 All students and staff have a personal file storage space on the University network - known as the **P: drive**. Wherever you log on to the campus network, your P: drive is available (in PC Clusters, the **My Documents** icon on the desktop is a shortcut to the P: drive).
@@ -104,19 +107,21 @@ Away from the campus, you can download and upload files to and from your P: driv
 To create a new folder within your P: drive, click on the 'Create new folder' icon, as shown in the dialogue box below.
 
 
-![](imgs/create_folder.png)
-
+ -->
  
  
-For this specific module, you might want to label the new folder **'CRIM20441'**. You will now have a series of folders in your p: drive (some of these you haven't created yourself; they have been provided for you by the University), one of which you can store course material in. A word of caution - if your P: drive is full (and this tends to happen when you save image or sound files to it), there is a chance that some of the applications you want to use do not work. So make sure you keep your P: drive tidy if you don’t want to run into problems.
+For this specific module, you might want to create a new folder within your One drive. Once you access your One Drive folder use the "New" option on the tops left corner as shown in the dialogue box below, and choose "Folder". Label this folder **'CRIM20441'**.
 
+![](imgs/week1/create_folder.gif)
+
+You will now have a series of folders in your One Drive (some of these you haven't created yourself; they have been provided for you by the University).
 
 One last note for using cluster PCs: because cluster PCs come pre-installed with Excel, you can skip section 1.6.1 and go straight to "1.6.2 Install data analysis toolpak".
 
 
 ## Working directory
 
-If you are using your own laptop, you can create and save your files anywhere. However, if you are on the cluster PC, you should always save your files on your P:drive. OK - then what?
+If you are using your own laptop, you can create and save your files anywhere. However, if you are on the cluster PC, you should always save your files on your One Drive. OK - then what?
 
 
 It's generally good to create a folder to save your data and outputs in, which we will call a **working directory**. So firstly, before we begin to do any work, we should create our **working directory**. This is simply a folder where you will save all our files. You can create a new folder where you will save everything for this course, or you can choose an existing folder. It's advised that you create a folder and also give it some name you remember that will be meaningful. Generally, try to avoid spaces and special characters in folder (and file) names. [Here is a handy guide you should read about naming files and folders that will be relevant for all your future work](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf). 
