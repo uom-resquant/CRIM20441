@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-09-22" />
+<meta name="date" content="2025-09-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll('a[href]');
@@ -135,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="1.8.1" data-path="week1.html"><a href="week1.html#activity-4-thinking-about-what-our-data-tells-us"><i class="fa fa-check"></i><b>1.8.1</b> Activity 4: Thinking about what our data tells us</a></li>
 </ul></li>
 <li class="chapter" data-level="1.9" data-path="week1.html"><a href="week1.html#looking-at-real-data"><i class="fa fa-check"></i><b>1.9</b> Looking at real data</a></li>
-<li class="chapter" data-level="1.10" data-path="week1.html"><a href="week1.html#code-books"><i class="fa fa-check"></i><b>1.10</b> Code books</a></li>
+<li class="chapter" data-level="1.10" data-path="week1.html"><a href="week1.html#codebooks"><i class="fa fa-check"></i><b>1.10</b> Codebooks</a></li>
 <li class="chapter" data-level="1.11" data-path="week1.html"><a href="week1.html#levels-of-measurement"><i class="fa fa-check"></i><b>1.11</b> Levels of measurement</a>
 <ul>
 <li class="chapter" data-level="1.11.1" data-path="week1.html"><a href="week1.html#activity-5-levels-of-measurement-pt.-1"><i class="fa fa-check"></i><b>1.11.1</b> Activity 5: Levels of measurement pt. 1</a></li>
@@ -192,11 +196,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2><span class="header-section-number">1.4</span> Setting up your working environment<a href="week1.html#setting-up-your-working-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The first thing you need to do is to create a working environment for yourself for this course and for all projects you will work on using data. Just because everything is on your computer or laptop does not mean this is something you can ignore.</p>
 <p>There is a myth about the scientist and the messy workspace, typically illustrated with a picture of Albert Einstein:</p>
-<p><img src="imgs/week1/einstein_desk.jpg" width="480" /></p>
+<p><img src="imgs/week1/einstein_desk.jpg" /><!-- --></p>
 <p>However, many of us need order to work properly. An organised workspace is also prominent, as we can see with the famous workspaces of Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens:</p>
-<p><img src="imgs/week1/galileo_desk.jpg" width="118" /><img src="imgs/week1/marie_curie.jpg" width="118" /><img src="imgs/week1/Dalton_John_desk.jpg" width="226" /><img src="imgs/week1/alan_turing_desk.jpg" width="250" /></p>
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
-<img src="imgs/week1/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces" width="250" />
+<p><img src="imgs/week1/galileo_desk.jpg" /><!-- --><img src="imgs/week1/marie_curie.jpg" /><!-- --><img src="imgs/week1/Dalton_John_desk.jpg" /><!-- --><img src="imgs/week1/alan_turing_desk.jpg" /><!-- --></p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="imgs/week1/charles_dickens_desk.jpg" alt="\label{fig:figs}Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces"  />
 <p class="caption">
 Figure 1.1: Galileo, Marie Curie, John Dalton, Alan Turing, and Charles Dickens all had tidy workspaces
 </p>
@@ -296,7 +300,7 @@ To create a new folder within your P: drive, click on the 'Create new folder' ic
 <h2><span class="header-section-number">1.7</span> Data: Variables and observations<a href="week1.html#data-variables-and-observations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We know that in the period from May 2016 to May 2017, Greater Manchester Police recorded a total of 420228 crimes. We also know that the largest numbers were recorded in the “Anti-social behaviour” crime category, with 122443 instances. The fewest number of incidents was recorded for the “Possession of weapons” category, with 2009 instances.</p>
 <p>We can also track changes in the number of crimes over time:</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>How do we do this? Well, in the United Kingdom, since 2011, data regarding individual police recorded crimes have been made openly available to the public via the <a href="https://www.police.uk/">www.police.uk/</a> website. This means that by visiting the <a href="https://data.police.uk/">data.police.uk</a> website, you can access data about street-level crime and its outcome, as well as stop and search information broken down by police forces. What does this mean? What do these data look like? Let’s have a look:</p>
 <table>
 <colgroup>
@@ -390,7 +394,7 @@ To create a new folder within your P: drive, click on the 'Create new folder' ic
 <img src="imgs/week1/columnIsVariable.png" alt="Each column is a variable" />
 <div class="figcaption"><strong>Each column is a variable</strong></div>
 </div>
-<p>Let’s have a go at recording some data observations and putting them into a database to give you some hands-on experience here. If you’re interested in the open data from police.uk, do read <a href="http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456">this paper here about it.</a>. You can also read about some problems Greater Manchester Police has faced when recording crime data in these two news: (a) “<a href="https://www.bbc.co.uk/news/uk-england-manchester-55251366">Greater Manchester Police ‘failed to record 80,000 crimes in a year’</a>”, (b) “<a href="https://www.theguardian.com/uk-news/2021/jun/29/greater-manchesters-27m-recording-system-doesnt-work-says-police-chief">Greater Manchester’s £27m crime recording system ‘doesn’t work’, says police chief</a>”.</p>
+<p>Let’s have a go at recording some data observations and putting them into a database to give you some hands-on experience here. If you’re interested in the open data from police.uk, do read <a href="http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456">this paper here about it</a>. You can also read about some problems Greater Manchester Police has faced when recording crime data in these two news: (a) “<a href="https://www.bbc.co.uk/news/uk-england-manchester-55251366">Greater Manchester Police ‘failed to record 80,000 crimes in a year’</a>”, (b) “<a href="https://www.theguardian.com/uk-news/2021/jun/29/greater-manchesters-27m-recording-system-doesnt-work-says-police-chief">Greater Manchester’s £27m crime recording system ‘doesn’t work’, says police chief</a>”.</p>
 <div id="activity-3-building-your-own-data" class="section level3 hasAnchor" number="1.7.1">
 <h3><span class="header-section-number">1.7.1</span> Activity 3: Building your own data<a href="week1.html#activity-3-building-your-own-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <!--Often, you will have data readily created for you, such as we saw with the police.uk data set, which can be downloaded in the rectangle format, where your columns are your variables, and your rows are your observations. But data can take many forms. So we will have a go at dealing with some data that comes in a very unruly form: tweets!-->
@@ -436,7 +440,7 @@ This is tweet number 1:</p>
 <p><img src="imgs/week1/tweet1_entered.png" /></p>
 <p>Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the ‘Text’ variable, rather than typing it out yourself, to save time and also ensure accuracy.</p>
 <blockquote>
-<p><strong>NOTE:</strong> It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don’t worry about this. For the purpose of this exercise, just type what time, rshares, comments, etc., you see, even if it’s different to the results here.</p>
+<p><strong>NOTE:</strong> It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don’t worry about this. For the purpose of this exercise, just type what time, reshares, comments, etc., you see, even if it’s different to the results here.</p>
 </blockquote>
 <p>OK, ready? Then, let’s build our data by adding the following tweets as additional rows:</p>
 <ul>
@@ -449,8 +453,7 @@ This is tweet number 1:</p>
 </ul>
 <p>Once you have entered all these, you should have a pretty solid set of tweets looking something like this:</p>
 <p><img src="imgs/week1/gmp_tweets.png" /></p>
-<p>While entering your data, you probably noticed variations in when the tweets were made, how many likes and resahres they received, and possibly also started interpreting the tweet’s meaning. Some of them disseminate stats, for example, about the number of e-bikes seized or share information about an operation. And some are just one-off cases presented to the public.</p>
-<p>But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you’re interested in (month, day, hour, account, text, views, comments, reshares, likes) are all columns.</p>
+<p>But now, you’ve turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you’re interested in (month, day, hour, account, text, views, comments, re-shares, likes) are all columns.</p>
 <p>Once you are done, save your data. You can do this by clicking on <em>“file”</em> and then <em>“save as”</em> and navigating to your working directory to save your file. You can save it as a <em>comma separated value</em> file or ‘.csv’. Next term, you will be dealing with data in this format. This way, any formatting that you do on the spreadsheet (e.g., making the column titles bold, etc.) will <em>not</em> be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. How you save your data doesn’t hugely matter at this stage.</p>
 <p>In any case, if you follow these steps, you will have a saved set of data in a <em>.csv</em> file, hopefully with some meaningful name:</p>
 <p><img src="imgs/week1/save_tweets.png" /></p>
@@ -488,8 +491,8 @@ This is tweet number 1:</p>
 </ul>
 <p>You should be looking at one month’s worth of crime data from the Metropolitan Police Service. Isn’t that exciting? Real data at your fingertips!</p>
 </div>
-<div id="code-books" class="section level2 hasAnchor" number="1.10">
-<h2><span class="header-section-number">1.10</span> Code books<a href="week1.html#code-books" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="codebooks" class="section level2 hasAnchor" number="1.10">
+<h2><span class="header-section-number">1.10</span> Codebooks<a href="week1.html#codebooks" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To understand what the variables (columns) in our data mean, we usually look for resources that can tell us about this. A reference guide that tells you what the variables mean is usually called a <strong>code book</strong>, which is essential for both quantitative and qualitative datasets.</p>
 <p>Creating data is a gift that keeps on giving, not just for yourself but for others as well. Data collected by researchers is often shared and made available for others to use, allowing them to explore their own research questions. For example, the <a href="https://www.ukdataservice.ac.uk/">UK Data Service</a> is a large repository of data where you can sign up and access secondary data to analyse (both quantitative and qualitative). You may have heard of the <a href="http://www.crimesurvey.co.uk/">Crime Survey for England and Wales</a> or the <a href="https://tinyurl.com/bdddmy7a">Smoking, Drinking and Drug Use among Young People Survey</a>. The data collected by these surveys is online. Many variables collected about individuals, neighbourhoods, and other units of analysis (to be returned to later) are available to us. Isn’t that really cool!? If you want to know what thousands of people replied to the question asking them what the most important issue was to them when they voted in an election, you can find out just by downloading the correct dataset!</p>
 <p>Some more fantastic examples of qualitative and quantitative datasets can be found on the <a href="https://methods.sagepub.com/Search/Results?contentTypes=Datasets&amp;disciplines=%5B3%5D">Sage Research Methods website</a>.</p>
@@ -545,7 +548,7 @@ This is tweet number 1:</p>
 </tr>
 </tbody>
 </table>
-<p>Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a <em>codebook</em> (or <em>data dictionary</em>) is and that you come across a dataset, always make sure to look for the associated <em>codebook</em>/ <em>data dictionary</em> to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from.</p>
+<p>Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a <em>codebook</em> (or <em>data dictionary</em>) is and that when you come across a dataset, you always make sure to look for the associated <em>codebook</em>/ <em>data dictionary</em> to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from.</p>
 <p>Similarly, access to anonymised crime data through <a href="https://www.police.uk">www.police.uk</a>, which you just downloaded, allows us to ask questions about levels of crime in our local area and use these data to answer them. Access to this data allows us to study crime trends across the UK. It allows us to answer questions - such as which crime category had the highest number of recorded crimes in the last year? Or is the volume of crime increasing, decreasing, or staying the same?</p>
 <p>To answer these questions, we need <strong>data</strong>. The data you can see above on crimes that fall under GMP between May 2016 and May 2017 can be used to measure crime during this time period in this area. You can access the data dictionary for these data on the police.uk site at <a href="https://data.police.uk/about/#columns">https://data.police.uk/about/#columns</a>.</p>
 <p>It is essential to consult a data dictionary when using data to understand the meaning of the variables. And if you are making your own dataset, then create a data dictionary to let others (and even your future self) know what your dataset is all about.</p>
@@ -558,7 +561,7 @@ This is tweet number 1:</p>
 <ul>
 <li>Leland Wilkinson (2005) <em>The Grammar of Graphics</em></li>
 </ul>
-<p>As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets dataset, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as the number of likes, reshares, etc. So we know that a variable is <em>something that varies</em>, that you can note about an observation. It’s really important to spot what <em>type</em> of variables you are using. When we talk about kinds of variables, we begin to talk about <strong>levels of measurement</strong>.</p>
+<p>As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets dataset, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as the number of likes, re-shares, etc. So we know that a variable is <em>something that varies</em>, that you can note about an observation. It’s really important to spot what <em>type</em> of variables you are using. When we talk about kinds of variables, we begin to talk about <strong>levels of measurement</strong>.</p>
 <p>We can speak about the <strong>level of measurement</strong> of a variable, which refers to whether that variable belongs to the category of <em>nominal</em>, <em>ordinal</em> or <em>numeric</em>. Let’s explore what these categories mean.</p>
 <p>If we set out to collect our own data, we need to make sure that we collect all the variables needed to answer our question from all the observations that we have. The types of variables we have determine the kinds of questions that we can answer. For example, if we want to ask questions such as the one about the tweets above: “<em>Which tweet has the highest number of likes?</em>”, we need to have a <strong>numeric</strong> variable. <strong>Numeric</strong> variables let us answer questions about <em>quantity</em>. For example, if we want to know the <em>average number of crimes per month</em>, we will need a numeric variable of the number of crimes for each month. Just like for the tweets, we had a numeric variable of the <em>number of likes</em> for each tweet. Put simply, number questions are answered by <strong>numeric</strong> variables.</p>
 <p>You can always refer back to the lecture video on Canvas, about levels of measurement if you like!</p>
@@ -598,87 +601,176 @@ details {
 <p>Is it starting to make sense? To recap, each variable can fall into measurement levels, and these are <strong>numeric</strong>, <strong>ordinal</strong> or <strong>nominal</strong>. By the way, <strong>ordinal</strong> and <strong>nominal</strong> are also called <strong>categorical</strong> variables because they assign each observation into a <em>category</em>. Then, depending on whether the category values can be put in a meaningful order or not, you can tell if it’s an <em>ordinal-categorical</em> or <em>nominal-categorical</em> variable.</p>
 <p>Confused? Let’s look at this again, but with the crime data.</p>
 <p>Let’s glance at the crimes dataset first:</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:400px; overflow-x: scroll; width:800px; ">
 <table>
-<colgroup>
-<col width="1%" />
-<col width="3%" />
-<col width="11%" />
-<col width="11%" />
-<col width="4%" />
-<col width="3%" />
-<col width="10%" />
-<col width="4%" />
-<col width="11%" />
-<col width="12%" />
-<col width="12%" />
-<col width="3%" />
-<col width="9%" />
-</colgroup>
 <thead>
-<tr class="header">
-<th align="right">X</th>
-<th align="left">Month</th>
-<th align="left">Reported.by</th>
-<th align="left">Falls.within</th>
-<th align="right">Longitude</th>
-<th align="right">Latitude</th>
-<th align="left">Location</th>
-<th align="left">LSOA.code</th>
-<th align="left">LSOA.name</th>
-<th align="left">Crime.type</th>
-<th align="left">Last.outcome.category</th>
-<th align="left">Context</th>
-<th align="left">borough</th>
+<tr>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+X
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Month
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Reported.by
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Falls.within
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+Longitude
+</th>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;">
+Latitude
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Location
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+LSOA.code
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+LSOA.name
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Crime.type
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Last.outcome.category
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Context
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+borough
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="right">1</td>
-<td align="left">2016-05</td>
-<td align="left">Greater Manchester Police</td>
-<td align="left">Greater Manchester Police</td>
-<td align="right">-2.462774</td>
-<td align="right">53.6221</td>
-<td align="left">On or near Scout Road</td>
-<td align="left">E01012628</td>
-<td align="left">Blackburn with Darwen 018D</td>
-<td align="left">Violence and sexual offences</td>
-<td align="left">Unable to prosecute suspect</td>
-<td align="left">NA</td>
-<td align="left">Blackburn with Darwen</td>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+2016-05
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:right;">
+-2.462774
+</td>
+<td style="text-align:right;">
+53.6221
+</td>
+<td style="text-align:left;">
+On or near Scout Road
+</td>
+<td style="text-align:left;">
+E01012628
+</td>
+<td style="text-align:left;">
+Blackburn with Darwen 018D
+</td>
+<td style="text-align:left;">
+Violence and sexual offences
+</td>
+<td style="text-align:left;">
+Unable to prosecute suspect
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Blackburn with Darwen
+</td>
 </tr>
-<tr class="even">
-<td align="right">2</td>
-<td align="left">2016-05</td>
-<td align="left">Greater Manchester Police</td>
-<td align="left">Greater Manchester Police</td>
-<td align="right">-2.464422</td>
-<td align="right">53.6125</td>
-<td align="left">On or near Parking Area</td>
-<td align="left">E01004768</td>
-<td align="left">Bolton 001A</td>
-<td align="left">Anti-social behaviour</td>
-<td align="left"></td>
-<td align="left">NA</td>
-<td align="left">Bolton</td>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+2016-05
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:right;">
+-2.464422
+</td>
+<td style="text-align:right;">
+53.6125
+</td>
+<td style="text-align:left;">
+On or near Parking Area
+</td>
+<td style="text-align:left;">
+E01004768
+</td>
+<td style="text-align:left;">
+Bolton 001A
+</td>
+<td style="text-align:left;">
+Anti-social behaviour
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Bolton
+</td>
 </tr>
-<tr class="odd">
-<td align="right">3</td>
-<td align="left">2016-05</td>
-<td align="left">Greater Manchester Police</td>
-<td align="left">Greater Manchester Police</td>
-<td align="right">-2.464422</td>
-<td align="right">53.6125</td>
-<td align="left">On or near Parking Area</td>
-<td align="left">E01004768</td>
-<td align="left">Bolton 001A</td>
-<td align="left">Anti-social behaviour</td>
-<td align="left"></td>
-<td align="left">NA</td>
-<td align="left">Bolton</td>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+2016-05
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:left;">
+Greater Manchester Police
+</td>
+<td style="text-align:right;">
+-2.464422
+</td>
+<td style="text-align:right;">
+53.6125
+</td>
+<td style="text-align:left;">
+On or near Parking Area
+</td>
+<td style="text-align:left;">
+E01004768
+</td>
+<td style="text-align:left;">
+Bolton 001A
+</td>
+<td style="text-align:left;">
+Anti-social behaviour
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+Bolton
+</td>
 </tr>
 </tbody>
 </table>
+</div>
 <p>There is one variable there that is called <strong>Crime.type</strong>. This variable can take a value that corresponds to one of the crime types listed in the Police.UK FAQ page: <a href="https://www.police.uk/pu/about-police.uk-crime-data/">https://www.police.uk/pu/about-police.uk-crime-data/</a> - under the tab <em>‘what do the crime categories mean’</em>. For every recorded crime incident, an officer will have to classify the incident into one of these categories. All of these categories are all the possible <strong>values</strong> that the <em>Crime.type</em> <strong>variable</strong> can take. This is a <strong>categorical</strong> variable, as its possible values are categories. Moreover, this is a <strong>nominal</strong> variable because the categories do not fall into a natural order. These categories are mutually exclusive (a crime is classed as either a <em>Burglary</em> or <em>Vehicle Crime</em>, but not both at the same time) and cannot be ordered in a meaningful way (alphabetical is not meaningful!). If they did have a meaningful order (for example, days of the week have an order, or the values <em>small, medium, large</em> have an order), they would be <strong>ordinal</strong> variables. Both ordinal and nominal variables are categorical because they deal with values that can take a finite number of values or, in other words, belong to a finite number of categories. They group your data into one of the available categories.</p>
 <p>In the coming weeks, we will discuss about creating frequency tables, where you group your data by categories, and create a new dataset, where you have the group and the number of observations in each group. For example, we can look at the <strong>numeric</strong> variable of <em>number of burglaries</em>. Suppose we have created this dataset, which has 2 variables, one <em>Borough</em> variable with the name of each borough, and one <em>Number of burglaries</em> variable, with… you guessed it… the number of burglaries in that borough.</p>
 <p>It would look something like this:</p>

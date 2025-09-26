@@ -23,3 +23,5 @@ activity-6-levels-of-measurement-pt.-2
 unit-of-analysis
 activity-7-abstract-ing-the-unit-of-analysis
 summary
+fig:unnamed-chunk-3
+codebooks

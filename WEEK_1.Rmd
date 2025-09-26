@@ -282,7 +282,7 @@ So, for example, *month* is a variable in our data, and for every row (which is 
 
 
 
-Let's have a go at recording some data observations and putting them into a database to give you some hands-on experience here. If you're interested in the open data from police.uk, do read [this paper here about it.](http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456). You can also read about some problems Greater Manchester Police has faced when recording crime data in these two news: (a) "[Greater Manchester Police 'failed to record 80,000 crimes in a year'](https://www.bbc.co.uk/news/uk-england-manchester-55251366)", (b) "[Greater Manchester’s £27m crime recording system ‘doesn’t work’, says police chief](https://www.theguardian.com/uk-news/2021/jun/29/greater-manchesters-27m-recording-system-doesnt-work-says-police-chief)".
+Let's have a go at recording some data observations and putting them into a database to give you some hands-on experience here. If you're interested in the open data from police.uk, do read [this paper here about it](http://www.tandfonline.com/doi/abs/10.1080/15230406.2014.972456). You can also read about some problems Greater Manchester Police has faced when recording crime data in these two news: (a) "[Greater Manchester Police 'failed to record 80,000 crimes in a year'](https://www.bbc.co.uk/news/uk-england-manchester-55251366)", (b) "[Greater Manchester’s £27m crime recording system ‘doesn’t work’, says police chief](https://www.theguardian.com/uk-news/2021/jun/29/greater-manchesters-27m-recording-system-doesnt-work-says-police-chief)".
 
 
 ### Activity 3: Building your own data
@@ -350,7 +350,7 @@ When you enter these values, your data will look like this:
 Make sure that you are copying (keyboard shortcut: ctrl + C/ command + C) and pasting (keyboard shortcut: ctrl + V/ command + V) the 'Text' variable, rather than typing it out yourself, to save time and also ensure accuracy. 
 
 
-> **NOTE:** It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don't worry about this. For the purpose of this exercise, just type what time, rshares, comments, etc., you see, even if it's different to the results here. 
+> **NOTE:** It is possible that you see a slightly different time, number of reshares, comments, etc. than what is in these lab notes. There are various reasons why that might be. Don't worry about this. For the purpose of this exercise, just type what time, reshares, comments, etc., you see, even if it's different to the results here. 
 
 OK, ready? Then, let's build our data by adding the following tweets as additional rows: 
 
@@ -368,10 +368,9 @@ Once you have entered all these, you should have a pretty solid set of tweets lo
 ![](imgs/week1/gmp_tweets.png)
 
 
-While entering your data, you probably noticed variations in when the tweets were made, how many likes and resahres they received, and possibly also started interpreting the tweet's meaning. Some of them disseminate stats, for example, about the number of e-bikes seized or share information about an operation. And some are just one-off cases presented to the public. 
 
 
-But now, you turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, text, views, comments, reshares, likes) are all columns.
+But now, you've turned the unstructured data of tweets into a structured dataset, where your observations (tweets) are the rows and the variables you're interested in (month, day, hour, account, text, views, comments, re-shares, likes) are all columns.
 
 
 Once you are done, save your data. You can do this by clicking on *"file"* and then *"save as"* and navigating to your working directory to save your file. You can save it as a *comma separated value* file or '.csv'. Next term, you will be dealing with data in this format. This way, any formatting that you do on the spreadsheet (e.g., making the column titles bold, etc.) will *not* be preserved. However, your data will be available to read by more advanced software that we will use in the next term, not just Excel. How you save your data doesn't hugely matter at this stage. 
@@ -432,7 +431,7 @@ This will take you to a download page, where you have to click the `Download now
 You should be looking at one month's worth of crime data from the Metropolitan Police Service. Isn't that exciting? Real data at your fingertips! 
  
 
-## Code books
+## Codebooks
 
 
 To understand what the variables (columns) in our data mean, we usually look for resources that can tell us about this. A reference guide that tells you what the variables mean is usually called a **code book**, which is essential for both quantitative and qualitative datasets.
@@ -480,7 +479,7 @@ df %>%
 
 
 
-Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a *codebook* (or *data dictionary*) is and that you come across a dataset, always make sure to look for the associated *codebook*/ *data dictionary* to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from. 
+Is there anything else that you would include? Why or why not? Have a think, and if you want to, discuss it with a friend. The important thing here is that you understand what a *codebook* (or *data dictionary*) is and that when you come across a dataset, you always make sure to look for the associated *codebook*/ *data dictionary* to be able to understand what each variable means. If you download your data from the web, you will usually find a link to the data dictionary on the site where you downloaded the data from. 
 
 
 
@@ -503,7 +502,7 @@ It is essential to consult a data dictionary when using data to understand the m
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets dataset, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as the number of likes, reshares, etc. So we know that a variable is *something that varies*, that you can note about an observation. It's really important to spot what *type* of variables you are using. When we talk about kinds of variables, we begin to talk about **levels of measurement**.
+As Leland Wilkinson points out, data can be numeric, but it can be other things as well. Data could be text, such as the tweets seen above. It can also be a date, which is a special kind of number because it has some meaning. Pictures can also be data, as can video or audio. You can also have spatial or geographic data, perhaps in the form of the coordinates for where a particular crime event took place. These are all possible types of data, and we could collect them as variables or columns in our dataset. In the tweets dataset, we collected the text of the tweet, as well as the text of the account and the month, as well as some numbers, such as the number of likes, re-shares, etc. So we know that a variable is *something that varies*, that you can note about an observation. It's really important to spot what *type* of variables you are using. When we talk about kinds of variables, we begin to talk about **levels of measurement**.
 
 
 
@@ -576,14 +575,15 @@ Confused? Let's look at this again, but with the crime data.
 
 
 
-Let's glance at the crimes dataset first:
+Let's glance at the first few rows of the crimes dataset first:
 
 
 ```{r, echo=FALSE}
 gmp_crimes %>%
   select(-Crime.ID) %>%
   head(n=3) %>%
-  knitr::kable() 
+  knitr::kable() %>% 
+  kableExtra::scroll_box(width = "800px", height = "400px")
   
 ```
 
