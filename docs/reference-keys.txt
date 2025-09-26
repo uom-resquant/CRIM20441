@@ -16,12 +16,10 @@ activity-3-building-your-own-data
 questions-about-your-data
 activity-4-thinking-about-what-our-data-tells-us
 looking-at-real-data
-code-books
+codebooks
 levels-of-measurement
 activity-5-levels-of-measurement-pt.-1
 activity-6-levels-of-measurement-pt.-2
 unit-of-analysis
 activity-7-abstract-ing-the-unit-of-analysis
 summary
-fig:unnamed-chunk-3
-codebooks
