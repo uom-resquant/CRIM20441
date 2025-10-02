@@ -366,7 +366,6 @@ You can also stylize your graph to make it look the way you like. As we mentione
 
 ## Summarising numeric data
 
-
 We saw that for categorical data, the way we would carry out univariate analysis is to produce a frequency table to identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like mean and median. We also spoke about the variation. In this section, we will consider these numeric summaries for numeric variables and how we can go about visualising these. 
 
 
@@ -438,8 +437,7 @@ Right, so what's a better way to summarise numeric data? It is easier to summari
 
 
 
-You will often hear numeric variables summarised by the measure of central tendency. These are the **mean** and the **median**. You will have encountered the mean before, but possibly referred to as the **average**. In statistical language, you will hear people talk about *the mean number of crimes per borough is `r I(as.character(mean(per_borough_crimes$number.of.crimes)))` crimes*. This is the exact same thing as talking about the average number of crimes per borough, which is `r I(as.character(mean(per_borough_crimes$number.of.crimes)))` crimes. And you would calculate it the exact same way. 
-
+You will often hear numeric variables summarised by the measure of central tendency. These are the **mean** and the **median**. You will have encountered the mean before, but possibly referred to as the **average**. In statistical language, you will hear people talk about *the mean number of crimes per borough is `r I(as.character(mean(per_borough_crimes$number.of.crimes)))` crimes*. More commonly, you might hear people refer to this as the _average_ number of crimes per borough, which is of course therefore also `r I(as.character(mean(per_borough_crimes$number.of.crimes)))` crimes.
 
 To calculate the mean, you add up all your observations and then divide by the number of observations you have. 
 
@@ -498,10 +496,10 @@ But take a moment here to think about why `r I(per_borough_crimes %>% arrange(-n
 Any thoughts? Turn to the person next to you and have a chat about why you think that we are seeing such a large number of crimes in this borough compared to the other ones. 
 
 
-Now that you've had this discussion, let's get back to the problem at hand. One of the issues with outliers is that they can skew your results. In this case, our **outlier** borough, `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(borough))` borough has had a major effect on our **mean**. Because we include all the observations and then divide by the total number, we are essentially assuming an even distribution of crimes in each borough. When we say that the **mean** number of crimes per borough is 42,000 crimes, we are saying that if you distributed these crimes equally, then that is how many you would get in each borough. But we can clearly see that the number of crimes is not distributed equally between boroughs, and therefore, talking about the **mean** number of crimes might not be the best way to summarise the data. 
+Now that you've had this discussion, let's get back to the problem at hand. One of the issues with outliers is that they can skew your results. In this case, our **outlier** borough, `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(borough))` borough has had a major effect on our **mean**. When we say that the **mean** number of crimes per borough is 42,000 crimes, we are saying that if you distributed these crimes equally, then that is how many you would get in each borough. But we can clearly see that the number of crimes is not distributed equally between boroughs, and therefore, talking about the **mean** number of crimes might not be the best way to summarise the data. 
 
 
-Luckily, this section is called **measured of central tendency** rather than **the mean** section because we have other options. The other measure of central tendency, used to summarise numeric variables, is something called **the median**. The median is the middle point of your data. It represents the value where, if you arrange your data, sorting by your numeric variable from smallest to largest, this value splits the data exactly in half. So 50% of your data has values for the numeric variable in question greater than this value, and 50% has values that are smaller than this value. This is the value that is right smack in the middle! 
+Luckily, this section is called **measures of central tendency** rather than **the mean** section because we have other options. The other measure of central tendency, used to summarise numeric variables, is something called **the median**. The median is the middle point of your data. It represents the value where, if you arrange your data, sorting by your numeric variable from smallest to largest, this value splits the data exactly in half. So 50% of your data has values for the numeric variable in question greater than this value, and 50% has values that are smaller than this value. This is the value that is right smack in the middle! 
 
 
 How do you calculate the median? Well, one approach is to write the numbers in order, from smallest to largest. Then, to find the median number:
@@ -519,7 +517,7 @@ If you only have a few numbers, then this is feasible. Let's try this for our nu
 So, we have them in order. First question: are there an even or an odd number of values? Well, those of us with razor-sharp memories will remember that when we were calculating the mean, we already counted the number of values and found a result of `n=10`. Those who don't remember this, count the number above. Are there 10? We hope so!
 
 
-So, is 10 an odd or an even number? (hint: it's even). Because of this, we know that the median will be the mean of the two central numbers. Which are the central numbers? Well, count in 5 from the start and 5 from the end of that row, and you will identify our two middle numbers (why 5? Well, if you divide 10 by 2, to get to its middle...!)
+So, is 10 an odd or an even number? (hint: it's even). Because of this, we know that the median will be the mean of the two central numbers. Which are the central numbers? Well, count in 5 from the start and 5 from the end of that row, and you will identify our two middle numbers (why 5? Well, if you divide 10 by 2, you get to its middle...!)
 
 
 Great, now we are almost there! We have identified the two middle numbers as 34,619 and 35,122. So, how do we get the mean? Scroll up if you're not sure!
@@ -537,7 +535,7 @@ We will calculate it too:
 `r I(as.character(sum(34619 + 35122)))` `/2=` `r I(as.character(sum(34619 + 35122)/2))`
 
 
-Woohoo! The mean of the middle two numbers, which is the median, is `r I(as.character(sum(34619 + 35122)/2))`. And this gives us our second measure of central tendency. We can see that this number is actually quite far off from our mean number of crimes per borough. This means that our data is **skewed** by our outlier! When our data is **not skewed** our mean and our median should be the *same value*. The more different they are, the greater the skew in our data! We will talk about skew and things like the normal distribution a bit later and more in your next term, but you should have a basic understanding of the difference between the mean and the median, what this difference means, and when each one is appropriate to use. 
+Woohoo! The mean of the middle two numbers, which is the median, is `r I(as.character(sum(34619 + 35122)/2))`. And this gives us our second measure of central tendency. We can see that this number is actually quite far off from our mean number of crimes per borough. This means that our data is **skewed** by our outlier! When our data is **not skewed** our mean and our median should be the *same value* (or at least very close to one another). The more different they are, the greater the skew in our data! We will talk about skew and things like the normal distribution a bit later and more in your next term, but you should have a basic understanding of the difference between the mean and the median, what this difference means, and when each one is appropriate to use. 
 
 
 If you are confused about any of this just now, then let us know by raising your hand and asking one of us to clarify. But first, watch [this video by Chris Wilde](https://www.youtube.com/watch?v=U3lk2nQYfAQ&amp=&list=PL8CRAVedURQrlxeFfme0TEgaj1_h67JUR&amp=&index=4) to explain this to you using some pretty nifty visual aids. You can skip ahead and start from 2:41 if you wish. Now, ask away. We are here to help!
@@ -554,7 +552,7 @@ Now that you understand how the mean and median are calculated, what they repres
 You can set a cell value to a formula by starting what you write in there with `=`. 
 
 
-The formula for calculating the mean (which is the statistical term for the average) is simply:
+The formula for calculating the mean (which is commonly used as the statistical term for the average) is simply:
 
 
 `=AVERAGE()`
@@ -644,11 +642,11 @@ You can see here that the majority of boroughs are clustered on the left side of
 ### Histograms
 
 
-This graph is called a **histogram**. While it may at first glance resemble a bar chart, it actually isn't one. If it doesn't quite make sense, have a look at 
+This graph is called a **histogram**. While it may at first glance resemble a bar chart, it is subtly different. If it doesn't quite make sense, have a look at 
 [this interactive essay on histograms](http://tinlizzie.org/histograms/). Even if you are very confident with histograms, we would recommend that you take time to go through this interactive tutorial. It gives you a really great, hands-on experience in building one. The [Chris Wild video we linked earlier](https://www.youtube.com/watch?v=U3lk2nQYfAQ&amp=&list=PL8CRAVedURQrlxeFfme0TEgaj1_h67JUR&amp=&index=4) also shows you about histograms. They are excellent for plotting the distribution of numeric data. But how do they work? Well, we are really hoping that you have gone through the video and the tutorial, but we will also just want to reinforce your learning and explain here. 
 
 
-Let's say we have some numeric data. We know already that we can't put it into categories, that's why we can't build a frequency table. Every entry would only appear once. But what we *can* do is create **bins** for our numeric data to fall into. Think of your numeric variable along the horizontal x-axis. Something like this: 
+Let's say we have some numeric data. We know already that we can't consider each raw numeric value to be a category, that's why we can't build a frequency table. Every entry would only appear once. But what we *can* do is create **bins** for our numeric data to fall into. Think of your numeric variable along the horizontal x-axis. Something like this: 
 
 ![](imgs/hist_blank_x.png)
 
@@ -668,7 +666,7 @@ df %>%
 
 
 
-Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days we ate how many on; we just want to carry out some *uni*variate analysis on the numeric variable of the number of chocolate bars. We want to look at the distribution of the numbers. We want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "bining" the range of values. That is, you divide the entire range of values into a series of intervals. So, for example, we can decide to bin our values into groups of fives. Something like this: 
+Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days we ate how many on; we just want to carry out some *uni*variate analysis on the numeric variable of the number of chocolate bars. We want to look at the distribution of the numbers. We want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "binning" the range of values. That is, you divide the entire range of values into a series of intervals. So, for example, we can decide to bin our values into two groups of five Something like this: 
 
 
 ![](imgs/hist_bins.png)
@@ -676,8 +674,7 @@ Let's say we are interested in our *numeric* variable here, the number of chocol
 
 All that means is that if you look at those purple bins there, any value between 0-5 will fall in the first one, and any value between 5-10 will fall in the next one, and so on and so on. The bins are usually specified as consecutive, non-overlapping intervals of a variable.
 
-And that's all there is to it. Once you have your bins, you just count how many values fall into each interval. 
-
+And that's all there is to it. Once you have your bins, you just count how many values fall into each interval. If you think about it, by assigning bins to our numeric variable, we are kind of _creating a categorical variable from our raw numeric variable_.
 
 So, if we were to draw this histogram for our chocolate consumption data, then if we start with Monday, we can see we had 2 chocolate bars, and therefore, we would add one value (one observation) to the 0-5 bin. Like this: 
 
@@ -715,7 +712,7 @@ per_borough_crimes %>%
 ```
 
 
-If it does, then that is excellent, and you can move on now. If it does **not**, then please raise your hand, and we will come around and try to clarify this for you. But also make sure that before you do this, you go through the resources above, especially [the interactive essay](http://tinlizzie.org/histograms/). 
+If it does, then that is excellent, and you can move on now. If it does **not**, then please raise your hand, and we will come around and try to clarify this for you. It is completely fine to need further clarification on this topic -- that's what we are here for! But also make sure that before you do this, you go through the resources above, especially [the interactive essay](http://tinlizzie.org/histograms/). 
 
 
 So, looking back up at our crimes per borough histogram, you can now see that the majority of observations fall between some values relatively close together, but there is one observation that has a very high crime score. This is what we discussed earlier when we were talking about **outliers**. No surprises there. But what is interesting now is that you can **see the distribution** of your data, and you can see exactly how far this outlier sits. Just like the distribution of the IMDB scores for the Al Gore movie, a histogram of the number of crimes per borough also tells a story. 
@@ -723,11 +720,9 @@ So, looking back up at our crimes per borough histogram, you can now see that th
 
 ### Activity 2.6: Histograms in Excel
 
-So, how do you build a histogram? Of course, we won't make you draw one manually; every time you need to build one, let's get to Excel and make our own. This time, it's slightly different from just inserting a bar chart. Remember that bar charts represent the frequency of a categorical variable. Building one for a numeric variable, such as the number of crimes, would not make sense. If you are unsure why, look back at our frequency table for the number of crimes variable. All the frequencies are 1. So your bars would all be the same height, and we would be none the wiser about any distribution. One important feature of numeric variables is that **the distance between numbers is meaningful**. Right? Remember this from the definitions for levels of measurement? So that is why we know how far for example 117,663 is from 40,751, and how much farther it is than 40,751 is from the next number in our data, 40,058. A histogram will display this for you. 
+So, how do you build a histogram? Of course, we won't make you draw one manually; every time you need to build one, let's get to Excel and make our own. This time, it's slightly different from just inserting a bar chart. Remember that bar charts represent the frequency of a categorical variable. Building one for a numeric variable, such as the number of crimes, would not make sense. If you are unsure why, look back at our frequency table for the number of crimes variable. All the frequencies are 1. So your bars would all be the same height, and we would be none the wiser about any distribution. One important feature of numeric variables is that **the distance between numbers is meaningful**. Right? Remember this from the definitions for levels of measurement? So that is why we know how far 117,663 is from 40,751, and how the difference between those numbers is larger than, for example, between 40,751 and 40,058. A histogram will display this for you. 
 
-
-
-So, to build a histogram in Excel, you will have to have your data, and you also have to have an idea of the **bins** that you want. How do you decide this? Well, this is again one of those things where the answer is that *it depends* on your data. What are meaningful bins? What are interesting sizes to group the numeric data into? For example, in this case, would it make sense to have a bin width of 10 crimes? If we used a bin width of 10, we would see something like this: 
+So, to build a histogram in Excel, you will have to have your data, and you also have to have an idea of how many **bins** you want. How do you decide this? Well, this is again one of those things where the answer is that *it depends* on your data. What are meaningful bins? What are interesting sizes to group the numeric data into? For example, in this case, would it make sense to have a bin width of 10 crimes? If we used a bin width of 10, we would see something like this: 
 
 
 
@@ -887,12 +882,12 @@ Histograms begin to tell you about the **spread** of your data. That is - how ar
 - The median
 
 
-Some of these we've covered. The median we just discussed. To recap - The median provides a model for thinking about what a typical value is. The median is literally the value in the middle. If you rank the boroughs from the one with the lowest number of crimes to the one with the highest, the median would be given by the value of crimes in a borough right in the middle of this rank. About 50% of the boroughs would have a crime count higher than this value given by the median, and about half would have a lower crime count. Thus, the median is also defined as the 50% percentile.
+Some of these we've covered. The median we just discussed. To recap - The median provides a model for thinking about what a typical value is. The median is literally the value in the middle. If you rank the boroughs from the one with the lowest number of crimes to the one with the highest, the median would be given by the value of crimes in a borough right in the middle of this rank. About 50% of the boroughs would have a crime count higher than this value given by the median, and about half would have a lower crime count. Thus, **the median is also defined as the 50% percentile**.
 
 We touched on the minimum and maximum values last week. These are the smallest number and the largest number in your set of data. So, going back to our number of crimes per borough, the minimum value is the lowest number of crimes per borough (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`), and the maximum value is the highest number of crimes per borough (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(number.of.crimes))`). 
 
 
-One simple way of characterising how much data values vary is to look at the **range**. The **range** is the difference between the lowest and the highest data value in the distribution. In the table above we can see that the lowest value is (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`), and the maximum value is the highest number of crimes per borough (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`). There are 0 countries with a value lower than `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))` and 100% of the countries have a value lower than `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(number.of.crimes))`. The range for the number of crimes is then `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(number.of.crimes) - per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`. Because `117,663 - 22,587 = 95,076`. 
+One simple way of characterising how much data values vary is to look at the **range**. The **range** is the difference between the lowest and the highest data value in the distribution. In the table above we can see that the lowest value is (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`), and the maximum value is the highest number of crimes per borough (`r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`). There are 0 boroughs with a value lower than `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))` and 100% of the boroughs have a value lower than `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(number.of.crimes))`. The range for the number of crimes is then `r I(per_borough_crimes %>% arrange(-number.of.crimes) %>% head(n = 1) %>% select(number.of.crimes) - per_borough_crimes %>% arrange(-number.of.crimes) %>% tail(n = 1) %>% select(number.of.crimes))`. Because `117,663 - 22,587 = 95,076`. 
 
 
 The **range** has the disadvantage that a single extreme value can make it very large, giving a value that doesn’t represent the data overall. In these situations, a better way to describe the spread of a variable might be to ignore the extremes and concentrate on the middle of the data. We could look at the range of the middle half of the data. 
@@ -932,7 +927,7 @@ Now the quartiles are just the medians for the two halves of the data (which wer
 One-quarter of the data lies below the lower quartile, and one-quarter of the data lies above the upper quartile, so half the data lies between them. The quartiles border the middle half of the data. The difference between the lower and the upper quartile tells us how much territory the middle half of the data covers and is called the interquartile range (IQR). The lower quartile is also called the 25th percentile; 25% of the cases lie below it, and the upper quartile is also called the 75th percentile, 75% of the cases lie below it. The 1st quartile is also called the lower quartile, and the 3rd quartile is also called the upper quartile. So we sometimes just say different names for the same thing. The 0th quartile = the minimum value (although actually no one says 0th quartile...) 1st quartile = the lower quartile, the 2rd quartile = the median, the 3rd quartile is the upper quartile, and the 4th quartile is the maximum. 
 
 
-In the table, with our numerical results, we saw the lower quartile for the number of crimes (or the 25th percentile) is 33,463 (25% of the boroughs have fewer crimes than that), and the upper quartile (or 75% percentile) was 39,312 (about 25% of the countries have more crimes than that). The interquartile range then is `r I(39312-33463)` (`upper quartile - lower quartile = 39312-33463 = ``r I(39312-33463)`).
+In the table, with our numerical results, we saw the lower quartile for the number of crimes (or the 25th percentile) is 33,463 (25% of the boroughs have fewer crimes than that), and the upper quartile (or 75% percentile) was 39,312 (about 25% of the boroughs have more crimes than that). The interquartile range then is `r I(39312-33463)` (`upper quartile - lower quartile = 39312-33463 = ``r I(39312-33463)`).
 
 
 Because the interquartile range excludes everybody with the lowest and the highest values in the distribution (we are only looking at the difference between the lower and the upper quartile) is a measure of spread that is less sensitive to outliers (extremely atypical, very high or very low values). 
