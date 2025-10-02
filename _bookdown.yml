@@ -8,7 +8,7 @@ output_dir: "docs"
 rmd_files:
   - index.Rmd
   - WEEK_1.Rmd
-#  - WEEK_2.Rmd
+  - WEEK_2.Rmd
 #  - WEEK_3.Rmd
 #  - WEEK_4.Rmd
 #  - WEEK_5.Rmd

@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Week 2 {#week2}
 
 ## Learning outcomes
@@ -70,10 +75,10 @@ Hopefully, these words will sound familiar to you from your reading and some of 
 ### Activity 2.2: Crime types
 
 
-Let's start with some exercises about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself, though, because we have put the data on Blackboard for you. 
+Let's start with some exercises about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself, though, because we have put the data on [Canvas] for you. 
 
 
-So, to find this data set, just go to Blackboard, and under 'Learning materials' > Module 02 > data for labs and homework, and then download the file `gmp_crimes.xlsx` into your working directory. Once you have saved it, open the file using Excel.
+So, to find this data set, just go to Canvas, navigate to the learning materials for week 2, click on `Data for the lab and the homework tasks` and then download the file `gmp_crimes.xlsx`. Remember to place it into your clear and logical folder structure! Once you have saved it, open the file using Excel.
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -210,7 +215,7 @@ Now you should see all your variables on the side there as well, in this little 
 You can scroll through and find "Crime.type". This is the variable we want to look at in this case. 
 
 
-You can see four windows within the pivot table panel. You've got **Filters**, **Columns**, **Rows**, and **Values**. You can drag your variables into these boxes in order to create a table. Whatever you drag into the Columns box becomes the columns, and whatever you drag into the Rows box becomes the Rows. Try it out; drag Crime.type into the Rows box. You should see a list of all the possible values that the crime type variable can take in the rows. Now drag it over to the columns box, and you'll see it across there. Drag it back to rows and leave it there:
+You can see four windows within the pivot table panel. You've got **Filters**, **Columns**, **Rows**, and **Values**. You can drag your variables into these boxes in order to create a table. Whatever you drag into the Columns box becomes the columns, and whatever you drag into the Rows box becomes the Rows. Try it out; drag Crime.type into the Rows box (it's possible that Excel has already done this for you). You should see a list of all the possible values that the crime type variable can take in the rows. Now drag it over to the columns box, and you'll see it across there. Drag it back to rows and leave it there:
 
 
 
@@ -218,7 +223,7 @@ You can see four windows within the pivot table panel. You've got **Filters**, *
 
 
 
-While you see the list of possible crime types, there is no value next to it - it is not yet a frequency table. This is where you need the **Values** box on the pivot table toolbar. What you drag in there determines what values will be displayed. So now grab the "Crime.type" label from the top again, and drag down, this time to the values box, like this: 
+While you see the list of possible crime types, there is no value next to it - it is not yet a frequency table. This is where you need the **Values** box on the pivot table toolbar. What you drag in there determines what values will be displayed. So now grab the "Crime.type" label from the top-right, and drag down, this time to the values box, like this: 
 
 
 ![](imgs/ct_in_values.gif)
@@ -234,11 +239,9 @@ We can see that the most frequent crime type in the data set is 'Anti-social beh
 
 But how much of all crimes does 'Anti-social behaviour' account for? When we are talking about your variables, we normally want to give detail and context so that we tell a comprehensive and easy to understand story with our data. We can, at this stage, say that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,399 incidents recorded by GMP. But *how much* is that? Well, we can introduce another column to our pivot table that tells us more about the **proportion** of all crimes that each crime type accounts for. 
 
-
 To do this, drag from the top the variable Crime.Type into the values box once more: 
 
 ![](imgs/drag_perc_valu.gif)
-
 
 You will see a third column appear, identical to the second one, with the frequencies. To turn this into percent values, click on the little downward arrow on the box of the value you just dragged into the values box (**some of these steps may look slightly different if you are working on a Mac**): 
 
@@ -250,21 +253,19 @@ When you click on that downward arrow, a menu will appear.
 
 ![](imgs/value_field_settings.png)
 
-
-
-Click on the "Value Field Settings..." option to open up a new menu window, where you can select what column you want to display.
+Click on the "Value Field Settings..." (or the `Info` tab on Mac) option to open up a new menu window, where you can select what column you want to display.
 
 
 ![](imgs/vfs_menu.png)
 
 
-You can pick any of these, and it will turn your column of counts (you can see that the default is set to **Count**) to whatever it is that you selected. In this case, since we had a frequency table, we are looking at the count of each one, so leave this as it is. Instead, click on the tab "Show Values As". 
+You can pick any of these, and it will turn your column of counts (you can see that the default is set to **Count**) to whatever it is that you selected. In this case, since we had a frequency table, we are looking at the count of each one, so leave this as it is. Instead, click on the tab "Show Values As" (or for Mac, it's "Show Data As").
 
 
 ![](imgs/perc_menu.gif)
 
 
-Then click on the dropdown menu (initially, it will say 'No Calculation'). Again, you will see a variety of possible options to choose from. Here, we want to select "% of Grand Total". Don't worry about the other options for now; we will address those next week when we make frequency tables with two variables. You can also rename the column using the 'Custom Name' Field. Here, we change the name from 'Count of Crime.type2' to '% of all crimes'. As we discussed last week, it's always better to have descriptive and meaningful variable names. 
+Then click on the dropdown menu (initially, it will say 'No Calculation'). Again, you will see a variety of possible options to choose from. Here, we want to select "% of Grand Total". Don't worry about the other options for now; we will address those next week when we make frequency tables with two variables. You can also rename the column using the 'Custom Name' box (or 'Field Name' on Mac) Here, we change the name from 'Count of Crime.type2' to '% of all crimes'. As we discussed last week, it's always better to have descriptive and meaningful variable names. 
 
 
 Then you click OK, and ta-daa, a table appears, which tells you not only that the most frequently occurring crime type (the mode) is anti-social behaviour, with 122,399 incidents recorded by GMP, but also that this accounts for 29% of all crimes recorded in this time period. 
@@ -274,15 +275,12 @@ Then you click OK, and ta-daa, a table appears, which tells you not only that th
 Interesting, isn't it? Sometimes, proportions can put things into perspective. So, for example, if we look at total crime, we might imagine that it's a larger number than we had thought and feel worried that perhaps there is more crime in Greater Manchester than we'd anticipated. However, if you have a look into what these crimes are, this may help interpret the data. Robbery, for example, can be a very traumatic event and is one that makes people most fearful of crime. However, you can see that volume-wise, it makes up just over 1 per cent of all crimes. So, if robbery is what we are particularly concerned about, we can rest assured that this is not a frequent crime, all things considered. 
 
 
-Does the frequency of any of these crime types surprise you? Is this what you expected? When we speak about recorded crime in such general terms, you have to consider that all these very diverse crime types are included in such an umbrella term. So if you begin to hear about an increase in crime, surely you should begin asking - increase in which crimes? An increase in burglaries is a very different thing from an increase in robberies, no? They would require different responses from the police, for example, and have different effects on people's experiences of victimisation and fear of crime. Depending on which one is driving, the increase would dictate whether we need more on-street foot patrols in robbery hotspots or whether we need better burglar alarms. Therefore, looking into the types of crime and their frequencies, can lead to some very useful insight indeed. 
+Does the frequency of any of these crime types surprise you? Is this what you expected? When we speak about recorded crime in such general terms, you have to consider that all these very diverse crime types are included in such an umbrella term. So if you begin to hear about an increase in crime, surely you should begin asking - increase in which crimes? An increase in burglaries is a very different thing from an increase in robberies, no? They would require different responses from the police, for example, and have different effects on people's experiences of victimisation and fear of crime. The response will be dictated by what is increasing and why. We might need more on-street police foot patrols in robbery hotspots, but for burglary, maybe we need more visible burglar alarms or higher fences for security. Therefore, looking into the types of crime and their frequencies, can lead to some very useful insight indeed. 
 
 
 ### Visualising a frequency table with bar charts
 
-
 Bar charts are a simple way of visually presenting a frequency table. You will have definitely seen bar charts before. We will talk more about visualisation best practices in later weeks, but for now, have a quick glance at [this article](https://flowingdata.com/2015/08/31/bar-chart-baselines-start-at-zero/). 
-
-
 
 In any case, bar charts represent your data by creating a bar for every category and then varying the height of this bar to represent the frequency. Imagine our frequency table turned on its side!
 
@@ -319,40 +317,19 @@ We hope that you can see the resemblance between the table on its side and the b
 OK, so let's make our own bar chart in Excel. 
 
 
-Go back to your pivot table, which has the frequency of each crime type. Click anywhere in the table to highlight it all. However, you might not want all the values. You can see that in the last row, we have a total column. If we're comparing the crime types against each other it might not make sense to also include a bar for the total. So you might want to highlight everything except the total bar:
-
+Go back to your pivot table, which has the frequency of each crime type. Click anywhere in the table to highlight it all. However, you might not want all the values. You can see that in the last row, we have a total column. If we're comparing the crime types against each other it might not make sense to also include a bar for the total. We probably don't want to include our new percentage column either. So, you might want to only highlight the categories and count columns, like this:
 
 ![](imgs/crime_type_table.png)
 
-
-
-When the whole pivot table is highlighted, click on the charts tab on the top menu if you are using a mac:
-
-
-
-![](imgs/click_charts_tab.png)
-
-
-Or the "Insert" tab on a PC: 
-
+When the pivot table is highlighted, click on the `Insert` tab on the top menu. This should be pretty similar for Mac.
 
 ![](imgs/on_pc_insert.png)
 
-Once you click on that, you will see a whole menu of possible charts appear. Click on the one that says 'Column'. More options will appear. Choose 'Clustered Column'. 
+Once you click on that, you will see a whole menu of possible charts appear. For Mac, you might have to look further to right and find the small image of a barplot.
 
+![](imac_barplot.png)
 
-On mac:
-
-
-![](imgs/click_column.png)
-
-
-
-On PC: 
-
-
-![](imgs/pc_cluster_bar.png)
-
+Look for the one that says 'Column' (or '2D Column') and then select 'Clustered Column'. 
 
 And that's it! Once you click on that, a chart will appear! Yay!
 
@@ -390,7 +367,7 @@ You can also stylize your graph to make it look the way you like. As we mentione
 ## Summarising numeric data
 
 
-We saw that for categorical data, the way we would carry out univariate analysis is to produce a frequency table to identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like average (mean) and median. Also spoke about the variation. In this section, we will consider these numeric summaries for numeric variables and how we can go about visualising these. 
+We saw that for categorical data, the way we would carry out univariate analysis is to produce a frequency table to identify the modal category (the most frequent one), and we can visualise this with a bar graph. Nice. But what about numeric variables? We've thrown some words around, like mean and median. We also spoke about the variation. In this section, we will consider these numeric summaries for numeric variables and how we can go about visualising these. 
 
 
 
