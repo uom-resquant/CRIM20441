@@ -75,7 +75,7 @@ Hopefully, these words will sound familiar to you from your reading and some of 
 ### Activity 2.2: Crime types
 
 
-Let's start with some exercises about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself, though, because we have put the data on [Canvas] for you. 
+Let's start with some exercises about categorical variables. We will do this by looking at crime data from 2016-2017 recorded by Greater Manchester Police, available for download from the [www.police.uk](https://www.police.uk/) website. You don't have to go download this yourself, though, because we have put the data on Canvas for you. 
 
 
 So, to find this data set, just go to Canvas, navigate to the learning materials for week 2, click on `Data for the lab and the homework tasks` and then download the file `gmp_crimes.xlsx`. Remember to place it into your clear and logical folder structure! Once you have saved it, open the file using Excel.
@@ -951,7 +951,7 @@ These numbers are useful because you can begin to get a feel for your data, not 
 To calculate the quartile in Excel, you can use the `=QUARTILE()` function. Take a moment and read about how this works [here](https://support.office.com/en-gb/article/QUARTILE-function-93cf8f62-60cd-4fdb-8a92-8451041e1a2a). 
 
 
-The idea behind this formula is that inside the brackets, you have to specify two things. First, you have to specify the range from which to calculate. You can specify this by using the drag-and-drop method, or you can type it out. The other value you have to specify is the one that tells Excel which quartile you want. There are, 5 possible values, from 0 to 4. You can see what each number corresponds to in the above link. For example, 0 means the minimum value, and 4 is the maximum value. Let's here type 1, to return the value for the first quartile: 
+The idea behind this formula is that inside the brackets, you have to specify two things. First, you have to specify the range from which to calculate. You can specify this by using the drag-and-drop method, or you can type it out. The other value you have to specify **after a comma** is the one that tells Excel which quartile you want. There are, 5 possible values, from 0 to 4. You can see what each number corresponds to in the above link. For example, 0 means the minimum value, and 4 is the maximum value. Let's here type 1, to return the value for the first quartile. Your formula will look something like `=QUARTILE(B4:B13, 1)` although remember that the cells you refer to might be different!
 
 
 ![](imgs/quartile.gif)
@@ -968,9 +968,9 @@ You can set the last parameter of all the values, from 0 to 4, in order to produ
 Let’s now discuss the standard deviation. The interquartile range is always a reasonable summary of spread, but because it uses only the two quartiles of the data, it ignores much of the information about how individual values vary. Clearly, 117,663 crimes are very different from 33,46 or 39,312, for example. Yet, that’s not something that the interquartile range takes into account. 
 
 
-A more powerful approach for measuring spread uses the **standard deviation**. Like the mean, the standard deviation only provides a good summary when we do not have highly skewed distributions. What is the standard deviation? This is the most complex concept we have covered so far, and by now, you may be a bit tired and overwhelmed with all we have covered today; thus, do not worry too much if you get a bit confused. We will also come back to it next week. 
+A more powerful approach for measuring spread uses the **standard deviation**. What is the standard deviation? This is the most complex concept we have covered so far, and by now, you may be a bit tired and overwhelmed with all we have covered today; thus, do not worry too much if you get a bit confused. We will also come back to it next week and remember that you can also re-watch the videos for this week for a verbal explanation.
 
-One way of thinking about spread is to examine how far each data value is from the mean. This difference is called a deviation. If we look at our dataset, we see that Trafford recorded 22,587 crimes. If the mean for all the boroughs is 42,008, then Trafford has a deviation of 19,421 (= 42,008 - 22,587).
+One way of thinking about spread is to examine how far each data value is from the mean. This difference is called a deviation. If we look at our dataset, we see that Trafford recorded 22,587 crimes. If the mean for all the boroughs is 42,008, then Trafford has a deviation of 19,421 (i.e., 42,008 - 22,587).
  
 The standard deviation tries to measure what this deviation is on average. That is, what is the typical distance to the mean for all the cases in your data? 
 Unfortunately, if you just sum all the deviations in your sample and then divide them by the number of cases (if you attempt to take the mean of the deviations), the positive and negative differences will cancel each other out. As a result, you will get “0”. 
@@ -982,7 +982,7 @@ So, to “average” the deviations, you first need to square these deviations a
 If you want to go back to the original scale of measurement and the original metric, you need to take the square root of the variance (remember the variance is the average squared deviation). The square root of the variance is the standard deviation. It is another way of saying that is the average distance of each observation from the mean.
 
 
-Conceptually understanding the variance and the standard deviation will possibly take you a while. We will come back to it, so don’t worry too much if you feel a bit confused right now. Make sure you read the recommended textbooks. 
+Conceptually understanding the variance and the standard deviation will possibly take you a while. We will come back to it, so don’t worry too much if you feel a bit confused right now. Remember that you can ask questions to us during the in-person classes and post on the Canvas discussion board. Please also make sure you read the recommended textbooks. 
 
 So now we know that to summarise our data, we can produce the following numbers: 
 
@@ -998,8 +998,7 @@ So now we know that to summarise our data, we can produce the following numbers:
 
 The standard deviation for our data is `r I(as.character(round(sd(per_borough_crimes$number.of.crimes), digits=2)))`. But wait a minute! That is a bit large, isn't it? How is it that half the boroughs have a value below  `r I(as.character(quantile(per_borough_crimes$number.of.crimes)[3]))`, the mean is `r I(as.character(mean(per_borough_crimes$number.of.crimes)))`, and you are telling me the standard deviation, in other words, the average distance of each individual value to the mean is `r I(as.character(round(sd(per_borough_crimes$number.of.crimes), digits=2)))`? This makes no sense? Shouldn't the standard deviation be smaller, given that most boroughs should be close to the mean? 
 
-
-Remember what we said at the outset. The standard deviation does not quite work when you have highly skewed distributions or outliers. When your standard deviation is larger than the mean, it signifies that you have a skewed distribution. The larger the difference is, the greater the skew. In fact, the more important use of the standard deviation in such cases is as a sign to conclude that you are dealing with a skewed distribution.
+When your standard deviation is larger than the mean, it signifies that you have a skewed distribution. The larger the difference is, the greater the skew. In fact, the use of the standard deviation in such cases is as a sign to conclude that you are dealing with a skewed distribution. 
 
 
 ### Activity 2.8: Standard Deviation in Excel
@@ -1015,8 +1014,9 @@ Finally, we will leave you with a note on how to calculate the standard deviatio
 This is all well and good, but what happens now that we have done all this analysis? Well, most of the time, you will want to write up your results. You will want to interpret them, of course, and you will want to present these interpretations, as well as supporting evidence from your analysis, to share with the world. We will show a brief example here of how to begin thinking about your report. 
 
 
-The structure of your report will always depend on what is the purpose you are writing it for. If you are writing a journal article, you will have to conform to journal guidelines. For example, if you were hoping to submit something to the *British Journal of Criminology* you will have to follow their [author guidelines](https://academic.oup.com/bjc/pages/General_Instructions). If you were writing a blog post for the [LSE Impact of Social Sciences Blog](https://blogs.lse.ac.uk/impactofsocialsciences/), you would follow their guidelines to make your report follow the [required format and structure](https://blogs.lse.ac.uk/impactofsocialsciences/write-for-us/). For the assignment for this class, you will also be given specific guidelines that you will have to adhere to, both in terms of content and format. But these provide just a skeleton, which you populate with your own research, findings, and interpretations of your data. So, while there are guidelines and templates, every report is unique. 
+The structure and content of your report will always depend on what the purpose of the report is, and who the readership will be. For example, if you were working as an analyst for a police force, you will want to consider who will be reading the report. A report for your analyst colleagues might look very different from one that will be read by active police officers. Remember, all these skills are useful in other sectors too. You know your Tesco Club Card? There are whole of teams of Tesco analysts beavering away analysing the (anonymised) data collected by all of our Club Cards. And guess what? They will use all the skills you've learnt today and write reports for colleagues and managers to summarise their findings. This is an incredibly useful and highly applicable skill!
 
+The structure of reports is important too. For the assignment of this class, you will also be given specific guidelines that you will have to adhere to, both in terms of content and format. But these provide just a skeleton, which you populate with your own research, findings, and interpretations of your data. So, while there are guidelines and templates, every report is unique. 
 
 Here, we will build a report based on the analysis we carried out above to give you a bit of experience in building reports. We will walk you through this one, but make sure to ask about anything that might make you uncertain, as you will be writing your own report for this week's Task. 
 
@@ -1032,7 +1032,7 @@ After the title, you can set up some sections so we know what we want to put the
 
 **Headline findings**
 
-You will need to start with some headline findings. These are your top results and the taglines for your work. If you had to get someone excited about your results, what 3 lines would you text them?
+You will need to start with some headline findings. These are your top results and the taglines for your work. If you had to get someone excited about your results, what 3 lines would you text them? 
 
 
 **Introduction**
@@ -1047,7 +1047,7 @@ You also want to quickly discuss your data. Where does it come from? What does i
 
 **Methods**
 
-After a discussion of your background and your data, you want to mention your methods and why they were the appropriate choice for interpreting your data. You want to go into enough detail so that people can reproduce your work from reading your description here and also justify your choices so people know why you chose a particular approach over another. So, for example, when you are talking about the frequency of different types of crime in the data, you would mention that you used a frequency table, as this is the appropriate method for univariate analysis for categorical variables. 
+After a discussion of your background and your data, you want to mention your methods and why they were the appropriate choice for interpreting your data. You want to go into enough detail so that people can reproduce your work from reading your description here and also justify your choices so people know why you chose a particular approach over another. So, for example, when you are talking about the frequency of different types of crime in the data, you would mention that you used a frequency table, as this is the appropriate method for the univariate analysis of categorical variables. 
 
 
 **Findings**
@@ -1057,7 +1057,7 @@ Then, you want to present your findings. These are the results of any tests you 
 
 **Discussion/ conclusions**
 
-Finally, you will have a discussion/ conclusion (sometimes these are two separate sections, and sometimes they can be combined again; it depends on where you are sending your report and what their expectations are). Here, you interpret your findings. What do the numbers mean? Are they big numbers (ref: Tiger that Isn't)? What implications do the results have for policy and practice? How do they relate to what you thought you would find based on the background? 
+Finally, you will have a discussion/ conclusion (sometimes these are two separate sections, and sometimes they can be combined again; it depends on where you are sending your report and what their expectations are). Here, you interpret your findings. What do the numbers mean? Are they big numbers (e.g., _Tiger that Isn't_)? What implications do the results have for policy and practice? How do they relate to what you thought you would find based on the background? 
 
 
 **References**
