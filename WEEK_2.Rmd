@@ -16,7 +16,7 @@ By reading this report, you can come to know that, in March 2024, the total pris
 Come on, take a guess about what you think the proportion of women to men is in the prison population of England and Wales; we will hold off telling you. Chat within your group to guess what you think the ratio is. Discuss why you think it's the split that you think it is. Wait until you've made some guesses before you scroll on.  
 
 ```{r, echo = FALSE}
-knitr::include_graphics("imgs/oitnb_dance.gif")
+knitr::include_graphics("imgs/week2/oitnb_dance.gif")
 ```
 
 Ready? OK, we can tell you now.
@@ -63,7 +63,7 @@ Do you remember when we spoke about **levels of measurement** last week? We enco
 
 
 
-![](imgs/lvl_msr_diagr.png)
+![](imgs/week2/lvl_msr_diagr.png)
 
 
 Why is this important? Well, the level of measurement your variable falls into dictates the type of summaries that are appropriate. Thinking back to the gender example, it would not make a huge amount of sense to calculate the "average gender", would it? Gender is a nominal variable, and thus, calculating its average is not an appropriate way to summarise it. Instead, there are other approaches you could take. For example, you could look into the *modal category* - which value of the variable occurs the most frequently? For example, in the prison population data above, the modal category for gender was male, as this was the most frequently occurring value for this variable. It occurred 96% of the time, while the 'female' value for the gender variable only appeared 4% of the time, since that is how many women were observed. How do we find this out? Well, in the simplest terms, we could count all the occurrences of each value in the data set. But remember what we said about analysts being lazy? We don't want to be going through spreadsheets line by line. 
@@ -73,7 +73,7 @@ Instead, we would look at the frequency of all the values the variable can take,
 
 
 
-![](imgs/b99_hatewords.gif)
+![](imgs/week2/b99_hatewords.gif)
 
 
 
@@ -108,7 +108,7 @@ gmp_crimes <- read.csv("https://www.dropbox.com/s/8tkpjwsmtqeddr9/gmp_crimes.csv
 It should open up like this, with your **variable** names as column headers:
 
 
-![](imgs/open_gmp_crimes.png)
+![](imgs/week2/open_gmp_crimes.png)
 
 
 Under the column headers, you have your **420082** rows, one for each of the **420082** crimes in your data. Recall that these are your **observations**. Also, therefore, your **unit of analysis** in this data at this moment is each individual crime. 
@@ -143,7 +143,7 @@ Okay, so for now, we want to learn a bit more about this variable. We know it's 
 
 Here's an example of a frequency table. Let's say we have this data set of waiters and waitresses who work at Lil' Bits restaurant. Here is our data in table format:
 
-![](imgs/waiter_heights.png)
+![](imgs/week2/waiter_heights.png)
 
 
 You can see here again that every row represents one waiter or waitress. We have even put in a little picture of each of them to make it more personal. You can see them all now, forming rows of your data. You can also see one column for the one variable here, which is gender. For each person, we only recorded their gender because, for now, that's all we are interested in. We want to look at the gender of waiters and waitresses at Lil' Bits. Maybe we think that the manager is sexist and hires only females. Maybe we want to work out the likelihood of having a male waiter. Whatever our motivation, we just want to know!!! We want to know the number of men and the number of women who work there. And it really is as simple as that - all we do is count the occurrence of each value of the variable and then summarise that count in a table. 
@@ -155,7 +155,7 @@ In this case, we could count the number of times that we record the 'female' val
 We have even made a GIF to illustrate the process, something like this: 
 
 
-![](imgs/freq_table_gif.gif)
+![](imgs/week2/freq_table_gif.gif)
 
 
 
@@ -187,7 +187,7 @@ For now, we will use a pivot table to create a frequency table of the crime type
 First, you will need to select the PivotTable option. Ensure the A1 cell is selected, then click into the **Insert** tab and click on **pivot table**. 
 
 
-![](imgs/click_pivot.png)
+![](imgs/week2/click_pivot.png)
 
 
 
@@ -197,7 +197,7 @@ This will open a pop-up window, where you want to make sure that you select 'New
 
 
 
-![](imgs/pivot_popup.png)
+![](imgs/week2/pivot_popup.png)
 
 
 
@@ -213,13 +213,13 @@ Now, when you click OK, Excel should take you to the new worksheet where it has 
 It might also open a toolbar on the side, but it might not do this automatically. In any case, if the toolbar ever disappears, to summon it, you have to do one simple step, which is to click *anywhere* inside the pivot table area: 
 
 
-![](imgs/pivot_shell.png)
+![](imgs/week2/pivot_shell.png)
 
 
 Once you do that, a navigation pane should appear. Just like this: 
 
 
-![](imgs/click_pivot_activate.gif)
+![](imgs/week2/click_pivot_activate.gif)
 
 
 Now you should see all your variables on the side there as well, in this little panel that has just appeared. 
@@ -232,14 +232,14 @@ You can see four windows within the pivot table panel. You've got **Filters**, *
 
 
 
-![](imgs/ct_in_rows.png)
+![](imgs/week2/ct_in_rows.png)
 
 
 
 While you see the list of possible crime types, there is no value next to it - it is not yet a frequency table. This is where you need the **Values** box on the pivot table toolbar. What you drag in there determines what values will be displayed. So now grab the "Crime.type" label from the top-right, and drag down, this time to the values box, like this: 
 
 
-![](imgs/ct_in_values.gif)
+![](imgs/week2/ct_in_values.gif)
 
 
 
@@ -254,28 +254,28 @@ But how much of all crimes does 'Anti-social behaviour' account for? When we are
 
 To do this, drag from the top the variable Crime.Type into the values box once more: 
 
-![](imgs/drag_perc_valu.gif)
+![](imgs/week2/drag_perc_valu.gif)
 
 You will see a third column appear, identical to the second one, with the frequencies. To turn these into per cent values, click on the little downward arrow on the box of the value you just dragged into the values box (**some of these steps may look slightly different if you are working on a Mac**): 
 
 
-![](imgs/down_arrow_perc.png)
+![](imgs/week2/down_arrow_perc.png)
 
 
 When you click on that downward arrow, a menu will appear. 
 
-![](imgs/value_field_settings.png)
+![](imgs/week2/value_field_settings.png)
 
 Click on the "Value Field Settings..." (or the `Info` tab on Mac) option to open up a new menu window, where you can select what column you want to display.
 
 
-![](imgs/vfs_menu.png)
+![](imgs/week2/vfs_menu.png)
 
 
 You can pick any of these, and it will turn your column of counts (you can see that the default is set to **Count**) to whatever it is that you selected. In this case, since we had a frequency table, we are looking at the count of each one, so leave this as it is. Instead, click on the tab "Show Values As" (or for Mac, it's "Show Data As").
 
 
-![](imgs/perc_menu.gif)
+![](imgs/week2/perc_menu.gif)
 
 
 Then click on the dropdown menu (initially, it will say 'No Calculation'). Again, you will see a variety of possible options to choose from. Here, we want to select "% of Grand Total". Don't worry about the other options for now; we will address those next week when we make frequency tables with two variables. You can also rename the column using the 'Custom Name' box (or 'Field Name' on Mac). Here, we change the name from 'Count of Crime.type2' to '% of all crimes'. As we discussed last week, it's always better to have descriptive and meaningful variable names. 
@@ -298,7 +298,7 @@ Bar charts are a simple way of visually presenting a frequency table. You will h
 In any case, bar charts represent your data by creating a bar for every category and then varying the height of this bar to represent the frequency. Imagine our frequency table turned on its side!
 
 
-![](imgs/table_on_side.png)
+![](imgs/week2/table_on_side.png)
 
 
 Now imagine that the number of crimes was represented by a bar with a height that corresponds to the value in each cell. That is a bar chart. 
@@ -332,22 +332,22 @@ OK, so let's make our own bar chart in Excel.
 
 Go back to your pivot table, which has the frequency of each crime type. Click anywhere in the table to highlight it all. However, you might not want all the values. You can see that in the last row, we have a total column. If we're comparing the crime types against each other, it might not make sense to also include a bar for the total. We probably don't want to include our new percentage column either. So, you might want to only highlight the categories and count columns, like this:
 
-![](imgs/crime_type_table.png)
+![](imgs/week2/crime_type_table.png)
 
 When the pivot table is highlighted, click on the `Insert` tab on the top menu. This should be pretty similar for Mac.
 
-![](imgs/on_pc_insert.png)
+![](imgs/week2/on_pc_insert.png)
 
 Once you click on that, you will see a whole menu of possible charts appear. For Mac, you might have to look further to the right and find the small image of a barplot.
 
-![](imac_barplot.png)
+![](imgs/week2/mac_barplot.png)
 
 Look for the one that says 'Column' (or '2D Column') and then select 'Clustered Column'. 
 
 And that's it! Once you click on that, a chart will appear! Yay!
 
 
-![](imgs/chart_appears.png)
+![](imgs/week2/chart_appears.png)
 
 
 
@@ -358,7 +358,7 @@ Now, you can stylise your graph. First, you might want to arrange crime.type in 
 Highlight the values in the total column, and click the data tab. Click the little arrow next to the sort icon, and choose descending. 
 
 
-![](imgs/sort_graph.png)
+![](imgs/week2/sort_graph.png)
 
 
 
@@ -366,7 +366,7 @@ Note, depending on the version of Excel you have and if you use PC or Mac, it ma
 
 Also, in some versions of Excel, you need to highlight only one cell in the column you want to sort on, and there is no arrow next to the sort button. Instead, you click on the button, and a pop-up window will appear. You can choose 'Descending' on this pop-up window: 
 
-![](imgs/sort_graph_newvs.png)
+![](imgs/week2/sort_graph_newvs.png)
 
 
 You can also stylise your graph to make it look the way you like. As we mentioned, we will go through some theory behind data visualisation, but if you want to spend some time making your graphs nice now, then below are some links you might find helpful: 
@@ -414,7 +414,15 @@ If you consider this frequency table as your new data, you can see that you have
 <details>
 <summary><i>Reveal answer!</i></summary>
 
+...
+
+...
+
 ... numeric! Yay!
+
+...
+
+...
 
 </details>
 
@@ -575,7 +583,7 @@ Inside the brackets, you have to enter *what* it is that you want to calculate t
 So choose a cell where you would like your average value to appear. Type `=AVERAGE(` and then select the cells which you want to include in the calculations (both lower case and all caps work for this; Excel likes to shout at you, so it will translate to all caps, but it will understand even if you type `=AVERAGE(`. This should be the value for number of crimes for each borough. Take care to *not* select the grand total in your calculations. Then close the bracket by typing `)` and hit enter. The value that appears is the **mean** number of crimes for the 10 boroughs of Greater Manchester:
 
 
-![](imgs/calc_avg.gif)
+![](imgs/week2/calc_avg.gif)
 
 
 
@@ -660,7 +668,7 @@ This graph is called a **histogram**. While it may at first glance resemble a ba
 
 Let's say we have some numeric data. We know already that we can't consider each raw numeric value to be a category, which is why we can't build a frequency table. Every entry would only appear once. But what we *can* do is create **bins** for our numeric data to fall into. Think of your numeric variable along the horizontal x-axis. Something like this: 
 
-![](imgs/hist_blank_x.png)
+![](imgs/week2/hist_blank_x.png)
 
 
 
@@ -681,7 +689,7 @@ df %>%
 Let's say we are interested in our *numeric* variable here, the number of chocolate bars. We don't care about which days we ate how many on; we just want to carry out some *uni*variate analysis on the numeric variable of the number of chocolate bars. We want to look at the distribution of the numbers. We want to plot this. As we mentioned above, if we wanted to plot this data on a histogram, we need to first split our data into **bins**. What are **bins**? **Bins** are the result of the action of "binning" the range of values. That is, you divide the entire range of values into a series of intervals. So, for example, we can decide to bin our values into two groups of five. Something like this: 
 
 
-![](imgs/hist_bins.png)
+![](imgs/week2/hist_bins.png)
 
 
 All that means is that if you look at those purple bins there, any value between 0-5 will fall in the first one, and any value between 5-10 will fall in the next one, and so on and so on. The bins are usually specified as consecutive, non-overlapping intervals of a variable.
@@ -690,20 +698,20 @@ And that's all there is to it. Once you have your bins, you just count how many 
 
 So, if we were to draw this histogram for our chocolate consumption data, then if we start with Monday, we can see we had 2 chocolate bars, and therefore, we would add one value (one observation) to the 0-5 bin. Like this: 
 
-![](imgs/hist_fill_1.png)
+![](imgs/week2/hist_fill_1.png)
 
 
 Then, we look at Wednesday, and we see that we had 3 chocolate bars, adding another value to the bin that catches values between 0-5. Like so: 
 
 
 
-![](imgs/hist_fill_2.png)
+![](imgs/week2/hist_fill_2.png)
 
 
 And finally, with great shame, we look at Friday, when we put away 8 whole chocolate bars, and realise that we have to add a value to the next bin, the one that caught values anywhere between 5-10. As such: 
 
 
-![](imgs/hist_fill_3.png)
+![](imgs/week2/hist_fill_3.png)
 
 
 And that is exactly how you build a histogram. You could draw one by hand if you wanted to, building it up one by one. 
@@ -791,7 +799,7 @@ So once you've decided on your bin width, you have to tell Excel what you would 
 
 
 
-![](imgs/bin_col.png)
+![](imgs/week2/bin_col.png)
 
 
 The other thing you will need, besides deciding on some bins, is to use the data analysis toolpak. You will have installed this in the lab session last week. **If you could not install the data analysis toolpak in week one, you can scroll down to the section 'Histograms in Excel without the data analysis toolpak'.**
@@ -800,14 +808,14 @@ The other thing you will need, besides deciding on some bins, is to use the data
 If you have the data analysis toolpak installed, then go back to your pivot table of the number of crimes per borough and select the "Data" tab. Then click on the "Data Analysis" icon at the top right: 
 
 
-![](imgs/dat_loc.png)
+![](imgs/week2/dat_loc.png)
 
 
 
 Click on that and from the pop-up window select "Histogram". Then click "OK":
 
 
-![](imgs/dat_pick_hist.png)
+![](imgs/week2/dat_pick_hist.png)
 
 
 In the window that pops up, you have to populate the `Input range` and the `Bin range` fields with the relevant cells. Input range refers to your data. For this, click in the box our input range, and then select the cells that contain your numeric data. When you're done, hit enter. 
@@ -816,13 +824,13 @@ In the window that pops up, you have to populate the `Input range` and the `Bin 
 Then do the same for the bin range, but select the bin range variables:
 
 
-![](imgs/build_histo.gif)
+![](imgs/week2/build_histo.gif)
 
 
 Once you have filled these fields, also click the tick-box next to the **`Chart output`** option. When this is ticked as well, just click "OK". Your histogram is now ready, and should appear in a new sheet on your Excel workbook: 
 
 
-![](imgs/hist_appears.png)
+![](imgs/week2/hist_appears.png)
 
 Right, so now we know how to get a feel for the distribution by looking at a histogram of our numeric variable. We have also begun to think about outliers and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
 
@@ -833,50 +841,50 @@ If you could not install the data analysis toolpak on your device, you can still
 First, you will need to select the resulting pivot table with the names of boroughs and counts of crimes, and copy and paste this table into a new spreadsheet. You can do this by selecting the table, clicking Ctrl+C/ Command+C, opening a new spreadsheet, and copying the values (without format) into it. Like this:
 
 
-![](imgs/copy_paste.png)
+![](imgs/week2/copy_paste.png)
 
 The resulting table should look like this:
 
 
-![](imgs/result_paste.png)
+![](imgs/week2/result_paste.png)
 
 
 Once this is done, we will need to manually add one small change to our data. We are not interested in including the 'Grand total' in our histogram (it is not one of our units of analysis, but the sum of the totals across observations). However, we will need to tell Excel the minimum value that should be considered in the histogram. Since the number of crimes is a ratio variable (remember? this is the level of measurement of our variable), the minimum of crimes that can be recorded is... 0. We will remove 'Grand total' and '420082', and add 'Minimum' and '0' instead in our dataset.
 
 
-![](imgs/minumum_0.png)
+![](imgs/week2/minumum_0.png)
 
 
 Now, we can select all values in the 'Count of borough' column and create our histogram.
 
 
-![](imgs/select_column.png)
+![](imgs/week2/select_column.png)
 
 From within the 'Insert' menu, find the 'Insert static chart' image, and select the 'Histogram' option:
 
 
-![](imgs/static_chart_arrow.png)
+![](imgs/week2/static_chart_arrow.png)
 
 
-![](imgs/histogram.png)
+![](imgs/week2/histogram.png)
 
 
 The resulting histogram doesn't quite look like the one we were trying to produce, does it? This is because we have not yet specified the width of the bins. To do so, you will need to right-click on the x-axis labels (the ones under the graph), and select the option 'Format axis...'
 
 
-![](imgs/select_format_axis.png)
+![](imgs/week2/select_format_axis.png)
 
 
 And now we can change the width of bins to 10,000, just as in the example above.
 
 
-![](imgs/bin_width.png)
+![](imgs/week2/bin_width.png)
 
 
 The resulting histogram looks great!
 
 
-![](imgs/final_hist.png)
+![](imgs/week2/final_hist.png)
 
 
 Right, so now we know how to get a feel for the distribution by looking at a histogram of our numeric variable. We have also begun to think about outliers and what they might look like. But how do we actually talk about distribution? We can put numbers to mean and median, but how do we quantify distribution? The next sections will teach you this. 
@@ -927,13 +935,13 @@ We can easily identify the minimum and the maximum values, right?
 And we can also quite easily draw the median:
 
 
-![](imgs/crimes_dotplot.png)
+![](imgs/week2/crimes_dotplot.png)
 
 
 Now the quartiles are just the medians for the two halves of the data (which were created by splitting it in half with the median). Like so: 
 
 
-![](imgs/crimes_dotplot_quart.png)
+![](imgs/week2/crimes_dotplot_quart.png)
 
 
 One-quarter of the data lies below the lower quartile, and one-quarter of the data lies above the upper quartile, so half the data lies between them. The quartiles border the middle half of the data. The difference between the lower and the upper quartile tells us how much territory the middle half of the data covers and is called the interquartile range (IQR). The lower quartile is also called the 25th percentile; 25% of the cases lie below it, and the upper quartile is also called the 75th percentile, 75% of the cases lie below it. The 1st quartile is also called the lower quartile, and the 3rd quartile is also called the upper quartile. So we sometimes just say different names for the same thing. The 0th quartile = the minimum value (although actually no one says 0th quartile...) 1st quartile = the lower quartile, the 2rd quartile = the median, the 3rd quartile is the upper quartile, and the 4th quartile is the maximum. 
@@ -966,7 +974,7 @@ To calculate the quartile in Excel, you can use the `=QUARTILE()` function. Take
 The idea behind this formula is that inside the brackets, you have to specify two things. First, you have to specify the range from which to calculate. You can specify this by using the drag-and-drop method, or you can type it out. The other value you have to specify **after a comma** is the one that tells Excel which quartile you want. There are 5 possible values, from 0 to 4. You can see what each number corresponds to in the above link. For example, 0 means the minimum value, and 4 is the maximum value. Let's type 1, to return the value for the first quartile. Your formula will look something like `=QUARTILE(B4:B13, 1)`, although remember that the cells you refer to might be different!
 
 
-![](imgs/quartile.gif)
+![](imgs/week2/quartile.gif)
 
 
 
@@ -1080,7 +1088,7 @@ You will be familiar with citing your sources from writing essays. If you need a
 In any case, your report should right now look something like this: 
 
 
-![](imgs/writeup_outline.png)
+![](imgs/week2/writeup_outline.png)
 
 
 What do we want to say? Well, this is where your critical thinking skills should come in. What do you think someone would like to know about the frequency of crimes in our data? What do you think is interesting here? What do you think is worth mentioning or highlighting? Remember that the whole point here is to *make sense of the data*. We want to tell a story using our data, and we want that story to be meaningful and comprehensive. So, if we are tasked with telling a story about the frequency of each crime type, then we want that to be an interesting story. 
