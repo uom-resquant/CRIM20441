@@ -119,7 +119,7 @@ Luckily, there is only one more step we need to take to achieve this, which is t
 
 
 
-![](imgs/crosstabl_pivot.png)
+![](imgs/week3/crosstabl_pivot.png)
 
 
 
@@ -150,7 +150,7 @@ Let's consider the passengers of the Titanic - we can arrange them according to 
 
 Now, we can move around the values by right-clicking on their cells, choosing "Move", and then selecting the appropriate place to move the value.
 
-![](imgs/rearrange_crew.png)
+![](imgs/week3/rearrange_crew.png)
 
 In this case, we are quite lucky, and we only need to move 'Crew' to the end of the list to achieve our ideal order. 
 You can rearrange this manually and copy it over into a new sheet. 
@@ -452,13 +452,13 @@ You might be wondering - how does Excel know that you want the row percentages a
 Another way to visually display the differences in your data while still presenting the numbers in a table is to use conditional formatting. To do this, select again the cells with your percentage values in it:
 
 
-![](imgs/imgs/week3/cond_form.png)
+![](imgs/week3/cond_form.png)
 
 
 This time, in the "Home" tab, you will see a little sign that says conditional formatting. Click on the little arrow next to it (with your data still highlighted):
 
 
-![](imgs/imgs/week3/cond_form_2.png)
+![](imgs/week3/cond_form_2.png)
 
 
 
@@ -467,7 +467,7 @@ Hover over "colour scales" and pick a colour scale that you think is appropriate
 
 Have a look at this Tweet, which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://twitter.com/MartinRGalpin/status/1317552302207737856](https://twitter.com/MartinRGalpin/status/1317552302207737856)
 
-![](imgs/imgs/week3/colb_condf.png)
+![](imgs/week3/colb_condf.png)
 
 
 Also, you want to decide what is coloured red (your high value or the low one). You can see the same colour scales on there twice, once with red at the top and once flipped around with red at the bottom. Which one you choose is dependent on the *meaning* of your colour scale. Is a high number a good thing or a bad thing? In this case, this changes between our two columns. However, if we were colour-coding the number of crimes per borough, for example, a table we created last week, then red would be better suited to illustrate higher numbers (so we would pick the scales with the red on top) to indicate more crimes in an area. For example, you can also choose a neutral scale, going from yellow to green. The choice is yours; you have options!
@@ -478,7 +478,7 @@ Here's ours anyway:
 
 
 
-![](imgs/imgs/week3/cond_form_3.png)
+![](imgs/week3/cond_form_3.png)
 
 
 
@@ -517,14 +517,14 @@ For example, [joy riding is a crime traditionally associated with younger people
 Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose pivot table:
 
 
-![](imgs/imgs/week3/click_pivot.png)
+![](imgs/week3/click_pivot.png)
 
 
 
 Now take the variable 'reason for arrest', and drag it to the "Row Labels" box. You should see all the values for the "Reason for arrest" variable :
 
 
-![](imgs/imgs/week3/reason_arr_values.png)
+![](imgs/week3/reason_arr_values.png)
 
 
 Here, you can see a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
@@ -550,7 +550,7 @@ On our pivot table panel, grab the age variable and drag it into the "Values" bo
 
 
 
-![](imgs/imgs/week3/age_to_value.png)
+![](imgs/week3/age_to_value.png)
 
 
 
@@ -561,14 +561,14 @@ Have a look at this table. What does it tell you? It looks a bit strange no, the
 Well, on the right-hand side of the item "Sum of Age" in the Values box, there is a little letter "i". This is on a Mac, but on a PC, it might be a downward arrow. Whatever it is, click on it, and a new popup window will appear. 
 
 
-![](imgs/imgs/week3/change_from_sum.png)
+![](imgs/week3/change_from_sum.png)
 
 
 
 If you're on a PC, when you click on the downward arrow, this set of options will appear: 
 
 
-![](imgs/imgs/week3/windows_pivot_change_sum.png)
+![](imgs/week3/windows_pivot_change_sum.png)
 
 
 In this case, select "Value Field Settings..." - this is the same as the steps we followed last week to add the column of percentages for our univariate frequency table. Then the popup that appears will look roughly the same, with the option to change the Field Name (as "Custom Name") and the Summarize by (as "Summarize Value field by By"). 
@@ -578,13 +578,13 @@ In this case, select "Value Field Settings..." - this is the same as the steps w
 In the new popup window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default), this is set to sum: 
 
 
-![](imgs/imgs/week3/set_to_sum.png)
+![](imgs/week3/set_to_sum.png)
 
 
 Change this to select "Average" like so: 
 
 
-![](imgs/imgs/week3/set_to_avg.png)
+![](imgs/week3/set_to_avg.png)
 
 
 
@@ -593,7 +593,7 @@ Click OK, and you will see your column updated:
 
 
 
-![](imgs/imgs/week3/is_now_avg_col.png)
+![](imgs/week3/is_now_avg_col.png)
 
 
 
@@ -602,14 +602,14 @@ Now we have a column that tells us the average age of people arrested for each v
 
 
 
-![](imgs/imgs/week3/driving.gif)
+![](imgs/week3/driving.gif)
 
 
 
 But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So, to add a new column for minimum value, you would drag age and select minimum, like so: 
 
 
-![](imgs/imgs/week3/make_min_col.gif)
+![](imgs/week3/make_min_col.gif)
 
 
 
@@ -619,7 +619,7 @@ Now do this again to create a column for maximum, and another column for standar
 In the end, your table should look like this: 
 
 
-![](imgs/imgs/week3/reason_v_age_no_med.png)
+![](imgs/week3/reason_v_age_no_med.png)
 
 
 If it doesn't, ask for some help from the teaching staff to go through this together. 
@@ -696,7 +696,7 @@ Just to reiterate, this is what each part of this formula does:
 
 
 
-![](imgs/imgs/week3/med_excel_equ.png)
+![](imgs/week3/med_excel_equ.png)
 
 
 
@@ -707,7 +707,7 @@ When you are comfortable with this formula, paste it over into the cell in the n
 **NOTE: Hit Ctrl+Shift+Enter** This is important! *Don’t just hit enter* to complete the formula. You must hold Ctrl+Shift+Enter down together to complete the formula and tell Excel that it is an array formula. Excel will add curly braces around the formula if this is done correctly:
 
 
-![](imgs/imgs/week3/curly_brack_formula.png)
+![](imgs/week3/curly_brack_formula.png)
 
 
 
@@ -715,7 +715,7 @@ You can copy the formula by double-clicking on the bottom right-hand corner of t
 
 
 
-![](imgs/imgs/week3/final_table_with_median.png)
+![](imgs/week3/final_table_with_median.png)
 
 
 
@@ -931,7 +931,7 @@ Regarding descriptive statistics to explore the relationship between two numeric
 
 What would our inclination be? Clearly if the person has their first arrest earlier on in life, they have a lot more time to also have some more arrests. Or they might have an early arrest and part take in some sort of intervention whereby they turn their life around and never offend again. In other words, we are thinking that either **as the age of 1st arrest decreases, the number of arrests will increase**, or we think that **as the age of 1st arrest decreases, the number of arrests will also decrease**. These two scenarios describe two different kinds of relationships: a positive or a negative relationship. In either scenario, we assume that as one goes up, the other one goes up, or as one goes up, the other one goes down, but this takes a linear relationship. If you imagine one numeric variable across the x-axis and another across the y-axis, a positive and a negative relationship would look something like this: 
 
-![](imgs/imgs/week3/pos_neg.png)
+![](imgs/week3/pos_neg.png)
 
 
 
@@ -973,19 +973,19 @@ So, let's build one for our arrestees. Since we are trying to explain the number
 First, just return to the Excel spreadsheet where you have your data. Firstly, arrest the two columns that contain our variables of interest: 
 
 
-![](imgs/imgs/week3/scatter_1.png)
+![](imgs/week3/scatter_1.png)
 
 
 Then select charts > scatter > marked scatter:
 
 
-![](imgs/imgs/week3/scatter_2.png)
+![](imgs/week3/scatter_2.png)
 
 
 The graph that initially appears might look something like this: 
 
 
-![](imgs/imgs/week3/scatter_3.png)
+![](imgs/week3/scatter_3.png)
 
 
 
@@ -993,13 +993,13 @@ The graph that initially appears might look something like this:
 You can see that we actually have the age of the first arrest on the x-axis and the number of arrests on the y-axis, which we prefer. If this is not the case, you can change this by right-clicking anywhere on the chart and selecting "Select Data..." on the options that pop up: 
 
 
-![](imgs/imgs/week3/scatter_4.png) 
+![](imgs/week3/scatter_4.png) 
 
 
 And then, on the popup, there is an option to switch row/column: 
 
 
-![](imgs/imgs/week3/scatter_5.png)
+![](imgs/week3/scatter_5.png)
 
 
 
@@ -1007,25 +1007,25 @@ But in this case, we are alright. One thing you should do, though, is label your
 
 
 
-![](imgs/imgs/week3/scatter_6.png)
+![](imgs/week3/scatter_6.png)
 
 
 
-![](imgs/imgs/week3/scatter_7.png)
+![](imgs/week3/scatter_7.png)
 
 
 
 Then click on the "Axes" option, and for both horizontal and vertical axes, add a title:
 
 
-![](imgs/imgs/week3/scatter_8.png)
+![](imgs/week3/scatter_8.png)
 
 
 
 You can also stylize your scatterplot to make it look how you are most happy with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
 
 
-![](imgs/imgs/week3/scatter_9.png)
+![](imgs/week3/scatter_9.png)
 
 
 
@@ -1035,7 +1035,7 @@ So, let's try to infer our indicators of the relationship between the two variab
 We can ask Excel to draw this line for us. You can do this by going back to the "Chart Design" tab and, this time, click on "Add Chart Element", then "Trendline" option. From the dropdown options, select "Linear Trendline":  
 
 
-![](imgs/imgs/week3/scatter_10.png)
+![](imgs/week3/scatter_10.png)
 
 
 
@@ -1049,12 +1049,12 @@ We can ask Excel to draw this line for us. You can do this by going back to the 
 Now you can see your trendline appear: 
 
 
-![](imgs/imgs/week3/scatter_12.png)
+![](imgs/week3/scatter_12.png)
 
 What does this line look like? Well, it definitely has a negative slope (it's pointing down rather than pointing up). Therefore, in terms of the direction of the relationship, we can conclude that it is negative. In terms of strength, we want to look at the slope of the line. We saw above what a perfect linear relationship looks like. It's a slope of basically one-to-one. In this case, it would mean that for every one year earlier that someone has their first arrest, they have one more arrest. We can see that the slope of our line is very close to *no slope* or a slope of zero because it is essentially a straight line. To give you an idea of weak/strong relationships based on the slope of a line, here is a handy image: 
 
 
-![](imgs/imgs/week3/examples2_corr.jpg)
+![](imgs/week3/examples2_corr.jpg)
 
 
 You can imagine here that our relationship is quite weak, as it is close to a zero slope. Finally, is the relationship linear or non-linear? Well, how well does this straight line represent your data? And where the points deviate from the line, do they do so in a systematic manner? To be fair, this question is a bit tough to answer, just on visual assessment through a scatterplot alone. As is the strength without a numeric interpretation of the slope. 
@@ -1087,7 +1087,7 @@ Have a listen to this [Ted talk](https://www.youtube.com/watch?v=8B271L3NtAw), w
 Spurious correlations are all over the place, and while sometimes they are very obvious, for example, here is one that correlates the number of films that Nicholas Cage has appeared in and the number of people who drowned by falling into a pool: 
 
 
-![](imgs/imgs/week3/supr_corr.png)
+![](imgs/week3/supr_corr.png)
 
 ([and you can see more strange correlations here](http://www.tylervigen.com/spurious-correlations))
 
