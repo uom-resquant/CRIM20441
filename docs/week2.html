@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-10-03" />
+<meta name="date" content="2025-10-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -665,12 +665,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>The <strong>range</strong> has the disadvantage that a single extreme value can make it very large, giving a value that doesn’t represent the data overall. In these situations, a better way to describe the spread of a variable might be to ignore the extremes and concentrate on the middle of the data. We could look at the range of the middle half of the data.</p>
 <p>How do you do that? Put all boroughs in a long line ordered by the number of crimes. Then, divide the queue in half at the median. Now divide those halves in half again, cutting the data into four quarters. We call these new dividing points quartiles. Just as the median divides your data into the bottom 50% and the top 50%, the quartiles divide your data into the top 25%, the top 50%, the top 75%, and the bottom 25%. Imagine that your median divided your data into two new data sets. The medians of these two new data sets are your quartiles. As always, the clue is in the name. <em>Quart</em>iles divide your data into <em>quarters</em>. What does this look like?</p>
 <p>Well, for a moment, consider our data on the number of crimes per borough. Let’s plot this. Here, every point represents the number of crimes in that borough. They are ordered by number of crimes, from least to most.</p>
-<p><img src="bookdown-demo_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
+<p><img src="imgs/quartile_borough1.png" /></p>
 <p>We can easily identify the minimum and the maximum values, right?</p>
 <p>And we can also quite easily draw the median:</p>
-<p><img src="imgs/crimes_dotplot.png" /></p>
-<p>Now the quartiles are just the medians for the two halves of the data (which were created by splitting it in half with the median). Like so:</p>
-<p><img src="imgs/crimes_dotplot_quart.png" /></p>
+<p><img src="imgs/quartile_borough2.png" /></p>
+<p>Now the quartiles are just the middle of the two halves of the data. Like so:</p>
+<p><img src="imgs/quartile_borough3.png" /></p>
 <p>One-quarter of the data lies below the lower quartile, and one-quarter of the data lies above the upper quartile, so half the data lies between them. The quartiles border the middle half of the data. The difference between the lower and the upper quartile tells us how much territory the middle half of the data covers and is called the interquartile range (IQR). The lower quartile is also called the 25th percentile; 25% of the cases lie below it, and the upper quartile is also called the 75th percentile, 75% of the cases lie below it. The 1st quartile is also called the lower quartile, and the 3rd quartile is also called the upper quartile. So we sometimes just say different names for the same thing. The 0th quartile = the minimum value (although actually no one says 0th quartile…) 1st quartile = the lower quartile, the 2rd quartile = the median, the 3rd quartile is the upper quartile, and the 4th quartile is the maximum.</p>
 <p>In the table, with our numerical results, we saw the lower quartile for the number of crimes (or the 25th percentile) is 33,463 (25% of the boroughs have fewer crimes than that), and the upper quartile (or 75% percentile) was 39,312 (about 25% of the boroughs have more crimes than that). The interquartile range then is 5849 (<code>upper quartile - lower quartile = 39312-33463 =</code>5849).</p>
 <p>Because the interquartile range excludes everybody with the lowest and the highest values in the distribution (we are only looking at the difference between the lower and the upper quartile) is a measure of spread that is less sensitive to outliers (extremely atypical, very high or very low values).</p>

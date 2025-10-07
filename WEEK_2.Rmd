@@ -898,30 +898,19 @@ How do you do that? Put all boroughs in a long line ordered by the number of cri
 
 Well, for a moment, consider our data on the number of crimes per borough. Let's plot this. Here, every point represents the number of crimes in that borough. They are ordered by number of crimes, from least to most. 
 
-
-```{r, echo=FALSE}
-
-ggplot(per_borough_crimes, aes(x = reorder(borough, number.of.crimes), y=number.of.crimes)) + 
-  geom_point() + 
-  theme_bw() +
-  xlab("")
-
-```
-
-
+![](imgs/quartile_borough1.png)
 
 We can easily identify the minimum and the maximum values, right?
 
 And we can also quite easily draw the median:
 
-
-![](imgs/crimes_dotplot.png)
-
-
-Now the quartiles are just the medians for the two halves of the data (which were created by splitting it in half with the median). Like so: 
+![](imgs/quartile_borough2.png)
 
 
-![](imgs/crimes_dotplot_quart.png)
+Now the quartiles are just the middle of the two halves of the data. Like so: 
+
+
+![](imgs/quartile_borough3.png)
 
 
 One-quarter of the data lies below the lower quartile, and one-quarter of the data lies above the upper quartile, so half the data lies between them. The quartiles border the middle half of the data. The difference between the lower and the upper quartile tells us how much territory the middle half of the data covers and is called the interquartile range (IQR). The lower quartile is also called the 25th percentile; 25% of the cases lie below it, and the upper quartile is also called the 75th percentile, 75% of the cases lie below it. The 1st quartile is also called the lower quartile, and the 3rd quartile is also called the upper quartile. So we sometimes just say different names for the same thing. The 0th quartile = the minimum value (although actually no one says 0th quartile...) 1st quartile = the lower quartile, the 2rd quartile = the median, the 3rd quartile is the upper quartile, and the 4th quartile is the maximum. 
