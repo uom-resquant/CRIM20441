@@ -744,7 +744,7 @@ The figure above shows you what a perfect positive relationship would look like,
 As discussed, a graphical representation, in this case a scatterplot, is the most useful display technique for comparing two quantitative variables. We plot on the y-axis the variable we consider the response variable, and on the x-axis, we place the explanatory or predictor variable.
 
 
-How do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, age at first arrest would be the explanatory variable used to explain the variation in the response variable number of arrests.
+How do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, age at first arrest would be the explanatory variable used to explain the variation in the response variable, number of arrests.
 
 In summarising the relationship between two quantitative variables, we need to consider:
 
@@ -797,7 +797,7 @@ You can see that we actually have the age of the first arrest on the x-axis and 
 ![](imgs/week3/scatter_4.png) 
 
 
-And then, on the popup, there is an option to switch row/column: 
+And then, on the pop-up, there is an option to switch row/column: 
 
 
 ![](imgs/week3/scatter_5.png)
@@ -823,7 +823,7 @@ Then click on the "Axes" option, and for both horizontal and vertical axes, add 
 
 
 
-You can also stylize your scatterplot to make it look how you are most happy with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
+You can also stylise your scatterplot to make it look how you are happiest with it. [Here](https://blog.hubspot.com/marketing/excel-graph-tricks-list) and [here](https://www.goskills.com/Excel/Resources/How-to-make-a-scatter-plot-in-Excel) you can find some tips on making your graphs look pretty. Here's ours:
 
 
 ![](imgs/week3/scatter_9.png)
