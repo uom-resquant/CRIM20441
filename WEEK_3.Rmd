@@ -357,7 +357,7 @@ If you're still unsure about these, let us know. Raise your hand, and we will co
 ### Decimal places: A note on formatting cells
 
 
-Just before we move on, we quickly want to take a side step and talk about the formatting of cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say, "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases, it might be important to retain such precision. But often, when talking about people (or number of crimes), it doesn't necessarily need to be so specific. So, what if you wanted to format your results?
+Just before we move on, we quickly want to take a side step and talk about the formatting of cells. You can see that here we see our percentages appear to very accurate precision, displayed up to 7 decimal places. This isn't always necessary. Do you think it makes a big difference to someone if you say, "32% of all Titanic passengers survived" or if you say "32.303498% of all Titanic passengers survived", in terms of their understanding of what that means? In some cases, it might be important to retain such precision. But often, when talking about people (or the number of crimes), it doesn't necessarily need to be so specific. So, what if you wanted to format your results?
 
 
 Well, you can always round your numbers manually. But as always, there is a way you can just do this using Excel. To do this, highlight all the cells with the percentages inside. When you have done this, right-click anywhere inside this area that you have just highlighted. A menu of options will appear. Select the option to "Format Cells..."
@@ -429,7 +429,7 @@ Once you hit enter, it will populate, and you can click on "OK" to update your g
 ![](imgs/week3/stacked_col_5.png)
 
 
-You might have noticed there was an option for stacked bars with percentages next to it. This is quite handy if you have not computed row percentages. Excel will go ahead and do this for you in graph form. If you want to give this a go, go back and, this time, highlight the count of the people who survived, not your percentage calculations. Now, when you've highlighted that this time select the percentage graph bar charts: 
+You might have noticed there was an option for stacked bars with percentages next to it. This is quite handy if you have not computed row percentages. Excel will go ahead and do this for you in graph form. If you want to give this a go, go back and, this time, highlight the count of the people who survived, not your percentage calculations. Now, when you've highlighted that this time, select the percentage graph bar charts: 
 
 
 
@@ -445,11 +445,11 @@ When your new graph appears, you will see that it looks exactly the same as when
 
 
 
-You might be wondering - how does Excel know that you want the row percentages and not the column percentages when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds that in data analysis, you should arrange your data in a way that the row percentages are meaningful. Think about it: if we wrote the table with the survival in the rows and the class in the columns, that still makes sense - it is still the same data, right? But then, what is represented by column and row percentages gets switched. The meaning is the same, but they are just calculated into different places. 
+You might be wondering - how does Excel know that you want the row percentages and not the column percentages when you are creating your stacked percentage bar graph just from the counts? Well, tradition holds that in data analysis, you should arrange your data in a way that the row percentages are meaningful. Think about it: if we wrote the table with the survival in the rows and the class in the columns, that still makes sense - it is still the same data, right? But then, what is represented by column and row percentages gets switched. The meaning is the same, but they are just calculated in different places. 
 
 
 
-Another way to visually display the differences in your data while still presenting the numbers in a table is to use conditional formatting. To do this, select again the cells with your percentage values in it:
+Another way to visually display the differences in your data while still presenting the numbers in a table is to use conditional formatting. To do this, select again the cells with your percentage values in them:
 
 
 ![](imgs/week3/cond_form.png)
@@ -465,7 +465,7 @@ This time, in the "Home" tab, you will see a little sign that says conditional f
 Hover over "colour scales" and pick a colour scale that you think is appropriate. Often, you will hear people talk about a "RAG" rating (red, amber, green). So you might want to choose a red-amber-green colour scale. However, you might want to consider that some people have red-green colour blindness. To make your representation accessible to people with this particular condition, you might actually want to use a scale that goes from red to blue. 
 
 
-Have a look at this Tweet, which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://twitter.com/MartinRGalpin/status/1317552302207737856](https://twitter.com/MartinRGalpin/status/1317552302207737856)
+Have a look at this Tweet, which shows what this scale might look like for someone who has this particular flavour of colourblindness: [https://x.com/MartinRGalpin/status/1317552302207737856](https://x.com/MartinRGalpin/status/1317552302207737856)
 
 ![](imgs/week3/colb_condf.png)
 
@@ -492,7 +492,7 @@ You can see that the yes % is quite a high value and appears with the orange col
 The Arrestee Survey 2003-2006 was the first nationally representative survey of drugs and crime among the population of individuals representing arrest events in England and Wales. The survey aimed to provide information on a range of areas within the drugs and crime nexus, including the prevalence of problematic drug misuse among respondents representing arrest events; drug and/or alcohol consumption; availability of drugs; levels of demand (met and/or unmet) for drug and alcohol treatment services among respondents; levels of intravenous drug use among respondents; and gang membership. Topics covered include demographic characteristics, arrest, prison history and past contact with CJS, offending and offence categories, drug and alcohol use, drug purchasing and availability, drug and alcohol treatment needs, treatment offered and received, and gang involvement. Some of the above questions were answered by a self-completion questionnaire, and an oral fluid (saliva) sample was also taken.
 
 
-If you want to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here and uploaded this subset onto Canvas. You can go to Canvas (Learning Materials > Module 3 > data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
+If you want to have a look at this data set, you can access it through the UK data service website [here](https://discover.ukdataservice.ac.uk/catalogue/?sn=5807). However, to make things easier, we have selected just a few variables for you here and uploaded this subset onto Canvas. You can go to Canvas (Modules -> Learning Materials week 3 -> data for labs and homework) and download the arrestees_subset file. Once downloaded onto your PC, open it up with Excel. 
 
 
 
@@ -508,13 +508,12 @@ The first thing we want to do is have a look at our variables. We have 5 variabl
 In the following questions, we will explore the relationship that age has with offending. In the first instance, we might want to find out the age profile of the different offences. Do you think there would be a difference between the different offences that people are likely to get arrested for?
 
 
-For example, [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle', which appears in our data as a possible value for the "Reason for Arrest" variable. So, we might expect the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than a crime that might be associated with an older demographic. Any idea what crime types those could be? 
+For example, [joy riding is a crime traditionally associated with younger people](http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343). Joyriding is associated with 'theft of vehicle', which appears in our data as a possible value for the "Reason for Arrest" variable. So, we might expect the distribution for age (a numeric variable) to be different for those arrested for 'theft of vehicle' than for a crime that might be associated with an older demographic. Any idea what crime types those could be? 
 
 ### Activity: Age of offenders
 
 
-
-Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose pivot table:
+Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose Pivot Table:
 
 
 ![](imgs/week3/click_pivot.png)
@@ -530,7 +529,7 @@ Now take the variable 'reason for arrest', and drag it to the "Row Labels" box. 
 Here, you can see a list of all the possible values that the "Reason for arrest" variable can take. Let's take some time to think about these categories. We've already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let's take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that's what this course is about, right?
 
 
-So, answer the following questions for me, without peaking ahead or checking the data, just in terms of your perceptions of the relationship between age and types of offences committed:
+So, answer the following questions for me, without peeking ahead or checking the data, just in terms of your perceptions of the relationship between age and types of offences committed:
 
 
 - Which reason for arrest do you think has the oldest arrestee?
@@ -542,7 +541,7 @@ Take some time to think about this, discuss it in your groups, and write down yo
 
 
 
-Now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles let's have a look at what the data says. In order to compare a numeric variable across values of a categorical variable, we can consider different summaries across each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well, now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maximum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look at how to do this. 
+Now that you've hopefully chosen some categories that you think would fit the image of younger/ older age profiles, let's have a look at what the data says. To compare a numeric variable across values of a categorical variable, we can consider different summaries for each value. Remember last week when we looked into summaries of numeric variables when considering *uni*variate analysis? Well, now we do the same, create these summaries for the numeric variables, but we do this *for each value of the categorical variable*. So we can consider the minimum, the maximum, the mean, the median, and the standard deviation for age across each one of the values given for 'reason for arrest'. Let's have a look at how to do this. 
 
 
 
@@ -554,11 +553,11 @@ On our pivot table panel, grab the age variable and drag it into the "Values" bo
 
 
 
-Have a look at this table. What does it tell you? It looks a bit strange no, these are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well, if we look back at our "Values" box in the pivot table panel it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for the reason of "theft of vehicle". This is very hard to make sense of, and instead, we would prefer to see some of our summaries that we discussed above, as well as last week when we were performing univariate analysis. How do we do this? 
+Have a look at this table. What does it tell you? It looks a bit strange no? These are not really numbers that make sense when we are talking about people's ages... What does 9882 mean when it comes to 'Theft of vehicle'? Well, if we look back at our "Values" box in the pivot table panel, it gives us an indication as to what's going on. Since we didn't specify how we want the age variable summarised, Excel has decided to select the "sum" function for us. So what we are seeing here is essentially a sum of all the ages for all arrests made for the reason of "theft of vehicle". This is very hard to make sense of, and instead, we would prefer to see some of our summaries that we discussed above, as well as last week, when we were performing univariate analysis. How do we do this? 
 
 
 
-Well, on the right-hand side of the item "Sum of Age" in the Values box, there is a little letter "i". This is on a Mac, but on a PC, it might be a downward arrow. Whatever it is, click on it, and a new popup window will appear. 
+Well, on the right-hand side of the item "Sum of Age" in the Values box, there is a little letter "i". This is on a Mac, but on a PC, it might be a downward arrow. Whatever it is, click on it, and a new pop-up window will appear. 
 
 
 ![](imgs/week3/change_from_sum.png)
@@ -568,14 +567,14 @@ Well, on the right-hand side of the item "Sum of Age" in the Values box, there i
 If you're on a PC, when you click on the downward arrow, this set of options will appear: 
 
 
-![](imgs/week3/windows_pivot_change_sum.png)
+![](imgs/week3/windows_pivot_change_sum.gif)
 
 
-In this case, select "Value Field Settings..." - this is the same as the steps we followed last week to add the column of percentages for our univariate frequency table. Then the popup that appears will look roughly the same, with the option to change the Field Name (as "Custom Name") and the Summarize by (as "Summarize Value field by By"). 
+In this case, select "Value Field Settings..." - this is the same as the steps we followed last week to add the column of percentages for our univariate frequency table. Then the pop-up that appears will look roughly the same, with the option to change the Field Name (as "Custom Name") and the Summarize by (as "Summarize Value field by By"). 
 
 
 
-In the new popup window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default), this is set to sum: 
+In the new pop-up window, you can see that you have a list of options in the window under the description that says "Summarize value field by". You can see that initially (by default), this is set to sum: 
 
 
 ![](imgs/week3/set_to_sum.png)
@@ -598,7 +597,7 @@ Click OK, and you will see your column updated:
 
 
 
-Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offence", with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value of the reason for the offence that you thought would be the oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully, you might find these results interesting and therefore, get some insight into offender demographics for various crime types. Our youngest average age of offenders appears to be in the category of theft of vehicles. 
+Now we have a column that tells us the average age of people arrested for each value of the variable "Reason for arrest". Which one has the highest average age? It appears to be "Sex Offence", with an average age of 35 years old for people arrested for this reason. Is this what you were expecting? Did you choose something different? What is the average age for the value of the reason for the offence that you thought would be the oldest? Were you far off? Take a moment to chat about this with the person next to you. Hopefully, you might find these results interesting and, therefore, get some insight into offender demographics for various crime types. Our youngest average age of offenders appears to be in the category of theft of vehicles. 
 
 
 
@@ -606,14 +605,14 @@ Now we have a column that tells us the average age of people arrested for each v
 
 
 
-But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread, and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So, to add a new column for minimum value, you would drag age and select minimum, like so: 
+But remember our first question - *Which reason for arrest do you think has the oldest arrestee*? Well, this question is not answered by the average age column here. And also, we discussed last week why the mean alone is not always the best summary of our data. We might want to know about the spread and the variance as well. So, let's add a few more columns to our summary statistics table here. To do this, just drag "Age" to the "Values" box again and again, and each time, click on the little i (or arrow) and select what summary you want to display. So, to add a new column for minimum value, you would drag age and select minimum, like so: 
 
 
 ![](imgs/week3/make_min_col.gif)
 
 
 
-Now do this again to create a column for maximum, and another column for standard deviation to be able to talk about variance as well. 
+Now do this again to create a column for maximum, and another column for standard deviation, to be able to talk about variance as well. 
 
 
 In the end, your table should look like this: 
@@ -625,7 +624,7 @@ In the end, your table should look like this:
 If it doesn't, ask for some help from the teaching staff to go through this together. 
 
 
-Note: To create the standard deviation column, you have two choices: *StdDev* and *StdDevp*. The one to choose will depend on whether you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have come from a *sample* of people who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. However, with descriptive statistics, we are actually talking only about our sample. So, in this case, you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this, ask now!
+Note: To create the standard deviation column, you have two choices: *StdDev* and *StdDevp*. The one to choose will depend on whether you would like to know the standard deviation of your sample or your population. We will speak about this more next week, but you can imagine that the data we have comes from a *sample* of people who are used to draw conclusions about the whole *population*. Rather than interview everyone who has ever been arrested, we rely on gathering data from the interviews of enough people that we can make generalisations. These people who we actually speak to are our sample. Once we use inferential statistics, we can use data from the sample to make generalisations about the whole population. However, with descriptive statistics, we are actually talking only about our sample. So, in this case, you want to select  *StdDev* and **not** *StdDevp*. If you're confused about this, ask now!
 
 
 
@@ -643,7 +642,7 @@ Theft of and theft from vehicles both have a standard deviation of about 7, as w
 
 
 
-Now, finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop-down menu when selecting how to summarise the "age" variable? Well, for some reason, it's not as easy as calculating the other ones. Instead, to display the median we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
+Now, finally, before we move on, there is something you might have noticed. We did not include the **median** in our summary. Did you see it anywhere in your drop-down menu when selecting how to summarise the "age" variable? Well, for some reason, it's not as easy as calculating the other ones. Instead, to display the median, we have to rely on building our own formulas. But you're getting good at formulas by now, so let's give it a go!
 
 
 ### Activity: Adding a column for median
