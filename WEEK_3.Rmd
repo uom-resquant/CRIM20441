@@ -924,7 +924,7 @@ In sum, you should now be able to begin to compare two variables in your data se
   + weak
   + moderate
   + strong
-- scatterplot
+- scatter plot
 - trendline
 - correlation
 - correlation does not mean causation
