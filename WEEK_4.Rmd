@@ -1,4 +1,4 @@
-# Week 4 {#week4}
+videos_w3# Week 4 {#week4}
 
 
 ## Learning outcomes
@@ -63,7 +63,7 @@ The mean of the sampling distribution of the mean is the mean of the population 
 Let's explore this with some data. Download the 'heightsAndNames.xlsx' file from Canvas. 
 
 
-Open this data with Excel. You can see we have 3 variables. One variable is the people's names, one is their height, and the third variable, which we created, putting these people into 6 different samples assigning them randomly. Let's assume that everyone in this Excel spreadsheet is our population. Everyone here is everyone who exists; these 300 people are the only people in our population. Now, let's suppose that we don't have all their heights. Let's suppose that we do not have the budget to measure the height of all these 300 people, and instead, we have to measure the height of a sample of 50 people. 
+Open this data with Excel. You can see we have 3 variables. One variable is the people's names, one is their height, and the third variable, which we created, is putting these people into 6 different samples, assigning them randomly. Let's assume that everyone in this Excel spreadsheet is our population. Everyone here is everyone who exists; these 300 people are the only people in our population. Now, let's suppose that we don't have all their heights. Let's suppose that we do not have the budget to measure the height of all these 300 people, and instead, we have to measure the height of a sample of 50 people. 
 
 
 Let's say we initially select sample 1. You can filter to show only sample 1 in Excel by using the "filter" option. Click on the data tab in Excel and the filter option (the little funnel icon): 
@@ -125,6 +125,18 @@ Then, in the cell next to the "sample 1" cell, enter the `=AVERAGE()` formula. C
 
 Repeat this for each one of the samples. So each time, go to the little down arrow next to the "Sample" column, select the next sample (so first 2, then 3, then 4, and so on), and each time, calculate the average height for the sample. 
 
+<style>
+details {
+  margin-bottom: 1em; /* Adds space below each details block */
+}
+</style>
+
+<details>
+<summary><i>Alternative to get the average for each sample!</i></summary>
+
+ Let's use our favourite, the IF function.  =AVERAGE(IF(heightsAndNames.csv!C:C=1,heightsAndNames.csv!B:B)). Make the required changes for the remaining samples (2 to 6)
+
+</details>
 
 You should end up with the average height for 6 different samples of your 300 people: 
 
@@ -163,7 +175,17 @@ You can watch [this video](https://www.youtube.com/watch?v=JNm3M9cqWyc) to learn
 Further, something called the **Law of Large Numbers** tells us where the centre (maximum point) of the bell is located. Again, as the sample size approaches infinity, the centre of the distribution of the sample means becomes very close to the population mean. Basically, it means that the larger our sample, the more we can trust that our sample statistic reflects the population parameter. 
 
 
-Give this a go in our heights data in Excel. Let's select a mega sample of 150 people. Let's use samples 4, 5 and 6 to do this. Calculate the average height of all the people who are in these 3 samples. To do this, go back to your filtering and make sure that the boxes next to 4, 5 and 6 are all ticked. Then, calculate the average. Add this as a new row in your sheet where you've already calculated all the averages. Pretty close to our population mean, no? 
+Give this a go with our heights data in Excel. Let's select a mega sample of 150 people. Let's use samples 4, 5 and 6 to do this. Calculate the average height of all the people who are in these 3 samples. To do this, go back to your filtering and make sure that the boxes next to 4, 5 and 6 are all ticked. Then, calculate the average. Add this as a new row in your sheet where you've already calculated all the averages. Pretty close to our population mean, no? 
+
+<details>
+<summary><i>DOing the above using the IF function</i></summary>
+
+For those interested, this is how you could achieve the same results using the IF function. 
+
+=AVERAGE(IF((heightsAndNames.csv!C:C=4)+(heightsAndNames.csv!C:C=5)+(heightsAndNames.csv!C:C=6), heightsAndNames.csv!B:B))
+
+</details>
+
 
 
 Let's try also for the rest of the samples: 1, 2 and 3. Add this as a new row as well. So? Close? We would say so: 
@@ -177,7 +199,7 @@ If you're still unsure, [this video may help](https://www.youtube.com/watch?v=ag
 
 
 
-This might not seem obvious at first, but really, it's something that you probably already use in your everyday life. Think about when you are visiting a new city and you are looking to find a nice place to eat. You might use Tripadvisor. Or Yelp. In case you're not familiar with them, these are review sites where people can give a star rating (usually out of 5) to an establishment, and then others looking to visit these venues can see what ratings others have given them. You probably have used something like this when you are exploring a new part of town or in an area you might be unfamiliar with. And chances are, you refer to the law of large numbers when deciding where to eat. Take this example. You come across the below reviews: 
+This might not seem obvious at first, but really, it's something that you probably already use in your everyday life. Think about when you are visiting a new city and you are looking to find a nice place to eat. You might use Tripadvisor. Or Google Maps, where people can give a star rating (usually out of 5) to an establishment, and then others looking to visit these venues can see what ratings others have given them. You probably have used something like this when you are exploring a new part of town or in an area you might be unfamiliar with. And chances are, you refer to the law of large numbers when deciding where to eat. Take this example. You come across the following reviews: 
 
 
 ![](imgs/week4/review_1.png)
@@ -189,17 +211,17 @@ and
 
 
 
-You can see that actually review 1 has the higher mean score, right? It's got a score of 5 stars, the maximum amount of stars which you can have. Compared to that, the restaurant in review 2 has only 4 stars. So based on this rating alone, and no additional information, your ideal option is to choose the restaurant in the first review, "Fantasy Manchester". But you most likely wouldn't. Chances are, if you were going by the rating information only, then you would be more likely to select the restaurant in the 2nd review, Little Yang Sing. And that is because of the number of reviews. With only 2 reviews for "Fantasy Manchester", you cannot be certain that a diverse set of opinions is represented. It could be two people who are really biased, for all you know, such as the owner's friends. On the other hand, you know that the 33 people who reviewed "Little Yang Sing" will represent enough variation that it might include some biased people, but on the whole, it will be a better representation of the experience that all diners have, and therefore a better indication of what your experience will be like. In other words, the sample statistic of the 4 stars is probably closer to the population parameter, which is the possible star rating that the restaurant would get if everyone who ever visited and will ever visit were to rate it. On the other hand, the true score for "Fantasy Manchester" might be very different to the 5 stars we see from the sample, if we were to be able to get a hold of the population parameter. 
+You can see that actually review 1 has the higher mean score, right? It's got a score of 5 stars, the maximum number of stars which you can have. Compared to that, the restaurant in review 2 has only 4 stars. So based on this rating alone, and no additional information, your ideal option is to choose the restaurant in the first review, "Fantasy Manchester". But you most likely wouldn't. Chances are, if you were going by the rating information only, then you would be more likely to select the restaurant in the 2nd review, Little Yang Sing. And that is because of the number of reviews. With only two reviews for "Fantasy Manchester", you cannot be certain that a diverse set of opinions is represented. It could be two people who are really biased, for all you know, such as the owner's friends. On the other hand, you know that the 33 people who reviewed "Little Yang Sing" will represent enough variation that it might include some biased people, but on the whole, it will be a better representation of the experience that all diners have, and therefore a better indication of what your experience will be like. In other words, the sample statistic of the 4 stars is probably closer to the population parameter, which is the possible star rating that the restaurant would get if everyone who ever visited and will ever visit were to rate it. On the other hand, the true score for "Fantasy Manchester" might be very different to the 5 stars we see from the sample, if we were to be able to get a hold of the population parameter. 
 
 
 
-Hopefully, this illustrates a little bit about the difference between a sample and the population, but also how we can make inferences from the sample about the population, and how the larger your sample is, the more you can rely on the sample statistics reliably representing the population parameters. 
+Hopefully, this illustrates a little bit about the difference between a sample and the population, but also how we can make inferences from the sample about the population, and how the larger your sample is, the more you can rely on the sample statistics to reliably represent the population parameters. 
 
 
 You can also estimate the population standard deviation from your sample and the relevant sample statistics. In fact, we very briefly touched on this last week. Remember the possible options for STDEV and STDEVP? When we were calculating the standard deviation column, there were two choices: StdDev and StdDevp. The one to choose will depend on whether you would like to know the standard deviation of your sample or your population. There is a slight difference in how you calculate your standard deviation based on whether we are talking about our sample or our population. The first part is all the same. We still look at the difference between each measurement and the mean. Then, we still take the square of these differences. However, in the next step, where we calculate the standard deviation for the sample, we divide it by the number of observations in our sample. *However* if we were calculating the standard deviation for our *population*, we would divide by the number of observations in our sample **minus one**. Why minus one? Well, this is because instead of dividing by the sample size, we are dividing by another value, one called the **degrees of freedom**. 
 
 
-What is **degrees of freedom**? In statistics, the number of degrees of freedom is the number of values in the final calculation of a statistic that are free to vary. What does this mean? Well, imagine that we know what our sample statistic for the mean is. Let's say that it's 172. And we also know how many people are in our sample. Let's assume we have a mini sample of 5 people. The degrees of freedom here represent the number of people for whom we can freely choose any height we want. Which just happens to be one minus the sample size. Why? Let us illustrate: 
+What are **degrees of freedom**? In statistics, the number of degrees of freedom is the number of values in the final calculation of a statistic that are free to vary. What does this mean? Well, imagine that we know what our sample statistic for the mean is. Let's say that it's 172. And we also know how many people are in our sample. Let's assume we have a mini sample of 5 people. The degrees of freedom here represent the number of people for whom we can freely choose any height we want. Which just happens to be one minus the sample size. Why? Let us illustrate: 
 
 
 Here are our 5 people: Alice, Bob, Cecilia, Daniel, and Elizabeth. We know that their average height has to be 172 centimetres. This is a given. 
@@ -211,7 +233,7 @@ So, how tall can Alice be? Alice can be any height we want. Pick a number for Al
 `(195 + 185 + 156 + 200 + X) / 5 = 172`
 
 
-From your days of maths this might look familiar, but even if it does not, you should be able to know that this equation only has one solution. X can only be one value. Because we *know* what the final average will be, and because we could freely choose the heights of the first 4 people, the 5th height is restricted (in this case, it will have to be 124cm, so Daniel is the shortest in our sample). Therefore, we are only *free* to choose the first 4 heights, which is our sample *minus 1*. Our degrees of freedom are sample *minus 1*. As degrees of freedom refer to the number of independent ways by which a dynamic system can move without violating any constraint imposed on it, this is why it is called the number of degrees of freedom. In other words, the number of degrees of freedom can be defined as the minimum number of independent coordinates that can specify the position of the system completely. As illustrated above, in this case, that is the sample size minus one. 
+From your days of maths, this might look familiar, but even if it does not, you should be able to know that this equation only has one solution. X can only be one value. Because we *know* what the final average will be, and because we could freely choose the heights of the first four people, the 5th height is restricted (in this case, it will have to be 124cm, so Daniel is the shortest in our sample). Therefore, we are only *free* to choose the first 4 heights, which is our sample *minus 1*. Our degrees of freedom are sample *minus 1*. As degrees of freedom refer to the number of independent ways by which a dynamic system can move without violating any constraint imposed on it, this is why it is called the number of degrees of freedom. In other words, the number of degrees of freedom can be defined as the minimum number of independent coordinates that can specify the position of the system completely. As illustrated above, in this case, that is the sample size minus one. 
 
 
 So when you are calculating the standard deviation for *the population*, you divide by the degrees of freedom rather than by the number of observations in your sample. This is the difference between the StdDev and StdDevp functions in Excel to calculate your standard deviation. 
@@ -229,22 +251,22 @@ We will start this week by introducing the term **conceptualisation**, which see
 
 
 
-Let's say we're interested in studying education. Defining what we mean by education here is the process of conceptualisation of this topic. Let's say we conceptualise education as “Amount of knowledge and training acquired in school." Then we can say that we want to consider all the education that people learned while enrolled in the K-12 system, but that means that we would not include in this definition non-traditional approaches to education, such as homeschooling or people who return to school later or take classes from prison, for example. You can start to get a sense of what impact conceptualisation can have on your findings, right?
+Let's say we're interested in studying education. Defining what we mean by education here is the process of conceptualisation of this topic. Let's say we conceptualise education as “the amount of knowledge and training acquired in school." Then we can say that we want to consider all the education that people learned while enrolled in the K-12 system, but that means that we would not include in this definition non-traditional approaches to education, such as homeschooling or people who return to school later or take classes from prison, for example. You can start to get a sense of what impact conceptualisation can have on your findings, right?
 
 
-Let's take another example. Let's consider that we want to study "social status”. How we conceptualise social status will have implications for what it is that we might consider in the scope of our study and what we would not. For example, if we consider social status to be made up of the *dimensions* of wealth, prestige, and power, then we want to somehow collect data about these particular elements of social status. But we might ignore other elements of the concept, which others might deem relevant, such as social capital (the networks of relationships among people who live and work in a particular society, enabling that society to function effectively). This is important because if someone else wants to also study social status and has a look at our study, they should be clear on what was and what was not included so they can make their own decisions about our study and approach, but at least we are transparent about this, and can use this to make sure that we can justify our results.
+Let's take another example. Let's consider that we want to study "social status”. How we conceptualise social status will have implications for what it is that we might consider in the scope of our study and what we would not. For example, if we consider social status to be made up of the *dimensions* of wealth, prestige, and power, then we want to somehow collect data about these particular elements of social status. But we might ignore other elements of the concept, which others might deem relevant, such as social capital (the networks of relationships among people who live and work in a particular society, enabling that society to function effectively). This is important because if someone else wants to also study social status and has a look at our study, they should be clear on what was and what was not included, so they can make their own decisions about our study and approach, but at least we are transparent about this, and can use this to make sure that we can justify our results.
 
 
 
-To really demonstrate this, it's a good idea for you to have a go at conceptualising something yourself. Let's assume that you are interested in studying hate crime. In particular, you are interested in hate speech over social media. Let's say you pick Twitter as your case study. Now you have to **conceptualise** what it is that you mean by hate speech. This is important so that both you and anyone reading your study later are clear about what should be included in your study and what should be excluded. You can imagine that this is a very important step since what is included/ excluded makes a difference in what you can talk about when drawing conclusions from your study. 
+To really demonstrate this, it's a good idea for you to have a go at conceptualising something yourself. Let's assume that you are interested in studying hate crime. In particular, you are interested in hate speech over social media. Let's say you pick X as your case study. Now you have to **conceptualise** what it is that you mean by hate speech. This is important so that both you and anyone reading your study later are clear about what should be included in your study and what should be excluded. You can imagine that this is a very important step since what is included/ excluded makes a difference in what you can talk about when drawing conclusions from your study. 
 
 
 ### Activity: Conceptualise 'hate speech'
 
 
-Imagine you are about to embark on a study of *hate speech*. This is a growing area of research interest in criminology, and some criminologists have used X (Twitter) data to [analyse radicalisation towards the alt right](https://www.washingtonpost.com/news/the-intersect/wp/2016/09/26/these-charts-show-exactly-how-racist-and-radical-the-alt-right-has-gotten-this-year/?noredirect=on&utm_term=.aeb311ab060c). Let's say we want to carry out a similar study. 
+Imagine you are about to embark on a study of *hate speech*. This is a growing area of research interest in criminology, and some researchers have used X (Twitter) data to [analyse hate speech dynamics on Twitter/X](https://www.sciencedirect.com/science/article/pii/S240584402408277X?utm_source=chatgpt.com). Let's say we want to carry out a similar study. 
 
-You have some Twitter data, which includes 100,000 tweets, and you want to be able to select which one of these tweets includes hate speech and which one does not. For you to be able to carry out this research and be transparent about it as well, ensuring the reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working within your groups, conceptualise hate speech. Write down your conceptualisation of hate speech - how you define hate speech for the purposes of your study. When you have your concept ready, talk it over and ensure that this is a comprehensive definition you are all happy with. 
+You have some X data, which includes 100,000 tweets, and you want to be able to select which ones include hate speech and which ones do not. For you to be able to carry out this research and be transparent about it as well, ensuring the reproducibility of your work, you need to conceptualise hate speech in a clear, detailed, and specific way. So take a moment now, and working within your groups, conceptualise hate speech. Write down your conceptualisation of hate speech - how you define hate speech for the purposes of your study. When you have your concept ready, talk it over and ensure that this is a comprehensive definition you are all happy with. 
 
 
 
@@ -264,7 +286,8 @@ OK, ready? Great, now let's test your conceptualisation of hate speech. *Relying
 
 What about this one?
 
-![](https://ichef.bbci.co.uk/news/624/media/images/80000000/jpg/_80000045_sweaty.jpg)
+########![](https://ichef.bbci.co.uk/news/624/media/images/80000000/jpg/_80000045_sweaty.jpg)
+![](imgs/week4/katie12.jpg)
 
 
 And finally, this third one?
@@ -276,10 +299,10 @@ Would you categorise these tweets as hate speech according to the criteria that 
 
 
 
-Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. (In fact, since we wrote this, you might be aware Katie Hopkins was permanently banned from Twitter (now 'X' for her hateful comments...!). But how did they do against the way that you conceptualised hate speech? Would they all be included in your study?  Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
+Reading these tweets, using our human sentiment, we can appreciate that the tweets are hateful. But how did they do against the way that you conceptualised hate speech? Would they all be included in your study? Did you include everything according to your criteria that you would have liked to include, based on your human understanding of what hate speech means? 
 
 
-If you did, that is very impressive. If you did not, don't despair; hate speech is a very complex concept and, therefore, tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crimes, and generally, they reflect the core belief that hate crime policy should support a basic human right to be free from crime fueled by hostility because of an individual’s personal characteristics, but even in legislation this is quite hard to pin down.
+If you did, that is very impressive. If you did not, don't despair; hate speech is a very complex concept and, therefore, tough to conceptualise and define. There is no criminological consensus on the definition or even the validity of the concept of hate crime. There is legislation in this country to account for hate crimes, and generally, they reflect the core belief that hate crime policy should support a basic human right to be free from crime fueled by hostility because of an individual’s personal characteristics, but even in legislation, this is quite hard to pin down.
 
 
 One study looking at hate speech is [Burnap, P., & Williams, M. L. (2016). Us and them: identifying cyber hate on Twitter across multiple protected characteristics. EPJ Data Science, 5(1)](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-016-0072-6). They defined hate speech to include the following: 
@@ -299,7 +322,7 @@ As you can see, conceptualising what you mean (and therefore also what you don't
 ## The importance of conceptualisation
 
 
-You will have seen this in your preparatory reading, in Chapter 5 ("Research Design") of the book 'The Practice of Social Research' by Earl Babbie, but we will quickly re-iterate here: based on the conceptualisation of your variable, it will fall into one of three categories: 
+You will have seen this in your preparatory reading, in Chapter 5 ("Conceptualization, Operationalization, and Measurement ") of the book 'The Practice of Social Research' by Earl Babbie, but we will quickly reiterate here: based on the conceptualisation of your variable, it will fall into one of three categories: 
 
 
 - *Directly observable*: something that you can observe through measuring or counting or physical observation. Examples include the physical characteristics of a person. 
@@ -318,17 +341,25 @@ Think about this for a moment. Turn to someone next to you and talk through whic
 So, you've hopefully taken some time to formulate your own thoughts on this topic, and now we can go on to discuss some approaches to conceptualising hate speech. First, let's consult the legislation: 
 
 
-Not all hate incidents will amount to criminal offences, but those that do become hate crimes. The Association of Chief Police Officers and the CPS have agreed a common definition of hate crime: "Any criminal offence which is perceived by the victim or any other person, to be motivated by hostility or prejudice based on a person's race or perceived race; religion or perceived religion; sexual orientation or perceived sexual orientation; disability or perceived disability and any crime motivated by hostility or prejudice against a person who is transgender or perceived to be transgender."
+Not all hate incidents will amount to criminal offences, but those that do become hate crimes. The Association of Chief Police Officers and the CPS have agreed a common definition of hate crime: 
+
+"Any crime can be prosecuted as a hate crime if the offender has either: 
+
+demonstrated hostility based on race, religion, disability, sexual orientation or transgender identity 
+
+Or
+
+been motivated by hostility based on race, religion, disability, sexual orientation or transgender identity"
 
 
 This definition is quite important because it has an effect on sentencing when it comes to criminal offences. If evidence can be presented that the offence was motivated by hate or for any other strand of hate crime, the CPS can request enhanced sentencing. So, this seems a pretty important definition. But how can we translate this into a concept of hate speech? How do we make sure that our concept encapsulates all the possible versions of hate speech that we are interested in studying?
 
 
-One approach could be to conceptualise hate speech as an **indirectly observable** variable. You could, as was done in this paper looking at [Cyber Hate Speech on Twitter](http://onlinelibrary.wiley.com/doi/10.1002/poi3.85/full), consider hate speech to be the extent to which people consider a tweet offensive or antagonistic. In this case (we are jumping slightly ahead into measurement, but it all links in any way), this would be measured with a single-item question where you just present people with a tweet and ask, “is this text offensive or antagonistic in terms of race ethnicity or religion?”, providing people with a set of possible answers of yes, no, or undecided. (You might notice that this study did *not* include all protected characteristics mentioned in the CPS definition; instead, it focused on race, ethnicity, and religion only.) In this particular study, they presented the same tweets to many, many people, and so possibly, the single-item measure could have worked as an indicator of hate since multiple people rating the same tweet would eventually cancel out people who have a very high or very low threshold for classifying something as offensive or antagonistic. In this case, hate speech is conceptualised as people considering a tweet as antagonistic or offensive in terms of race, ethnicity or religion.
+One approach could be to conceptualise hate speech as an **indirectly observable** variable. You could, as was done in this paper, looking at [Cyber Hate Speech on Twitter](http://onlinelibrary.wiley.com/doi/10.1002/poi3.85/full), consider hate speech to be the extent to which people consider a tweet offensive or antagonistic. In this case (we are jumping slightly ahead into measurement, but it all links in any way), this would be measured with a single-item question where you just present people with a tweet and ask, “is this text offensive or antagonistic in terms of race ethnicity or religion?”, providing people with a set of possible answers of yes, no, or undecided. (You might notice that this study did *not* include all protected characteristics mentioned in the CPS definition; instead, it focused on race, ethnicity, and religion only.) In this particular study, they presented the same tweets to many, many people, and so possibly, the single-item measure could have worked as an indicator of hate since multiple people rating the same tweet would eventually cancel out people who have a very high or very low threshold for classifying something as offensive or antagonistic. In this case, hate speech is conceptualised as people considering a tweet as antagonistic or offensive in terms of race, ethnicity or religion.
 
 
 
-However, if you were surveying individuals only about each tweet and were interested in what certain people class as hate speech or not hate speech, you might want to consider a more complex assessment. You might conceptualise something as hate speech as something that evokes a variety of emotions from people, and you might want to ask about all these measures in separate questions to make sure that you are really tapping into what hate crime means to people. In this case, you would be conceptualising hate speech as a **construct**. If you recall from the reading (or above), *constructs are theoretical creations that are based on observations, but that cannot be observed directly or indirectly. Concepts such as compassion and prejudice are constructs created from your conception of them, our conception of them, and the conceptions of all those who have ever used these terms. They cannot be observed directly or indirectly because they don't exist. We made them up.* Constructs are usually complex and not easily measured with a single item. Instead, we tend to approach them by measuring their many indicators and assembling the responses to those to create a measure that is more reliable and less prone to random measurement errors than single-item measures since a single item often cannot discriminate between fine degrees of an attribute. So, if you have conceptualised hate crime as something more abstract and complex, and therefore a construct, that would mean you would have to measure it differently than the example given in the paper above. In the next section, we'll explore exactly how conceptualisation affects measurement. 
+However, if you were surveying individuals only about each tweet and were interested in what certain people classify as hate speech or not hate speech, you might want to consider a more complex assessment. You might conceptualise something as hate speech as something that evokes a variety of emotions from people, and you might want to ask about all these measures in separate questions to make sure that you are really tapping into what hate crime means to people. In this case, you would be conceptualising hate speech as a **construct**. If you recall from the reading (or above), *constructs are theoretical creations that are based on observations, but that cannot be observed directly or indirectly. Concepts such as compassion and prejudice are constructs created from your conception of them, our conception of them, and the conceptions of all those who have ever used these terms. They cannot be observed directly or indirectly because they don't exist. We made them up.* Constructs are usually complex and not easily measured with a single item. Instead, we tend to approach them by measuring their many indicators and assembling the responses to those to create a measure that is more reliable and less prone to random measurement errors than single-item measures, since a single item often cannot discriminate between fine degrees of an attribute. So, if you have conceptualised hate crime as something more abstract and complex, and therefore a construct, that would mean you would have to measure it differently than the example given in the paper above. In the next section, we'll explore exactly how conceptualisation affects measurement. 
 
 
 
@@ -345,7 +376,7 @@ However, if you were surveying individuals only about each tweet and were intere
 
 
 
-The point of conceptualising your topics into concepts is to be able to come up with the optimal approach to measuring them in order to be able to draw conclusions, and talk about criminological concepts with the support of empirical data. Data that arises from measurement are referred to as **empirical** data. So what can be empirical data? Well, it's anything that criminologists, data analysts, or anyone interested in and carrying out our research will measure in order to be able to answer their research questions and be able to talk about their topics of study. 
+The point of conceptualising your topics into concepts is to be able to come up with the optimal approach to measuring them in order to be able to draw conclusions and talk about criminological concepts with the support of empirical data. Data that arises from measurement are referred to as **empirical** data. So, what can be empirical data? Well, it's anything that criminologists, data analysts, or anyone interested in and carrying out our research will measure to answer their research questions and discuss their topics of study. 
 
 
 > Empirical data arise from our observations of the world. (...) Among the many prevailing views of the role of empirical data in modern science, there are two opposing extremes. On the one hand, the realist assumes data are manifestations of latent phenomena. In this view, data are pointers to universal, underlying truths. On the other hand, the nominalist assumes data are what they describe. From this latter point of view, as the philosopher Ludwig Feuerbach noted, “you are what you eat.” We use the historical realist-nominalist terminology to emphasize that these differing perspectives, in one form or another, have origins in Medieval theological controversies and their classical antecedents in Greek philosophy. Many working scientists adopt some form of a realist position, particularly those in the natural sciences. Even social scientists, despite the myriad particulars of their field, have often endorsed a similar position. 
@@ -353,7 +384,7 @@ The point of conceptualising your topics into concepts is to be able to come up 
 - Leland Wilkinson (2005) *The Grammar of Graphics*
 
 
-Depending on how you've conceptualised the topics you're interested in will affect how you can measure them. To measure is a process that involves observing and registering information to reflect qualities or quantities of a particular concept of interest. 
+The way you conceptualise the topics you're interested in will affect how you measure them. To measure is a process that involves observing and registering information to reflect qualities or quantities of a particular concept of interest. 
 
 
 Think back to some of the studies you might be learning about in your other courses. What sort of questions do they answer? How do they decide how to measure the concepts that they are interested in? It's worth going through some papers you might be interested in in order to see how they all go about these steps. You will normally find this sort of detail in the *methodology* section of a paper. 
@@ -362,19 +393,19 @@ Think back to some of the studies you might be learning about in your other cour
 For example, in this paper by Tom R. Tyler about [ethnic group differences in trust and confidence in the police](http://journals.sagepub.com/doi/abs/10.1177/1098611104271105), if you find the *method* section, you will see a brief discussion of the sample, followed by a list of the concepts of interest (which will be the variables in the analysis, if you skip ahead to results, you will see this), and a description of how they were measured. For example, these are a few listed: 
 
 
-- *Cooperation with the police*: People responded to three questions: “How likely would you be to call the police to report a crime that was occurring in your neighborhood?” “How likely would you be to help the police to find someone suspected of committing a crime by providing them with information?” “How likely would you be to report dangerous or suspicious activities in your neighborhood to the police?”
-- *Cooperation with the community*: People responded to three questions, which asked the following: “How likely would you be to volunteer your time on nights or weekends to help the police in your community?” “How likely would you be to volunteer your time on nights or weekends to patrol the streets as part of a neighborhood watch program?” “How likely would you be to volunteer your time on nights or weekends to attend a community meeting to discuss crime in your community?”
+- *Cooperation with the police*: People responded to three questions: “How likely would you be to call the police to report a crime that was occurring in your neighbourhood?” “How likely would you be to help the police find someone suspected of committing a crime by providing them with information?” “How likely would you be to report dangerous or suspicious activities in your neighbourhood to the police?”
+- *Cooperation with the community*: People responded to three questions, which asked the following: “How likely would you be to volunteer your time on nights or weekends to help the police in your community?” “How likely would you be to volunteer your time on nights or weekends to patrol the streets as part of a neighbourhood watch program?” “How likely would you be to volunteer your time on nights or weekends to attend a community meeting to discuss crime in your community?”
 
 
 
 So... how do we get to this step of measurement from the conceptualisation step? 
 
 
-Remember the points from above and from the reading about how concepts can be directly observable, indirectly observable, or constructs? Well, depending on what these are will affect their operationalisation or how we can go about measuring them.
+Remember the points from above and from the reading about how concepts can be directly observable, indirectly observable, or constructs? Well, depending on what these are, it will affect their operationalisation or how we can go about measuring them.
 
 
 
-Exact sciences work with directly observable variables, such as people's height, body temperature, heart rate, and so on. These are easy to measure through direct observation. There are instances when variables of interest in social sciences as well would fall into the category of directly observable. Directly observable variables are those which you can measure by observing. Can you think of any? 
+Exact sciences work with directly observable variables, such as people's height, body temperature, heart rate, and so on. These are easy to measure through direct observation. There are instances when variables of interest in social sciences, as well, would fall into the category of directly observable. Directly observable variables are those which you can measure by observing. Can you think of any? 
 
 
 
@@ -382,15 +413,15 @@ Exact sciences work with directly observable variables, such as people's height,
 
 
 
-One example of directly observable variables would be the number of people on the street at any given time. This would be an important variable to know if we are trying to accurately estimate crime risk. Crime risk is calculated by dividing the number of crimes in an area by a relevant measure of the population at risk. For example, you will often hear about crimes per 100,000 population. This would be important to calculate because sometimes a location can seem like it has very high crime counts, but perhaps that's because there are a lot more people there. Remember when we compared the number of crimes per borough in Greater Manchester, and actually found that Manchester had significantly more than anywhere else? Well, Manchester also has a lot more people going through it. So, if we are trying to estimate *risk* it's a different question. If there are two streets, both had 100 robberies on them last year, but one street is Oxford Road, and the other is a quiet side street with much fewer people passing by, then even thought the count is the same, the risk to each individual is very different. To be able to calculate this, we would need to count the number of people who walk down each street to find an accurate measure of the total possible people who *could* become victims and be able to use this number to calculate risk. This is a **directly observable** variable, and so the approach to measuring it can be something like counting the number of people who walk down the street. 
+One example of directly observable variables would be the number of people on the street at any given time. This would be an important variable to know if we are trying to accurately estimate crime risk. Crime risk is calculated by dividing the number of crimes in an area by a relevant measure of the population at risk. For example, you will often hear about crimes per 100,000 population. This would be important to calculate because sometimes a location can seem like it has very high crime counts, but perhaps that's because there are a lot more people there. Remember when we compared the number of crimes per borough in Greater Manchester, and actually found that Manchester had significantly more than anywhere else? Well, Manchester also has a lot more people going through it. So, if we are trying to estimate *risk*, it's a different question. If there are two streets, both had 100 robberies on them last year, but one street is Oxford Road, and the other is a quiet side street with fewer people passing by, then even though the count is the same, the risk to each individual is very different. To be able to calculate this, we would need to count the number of people who walk down each street to find an accurate measure of the total possible people who *could* become victims and be able to use this number to calculate risk. This is a **directly observable** variable, and so the approach to measuring it can be something like counting the number of people who walk down the street. 
 
 
 
-The next category is the **indirectly observable** variable. They are "terms whose application calls for relatively more subtle, complex, or indirect observations, in which inferences play an acknowledged part. Such inferences concern presumed connections, usually causal, between what is directly observed and what the term signifies" [Kaplan, A. (1964). The conduct of inquiry: Methodology for behavioral science. San Francisco, CA: Chandler Publishing Company, p. 55](https://books.google.co.uk/books?id=wxwuDwAAQBAJ&pg=PT89&lpg=PT89&dq=%22terms+whose+application+calls+for+relatively+more+subtle,+complex,+or+indirect+observations,+in+which+inferences+play+an+acknowledged+part.+Such+inferences+concern+presumed+connections,+usually+causal,+between+what+is+directly+observed+and+what+the+term+signifies%22&source=bl&ots=0_ySczx0oG&sig=WVdwNE7mUzF_d8dfBk2R_Tq4clw&hl=en&sa=X&ved=0ahUKEwihna-v5OrWAhXMYVAKHXvEBpIQ6AEIJjAA#v=onepage&q=%22terms%20whose%20application%20calls%20for%20relatively%20more%20subtle%2C%20complex%2C%20or%20indirect%20observations%2C%20in%20which%20inferences%20play%20an%20acknowledged%20part.%20Such%20inferences%20concern%20presumed%20connections%2C%20usually%20causal%2C%20between%20what%20is%20directly%20observed%20and%20what%20the%20term%20signifies%22&f=false). If we conducted a study for which we wished to know a person’s income, we’d probably have to ask them their income, perhaps in an interview or a survey. Thus, we have observed income, even if it has only been observed indirectly. Birthplace might be another indirect observable. We can ask study participants where they were born, but chances are good we won’t have directly observed any of those people being born in the locations they report. You would measure these concepts usually through single-item questionnaires. What does this mean? Single-item just means that you ask one single question, and the answer given to that one question is sufficient to measure your concept. 
+The next category is the **indirectly observable** variable. They are "terms whose application calls for relatively more subtle, complex, or indirect observations, in which inferences play an acknowledged part. Such inferences concern presumed connections, usually causal, between what is directly observed and what the term signifies" [Kaplan, A. (1964). The conduct of inquiry: Methodology for behavioral science. San Francisco, CA: Chandler Publishing Company, p. 55](https://books.google.co.uk/books?id=wxwuDwAAQBAJ&pg=PT89&lpg=PT89&dq=%22terms+whose+application+calls+for+relatively+more+subtle,+complex,+or+indirect+observations,+in+which+inferences+play+an+acknowledged+part.+Such+inferences+concern+presumed+connections,+usually+causal,+between+what+is+directly+observed+and+what+the+term+signifies%22&source=bl&ots=0_ySczx0oG&sig=WVdwNE7mUzF_d8dfBk2R_Tq4clw&hl=en&sa=X&ved=0ahUKEwihna-v5OrWAhXMYVAKHXvEBpIQ6AEIJjAA#v=onepage&q=%22terms%20whose%20application%20calls%20for%20relatively%20more%20subtle%2C%20complex%2C%20or%20indirect%20observations%2C%20in%20which%20inferences%20play%20an%20acknowledged%20part.%20Such%20inferences%20concern%20presumed%20connections%2C%20usually%20causal%2C%20between%20what%20is%20directly%20observed%20and%20what%20the%20term%20signifies%22&f=false). If we conducted a study for which we wished to know a person’s income, we’d probably have to ask them their income, perhaps in an interview or a survey. Thus, we have observed income, even if it has only been observed indirectly. Birthplace might be another indirect observable. We can ask study participants where they were born, but chances are good we won’t have directly observed any of those people being born in the locations they report. You would measure these concepts usually through single-item questionnaires. What does this mean? A single-item just means that you ask one single question, and the answer given to that one question is sufficient to measure your concept. 
 
 
 
-The next category is where it gets a bit more complicated, but this is where the beauty of social science measurement really comes to life. Because we are interested in complex behaviours, interactions, relationships, perceptions and opinions, our concepts in social sciences are often too abstract to be approached through direct or indirect observation. Consider the example from the paper on ethnicity and trust in the police linked above. You can see that each one of those concepts is measured by people's answers to multiple questions, which all come together to indicate the concept. These sorts of complex concepts, that require such measurements are our last category, the **constructs**. Constructs such as *cooperation with the police* or *cooperation with the community* are more abstract than either observational terms or indirect observables, but we can detect them based on the observation of some collection of observables. Let's explore how this works in the section below.
+The next category is where it gets a bit more complicated, but this is where the beauty of social science measurement really comes to life. Because we are interested in complex behaviours, interactions, relationships, perceptions and opinions, our concepts in social sciences are often too abstract to be approached through direct or indirect observation. Consider the example from the paper on ethnicity and trust in the police linked above. You can see that each one of those concepts is measured by people's answers to multiple questions, which all come together to indicate the concept. These sorts of complex concepts, that require such measurements, are our last category, the **constructs**. Constructs such as *cooperation with the police* or *cooperation with the community* are more abstract than either observational terms or indirect observables, but we can detect them based on the observation of some collection of observables. Let's explore how this works in the section below.
 
 
 
@@ -401,7 +432,7 @@ The next category is where it gets a bit more complicated, but this is where the
 As you see above, **constructs** are complex variables. As researchers, we try to measure our constructs as best we can.  Often, we can see and measure indicators of the constructs, but we can not directly observe or measure the constructs themselves. Instead, we infer these constructs,  which are unobserved, hidden, or latent, from the data we collect on *related variables* which we *can* observe and directly measure.
 
 
-We can combine the results from these related variables into a **composite variable**. A **composite variable** is a variable created by combining two or more individual variables, called indicators, into a single variable. Each indicator alone doesn't provide sufficient information, but altogether, they can represent the more complex concept. Think of the indicators as pieces of a puzzle that must fit together to see the big picture. 
+We can combine the results from these related variables into a **composite variable**. A **composite variable** is a variable created by combining two or more individual variables, called indicators, into a single variable. Each indicator alone doesn't provide sufficient information, but altogether, they can represent a more complex concept. Think of the indicators as pieces of a puzzle that must fit together to see the big picture. 
 
 
 A lot of work goes into creating composite variables. The indicators of the multidimensional concept must be specified. It's important that each indicator contributes unique information to the final score. The formula for combining the indicators into a single score, called aggregating data, must be established. The computation involved will depend on the type of data that is being aggregated. To aggregate the data, raw scores might be summed, averaged, transformed, and/or weighted.
@@ -422,7 +453,7 @@ There are several ways to accomplish averaging. The specific method of averaging
 When you are working with numbers, the unit of measurement can influence how big or small these numbers are. Consider height, for example. If we measure your height in centimetres, millimetres, or inches, we will get very different numbers. But if we measured everyone's heights in the class and plotted them, no matter what unit we used (*cm*, *mm*, or *in*), we would end up with the sample plot, right? You might be taller (or shorter) than the person sitting next to you, and no matter what unit we use to measure your height, this will stay true. 
 
 
-Similarly, where your height sits in comparison to the average height in the class will stay, too. Remember how we measured the distribution of data points around the mean in the past weeks? We used the *standard deviation*, right? Standard deviation was something we used to indicate the distribution of the individual points we measured around the mean. Above, we discussed how to calculate the standard deviation for the population and how that's different from the standard deviation for the sample. The standard deviation is a tool that we can use to standardize our numeric measurements. We can do this using **z-scores**. 
+Similarly, where your height sits in comparison to the average height in the class will stay, too. Remember how we measured the distribution of data points around the mean in the past weeks? We used the *standard deviation*, right? Standard deviation was something we used to indicate the distribution of the individual points we measured around the mean. Above, we discussed how to calculate the standard deviation for the population and how that's different from the standard deviation for the sample. The standard deviation is a tool that we can use to standardise our numeric measurements. We can do this using **z-scores**. 
 
 
 
@@ -682,17 +713,17 @@ All measurements should satisfy basic properties if they are to be useful in hel
 
 
 
-**Validation** is the process of determining whether there are grounds for believing that the instrument measures what it is intended to measure. For example, to what extent is it reasonable to claim that a ‘fear of crime questionnaire’ really is assessing someone's fear of crime? Since we are attempting to measure an ill-defined and unobservable construct, we can only infer that the instrument is valid in so far as it correlates with other observable behaviour. Validity can be sub-divided into: 
+**Validation** is the process of determining whether there are grounds for believing that the instrument measures what it is intended to measure. For example, to what extent is it reasonable to claim that a ‘fear of crime questionnaire’ really is assessing someone's fear of crime? Since we are attempting to measure an ill-defined and unobservable construct, we can only infer that the instrument is valid insofar as it correlates with other observable behaviour. Validity can be subdivided into: 
 
 - **Content validity**: Is the measurement sensible? Do the indicators reflect the intended construct?
 - **Criterion validity**: Is the measurement associated with the external criteria, such as other measurements of the same construct?
-- **Construct validity**: What is the relationship of the indicators to one another? And to the construct it is intended to measure? Construct validity has two sub-types: 
+- **Construct validity**: What is the relationship of the indicators to one another? And to the construct it is intended to measure? Construct validity has two subtypes: 
   + **convergent validity**: The extent to which indicators are associated with one another (they measure the same thing)
   + **divergent validity**: The extent to which indicators differ (they measure distinct things)
   
 
 
-**Reliability** and **repeatability** attempt to address the variability associated with the measure. You want to have a measure that repeatedly produces the same results when administered in the same circumstances and that any differences in answers between people are the result of their differing attitudes on the construct which you are measuring rather than due to any variation introduced by the measurement itself. 
+**Reliability** and **repeatability** attempt to address the variability associated with the measure. You want to have a measure that repeatedly produces the same results when administered in the same circumstances, and that any differences in answers between people are the result of their differing attitudes on the construct which you are measuring, rather than due to any variation introduced by the measurement itself. 
 
 
 
@@ -725,16 +756,12 @@ The best-case scenario, high validity and high reliability (lower right) is when
 **Responsiveness** is similar to sensitivity but relates to the ability to detect changes when a person fluctuates in the construct being measured. If your measure is meant to detect change over time, for example, in fear of crime, it needs to be able to detect changes. A sensitive measurement is usually, but not necessarily, also responsive to changes.
 
 
-These are the main criteria that your measurements need to meet in order to be considered robust. Pretty daunting, eh? No wonder secondary data analysis is so popular! (Is it, though? Well, it should be. It is amongst lazy people like ourselves, who would much rather acquire data and make pretty graphs than design multi-scale items for measuring complex constructs in the first place...!) It is much nicer when someone has gone through the hard work of designing great measures for us, and we can use the excellent data provided. And also, we should appreciate the work that these people have put in. There are many initiatives to try to encourage the rest of us to use the data they've collected. Organisations such as the [UK Data Service](https://www.ukdataservice.ac.uk/) (UKDS) collate all sorts of data and make them easily available and ready for us to use to make these data more enticing. They also like to reward analysis of their data. For example, next year, you will have the option to take a **secondary data analysis pathway** for your dissertation. If you do this and you make use of a data set from the UKDS, you can enter to win the [dissertation prize](https://ukdataservice.ac.uk/learning-hub/new-to-using-data/students/dissertation-award/)! It's a pretty awesome thing to have on your CV, and it also comes with a cash prize of £500 for first place. Not bad...! And we have already had some BA Crim students from Manchester win before, so it's definitely an attainable goal with your training and skills!
+These are the main criteria your measurements need to meet to be considered robust. Pretty daunting, eh? No wonder secondary data analysis is so popular! (Is it really, though? Well, it should be. It certainly is among people like us, who’d much rather work with existing data and make beautiful graphs than spend months designing multi-item scales to measure complex constructs from scratch!). It’s always nice when someone else has done the heavy lifting of creating reliable and valid measures for us — and we should genuinely appreciate the effort that goes into that work. There are many initiatives encouraging researchers to make use of such data. For example, organisations like the UK Data Service](https://www.ukdataservice.ac.uk/) (UKDS) curate a vast range of datasets and make them easily accessible, so that high-quality data are ready for us to use.
+
+Still, as we mentioned, building reliable and valid measurements is no small feat. The experts at the Office for National Statistics, for instance, spend years developing multi-item scales to measure concepts such as fear of crime and trust in the police through the Crime Survey for England and Wales. Introducing even a single new construct or question can take literally years of testing and refinement. So, it’s often a smart choice to take advantage of the excellent data they provide. If you are interested, have a look at the [UKDS data catalogue](https://datacatalogue.ukdataservice.ac.uk/).
 
 
-
-But as we were saying, building reliable and valid measurements is tough work. People at the Office of National Statistics work tirelessly to come up with multi-item scales to measure fear of crime, trust in the police, and similar constructs using the Crime Survey for England and Wales. For them to introduce a new construct and some new questions takes, *literally* years of work. So it's definitely a good approach to try to make use of the data which they collect. If you are interested, watch [this video on what sorts of data they have](https://www.youtube.com/watch?v=cCpHnqn0Q2c&list=PLG87Imnep1SljSqc0yLIHYBP1w0saMJn-&index=2), and [this other video on how to acquire data](https://www.youtube.com/watch?v=M-tN2FP0_0k). 
-
-
-
-
-But if we've still not convinced you, and you want to go out and collect your own data by taking the topics that you are interested in and conceptualising and operationalising them your way, and you want to develop your own multi-item scales, and then test their validity and reliability, well then, we should equip you with some basic abilities to know how. You might get asked to create a questionnaire in your next workplace. While creating questionnaires is a very tough and nuanced job, and we could write a whole course on only that, saying this to your line manager when they ask you to build a survey will not win you many brownie points. Instead it's best that you make at least some sort of attempt to ensure that your constructs are being measured by the most valid and reliable measures possible, or at least you can have some indication as to the error produced by your measurement. Later in this lab, we will address this through something called Cronbach's alpha. But first, let's calculate a summative score for "feelings of unsafety ". 
+But if we've still not convinced you, and you want to go out and collect your own data by taking the topics that you are interested in and conceptualising and operationalising them your way, and you want to develop your own multi-item scales, and then test their validity and reliability, well then, we should equip you with some basic abilities to know how. You might get asked to create a questionnaire in your next workplace. While creating questionnaires is a very tough and nuanced job, and we could write a whole course on only that, saying this to your line manager when they ask you to build a survey will not win you many brownie points. Instead, it's best that you make at least some sort of attempt to ensure that your constructs are being measured by the most valid and reliable measures possible, or at least you can have some indication as to the error produced by your measurement. Later in this lab, we will address this through something called Cronbach's alpha. But first, let's calculate a summative score for "feelings of unsafety ". 
 
 
 
@@ -763,7 +790,7 @@ Well, now we can consider calculating the variation in answers to support (or ch
 Once we've decided on a scoring system like this, we can write it down in a little table. This is both for ourselves, so we know what the numbers mean later (and maybe also for anyone else using our data afterwards), but also so that we can use this as a lookup table for our re-coding. 
 
 
-We can create a mini table with our codes and values in the data. Make sure the formatting follows exactly like in the original table. Sometimes, Excel will give you an error if you try to match something where a word is capitalised in one table but in the other one is not. Something like this:
+We can create a mini table with our codes and values in the data. Make sure the formatting follows exactly as in the original table. Sometimes, Excel will give you an error if you try to match something where a word is capitalised in one table but not in the other one. Something like this:
 
 
 ![](imgs/week4/lookup_table.png)
@@ -780,7 +807,7 @@ Now, also create headings for 3 new columns, one for each of our indicator varia
 Now, we can recode these variables into these new columns, where we will see the numeric value for each text value. We could do this manually. But we don't want to. Remember, we are lazy. And also remember that this is a very small subset of the actual Crime Survey for England and Wales (CSEW) data. The actual data has thousands of rows. 46,031 in the 2011/12 sweep, to be exact. So, that is not something that you would want to do manually, right?
 
 
-Instead, we will learn a new function in Excel, one which you will often use, called `VLOOKUP()`. What this function does is it uses a lookup table, in order to assign variables to a new column. In this case, our lookup table is the one on the bottom there, that we created, which tells Excel that for us, Very safe is 1, Fairly safe is 2, A bit unsafe is 3, and Very unsafe is 4. We can use this to create our new, re-coded variables. 
+Instead, we will learn a new function in Excel, one which you will often use, called `VLOOKUP()`. This function uses a lookup table to assign variables to a new column. In this case, our lookup table, which we created, is located at the bottom. It tells Excel that, in this case, Very safe is 1, Fairly safe is 2, A bit unsafe is 3, and Very unsafe is 4. We can use this to create our new, re-coded variables. 
 
 
 The `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. This can be either a value (number, date or text), a cell reference (a reference to a cell containing a lookup value), or the value returned by some other Excel function. For example:
@@ -1051,14 +1078,13 @@ You can see that we are close enough:
 ![](imgs/week4/tallshort_pivot.png)
 
 
-What could we do to split our data exactly in half? Well, I'll leave this question as extra credit. Put this in your google doc notes for your group, and we'll come up with some reward. 
-
+What could we do to split our data exactly in half? Well, I'll leave this question as extra credit. 
 
 
 
 ## Summary
 
-In summary, you should now be able to begin to think about the concepts you wish to study and the way in which you can turn them into data to be collected to allow you to talk about these concepts. You should be able to discuss composite variables, and talk about validity and reliability of measures and research. You should be comfortable with the following terms:
+In summary, you should now be able to begin to think about the concepts you wish to study and the way in which you can turn them into data to be collected to allow you to talk about these concepts. You should be able to discuss composite variables and talk about the validity and reliability of measures and research. You should be comfortable with the following terms:
 
 - conceptualisation
 - measurement 
