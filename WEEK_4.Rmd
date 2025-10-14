@@ -1,4 +1,4 @@
-videos_w3# Week 4 {#week4}
+# Week 4 {#week4}
 
 
 ## Learning outcomes
@@ -132,9 +132,10 @@ details {
 </style>
 
 <details>
-<summary><i>Alternative to get the average for each sample!</i></summary>
 
- Let's use our favourite, the IF function.  =AVERAGE(IF(heightsAndNames.csv!C:C=1,heightsAndNames.csv!B:B)). Make the required changes for the remaining samples (2 to 6)
+  <summary><b><i>Alternative to get the average for each sample!</i></b></summary>
+
+ Let's use our favourite, **the IF function**.  =AVERAGE(IF(heightsAndNames.csv!C:C=1,heightsAndNames.csv!B:B)). Make the required changes for the remaining samples (2 to 6)
 
 </details>
 
@@ -178,7 +179,9 @@ Further, something called the **Law of Large Numbers** tells us where the centre
 Give this a go with our heights data in Excel. Let's select a mega sample of 150 people. Let's use samples 4, 5 and 6 to do this. Calculate the average height of all the people who are in these 3 samples. To do this, go back to your filtering and make sure that the boxes next to 4, 5 and 6 are all ticked. Then, calculate the average. Add this as a new row in your sheet where you've already calculated all the averages. Pretty close to our population mean, no? 
 
 <details>
-<summary><i>DOing the above using the IF function</i></summary>
+
+<summary><b><i>Doing the above using the IF function</i></b></summary>
+
 
 For those interested, this is how you could achieve the same results using the IF function. 
 
@@ -286,7 +289,6 @@ OK, ready? Great, now let's test your conceptualisation of hate speech. *Relying
 
 What about this one?
 
-########![](https://ichef.bbci.co.uk/news/624/media/images/80000000/jpg/_80000045_sweaty.jpg)
 ![](imgs/week4/katie12.jpg)
 
 
@@ -343,13 +345,13 @@ So, you've hopefully taken some time to formulate your own thoughts on this topi
 
 Not all hate incidents will amount to criminal offences, but those that do become hate crimes. The Association of Chief Police Officers and the CPS have agreed a common definition of hate crime: 
 
-"Any crime can be prosecuted as a hate crime if the offender has either: 
+*"Any crime can be prosecuted as a hate crime if the offender has either: 
 
 demonstrated hostility based on race, religion, disability, sexual orientation or transgender identity 
 
 Or
 
-been motivated by hostility based on race, religion, disability, sexual orientation or transgender identity"
+been motivated by hostility based on race, religion, disability, sexual orientation or transgender identity"*
 
 
 This definition is quite important because it has an effect on sentencing when it comes to criminal offences. If evidence can be presented that the offence was motivated by hate or for any other strand of hate crime, the CPS can request enhanced sentencing. So, this seems a pretty important definition. But how can we translate this into a concept of hate speech? How do we make sure that our concept encapsulates all the possible versions of hate speech that we are interested in studying?
@@ -1116,7 +1118,8 @@ In summary, you should now be able to begin to think about the concepts you wish
 
 
 
-#Sources
+### Sources
+
 - [Analysis of variables that are not directly observable: influence on decision-making during the research process](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0080-62342014000100146)
 - [Composite Variables: When and How](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5459482/)
 - [Scores and measurements: validity, reliability, sensitivity](http://onlinelibrary.wiley.com.manchester.idm.oclc.org/doi/10.1002/9780470024522.ch4/pdf)
