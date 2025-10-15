@@ -327,7 +327,7 @@ As you can see, conceptualising what you mean (and therefore also what you don't
 You will have seen this in your preparatory reading, in Chapter 5 ("Conceptualization, Operationalization, and Measurement ") of the book 'The Practice of Social Research' by Earl Babbie, but we will quickly reiterate here: based on the conceptualisation of your variable, it will fall into one of three categories: 
 
 
-- *Directly observable*: something that you can observe through measuring or counting or physical observation. Examples include the physical characteristics of a person. 
+- *Directly observable*: something that you can observe through measuring, counting or physical observation. Examples include the physical characteristics of a person. 
 - *Indirectly observable*: something that you can measure with a single question. Examples include the person's salary or ethnicity - you can just ask one question, which will be enough to identify the value for that variable for the person responding. 
 - *Constructs*: a more abstract concept, something that isn't necessarily "out there" to be measured using simple measurement tools. Constructs are often representative of complex social processes and require more intricate measurement approaches. Examples include fear of crime and trust in the police. 
 
@@ -343,7 +343,7 @@ Think about this for a moment. Turn to someone next to you and talk through whic
 So, you've hopefully taken some time to formulate your own thoughts on this topic, and now we can go on to discuss some approaches to conceptualising hate speech. First, let's consult the legislation: 
 
 
-Not all hate incidents will amount to criminal offences, but those that do become hate crimes. The Association of Chief Police Officers and the CPS have agreed a common definition of hate crime: 
+Not all hate incidents will amount to criminal offences, but those that do become hate crimes. The Association of Chief Police Officers and the CPS have agreed on a common definition of hate crime: 
 
 *"Any crime can be prosecuted as a hate crime if the offender has either: 
 
@@ -492,7 +492,7 @@ How do you test if your numeric variable is normally distributed? Well, for now,
 
 
 ![](imgs/week4/histo.png)
-Or like this if you create it without the data analysis toolpak:
+Or like this, if you create it without the data analysis toolpak:
 
 ![](imgs/week4/hist_width5.png)
 
@@ -549,7 +549,7 @@ Now, create a column called "z-score" and populate it with the z-scores of each 
 
 
 
-If you had multiple variables, for example, we also had measurements for these people for the length of their arms and legs and so on, we could combine all the z-scores into a composite variable that would be able to tell us about that person's "tallness" is that was a variable we conceptualised as made up of these factors and operationalised with this composite measure. 
+If you had multiple variables, for example, we also had measurements for these people for the length of their arms and legs and so on, we could combine all the z-scores into a composite variable that would be able to tell us about that person's "tallness" if that was a variable we conceptualised as made up of these factors and operationalised with this composite measure. 
 
 
 
@@ -576,7 +576,7 @@ So let's first create 3 columns, one for each z-score:
 
 
 
-Now, remember our equation. For each cell, we need to subtract the mean and then, from that divide by the standard deviation, for the appropriate column. So, for us to make a z-score for favourites, we must, for each number of favourites, subtract the mean number of favourites and divide by the standard deviation number of favourites. Like so: 
+Now, remember our equation. For each cell, we need to subtract the mean and then, from that, divide by the standard deviation, for the appropriate column. So, for us to make a z-score for favourites, we must, for each number of favourites, subtract the mean number of favourites and divide by the standard deviation of favourites. Like so: 
 
 
 ![](imgs/week4/fave_z.png)
@@ -597,7 +597,7 @@ Now, you can use these z-scores to calculate an average between them, which will
 
 
 
-Now, finally, you have a popularity score that tells you which tweets by GMP city centre were most popular, depending on the number of favourites, retweets, and replies, taking into account all these three dimensions that we decided are important indicators of our construct, popularity. Hint: sort your data using the sort option by the popularity variable, from largest to smallest (or in descending order). 
+Now, finally, you have a popularity score that tells you which tweets by GMP city centre were most popular, depending on the number of favourites, retweets, and replies, taking into account all three dimensions that we decided are important indicators of our construct, popularity. Hint: sort your data using the sort option by the popularity variable, from largest to smallest (or in descending order). 
 
 
 So, based on this measure, which tweet is the most popular?
@@ -609,7 +609,7 @@ It appears that the most popular tweet GMP has made is a pun... :
 *"Several shoplifters detained today, including woman who stole a vibrator - Why do they do it - is it just for the buzz...'"*
 
 
-Very good GMP, very good. But something really interesting as well: if you look at a few of the tweets below that show up as quite highly ranked based on our popularity score, they come up as high on retweets but earning 0 favourites! See: 
+Very good GMP, very good. But something really interesting as well: if you look at a few of the tweets below that show up as quite highly ranked based on our popularity score, they come up as high on retweets but zero favourites! See: 
 
 
 ![](imgs/week4/low_fave_high_rt.png)
@@ -623,7 +623,7 @@ In fact, most of the things we study in the social sciences and in criminology a
 
 ## Composite variables created from categorical variables
 
-Another thing to mention regarding measurement in social sciences and criminology is that often times, our data come from surveys. In surveys, you don't only deal with numeric variables but with categorical variables as well. And it is in these surveys that we can ask people some questions about the really nuanced and complex issues, such as trust in the police or fear of crime. Of course, the responses to such questions tend to be categorical, often ordinal, asking people to rank their agreement with various statements. So we should also take time to consider the other case, where the indicator variables that you wish to combine into a composite measure are *categorical*. These are most often made up of multi-item scales, which we'll move on to in the next section. 
+Another thing to mention regarding measurement in social sciences and criminology is that often, our data come from surveys. In surveys, you don't only deal with numeric variables but with categorical variables as well. And it is in these surveys that we can ask people some questions about the really nuanced and complex issues, such as trust in the police or fear of crime. Of course, the responses to such questions tend to be categorical, often ordinal, asking people to rank their agreement with various statements. So we should also take time to consider the other case, where the indicator variables that you wish to combine into a composite measure are *categorical*. These are most often made up of multi-item scales, which we'll move on to in the next section. 
 
 
 Meaningful grouping is the nonstatistical combination of selected original variables based on the interpretation of the variables’ values or scores, guided by the science of the field. Meaningful grouping can be used to create a composite outcome variable from multiple continuous or categorical variables or both. These original variables, when combined into a composite, can indicate an attribute (e.g., high risk for mortality) that is meaningful. A composite variable created by meaningful grouping is often categorical. For example, a composite variable may include categories improved, no change, and worse to indicate the direction of overall change from baseline to determine whether or not an intervention was efficacious. The key point is that the composite should be meaningful with respect to the context and purpose of the study and should be determined based on the science of the field with a predefined algorithm.
@@ -633,12 +633,12 @@ Meaningful grouping is the nonstatistical combination of selected original varia
 
 Three common composite measures include:
 
-- **indexes** - measures that summarize and rank specific observations, usually on the ordinal scale
+- **indices** - measures that summarise and rank specific observations, usually on the ordinal scale
 - **scales** - advanced indexes whose observations are further transformed (scaled) due to their logical or empirical relationships
 - **typologies** - measures that classify observations in terms of their attributes on multiple variables, usually on a nominal scale
 
 
-Here, we will consider scales for creating composite variables from numeric indicators and indexes for creating composite variables from categorical indicators.
+Here, we will consider scales for creating composite variables from numeric indicators and indices for creating composite variables from categorical indicators.
 
 
 
@@ -651,7 +651,7 @@ One primary technique for measuring concepts important for theory development is
 
 
 
-Often information gathered in the social sciences, including criminology, will make use of Likert-type scales.  Rensis Likert was one of the researchers who worked in a systematized way with this type of variable. The Likert methodology is one of the most used in many fields of social sciences, even health sciences and medicine. When responding to a Likert item, respondents specify their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Thus, the range captures the intensity of their feelings for a given item.  
+Often, information gathered in the social sciences, including criminology, will make use of Likert-type scales. Rensis Likert was one of the researchers who worked in a systematised way with this type of variable. The Likert methodology is one of the most used in many fields of social sciences, even health sciences and medicine. When responding to a Likert item, respondents specify their level of agreement or disagreement on a symmetric agree-disagree scale for a series of statements. Thus, the range captures the intensity of their feelings for a given item.  
 
 
 You will have definitely seen Likert scales before, but you might have just not known they were called as such. Here is one example: 
@@ -667,7 +667,7 @@ In sum, a Likert scale must have:
 statements concerning the attitude object
 - for each item, respondents select one of five responses: strongly agree, agree,
 undecided, disagree, or strongly disagree.  
-- the specific responses to the items combined so that individuals with the most favourable attitudes will have the highest scores while individuals with the least favourable (or unfavourable) attitudes will have the lowest scores  
+- the specific responses to the items combined so that individuals with the most favourable attitudes will have the highest scores, while individuals with the least favourable (or unfavourable) attitudes will have the lowest scores  
 
 
 
@@ -771,7 +771,7 @@ But if we've still not convinced you, and you want to go out and collect your ow
 ### Activity: Calculating a summative score
 
 
-Back to our data about collecting people's feelings of unsafety in their neighbourhoods. We have our three indicator questions: 
+Back to our data (csew_small.xlsx) about collecting people's feelings of unsafety in their neighbourhoods. We have our three indicator questions: 
 
 - To what extent do you feel safe walking alone in the day?
 - To what extent do you feel safe walking alone after dark?
@@ -786,13 +786,13 @@ Let's give it a go. Open up your data (`csew_small.xlsx`) and have a look at the
 
 
 
-Well, now we can consider calculating the variation in answers to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, in the first instance, we suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to  reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
+Well, now we can consider calculating the variation in answers to support (or challenge) your perceptions with data. But the first step to this is to **re-code** your variables from the text value (very worried, etc) to a number that indicates the **rank** of the ordinal response. How we do this is important. While the order of an ordinal variable is fixed, whether you go from high to low or low to high score is not. How do you determine what your score should be? Well, in the first instance, we suggest that you think about what your construct is. In this case, our construct is fear - or unsafety. In this case, it would make sense for a higher score to represent *more fear*. For the scores to reflect this, lower scores of worry should have lower numbers, and higher scores of worry should have higher numbers. So "very safe" should be equal to 1, and "very unsafe" should be equal to 4. 
 
 
 Once we've decided on a scoring system like this, we can write it down in a little table. This is both for ourselves, so we know what the numbers mean later (and maybe also for anyone else using our data afterwards), but also so that we can use this as a lookup table for our re-coding. 
 
 
-We can create a mini table with our codes and values in the data. Make sure the formatting follows exactly as in the original table. Sometimes, Excel will give you an error if you try to match something where a word is capitalised in one table but not in the other one. Something like this:
+We can create a mini table with our codes and values in the data. **Make sure the formatting is exactly as in the original table** (i.e. there are no white or trailing spaces). Sometimes, Excel will give you an error if you try to match something that looks the same to us, but it's formatted differently in Excel. Something like this:
 
 
 ![](imgs/week4/lookup_table.png)
@@ -809,7 +809,9 @@ Now, also create headings for 3 new columns, one for each of our indicator varia
 Now, we can recode these variables into these new columns, where we will see the numeric value for each text value. We could do this manually. But we don't want to. Remember, we are lazy. And also remember that this is a very small subset of the actual Crime Survey for England and Wales (CSEW) data. The actual data has thousands of rows. 46,031 in the 2011/12 sweep, to be exact. So, that is not something that you would want to do manually, right?
 
 
-Instead, we will learn a new function in Excel, one which you will often use, called `VLOOKUP()`. This function uses a lookup table to assign variables to a new column. In this case, our lookup table, which we created, is located at the bottom. It tells Excel that, in this case, Very safe is 1, Fairly safe is 2, A bit unsafe is 3, and Very unsafe is 4. We can use this to create our new, re-coded variables. 
+Instead, we will learn a new function in Excel, one which you will often use, called `VLOOKUP()`. 
+
+This function uses a lookup table to assign variables to a new column. In this case, our lookup table, which we created, is located at the bottom. It tells Excel that, in this case, Very safe is 1, Fairly safe is 2, A bit unsafe is 3, and Very unsafe is 4. We can use this to create our new, re-coded variables. 
 
 
 The `VLOOKUP()` function takes 4 parameters. You have to tell it the **lookup_value** - the value to search for. This can be either a value (number, date or text), a cell reference (a reference to a cell containing a lookup value), or the value returned by some other Excel function. For example:
@@ -864,17 +866,17 @@ And the values in this column represent the score that these people have on the 
 </span>
 
 
-But to what extent do these measures all indicate the same concept? Is someone who feels the same towards their safety going to answer all of these questions similarly? We want to try to find this out in order to be able to speak about our measure confidently. And as mentioned earlier, you can put a number to the extent to which you can rely on your measures using Cronbach's alpha.
+But to what extent do these measures indicate the same concept? Will someone who shares the same concern for their safety answer all these questions similarly? We aim to determine this so we can discuss our measure confidently. And as mentioned earlier, you can put a number to the extent to which you can rely on your measures using Cronbach's alpha.
 
 
 
 ### Activity: Testing your questions: Cronbach’s alpha
 
 
-Cronbach's alpha is a measure of internal consistency, that is, how closely related a set of items are as a group. It is considered to be a measure of scale reliability. Cronbach’s alpha is a measure used to assess the reliability, or internal consistency, of a set of scale or test items. In other words, the reliability of any given measurement refers to the extent to which it is a consistent measure of a concept, and Cronbach’s alpha is one way of measuring the strength of that consistency.
+Cronbach's alpha is a measure of internal consistency, that is, how closely related a set of items is as a group. It is considered to be a measure of scale reliability. Cronbach’s alpha is a measure used to assess the reliability, or internal consistency, of a set of scale or test items. In other words, the reliability of any given measurement refers to the extent to which it is a consistent measure of a concept, and Cronbach’s alpha is one way of measuring the strength of that consistency.
 
 
-Cronbach’s alpha can be written as a function of the number of test items and the average inter-correlation among the items. 
+Cronbach’s alpha can be written as a function of the number of test items and the average intercorrelation among the items. 
 
 
 `(number of items/(number of items-1))*(1 - the variance associated with each item/ the variance associated with the observed total scores)`
@@ -882,14 +884,14 @@ Cronbach’s alpha can be written as a function of the number of test items and 
 
 
 
-With this in mind, we can apply this formula to Excel and use Excel to calculate our Cronbach's alpha. There is a handy guide online, which you can see [here](http://www.real-statistics.com/reliability/internal-consistency-reliability/cronbachs-alpha/), which we will borrow some examples from here to illustrate.  
+With this in mind, we can apply this formula to Excel and use Excel to calculate our Cronbach's alpha. There is a handy guide online, which you can see [here](https://real-statistics.com/reliability/internal-consistency-reliability/cronbachs-alpha/cronbachs-alpha-basic-concepts/), from which we will borrow some examples to illustrate.  
 
 Here you can see they have the data: 
 
 ![](https://i2.wp.com/www.real-statistics.com/wp-content/uploads/2012/12/cronbachs-alpha-excel.jpg)
 
 
-Using the above, they calculate Cronbach alpha, with the values in the below table: 
+Using the above, they calculate Cronbach's alpha, with the values in the table below: 
 
 
 ![](https://i0.wp.com/www.real-statistics.com/wp-content/uploads/2013/02/Picture11.png)
@@ -914,7 +916,7 @@ To do this, you first need some values. Back in your fear of crime data, in cell
 
 
 
-Now the next one is a bit more complex. In order to get the sum of the variance for each question, we will need first to calculate the variance for each question. Let's use the `VARP()` function to do this. We can place these values in the bottom row of our data. Like so: 
+Now the next one is a bit more complex. In order to get the sum of the variance for each question, we will first need to calculate the variance for each question. Let's use the `VAR.P()` function to do this. We can place these values in the bottom row of our data. Like so: 
 
 
 
@@ -922,7 +924,7 @@ Now the next one is a bit more complex. In order to get the sum of the variance 
 
 
 
-Repeat these for the other two columns as well. Now we have our variance for each indicator question, and we can add them up using the `SUM()` function in the cell B20: 
+Repeat these for the other two columns as well. Now we have our variance for each indicator question, and we can add them up using the `SUM()` function in cell B20: 
 
 
 ![](imgs/week4/sum_var_alpha.png)
@@ -930,7 +932,7 @@ Repeat these for the other two columns as well. Now we have our variance for eac
 
 
 
-Finally, we need the variance between the total scores between the people. For this, in cell B21, you just have to calculate the variance of these values, again using the `VARP()` function: 
+Finally, we need the variance between the total scores between the people. For this, in cell B21, you just have to calculate the variance of these values, again using the `VAR.P()` function: 
 
 
 ![](imgs/week4/pop_var_alpha.png)
@@ -962,7 +964,7 @@ Our value is acceptable, and so we can rest assured that these three indicators 
 Yay!
 
 
-A note of caution, though. There are some issues with Cronbach's alphas. For example, you might see quite high scores for scales with lots and lots of question items. As one increases the number of items in a scale, it is more likely that the alpha will be high, but the score may be meaningless because it does not represent an underlying construct or worse - it represents multiple underlying constructs. Cronbach's Alpha measures only the reliability of the scale of measurement of responses of the cases in a Likert Scale. But it does not measure the reliability of the respondents' opinions leading to the latent construct. In that case, useful measurements are those of validity. Usually, for the sake of the integrity of the research, it is recommended that the researcher run a series of tests to test the reliability and validity of questionnaires. While Cronbach's alpha is one of these tests, further tests include principle components analysis, factor analysis, and other indicators. Having an integrated set of tests adds more to the value of the research in question. If you are interested, you can read up a bit more [detail on validation here](http://onlinelibrary.wiley.com.manchester.idm.oclc.org/doi/10.1002/9780470024522.ch5/pdf). But that is not something that we will worry about now; instead, we can move on to the final part of the day, recoding. 
+A note of caution, though. There are some issues with Cronbach's alphas. For example, you might see quite high scores for scales with lots and lots of question items. As one increases the number of items in a scale, it is more likely that the alpha will be high, but the score may be meaningless because it does not represent an underlying construct or worse, it represents multiple underlying constructs. Cronbach's Alpha measures only the reliability of the scale of measurement of responses of the cases in a Likert Scale. But it does not measure the reliability of the respondents' opinions, leading to the latent construct. In that case, useful measurements are those of validity. Usually, for the sake of the integrity of the research, it is recommended that researchers run a series of tests to test the reliability and validity of questionnaires. While Cronbach's alpha is one of these tests, further tests include principal components analysis, factor analysis, and other indicators. Having an integrated set of tests adds more to the value of the research in question. If you are interested, you can read up a bit more [detail on validation here](http://onlinelibrary.wiley.com.manchester.idm.oclc.org/doi/10.1002/9780470024522.ch5/pdf). But that is not something that we will worry about now; instead, we can move on to the final part of the day, recoding. 
 
 
 
@@ -977,7 +979,7 @@ A note of caution, though. There are some issues with Cronbach's alphas. For exa
 We've already covered some re-coding of our variables, transforming them from text values into their rank orders, as they sit in the ordinal variable above, using the `VLOOKUP()` function. The last thing we'll cover today is addressing re-coding of the second variety mentioned above by Leland Wilkinson, when you want to create aggregate summaries of a variable. You might want to do this if you want to turn a numeric variable into a categorical variable, for example, or when you want to turn a categorical variable with many possible values into a **binary** variable, a variable with only two possible values. 
 
 
-Let's start with the second option because we can demonstrate this on our fear of crime table, which you should still have open after having just finished calculating your Cronbach's alpha. Let's say that we no longer care about the distinction between all 4 types of worry and instead want to distinguish only between those who are worried or not worried. We only want 2 possible categories. How can we achieve this?
+Let's start with the second option because we can demonstrate this on our fear of crime table, which you should still have open after having just finished calculating your Cronbach's alpha. Let's say that we no longer care about the distinction between all 4 types of worry and instead want to distinguish only between those who are worried or not worried. We only want two possible categories. How can we achieve this?
 
 
 Well, one option is to use the `VLOOKUP()` function again. Create another lookup table, but this time, change the column that contains the items to change the values from numbers to the corresponding text values. Like so: 
@@ -991,7 +993,7 @@ Well, one option is to use the `VLOOKUP()` function again. Create another lookup
 And then create a column for your new variable, for **Walkdark_binary**. Now, in this new column, use the `VLOOKUP()` function to change the values to the corresponding binary options. Can you guess what the function will look like, based on what the function looked like above when translating to the numbers?
 
 
-Remember you have to specify: 
+Remember, you have to specify: 
 - what you want to reference
 - your lookup table
 - the number for the column where your new values are
@@ -1020,19 +1022,19 @@ Of course, remember to add your dollar signs if you want to copy and paste that 
 
 
 
-The result should be a new, binary variable that re-coded your 4 possible values for the walkdark variable into 2: safe/ unsafe. Like so: 
+The result should be a new, binary variable that recodes your four possible values for the walkdark variable into 2: safe/ unsafe. Like so: 
 
 
 ![](imgs/week4/final_binary_recode.png)
 
 
 
-Now, the last task is to recode your numeric variables into categorical ones. You may remember from the first week's reading that you can always go up the resolution, but not down, for levels of measurement for variables. This means that you can change a numeric variable into categorical, but you can't change a categorical into a numeric. Just remember this!
+Now, the last task is to recode your numeric variables into categorical ones. You may remember from the first week's reading that you can always go up the resolution, but not down, for levels of measurement for variables. This means that you can change a numeric variable into a categorical, but you can't change a categorical into a numeric. Just remember this!
 
 ### Activity: Recoding Variables
 
 
-OK - final thing. To turn a numeric variable into a categorical, go back to your data of people's heights. Let's say we don't want any sophisticated analysis with numbers, we just want to know whether people are short or they are tall. We will decide this by checking whether they are taller than the group average or shorter than the group average.
+OK - final thing. To turn a numeric variable into a categorical variable, go back to your data on people's heights. Let's say we don't want any sophisticated analysis with numbers, we just want to know whether people are short or they are tall. We will decide this by checking whether they are taller than the group average or shorter than the group average.
 
 
 To achieve this, we will return to our trusty `IF()` function. So open up the data set with the heights again, and create a new column for a new variable called **tall_or_short**:
@@ -1046,7 +1048,7 @@ To achieve this, we will return to our trusty `IF()` function. So open up the da
 Great. Now, in this column, we want to populate it with the words "Tall" if the person is taller than average and "Short" if they are not. So, what are the elements of our statement? We need to check *if* the person's height is *greater than* the *average height* and if it is, type "Tall", else type "Short". 
 
 
-We know that the `IF()` function takes 3 arguments. 1st, the logical statement that has to be either true or false. In this case, that statement will test whether a person's height is greater than the average height. This would look something like this: `cell value > average(column)`. 
+We know that the `IF()` function takes three arguments. 1st, the logical statement that has to be either true or false. In this case, that statement will test whether a person's height is greater than the average height. This would look something like this: `cell value > average(column)`. 
 
 
 In the example of our first person, Samuel Carmona, that would be the value of the cell `B2`, being checked against the average for the whole column (`B:B`). So this part of the statement would look like: 
@@ -1055,7 +1057,7 @@ In the example of our first person, Samuel Carmona, that would be the value of t
 `B2 > AVERAGE(B:B)`
 
 
-Then, the other 2 values that the `IF()` function needs are what to do if the statement is true and what to do if the statement is false. These are simple. If true, write "Tall", and if false, then write "Short". 
+Then, the other two values that the `IF()` function needs are what to do if the statement is true and what to do if the statement is false. These are simple. If true, write "Tall", and if false, then write "Short". 
 
 So altogether, your function will look like this:
 
@@ -1070,7 +1072,7 @@ Like so:
 
 
 
-And finally, copy and paste for your whole column, and you will have a range of values of tall and short. Since we used the average as our divider, there should be about as many tall people as short people. You can quickly make a pivot table to see if this is the case: 
+And finally, copy and paste for your whole column, and you will have a range of values of tall and short. Since we used the average as our divider, there should be roughly the same number of tall people as short people. You can quickly make a pivot table to see if this is the case: 
 
 
 
