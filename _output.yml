@@ -3,6 +3,10 @@ bookdown::gitbook:
   config:
     toc:
       before: |
+       <div class="logo">
+          <img src="imgs/logo.png" style="height:80px; margin-bottom:10px;">
+        </div>
+
         <li>Making Sense of Criminological Data</li>
       after: |
        <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
