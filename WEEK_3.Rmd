@@ -513,12 +513,7 @@ For example, [joy riding is a crime traditionally associated with younger people
 ### Activity: Age of offenders
 
 
-Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose Pivot Table:
-
-
-![](imgs/week3/click_pivot.png)
-
-
+Let's have a look at just the possible values of the "Reason for Arrest" variable. To do this, let's start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that's part of our data set, and then go to Insert and choose Pivot Table.
 
 Now take the variable 'reason for arrest', and drag it to the "Row Labels" box. You should see all the values for the "Reason for arrest" variable :
 
@@ -659,7 +654,7 @@ So, for every person, we want to check if their value for *reason for arrest* is
 
 
 
-For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it is, then we use that person's age to calculate the median age for theft of a vehicle. If it is not, we do not. 
+For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the *reason for arrest* column is equal to *assault*. If it is, then we use that person's age to calculate the median age. If it is not, we do not. 
 
 
 How would you write this in a formula? Well, for assault, we could say something like: 

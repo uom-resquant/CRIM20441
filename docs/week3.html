@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-10-15" />
+<meta name="date" content="2025-10-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -466,8 +466,7 @@ Note: the above cell numbers might be different depending on the placement of yo
 <p>For example, <a href="http://www.tandfonline.com/doi/abs/10.1080/10683160512331316343">joy riding is a crime traditionally associated with younger people</a>. Joyriding is associated with ‘theft of vehicle’, which appears in our data as a possible value for the “Reason for Arrest” variable. So, we might expect the distribution for age (a numeric variable) to be different for those arrested for ‘theft of vehicle’ than for a crime that might be associated with an older demographic. Any idea what crime types those could be?</p>
 <div id="activity-age-of-offenders" class="section level3 hasAnchor" number="3.3.1">
 <h3><span class="header-section-number">3.3.1</span> Activity: Age of offenders<a href="week3.html#activity-age-of-offenders" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Let’s have a look at just the possible values of the “Reason for Arrest” variable. To do this, let’s start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that’s part of our data set, and then go to Insert and choose Pivot Table:</p>
-<p><img src="imgs/week3/click_pivot.png" /></p>
+<p>Let’s have a look at just the possible values of the “Reason for Arrest” variable. To do this, let’s start building a pivot table once again. You should be pretty comfortable with this by now. Make sure you are on any cell that’s part of our data set, and then go to Insert and choose Pivot Table.</p>
 <p>Now take the variable ‘reason for arrest’, and drag it to the “Row Labels” box. You should see all the values for the “Reason for arrest” variable :</p>
 <p><img src="imgs/week3/reason_arr_values.png" /></p>
 <p>Here, you can see a list of all the possible values that the “Reason for arrest” variable can take. Let’s take some time to think about these categories. We’ve already discussed joyriding as something that is generally considered a crime to be committed more often by younger people. What about the other reasons above? Are there any other ones that you think would have a generally younger demographic? Let’s take some time to guess first, just to test your possible understanding, and then check our assumptions with data. After all, that’s what this course is about, right?</p>
@@ -513,7 +512,7 @@ Note: the above cell numbers might be different depending on the placement of yo
 <p>To add a column for the median, we will have to use something called an “IF” statement in Excel. The IF function is one of Excel’s logical functions, used to return one value if a condition is true and another value if it’s false. We can use that here because we want to include a value in our calculations <em>if</em> it belongs to the value of reason for the offence for which we are calculating the median. If it’s any of the other offences, we <em>do not</em> want to include it.</p>
 <p>It might help to think about this conceptually before we write the formula. Let’s say we go through our data row by row. Remember, in our data, each row is one arrestee who was interviewed. We want to go through every one of these people and include their age in our calculation for the median for each offence category, <strong>only if</strong> the reason that that particular person was arrested <em>is</em> the offence category for which we are calculating the median.</p>
 <p>So, for every person, we want to check if their value for <em>reason for arrest</em> is the one we are currently interested in.</p>
-<p>For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the <em>reason for arrest</em> column is equal to <em>assault</em>. If it is, then we use that person’s age to calculate the median age for theft of a vehicle. If it is not, we do not.</p>
+<p>For example, if we are calculating the median age for assault for every line, we first need to make sure that the value in the <em>reason for arrest</em> column is equal to <em>assault</em>. If it is, then we use that person’s age to calculate the median age. If it is not, we do not.</p>
 <p>How would you write this in a formula? Well, for assault, we could say something like:</p>
 <p><code>include IF 'Reason for arrest column' = 'assault'</code></p>
 <p>Now, we just have to translate this into Excel language and put it inside a median calculation formula. Remember this one from last week? It’s simply <code>=MEDIAN()</code>.</p>
