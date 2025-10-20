@@ -140,7 +140,7 @@ Once it's created (or if you already have one), use those login details to log i
 
 ![](imgs/nvivo_setup3.png)
 
-Once you select NVivo, or if you're already on that page, you will have the option to download it for your computer. It will look something like the example below (although for you, it might say Windows instead of Mac). Download NVivo! You might need to open the `.exe` (for Windows) or `.dmg` (for Mac) file in your Downloads to begin the install.
+Once you select NVivo, or if you're already on that page, you will have the option to download it for your computer. It will look something like the example below (although for you, it might say Windows instead of Mac). Download NVivo! You might need to open the `.exe` (for Windows) or `.dmg` (for Mac) file in your Downloads to begin the install. 
 
 ![](imgs/nvivo_setup7.png)
 
@@ -176,34 +176,33 @@ We’ll be talking you through most of the above in the session notes today. If 
 
 In brief, and just for your information, you can analyse the following kinds of data in NVivo:
 
-**Text** – NVivo 12 can manage files that are .txt, .rtf, .doc, .docx, and .pdf. It is OK to include embedded charts, tables, graphs, or images. However, in Word files, headers and footers, page numbers, line numbering, and comment boxes (as per MSWord) will not be visible once imported.
+**Text** – NVivo can manage files that are .txt, .rtf, .doc, .docx, and .pdf. It is OK to include embedded charts, tables, graphs, or images. However, in Word files, headers and footers, page numbers, line numbering, and comment boxes (as per MSWord) will not be visible once imported.
 
-**PDF format** - where the file has been converted into PDF from Word or a similar application, the file can be imported as it is, though some functions- like Text search, will not work quite as well as if they were in Word/RTF/plain text. Suppose the PDF document was created (possibly scanned) without optical character recognition. In that case, it may just be an image style format which can still be imported, but the more limited ‘region selection’ mode, not ‘text’ mode, will be required to apply codes or annotations, and text search tools are unlikely to work.
+**PDF format** - where the file has been converted into PDF from Word or a similar application, the file can be imported as it is, though some functions, like Text search, will not work quite as well as if they were in Word/RTF/plain text. Suppose the PDF document was created (psossibly scanned) without optical character recognition. In that case, it may just be an image style format which can still be imported, but the more limited ‘region selection’ mode, not ‘text’ mode, will be required to apply codes or annotations, and text search tools are unlikely to work.
 
-- WE’LL BE DOING SOME IMPORTING OF DOCUMENTS AND PDFs TODAY…
+Today, we'll be doing some importing of documents and PDFs.
 
 **Datasets** – Import, e.g. survey data directly from Excel and other database formats.
 
-**Multimedia** – NVivo 8 onwards recognizes many formats for visual, audio, and audio-visual materials. Most common formats are useable. For video files, the general rule of thumb is that if they play in Windows Media Player, they will work in NVivo.
+**Multimedia** – NVivo recognizes many formats for visual, audio, and audio-visual materials. For video files, the general rule of thumb is that if they play in Windows Media Player, they will work in NVivo.
 
-**Social media data** (e.g. from Facebook, LinkedIn and Twitter) and Evernotes – can be imported into NVivo. - WE’LL BE DOING THIS NEXT WEEK…
+**Social media data** - Information from social media, such as Facebook, LinkedIn, and Evernotes, can be imported into NVivo. We'll be taking a look at that next week.
 
-**Ncapture** – an interface between Internet Explorer and NVivo can be used to capture web pages, pre-code them and then import them into a project
+**Ncapture** – This is an interface between Internet Explorer and NVivo which can be used to capture web pages, pre-code them and then import them into a project.
 
 ![](imgs/endless-possibilities.gif)
 
 ### Activity 3: Find some data…
 
-Before starting with NVivo, we’d like you to find some data you’ll use in the session today. You can use the data that we use, which are available on Blackboard (**"Data for labs and homework" -> "Dankse bank data"**), but we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflect your own criminological interests.
+Before starting with NVivo, we’d like you to find some data you’ll use in the session today. You can use the data that we use, which are available on Convas under the **data for lab and homework tasks** in week 6 (look for **Dankse bank data**), but we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflects your own criminological interests.
 
 For instance, given the major news coverage of [Danske Bank money laundering scandal](https://en.wikipedia.org/wiki/Danske_Bank_money_laundering_scandal), in our example, we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’.
 
-
 ![](imgs/dankse.jpg)
 
-But not everyone gets as excited as we do about researching the movement of illicit finances of global individual and corporate elites…
+But, not everyone gets as excited as we do about researching the movement of illicit finances of global individual and corporate elites…
 
-We’ve saved each news article in a folder on our desktop:
+We’ve saved each news article in a folder on our laptop:
 
 ![](imgs/dankse_folder.png)
  
@@ -218,29 +217,25 @@ If you are using a PC, these are the steps you need to take to download a news a
 
 ![](imgs/windows_print_1.jpeg)
 
-
 ![](imgs/windows_print_2.jpeg)
-
-
 
 Do this for each of your media articles.
 
-We then searched for reports and documents on money laundering strategies within the EU. We saved five of these to our documents folder.
+We can then search for reports and documents on money laundering strategies within the EU. We saved five of these to our documents folder.
 
 We then searched for ‘money laundering criminology’ on [Google Scholar](https://scholar.google.com/) – you could also try the [University’s online databases](https://www.librarysearch.manchester.ac.uk/) (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015.
 
 In order to keep it nice and tidy, we’ve organised our documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’**.
-
  
 ![](imgs/nice_tidy.png)
 
 They are now ready to ‘import’ into NVivo.
 
-So, go and find your own media articles *(x 5)*, academic journal articles *(x 5)* and non-academic official sources *(x 5)*. Save these to your p: Drive or personal laptop in an accessible location.
+So, go and find your own media articles *(x 5)*, academic journal articles *(x 5)* and non-academic official sources *(x 5)*. If you need any tips during the computer lab, remember to put your hand up and we can come over and help you! Once you're done, save these to your One Drive or another accessible location on your PC/Mac.
 
-This is just an example dataset; in a real research project, your literature and data search would need to be much more extensive and systematic but to demonstrate NVivo, it will suffice!
+This is just an example dataset; in a real research project, your literature and data search would need to be much more extensive and systematic. But for the purposes of demonstrating NVivo, this will suffice!
 
-Ok, so now you’ve identified 15 textual data sources and saved them somewhere easily accessible (e.g., in a folder entitled ‘NVivo Session’).
+Ok, so hopefully now you’ve identified 15 textual data sources and saved them somewhere easily accessible (e.g., in a folder entitled ‘NVivo Session’).
 
 Forget about these for now. We’ll be back.
 
