@@ -128,21 +128,21 @@ Below, we describe how to download and install NVivo on your laptops and home co
 
 We know some of you are using your own laptops. If that's the case, you’ll need to download **version 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
 
-![](imgs/nvivo_email.png)
+![](imgs/nvivo_email.png){width=80%}
 
 The easiest way to begin the process of accessing NVivo on your own laptop is to click on the licence link in the above email. This will take you to the 'MyLumivero' portal directly. 
 
 You will then be prompted to login, so if you don't have an account yet, select **Sign up now** and create your account. This will involve verifying your email address, so make sure you use an email address that you have access to (e.g., your university email). If you are asked, you can select that you're using NVivo Lumivero solutions for yourself and then agree to the terms and conditions, as demonstrated below.
 
-![](imgs/nvivo_setup5.png)
+![](imgs/nvivo_setup5.png){width=70%}
 
 Once it's created (or if you already have one), use those login details to log into the Lumivero portal. Here, you can select from a range of software that Lumivero offer. On the left-hand side, you should see NVivo in the **Available products** tab. It's possible that your landing page is already on NVivo, in which case, great!
 
-![](imgs/nvivo_setup3.png)
+![](imgs/nvivo_setup3.png){width=70%}
 
 Once you select NVivo, or if you're already on that page, you will have the option to download it for your computer. It will look something like the example below (although for you, it might say Windows instead of Mac). Download NVivo! You might need to open the `.exe` (for Windows) or `.dmg` (for Mac) file in your Downloads to begin the install. 
 
-![](imgs/nvivo_setup7.png)
+![](imgs/nvivo_setup7.png){width=70%}
 
 Once it's downloaded, you should be able to open up NVivo. Huzza!
 
@@ -248,21 +248,17 @@ Before we open up our textual data in NVivo, we will need to learn how to create
 
 Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. Upon opening, it will look something like the screenshot below (on Mac). **It might look a bit different on Windows but you will still have similar options (e.g., create new project, learning more about NVivo)**.
 
-![](imgs/nvivo_open.png)
+![](imgs/nvivo_open.png){width=70%}
 
-Second, you need to create a new project. So click on the appropriate option - "Create new project"/ "Blank project". You’ll then need to name and save the project; Make sure to save it in the same folder as your data:
+Second, you need to create a new project. So click on the appropriate option - "Create new project"/ "Blank project". You’ll then need to name and save the project; Make sure to save it in the same folder as your data. Here's just an example of what my interface looked like.
 
-![](imgs/nvivo_folder.png)
+![](imgs/nvivo_new_project.png){width=70%}
 
 Click ‘Create’/'Create Project'. And we are ready to start our project!
 
 You will then be given a quick tour of NVivo -- we recommend taking a look at this (i.e., don't click _skip_!) to familiarise yourself with the basic functionality.
 
-After that, you should have a page that looks something like this (on Mac).
-
-![](imgs/open_mac.png)
- 
-Everything you do in NVivo saves automatically. However, it’s worthwhile getting into the habit of saving after you do something important, just in case something goes wrong! You can ‘Save’ via the file tab.
+The useful thing about Nvivo projects is that every thing you do, such as taking notes, loading in data and creating visualisations, is saved within one workspace. Just make sure that you are saving regularly by clicking on 'File' and then 'Save', and make sure you save before closing Nvivo on your computer.
 
 So, what can you see in the interface?
 
@@ -270,7 +266,7 @@ So, what can you see in the interface?
 
 At the top of the screen are the ‘ribbon tabs’. In Mac:
 
-![](imgs/ribbon_mac.png)
+![](imgs/nvivo15_ribbon.png)
  
 Ribbon tabs provide access to varying functions.
 
@@ -316,17 +312,17 @@ Have a go at creating folders to house your data in the Files section. In a proj
 
 So, right-click at the top level (e.g. Files) -> New Folder – provide a name for your folder:
 
-![](imgs/nvivo_create_folder.png)
+![](imgs/nvivo_create_folder.png){width=70%}
 
 You can name your folder whatever you want. Here, I've named ours 'articles' and provided a description to remind what the folder is for in the future. 
 
 Then click ‘Done’. You can then create a second and third folder for your other files. In my example, given the Dankse bank data (see above), I name my other two folders 'eu strategy' and 'media articles', respectively. You can rename your folders at any time by right-clicking on them and clicking 'Get Info'. This brings up the folder properties window, and you can then rename the folder. In this example, I rename my 'articles' folder to 'academic articles' for clarity. 
 
-![](imgs/nvivo_rename.png)
+![](imgs/nvivo_rename.png){width=70%}
 
 We’re now beginning to organise where our documents will go. Your **Files** summary under for **Navigation View** should now look something like this i.e., three folders ready to organise our data.
 
-![](imgs/nvivo_folders.png)
+![](imgs/nvivo_folders.png){width=90%}
 
 ## Importing Data
 
@@ -368,11 +364,11 @@ Everything is now neat and tidy!
 
 If you wish to close documents, you need to do this in the bottom left-hand corner by clicking the small cross in the corner of the document you wish to close:
 
-![](imgs/nvivo_close_docs.png)
+![](imgs/nvivo_close_docs.png){width=70%}
 
 So, we now have all our documents in NVivo. What next? We need to think about why we are going to analyse these documents. To do this, let’s use the ‘Memos’ folder that appears under the ‘Notes’ section on the left-hand side.
 
-![](imgs/nvivo_nav_memo.png)
+![](imgs/nvivo_nav_memo.png){width=70%}
 
 ## Memos
 
@@ -384,11 +380,11 @@ Memos are related to planning, tracking processes and thinking ‘out loud’ ab
 
 You can create folders by right-clicking and selecting 'New Folder'. 
 
-![](imgs/nvivo_create_memo_folder.png)
+![](imgs/nvivo_create_memo_folder.png){width=70%}
 
 Name your folders as you see fit, but here we've named ours as 'research questions' and 'theoretical frameworks'. You might rename or create new folders as you go, and that's totally fine.
 
-![](imgs/nvivo_memo_folders.png)
+![](imgs/nvivo_memo_folders.png){width=70%}
 
 You can then create memos within your chosen memo folder by using the **Create** ribbon tab at the top, and clicking on **Memo**. This will look something like the screenshot below, noting that we've called our new memo "RQs". 
 
@@ -430,11 +426,11 @@ You’re now going to analyse your imported documents by the frequency with whic
 
 ![](imgs/word_freq.png)
 
-Once a new window opens in the Details View, the first thing you need to do is select which file (or files) we want to run the word frequency count on. We do this for individual files using 'Selected Items' or for every file in a folder using 'Items in Selected Folders'.
+Once a new window opens in the Details View, the first thing you need to do is select which file (or files) we want to run the word frequency count on. We can do this for individual files using 'Selected Items' or for every file in a folder using 'Items in Selected Folders'.
 
 ![](imgs/word_freq_file_options.png)
 
-You can choose whatever you'd like, for here, I choose 'Items in Selected Folders', so that I analyse multiple files at once, then select the media articles folder. This means that I will be creating the frequency count based on every file in that folder!
+You can choose whatever you'd like, but here, I choose 'Items in Selected Folders', so that I analyse multiple files at once, then select the media articles folder. This means that I will be creating the frequency count based on every file in that folder!
 
 ![](imgs/word_freq_select_files.png)
 
@@ -448,19 +444,13 @@ This is not great to look at, so what we can do is create a ‘Word Cloud’. Si
 
 ![](imgs/word_cloud_nvivo15.png)
  
-We can then save this image as a picture. Right-click anywhere in the Detail View, and you’ll have an option to ‘Export’. Select this, choose a suitable folder location, and an appropriate file format (e.g., JPEG) and name, and clock OK.
-
-Your Word Cloud is then saved as a picture, like the one below. You could then insert this into any of the essays or reports as an example of a superficial but indicative insight into the content of your documents.
-
-![](imgs/word_cloud_saved.png)
+We can then save this image as a picture. Right-click anywhere in the Detail View, and you’ll have an option to ‘Export’. Select this, choose a suitable folder location, and an appropriate file format (e.g., JPEG) and name, and click OK/Save. Your Word Cloud is then saved as a picture. You could then insert this into any of the essays or reports as an example of a superficial but indicative insight into the content of your documents.
  
 That said, considering all our documents were identified in relation to ‘money laundering’, it was pretty obvious that ‘money laundering’ would be the main term, isn’t it?! In other words, the findings here are an artefact of my data search at the start.
 
-How about we remove 'wilkinson’ (or any other word) from our word frequency query? To do this, you can go back to the ‘Summary’ tab, right-click on the word you want to exclude, and then choose ‘Add to Stop Words List’.
+How about we remove 'laundering’ from our word frequency query? To do this, you can go back to the summary tab showing your list of words and their respective counts, right-click on the word you want to exclude, and then choose ‘Add to Stop Words List’. Obviously, if you want to add 'laundering' to the stop list, ensure that that's the word selected.
 
-![](imgs/add_stop_word_nvivo15.jpeg)
- 
-Do this for ‘laundering’ as well, then run another query, as above, and see what happens now.
+![](imgs/add_stop_word_nvivo15.png)
 
 If you like the new Word Cloud better, you can then ‘Save Query’ and give it an appropriate title, and it will save in your project.
 
@@ -472,7 +462,7 @@ We can use these words to direct our coding of the data (or not). We’ll look a
 
 This is pretty cool, isn't it? But we can even go one step further and ask ourselves: will the word cloud our 'academic articles' be similar to that of 'media articles'? Do they use remarkably different terms when they discuss this issue?
 
-To do that, we first need to select the subset of pdf documents we are interested in analysing. We can do this usin the steps above. Assuming you've already made your word cloud for the media articles, do the same again, but this time select the journal articles folder. Create the word cloud, then save it using the steps above.
+To do that, we first need to select the subset of PDF documents we are interested in analysing. We can do this using the steps above. Assuming you've already made your word cloud for the media articles using the steps above, do the same again, but this time select the journal articles folder. Create the word cloud, then save it using the steps above.
 
 Now you have the one we've already made for media articles:
 
@@ -482,9 +472,9 @@ And a new one for the academic articles:
 
 ![](imgs/word_cloud_academic.png)
 
-They look quite different, don't they? Interesting! Have a chat in small groups to discuss why you think these two-word clouds are so different from one another.
+They look quite different, don't they? Interesting! Have a chat in small groups to discuss why you think these two word clouds are so different from one another.
 
-If you obtained slightly different word clouds, it may be because we had previously added the words "money" and "laundering" to the "Stop words list", or perhaps we are using slightly different files. This totally fine -- the important thing is that you understand the steps ane create some word clouds using or more files.
+If you obtained slightly different word clouds, it may be because we had previously added the word "laundering" (or something else) to the "Stop words list", or perhaps we are using slightly different files. This totally fine -- the important thing is that you understand the steps and create some word clouds using one or more files.
 
 ## Summary
 
