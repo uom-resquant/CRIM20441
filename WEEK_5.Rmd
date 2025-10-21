@@ -336,18 +336,18 @@ This way, you can keep track of who was assigned to control and who was assigned
 
 ## Designing your study
 
-Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your **research design**. This is important not only to make sure you have all the resources (time, finding, staff/people power) to complete your study but also so you have a clear idea of your expected outcomes, and you communicate this to yourself, your research team, and the wider scientific community. 
+Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your **research design**. This is important not only to ensure you have all the necessary resources (time, funding, staff/people power) to complete your study but also to provide a clear understanding of your expected outcomes, which you can then communicate to yourself, your research team, and the wider scientific community. 
 
 
 ### Pre-registration: committing to your research plan
 
-Pre-registration makes your science better by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier and facilitates your planning for better research. 
+Pre-registration enhances the quality of your science by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier, facilitating better research planning. 
 
 
 When you preregister your research, you're simply specifying your research plan in advance of your study and submitting it to a registry. This will help to improve your research. By writing out specific details such as data collection methods, analysis plans, and rules for data exclusion, you can make important decisions early on and have a clear record of these choices. This can help reduce biases that occur once the data are in front of you.
 
 
-Preregistration further separates hypothesis-generating (**exploratory**) from hypothesis-testing (**confirmatory**) research. Both are important. But the same data cannot be used to generate and test a hypothesis, which can happen unintentionally and reduce the credibility of your results. Addressing this problem through planning improves the quality and transparency of your research. This helps you clearly report your study and helps others who may wish to build on it.
+Preregistration further separates hypothesis-generating (**exploratory**) from hypothesis-testing (**confirmatory**) research. Both are important. But the same data cannot be used to generate and test a hypothesis, which can happen unintentionally and reduce the credibility of your results. Addressing this problem through planning improves the quality and transparency of your research. This helps you clearly report your study, enabling others to build on it.
 
 
 Let's explore the difference between the two.
@@ -360,7 +360,7 @@ Let's explore the difference between the two.
 - Hypothesis testing
 - Results are held to the highest standards
 - Data-independent
-- Minimizes false positives
+- Minimises false positives
 - P-values retain diagnostic value
 - Inferences may be drawn to the wider population
 
@@ -370,24 +370,22 @@ Let's explore the difference between the two.
 - Hypothesis generating
 - Results deserve to be replicated and confirmed
 - Data-dependent
-- Minimizes false negatives in order to find unexpected discoveries
+- Minimises false negatives in order to find unexpected discoveries
 - P-values lose diagnostic value
 - Not useful for making inferences to any wider population
 
 
-It is important that you are clear from the start about the type of research you want to carry out, and planning and pre-registration can really help with that!
+It is important that you are clear from the start about the type of research you want to carry out, and planning can really help with that!
 
 
-The [Turing Way](https://the-turing-way.netlify.app/welcome.html), an open-source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a nice (beautifully illustrated!) [Guide to Research Design](https://the-turing-way.netlify.app/project-design/project-design.html) that you can take time to scroll through to explore some guidance around research resign. 
+The Turing Way, an open-source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a (beautifully illustrated!) [Guide to Research Design](https://the-turing-way.netlify.app/project-design/project-design.html) that you can take time to scroll through.
 
-
-Specifically, here, we will look at a tool that can help you understand what is required at each stage of the research process. To help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT to evaluate the effectiveness of the Scared Straight programme. However, you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!
-
+Here, we’ll explore a tool to help you organise and manage each stage of your research process. By breaking your project into individual tasks and assigning timeframes, you can better estimate how long your study will take. One effective project planning tool for this is a Gantt chart. We’ll demonstrate its use by planning an RCT evaluating the Scared Straight program — but Gantt charts can be applied to any research project, including your future dissertation.
 
 #### What is a Gantt chart?
 
 
-A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities, and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflect the start date, duration and end date of the activity. This allows you to see at a glance:
+A Gantt chart, commonly used in project management, is one of the most popular and practical ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of activities, and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflect the start date, duration and end date of the activity. This allows you to see at a glance:
 
 - What the various activities are
 - When each activity begins and ends
@@ -396,7 +394,7 @@ A Gantt chart, commonly used in project management, is one of the most popular a
 - The start and end date of the whole project
 
 
-To summarize, a Gantt chart shows you what has to be done (the activities) and when (the schedule). It looks like this: 
+To summarise, a Gantt chart shows you what has to be done (the activities) and when (the schedule). It looks like this: 
 
 
 ![](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/2excel-gantt-chart-temp1.jpg)
@@ -409,18 +407,15 @@ To be able to build a Gantt chart, you need to know the following about your pro
 - The length of time available for the whole project
 - Approximate start and finish dates for the individual tasks
 
+Gantt charts help ensure your project is feasible within the available time and resources. They prompt you to identify major tasks (e.g., data collection) and break them into smaller steps (e.g., identify population, plan sampling, recruit participants, deploy survey, collect responses, enter data). Estimating the time and resources needed for each step helps you assess feasibility and plan efficiently.
 
-Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., "data collection") and be able to sub-divide into the individual elements that make up that task (e.g., "identify population", "plan sampling strategy", "recruit sample", "deploy survey", "collect completed surveys", "input data into excel"). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take and how feasible it is within your given set of resources (including your time). 
-
-
-
-How is this helpful in research design? Well, let's consider the example of designing an RCT to evaluate Scared Straight. To be able to carry out this RCT, we need to grab a basic outline for one and turn it into a Gantt chart. Then, we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out. 
+In research design, this is invaluable. For instance, when planning an RCT to evaluate Scared Straight, turning the project outline into a Gantt chart allows you to visualise the timeline, required resources, and overall practicality of conducting the study.
 
 
 Let's start with the basic outline.
 
 
-### Activity 5.4: Research Planning with Gantt Charts: Design an RCT example
+### Activity: Research Planning with Gantt Charts: Design an RCT example
 
 In this activity, we're going to plan an RCT using a Gantt Chart. 
 
