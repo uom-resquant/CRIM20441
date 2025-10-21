@@ -208,13 +208,13 @@ When you hit enter, the formula will generate a random number between 0 and 1. S
 
 
 
-Did you get a different number for Ella there than we did? Chances are, you did. This `RAND()` function generates a random number each time it is used. If we do this again (and try this on your data), it will give a different number. Give it a try. Go into the cell where you've typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should now have another random number appear. Now drag the formula (press on the first cell you wrote the formula in, go to the bottom right corner, and double-click on the black plus sign that appears +) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
+Did you get a different number for Ella there than we did? Chances are, you did. This `RAND()` function generates a random number each time it is used. If we repeat this process (on the same data), we will obtain a different result. Give it a try. Go into the cell where you've typed =RAND(), then go to the formula bar at the top and press ENTER again. You should now have another random number appear. Now drag the formula (press on the first cell you wrote the formula in, go to the bottom right corner, and double-click on the black plus sign that appears +) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this: 
 
 
 ![](imgs/rand_nums.png)
 
 
-We can use these values, which have been *randomly* created, to assign students to a control or treatment group. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data gets put into one group and 50% of your data into the other group? This question should already be familiar to you, but let us re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
+We can use these values, which have been *randomly* created, to assign students to a control or treatment group. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? The bonus question essentially asked what value you can use as a cut-off point to ensure that 50% of your data goes into one group and 50% into the other. This question should already be familiar to you, but let us rephrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable? 
 
 
 Are you thinking **median**??
@@ -223,26 +223,25 @@ Are you thinking **median**??
 ![](https://media.giphy.com/media/YcMs3OGd89Pxu/giphy.gif)
 
 
-Nice work! Indeed, the median is the value that divides our data right smack in half. Now, are you starting to realise where I'm going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the `=IF()` statements we were using last week to re-code data!
+Nice work! Indeed, the median is the value that divides our data right smack in half. Now, basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the `=IF()` statements we were using last week to re-code data!
 
 
-How? Well, remember what we did to assign people to tall or short categorical variable values based on the numeric value for height? We decided that if a  person is taller than average, they will be labelled "Tall" and "Short" if they are not. Then, what are the elements of our statement? We need to check *if* the person's height is *greater than* the *average height*, and if it is, type "Tall", else type "Short". Remember now? 
+How? Well, remember how we assigned people to tall or short categorical variable values based on their height? We decided that if a person is taller than average, they will be labelled "Tall"; otherwise, they will be labelled "Short". Then, what are the elements of our statement? We need to check *if* the person's height is *greater than* the *average height*, and if it is, type "Tall", else type "Short". Remember now? 
 
 
-We can apply this again here. To recap,  we know that the `IF()` function takes 3 arguments. 1st, the logical statement that has to be either true or false. Then, the other 2 values that the `IF()` function needs are what to do if the statement is true and what to do if the statement is false. 
-Altogether, your function will look like this:
+We can apply this again here. To recap, your function will look like this:
 
 
 `=IF(condition, do if true, do if false)`
 
 
-What is our condition here? Well, this time, we are using the median to divide our randomly assigned numbers into 2. We want to assign people into treatment or control if they are above or below the median in their randomly allocated number. This ensures the *random* element of the randomized control trial and that people have an equal probability of ending up in either group. 
+What is our condition here? Well, this time, we are using the median to divide our randomly assigned numbers into 2. We want to assign people to treatment or control based on whether their randomly allocated number is above or below the median. This ensures the *random* element of the randomised control trial and that people have an equal probability of ending up in either group. 
 
 
-Let's say anyone with a random number above the median will be in the treatment group, and anyone with a random number below the median will be in the control group. What is our condition in this case? What is it that we are testing each number against?
+Let's say anyone with a random number above the median will be in the treatment group, and anyone with a random number below the median will be in the control group. What is our condition in this case? 
 
 
-Well, in this case, we are testing people against whether their random number is greater than the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if the condition is true). On the other hand, if their random number is **not** greater than the median of all the random numbers, then they are assigned to the control group (what happens if the condition is false). If any of this is unclear to you at the moment, then please raise your hand and ask one of us to explain this. 
+In this case, we are testing whether people's randomly assigned numbers exceed the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if the condition is true). On the other hand, if their random number is **not** greater than the median of all the random numbers, then they are assigned to the control group (what happens if the condition is false). If any of this is unclear to you at the moment, then please raise your hand and ask one of us to explain this. 
 
 
 Translated into Excel language, our formula is: 
@@ -252,7 +251,7 @@ Translated into Excel language, our formula is:
 
 
 
-For example, for our first person in the list there, the formula will look like: 
+For example, for our first person in the list, the formula will look like: 
 
 
 `=IF(C2 > MEDIAN(C:C), "Treatment", "Control")`
@@ -272,10 +271,10 @@ You should have something like this:
 ![](imgs/students_assigned.png)
 
 
-Don't worry if you don't get the same values; as we said, this is *random* so you should not consistently get the same answers. In fact, you should get different ones from your friends next to you as well. 
+Don't worry if you don't get the same values; as we said, this is *random*, so you should not consistently get the same answers. In fact, you should get different ones from your friends next to you as well. 
 
 
-One way that you can sense check your results is to have a look at your treatment and control groups. Let's see how many students we have in each. You can use a Pivot Table to do this and create a *univariate* *frequency table* to look at this new "Group" variable. 
+One way to sense-check your results is to examine your treatment and control groups. Let's see how many students we have in each. You can use a Pivot Table to do this and create a *univariate* *frequency table* to look at this new "Group" variable. 
 
 
 
@@ -308,10 +307,10 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 ### Note: Freeze!
 
 
-Before you're done here, there is one last thing to note. Remember when describing the `=RAND()` formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let's say we've assigned everyone to treatment or control conditions, and then we save our worksheet to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. But if the random numbers are changed upon reopening, then the assigned groups will also change! Since we don't want this, we want to somehow "freeze the values". 
+Before you're done here, there is one last thing to note. Remember when describing the `=RAND()` formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let's say we've assigned everyone to treatment or control conditions, and then we save our worksheet to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. However, if the random numbers are changed upon reopening, the assigned groups will also change. Since we don't want this, we want to somehow "freeze the values". 
 
 
-You can do this by highlighting the column and going to Formulas > Calculation Options> and selecting "Manual":
+You can do this by highlighting the GROUP column and going to Formulas > Calculation Options> and selecting "Manual":
 
 
 On Mac: 
@@ -328,11 +327,11 @@ And on PC:
 
 
 
-This way, you will be able to keep track of who was assigned to control and who was assigned to the treatment groups. 
+This way, you can keep track of who was assigned to control and who was assigned to the treatment groups. 
 
 ##### IMPORTANT NOTE!!!
 
-**When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations otherwise your future formulas won't update!**
+**When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations, otherwise your future formulas won't update!**
 
 
 ## Designing your study
