@@ -106,46 +106,53 @@ What about in the case of an experiment? Let's return to our example with the Sc
 Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn't participate. So, for this, we know that we have one variable (in this case, offending) that *depends on* the other (participating in Scared Straight or not). What does this mean for which is the dependent variable and which is the independent?
 
 
-Take a moment to try to answer this in small groups. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask a member of the teaching team. The dependent/independent variable distinction will be important throughout your data analysis career!
+Take a moment to try to answer this in small groups. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask the teaching team. The dependent/independent variable distinction will be important throughout your data analysis career!
 
 
-Here is a corgi running around in circles to separate the answer so you don't accidentally read ahead: 
+Here is a corgi running around in circles before you get to the answer.
 
 
 ![](https://media.giphy.com/media/RrFZIzK3coIMg/giphy.gif)
 
 
+<style>
+details {
+  margin-bottom: 1em; /* Adds space below each details block */
+}
+</style>
+
+<details>
+<summary><i> REVEAL ANSWER </i></summary>
+
+Right, so now you're hopefully reading on after your own consideration, and you may have found that your **dependent variable** is the one that depends on the intervention, which is - whether the young person exposed to the Scared Straight programme offends or not. So, your *dependent* variable is *future offending*. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then, in turn, operationalised to be measured somehow. 
 
 
-Right, so now you're hopefully reading on after your own consideration, and you may have found that your **dependent variable** is the one that depends on the intervention, which is - whether the young person exposed to the scared straight programme offends or not. So, your *dependent* variable is *future offending*. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then, in turn, operationalised to be measured somehow. 
-
-
-Your independent variable, on the other hand, is the thing that you want to see the effect of, in this case, it's participation in the Scared Straight programme. Right? You are interested in whether participation will cause fewer offences in the future. Your *independent* variable is *participating in Scared Straight*. Again, you would have to conceptualise scared straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).
+In this case, your *independent* variable is *participating in the Scared Straight programme*. Right? You are interested in whether participation will cause fewer offences in the future. Again, you would have to conceptualise Scared Straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).
 
 
 But no matter how you conceptualise and operationalise these variables, you will still have to be able to determine the effect of one or the other. And the *research design* of your study will greatly affect whether or not you can do that. 
 
-
-Experiments provide you with a research design that may allow you to make these cause-and-effect conclusions. If you design your study as an experiment, you will be able to control for certain variations and employ methods that give you certainty about what causes what and which event comes first. This is a huge strength of experimental design. When talking about causation or in evaluations, experimental design has features that mean that it is an optimal methodology for evaluation. Of course, this does *not* mean it's the *only* appropriate design. But it's one approach that we explore here. 
-
-
-So, for your research design to be considered an experiment, the three criteria listed above should be met (the two comparison groups, the variation in the independent variable before the change in the dependent variable and the random assignment between the groups).  
-
-Let's talk about the two groups. These two groups are often called your **treatment** and your **control** groups because one group is administered some treatment (such as taking part in the intervention you are hoping to evaluate) while the other one receives the business-as-usual approach. 
+</details>
 
 
-Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That's where beats were drawn up to and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there was also another set of street segments, right? The ones that were assigned to the control groups did *not* receive foot patrol. Police still responded to calls for service, and everything went on as usual, but there was no patrol there - this is the control group. 
+Experiments allow researchers to draw cause-and-effect conclusions by controlling for some variation and establishing which event occurs first — a key strength of experimental design. While *not* the only valid approach, it is especially powerful for evaluations. For a study to qualify as an experiment, it must include:
+
+- Two comparison groups (treatment and control)
+
+- Variation in the independent variable before changes in the dependent variable
+
+- Random assignment to groups.
 
 
-You then expose the treatment group to the intervention (the foot patrol). Then, if after this, you find that the two groups are *different* on the value of the independent variable (crime). But how can we know that this difference is because one group had the treatment and the other didn't? Can't it be that the groups would have changed differently because of another reason difference?
+Let's talk about the two groups. These two groups are often called your **treatment** and your **control** groups because one group is administered some treatment (such as taking part in the intervention you are hoping to evaluate) while the other one receives the business-as-usual approach.
+
+In the Philadelphia foot patrol example, treatment areas received foot patrols, while control areas did not. You then expose the treatment group to the intervention (the foot patrol). After this, you might find that the two groups are *different* in terms of the value of the independent variable (crime). But how can we know this difference is because one group had the treatment and the other didn't? Can't it be that the groups would have changed differently because of another reason?
 
 
 ## Importance of randomisation
 
 
-This is why **random assignment** is important. Randomisation is what makes the comparison group in a true experiment a powerful approach for identifying the effects of the treatment. Assigning groups randomly to the experimental and comparison groups ensures that systematic bias does not affect the assignment of subjects to groups. This is important if researchers wish to generalise their findings regarding cause and effect among key variables within and across groups. Remember all our discussions around validity and reliability last week!
-
-
+This is why **random assignment** is important. This is why random assignment is crucial. It ensures that participants are assigned to treatment and control groups without bias, making the comparison fair and strengthening the ability to identify true treatment effects. Randomisation minimises systematic bias in assignment and differences between groups, enhancing the validity and reliability of causal conclusions and allowing researchers to generalise their findings with greater confidence.
 
 
 > Consider the following criminal justice example. Two police precincts alike in all possible respects are chosen to participate in a study that examines fear of crime in neighborhoods. Both precincts would be pre-tested to obtain information on crime rates and citizen perceptions of crime. The experimental precinct would receive a treatment (i.e., increase in police patrols), while the comparison precinct would not receive a treatment. Then, twelve months later, both precincts would be post-tested to determine changes in crime rates and citizen perceptions.
@@ -153,12 +160,12 @@ This is why **random assignment** is important. Randomisation is what makes the 
 -[Criminology and Criminal Justice Research: Methods - Quantitative Research Methods](http://law.jrank.org/pages/923/Criminology-Criminal-Justice-Research-Methods-Quantitative-research-methods.html)
 
 
-You can read about these studies above for some examples of experiments in criminal justice research. The Philadelphia foot patrol experiment was just one of many. In particular, the Philadelphia foot patrol experiment is an example of a **randomised control trial**. You will have read about a few types of experimental design in your textbooks, but here, we will focus on this particular one. The randomised controlled trial (RCT for short) is often considered as the most rigorous method of determining whether a cause-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the process of randomisation, which is unique to this type of research study design.
+You can read about these studies above for some examples of experiments in criminal justice research. In particular, the Philadelphia foot patrol experiment is an example of a **randomised control trial**. You will have read about a few types of experimental design in your textbooks, but here, we will focus on this particular one. The randomised controlled trial (RCT for short) is often considered the most rigorous method of determining whether a cause-and-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the randomisation process, which is unique to this type of research study design.
 
 Advantages
 
 - Good randomisation will “wash out” any population bias
-- Results can be analyzed with well-known statistical tools
+- Results can be analysed with well-known statistical tools
 - Populations of participating individuals are clearly identified
 
 
@@ -169,26 +176,26 @@ Disadvantages
 
 
 
-### Activity 5.3: Random assignment 
+### Activity: Random assignment 
 
 
-How does random assignment work? Well, we could achieve this by going old-school, and writing everyone's name on a piece of paper, and drawing the names out of a hat. But here, we will use Excel's ability to programmatically assign people into treatment or control groups. You are all Excel pros by now, with your formulas and your lookups and pivot tables. So, I might as well hone these skills some more. 
+How does random assignment work? Well, we could achieve this by going old-school and writing everyone's name on a piece of paper, and drawing the names out of a hat. But here, we will use Excel's ability to assign people to treatment or control groups. You are all Excel pros by now, with your formulas and pivot tables. So, I might as well hone these skills some more. 
 
-To have a random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let's say we want to assign two groups. We want to assign people to a **control group** and a **treatment group**. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics *except* in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be, for example, if you were asking people to *self-select* into treatment or control. If people were given the chance to volunteer (*self-select*) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.  
-
-
-
-Let's say we have our sample of people who will be assigned either to the treatment group receiving the Scared Straight treatment or the control group, who do not have to go through this treatment. Well, let's say we have our class here. We've got a total of 100 students enrolled in the class. Go ahead and download this list from Blackboard. You can find it under the data folder for module week 5; it is called `student.xlsx`.
-
-
-Once you have downloaded the data, open it with Excel and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have 2 variables: FIRST NAME and LAST NAME.
+To have a random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let's say we want to assign two groups. We want to assign people to a **control group** and a **treatment group**. Remember that the control and the treatment must be from the same sample, so that they are similar in all characteristics *except* in the particular thing you want to determine the effect of. By random assignment, each person has the same probability of being in the treatment or the control group. So there is no chance for systematic bias, as there would be, for example, if you were asking people to *self-select* into treatment or control. If people were given the chance to volunteer (*self-select*), it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.  
 
 
 
-To assign people randomly to a group, we can use Excel's `=RAND()` function. The Excel RAND function returns a random number between 0 and 1. For example, `=RAND()` will generate a number like 0.422245717. You might notice that this number will change - the `=RAND()` function recalculates when a worksheet is opened or changed. This will become important later. 
+Let's say we have our sample of people who will be assigned either to the treatment group receiving the Scared Straight treatment or the control group, who do not have to go through this treatment. Well, let's say we have our class here. We've got a total of 100 students enrolled in the class. Go ahead and download this list from Canvas. You can find it under the data folder for module learning materials week 5; it is called `student.xlsx`.
 
 
-Give it a go. Create a new column called "random number" on our data. Now simply type `=RAND()` into the first cell and press Enter: 
+Once you have downloaded the data, open it with Excel and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have two variables: FIRST NAME and LAST NAME.
+
+
+
+We can use Excel's `=RAND()` function to assign people randomly to a group. The Excel RAND function returns a random number between 0 and 1. For example, `=RAND()` will generate a number like 0.422245717. You might notice that this number will change - the `=RAND()` function recalculates when a worksheet is opened or altered. This will become important later. 
+
+
+Give it a go. Create a new column called "random number" in our data. Now type `=RAND()` into the first cell and press Enter: 
 
 
 ![](imgs/type_rand.png)
@@ -1122,13 +1129,13 @@ And you can even get fancy and plot this change over time to emphasise that; ind
 ![](imgs/incr_yes_can.png)
 
 
-We'll do more plotting and visualisation after reading week when we have our data viz session. 
+We'll do more plotting and visualisation in future weeks. 
 
 
 
 ## Ethics
 
-We wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implications of your study, both on your participants, on your researchers (including yourself), and on the wider community. 
+We wanted to leave you with a final note on research ethics. It's an essential part of your research design that you consider the ethical implications of your study, both on your participants, your researchers (including yourself), and the wider community. 
 
 Watch [this 8-minute video that gives a good introduction to research ethics](https://www.youtube.com/watch?v=nX4c3V23DZI), and pay particular attention to the concepts of: 
 
@@ -1137,13 +1144,13 @@ Watch [this 8-minute video that gives a good introduction to research ethics](ht
 - justice
 
 
-The "IRB" section is specific to the USA; however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate through this tool to determine whether or not your research requires ethical approval. You can access the tool and read more about the university's ethics procedures [here](https://www.manchester.ac.uk/research/environment/governance/ethics/).
+The "IRB" section is specific to the USA; however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate this tool to determine whether or not your research requires ethical approval. You can access the tool and read more about the university's ethics procedures [here](https://www.manchester.ac.uk/research/environment/governance/ethics/).
 
 
 
 ## Summary
 
-In sum, you should now be able to think about the research design that you either need to create to collect data or that someone else has created in order to collect the data that you are working with. Many decisions go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment; when you use longitudinal data, you will have to join the data sets collected at different points in time and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer and what analysis you can carry out.  You should be comfortable with the following terms:
+In sum, you should now be able to think about the research design that you either need to create to collect data or that someone else has created to collect the data that you are working with. Many decisions go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment; when you use longitudinal data, you will have to join the data sets collected at different points in time and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer and what analysis you can carry out.  You should be comfortable with the following terms:
 
 - dependent (response/ outcome) variable
 - independent (predictor) variable
