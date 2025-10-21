@@ -477,7 +477,7 @@ Let's start with our main overarching categories for the above, but break each o
 
 So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups? 
 
-<!-- What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. --!> 
+<!-- What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. -->
 
 
 This exercise aims to help you think about projects in this way, while also illustrating how to create a visual timeline from the above information. This timeline can aid in planning your research project and ensuring it runs on time. So, let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
@@ -485,6 +485,7 @@ This exercise aims to help you think about projects in this way, while also illu
 If you were doing this for your own project, you would have to write down all the tasks in Excel. For this example, the tasks have been written for you. You can download this from Canvas, Learning materials for week 5, Gantt_chart_example.xlsx.
 
 The example you downloaded has 4 columns: 
+
 - Task
 - Start date
 - End date
@@ -543,14 +544,14 @@ Now, let's say that we are starting our Scared Straight evaluation quite soon; w
 - Get feedback & make changes	25/03/22 to	05/04/22
 - Final write-up of results	05/04/22 to	30/04/22
 
-You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself and come up with how long you think each stage will take you. --!>
+You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself and come up with how long you think each stage will take you. -->
 
 
 
 Notice that we did not give a start or end time to the *overarching categories* of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results. We mentioned earlier that these categories are so vague that it becomes a challenging task to guess their duration. Instead, we break them down into smaller tasks and calculate those. Well, to determine the start and end dates for the overarching tasks, simply use the first start date of the first task and the last end date of the last task within this overarching group. How can we find this? Well, we can use the `=MIN()` and the `=MAX()` functions in Excel. 
 
 
-![](imgs/ gantt_min.png)
+![](imgs/ganttmin.png)
 
 
 ![](imgs/gantt_max.png)
@@ -568,7 +569,7 @@ For example, to calculate the duration between two dates, simply subtract the st
 
 
 <!--You might find that Excel changes the formatting of your dates in some of the cells. You can see in those the date is formatted as 01-Dec, for example, whereas later, it is formatted the way we entered it, such as 22/01/19. This is because Excel *knows* that the value you are entering here is a *date*.  It doesn't just think you're entering some weird words; it deduces that if what you are entering follows this rough format of 2 digits/ 2 digits / 2 digits, then it's likely to be a date. This is really handy because you can do calculations on these cells now, which you would not be able to do if Excel had just thought that these were weird words. 
-We will take advantage of this to calculate the duration column here. Do you really want to count how many days are between the start and end date? Well, in some cases, it might be easy. It could be that you thought, "Well, I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January", but often you will have deadlines, that you need to work towards, or you might want to double-check that you are counting correctly. In any case, to get the last, *duration* column, you can simply use an equation where you subtract the start date from the end date, and you get the number of days that are in-between. Isn't that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then! --!>
+We will take advantage of this to calculate the duration column here. Do you really want to count how many days are between the start and end date? Well, in some cases, it might be easy. It could be that you thought, "Well, I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January", but often you will have deadlines, that you need to work towards, or you might want to double-check that you are counting correctly. In any case, to get the last, *duration* column, you can simply use an equation where you subtract the start date from the end date, and you get the number of days that are in-between. Isn't that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then! -->
 
 
 Right, back to our dates, so remember, all formulas start with the `=` equation, and here, all we are doing is subtracting the value of one cell (start date) from another cell (end date). Like so: 
@@ -588,7 +589,7 @@ Now, you have all the columns you need to build your Gantt chart.
 
 
 
-To do this, click on an empty cell anywhere *outside* your table and select Charts > Stacked Bar Chart: 
+To do this, click on an empty cell anywhere *outside* your table and select Insert > Charts > Stacked Bar Chart: 
 
 
 ![](imgs/gantt_select_bar.png)
@@ -700,9 +701,9 @@ Then click OK, and you will see only the red parts of your graph, which represen
 ![](imgs/1900_chart_default.jpg)
 
 
-In this case, you can fix this by editing the axis through right-click, format axis, put in the correct minimum, like so: 
+In this case, you can fix this by editing the axis through right-click, format axis, put in the correct minimum (start date), like so: 
 
-![](imgs/Fixing_Gantt.jpg)
+![](imgs/FixingGantt.gif)
 
 
 Now, you have a timeline for each task, but how do you know what each task is? We just see numbers. Well, we need to add the labels from the task column of your data to give it some sort of meaning. To do this, once again right-click anywhere on your chart area and select "Select Data...", this time, for where it asks for axis labels, click in that box and then highlight the column with the tasks in it: 
@@ -745,7 +746,7 @@ Choosing the optimal design depends on your research question. If you aim to tes
 
 
 <!-- Planning is a very important part of the research project, and the research design which you pick will greatly affect your research plan. Think about whether we should consider a one-time survey instead. We could ask people - "have you ever taken part in a scared straight programme?" And then ask them, "Have you offended in the last 12 months?". But this is a **cross-sectional** study design, in which we only take measurements at one point in time. This is a very different study design, and the advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings. However, you can also imagine how it would be an easier study to carry out, right? The data collection part of your Gantt chart there would reduce significantly, from over 12 months to something much shorter, just the length of time it takes to conduct one survey. 
-Hopefully, you are beginning to get an idea of the nuances of finding your optimal research design. To a certain extent, this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. However, RCTs are not the only way to achieve causal inference; of course, there are many other methods and study designs you might be able to use. --!>
+Hopefully, you are beginning to get an idea of the nuances of finding your optimal research design. To a certain extent, this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. However, RCTs are not the only way to achieve causal inference; of course, there are many other methods and study designs you might be able to use. -->
 
 
 For example, in the paper ['Behavioral nudges reduce failure to appear for court'](https://science.sciencemag.org/content/early/2020/10/07/science.abb6591/tab-pdf), Alissa Fishbane and colleagues take advantage of a gradual roll-out of intervention and use [regression discontinuity](https://methods.sagepub.com/reference/encyc-of-research-design/n375.xml) approach to find that re-wording a court summons actually helps people turn up for their court date, and reduces arrests!
@@ -753,7 +754,7 @@ For example, in the paper ['Behavioral nudges reduce failure to appear for court
 There are many research designs to choose from, and the best one depends on your research question, available resources, and feasibility. For example, while an RCT might be ideal, it may not be practical within the limited timeframe of a third-year dissertation. In that case, you may need to adjust your design — and possibly your research question — to fit your constraints. If your focus is on factors influencing reoffending over an extended period, a longitudinal design may be more appropriate than an experiment. Next, we’ll explore this design further and introduce two key concepts: linking data and missing data.
 
 
-<!-- So, there are many research designs, and you want to think about which one best fits your research questions. However, there are other things to consider around your access to resources and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT, but you are doing this in the context of your 3rd-year dissertation project, which has a much shorter timeline than required - in this case, you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data and missing data! --!>
+<!-- So, there are many research designs, and you want to think about which one best fits your research questions. However, there are other things to consider around your access to resources and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT, but you are doing this in the context of your 3rd-year dissertation project, which has a much shorter timeline than required - in this case, you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data and missing data! -->
 
 
 

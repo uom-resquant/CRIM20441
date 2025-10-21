@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-09-16" />
+<meta name="date" content="2025-10-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="week4.html"/>
-<link rel="next" href="week6.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll('a[href]');
@@ -97,7 +101,11 @@ document.addEventListener("DOMContentLoaded", function() {
       <nav role="navigation">
 
 <ul class="summary">
-<li>Making Sense of Criminological Data</li>
+<div class="logo">
+   <img src="imgs/logo.png" style="height:80px; margin-bottom:10px;">
+ </div>
+
+ <li>Making Sense of Criminological Data</li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
@@ -112,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul>
 <li class="chapter" data-level="1.1" data-path="week1.html"><a href="week1.html#learning-outcomes"><i class="fa fa-check"></i><b>1.1</b> Learning outcomes</a></li>
 <li class="chapter" data-level="1.2" data-path="week1.html"><a href="week1.html#familiarising-yourself-with-the-course"><i class="fa fa-check"></i><b>1.2</b> Familiarising yourself with the course</a></li>
-<li class="chapter" data-level="1.3" data-path="week1.html"><a href="week1.html#asking-a-question-on-the-discussion-board"><i class="fa fa-check"></i><b>1.3</b> Asking a question on the discussion board</a>
+<li class="chapter" data-level="1.3" data-path="week1.html"><a href="week1.html#asking-a-question-on-the-canvas-discussion-board"><i class="fa fa-check"></i><b>1.3</b> Asking a question on the Canvas discussion board</a>
 <ul>
 <li class="chapter" data-level="1.3.1" data-path="week1.html"><a href="week1.html#activity-1-posting-on-canvas"><i class="fa fa-check"></i><b>1.3.1</b> Activity 1: Posting on Canvas</a></li>
 </ul></li>
@@ -135,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="1.8.1" data-path="week1.html"><a href="week1.html#activity-4-thinking-about-what-our-data-tells-us"><i class="fa fa-check"></i><b>1.8.1</b> Activity 4: Thinking about what our data tells us</a></li>
 </ul></li>
 <li class="chapter" data-level="1.9" data-path="week1.html"><a href="week1.html#looking-at-real-data"><i class="fa fa-check"></i><b>1.9</b> Looking at real data</a></li>
-<li class="chapter" data-level="1.10" data-path="week1.html"><a href="week1.html#code-books"><i class="fa fa-check"></i><b>1.10</b> Code books</a></li>
+<li class="chapter" data-level="1.10" data-path="week1.html"><a href="week1.html#codebooks"><i class="fa fa-check"></i><b>1.10</b> Codebooks</a></li>
 <li class="chapter" data-level="1.11" data-path="week1.html"><a href="week1.html#levels-of-measurement"><i class="fa fa-check"></i><b>1.11</b> Levels of measurement</a>
 <ul>
 <li class="chapter" data-level="1.11.1" data-path="week1.html"><a href="week1.html#activity-5-levels-of-measurement-pt.-1"><i class="fa fa-check"></i><b>1.11.1</b> Activity 5: Levels of measurement pt. 1</a></li>
@@ -151,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul>
 <li class="chapter" data-level="2.1" data-path="week2.html"><a href="week2.html#learning-outcomes-1"><i class="fa fa-check"></i><b>2.1</b> Learning outcomes</a>
 <ul>
-<li class="chapter" data-level="2.1.1" data-path="week2.html"><a href="week2.html#activity-2.1"><i class="fa fa-check"></i><b>2.1.1</b> Activity 2.1</a></li>
+<li class="chapter" data-level="2.1.1" data-path="week2.html"><a href="week2.html#activity"><i class="fa fa-check"></i><b>2.1.1</b> Activity</a></li>
 <li class="chapter" data-level="2.1.2" data-path="week2.html"><a href="week2.html#terms-for-today"><i class="fa fa-check"></i><b>2.1.2</b> Terms for today:</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="week2.html"><a href="week2.html#univariate-analysis"><i class="fa fa-check"></i><b>2.2</b> Univariate analysis</a>
@@ -160,26 +168,26 @@ document.addEventListener("DOMContentLoaded", function() {
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="week2.html"><a href="week2.html#summarising-categorical-data"><i class="fa fa-check"></i><b>2.3</b> Summarising categorical data</a>
 <ul>
-<li class="chapter" data-level="2.3.1" data-path="week2.html"><a href="week2.html#activity-2.2-crime-types"><i class="fa fa-check"></i><b>2.3.1</b> Activity 2.2: Crime types</a></li>
+<li class="chapter" data-level="2.3.1" data-path="week2.html"><a href="week2.html#activity-crime-types"><i class="fa fa-check"></i><b>2.3.1</b> Activity: Crime types</a></li>
 <li class="chapter" data-level="2.3.2" data-path="week2.html"><a href="week2.html#frequency-tables"><i class="fa fa-check"></i><b>2.3.2</b> Frequency tables</a></li>
 <li class="chapter" data-level="2.3.3" data-path="week2.html"><a href="week2.html#creating-a-frequency-table-in-excel"><i class="fa fa-check"></i><b>2.3.3</b> Creating a frequency table in Excel</a></li>
-<li class="chapter" data-level="2.3.4" data-path="week2.html"><a href="week2.html#activity-2.3-looking-at-frequency"><i class="fa fa-check"></i><b>2.3.4</b> Activity 2.3: Looking at frequency</a></li>
+<li class="chapter" data-level="2.3.4" data-path="week2.html"><a href="week2.html#activity-looking-at-frequency"><i class="fa fa-check"></i><b>2.3.4</b> Activity: Looking at frequency</a></li>
 <li class="chapter" data-level="2.3.5" data-path="week2.html"><a href="week2.html#visualising-a-frequency-table-with-bar-charts"><i class="fa fa-check"></i><b>2.3.5</b> Visualising a frequency table with bar charts</a></li>
-<li class="chapter" data-level="2.3.6" data-path="week2.html"><a href="week2.html#activity-2.4-bar-charts-in-excel"><i class="fa fa-check"></i><b>2.3.6</b> Activity 2.4: Bar charts in Excel</a></li>
+<li class="chapter" data-level="2.3.6" data-path="week2.html"><a href="week2.html#activity-bar-charts-in-excel"><i class="fa fa-check"></i><b>2.3.6</b> Activity: Bar charts in Excel</a></li>
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="week2.html"><a href="week2.html#summarising-numeric-data"><i class="fa fa-check"></i><b>2.4</b> Summarising numeric data</a>
 <ul>
 <li class="chapter" data-level="2.4.1" data-path="week2.html"><a href="week2.html#measures-of-central-tendency"><i class="fa fa-check"></i><b>2.4.1</b> Measures of central tendency</a></li>
-<li class="chapter" data-level="2.4.2" data-path="week2.html"><a href="week2.html#activity-2.5-mean-and-median-in-excel"><i class="fa fa-check"></i><b>2.4.2</b> Activity 2.5: Mean and median in Excel</a></li>
+<li class="chapter" data-level="2.4.2" data-path="week2.html"><a href="week2.html#activity-mean-and-median-in-excel"><i class="fa fa-check"></i><b>2.4.2</b> Activity: Mean and median in Excel</a></li>
 <li class="chapter" data-level="2.4.3" data-path="week2.html"><a href="week2.html#distributions"><i class="fa fa-check"></i><b>2.4.3</b> Distributions</a></li>
 <li class="chapter" data-level="2.4.4" data-path="week2.html"><a href="week2.html#histograms"><i class="fa fa-check"></i><b>2.4.4</b> Histograms</a></li>
-<li class="chapter" data-level="2.4.5" data-path="week2.html"><a href="week2.html#activity-2.6-histograms-in-excel"><i class="fa fa-check"></i><b>2.4.5</b> Activity 2.6: Histograms in Excel</a></li>
+<li class="chapter" data-level="2.4.5" data-path="week2.html"><a href="week2.html#activity-histograms-in-excel"><i class="fa fa-check"></i><b>2.4.5</b> Activity: Histograms in Excel</a></li>
 <li class="chapter" data-level="2.4.6" data-path="week2.html"><a href="week2.html#five-number-summary"><i class="fa fa-check"></i><b>2.4.6</b> Five-number summary</a></li>
-<li class="chapter" data-level="2.4.7" data-path="week2.html"><a href="week2.html#activity-2.7-calculate-quartiles"><i class="fa fa-check"></i><b>2.4.7</b> Activity 2.7: Calculate quartiles</a></li>
+<li class="chapter" data-level="2.4.7" data-path="week2.html"><a href="week2.html#activity-calculate-quartiles"><i class="fa fa-check"></i><b>2.4.7</b> Activity: Calculate quartiles</a></li>
 </ul></li>
 <li class="chapter" data-level="2.5" data-path="week2.html"><a href="week2.html#standard-deviation"><i class="fa fa-check"></i><b>2.5</b> Standard deviation</a>
 <ul>
-<li class="chapter" data-level="2.5.1" data-path="week2.html"><a href="week2.html#activity-2.8-standard-deviation-in-excel"><i class="fa fa-check"></i><b>2.5.1</b> Activity 2.8: Standard Deviation in Excel</a></li>
+<li class="chapter" data-level="2.5.1" data-path="week2.html"><a href="week2.html#activity-standard-deviation-in-excel"><i class="fa fa-check"></i><b>2.5.1</b> Activity: Standard Deviation in Excel</a></li>
 </ul></li>
 <li class="chapter" data-level="2.6" data-path="week2.html"><a href="week2.html#writing-it-all-up"><i class="fa fa-check"></i><b>2.6</b> Writing it all up</a>
 <ul>
@@ -197,18 +205,18 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul>
 <li class="chapter" data-level="3.2.1" data-path="week3.html"><a href="week3.html#surviving-the-titanic"><i class="fa fa-check"></i><b>3.2.1</b> Surviving the Titanic</a></li>
 <li class="chapter" data-level="3.2.2" data-path="week3.html"><a href="week3.html#row-percentage-column-percentage-or-total-percentage"><i class="fa fa-check"></i><b>3.2.2</b> Row percentage, column percentage, or total percentage</a></li>
-<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#activity-3.3-calculating-row-vs-column-percentages"><i class="fa fa-check"></i><b>3.2.3</b> Activity 3.3: Calculating row vs column percentages</a></li>
+<li class="chapter" data-level="3.2.3" data-path="week3.html"><a href="week3.html#activity-calculating-row-vs-column-percentages"><i class="fa fa-check"></i><b>3.2.3</b> Activity: Calculating row vs column percentages</a></li>
 <li class="chapter" data-level="3.2.4" data-path="week3.html"><a href="week3.html#decimal-places-a-note-on-formatting-cells"><i class="fa fa-check"></i><b>3.2.4</b> Decimal places: A note on formatting cells</a></li>
-<li class="chapter" data-level="3.2.5" data-path="week3.html"><a href="week3.html#activity-3.4-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.5</b> Activity 3.4: Visualising the relationship - Stacked bar charts and conditional formatting</a></li>
+<li class="chapter" data-level="3.2.5" data-path="week3.html"><a href="week3.html#activity-visualising-the-relationship---stacked-bar-charts-and-conditional-formatting"><i class="fa fa-check"></i><b>3.2.5</b> Activity: Visualising the relationship - Stacked bar charts and conditional formatting</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="week3.html"><a href="week3.html#categorical-vs-numeric"><i class="fa fa-check"></i><b>3.3</b> Categorical vs numeric</a>
 <ul>
-<li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-3.5-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity 3.5: Age of offenders</a></li>
-<li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-3.6-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity 3.6: Adding a column for median</a></li>
+<li class="chapter" data-level="3.3.1" data-path="week3.html"><a href="week3.html#activity-age-of-offenders"><i class="fa fa-check"></i><b>3.3.1</b> Activity: Age of offenders</a></li>
+<li class="chapter" data-level="3.3.2" data-path="week3.html"><a href="week3.html#activity-adding-a-column-for-median"><i class="fa fa-check"></i><b>3.3.2</b> Activity: Adding a column for median</a></li>
 </ul></li>
 <li class="chapter" data-level="3.4" data-path="week3.html"><a href="week3.html#numeric-vs.-numeric"><i class="fa fa-check"></i><b>3.4</b> Numeric vs. numeric</a>
 <ul>
-<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-3.7-does-age-at-first-arrest-correlate-with-the-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity 3.7: Does age at first arrest correlate with the total number of arrests?</a></li>
+<li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-does-age-at-first-arrest-correlate-with-the-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity: Does age at first arrest correlate with the total number of arrests?</a></li>
 <li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
@@ -221,19 +229,19 @@ document.addEventListener("DOMContentLoaded", function() {
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="week4.html"><a href="week4.html#population-parameters-versus-sample-statistics"><i class="fa fa-check"></i><b>4.2</b> Population parameters versus sample statistics</a>
 <ul>
-<li class="chapter" data-level="4.2.1" data-path="week4.html"><a href="week4.html#activity-4.1-sample-statistics-vs-population-parameters"><i class="fa fa-check"></i><b>4.2.1</b> Activity 4.1: Sample statistics vs population parameters</a></li>
+<li class="chapter" data-level="4.2.1" data-path="week4.html"><a href="week4.html#activity-sample-statistics-vs-population-parameters"><i class="fa fa-check"></i><b>4.2.1</b> Activity: Sample statistics vs population parameters</a></li>
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="week4.html"><a href="week4.html#central-limit-theorem"><i class="fa fa-check"></i><b>4.3</b> Central Limit Theorem</a></li>
 <li class="chapter" data-level="4.4" data-path="week4.html"><a href="week4.html#conceptualisation"><i class="fa fa-check"></i><b>4.4</b> Conceptualisation</a>
 <ul>
-<li class="chapter" data-level="4.4.1" data-path="week4.html"><a href="week4.html#activity-4.2-conceptualise-hate-speech"><i class="fa fa-check"></i><b>4.4.1</b> Activity 4.2: Conceptualise ‘hate speech’</a></li>
+<li class="chapter" data-level="4.4.1" data-path="week4.html"><a href="week4.html#activity-conceptualise-hate-speech"><i class="fa fa-check"></i><b>4.4.1</b> Activity: Conceptualise ‘hate speech’</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="week4.html"><a href="week4.html#the-importance-of-conceptualisation"><i class="fa fa-check"></i><b>4.5</b> The importance of conceptualisation</a></li>
 <li class="chapter" data-level="4.6" data-path="week4.html"><a href="week4.html#measurement"><i class="fa fa-check"></i><b>4.6</b> Measurement</a>
 <ul>
 <li class="chapter" data-level="4.6.1" data-path="week4.html"><a href="week4.html#measuring-constructs-with-composite-variables"><i class="fa fa-check"></i><b>4.6.1</b> Measuring constructs with composite variables</a></li>
-<li class="chapter" data-level="4.6.2" data-path="week4.html"><a href="week4.html#activity-4.3-computing-a-z-score-in-excel"><i class="fa fa-check"></i><b>4.6.2</b> Activity 4.3: Computing a z-score in Excel</a></li>
-<li class="chapter" data-level="4.6.3" data-path="week4.html"><a href="week4.html#activity-4.4-twitter-data-revisited"><i class="fa fa-check"></i><b>4.6.3</b> Activity 4.4: Twitter data revisited</a></li>
+<li class="chapter" data-level="4.6.2" data-path="week4.html"><a href="week4.html#activity-computing-a-z-score-in-excel"><i class="fa fa-check"></i><b>4.6.2</b> Activity: Computing a z-score in Excel</a></li>
+<li class="chapter" data-level="4.6.3" data-path="week4.html"><a href="week4.html#activity-twitter-data-revisited"><i class="fa fa-check"></i><b>4.6.3</b> Activity: Twitter data revisited</a></li>
 </ul></li>
 <li class="chapter" data-level="4.7" data-path="week4.html"><a href="week4.html#composite-variables-created-from-categorical-variables"><i class="fa fa-check"></i><b>4.7</b> Composite variables created from categorical variables</a>
 <ul>
@@ -241,14 +249,17 @@ document.addEventListener("DOMContentLoaded", function() {
 </ul></li>
 <li class="chapter" data-level="4.8" data-path="week4.html"><a href="week4.html#a-note-on-validity-and-reliability"><i class="fa fa-check"></i><b>4.8</b> A note on Validity and Reliability</a>
 <ul>
-<li class="chapter" data-level="4.8.1" data-path="week4.html"><a href="week4.html#activity-4.5-calculating-a-summative-score"><i class="fa fa-check"></i><b>4.8.1</b> Activity 4.5: Calculating a summative score</a></li>
-<li class="chapter" data-level="4.8.2" data-path="week4.html"><a href="week4.html#activity-4.6-testing-your-questions-cronbachs-alpha"><i class="fa fa-check"></i><b>4.8.2</b> Activity 4.6: Testing your questions: Cronbach’s alpha</a></li>
+<li class="chapter" data-level="4.8.1" data-path="week4.html"><a href="week4.html#activity-calculating-a-summative-score"><i class="fa fa-check"></i><b>4.8.1</b> Activity: Calculating a summative score</a></li>
+<li class="chapter" data-level="4.8.2" data-path="week4.html"><a href="week4.html#activity-testing-your-questions-cronbachs-alpha"><i class="fa fa-check"></i><b>4.8.2</b> Activity: Testing your questions: Cronbach’s alpha</a></li>
 </ul></li>
 <li class="chapter" data-level="4.9" data-path="week4.html"><a href="week4.html#recoding-some-more-transforming-your-variables-to-fit-with-your-concepts"><i class="fa fa-check"></i><b>4.9</b> Recoding some more: Transforming your variables to fit with your concepts</a>
 <ul>
-<li class="chapter" data-level="4.9.1" data-path="week4.html"><a href="week4.html#activity-4.7-recoding-variables"><i class="fa fa-check"></i><b>4.9.1</b> Activity 4.7: Recoding Variables</a></li>
+<li class="chapter" data-level="4.9.1" data-path="week4.html"><a href="week4.html#activity-recoding-variables"><i class="fa fa-check"></i><b>4.9.1</b> Activity: Recoding Variables</a></li>
 </ul></li>
-<li class="chapter" data-level="4.10" data-path="week4.html"><a href="week4.html#summary-3"><i class="fa fa-check"></i><b>4.10</b> Summary</a></li>
+<li class="chapter" data-level="4.10" data-path="week4.html"><a href="week4.html#summary-3"><i class="fa fa-check"></i><b>4.10</b> Summary</a>
+<ul>
+<li class="chapter" data-level="4.10.1" data-path="week4.html"><a href="week4.html#sources"><i class="fa fa-check"></i><b>4.10.1</b> Sources</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="week5.html"><a href="week5.html"><i class="fa fa-check"></i><b>5</b> Week 5</a>
 <ul>
@@ -259,19 +270,19 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="5.2" data-path="week5.html"><a href="week5.html#research-design"><i class="fa fa-check"></i><b>5.2</b> Research Design</a></li>
 <li class="chapter" data-level="5.3" data-path="week5.html"><a href="week5.html#experiments-and-evaluation"><i class="fa fa-check"></i><b>5.3</b> Experiments and evaluation</a>
 <ul>
-<li class="chapter" data-level="5.3.1" data-path="week5.html"><a href="week5.html#activity-5.1-examples-of-experiments-in-criminology"><i class="fa fa-check"></i><b>5.3.1</b> Activity 5.1 Examples of Experiments in Criminology</a></li>
+<li class="chapter" data-level="5.3.1" data-path="week5.html"><a href="week5.html#activity-examples-of-experiments-in-criminology"><i class="fa fa-check"></i><b>5.3.1</b> Activity: Examples of Experiments in Criminology</a></li>
 <li class="chapter" data-level="5.3.2" data-path="week5.html"><a href="week5.html#what-influences-what-dependent-vs-independent-variables"><i class="fa fa-check"></i><b>5.3.2</b> What influences what? Dependent vs independent variables</a></li>
-<li class="chapter" data-level="5.3.3" data-path="week5.html"><a href="week5.html#activity-5.2-dependent-and-independent-variables"><i class="fa fa-check"></i><b>5.3.3</b> Activity 5.2: Dependent and independent variables</a></li>
+<li class="chapter" data-level="5.3.3" data-path="week5.html"><a href="week5.html#activity-dependent-and-independent-variables"><i class="fa fa-check"></i><b>5.3.3</b> Activity: Dependent and independent variables</a></li>
 </ul></li>
 <li class="chapter" data-level="5.4" data-path="week5.html"><a href="week5.html#importance-of-randomisation"><i class="fa fa-check"></i><b>5.4</b> Importance of randomisation</a>
 <ul>
-<li class="chapter" data-level="5.4.1" data-path="week5.html"><a href="week5.html#activity-5.3-random-assignment"><i class="fa fa-check"></i><b>5.4.1</b> Activity 5.3: Random assignment</a></li>
+<li class="chapter" data-level="5.4.1" data-path="week5.html"><a href="week5.html#activity-random-assignment"><i class="fa fa-check"></i><b>5.4.1</b> Activity: Random assignment</a></li>
 <li class="chapter" data-level="5.4.2" data-path="week5.html"><a href="week5.html#note-freeze"><i class="fa fa-check"></i><b>5.4.2</b> Note: Freeze!</a></li>
 </ul></li>
 <li class="chapter" data-level="5.5" data-path="week5.html"><a href="week5.html#designing-your-study"><i class="fa fa-check"></i><b>5.5</b> Designing your study</a>
 <ul>
 <li class="chapter" data-level="5.5.1" data-path="week5.html"><a href="week5.html#pre-registration-committing-to-your-research-plan"><i class="fa fa-check"></i><b>5.5.1</b> Pre-registration: committing to your research plan</a></li>
-<li class="chapter" data-level="5.5.2" data-path="week5.html"><a href="week5.html#activity-5.4-research-planning-with-gantt-charts-design-an-rct-example"><i class="fa fa-check"></i><b>5.5.2</b> Activity 5.4: Research Planning with Gantt Charts: Design an RCT example</a></li>
+<li class="chapter" data-level="5.5.2" data-path="week5.html"><a href="week5.html#activity-research-planning-with-gantt-charts-design-an-rct-example"><i class="fa fa-check"></i><b>5.5.2</b> Activity: Research Planning with Gantt Charts: Design an RCT example</a></li>
 </ul></li>
 <li class="chapter" data-level="5.6" data-path="week5.html"><a href="week5.html#longitudinal-data"><i class="fa fa-check"></i><b>5.6</b> Longitudinal data</a>
 <ul>
@@ -283,168 +294,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </ul></li>
 <li class="chapter" data-level="5.7" data-path="week5.html"><a href="week5.html#ethics"><i class="fa fa-check"></i><b>5.7</b> Ethics</a></li>
 <li class="chapter" data-level="5.8" data-path="week5.html"><a href="week5.html#summary-4"><i class="fa fa-check"></i><b>5.8</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="week6.html"><a href="week6.html"><i class="fa fa-check"></i><b>6</b> Week 6</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="week6.html"><a href="week6.html#learning-outcomes-5"><i class="fa fa-check"></i><b>6.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="6.2" data-path="week6.html"><a href="week6.html#what-is-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.2</b> What is qualitative data analysis?</a>
-<ul>
-<li class="chapter" data-level="6.2.1" data-path="week6.html"><a href="week6.html#how-is-qualitative-data-different-from-quantitative-data"><i class="fa fa-check"></i><b>6.2.1</b> How is qualitative data different from quantitative data?</a></li>
-<li class="chapter" data-level="6.2.2" data-path="week6.html"><a href="week6.html#activity-1-exploring-the-fincen-files"><i class="fa fa-check"></i><b>6.2.2</b> Activity 1: Exploring the FinCEN files</a></li>
-<li class="chapter" data-level="6.2.3" data-path="week6.html"><a href="week6.html#is-qualitative-data-analysis-easier"><i class="fa fa-check"></i><b>6.2.3</b> Is qualitative data analysis easier?</a></li>
-<li class="chapter" data-level="6.2.4" data-path="week6.html"><a href="week6.html#types-of-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.2.4</b> Types of qualitative data analysis</a></li>
-</ul></li>
-<li class="chapter" data-level="6.3" data-path="week6.html"><a href="week6.html#introducing-nvivo-a-software-for-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.3</b> Introducing NVivo, a software for qualitative data analysis</a>
-<ul>
-<li class="chapter" data-level="6.3.1" data-path="week6.html"><a href="week6.html#installing-nvivo-12"><i class="fa fa-check"></i><b>6.3.1</b> Installing NVivo 12</a></li>
-<li class="chapter" data-level="6.3.2" data-path="week6.html"><a href="week6.html#activity-2-watch-nvivo-tutorials"><i class="fa fa-check"></i><b>6.3.2</b> Activity 2: Watch NVivo tutorials</a></li>
-</ul></li>
-<li class="chapter" data-level="6.4" data-path="week6.html"><a href="week6.html#what-kinds-of-data-can-i-input-into-nvivo-for-analysis"><i class="fa fa-check"></i><b>6.4</b> What kinds of data can I input into NVivo for analysis?</a>
-<ul>
-<li class="chapter" data-level="6.4.1" data-path="week6.html"><a href="week6.html#activity-3-find-some-data"><i class="fa fa-check"></i><b>6.4.1</b> Activity 3: Find some data…</a></li>
-</ul></li>
-<li class="chapter" data-level="6.5" data-path="week6.html"><a href="week6.html#creating-your-nvivo-project"><i class="fa fa-check"></i><b>6.5</b> Creating your NVivo project</a>
-<ul>
-<li class="chapter" data-level="6.5.1" data-path="week6.html"><a href="week6.html#activity-4-getting-started-with-nvivo"><i class="fa fa-check"></i><b>6.5.1</b> Activity 4: Getting Started with NVivo</a></li>
-</ul></li>
-<li class="chapter" data-level="6.6" data-path="week6.html"><a href="week6.html#understanding-the-nvivo-interface"><i class="fa fa-check"></i><b>6.6</b> Understanding the NVivo interface</a></li>
-<li class="chapter" data-level="6.7" data-path="week6.html"><a href="week6.html#navigation-view"><i class="fa fa-check"></i><b>6.7</b> Navigation View</a>
-<ul>
-<li class="chapter" data-level="6.7.1" data-path="week6.html"><a href="week6.html#data"><i class="fa fa-check"></i><b>6.7.1</b> Data</a></li>
-<li class="chapter" data-level="6.7.2" data-path="week6.html"><a href="week6.html#the-files-section"><i class="fa fa-check"></i><b>6.7.2</b> The ‘Files’ section</a></li>
-<li class="chapter" data-level="6.7.3" data-path="week6.html"><a href="week6.html#activity-5-folders"><i class="fa fa-check"></i><b>6.7.3</b> Activity 5: Folders</a></li>
-</ul></li>
-<li class="chapter" data-level="6.8" data-path="week6.html"><a href="week6.html#importing-data"><i class="fa fa-check"></i><b>6.8</b> Importing Data</a>
-<ul>
-<li class="chapter" data-level="6.8.1" data-path="week6.html"><a href="week6.html#activity-6-import-data"><i class="fa fa-check"></i><b>6.8.1</b> Activity 6: Import data</a></li>
-</ul></li>
-<li class="chapter" data-level="6.9" data-path="week6.html"><a href="week6.html#memos"><i class="fa fa-check"></i><b>6.9</b> Memos</a>
-<ul>
-<li class="chapter" data-level="6.9.1" data-path="week6.html"><a href="week6.html#activity-7-memos"><i class="fa fa-check"></i><b>6.9.1</b> Activity 7: Memos</a></li>
-</ul></li>
-<li class="chapter" data-level="6.10" data-path="week6.html"><a href="week6.html#word-frequency"><i class="fa fa-check"></i><b>6.10</b> Word Frequency</a>
-<ul>
-<li class="chapter" data-level="6.10.1" data-path="week6.html"><a href="week6.html#activity-8-word-frequency"><i class="fa fa-check"></i><b>6.10.1</b> Activity 8: Word frequency</a></li>
-<li class="chapter" data-level="6.10.2" data-path="week6.html"><a href="week6.html#activity-9-create-two-distinct-word-clouds"><i class="fa fa-check"></i><b>6.10.2</b> Activity 9: Create two distinct word clouds</a></li>
-</ul></li>
-<li class="chapter" data-level="6.11" data-path="week6.html"><a href="week6.html#summary-5"><i class="fa fa-check"></i><b>6.11</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="week7.html"><a href="week7.html"><i class="fa fa-check"></i><b>7</b> Week 7</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="week7.html"><a href="week7.html#learning-outcomes-6"><i class="fa fa-check"></i><b>7.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="7.2" data-path="week7.html"><a href="week7.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data"><i class="fa fa-check"></i><b>7.2</b> Deduction, induction, abduction – key analytical strategies for qualitative data</a></li>
-<li class="chapter" data-level="7.3" data-path="week7.html"><a href="week7.html#coding-qualitative-data-using-nodes"><i class="fa fa-check"></i><b>7.3</b> ‘Coding’ qualitative data using ‘nodes’</a>
-<ul>
-<li class="chapter" data-level="7.3.1" data-path="week7.html"><a href="week7.html#what-are-nodes"><i class="fa fa-check"></i><b>7.3.1</b> What are ‘Nodes’?</a></li>
-<li class="chapter" data-level="7.3.2" data-path="week7.html"><a href="week7.html#activity-1-coding"><i class="fa fa-check"></i><b>7.3.2</b> Activity 1: Coding</a></li>
-</ul></li>
-<li class="chapter" data-level="7.4" data-path="week7.html"><a href="week7.html#using-mind-maps-to-organise-your-analytical-process-and-framework"><i class="fa fa-check"></i><b>7.4</b> Using ‘mind maps’ to organise your ‘analytical process and framework’</a>
-<ul>
-<li class="chapter" data-level="7.4.1" data-path="week7.html"><a href="week7.html#activity-2-deductive-coding"><i class="fa fa-check"></i><b>7.4.1</b> Activity 2: Deductive coding</a></li>
-<li class="chapter" data-level="7.4.2" data-path="week7.html"><a href="week7.html#activity-3-inductive-coding"><i class="fa fa-check"></i><b>7.4.2</b> Activity 3: Inductive coding</a></li>
-</ul></li>
-<li class="chapter" data-level="7.5" data-path="week7.html"><a href="week7.html#abductive-coding"><i class="fa fa-check"></i><b>7.5</b> Abductive coding</a>
-<ul>
-<li class="chapter" data-level="7.5.1" data-path="week7.html"><a href="week7.html#activity-4-retrieval-viewing-coded-data"><i class="fa fa-check"></i><b>7.5.1</b> Activity 4: Retrieval – viewing coded data</a></li>
-<li class="chapter" data-level="7.5.2" data-path="week7.html"><a href="week7.html#activity-5-viewing-more-context"><i class="fa fa-check"></i><b>7.5.2</b> Activity 5: Viewing more context</a></li>
-</ul></li>
-<li class="chapter" data-level="7.6" data-path="week7.html"><a href="week7.html#export-coded-data"><i class="fa fa-check"></i><b>7.6</b> Export coded data</a>
-<ul>
-<li class="chapter" data-level="7.6.1" data-path="week7.html"><a href="week7.html#activity-6-exporting-via-the-list-pane"><i class="fa fa-check"></i><b>7.6.1</b> Activity 6: Exporting via the list pane</a></li>
-</ul></li>
-<li class="chapter" data-level="7.7" data-path="week7.html"><a href="week7.html#some-other-useful-things-to-do"><i class="fa fa-check"></i><b>7.7</b> Some other useful things to do</a>
-<ul>
-<li class="chapter" data-level="7.7.1" data-path="week7.html"><a href="week7.html#create-another-word-cloud"><i class="fa fa-check"></i><b>7.7.1</b> Create another Word Cloud:</a></li>
-<li class="chapter" data-level="7.7.2" data-path="week7.html"><a href="week7.html#create-a-word-tree"><i class="fa fa-check"></i><b>7.7.2</b> Create a Word Tree:</a></li>
-<li class="chapter" data-level="7.7.3" data-path="week7.html"><a href="week7.html#create-a-concept-map-windows-only"><i class="fa fa-check"></i><b>7.7.3</b> Create a Concept Map (WINDOWS ONLY!)</a></li>
-</ul></li>
-<li class="chapter" data-level="7.8" data-path="week7.html"><a href="week7.html#other-features"><i class="fa fa-check"></i><b>7.8</b> Other features…</a>
-<ul>
-<li class="chapter" data-level="7.8.1" data-path="week7.html"><a href="week7.html#graphicspictures---making-linked-notes-and-coding"><i class="fa fa-check"></i><b>7.8.1</b> Graphics/pictures - making linked notes and coding</a></li>
-<li class="chapter" data-level="7.8.2" data-path="week7.html"><a href="week7.html#coding-audiovideo-data"><i class="fa fa-check"></i><b>7.8.2</b> Coding audio/video data</a></li>
-</ul></li>
-<li class="chapter" data-level="7.9" data-path="week7.html"><a href="week7.html#more-on-capturing-web-material"><i class="fa fa-check"></i><b>7.9</b> More on capturing web material</a></li>
-<li class="chapter" data-level="7.10" data-path="week7.html"><a href="week7.html#summary-6"><i class="fa fa-check"></i><b>7.10</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="8" data-path="week8.html"><a href="week8.html"><i class="fa fa-check"></i><b>8</b> Week 8</a>
-<ul>
-<li class="chapter" data-level="8.1" data-path="week8.html"><a href="week8.html#learning-outcomes-7"><i class="fa fa-check"></i><b>8.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="8.2" data-path="week8.html"><a href="week8.html#visualising-data"><i class="fa fa-check"></i><b>8.2</b> Visualising data</a>
-<ul>
-<li class="chapter" data-level="8.2.1" data-path="week8.html"><a href="week8.html#why-visualise-data"><i class="fa fa-check"></i><b>8.2.1</b> Why visualise data?</a></li>
-</ul></li>
-<li class="chapter" data-level="8.3" data-path="week8.html"><a href="week8.html#anatomy-of-a-plot---the-grammar-of-graphics"><i class="fa fa-check"></i><b>8.3</b> Anatomy of a plot - the Grammar of Graphics</a></li>
-<li class="chapter" data-level="8.4" data-path="week8.html"><a href="week8.html#principles-of-good-data-visualisation"><i class="fa fa-check"></i><b>8.4</b> Principles of good data visualisation</a>
-<ul>
-<li class="chapter" data-level="8.4.1" data-path="week8.html"><a href="week8.html#the-data-to-ink-ratio---minimalist-viz"><i class="fa fa-check"></i><b>8.4.1</b> The data-to-ink ratio - minimalist viz</a></li>
-<li class="chapter" data-level="8.4.2" data-path="week8.html"><a href="week8.html#an-example"><i class="fa fa-check"></i><b>8.4.2</b> An example:</a></li>
-<li class="chapter" data-level="8.4.3" data-path="week8.html"><a href="week8.html#criticisms"><i class="fa fa-check"></i><b>8.4.3</b> Criticisms</a></li>
-</ul></li>
-<li class="chapter" data-level="8.5" data-path="week8.html"><a href="week8.html#what-makes-a-bad-graph-bad"><i class="fa fa-check"></i><b>8.5</b> What makes a bad graph bad?</a>
-<ul>
-<li class="chapter" data-level="8.5.1" data-path="week8.html"><a href="week8.html#activity-8.1-what-do-you-think"><i class="fa fa-check"></i><b>8.5.1</b> Activity 8.1: What do you think?</a></li>
-<li class="chapter" data-level="8.5.2" data-path="week8.html"><a href="week8.html#it-depends"><i class="fa fa-check"></i><b>8.5.2</b> It depends…</a></li>
-</ul></li>
-<li class="chapter" data-level="8.6" data-path="week8.html"><a href="week8.html#so-what-graph-should-we-use"><i class="fa fa-check"></i><b>8.6</b> So… what graph should we use?!?</a></li>
-<li class="chapter" data-level="8.7" data-path="week8.html"><a href="week8.html#edges-contrasts-and-colors"><i class="fa fa-check"></i><b>8.7</b> Edges, Contrasts and Colors</a></li>
-<li class="chapter" data-level="8.8" data-path="week8.html"><a href="week8.html#colour"><i class="fa fa-check"></i><b>8.8</b> Colour</a>
-<ul>
-<li class="chapter" data-level="8.8.1" data-path="week8.html"><a href="week8.html#activity-8.2-picking-a-colour-scheme"><i class="fa fa-check"></i><b>8.8.1</b> Activity 8.2: Picking a colour scheme</a></li>
-<li class="chapter" data-level="8.8.2" data-path="week8.html"><a href="week8.html#activity-8.3-custom-colours-in-excel-graphs"><i class="fa fa-check"></i><b>8.8.2</b> Activity 8.3: Custom colours in Excel graphs</a></li>
-</ul></li>
-<li class="chapter" data-level="8.9" data-path="week8.html"><a href="week8.html#reading-between-the-lines-points"><i class="fa fa-check"></i><b>8.9</b> Reading between the lines (points)</a></li>
-<li class="chapter" data-level="8.10" data-path="week8.html"><a href="week8.html#exploratory-data-visualisation"><i class="fa fa-check"></i><b>8.10</b> Exploratory data visualisation</a>
-<ul>
-<li class="chapter" data-level="8.10.1" data-path="week8.html"><a href="week8.html#activity-8.4-comparing-categories"><i class="fa fa-check"></i><b>8.10.1</b> Activity 8.4: Comparing categories</a></li>
-<li class="chapter" data-level="8.10.2" data-path="week8.html"><a href="week8.html#activity-8.5-lets-never-make-a-pie-chart-again"><i class="fa fa-check"></i><b>8.10.2</b> Activity 8.5: Let’s never make a pie chart again</a></li>
-<li class="chapter" data-level="8.10.3" data-path="week8.html"><a href="week8.html#activity-8.6-exploring-trends"><i class="fa fa-check"></i><b>8.10.3</b> Activity 8.6: Exploring trends</a></li>
-<li class="chapter" data-level="8.10.4" data-path="week8.html"><a href="week8.html#activity-8.7-making-a-chart-template"><i class="fa fa-check"></i><b>8.10.4</b> Activity 8.7: Making a chart template</a></li>
-<li class="chapter" data-level="8.10.5" data-path="week8.html"><a href="week8.html#activity-8.7-saving-your-graph"><i class="fa fa-check"></i><b>8.10.5</b> Activity 8.7: Saving your graph</a></li>
-</ul></li>
-<li class="chapter" data-level="8.11" data-path="week8.html"><a href="week8.html#activity-8.8-more-complex-graphs"><i class="fa fa-check"></i><b>8.11</b> Activity 8.8: More complex graphs</a></li>
-<li class="chapter" data-level="8.12" data-path="week8.html"><a href="week8.html#more-guidance-on-chart-design"><i class="fa fa-check"></i><b>8.12</b> More guidance on chart design</a></li>
-<li class="chapter" data-level="8.13" data-path="week8.html"><a href="week8.html#communicating-results"><i class="fa fa-check"></i><b>8.13</b> Communicating results</a>
-<ul>
-<li class="chapter" data-level="8.13.1" data-path="week8.html"><a href="week8.html#activity-8.9-interpreting-results"><i class="fa fa-check"></i><b>8.13.1</b> Activity 8.9: Interpreting results</a></li>
-</ul></li>
-<li class="chapter" data-level="8.14" data-path="week8.html"><a href="week8.html#summary-7"><i class="fa fa-check"></i><b>8.14</b> Summary</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="week9.html"><a href="week9.html"><i class="fa fa-check"></i><b>9</b> Week 9</a>
-<ul>
-<li class="chapter" data-level="9.1" data-path="week9.html"><a href="week9.html#learning-outcomes-8"><i class="fa fa-check"></i><b>9.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="9.2" data-path="week9.html"><a href="week9.html#crime-and-incident-trend-identification"><i class="fa fa-check"></i><b>9.2</b> Crime and incident trend identification</a>
-<ul>
-<li class="chapter" data-level="9.2.1" data-path="week9.html"><a href="week9.html#activity-9.1-formatting-your-dates-appropriately"><i class="fa fa-check"></i><b>9.2.1</b> Activity 9.1: Formatting your dates appropriately</a></li>
-<li class="chapter" data-level="9.2.2" data-path="week9.html"><a href="week9.html#activity-9.2-extracting-temporal-variables-from-dates"><i class="fa fa-check"></i><b>9.2.2</b> Activity 9.2: Extracting temporal variables from dates</a></li>
-<li class="chapter" data-level="9.2.3" data-path="week9.html"><a href="week9.html#activity-9.3-extract-the-day-of-the-week-from-the-date-column"><i class="fa fa-check"></i><b>9.2.3</b> Activity 9.3: Extract the day of the week from the date column</a></li>
-<li class="chapter" data-level="9.2.4" data-path="week9.html"><a href="week9.html#activity-9.4-recoding-days-of-the-week"><i class="fa fa-check"></i><b>9.2.4</b> Activity 9.4: Recoding days of the week</a></li>
-<li class="chapter" data-level="9.2.5" data-path="week9.html"><a href="week9.html#activity-9.5-patterns-in-residential-burglary"><i class="fa fa-check"></i><b>9.2.5</b> Activity 9.5 patterns in residential burglary</a></li>
-</ul></li>
-<li class="chapter" data-level="9.3" data-path="week9.html"><a href="week9.html#aggregating-to-simple-intervals"><i class="fa fa-check"></i><b>9.3</b> Aggregating to simple intervals</a>
-<ul>
-<li class="chapter" data-level="9.3.1" data-path="week9.html"><a href="week9.html#activity-9.5-aggregate-by-hour"><i class="fa fa-check"></i><b>9.3.1</b> Activity 9.5: Aggregate by hour</a></li>
-</ul></li>
-<li class="chapter" data-level="9.4" data-path="week9.html"><a href="week9.html#visualising-time"><i class="fa fa-check"></i><b>9.4</b> Visualising time</a></li>
-<li class="chapter" data-level="9.5" data-path="week9.html"><a href="week9.html#visualising-trends-line-graphs"><i class="fa fa-check"></i><b>9.5</b> Visualising trends: Line graphs</a>
-<ul>
-<li class="chapter" data-level="9.5.1" data-path="week9.html"><a href="week9.html#activity-9.6-visualising-trends-line-graphs"><i class="fa fa-check"></i><b>9.5.1</b> Activity 9.6: Visualising trends: Line graphs</a></li>
-</ul></li>
-<li class="chapter" data-level="9.6" data-path="week9.html"><a href="week9.html#the-time-cycle-visualising-cyclical-variables"><i class="fa fa-check"></i><b>9.6</b> The time cycle: visualising cyclical variables</a>
-<ul>
-<li class="chapter" data-level="9.6.1" data-path="week9.html"><a href="week9.html#activity-9.7-visualising-cycles-radar-charts"><i class="fa fa-check"></i><b>9.6.1</b> Activity 9.7: Visualising cycles: Radar charts</a></li>
-</ul></li>
-<li class="chapter" data-level="9.7" data-path="week9.html"><a href="week9.html#bivariate-analysis"><i class="fa fa-check"></i><b>9.7</b> Bivariate analysis</a>
-<ul>
-<li class="chapter" data-level="9.7.1" data-path="week9.html"><a href="week9.html#activity-9.8-heatmaps"><i class="fa fa-check"></i><b>9.7.1</b> Activity 9.8: Heatmaps</a></li>
-<li class="chapter" data-level="9.7.2" data-path="week9.html"><a href="week9.html#more-charts"><i class="fa fa-check"></i><b>9.7.2</b> More charts?</a></li>
-</ul></li>
-<li class="chapter" data-level="9.8" data-path="week9.html"><a href="week9.html#time-series"><i class="fa fa-check"></i><b>9.8</b> Time series</a></li>
-<li class="chapter" data-level="9.9" data-path="week9.html"><a href="week9.html#moving-averages"><i class="fa fa-check"></i><b>9.9</b> Moving averages</a>
-<ul>
-<li class="chapter" data-level="9.9.1" data-path="week9.html"><a href="week9.html#activity-9.9-hand-calculate-the-moving-average"><i class="fa fa-check"></i><b>9.9.1</b> Activity 9.9 Hand calculate the moving average</a></li>
-<li class="chapter" data-level="9.9.2" data-path="week9.html"><a href="week9.html#activity-9.10-moving-average-in-excel"><i class="fa fa-check"></i><b>9.9.2</b> Activity 9.10: Moving average in Excel</a></li>
-</ul></li>
-<li class="chapter" data-level="9.10" data-path="week9.html"><a href="week9.html#summary-8"><i class="fa fa-check"></i><b>9.10</b> Summary</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
@@ -471,11 +320,10 @@ document.addEventListener("DOMContentLoaded", function() {
 <div id="learning-outcomes-4" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Learning outcomes<a href="week5.html#learning-outcomes-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This week, we are interested in taking a step back even further from the analysis of data. Last week, we spoke about <strong>conceptualisation</strong> and <strong>operationalisation</strong>, the steps that you take as a researcher to turn your ideas and topics of interest into variables to measure. But how do you then go about designing your research study? This week, we take a step back, conceptually, to the highest level of research oversight to consider the process of research design and consider the various ways that you can go about collecting data.</p>
-<p>Much of the data that we work with are collected as part of the research process. There are many different approaches to this process, and you will have come across a good sample of them in your readings.</p>
-<p><strong>Research design</strong> can be described as a general plan about what you will do to answer your research question. It is the overall plan for connecting the conceptual research problems to the pertinent (and achievable) empirical research. In other words, the research design articulates what data will be required, what methods are going to be used to collect and analyse the data, and how all of this is going to answer your research question. We will talk about <strong>pre-registration</strong> and
-the importance of separating confirmatory vs exploratory research.</p>
+<p>Much of the data that we work with is collected as part of the research process. There are many different approaches to this process, and you will have come across a good sample of them in your readings.</p>
+<p><strong>Research design</strong> can be described as a general plan about what you will do to answer your research question. It is the overall plan for connecting the conceptual research problems to the pertinent (and achievable) empirical research. In other words, the research design articulates what data will be required, what methods are going to be used to collect and analyse the data, and how all of this is going to answer your research question. We will talk about <strong>pre-registration</strong> and the importance of separating confirmatory vs exploratory research.</p>
 <p>Both data and methods, as well as the way in which these will be configured in the research project, need to be the most effective in producing the answers to the research question (taking into account practical and other constraints of the study). Different design logics are used for different types of study, and the best choice depends on what sorts of research questions you want to be able to answer.</p>
-<p>Since your readings provide a comprehensive overview of different types of research designs, we will not attempt to replicate this here. Instead, we will cover some general practical points, with a focus on two different study designs. These are experiments and longitudinal studies. However, the skills we will practice today are relevant to data collected from various research resigns. For example, we will learn about <strong>missing data</strong>, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the <strong>Gantt chart</strong> as a way to plan your study design, which can be applied to any form of research design.</p>
+<p>Since your readings provide a comprehensive overview of different types of research designs, here we will cover some general practical points, with a focus on two different study designs. These are experiments and longitudinal studies. However, the skills we will practice today are relevant to data collected from various research designs. For example, we will learn about <strong>missing data</strong>, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the <strong>Gantt chart</strong> as a way to plan your study design, which can be applied to any form of research design.</p>
 <div id="terms-for-today-3" class="section level3 hasAnchor" number="5.1.1">
 <h3><span class="header-section-number">5.1.1</span> Terms for today<a href="week5.html#terms-for-today-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
@@ -500,8 +348,8 @@ the importance of separating confirmatory vs exploratory research.</p>
 </div>
 <div id="research-design" class="section level2 hasAnchor" number="5.2">
 <h2><span class="header-section-number">5.2</span> Research Design<a href="week5.html#research-design" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>When planning your research and developing your research design, you can imagine yourself as the architect of the research project. You lay down the blueprints and identify all the tasks and elements that will need to be realised for your research project to succeed. The type of research design used in a crime and justice study influences its conclusions. Studies suggest that design does have a systematic effect on outcomes in criminal justice studies. For example, when determining the effect of an intervention (known as evaluation research, as you are <em>evaluating</em> the effect of the intervention), when comparing randomized studies with strong quasi-experimental research designs, systematic and statistically significant differences are observed (<a href="http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf">Weisburd et al., 2001</a>).</p>
-<p>Those interested in the study of criminology and criminal justice have a wide range of research methods at their disposal. Which of the particular research methods to use is entirely contingent upon the question being studied. Research questions typically fall into four categories of research:</p>
+<p>When designing your research, think of yourself as the project’s architect—creating the blueprint that outlines all essential tasks and elements. In crime and justice studies, research design critically shapes conclusions. Evidence shows that design systematically affects outcomes; for instance, randomised studies and strong quasi-experiments often yield significantly different results when evaluating interventions (<a href="http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf">Weisburd et al., 2001</a>).</p>
+<p>Criminology and criminal justice researchers can draw from a wide range of methods, with the choice depending entirely on the research question. Such questions typically fall into four categories of research:</p>
 <ul>
 <li><ol style="list-style-type: decimal">
 <li><em>descriptive</em> (define and describe the social phenomena),</li>
@@ -516,71 +364,80 @@ the importance of separating confirmatory vs exploratory research.</p>
 <li><em>evaluative</em> (determine the effects of an intervention on an outcome).</li>
 </ol></li>
 </ul>
-<p>In your readings, you will have gone through many examples and details about each one of these approaches, as well as what research design you can use to answer which sort of categories of research questions. These books give you a fantastic theoretical overview of the methods, and so we will not reiterate those here.</p>
-<p>Instead, today, we will go through some of the nuances and key important tasks to cover in research design, and we will use some specific research design examples; specifically, we will look at experimental work and longitudinal designs in criminology. But remember - what we are learning applies to all research designs, and we are just using these specific cases to illustrate the points.</p>
+<p>While your readings provide detailed theoretical overviews of these approaches and their matching designs, today’s focus is on the practical nuances of research design. We’ll explore key tasks using examples from experimental and longitudinal studies in criminology—principles that apply to all research designs.</p>
 </div>
 <div id="experiments-and-evaluation" class="section level2 hasAnchor" number="5.3">
 <h2><span class="header-section-number">5.3</span> Experiments and evaluation<a href="week5.html#experiments-and-evaluation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Experimental criminology is a family of research methods that involve the controlled study of cause and effect. Research designs fall into two broad classes: quasi-experimental and experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative <strong>treatment</strong>, or an alternate intervention condition (<strong>control</strong>). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, and perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Exponential growth in the field of experimental criminology began in the 1990s, leading to the establishment of a number of key entities (such as the Campbell Collaboration, the Academy of Experimental Criminology, the Journal of Experimental Criminology, and the Division of Experimental Criminology within the American Society of Criminology) that have significantly advanced the field of experimental criminology into the 21st century. These initiatives have extended the use of experiments (including randomised field experiments as well as quasi-experiments) to answer key questions about the causes and effects of crime and the ways criminal justice agencies might best prevent or control crime problems. The use of experimental methods is very important for building a solid evidence base for policymakers, and a number of advocacy organizations (such as the Coalition for Evidence-Based Policy) argue for the use of scientifically rigorous studies, such as randomized controlled trials, to identify criminal justice programs and practices capable of improving policy-relevant outcomes.</p>
+<p>Experimental criminology uses controlled methods to study cause and effect. Research designs fall into two broad classes: experimental and quasi-experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative <strong>treatment</strong>, or an alternate intervention condition (<strong>control</strong>). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, and perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Since the 1990s, the field of experimental criminology has expanded rapidly, with organisations such as the Campbell Collaboration, the Academy and Journal of Experimental Criminology, and the ASC’s Division of Experimental Criminology advancing rigorous experimental methods. These efforts have strengthened the evidence base for policy, promoting the use of randomised controlled trials and other robust designs to identify effective crime prevention and justice interventions.</p>
 <ul>
 <li>How much crime does prison prevent–or cause–for different kinds of offenders?</li>
 <li>Does visible police patrol prevent crime everywhere or just in certain locations?</li>
 <li>What is the best way for societies to prevent crime from an early age?</li>
 <li>How can murder be prevented among high-risk groups of young men?</li>
 </ul>
-<p>These and other urgent questions can be answered most clearly by the use of a research design called the “randomized controlled trial.” This method takes large samples of people–or places, or schools, prisons, police beats or other units of analysis–who might become, or have already been, involved in crimes, either as victims or offenders. It then uses a statistical formula to select a portion of them for one treatment and (with equal likelihood) another portion to receive a different treatment. Any difference, on average, in the two groups in their subsequent rates of crime or other dimensions of life can then be interpreted as having been caused by the randomly assigned difference in the treatment. All other differences, on average, between the two groups can usually be ruled out as potential causes of the difference in outcome. That is because, with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.</p>
-<p>(You can read more about Experimental Criminology in <a href="http://www.oxfordbibliographies.com/view/document/obo-9780195396607/obo-9780195396607-0085.xml">this chapter</a> written by Lorraine Mazerolle and Sarah Bennett).</p>
-<div id="activity-5.1-examples-of-experiments-in-criminology" class="section level3 hasAnchor" number="5.3.1">
-<h3><span class="header-section-number">5.3.1</span> Activity 5.1 Examples of Experiments in Criminology<a href="week5.html#activity-5.1-examples-of-experiments-in-criminology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Below are two short videos to watch that show examples of how experiments can be used in Criminology. Take time now to watch these in your groups:</p>
-<p>First, watch this <a href="https://www.youtube.com/watch?v=IGDF1-B1Yjs&amp;feature=player_embedded">6-minute video from the University of Cambridge to learn a bit more about experimental criminology</a>. If you are in the BA Criminology programme, you may have seen this video in your lecture for Criminal Justice in Action when learning about how criminology has an impact. If you are in the BASS program, it might be something new.</p>
+<p>These and many other key questions in criminology are best addressed through randomised controlled trials (RCTs). This method involves assigning large samples of people or places (e.g., schools, prisons, police beats) randomly to different treatments. Any average differences in outcomes—such as crime rates—can then be attributed to the treatment itself, since random assignment minimises other potential sources of bias. That is because, with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.</p>
+<p>For more on experimental criminology, read <a href="http://www.oxfordbibliographies.com/view/document/obo-9780195396607/obo-9780195396607-0085.xml">Mazerolle and Bennett’s chapter</a></p>
+<div id="activity-examples-of-experiments-in-criminology" class="section level3 hasAnchor" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Activity: Examples of Experiments in Criminology<a href="week5.html#activity-examples-of-experiments-in-criminology" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Below are two short videos to watch that show examples of how experiments can be used in Criminology. Take time now to watch these:</p>
+<p>First, watch this <a href="https://www.youtube.com/watch?v=IGDF1-B1Yjs&amp;feature=player_embedded">6-minute video from the University of Cambridge to learn a bit more about experimental criminology</a>. If you are in the BA Criminology programme, you may have seen this video before. If you are in the BASS program, it might be something new.</p>
 <p>And then <a href="https://www.youtube.com/watch?v=0NUQsK0vnnM">this video that describes the Philadelphia foot patrol experiment</a>. Pay attention to how the blocks are assigned to the treatment (foot patrol) and the control (normal, business-as-usual policing) groups.</p>
 <p>Take some notes about what you think are elements of the <strong>research design</strong> when you watch these videos; they will help you understand how and why we can use experiments in criminological research! Take time to get through these; it will help, but we also hope they are interesting examples of criminological research in action! Quantitative criminology isn’t all about sitting around playing with spreadsheets and reading equations - we do get out sometimes and get to have an impact on things like policing!</p>
 <p><img src="https://media.giphy.com/media/pUeXcg80cO8I8/giphy.gif" /></p>
-<p>Evaluation of programmes is very important. As you heard the police chiefs explain in the Philadelphia video above, investing in a helpful intervention (foot patrols in this case) can make a difference or not. By being able to quantify the crime reduction effect that foot patrols had on particular areas, it became possible to support and lobby for these to be implemented.</p>
-<p>While it’s great that evaluations can be used to build a case for effective interventions, it is equally important to know whether something doesn’t work. Have you heard of the Scared Straight program? The term “scared straight” dates back to 1978 and a hit documentary by the same name. The film featured hardened convicts who shared their prison horror stories with juvenile offenders convicted of arson, assault, and other crimes. The convicts screamed, yelled, and swore at the young people. The concept behind the approach was that kids could be frightened into avoiding criminal acts.</p>
-<p>You can see how people are immediately averse to this idea. It is quite obviously distressing to kids that are being subjected to these Scared Straight programmes through the yelling, the gruesome violence, and so on. But if the end result is that this shock and horror deters kids from offending or young drivers from being careless on the roads, then it might be considered a “necessary evil”, right? It might be short-term pain inflicted but in the interest of long-term gain, whereby these kids will avoid a life of offending or ending up in a horrible road traffic collision. But to make this argument, we need to be able to tell - does this work?</p>
+<p>Program evaluation is essential for determining what works—and what doesn’t—in crime prevention. As shown in the Philadelphia example, measuring the impact of foot patrols allowed police to demonstrate and advocate for effective interventions. However, knowing when an intervention fails is just as important. Consider the Scared Straight program, which began with a 1978 documentary featuring inmates aggressively confronting juvenile offenders. While distressing for participants, the program’s intent was to deter kids from future offending through fear. To justify such approaches, though, we must rely on rigorous evaluation to answer a simple but crucial question: Does it actually work?</p>
 </div>
 <div id="what-influences-what-dependent-vs-independent-variables" class="section level3 hasAnchor" number="5.3.2">
 <h3><span class="header-section-number">5.3.2</span> What influences what? Dependent vs independent variables<a href="week5.html#what-influences-what-dependent-vs-independent-variables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate our dependent and independent variables to determine what we expect is evoking a change in what.</p>
-<p>What is a <strong>dependent variable</strong>? It’s what you are looking to explain. Remember in week 3, when we were talking about bivariate analysis to assess the relationship between two variables? And we spoke about one of them being a <strong>response</strong> variable and the other the <strong>predictor</strong> variable, and how do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.</p>
-<p>Well, these variables can also be called <strong>dependent</strong> and <strong>independent</strong> variables. <strong>Dependent variables</strong> are another name for response variables. They <em>depend</em> on the values of the independent variable. It can also have a third name and be called an <em>outcome variable</em>. The <strong>independent variable</strong>, on the other hand, is another name for predictor variables.</p>
-<p>For example, if you are trying to predict fear of crime using age (so your research question might ask: <em>are older people more worried about crime?</em>) then in this case, you believe that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person’s level of fear of crime <em>depends</em> on their age. So, your <em>dependent</em> variable is fear. And since it’s influenced by age, age is the <em>independent</em> variable.</p>
+<p>In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate our dependent and independent variables to determine what we expect to have an impact on what.</p>
+<p>A dependent variable is what you aim to explain — it represents the outcome of interest. In contrast, the independent variable (or predictor) is what influences or explains that outcome. Dependent variables are also known as response or outcome variables because their values depend on those of the independent variable. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.</p>
+<p>For example, if your research asks, “Are older people more worried about crime?” then in this case, you believe that age will be influencing fear, right? In this case, since age is influencing fear, a person’s level of fear of crime <em>depends</em> on their age. So, fear of crime is the dependent variable (the outcome), and age is the independent variable (the factor believed to influence it).</p>
 </div>
-<div id="activity-5.2-dependent-and-independent-variables" class="section level3 hasAnchor" number="5.3.3">
-<h3><span class="header-section-number">5.3.3</span> Activity 5.2: Dependent and independent variables<a href="week5.html#activity-5.2-dependent-and-independent-variables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>What about in the case of an experiment? Let’s return to our example with the Scared Straight programmes. We want to know whether Scared Straight has an effect on future offending, correct? So… what are our variables here? Remember last week when we were identifying concepts in research questions in the feedback session? That might help. We want to know the effect of <em>scared straight</em> on the people’s <em>future offending</em>. Our variables are in italics; they are:</p>
+<div id="activity-dependent-and-independent-variables" class="section level3 hasAnchor" number="5.3.3">
+<h3><span class="header-section-number">5.3.3</span> Activity: Dependent and independent variables<a href="week5.html#activity-dependent-and-independent-variables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>What about in the case of an experiment? Let’s return to our example with the Scared Straight programmes. We want to know whether Scared Straight has an effect on future offending, correct? So… what are our variables here? We want to know the effect of <em>Scared Straight</em> on the people’s <em>future offending</em>. Our variables are in italics; they are:</p>
 <ul>
-<li>exposure to scared straight programme</li>
+<li>exposure to the Scared Straight programme</li>
 <li>future offending behaviour.</li>
 </ul>
-<p>Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn’t participate. So, for this, we know that we have one variable (in this case, offending) that <em>depends on</em> the other (participating in scared straight or not). What does this mean for which is the dependent variable and which is the independent?</p>
-<p>Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is <em>predicting</em> which <em>outcome</em> if the dependent/independent division doesn’t work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!</p>
-<p>Take a moment to think through and decide which variable is dependent or independent. Here is a corgi running around in circles to separate the answer so you don’t accidentally read ahead:</p>
+<p>Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn’t participate. So, for this, we know that we have one variable (in this case, offending) that <em>depends on</em> the other (participating in Scared Straight or not). What does this mean for which is the dependent variable and which is the independent?</p>
+<p>Take a moment to try to answer this in small groups. Think about which one is <em>predicting</em> which <em>outcome</em> if the dependent/independent division doesn’t work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask the teaching team. The dependent/independent variable distinction will be important throughout your data analysis career!</p>
+<p>Here is a corgi running around in circles before you get to the answer.</p>
 <p><img src="https://media.giphy.com/media/RrFZIzK3coIMg/giphy.gif" /></p>
-<p>Right, so now you’re hopefully reading on after your own consideration, and you may have found that your <strong>dependent variable</strong> is the one that depends on the intervention, which is - whether the young person exposed to the scared straight programme offends or not. So, your <em>dependent</em> variable is <em>future offending</em>. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then, in turn, operationalised to be measured somehow.</p>
-<p>Your independent variable, on the other hand, is the thing that you want to see the effect of, in this case, it’s participation in the Scared Straight programme. Right? You are interested in whether participation will cause fewer offences in the future. Your <em>independent</em> variable is <em>participating in Scared Straight</em>. Again, you would have to conceptualise scared straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).</p>
+<style>
+details {
+  margin-bottom: 1em; /* Adds space below each details block */
+}
+</style>
+<details>
+<summary>
+<i> REVEAL ANSWER </i>
+</summary>
+<p>Right, so now you’re hopefully reading on after your own consideration, and you may have found that your <strong>dependent variable</strong> is the one that depends on the intervention, which is - whether the young person exposed to the Scared Straight programme offends or not. So, your <em>dependent</em> variable is <em>future offending</em>. This would have to be conceptualised (how far in the future, what counts as offending, etc.) and then, in turn, operationalised to be measured somehow.</p>
+<p>In this case, your <em>independent</em> variable is <em>participating in the Scared Straight programme</em>. Right? You are interested in whether participation will cause fewer offences in the future. Again, you would have to conceptualise Scared Straight participation (Can they go to one event? Do they have to attend many? Does it matter what happens to them? Whether they get yelled at or not? Whether they go into prison or not?) and then also operationalised in a way (Do we just measure did this young person ever take part as a yes/no categorical variable? Do we count the number of times they took part?).</p>
 <p>But no matter how you conceptualise and operationalise these variables, you will still have to be able to determine the effect of one or the other. And the <em>research design</em> of your study will greatly affect whether or not you can do that.</p>
-<p>Experiments provide you with a research design that may allow you to make these cause-and-effect conclusions. If you design your study as an experiment, you will be able to control for certain variations and employ methods that give you certainty about what causes what and which event comes first. This is a huge strength of experimental design. When talking about causation or in evaluations, experimental design has features that mean that it is an optimal methodology for evaluation. Of course, this does <em>not</em> mean it’s the <em>only</em> appropriate design. But it’s one approach that we explore here.</p>
-<p>So, for your research design to be considered an experiment, the three criteria listed above should be met (the two comparison groups, the variation in the independent variable before the change in the dependent variable and the random assignment between the groups).</p>
+</details>
+<p>Experiments allow researchers to draw cause-and-effect conclusions by controlling for some variation and establishing which event occurs first — a key strength of experimental design. While <em>not</em> the only valid approach, it is especially powerful for evaluations. For a study to qualify as an experiment, it must include:</p>
+<ul>
+<li><p>Two comparison groups (treatment and control)</p></li>
+<li><p>Variation in the independent variable before changes in the dependent variable</p></li>
+<li><p>Random assignment to groups.</p></li>
+</ul>
 <p>Let’s talk about the two groups. These two groups are often called your <strong>treatment</strong> and your <strong>control</strong> groups because one group is administered some treatment (such as taking part in the intervention you are hoping to evaluate) while the other one receives the business-as-usual approach.</p>
-<p>Think back to the Philadelphia foot patrol video above: one group of street segments (treatment) received foot patrols, right? That’s where beats were drawn up to and where foot patrol officers went on their shifts, to do their thing, and keep the streets safe. But there was also another set of street segments, right? The ones that were assigned to the control groups did <em>not</em> receive foot patrol. Police still responded to calls for service, and everything went on as usual, but there was no patrol there - this is the control group.</p>
-<p>You then expose the treatment group to the intervention (the foot patrol). Then, if after this, you find that the two groups are <em>different</em> on the value of the independent variable (crime). But how can we know that this difference is because one group had the treatment and the other didn’t? Can’t it be that the groups would have changed differently because of another reason difference?</p>
+<p>In the Philadelphia foot patrol example, treatment areas received foot patrols, while control areas did not. You then expose the treatment group to the intervention (the foot patrol). After this, you might find that the two groups are <em>different</em> in terms of the value of the independent variable (crime). But how can we know this difference is because one group had the treatment and the other didn’t? Can’t it be that the groups would have changed differently because of another reason?</p>
 </div>
 </div>
 <div id="importance-of-randomisation" class="section level2 hasAnchor" number="5.4">
 <h2><span class="header-section-number">5.4</span> Importance of randomisation<a href="week5.html#importance-of-randomisation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This is why <strong>random assignment</strong> is important. Randomisation is what makes the comparison group in a true experiment a powerful approach for identifying the effects of the treatment. Assigning groups randomly to the experimental and comparison groups ensures that systematic bias does not affect the assignment of subjects to groups. This is important if researchers wish to generalise their findings regarding cause and effect among key variables within and across groups. Remember all our discussions around validity and reliability last week!</p>
+<p>This is why <strong>random assignment</strong> is important. This is why random assignment is crucial. It ensures that participants are assigned to treatment and control groups without bias, making the comparison fair and strengthening the ability to identify true treatment effects. Randomisation minimises systematic bias in assignment and differences between groups, enhancing the validity and reliability of causal conclusions and allowing researchers to generalise their findings with greater confidence.</p>
 <blockquote>
 <p>Consider the following criminal justice example. Two police precincts alike in all possible respects are chosen to participate in a study that examines fear of crime in neighborhoods. Both precincts would be pre-tested to obtain information on crime rates and citizen perceptions of crime. The experimental precinct would receive a treatment (i.e., increase in police patrols), while the comparison precinct would not receive a treatment. Then, twelve months later, both precincts would be post-tested to determine changes in crime rates and citizen perceptions.</p>
 </blockquote>
 <p>-<a href="http://law.jrank.org/pages/923/Criminology-Criminal-Justice-Research-Methods-Quantitative-research-methods.html">Criminology and Criminal Justice Research: Methods - Quantitative Research Methods</a></p>
-<p>You can read about these studies above for some examples of experiments in criminal justice research. The Philadelphia foot patrol experiment was just one of many. In particular, the Philadelphia foot patrol experiment is an example of a <strong>randomised control trial</strong>. You will have read about a few types of experimental design in your textbooks, but here, we will focus on this particular one. The randomised controlled trial (RCT for short) is often considered as the most rigorous method of determining whether a cause-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the process of randomisation, which is unique to this type of research study design.</p>
+<p>You can read about these studies above for some examples of experiments in criminal justice research. In particular, the Philadelphia foot patrol experiment is an example of a <strong>randomised control trial</strong>. You will have read about a few types of experimental design in your textbooks, but here, we will focus on this particular one. The randomised controlled trial (RCT for short) is often considered the most rigorous method of determining whether a cause-and-effect relationship exists between an intervention and outcome. The strength of the RCT lies in the randomisation process, which is unique to this type of research study design.</p>
 <p>Advantages</p>
 <ul>
 <li>Good randomisation will “wash out” any population bias</li>
-<li>Results can be analyzed with well-known statistical tools</li>
+<li>Results can be analysed with well-known statistical tools</li>
 <li>Populations of participating individuals are clearly identified</li>
 </ul>
 <p>Disadvantages</p>
@@ -588,41 +445,40 @@ the importance of separating confirmatory vs exploratory research.</p>
 <li>Expensive in terms of time and money</li>
 <li>Volunteer biases: the population that participates may not be representative of the whole</li>
 </ul>
-<div id="activity-5.3-random-assignment" class="section level3 hasAnchor" number="5.4.1">
-<h3><span class="header-section-number">5.4.1</span> Activity 5.3: Random assignment<a href="week5.html#activity-5.3-random-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>How does random assignment work? Well, we could achieve this by going old-school, and writing everyone’s name on a piece of paper, and drawing the names out of a hat. But here, we will use Excel’s ability to programmatically assign people into treatment or control groups. You are all Excel pros by now, with your formulas and your lookups and pivot tables. So, I might as well hone these skills some more.</p>
-<p>To have a random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let’s say we want to assign two groups. We want to assign people to a <strong>control group</strong> and a <strong>treatment group</strong>. Remember that the control and the treatment must be must be coming from the same sample, so that they are similar in all characteristics <em>except</em> in the particular thing you are interested in finding out the effect of. By random assignment, each person has the same probability of being in the treatment or the control group, and so there is no chance for systematic bias, as there would be, for example, if you were asking people to <em>self-select</em> into treatment or control. If people were given the chance to volunteer (<em>self-select</em>) it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.</p>
-<p>Let’s say we have our sample of people who will be assigned either to the treatment group receiving the Scared Straight treatment or the control group, who do not have to go through this treatment. Well, let’s say we have our class here. We’ve got a total of 100 students enrolled in the class. Go ahead and download this list from Blackboard. You can find it under the data folder for module week 5; it is called <code>student.xlsx</code>.</p>
-<p>Once you have downloaded the data, open it with Excel and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have 2 variables: FIRST NAME and LAST NAME.</p>
-<p>To assign people randomly to a group, we can use Excel’s <code>=RAND()</code> function. The Excel RAND function returns a random number between 0 and 1. For example, <code>=RAND()</code> will generate a number like 0.422245717. You might notice that this number will change - the <code>=RAND()</code> function recalculates when a worksheet is opened or changed. This will become important later.</p>
-<p>Give it a go. Create a new column called “random number” on our data. Now simply type <code>=RAND()</code> into the first cell and press Enter:</p>
+<div id="activity-random-assignment" class="section level3 hasAnchor" number="5.4.1">
+<h3><span class="header-section-number">5.4.1</span> Activity: Random assignment<a href="week5.html#activity-random-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>How does random assignment work? Well, we could achieve this by going old-school and writing everyone’s name on a piece of paper, and drawing the names out of a hat. But here, we will use Excel’s ability to assign people to treatment or control groups. You are all Excel pros by now, with your formulas and pivot tables. So, I might as well hone these skills some more.</p>
+<p>To have a random assignment to a group, each member of your sample has to have the same probability of being selected for each group. Let’s say we want to assign two groups. We want to assign people to a <strong>control group</strong> and a <strong>treatment group</strong>. Remember that the control and the treatment must be from the same sample, so that they are similar in all characteristics <em>except</em> in the particular thing you want to determine the effect of. By random assignment, each person has the same probability of being in the treatment or the control group. So there is no chance for systematic bias, as there would be, for example, if you were asking people to <em>self-select</em> into treatment or control. If people were given the chance to volunteer (<em>self-select</em>), it would leave open a possibility that people with certain traits are more likely to volunteer, and there might be some systematic differences between your two groups.</p>
+<p>Let’s say we have our sample of people who will be assigned either to the treatment group receiving the Scared Straight treatment or the control group, who do not have to go through this treatment. Well, let’s say we have our class here. We’ve got a total of 100 students enrolled in the class. Go ahead and download this list from Canvas. You can find it under the data folder for module learning materials week 5; it is called <code>student.xlsx</code>.</p>
+<p>Once you have downloaded the data, open it with Excel and have a look at it. You can see that we have 100 rows, one for each student. You can also see that we have two variables: FIRST NAME and LAST NAME.</p>
+<p>We can use Excel’s <code>=RAND()</code> function to assign people randomly to a group. The Excel RAND function returns a random number between 0 and 1. For example, <code>=RAND()</code> will generate a number like 0.422245717. You might notice that this number will change - the <code>=RAND()</code> function recalculates when a worksheet is opened or altered. This will become important later.</p>
+<p>Give it a go. Create a new column called “random number” in our data. Now type <code>=RAND()</code> into the first cell and press Enter:</p>
 <p><img src="imgs/type_rand.png" /></p>
 <p>When you hit enter, the formula will generate a random number between 0 and 1. Something like this:</p>
 <p><img src="imgs/first_rand.png" /></p>
-<p>Did you get a different number for Ella there than we did? Chances are, you did. This <code>RAND()</code> function generates a random number each time it is used. If we do this again (and try this on your data), it will give a different number. Give it a try. Go into the cell where you’ve typed =RAND(), and instead of exiting out of the formula with the tick mark next to the formula bar, just press enter again. You should now have another random number appear. Now drag the formula (press on the first cell you wrote the formula in, go to the bottom right corner, and double-click on the black plus sign that appears +) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this:</p>
+<p>Did you get a different number for Ella there than we did? Chances are, you did. This <code>RAND()</code> function generates a random number each time it is used. If we repeat this process (on the same data), we will obtain a different result. Give it a try. Go into the cell where you’ve typed =RAND(), then go to the formula bar at the top and press ENTER again. You should now have another random number appear. Now drag the formula (press on the first cell you wrote the formula in, go to the bottom right corner, and double-click on the black plus sign that appears +) to every single student in our sample. You will end up with a whole range of values, between 0 and 1, randomly assigned to everyone. Something like this:</p>
 <p><img src="imgs/rand_nums.png" /></p>
-<p>We can use these values, which have been <em>randomly</em> created, to assign students to a control or treatment group. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? Well, the bonus question was asking essentially, what value can you use, as a cut-off point, to make sure that 50% of your data gets put into one group and 50% of your data into the other group? This question should already be familiar to you, but let us re-phrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable?</p>
+<p>We can use these values, which have been <em>randomly</em> created, to assign students to a control or treatment group. Remember last week when we were doing some re-coding? Remember when we were recoding the numeric variable into a categorical one? And we left a little bonus question at the end? The bonus question essentially asked what value you can use as a cut-off point to ensure that 50% of your data goes into one group and 50% into the other. This question should already be familiar to you, but let us rephrase: what measure of central tendency cuts your data right in half based on considering the values on a numeric variable?</p>
 <p>Are you thinking <strong>median</strong>??</p>
 <p><img src="https://media.giphy.com/media/YcMs3OGd89Pxu/giphy.gif" /></p>
-<p>Nice work! Indeed, the median is the value that divides our data right smack in half. Now, are you starting to realise where I’m going with this? Basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the <code>=IF()</code> statements we were using last week to re-code data!</p>
-<p>How? Well, remember what we did to assign people to tall or short categorical variable values based on the numeric value for height? We decided that if a person is taller than average, they will be labelled “Tall” and “Short” if they are not. Then, what are the elements of our statement? We need to check <em>if</em> the person’s height is <em>greater than</em> the <em>average height</em>, and if it is, type “Tall”, else type “Short”. Remember now?</p>
-<p>We can apply this again here. To recap, we know that the <code>IF()</code> function takes 3 arguments. 1st, the logical statement that has to be either true or false. Then, the other 2 values that the <code>IF()</code> function needs are what to do if the statement is true and what to do if the statement is false.
-Altogether, your function will look like this:</p>
+<p>Nice work! Indeed, the median is the value that divides our data right smack in half. Now, basically, if you want to assign each student, based on this randomly assigned score, to either control or treatment groups, and we want to make sure that equal amounts of students go to either group, then what we can do is use the <code>=IF()</code> statements we were using last week to re-code data!</p>
+<p>How? Well, remember how we assigned people to tall or short categorical variable values based on their height? We decided that if a person is taller than average, they will be labelled “Tall”; otherwise, they will be labelled “Short”. Then, what are the elements of our statement? We need to check <em>if</em> the person’s height is <em>greater than</em> the <em>average height</em>, and if it is, type “Tall”, else type “Short”. Remember now?</p>
+<p>We can apply this again here. To recap, your function will look like this:</p>
 <p><code>=IF(condition, do if true, do if false)</code></p>
-<p>What is our condition here? Well, this time, we are using the median to divide our randomly assigned numbers into 2. We want to assign people into treatment or control if they are above or below the median in their randomly allocated number. This ensures the <em>random</em> element of the randomized control trial and that people have an equal probability of ending up in either group.</p>
-<p>Let’s say anyone with a random number above the median will be in the treatment group, and anyone with a random number below the median will be in the control group. What is our condition in this case? What is it that we are testing each number against?</p>
-<p>Well, in this case, we are testing people against whether their random number is greater than the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if the condition is true). On the other hand, if their random number is <strong>not</strong> greater than the median of all the random numbers, then they are assigned to the control group (what happens if the condition is false). If any of this is unclear to you at the moment, then please raise your hand and ask one of us to explain this.</p>
+<p>What is our condition here? Well, this time, we are using the median to divide our randomly assigned numbers into 2. We want to assign people to treatment or control based on whether their randomly allocated number is above or below the median. This ensures the <em>random</em> element of the randomised control trial and that people have an equal probability of ending up in either group.</p>
+<p>Let’s say anyone with a random number above the median will be in the treatment group, and anyone with a random number below the median will be in the control group. What is our condition in this case?</p>
+<p>In this case, we are testing whether people’s randomly assigned numbers exceed the median of all the random numbers. If their random number is greater than the median of all random numbers, then they are part of the treatment group (what happens if the condition is true). On the other hand, if their random number is <strong>not</strong> greater than the median of all the random numbers, then they are assigned to the control group (what happens if the condition is false). If any of this is unclear to you at the moment, then please raise your hand and ask one of us to explain this.</p>
 <p>Translated into Excel language, our formula is:</p>
 <p><code>=IF(random number value &gt; median(all random numbers), "Treatment", "Control")</code></p>
-<p>For example, for our first person in the list there, the formula will look like:</p>
+<p>For example, for our first person in the list, the formula will look like:</p>
 <p><code>=IF(C2 &gt; MEDIAN(C:C), "Treatment", "Control")</code></p>
 <p>As such :</p>
 <p><img src="imgs/first_rand_assig.png" /></p>
 <p>Hit ‘Enter’, and then copy the formatting all the way down so that everyone in the class has been assigned to the control and treatment groups.</p>
 <p>You should have something like this:</p>
 <p><img src="imgs/students_assigned.png" /></p>
-<p>Don’t worry if you don’t get the same values; as we said, this is <em>random</em> so you should not consistently get the same answers. In fact, you should get different ones from your friends next to you as well.</p>
-<p>One way that you can sense check your results is to have a look at your treatment and control groups. Let’s see how many students we have in each. You can use a Pivot Table to do this and create a <em>univariate</em> <em>frequency table</em> to look at this new “Group” variable.</p>
+<p>Don’t worry if you don’t get the same values; as we said, this is <em>random</em>, so you should not consistently get the same answers. In fact, you should get different ones from your friends next to you as well.</p>
+<p>One way to sense-check your results is to examine your treatment and control groups. Let’s see how many students we have in each. You can use a Pivot Table to do this and create a <em>univariate</em> <em>frequency table</em> to look at this new “Group” variable.</p>
 <p>You’ve built enough of these by now that you should be OK making this pivot table on your own, without guidance. If you get stuck on something, though, let us know!</p>
 <p>If all goes well, your pivot table should let you know that you have 50 students in your control group and that minus 100 (your total) students in your treatment group (also 50):</p>
 <p><img src="imgs/freq_groups.png" /></p>
@@ -642,27 +498,27 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 </div>
 <div id="note-freeze" class="section level3 hasAnchor" number="5.4.2">
 <h3><span class="header-section-number">5.4.2</span> Note: Freeze!<a href="week5.html#note-freeze" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Before you’re done here, there is one last thing to note. Remember when describing the <code>=RAND()</code> formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let’s say we’ve assigned everyone to treatment or control conditions, and then we save our worksheet to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. But if the random numbers are changed upon reopening, then the assigned groups will also change! Since we don’t want this, we want to somehow “freeze the values”.</p>
-<p>You can do this by highlighting the column and going to Formulas &gt; Calculation Options&gt; and selecting “Manual”:</p>
+<p>Before you’re done here, there is one last thing to note. Remember when describing the <code>=RAND()</code> formula, we mentioned that RAND recalculates when a worksheet is opened or changed? Now, let’s say we’ve assigned everyone to treatment or control conditions, and then we save our worksheet to return to it 12 months later. In 12 months, we may not wholly remember who was assigned to which group. However, if the random numbers are changed upon reopening, the assigned groups will also change. Since we don’t want this, we want to somehow “freeze the values”.</p>
+<p>You can do this by highlighting the GROUP column and going to Formulas &gt; Calculation Options&gt; and selecting “Manual”:</p>
 <p>On Mac:</p>
 <p><img src="imgs/calc_man.png" /></p>
 <p>And on PC:</p>
 <p><img src="imgs/pc_manual_calc_opt_2.png" /></p>
-<p>This way, you will be able to keep track of who was assigned to control and who was assigned to the treatment groups.</p>
+<p>This way, you can keep track of who was assigned to control and who was assigned to the treatment groups.</p>
 <div id="important-note" class="section level5 hasAnchor" number="5.4.2.0.1">
 <h5><span class="header-section-number">5.4.2.0.1</span> IMPORTANT NOTE!!!<a href="week5.html#important-note" class="anchor-section" aria-label="Anchor link to header"></a></h5>
-<p><strong>When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations otherwise your future formulas won’t update!</strong></p>
+<p><strong>When you have saved a static copy of your allocations, be sure to untick this to go back to Automatic calculations, otherwise your future formulas won’t update!</strong></p>
 </div>
 </div>
 </div>
 <div id="designing-your-study" class="section level2 hasAnchor" number="5.5">
 <h2><span class="header-section-number">5.5</span> Designing your study<a href="week5.html#designing-your-study" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your <strong>research design</strong>. This is important not only to make sure you have all the resources (time, finding, staff/people power) to complete your study but also so you have a clear idea of your expected outcomes, and you communicate this to yourself, your research team, and the wider scientific community.</p>
+<p>Once you have an idea for your study, even before you select your participants and assign them to their groups (treatment vs control), you need a very clear, very solid plan of action for how you will conduct this study. This is called your <strong>research design</strong>. This is important not only to ensure you have all the necessary resources (time, funding, staff/people power) to complete your study but also to provide a clear understanding of your expected outcomes, which you can then communicate to yourself, your research team, and the wider scientific community.</p>
 <div id="pre-registration-committing-to-your-research-plan" class="section level3 hasAnchor" number="5.5.1">
 <h3><span class="header-section-number">5.5.1</span> Pre-registration: committing to your research plan<a href="week5.html#pre-registration-committing-to-your-research-plan" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Pre-registration makes your science better by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier and facilitates your planning for better research.</p>
+<p>Pre-registration enhances the quality of your science by increasing the credibility of your results. It allows you to stake your claim to your ideas earlier, facilitating better research planning.</p>
 <p>When you preregister your research, you’re simply specifying your research plan in advance of your study and submitting it to a registry. This will help to improve your research. By writing out specific details such as data collection methods, analysis plans, and rules for data exclusion, you can make important decisions early on and have a clear record of these choices. This can help reduce biases that occur once the data are in front of you.</p>
-<p>Preregistration further separates hypothesis-generating (<strong>exploratory</strong>) from hypothesis-testing (<strong>confirmatory</strong>) research. Both are important. But the same data cannot be used to generate and test a hypothesis, which can happen unintentionally and reduce the credibility of your results. Addressing this problem through planning improves the quality and transparency of your research. This helps you clearly report your study and helps others who may wish to build on it.</p>
+<p>Preregistration further separates hypothesis-generating (<strong>exploratory</strong>) from hypothesis-testing (<strong>confirmatory</strong>) research. Both are important. But the same data cannot be used to generate and test a hypothesis, which can happen unintentionally and reduce the credibility of your results. Addressing this problem through planning improves the quality and transparency of your research. This helps you clearly report your study, enabling others to build on it.</p>
 <p>Let’s explore the difference between the two.</p>
 <div id="confirmatory-vs-exploratory-research" class="section level4 hasAnchor" number="5.5.1.1">
 <h4><span class="header-section-number">5.5.1.1</span> Confirmatory vs Exploratory Research<a href="week5.html#confirmatory-vs-exploratory-research" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -671,7 +527,7 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>Hypothesis testing</li>
 <li>Results are held to the highest standards</li>
 <li>Data-independent</li>
-<li>Minimizes false positives</li>
+<li>Minimises false positives</li>
 <li>P-values retain diagnostic value</li>
 <li>Inferences may be drawn to the wider population</li>
 </ul>
@@ -680,17 +536,17 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>Hypothesis generating</li>
 <li>Results deserve to be replicated and confirmed</li>
 <li>Data-dependent</li>
-<li>Minimizes false negatives in order to find unexpected discoveries</li>
+<li>Minimises false negatives in order to find unexpected discoveries</li>
 <li>P-values lose diagnostic value</li>
 <li>Not useful for making inferences to any wider population</li>
 </ul>
-<p>It is important that you are clear from the start about the type of research you want to carry out, and planning and pre-registration can really help with that!</p>
-<p>The <a href="https://the-turing-way.netlify.app/welcome.html">Turing Way</a>, an open-source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a nice (beautifully illustrated!) <a href="https://the-turing-way.netlify.app/project-design/project-design.html">Guide to Research Design</a> that you can take time to scroll through to explore some guidance around research resign.</p>
-<p>Specifically, here, we will look at a tool that can help you understand what is required at each stage of the research process. To help you break down your tasks into individual elements, and to be able to assign a time element to each one, to be able to more accurately estimate the time it will take you to carry out your study, you can use all sorts of project planning tools. One of these is a Gantt chart. We will illustrate the use of a Gantt chart here through planning an RCT to evaluate the effectiveness of the Scared Straight programme. However, you can use a Gantt chart to plan any sort of research project. You could even use it to plan your dissertations next year!</p>
+<p>It is important that you are clear from the start about the type of research you want to carry out, and planning can really help with that!</p>
+<p>The Turing Way, an open-source community-driven guide to reproducible, ethical, inclusive and collaborative data science, have a (beautifully illustrated!) <a href="https://the-turing-way.netlify.app/project-design/project-design.html">Guide to Research Design</a> that you can take time to scroll through.</p>
+<p>Here, we’ll explore a tool to help you organise and manage each stage of your research process. By breaking your project into individual tasks and assigning timeframes, you can better estimate how long your study will take. One effective project planning tool for this is a Gantt chart. We’ll demonstrate its use by planning an RCT evaluating the Scared Straight program — but Gantt charts can be applied to any research project, including your future dissertation.</p>
 </div>
 <div id="what-is-a-gantt-chart" class="section level4 hasAnchor" number="5.5.1.2">
 <h4><span class="header-section-number">5.5.1.2</span> What is a Gantt chart?<a href="week5.html#what-is-a-gantt-chart" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities, and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflect the start date, duration and end date of the activity. This allows you to see at a glance:</p>
+<p>A Gantt chart, commonly used in project management, is one of the most popular and practical ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of activities, and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflect the start date, duration and end date of the activity. This allows you to see at a glance:</p>
 <ul>
 <li>What the various activities are</li>
 <li>When each activity begins and ends</li>
@@ -698,7 +554,7 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>Where activities overlap with other activities, and by how much</li>
 <li>The start and end date of the whole project</li>
 </ul>
-<p>To summarize, a Gantt chart shows you what has to be done (the activities) and when (the schedule). It looks like this:</p>
+<p>To summarise, a Gantt chart shows you what has to be done (the activities) and when (the schedule). It looks like this:</p>
 <p><img src="https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/2excel-gantt-chart-temp1.jpg" /></p>
 <p>To be able to build a Gantt chart, you need to know the following about your project:</p>
 <ul>
@@ -706,13 +562,13 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>The length of time available for the whole project</li>
 <li>Approximate start and finish dates for the individual tasks</li>
 </ul>
-<p>Gantt charts can help you make sure that your project is feasible in the time you have. It can also be a way for you to think about all the tasks that are involved with your project. The goal is for you to identify overarching tasks (e.g., “data collection”) and be able to sub-divide into the individual elements that make up that task (e.g., “identify population”, “plan sampling strategy”, “recruit sample”, “deploy survey”, “collect completed surveys”, “input data into excel”). Once you consider each element required for you to complete a particular part of your project, you can start thinking about how long each will take and how feasible it is within your given set of resources (including your time).</p>
-<p>How is this helpful in research design? Well, let’s consider the example of designing an RCT to evaluate Scared Straight. To be able to carry out this RCT, we need to grab a basic outline for one and turn it into a Gantt chart. Then, we can assess how long this will take, what resources we will need, and whether or not this would be feasible for us to carry out.</p>
+<p>Gantt charts help ensure your project is feasible within the available time and resources. They prompt you to identify major tasks (e.g., data collection) and break them into smaller steps (e.g., identify population, plan sampling, recruit participants, deploy survey, collect responses, enter data). Estimating the time and resources needed for each step helps you assess feasibility and plan efficiently.</p>
+<p>In research design, this is invaluable. For instance, when planning an RCT to evaluate Scared Straight, turning the project outline into a Gantt chart allows you to visualise the timeline, required resources, and overall practicality of conducting the study.</p>
 <p>Let’s start with the basic outline.</p>
 </div>
 </div>
-<div id="activity-5.4-research-planning-with-gantt-charts-design-an-rct-example" class="section level3 hasAnchor" number="5.5.2">
-<h3><span class="header-section-number">5.5.2</span> Activity 5.4: Research Planning with Gantt Charts: Design an RCT example<a href="week5.html#activity-5.4-research-planning-with-gantt-charts-design-an-rct-example" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-research-planning-with-gantt-charts-design-an-rct-example" class="section level3 hasAnchor" number="5.5.2">
+<h3><span class="header-section-number">5.5.2</span> Activity: Research Planning with Gantt Charts: Design an RCT example<a href="week5.html#activity-research-planning-with-gantt-charts-design-an-rct-example" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In this activity, we’re going to plan an RCT using a Gantt Chart.</p>
 <p>The basic outline of the design of a randomised controlled trial will vary from trial to trial. It depends on many, many factors. The rough outline for our research design will follow something like this:</p>
 <ul>
@@ -721,10 +577,10 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>Data analysis</li>
 <li>Writing up of results</li>
 </ul>
-<p>This is not necessarily always a linear process. It can be that after data analysis, you return for more data collection or even go back to the conceptualisation stage. But as we mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?</p>
-<p>Well, let’s try to build a Gantt chart with just these elements first to illustrate. As seen above, you need to know the approximate duration of your project, the tasks, and how long they will take.</p>
+<p>This is not necessarily always a linear process. It can be that after data analysis, you return for more data collection or even go back to the conceptualisation stage. But as we mentioned above, the Gantt chart aims to break down these tasks into the smallest possible components. Why is this?</p>
+<p>Let’s start by building a Gantt chart with just these elements to illustrate. As seen above, you need to know the approximate duration of your project, including the tasks and their respective time requirements.</p>
 <p>Let’s say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about operationalisation and data collection or data analysis? Please take a moment to think about this and discuss it in small groups.</p>
-<p>Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as “data analysis” will take would be an incredibly tough task, even for the most seasoned researcher. Instead, the way to be able to better guestimate the length of tasks is to break them into their components, which can give you a better indicator of how long things will take.</p>
+<p>Was it difficult to estimate? Why would you think that is? Would it be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and estimating the time required for something as vague as “data analysis” is an incredibly tough task, even for the most seasoned researcher. Instead, to better estimate the length of tasks, break them into their components, which can give you a better indicator of how long things will take.</p>
 <p>Let’s try this for the Scared Straight RCT.</p>
 <p>Let’s start with our main overarching categories for the above, but break each one down into its components. Something like this:</p>
 <ul>
@@ -761,56 +617,72 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <li>Final write-up of results</li>
 </ul></li>
 </ul>
-<p>So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have.</p>
-<p>This exercise is aimed to help you get thinking about projects in this way, but also to illustrate, once you have the above information for a project, how you can draw it up into a visual timeline that can help you plan your research project, and make sure that it runs on time. So, let’s build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us.</p>
-<p>First, you will have to open a new Excel spreadsheet. Just a blank one. We’ll be building our Gantt chart from scratch.</p>
-<p>So once you have your blank Excel sheet, create 4 columns:</p>
-<ul>
-<li>Task</li>
-<li>Start date</li>
-<li>End date</li>
-<li>Duration</li>
-</ul>
-<p>Something like this:</p>
-<p><img src="imgs/gantt_headers.png" /></p>
-<p>The <em>Task</em> column refers to each individual activity, which are the detailed steps that we have to take, in order to be able to complete our project. These are all the activities that we’ve broken the tasks into. If we were considering this Gantt chart table as a data set, you can now begin to guess that our unit of analysis is the <em>task</em>. Each activity we have to do is one row. These include the bigger group that each sub-task belongs to and the sub-tasks themselves. This will be meaningful later on.</p>
-<p>In the other columns, <em>start date</em>, <em>end date</em>, and <em>duration</em>, we will record the temporal information around each task - that is - when will it start? When will it end? How long will it take?</p>
-<p>So, as a first step, let’s populate the <em>task</em> column. You can copy and paste from the list above. It should look something like this:</p>
-<p><img src="imgs/task_subtask_pop.png" /></p>
-<p>Great, now how will we populate the start date and end date columns? This is where the Gantt chart is very much a tool for you to plan your research project. How can we know how long will something take? The short answer is we can’t. We don’t have a crystal ball. But we can <em>guess</em>. We can start with the project start date (or if you work better counting backwards, you can start with the project end date if it’s a known hard deadline), and then just try to estimate how long each phase will take to complete, and when we can start the next.</p>
-<p>Tasks can run simultaneously. You don’t always have to wait for one task to finish before you start the next. Sometimes, one task needs to be finished before the next one starts; for example, you cannot begin data analysis until you have finished data collection. On the other hand, you can (and should) begin writing while still continuing your data analysis. So you can have temporal overlap - or be working on multiple projects at once.</p>
-<p>Now, let’s say that we are starting our Scared Straight evaluation quite soon; we have a start date of the 1st of November. Using some very rough guessing and <a href="https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct">this proposed outline</a> for RCTs, we can come up with a tentative timeline:</p>
-<ul>
-<li>Background/review of published literature: 01/11/20 to 01/12/20</li>
-<li>Formulation of hypotheses 01/12/20 07/12/20</li>
-<li>Set the objectives of the trial 02/12/20 08/12/20</li>
-<li>Development of a comprehensive study protocol 08/12/20 to 18/12/20</li>
-<li>Ethical considerations 08/12/20 to 18/12/20</li>
-<li>Sample size calculations 18/12/20 to 19/12/20</li>
-<li>Define reference population 18/12/20 to 28/12/20</li>
-<li>Define the way variables will be measured 28/12/20 to 07/01/21</li>
-<li>Choose comparison treatment (what happens to the control group) 01/01/21 to 07/01/21</li>
-<li>Selection of intervention and control groups, including source, inclusion and exclusion criteria, and methods of recruitment 18/01/21 to 21/01/21</li>
-<li>Informed consent procedures 22/01/21 to 23/01/21</li>
-<li>Collection of baseline measurements, including all variables considered or known to affect the outcome(s) of interest 23/01/21 to 23/01/21</li>
-<li>Random allocation of study participants to treatment groups (standard or placebo vs. new) 21/01/21 to 23/01/21</li>
-<li>Follow-up of all treatment groups, with the assessment of outcomes continuously or intermittently 24/01/21 to 23/01/22</li>
-<li>Descriptive analysis 24/01/22 to 24/02/22</li>
-<li>Comparison of treatment groups 30/01/22 to 24/02/22</li>
-<li>Interpretation (assess the strength of the effect, alternative explanations such as sampling variation, bias) 20/02/22 to 20/03/22</li>
-<li>First draft 20/03/22 to 25/03/22</li>
-<li>Get feedback &amp; make changes 25/03/22 to 05/04/22</li>
-<li>Final write-up of results 05/04/22 to 30/04/22</li>
-</ul>
-<p>You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself and come up with how long you think each stage will take you.</p>
-<p>Notice that we did not give a start or end time to the <em>overarching categories</em> of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results. We mentioned earlier that these categories are so vague, that it becomes a very difficult task indeed to be able to guess their duration. Instead, we break them down into smaller tasks and calculate those. Well, to get the start and end date for the overarching tasks, you just need the first start date for the first task and the last end date for the last task that belongs to this overarching group. How can we find this? Well, we can use the <code>=MIN()</code> and the <code>=MAX()</code> functions in Excel.</p>
-<p><img src="imgs/%20gantt_min.png" /></p>
+<p>So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups?</p>
+<!-- What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. -->
+<p>This exercise aims to help you think about projects in this way, while also illustrating how to create a visual timeline from the above information. This timeline can aid in planning your research project and ensuring it runs on time. So, let’s build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us.</p>
+<p>If you were doing this for your own project, you would have to write down all the tasks in Excel. For this example, the tasks have been written for you. You can download this from Canvas, Learning materials for week 5, Gantt_chart_example.xlsx.</p>
+<p>The example you downloaded has 4 columns:
+- Task
+- Start date
+- End date
+- Duration</p>
+<p>The <em>Task</em> column refers to each activity, which are the detailed steps that we have to take, in order to be able to complete our project. These are all the activities that we’ve broken the tasks into. If we were considering this Gantt chart table as a data set, you can now begin to guess that our unit of analysis is the <em>task</em>. Each activity we have to do is one row. These include the bigger group that each sub-task belongs to and the sub-tasks themselves. This will be meaningful later on.</p>
+<p>In the other columns, <em>start date</em>, <em>end date</em>, and <em>duration</em>, the temporal information around each task is recorded. The Gantt chart serves as a tool to help you plan your research project. Great, but how can we know how long something will take? We don’t have a crystal ball. But we can <em>guess</em>. We can start with the project start date (or if you work better, counting backwards, you can start with the project end date if it’s a known hard deadline), and then just try to estimate how long each phase will take to complete, and when we can start the next.</p>
+<p>Tasks can run simultaneously. You don’t always have to wait for one task to finish before you start the next. Sometimes, one task needs to be completed before the next one starts; for example, you cannot begin data analysis until you have finished data collection. On the other hand, you can (and should) start writing while continuing your data analysis. So, you can have temporal overlap or work on multiple projects simultaneously.</p>
+<p>The example provided in the downloaded Excel sheet used some very rough guessing and <a href="https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct">this proposed outline</a> for RCTs, to come up with a tentative timeline. You can change the proposed timeline and come up with how long you think each stage will take you.</p>
+<p><img src="imgs/Gantt_chart_ex_w5.png" /></p>
+<!-- First, you will have to open a new Excel spreadsheet. Just a blank one. We'll be building our Gantt chart from scratch. 
+So once you have your blank Excel sheet, create 4 columns:
+
+- Task
+- Start date
+- End date
+- Duration
+
+Something like this: 
+![](imgs/gantt_headers.png)
+
+The *Task* column refers to each individual activity, which are the detailed steps that we have to take, in order to be able to complete our project. These are all the activities that we've broken the tasks into. If we were considering this Gantt chart table as a data set, you can now begin to guess that our unit of analysis is the *task*. Each activity we have to do is one row. These include the bigger group that each sub-task belongs to and the sub-tasks themselves. This will be meaningful later on. 
+In the other columns, *start date*, *end date*, and *duration*, we will record the temporal information around each task - that is - when will it start? When will it end? How long will it take?
+
+So, as a first step, let's populate the *task* column. You can copy and paste from the list above. It should look something like this: 
+
+![](imgs/task_subtask_pop.png)
+
+Great, now how will we populate the start date and end date columns? This is where the Gantt chart is very much a tool for you to plan your research project. How can we know how long will something take? The short answer is we can't.  We don't have a crystal ball. But we can *guess*. We can start with the project start date (or if you work better counting backwards, you can start with the project end date if it's a known hard deadline), and then just try to estimate how long each phase will take to complete, and when we can start the next. 
+Tasks can run simultaneously. You don't always have to wait for one task to finish before you start the next. Sometimes, one task needs to be finished before the next one starts; for example, you cannot begin data analysis until you have finished data collection. On the other hand, you can (and should) begin writing while still continuing your data analysis. So you can have temporal overlap - or be working on multiple projects at once. 
+Now, let's say that we are starting our Scared Straight evaluation quite soon; we have a start date of the 1st of November. Using some very rough guessing and [this proposed outline](https://www.healthknowledge.org.uk/e-learning/epidemiology/practitioners/introduction-study-design-is-rct) for RCTs, we can come up with a tentative timeline:
+- Background/review of published literature:    01/11/20    to 01/12/20
+- Formulation of hypotheses 01/12/20    07/12/20
+- Set the objectives of the trial   02/12/20    08/12/20
+- Development of a comprehensive study protocol 08/12/20 to 18/12/20
+- Ethical considerations    08/12/20 to 18/12/20
+- Sample size calculations  18/12/20 to 19/12/20
+- Define reference population   18/12/20 to 28/12/20
+- Define the way variables will be measured 28/12/20 to 07/01/21
+- Choose comparison treatment (what happens to the control group)   01/01/21 to 07/01/21
+- Selection of intervention and control groups, including source, inclusion and exclusion criteria, and methods of recruitment  18/01/21 to 21/01/21
+- Informed consent procedures   22/01/21 to 23/01/21
+- Collection of baseline measurements, including all variables considered or known to affect the outcome(s) of interest 23/01/21 to 23/01/21
+- Random allocation of study participants to treatment groups (standard or placebo vs. new) 21/01/21 to 23/01/21
+- Follow-up of all treatment groups, with the assessment of outcomes continuously or intermittently 24/01/21 to 23/01/22
+- Descriptive analysis  24/01/22 to 24/02/22
+- Comparison of treatment groups    30/01/22 to 24/02/22
+ - Interpretation (assess the strength of the effect, alternative explanations such as sampling variation, bias)    20/02/22 to 20/03/22
+- First draft   20/03/22 to 25/03/22
+- Get feedback & make changes   25/03/22 to 05/04/22
+- Final write-up of results 05/04/22 to 30/04/22
+
+You should be able to copy this over into Excel if you roughly agree with these time scales. If not, you can do this yourself and come up with how long you think each stage will take you. -->
+<p>Notice that we did not give a start or end time to the <em>overarching categories</em> of planning and conceptualisation, operationalisation and data collection, data analysis, and writing up of results. We mentioned earlier that these categories are so vague that it becomes a challenging task to guess their duration. Instead, we break them down into smaller tasks and calculate those. Well, to determine the start and end dates for the overarching tasks, simply use the first start date of the first task and the last end date of the last task within this overarching group. How can we find this? Well, we can use the <code>=MIN()</code> and the <code>=MAX()</code> functions in Excel.</p>
+<p><img src="imgs/%20ganttmin.png" /></p>
 <p><img src="imgs/gantt_max.png" /></p>
-<p>Make sure that you only select the sub-tasks that belong to each individual overarching task. So, for example, for Planning and conceptualisation, only select up until “Ethical considerations” and <em>do not</em> also include the “Operationalisation and data collection” stage!</p>
-<p>Once you have all your start and end dates, your table should look something like this:</p>
-<p><img src="imgs/gantt_start_end.png" /></p>
-<p>You might find that Excel changes the formatting of your dates in some of the cells, as mine did on the first 8 rows. You can see in those the date is formatted as 01-Dec, for example, whereas later, it is formatted the way we entered it, such as 22/01/19. This is because Excel <em>knows</em> that the value you are entering here is a <em>date</em>. It doesn’t just think you’re entering some weird words; it deduces that if what you are entering follows this rough format of 2 digits/ 2 digits / 2 digits, then it’s likely to be a date. This is really handy because you can do calculations on these cells now, which you would not be able to do if Excel had just thought that these were weird words. We will take advantage of this to calculate the duration column here. Do you really want to count how many days are between the start and end date? Well, in some cases, it might be easy. It could be that you thought, “Well, I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January”, but often you will have deadlines, that you need to work towards, or you might want to double-check that you are counting correctly. In any case, to get the last, <em>duration</em> column, you can simply use an equation where you subtract the start date from the end date, and you get the number of days that are in-between. Isn’t that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then!</p>
-<p>Right, back to our dates, so remember, all formulas start with the <code>=</code> equation, and here, all we are doing is subtracting the value of one cell (start date) from another cell (end-date). Like so:</p>
+<p>Ensure you only select sub-tasks that belong to each individual overarching task. So, for example, for Planning and conceptualisation, only select up until “Ethical considerations” and <em>do not</em> also include the “Operationalisation and data collection” stage!</p>
+<p>Excel may automatically reformat your dates (e.g., showing 01-Dec instead of 22/01/19) because it recognises entries in the dd/mm/yy pattern as dates. If your Start and End date columns are not formatted accordingly, now is the time to rectify that, using the Format option. This is useful, as it allows you to perform calculations with those cells—something you couldn’t do if Excel treated them as plain text. We will take advantage of this to calculate the duration column here.</p>
+<p>For example, to calculate the duration between two dates, simply subtract the start date from the end date. Excel will return the number of days between them—handy for planning tasks like assigning participants to treatment and control groups. We’ll explore more date-related Excel tricks in week 9!</p>
+<!--You might find that Excel changes the formatting of your dates in some of the cells. You can see in those the date is formatted as 01-Dec, for example, whereas later, it is formatted the way we entered it, such as 22/01/19. This is because Excel *knows* that the value you are entering here is a *date*.  It doesn't just think you're entering some weird words; it deduces that if what you are entering follows this rough format of 2 digits/ 2 digits / 2 digits, then it's likely to be a date. This is really handy because you can do calculations on these cells now, which you would not be able to do if Excel had just thought that these were weird words. 
+We will take advantage of this to calculate the duration column here. Do you really want to count how many days are between the start and end date? Well, in some cases, it might be easy. It could be that you thought, "Well, I will start my random allocation of study participants into treatment and control groups on the 21st of January, and I think it will take about 2 days to do this, so I will end on the 23rd of January", but often you will have deadlines, that you need to work towards, or you might want to double-check that you are counting correctly. In any case, to get the last, *duration* column, you can simply use an equation where you subtract the start date from the end date, and you get the number of days that are in-between. Isn't that neat? You can simply apply some simple maths notations to your date data in Excel, and you get meaningful results, such as the number of days that exist between two dates! We will play around more with dates and such in week 9 of this course, so you can see some more date-related tricks then! -->
+<p>Right, back to our dates, so remember, all formulas start with the <code>=</code> equation, and here, all we are doing is subtracting the value of one cell (start date) from another cell (end date). Like so:</p>
 <p><img src="imgs/calc_dur.png" /></p>
 <p>Copy and paste the formatting all the way down, and ta-daa, you have your column for the duration of each task:</p>
 <p><img src="imgs/all_cols_gantt.png" /></p>
@@ -857,14 +729,17 @@ Now you've been exposed to either the treatment or the control condition. I'll b
 <p><img src="https://img.officetimeline.com/website/Content/images/articles/gantt-chart/5_select-data-source.png" /></p>
 <p>When you then select the column with the tasks in it and click OK, it should label your tasks properly now:</p>
 <p><img src="imgs/gantt_labelled.png" /></p>
-<p>Now, your Gantt chart is basically ready. It can be that yours looks sort of in a different order. If this is the case, go back to your data and sort it in the “End date” column. If you do this, then you will have your first tasks at your top and the last tasks at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find it the most helpful. For example, here’s mine:</p>
+<p>Now, your Gantt chart is basically ready. Yours may look a bit different. If this is the case, return to your data and sort it by the “End date” column. If you do this, then you will have your first tasks at the top and the last task at the bottom. This should help you plan your tasks. You can take some time to edit your Gantt chart formatting to make it look the way that you would find most helpful. For example, here’s mine:</p>
 <p><img src="imgs/final_gantt.png" /></p>
-<p>So what’s going to take the longest? As you can see there, the longest duration is for the operationalisation and data collection tab. It’s an overarching category, but there are not any sub-tasks associated with it for the majority of its duration. Well, the thing is, even though we have not actively collected data for that long period, we are still in the data-collection phase. Can you think why?</p>
+<p>So what’s going to take the longest? As you can see there, the longest duration is for the operationalisation and data collection tab. It’s an overarching category, but there are no sub-tasks associated with it for the majority of its duration. Well, the thing is, even though we have not actively collected data for that long period, we are still in the data-collection phase. Can you think why?</p>
 <p>We want to know if Scared Straight works on reducing offending, right? For this, we need to recruit our people, assign them to a control and a treatment group, and then <em>wait for a pre-determined amount of time</em> before we can collect the follow-up data - or the <em>after</em> data. Remember, back to conceptualisation. How do we conceptualise re-offending? Well, in this case, we conceptualise it as if the person has offended in the 12 months following taking part in the Scared Straight programme. Because of this, we have to wait 12 months until we collect our “after” data.</p>
-<p>Planning is a very important part of the research project, and the research design which you pick will greatly affect your research plan. Think about whether we should consider a one-time survey instead. We could ask people - “have you ever taken part in a scared straight programme?” And then ask them, “Have you offended in the last 12 months?”. But this is a <strong>cross-sectional</strong> study design, in which we only take measurements at one point in time. This is a very different study design, and the advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings. However, you can also imagine how it would be an easier study to carry out, right? The data collection part of your Gantt chart there would reduce significantly, from over 12 months to something much shorter, just the length of time it takes to conduct one survey.</p>
-<p>Hopefully, you are beginning to get an idea of the nuances of finding your optimal research design. To a certain extent, this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. However, RCTs are not the only way to achieve causal inference; of course, there are many other methods and study designs you might be able to use.</p>
+<p>Planning is a crucial part of any research project, and your chosen research design directly shapes that plan. For instance, instead of running an RCT on the Scared Straight program, you might conduct a cross-sectional survey—asking participants if they’ve taken part in the program and whether they’ve offended in the past year. While much simpler and faster to complete, this design only captures data at one point in time and cannot determine cause and effect as effectively as an RCT. The advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings.</p>
+<p>Choosing the optimal design depends on your research question. If you aim to test whether Scared Straight truly works, an RCT is ideal. However, it’s not the only method for exploring causal relationships—many other designs can also yield valuable insights.</p>
+<!-- Planning is a very important part of the research project, and the research design which you pick will greatly affect your research plan. Think about whether we should consider a one-time survey instead. We could ask people - "have you ever taken part in a scared straight programme?" And then ask them, "Have you offended in the last 12 months?". But this is a **cross-sectional** study design, in which we only take measurements at one point in time. This is a very different study design, and the advantages of an RCT over a cross-sectional survey in terms of determining the effect of an intervention are widely discussed in your readings. However, you can also imagine how it would be an easier study to carry out, right? The data collection part of your Gantt chart there would reduce significantly, from over 12 months to something much shorter, just the length of time it takes to conduct one survey. 
+Hopefully, you are beginning to get an idea of the nuances of finding your optimal research design. To a certain extent, this is dictated by your research question. If you want to know whether scared straight works or not, and you want to design a study to assess this, an RCT might be your ideal way forward. However, RCTs are not the only way to achieve causal inference; of course, there are many other methods and study designs you might be able to use. -->
 <p>For example, in the paper <a href="https://science.sciencemag.org/content/early/2020/10/07/science.abb6591/tab-pdf">‘Behavioral nudges reduce failure to appear for court’</a>, Alissa Fishbane and colleagues take advantage of a gradual roll-out of intervention and use <a href="https://methods.sagepub.com/reference/encyc-of-research-design/n375.xml">regression discontinuity</a> approach to find that re-wording a court summons actually helps people turn up for their court date, and reduces arrests!</p>
-<p>So, there are many research designs, and you want to think about which one best fits your research questions. However, there are other things to consider around your access to resources and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT, but you are doing this in the context of your 3rd-year dissertation project, which has a much shorter timeline than required - in this case, you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data and missing data!</p>
+<p>There are many research designs to choose from, and the best one depends on your research question, available resources, and feasibility. For example, while an RCT might be ideal, it may not be practical within the limited timeframe of a third-year dissertation. In that case, you may need to adjust your design — and possibly your research question — to fit your constraints. If your focus is on factors influencing reoffending over an extended period, a longitudinal design may be more appropriate than an experiment. Next, we’ll explore this design further and introduce two key concepts: linking data and missing data.</p>
+<!-- So, there are many research designs, and you want to think about which one best fits your research questions. However, there are other things to consider around your access to resources and the feasibility of the study you propose within your given constraints - maybe you want to plan an RCT, but you are doing this in the context of your 3rd-year dissertation project, which has a much shorter timeline than required - in this case, you might need to re-think your research design to fit within your constraints, and that may affect the kind of research questions you might be able to answer. Maybe you are concerned about the effect of other things on reoffending that are difficult to implement into an intervention programme. It might be something you need to observe over a long time, much longer than an experiment might allow. In this case, maybe a longitudinal design is what you are after. We will now introduce longitudinal research design to learn about two more important concepts: linking data and missing data! -->
 </div>
 </div>
 <div id="longitudinal-data" class="section level2 hasAnchor" number="5.6">
@@ -1022,23 +897,23 @@ A longitudinal study generally yields multiple or “repeated” measurements on
 <p><img src="imgs/final_cc_ct.png" /></p>
 <p>And you can even get fancy and plot this change over time to emphasise that; indeed, there is an increase in the percentage of respondents who answer yes to trying cannabis wave on wave:</p>
 <p><img src="imgs/incr_yes_can.png" /></p>
-<p>We’ll do more plotting and visualisation after reading week when we have our data viz session.</p>
+<p>We’ll do more plotting and visualisation in future weeks.</p>
 </div>
 </div>
 <div id="ethics" class="section level2 hasAnchor" number="5.7">
 <h2><span class="header-section-number">5.7</span> Ethics<a href="week5.html#ethics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>We wanted to leave you with a final note on research ethics. It’s an essential part of your research design that you consider the ethical implications of your study, both on your participants, on your researchers (including yourself), and on the wider community.</p>
+<p>We wanted to leave you with a final note on research ethics. It’s an essential part of your research design that you consider the ethical implications of your study, both on your participants, your researchers (including yourself), and the wider community.</p>
 <p>Watch <a href="https://www.youtube.com/watch?v=nX4c3V23DZI">this 8-minute video that gives a good introduction to research ethics</a>, and pay particular attention to the concepts of:</p>
 <ul>
 <li>informed consent</li>
 <li>beneficence (benefits and harms to society)</li>
 <li>justice</li>
 </ul>
-<p>The “IRB” section is specific to the USA; however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate through this tool to determine whether or not your research requires ethical approval. You can access the tool and read more about the university’s ethics procedures <a href="https://www.manchester.ac.uk/research/environment/governance/ethics/">here</a>.</p>
+<p>The “IRB” section is specific to the USA; however, we also have our own code of ethics, and all research needs to undergo an ethical review. Internally, the University of Manchester has created an ethics decision tool. You can navigate this tool to determine whether or not your research requires ethical approval. You can access the tool and read more about the university’s ethics procedures <a href="https://www.manchester.ac.uk/research/environment/governance/ethics/">here</a>.</p>
 </div>
 <div id="summary-4" class="section level2 hasAnchor" number="5.8">
 <h2><span class="header-section-number">5.8</span> Summary<a href="week5.html#summary-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In sum, you should now be able to think about the research design that you either need to create to collect data or that someone else has created in order to collect the data that you are working with. Many decisions go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment; when you use longitudinal data, you will have to join the data sets collected at different points in time and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer and what analysis you can carry out. You should be comfortable with the following terms:</p>
+<p>In sum, you should now be able to think about the research design that you either need to create to collect data or that someone else has created to collect the data that you are working with. Many decisions go into designing a research study, and there are pros and cons associated with each approach. When you use randomised control trials, you have to consider the random assignment; when you use longitudinal data, you will have to join the data sets collected at different points in time and think about things like attrition. The study design has implications for what research questions the data you collect will allow you to answer and what analysis you can carry out. You should be comfortable with the following terms:</p>
 <ul>
 <li>dependent (response/ outcome) variable</li>
 <li>independent (predictor) variable</li>
@@ -1066,8 +941,8 @@ A longitudinal study generally yields multiple or “repeated” measurements on
           </div>
         </div>
       </div>
-<a href="week4.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="week6.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="week4.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
