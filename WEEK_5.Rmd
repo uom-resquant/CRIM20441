@@ -428,10 +428,10 @@ The basic outline of the design of a randomised controlled trial will vary from 
 
 
 
-This is not necessarily always a linear process. It can be that after data analysis, you return for more data collection or even go back to the conceptualisation stage. But as we mentioned above, the aim of the Gantt chart is to break down these tasks into the smallest possible components. Why is this?
+This is not necessarily always a linear process. It can be that after data analysis, you return for more data collection or even go back to the conceptualisation stage. But as we mentioned above, the Gantt chart aims to break down these tasks into the smallest possible components. Why is this?
 
 
-Well, let's try to build a Gantt chart with just these elements first to illustrate. As seen above, you need to know the approximate duration of your project, the tasks, and how long they will take. 
+Let's start by building a Gantt chart with just these elements to illustrate. As seen above, you need to know the approximate duration of your project, including the tasks and their respective time requirements. 
 
 
 Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This is our approximate duration. We also have our list of tasks up there. But how long will each of these take? How long should you budget for Planning and conceptualisation? What about operationalisation and data collection or data analysis? Please take a moment to think about this and discuss it in small groups.
@@ -439,7 +439,7 @@ Let's say that we have 1.5 years to carry out our RCT for Scared Straight. This 
 
 
 
-Was it difficult to estimate? Why would you think that is? Do you think it would be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and to estimate how long something as vague as "data analysis" will take would be an incredibly tough task, even for the most seasoned researcher. Instead, the way to be able to better guestimate the length of tasks is to break them into their components, which can give you a better indicator of how long things will take. 
+Was it difficult to estimate? Why would you think that is? Would it be easier if you had more experience with research? Probably not by much. Each research project comes with its own complexity and nuance, and estimating the time required for something as vague as "data analysis" is an incredibly tough task, even for the most seasoned researcher. Instead, to better estimate the length of tasks, break them into their components, which can give you a better indicator of how long things will take. 
 
 
 
@@ -475,10 +475,12 @@ Let's start with our main overarching categories for the above, but break each o
     + Final write-up of results
 
 
-So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups? What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. 
+So, how do you come up with individual sub-elements? Well, there is no simple answer to this; the way that you come up with these categories is by thinking about what you need to do in each stage to achieve your goals. What do you need to do to collect your data? What are all the steps and actions that you need to take to reach your end goal of a set of data that you can analyse to be able to talk about the difference between your control and treatment groups? 
+
+!<-- What do you need to do when you write up? What are the stages of writing up? How long do each one of these normally take you? There are some people who can write a rough 1st draft quickly and send it to a colleague for comments and feedback. Others need to be very comfortable with their draft first and spend more time on it before they can show someone else to receive comments. Because of this, not only does each project have nuances and differences when building a Gantt chart, but each person will also have. -->
 
 
-This exercise is aimed to help you get thinking about projects in this way, but also to illustrate, once you have the above information for a project, how you can draw it up into a visual timeline that can help you plan your research project, and make sure that it runs on time. So, let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
+This exercise aims to help you think about projects in this way, while also illustrating how to create a visual timeline from the above information. This timeline can aid in planning your research project and ensuring it runs on time. So, let's build a Gantt chart for our RCT of the Scared Straight programme, using the tasks above to guide us. 
 
 
 First, you will have to open a new Excel spreadsheet. Just a blank one. We'll be building our Gantt chart from scratch. 
