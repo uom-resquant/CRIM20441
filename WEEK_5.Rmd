@@ -2,20 +2,19 @@
 
 ## Learning outcomes
 
-This week, we are interested in taking a step back even further from the analysis of data. Last week, we spoke about **conceptualisation** and **operationalisation**, the steps that you take as a researcher to turn your ideas and topics of interest into variables to measure. But how do you then go about designing your research study?  This week, we take a step back, conceptually, to the highest level of research oversight to consider the process of research design and consider the various ways that you can go about collecting data. 
+This week, we are interested in taking a step back even further from the analysis of data. Last week, we spoke about **conceptualisation** and **operationalisation**, the steps that you take as a researcher to turn your ideas and topics of interest into variables to measure. But how do you then go about designing your research study? This week, we take a step back, conceptually, to the highest level of research oversight to consider the process of research design and consider the various ways that you can go about collecting data. 
 
 
 
-Much of the data that we work with are collected as part of the research process. There are many different approaches to this process, and you will have come across a good sample of them in your readings.
+Much of the data that we work with is collected as part of the research process. There are many different approaches to this process, and you will have come across a good sample of them in your readings.
 
 
-**Research design** can be described as a general plan about what you will do to answer your research question. It is the overall plan for connecting the conceptual research problems to the pertinent (and achievable) empirical research. In other words, the research design articulates what data will be required, what methods are going to be used to collect and analyse the data, and how all of this is going to answer your research question. We will talk about **pre-registration** and 
-the importance of separating confirmatory vs exploratory research. 
+**Research design** can be described as a general plan about what you will do to answer your research question. It is the overall plan for connecting the conceptual research problems to the pertinent (and achievable) empirical research. In other words, the research design articulates what data will be required, what methods are going to be used to collect and analyse the data, and how all of this is going to answer your research question. We will talk about **pre-registration** and the importance of separating confirmatory vs exploratory research. 
 
 Both data and methods, as well as the way in which these will be configured in the research project, need to be the most effective in producing the answers to the research question (taking into account practical and other constraints of the study). Different design logics are used for different types of study, and the best choice depends on what sorts of research questions you want to be able to answer. 
 
 
-Since your readings provide a comprehensive overview of different types of research designs, we will not attempt to replicate this here. Instead, we will cover some general practical points, with a focus on two different study designs. These are experiments and longitudinal studies. However, the skills we will practice today are relevant to data collected from various research resigns. For example, we will learn about **missing data**, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the **Gantt chart** as a way to plan your study design, which can be applied to any form of research design. 
+Since your readings provide a comprehensive overview of different types of research designs, here we will cover some general practical points, with a focus on two different study designs. These are experiments and longitudinal studies. However, the skills we will practice today are relevant to data collected from various research designs. For example, we will learn about **missing data**, which can present important issues in cross-sectional, longitudinal, and other research designs. Similarly, we will explore a tool called the **Gantt chart** as a way to plan your study design, which can be applied to any form of research design. 
 
 ### Terms for today
 
@@ -34,14 +33,9 @@ Since your readings provide a comprehensive overview of different types of resea
 
 ## Research Design 
 
+When designing your research, think of yourself as the project’s architect—creating the blueprint that outlines all essential tasks and elements. In crime and justice studies, research design critically shapes conclusions. Evidence shows that design systematically affects outcomes; for instance, randomised studies and strong quasi-experiments often yield significantly different results when evaluating interventions ([Weisburd et al., 2001](http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf)). 
 
-When planning your research and developing your research design, you can imagine yourself as the architect of the research project. You lay down the blueprints and identify all the tasks and elements that will need to be realised for your research project to succeed. The type of research design used in a crime and justice study influences its conclusions. Studies suggest that design does have a systematic effect on outcomes in criminal justice studies. For example, when determining the effect of an intervention (known as evaluation research, as you are *evaluating* the effect of the intervention), when comparing randomized studies with strong quasi-experimental research designs, systematic and statistically significant differences are observed ([Weisburd et al., 2001](http://cebcp.org/wp-content/publications/Does%20Research%20Design%20Affect%20Study%20Outcomes.pdf)). 
-
-
-
-
-
-Those interested in the study of criminology and criminal justice have a wide range of research methods at their disposal. Which of the particular research methods to use is entirely contingent upon the question being studied. Research questions typically fall into four categories of research: 
+Criminology and criminal justice researchers can draw from a wide range of methods, with the choice depending entirely on the research question. Such questions typically fall into four categories of research:
 
 - (1) *descriptive* (define and describe the social phenomena), 
 - (2) *exploratory* (identify the underlying meaning behind the phenomena), 
@@ -49,17 +43,13 @@ Those interested in the study of criminology and criminal justice have a wide ra
 - (4) *evaluative* (determine the effects of an intervention on an outcome). 
 
 
-In your readings, you will have gone through many examples and details about each one of these approaches, as well as what research design you can use to answer which sort of categories of research questions. These books give you a fantastic theoretical overview of the methods, and so we will not reiterate those here. 
-
-
-Instead, today, we will go through some of the nuances and key important tasks to cover in research design, and we will use some specific research design examples; specifically, we will look at experimental work and longitudinal designs in criminology. But remember - what we are learning applies to all research designs, and we are just using these specific cases to illustrate the points. 
+While your readings provide detailed theoretical overviews of these approaches and their matching designs, today’s focus is on the practical nuances of research design. We’ll explore key tasks using examples from experimental and longitudinal studies in criminology—principles that apply to all research designs.
 
 
 
 ## Experiments and evaluation
 
-
-Experimental criminology is a family of research methods that involve the controlled study of cause and effect. Research designs fall into two broad classes: quasi-experimental and experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative **treatment**, or an alternate intervention condition (**control**). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, and perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Exponential growth in the field of experimental criminology began in the 1990s, leading to the establishment of a number of key entities (such as the Campbell Collaboration, the Academy of Experimental Criminology, the Journal of Experimental Criminology, and the Division of Experimental Criminology within the American Society of Criminology) that have significantly advanced the field of experimental criminology into the 21st century. These initiatives have extended the use of experiments (including randomised field experiments as well as quasi-experiments) to answer key questions about the causes and effects of crime and the ways criminal justice agencies might best prevent or control crime problems. The use of experimental methods is very important for building a solid evidence base for policymakers, and a number of advocacy organizations (such as the Coalition for Evidence-Based Policy) argue for the use of scientifically rigorous studies, such as randomized controlled trials, to identify criminal justice programs and practices capable of improving policy-relevant outcomes.
+Experimental criminology uses controlled methods to study cause and effect. Research designs fall into two broad classes: experimental and quasi-experimental. In experimental criminology, samples of people, places, schools, prisons, police beats, or other units of analysis are typically assigned (either randomly or through statistical matching) to one of two groups: either a new, innovative **treatment**, or an alternate intervention condition (**control**). Any observed and measured differences between the two groups across a set of “outcome measures” (such as crime rates, self-reported delinquency, and perceptions of disorder) can be attributed to the differences in the treatment and control conditions. Since the 1990s, the field of experimental criminology has expanded rapidly, with organisations such as the Campbell Collaboration, the Academy and Journal of Experimental Criminology, and the ASC’s Division of Experimental Criminology advancing rigorous experimental methods. These efforts have strengthened the evidence base for policy, promoting the use of randomised controlled trials and other robust designs to identify effective crime prevention and justice interventions.
 
 
 - How much crime does prison prevent--or cause--for different kinds of offenders?
@@ -67,17 +57,17 @@ Experimental criminology is a family of research methods that involve the contro
 - What is the best way for societies to prevent crime from an early age?
 - How can murder be prevented among high-risk groups of young men?
 
+These and many other key questions in criminology are best addressed through randomised controlled trials (RCTs). This method involves assigning large samples of people or places (e.g., schools, prisons, police beats) randomly to different treatments. Any average differences in outcomes—such as crime rates—can then be attributed to the treatment itself, since random assignment minimises other potential sources of bias. That is because, with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.
 
-These and other urgent questions can be answered most clearly by the use of a research design called the "randomized controlled trial." This method takes large samples of people--or places, or schools, prisons, police beats or other units of analysis--who might become, or have already been, involved in crimes, either as victims or offenders. It then uses a statistical formula to select a portion of them for one treatment and (with equal likelihood) another portion to receive a different treatment. Any difference, on average, in the two groups in their subsequent rates of crime or other dimensions of life can then be interpreted as having been caused by the randomly assigned difference in the treatment. All other differences, on average, between the two groups can usually be ruled out as potential causes of the difference in outcome. That is because, with large enough samples, random assignment usually assures that there will be no other differences between the two groups except the treatment being tested.
-
-(You can read more about Experimental Criminology in [this chapter](http://www.oxfordbibliographies.com/view/document/obo-9780195396607/obo-9780195396607-0085.xml) written by Lorraine Mazerolle and Sarah Bennett).
-
-### Activity 5.1 Examples of Experiments in Criminology
+For more on experimental criminology, read [Mazerolle and Bennett’s chapter](http://www.oxfordbibliographies.com/view/document/obo-9780195396607/obo-9780195396607-0085.xml)
 
 
-Below are two short videos to watch that show examples of how experiments can be used in Criminology. Take time now to watch these in your groups:
+### Activity: Examples of Experiments in Criminology
 
-First, watch this [6-minute video from the University of Cambridge to learn a bit more about experimental criminology](https://www.youtube.com/watch?v=IGDF1-B1Yjs&feature=player_embedded). If you are in the BA Criminology programme, you may have seen this video in your lecture for Criminal Justice in Action when learning about how criminology has an impact. If you are in the BASS program, it might be something new. 
+
+Below are two short videos to watch that show examples of how experiments can be used in Criminology. Take time now to watch these:
+
+First, watch this [6-minute video from the University of Cambridge to learn a bit more about experimental criminology](https://www.youtube.com/watch?v=IGDF1-B1Yjs&feature=player_embedded). If you are in the BA Criminology programme, you may have seen this video before. If you are in the BASS program, it might be something new. 
 
 
 
@@ -89,50 +79,37 @@ Take some notes about what you think are elements of the **research design** whe
 
 ![](https://media.giphy.com/media/pUeXcg80cO8I8/giphy.gif)
 
-
-
-Evaluation of programmes is very important. As you heard the police chiefs explain in the Philadelphia video above, investing in a helpful intervention (foot patrols in this case) can make a difference or not. By being able to quantify the crime reduction effect that foot patrols had on particular areas, it became possible to support and lobby for these to be implemented. 
-
-
-While it's great that evaluations can be used to build a case for effective interventions, it is equally important to know whether something doesn't work. Have you heard of the Scared Straight program? The term “scared straight” dates back to 1978 and a hit documentary by the same name. The film featured hardened convicts who shared their prison horror stories with juvenile offenders convicted of arson, assault, and other crimes. The convicts screamed, yelled, and swore at the young people. The concept behind the approach was that kids could be frightened into avoiding criminal acts. 
-
-
-You can see how people are immediately averse to this idea. It is quite obviously distressing to kids that are being subjected to these Scared Straight programmes through the yelling, the gruesome violence, and so on. But if the end result is that this shock and horror deters kids from offending or young drivers from being careless on the roads, then it might be considered a "necessary evil", right? It might be short-term pain inflicted but in the interest of long-term gain, whereby these kids will avoid a life of offending or ending up in a horrible road traffic collision. But to make this argument, we need to be able to tell - does this work? 
+Program evaluation is essential for determining what works—and what doesn’t—in crime prevention. As shown in the Philadelphia example, measuring the impact of foot patrols allowed police to demonstrate and advocate for effective interventions. However, knowing when an intervention fails is just as important. Consider the Scared Straight program, which began with a 1978 documentary featuring inmates aggressively confronting juvenile offenders. While distressing for participants, the program’s intent was to deter kids from future offending through fear. To justify such approaches, though, we must rely on rigorous evaluation to answer a simple but crucial question: Does it actually work?
 
 
 ### What influences what? Dependent vs independent variables
 
 
-In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate our dependent and independent variables to determine what we expect is evoking a change in what. 
+In these studies, we want to know whether some programme or intervention (e.g., Scared Straight) has any influence on some outcome (e.g., re-offending). In this case, our first task is to separate our dependent and independent variables to determine what we expect to have an impact on what. 
 
 
-What is a **dependent variable**? It's what you are looking to explain. Remember in week 3, when we were talking about bivariate analysis to assess the relationship between two variables? And we spoke about one of them being a **response** variable and the other the **predictor** variable, and how do we determine which variable is which? In general, the explanatory variable attempts to explain or predict the observed outcome. The response variable measures the outcome of a study. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.
+A dependent variable is what you aim to explain — it represents the outcome of interest. In contrast, the independent variable (or predictor) is what influences or explains that outcome. Dependent variables are also known as response or outcome variables because their values depend on those of the independent variable. One may even consider exploring whether one variable causes the variation in another variable – for example, a popular research study is that taller people are more likely to receive higher salaries. In this case, height would be the explanatory variable used to explain the variation in the response variable of salary.
+
+For example, if your research asks, “Are older people more worried about crime?” then in this case, you believe that age will be influencing fear, right? In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So, fear of crime is the dependent variable (the outcome), and age is the independent variable (the factor believed to influence it).
 
 
-Well, these variables can also be called **dependent** and **independent** variables. **Dependent variables** are another name for response variables. They *depend* on the values of the independent variable. It can also have a third name and be called an *outcome variable*.  The **independent variable**, on the other hand, is another name for predictor variables. 
+
+### Activity: Dependent and independent variables
 
 
+What about in the case of an experiment? Let's return to our example with the Scared Straight programmes. We want to know whether Scared Straight has an effect on future offending, correct? So... what are our variables here? We want to know the effect of *Scared Straight* on the people's *future offending*. Our variables are in italics; they are: 
 
-For example, if you are trying to predict fear of crime using age (so your research question might ask:  *are older people more worried about crime?*) then in this case, you believe that age will be influencing fear, right? Old age will cause high fear, and young age will cause low fear. In this case, since age is influencing fear, a person's level of fear of crime *depends* on their age. So, your *dependent* variable is fear. And since it's influenced by age, age is the *independent* variable. 
-
-
-### Activity 5.2: Dependent and independent variables
-
-
-What about in the case of an experiment? Let's return to our example with the Scared Straight programmes. We want to know whether Scared Straight has an effect on future offending, correct? So... what are our variables here? Remember last week when we were identifying concepts in research questions in the feedback session? That might help. We want to know the effect of *scared straight* on the people's *future offending*. Our variables are in italics; they are: 
-
-- exposure to scared straight programme
+- exposure to the Scared Straight programme
 - future offending behaviour.
 
 
-Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn't participate. So, for this, we know that we have one variable (in this case, offending) that *depends on* the other (participating in scared straight or not). What does this mean for which is the dependent variable and which is the independent?
+Which influences which one? Well, the clue is always in our question. And our question is whether kids who participate in Scared Straight offend less than they would have if they didn't participate. So, for this, we know that we have one variable (in this case, offending) that *depends on* the other (participating in Scared Straight or not). What does this mean for which is the dependent variable and which is the independent?
 
 
-Take a moment to try to answer this in small groups, and write down what you think is the solution. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask a member of the teaching team now. The dependent/independent variable distinction will be important throughout your data analysis career!
+Take a moment to try to answer this in small groups. Think about which one is *predicting* which *outcome* if the dependent/independent division doesn't work for you. You should definitely have a go at trying to guess here because we will give you the answer later, and it will help you check your understanding, and if you are unsure, then do discuss in your groups and ask a member of the teaching team. The dependent/independent variable distinction will be important throughout your data analysis career!
 
 
-
-Take a moment to think through and decide which variable is dependent or independent. Here is a corgi running around in circles to separate the answer so you don't accidentally read ahead: 
+Here is a corgi running around in circles to separate the answer so you don't accidentally read ahead: 
 
 
 ![](https://media.giphy.com/media/RrFZIzK3coIMg/giphy.gif)
