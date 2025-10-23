@@ -10,11 +10,11 @@ In this session, you’ll learn the following:
 
 ## Deduction, induction, abduction – key analytical strategies for qualitative data
 
-To recap from the lecture, this diagram gives some indication as to the directions of data analysis:
+To recap from the lecture video, this diagram gives some indication as to the directions of data analysis:
 
 ![](imgs/diagram_quali.png)
  
-We discussed this in the lecture, so you’ll now understand strategies for approaching research, including data collection and data analysis.
+Hopefully you will now understand strategies for approaching research, including data collection and data analysis.
 
 **Induction** is considered to be ‘bottom-up’ where we start with very broad general interests but build theory and concepts by first coding and interrogating the data. The key here is to ensure existing theoretical perspectives and concepts do not over-define our analysis and thus obscure the possibility of identifying and developing new concepts and theories.
 
@@ -32,7 +32,7 @@ In this session, you’ll learn to interrogate your qualitative data using NVivo
 
 You can find copies of Saldaña’s *The Coding Manual* in the [University Library](https://www.librarysearch.manchester.ac.uk/permalink/44MAN_INST/1r887gn/alma992975869959501631).
 
-*‘Coding’*, *‘coding schemes’* and *‘coded retrieval’* of our data are key tools of qualitative analysis. The terminology and philosophies that underpin coding processes are explained below (but mainly in the lectures), and we find that specific methodologies use particular routines when coding. For instance, one common approach is informed by the ‘Grounded Theory’, which involves both the induction and deduction approaches to coding data. 
+*‘Coding’*, *‘coding schemes’* and *‘coded retrieval’* of our data are key tools of qualitative analysis. The terminology and philosophies that underpin coding processes are explained below (but also in the lecture videos), and we find that specific methodologies use particular routines when coding. For instance, one common approach is informed by the ‘Grounded Theory’, which involves both the induction and deduction approaches to coding data. 
 
 Here, researchers would undertake a first layer of ‘coding’, often called [‘open coding’](https://en.wikipedia.org/wiki/Open_coding), to break down data into indicative themes and concepts. This precedes more granular coding, called [‘axial coding’](https://en.wikipedia.org/wiki/Axial_coding), where categories and concepts are refined further. We’ll draw on this approach in today’s session. The structures of coding schemes, alternate groupings and basic retrieval mechanisms are key to moving forward with analysis.
 
@@ -48,11 +48,11 @@ Node is a term that refers to a point in the NVivo database, but a code label ma
 
 ![](imgs/coding.gif)
 
-Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes, ’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes are more reflective and act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
+Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes, ’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
 
 Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to data. So, we might have created a top-level node entitled ‘money laundering’ and then sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level, e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on.
 
-These node layers, therefore, build a structural framework for our data. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
+These node layers, therefore, build a structural framework for our data. By organising our raw qualitative data (i.e., the news articles, the journal papers) according to these nodes, we can make sense of what would otherwise be an overwhelming amount of information. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
 
 Let’s do this then. Here, we’ll focus on using nodes for reflective purposes and thematic purposes.
 
@@ -60,9 +60,9 @@ Let’s do this then. Here, we’ll focus on using nodes for reflective purposes
 
 We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session, e.g. Lab Session Week 7.
 
-You’ll find two datasets on Blackboard in the Week 7 folder: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
+You’ll find two datasets on Canvas in the Week 7 learning materials section: **1. Dataset 1 Probation Interviews** and **2. Dataset 2 GMP Twitter data**.
 
-You’ll need to download and save these to your p: drive or personal computer. (Dataset 1 is a zip file, you’ll need to [unzip it](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)). 
+You’ll need to download and save these to your One Drive or personal computer. Dataset 1 is a zip file, you’ll need to [unzip it](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) (this might be done automatically on Mac). 
 
 Once you’ve done this, return to *NVivo* and import them using the knowledge you gained last week. For instance, first, create folders within your Files section to house the data (see below). Second, import your data. If you import all the interviews simultaneously, there is a small chance your computer will explode, catch fire, and burn the lab down. But let’s hope not. Be patient; importing so much data at once can take a few minutes. 
 
@@ -110,9 +110,13 @@ At this point, we need to give our coding some focus. To do this, we can use **�
 
 ### Activity 2: Deductive coding
 
-First, single-click on ‘Maps’ in the Navigation Pane, then right-click in the List Pane to create a new mind map. Call it "Deductive Approach to Probation Interview Data". You should end up with the following:
+First, navigate to the 'Maps' tool. You can access maps via the Navigation Pane on the left if you want. Another (maybe easier) way is to navigate to the 'Explore' tab in your ribbon, and then selecting 'Mind Map'.
 
-![](imgs/mindmap.png)
+![](imgs/access_mind_map.png)
+
+You can then name it. Call it "Deductive Approach to Probation Interview Data". You should end up with the following:
+
+![](imgs/new_mind_map.png)
  
 Now, *deductive logic* assumes that we have a predetermined set of codes, ideas and themes that we want to understand better. For instance, the interviews that were carried out with **Chief Probation Officers (CPOs)** in this research had the following clear research objectives:
 
