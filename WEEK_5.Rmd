@@ -804,7 +804,7 @@ In any case, we should get back to our question: what does this data look like? 
 The benefit of a longitudinal study is that researchers are able to detect developments or changes in the characteristics of the target population at both the group and the individual level. The key here is that longitudinal studies extend beyond a single moment in time. As a result, they can establish sequences of events. It is generally admitted that causes precede their effects in time. This usually justifies the preference for longitudinal studies over cross-sectional ones because the former allows the modelling of the dynamic process generating the outcome, while the latter cannot. Supporters of the longitudinal view make two interrelated claims: (i) causal inference requires following the same individuals over time, and (ii) no causal inference can be drawn from cross-sectional data. 
 
 
-Anyway, have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID", is the unique identifier for each person. Then, three variables contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had a proper alcoholic drink (yes, yes, the survey question does ask "proper" alcoholic drink; see [data dictionary](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/ukda_data_dictionaries.zip)), and *W1cignowYP* is the answer to whether the young person ever smoked cigarettes. --!>
+Anyway, have a look at a small subset of 3 waves of the data. There are 4 variables in each wave. The first one,  "NSID", is the unique identifier for each person. Then, three variables contain the answers that each person gave to some questions. * W1canntryYP*	is the answer to whether the young person ever tried Cannabis. *W1alceverYP*	is the answer to whether the young person ever had a proper alcoholic drink (yes, yes, the survey question does ask "proper" alcoholic drink; see [data dictionary](http://doc.ukdataservice.ac.uk/doc/5545/mrdoc/ukda_data_dictionaries.zip)), and *W1cignowYP* is the answer to whether the young person ever smoked cigarettes. ! -->
 
 
 In any case, we should get back to our question: what does this data look like? Just as you’d expect—it’s survey questionnaire responses collected from the same people over time. If you downloaded the Next Steps data, you’d find a separate file for each wave. Each wave contains repeated measures of the same variables for the same individuals—identical variables, same participants, but recorded at different points in time.
@@ -835,7 +835,7 @@ Merging rows is pretty straightforward, but merging columns can be tricky if the
 
 To merge tables, you can use the VLOOKUP function to look up and retrieve data from one table to the other. To use `VLOOKUP()` this way, both tables must share a common ID or key.
 
-This is a standard "exact match" `VLOOKUP()` formula (remember that means you have to set the last parameter to 'FALSE' for an exact match). --!>
+This is a standard "exact match" `VLOOKUP()` formula (remember that means you have to set the last parameter to 'FALSE' for an exact match). ! -->
 
 
 Hopefully, if we've taught you anything, by now, about the structure of data, is that you have *all* your observations in your rows and *all* your variables in your columns. To study how people’s responses change over time, you need to link datasets from different waves into one combined file.
@@ -992,10 +992,10 @@ So our final formula looks like this:
 `=VLOOKUP(A2,'[wave_2(1).xlsx]wave_2.csv'!$A:$D,4,FALSE) `
 
 
-See the `'` around the `[wave_2(1).xlsx]wave_2.csv`? You *might* see this in your version. But still achieves the same thing. --!>
+See the `'` around the `[wave_2(1).xlsx]wave_2.csv`? You *might* see this in your version. But still achieves the same thing. ! -->
 
 
-Double-click on the little black cross on the bottom right-hand of the green frame around this cell. This will copy the formula all the way to the bottom. See below:
+*Double-click* on the little black cross on the bottom right-hand of the green frame around this cell. This will copy the formula all the way to the bottom. See below:
 
 ![](imgs/double.click.formula.gif)
 
@@ -1035,7 +1035,7 @@ In our example, respondent NS15760C has missing (“NA”) values in Wave 1. Thi
 
 <!-- Attrition is only one cause of **missing data**. Sooner or later (usually sooner), anyone who does statistical analysis runs into problems with missing data. In a typical data set, information is missing for some variables in some cases. In surveys that ask people to report their income, for example, a sizable fraction of the respondents typically refuse to answer. Outright refusals are only one cause of missing data. In self-administered surveys, people often overlook or forget to answer some of the questions. Even trained interviewers occasionally may neglect to ask some questions. Sometimes, respondents say they just do not know the answer or do not have the information available to them. Sometimes, the question is inapplicable to some respondents, such as asking unmarried people to rate the quality of their marriage. In longitudinal studies, people who are interviewed in one wave may die or move away before the next wave. When data are collated from multiple administrative records, some records may have become inadvertently lost.
 
-You can see our second person with NAs there, NS15760C, also has NA values for the first wave. This means that while NS15760C was interviewed in the 1st wave (and potentially in waves 2 and 3 as well), they did not answer these questions! This could be because they put one of the answers that were coded as "NA", such as Refused to answer, "Not applicable", or "Don't know", or because they were unable to complete or refused this whole section. Missing data is important, and it's important to know *why* your data is missing. When people refuse to answer something, it might be motivated by very different things than when people say "don't know" to something. If people with certain characteristics are more likely to not respond, then systematic biases might be introduced through missing data. This is important to keep in mind.  --!>
+You can see our second person with NAs there, NS15760C, also has NA values for the first wave. This means that while NS15760C was interviewed in the 1st wave (and potentially in waves 2 and 3 as well), they did not answer these questions! This could be because they put one of the answers that were coded as "NA", such as Refused to answer, "Not applicable", or "Don't know", or because they were unable to complete or refused this whole section. Missing data is important, and it's important to know *why* your data is missing. When people refuse to answer something, it might be motivated by very different things than when people say "don't know" to something. If people with certain characteristics are more likely to not respond, then systematic biases might be introduced through missing data. This is important to keep in mind.  ! -->
 
 
 Let's copy over wave 3 as well, and then we can have a look at our attrition and so on rates. 
@@ -1068,7 +1068,7 @@ Unfortunately, there isn't much that we can do (at the stage of data analysis) t
 
 All of these "artefacts" of survey and self-report research may have the potential to damage the validity of a measure or study. Because of response bias, some study results may be due to a systematic response bias rather than the hypothesised effect, which can have a profound effect on psychological and other types of research using questionnaires or surveys. It is, therefore, important for researchers to be aware of response bias and the effect it can have on their research so that they can attempt to prevent it from impacting their findings in a negative manner. Response biases can have a large impact on the validity of questionnaires or surveys. 
 
-There isn't much that we can do (at the stage of data analysis) to control for this. If you suspect that you will encounter response bias, you should consider this in your research design and build measures into the data collection phase that try to account for or at least identify sources of response bias in your survey. --!>
+There isn't much that we can do (at the stage of data analysis) to control for this. If you suspect that you will encounter response bias, you should consider this in your research design and build measures into the data collection phase that try to account for or at least identify sources of response bias in your survey. ! -->
 
 
 
@@ -1078,7 +1078,7 @@ There isn't much that we can do (at the stage of data analysis) to control for t
 
 If data are missing completely randomly, meaning that the chance of data being missing is unrelated to any of the variables involved in our analysis, a complete case analysis is unbiased. This is because the subset of complete cases represents a random (albeit smaller than intended) sample from the population. In general, if the complete cases are systematically different from the sample as a whole (i.e. different to the incomplete cases), i.e. the data are not missing completely randomly, analysing only the complete cases will lead to biased estimates.
 
-For example, suppose we are interested in estimating the median income of some population. We send out an email asking for a questionnaire to be completed, amongst which participants are asked to say how much they earn. However, only a proportion of the target sample returned the questionnaire, and so we have missing incomes for the remaining people. Suppose those who returned an answer to the income question have systematically higher or lower incomes than those who did not return an answer. In that case, the median income of the complete cases will be biased. This is something to keep in mind when choosing the route of complete case analysis. --!>
+For example, suppose we are interested in estimating the median income of some population. We send out an email asking for a questionnaire to be completed, amongst which participants are asked to say how much they earn. However, only a proportion of the target sample returned the questionnaire, and so we have missing incomes for the remaining people. Suppose those who returned an answer to the income question have systematically higher or lower incomes than those who did not return an answer. In that case, the median income of the complete cases will be biased. This is something to keep in mind when choosing the route of complete case analysis. ! -->
 
 There are many statistical techniques for handling missing data (see some examples [here](https://www.lshtm.ac.uk/research/centres-projects-groups/missing-data)). The simplest and most common approach is complete case analysis (or listwise deletion), where only participants with no missing data on the variables of interest are included. In other words, we analyse only the rows that contain responses for every relevant variable and ignore the rest.
 
@@ -1132,7 +1132,7 @@ Now, finally, since we've worked so hard on this data, let's have a look at it. 
 <!-- If your gut reaction to this question was to do with fear and confusion, one thing you could do is think back to all the skills that we've learned so far and which one of these you would need to draw on to be able to answer this question. First, if you want to know if the percentage of people who have tried cannabis (that is - answered yes to the question about trying cannabis) is greater for each wave than the wave before, you need to find out: what percent of people tried cannabis in wave 1, what about wave 2, and what about wave 3? In our newly created, complete cases data set, we know that we have one variable for cannabis trying in each wave. These are W1canntryYP for wave 1, W2canntryYP for wave 2, and W3canntryYP for wave 3. How can you find out the % who said yes for each one of these? Well remember our univariate analysis of a categorical variable, where we can find out the count of values for each variable with a pivot table? How can we translate those into percentages? 
 
 
-If not, then refer back to your notes from the 2nd week on univariate analysis. If yes, you now know you need to make 3 pivot tables and save the answers from each. You can then combine those into a **complex table**. Remember complex tables from the feedback session after the bivariate analysis labs on week 3? --!>
+If not, then refer back to your notes from the 2nd week on univariate analysis. If yes, you now know you need to make 3 pivot tables and save the answers from each. You can then combine those into a **complex table**. Remember complex tables from the feedback session after the bivariate analysis labs on week 3? ! -->
 
 
 If your first reaction to this question was confusion, take a step back and think about the skills you’ve already learned—and which ones you can use here.
