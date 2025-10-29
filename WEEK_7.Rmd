@@ -48,11 +48,11 @@ Node is a term that refers to a point in the NVivo database, but a code label ma
 
 ![](imgs/coding.gif)
 
-Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes, ’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
+Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
 
-Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to data. So, we might have created a top-level node entitled ‘money laundering’ and then sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level, e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on.
+Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to data. So, we might have created a top-level node entitled ‘money laundering’ and then sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level, e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on. These sub-nodes can also be empty in the sense that we might be interested in something specific conceptually (like 'perception of politicians') but actually not find anything, even if we do have information for another perception label.
 
-These node layers, therefore, build a structural framework for our data. By organising our raw qualitative data (i.e., the news articles, the journal papers) according to these nodes, we can make sense of what would otherwise be an overwhelming amount of information. Plus, each Node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
+These node layers, therefore, build a structural framework for our data. By organising our raw qualitative data (i.e., the news articles, the journal papers) according to these nodes, we can make sense of what would otherwise be an overwhelming amount of information. Plus, each node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.
 
 Let’s do this then. Here, we’ll focus on using nodes for reflective purposes and thematic purposes.
 
@@ -68,19 +68,19 @@ Once you’ve done this, return to *NVivo* and import them using the knowledge y
 
 ![](imgs/mr-bean-waiting.gif)
 
-If it does crash, you should import the transcripts in smaller numbers. Or, import a few of them to get a feel for the process rather than importing the full lot. You can see what we’ve done in the screenshot below:
+If it does crash, you should import the transcripts in smaller numbers. Or, import a few of them to get a feel for the process rather than importing the full lot. You can see what we’ve done in the screenshot below for the probation interviews:
 
-![](imgs/interview_w9.png)
+![](imgs/prob_interviews.png)
  
 If you double-click on any of the transcripts in the **List Pane**, you can see the content in the **Detail Pane**.
 
 For Mac users, when you import the *GMP Twitter Data*, you can import it as a ‘Dataset’ rather than as ‘Documents’. You’ll first encounter the screen below:
 
-![](imgs/dataset_asistant.png)
+![](imgs/dataset_asistant_nvivo15.png)
  
-Simply click ‘next’, then ‘next’ again in the following window and then ‘Import’. You’ll then be able to see the Twitter data in the Detail View, as below:
+Simply click ‘Next’, then ‘Next’ again in the following window and then ‘Import’. You’ll then be able to see the Twitter data in the Detail View, as below:
 
-![](imgs/twitter_nvivo.png)
+![](imgs/gmp_data_nvivo15.png)
  
 For Windows users to import data from an Excel file, go to “Import” and select “Excel”. 
 
@@ -100,7 +100,7 @@ This should be the result when you finish with the import wizard:
  
 Ok. So now we have both our datasets imported into NVivo. It’s probably worth saving your project in case something goes wrong.
 
-Usually, as these two datasets are very separate in terms of purpose, we would probably create two separate projects in NVivo to keep our separate research projects apart. For the purposes of getting to know the software, though, we can analyse both in one project today.
+Usually, as these two datasets are very separate in terms of purpose, we would probably create two separate projects in NVivo to keep our separate research projects apart. For the purposes of getting to know the software, though, we can analyse both in one project today. You will, however, notice from the screenshots above that we have at least placed our datasets into two folders within the same project in an effort to keep things organised.
 
 ## Using ‘mind maps’ to organise your ‘analytical process and framework’
 
@@ -110,11 +110,11 @@ At this point, we need to give our coding some focus. To do this, we can use **�
 
 ### Activity 2: Deductive coding
 
-First, navigate to the 'Maps' tool. You can access maps via the Navigation Pane on the left if you want. Another (maybe easier) way is to navigate to the 'Explore' tab in your ribbon, and then selecting 'Mind Map'.
+First, navigate to the 'Maps' tool. You can access maps via the Navigation Pane on the left if you want. Another (maybe easier) way is to navigate to the 'Explore' tab in your ribbon, and then selecting 'Mind Map'. It's possible that you need to search around for these - have a look and if you can't find it, stick up your hand and we can help you.
 
 ![](imgs/access_mind_map.png)
 
-You can then name it. Call it "Deductive Approach to Probation Interview Data". You should end up with the following:
+You can then name it. Call it "Deductive Approach to Probation Interview Data". You should end up with something like the following:
 
 ![](imgs/new_mind_map.png)
  
@@ -124,47 +124,47 @@ Now, *deductive logic* assumes that we have a predetermined set of codes, ideas 
 *2.	to explore their perceptions of community penalties, developments in these throughout their careers and potential changes in the future;*
 *3.	to examine the role of CPOs as managers and their relationships with central government, local agencies and their probation committees.* 
 
-So, we can extrapolate key ideas from these objectives and use them to guide the data's coding. We’ve divided the research objectives into key concepts and organised this in our mind map. Look at our screenshot below and see if you can replicate our work. You might pick a different structure or codes; that’s fine, too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. Play around with colours and structure, too.
+So, we can extrapolate key ideas from these objectives and use them to guide the data's coding. We’ve divided the research objectives into key concepts and organised this in our mind map. Look at our screenshot below and see if you can replicate our work. You might pick a different structure or codes; that’s fine, too! Play around with creating *‘children’*, *‘siblings’* and *‘floating ideas’*. **Children** branch away from your central concept (below, CPO interviews in the blue circle), and **siblings** can be created as additional branches. You can just keep clicking to create new siblings, get the structure you want, and delete old ones whenever you'd like.
 
-You can learn more about creating and editing mind maps in [this YouTube video](https://www.youtube.com/watch?v=gyjM1IW4LQI).
+Play around with colours and structure, too. Don't be afraid to click around to try things out: this is a useful skill in itself and a powerful way of learning. Be confident to try things out and make mistakes!
 
-![](imgs/mindmap2.png)
+If you want, you can learn a bit more about creating and editing mind maps in [this YouTube video](https://www.youtube.com/watch?v=gyjM1IW4LQI). Note that although the video is for an older version of Nvivo (specifically, Nvivo12), the concepts and ideas are exactly the same.
+
+![](imgs/mind_map_nvivo15.png)
  
-What we’ve done here is create a predetermined framework for coding the interview data. When we read the transcripts, we can assign these themes to what was said in the interviews. 
+What we’ve done here is create a predetermined framework for coding the interview data. When we read the transcripts, we can assign these themes to what was said in the interviews. One way in which this helps us, is that we read the transcripts with a purpose (i.e., looking for our themes) and then we can use NVivo to code bits of text according to these themes.
 
-Plus, to save us from having to create all the nodes individually, we can now use the **‘Create as nodes’** option. This should only be used after you have finished writing all the themes from the picture above. Click it, then choose ‘Nodes’. 
+Plus, to save us from having to create all the nodes individually, we can now use the **‘Create as nodes/codes’** option. This should only be used after you have finished writing all the themes from the picture above! Click it, then choose ‘Codes’ (in some versions this could be 'Nodes' but as we mentioned earlier, codes and nodes are often used interchangeably).
 
-![](imgs/create_node.jpeg)
+![](imgs/create_nodes_nvivo15.jpeg)
 
-Now click on ‘Nodes’ in the Navigation Pane, and you’ll see the following – open up the folders so you can see all the nodes:
+Now click on ‘Codes’ in the Navigation Pane on the left, and you’ll see something like the following. Open up the folders so you can see all the nodes!
 
-![](imgs/nodes.png)
+![](imgs/nodes_dropdown.png)
  
-This is where the hard work begins. We now have to code our interview data.
+This is where the hard work begins. We now have to code our interview data according to these themes.
 
-There are multiple ways to code data at nodes you have already created. You can also use some of these methods to select more than one code to apply to the selected passage of data.
+There are multiple ways to code data according to nodes you have already created. You can also use some of these methods to select more than one code to apply to the selected passage of data.
 
-The easiest way to do this is as follows (though *NVivo* gives you many ways to code the data). First, go back to your Files, click on the Dataset 1 folder, and double-click on Interview 1 (int01). This will open the transcript in the *Detail Pane*. For ease, now click on ‘Nodes’ so you can see all your created nodes and have them in mind when you read the transcript. Now start reading the transcript; each time you read something corresponding with your ‘nodes’, you need to ‘code’ it.
+The easiest way to do this is as follows (though *NVivo* gives you many ways to code the data). First, go back to your Files, click on the Dataset 1 folder, and double-click on Interview 1 (int01). This will open the transcript in the *Detail Pane*. For ease, now click on ‘Codes’ so you can see all your created codes and have them in mind when you read the transcript. You also refer back to your mind map at any time to help get your thinking in order. Now start reading the transcript; each time you read something corresponding with your themes (i.e., codes, nodes), you need to ‘code’ it.
 
 ![](imgs/highlight.gif)
 
-For Mac users, to do this, simply highlight the text and right-click on it, choose *‘code selection’* and then *‘at existing nodes or cases’*:
+To do this, simply highlight the text and right-click (for Mac, Control + click), choose *‘code selection’* and then *‘to existing nodes or cases’*. Below, we've done this to highlight something about the CPOs degree choice, so we've coded this in relation to educational background (makes sense, right?).
 
-![](imgs/code_selection.png)
+![](imgs/coding_nvivo15.png)
  
-For Windows users, this looks slightly different. You have to click on *“Code”*, then a new window pops up with the nodes, and you select from there. The right-click menu to code selected text looks like this:
+For Windows users, this might look slightly different. You have to click on *“Code”*, then a new window pops up with the nodes, and you select from there. The right-click menu to code selected text looks like this (for a different example of text):
 
 ![](imgs/code_selection_pc.png)
  
-You’ll notice the passage we’ve selected relates to ‘career histories’, so we will code this sentence in the corresponding node. However, we also think it relates to ‘educational background’, so we are coding this sentence in two ‘nodes’:
-
-![](imgs/two_nodes.png)
+You’ll notice the passage we’ve selected above relates to ‘career histories’, so we will code this sentence in the corresponding node. However, we also think it relates to ‘educational background’, so we are coding this sentence in two ‘nodes’!
  
-In Windows, to select multiple codes, you must hit “ctrl” and then click the additional node you want:
+In Windows, to select multiple codes, you might have to hit “Ctrl” and then click the additional node you want. In Mac, you do this using a tick box.
 
 ![](imgs/two_nodes_pc.png)
  
-Keep reading through the transcript and coding segments at single or multiple nodes as you see fit. You’re now coding your data deductively using a predetermined conceptual/thematic framework.
+Keep reading through the transcript and coding segments at single or multiple nodes as you see fit. You’re now coding your data deductively using a predetermined conceptual/thematic framework. Exciting!
 
 Keep coding until you feel like you fully understand how this works and until you’ve coded some data for each of the predetermined ‘nodes’.
 
@@ -172,92 +172,81 @@ Keep coding until you feel like you fully understand how this works and until yo
 
 There is an option for “recent codes” that shows what nodes you have been using, and this can be slightly easier than opening the window back up, but it depends on how you wish to code the data. Perhaps also code text from other interviews. 
 
-**You don’t have to read all the transcripts**; just read enough to understand the process and be comfortable with the software.
+**You don’t have to read all the transcripts**! We're not that mean... Just read enough and play around with coding to understand the process and be comfortable with the software. Remember, if you encounter any issues when trying out coding, or do not understand anything, stick your hand up and we will come and help you (or if you're doing this at home, come to our office hours!).
 
-But where has all our coding gone? The best way to visualise what we’ve done is to go to the ribbon tab at the top, choose ‘view’, then ‘coding stripes’, then ‘nodes recently coding’, and you’ll see the following:
+But where has all our coding gone? The best way to visualise what we’ve done is to go to the ribbon tab at the top, choose ‘view’, then ‘coding stripes’, then ‘nodes recently coding’. On Mac, these options look like this, and on Windows it will be pretty similar (you might find it under 'Document' though).
  
-![](imgs/code_gone.png)
+![](imgs/code_stripes_nvivo15.png)
+It will then look something like this.
 
-For Windows, go to the "Document" tab at the top and choose "Coding Stripes" from there.
+![](imgs/viewing_codes.png)
 
+You can also look at what you've coded according to each theme (generated from our mind map) by exploring the Codes option in the Navigation Pane. Here, we can see the number of things we've coded, and then view them by clicking on each coding theme.
 
-At the bottom right corner in the *Detail Pane* you’ll be able to see the nodes that we have coded.
+![](imgs/code_summary.png)
 
-To speed up the coding, you might want to ‘drag and drop’. This is a favourite for many researchers, as coding in this way allows you to drag a highlighted selection of data onto any code showing in the List pane. This, of course, necessitates the list pane showing nodes (as opposed to memos or anything else from the navigation pane). Make sure you choose Codes -> Nodes from the left side. Once all your nodes are available on the left side of the interview document, please select the part of the text you want to code, hold down the left click of the mouse and drag it onto the desired node.
+To speed up the coding, you might want to ‘drag and drop’. This is a favourite for many researchers, as coding in this way allows you to drag a highlighted selection of data onto any code showing in the List pane. This, of course, necessitates the list pane showing codes (as opposed to memos or anything else from the navigation pane). Make sure you choose Codes from the left side. Once all your codes are available on the left side of the interview document, select the part of the text you want to code, hold down the left click of the mouse and drag it onto the desired node.
 
 <!--**IMPORTANT:** One way to speed up drag and drop coding and see the most nodes possible on the screen at one time is to rearrange the windows so that the List containing the nodes is on the left side and the Detail pane of the source is on the right side. Do this by going to **View Ribbon tab /Detail View (Window) /Right**. Then, arrange vertical splitter bars to accommodate as much text on the right as possible while seeing enough of the code labels on the left. You’ll then be able to view it like this:-->
 
-![](imgs/codes_view.png)
+![](imgs/drag_codes.png)
  
 Theoretically, you would now read every transcript and code your data. After we've looked at inductive coding, we’ll look at what you can do with this coding.
 
 ### Activity 3: Inductive coding
 
-It's worth creating two ' node folders ' to better organise our data and keep our nodes for our two datasets separate. We wouldn't necessarily need to do this if we were working on only one dataset. However, for now, right-click on the ‘Nodes’ folder in the Codes section in the Navigation Pane. Create a folder called Dataset 1, then another called Dataset 2. Now, click back on the Nodes folder, select all the Nodes you created, and drag them into the Dataset 1 folder. You might need to rearrange the hierarchy again slightly. We can then put all our new Nodes for the Twitter data in the folder entitled Dataset 2, as below:
+It's worth creating two code folders to better organise our data and keep our nodes for our two datasets separate. We wouldn't necessarily need to do this if we were working on only one dataset. However, for now, right-click on the ‘Codes’ folder in the Codes section in the Navigation Pane. Create a folder called Dataset 1 (or something else meaningful, like 'CPOs'), then another called Dataset 2. Now, click back on the codes folder, select all the codes you created, and drag them into the Dataset 1 folder. You might need to rearrange the hierarchy again slightly. Take care not to care to create two main folders, not folders within one another (i.e., don't create dataset 2 within the dataset 1 folder, or vice-versa). We can then organise our codes according to each of the datasets.
 
-![](imgs/inductive.png)
- 
+![](imgs/code_folders.png)
 Now, let’s start our Twitter data inductive coding. Let’s start by creating another mind map, but this time for the Twitter data. 
 
 ![](imgs/tweet.gif)
 
 We’re not looking to create predetermined codes like we do with the deductive approach. Instead, we want to remain open-minded about the themes in the data. So, let’s remind ourselves of this. See if you can produce something like the following:
 
-![](imgs/inductive_map.png)
+![](imgs/gmp_mind_map.png)
  
-Remember, we don’t want to approach the data with too many concrete, predetermined ideas about what we will find in the data. Instead, we want to have a few open, guiding questions that will allow us to code our data as we read it.
+Remember, we don’t want to approach the data with too many concrete, predetermined ideas about what we will find in the data. Instead, we want to have a few open, guiding questions that will allow us to code our data as we read it. This could literally just be things you might be interested in.
 
-So now to the hard work again. But this time, we’ll need to create our nodes, **inductively**, as we read through the tweets.
+So now to the hard work again. But this time, we’ll need to create our nodes **inductively** as we read through the tweets.
 
-Start by clicking on *Dataset 2* in the Data section in the *Navigation Pane*, then double-clicking on the dataset in the *List Pane* to open it up in the Detail Pane. For the coding today, we’re only really interested in the tweets' texts.
+Start by clicking on the *Dataset 2* folder (or whatever you've called it)  in the Data section in the *Navigation Pane*, then double-clicking on the dataset in the *List Pane* to open it up in the Detail Pane. For the coding today, we’re only really interested in the tweets' texts.
 
-Read through the tweets one by one, and each time you come across a theme of interest, code it by highlighting it, right-clicking, and choosing ‘code selection’ and then ‘at new node. ' We think the first tweet relates to ‘partnership working’, so this is what we’ve called the node. We’ve now gone on to create more nodes, and some of the text relates to more than one node.
+Read through the tweets one by one, and each time you come across a theme of interest, code it by highlighting it, right-clicking, and choosing ‘code selection’ and then ‘to new code. ' We think the first tweet relates to ‘partnership working’, so this is what we’ve called the code. We can now go on to create more codes, and as before, some of the text might relate to more than one code. Note that once you create a new code, it might appear in your main Codes folder by default, so you should then click-and-drag it into your dataset 2 folder under 'Codes'.
 
-We’ve also started to create a hierarchy of Nodes and Sub-Nodes, as with the ‘Crime Types’ node folder. As you’ll see, we’ve changed the view to make it easier to create new Nodes and code at existing Nodes by dragging and dropping. We’ve also viewed the code stripes on the right-hand side. 
-
-You’ll notice that when you create Nodes, they are located in the top-level Nodes folder. So once you’ve finished your coding, you can select and drag them into your Dataset 2 Nodes folder to keep it all well organised:
-
-![](imgs/codes_inductive.png)
+As we go on, it's likely that we will end up with a hierarchy of codes and sub-codes. Remember the tip above about arranging the panes so that you can click and drag text into your code themes.
  
-In theory, you’d read through all the tweets and code everything you consider important thematically in this case. You’d then read them all again, and again, and then again, and so on until you’re happy with the coding framework you’ve developed. You can do this in your own time. You could end up with hundreds of Nodes; you can merge Nodes, un-code text, delete nodes, etc., until you’re satisfied.
+In theory, you’d read through all the tweets and code everything you consider important thematically in this case. You’d then read them all again, and again, and then again, and so on until you’re happy with the coding framework you’ve developed. You can do this in your own time. You could end up with hundreds of codes; you can merge codes, un-code text, delete codes, etc., until you’re satisfied.
 
-**Tip:** The great thing about folders in NVivo is that you can change your mind, restructure them and move or drag nodes around between them whenever you like – really easily. I’ll let you explore all this in your own time. It’s all intuitive, and if you ever get stuck, you can watch the tutorials on the QSR website.
+**Tip:** The great thing about folders in NVivo is that you can change your mind, restructure them and move or drag nodes around between them whenever you like – really easily. I’ll let you explore all this in your own time. It’s all intuitive, and if you ever get stuck, we recommend watching the tutorials on the website. At the moment, these tutorials are often in an older version of NVivo (usually NVivo12) but the skills are usually easily transerable to the (newer) version that we are using.
 
 ## Abductive coding
 
-Essentially, this involves going back and forth between the deductive approach and the inductive approach. You might wish to create some pre-determined codes/nodes based on your interests and/or theory and then flexibly adapt these as you interrogate your data.
+Essentially, this involves going back and forth between the deductive approach and the inductive approaches that we've just covered. You might wish to create some pre-determined codes/nodes based on your interests and/or theory and then flexibly adapt these as you interrogate your data.
 
 ### Activity 4: Retrieval – viewing coded data
 
 If you need to look vertically through one file at a time, reviewing what you have done, open a document and ensure Select Coding stripes /All has been selected:
 
-![](imgs/abductive.png)
- 
-This way, you will see any codes appearing in the data. However this is not so easy since all codes may occupy a very wide margin space and require much scrolling. Or you can selectively review individual nodes:
- 
-![](imgs/select_items.png)
- 
-![](imgs/select_items2.png)
- 
-Once you have done some coding, you should review the passages you have selected for a particular node. To do so, double-click on the node you want in the List pane. This will open the node in the Detail pane. Each source that references the chosen code is listed and headed by a hyperlink back to the source.
+![](imgs/coding_stripes_all.png)
 
-The tabs down the side provide different ways to view the references, depending on the type of data media coded there.
+Once you have done some coding, you should review the passages you have selected for a particular code. We covered this a bit earlier, but do do so, double-click on the code you want in the List pane. This will open the code in the Detail pane. Each source that references the chosen code is listed and headed by a hyperlink back to the source.
 
-**ANALYSIS COMMENT:** There are many reasons why you may wish to see what coding you’ve done or what content is coded at a node. You may want to review your coding, to compare each passage with the other passages or by means of showing Coding stripes to browse what else is coded in this source at that node, or simply to get back to coding where you left off.
+![](imgs/coding_stripes_all.png)
 
 ### Activity 5: Viewing more context
 
 It may be useful to see the surrounding context of a coding reference you’re examining. This can be done in several ways:
 
-You can jump to the source by Right-clicking on the passage > Open Referenced File. This will take you to the source and highlight the passage in which you were interested: 
+You can jump to the source by clicking on the blue link above the visual summary of your code. If you can't see the blue link like the one below, right-click on the passage  and select **open referenced file**. This will take you to the source and highlight the passage in which you were interested: 
 
-![](imgs/open_ref_file.png)
+![](imgs/open_ref_file_nvivo15.png)
   
-You can view additional content surrounding your passage of interest without going back to the whole source by R-clicking on the passage > Coding Context > and choosing how much you wish to see: 
+You can view additional content surrounding your passage of interest without going back to the whole source by right-clicking on the passage, clicking Coding Contextm and then and choosing how much you wish to see (e.g., narrow).
 
-![](imgs/coding_broad.png)
+![](imgs/coding_context_nvivo15.png)
  
-This will bring in your selected quantity in light grey type so you can differentiate it from what’s coded at that node, at which point you can select more of it to code into that node if you would like.
+This will bring in your selected quantity in a way that you can differentiate it from what’s coded. At this point you can select more of it to code into that node, if you would like.
 
 ## Export coded data
 
@@ -267,7 +256,9 @@ There are extensive ways to output data material about your data to other format
 
 This is the general and usually used qualitative form of output, which can be achieved almost anywhere in the package using different methods. This is usually required for, e.g., coded output, and it is easier to generate than the more formal reporting functions below.
 
-In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click> Export. Give this a go now with the Nodes for Dataset 1. First, click on Dataset 1 Node in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
+In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click > Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
+
+![](imgs/export_nvivo15.png)
 
 <!--## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
 
@@ -290,32 +281,31 @@ Below are some more tools you might get some use out of.
 
 ### Create another Word Cloud:
 
-See if you can replicate something like this from last week:
+See if you can replicate something like this from last week. Hint: navigate to your dataset 1 folder, select everything, then find the Word Frequency option (usually under 'Explore').
 
 ![](imgs/cloud_w9.png)
-
  
 This is a Word Cloud for Dataset 1 only.
 
 ### Create a Word Tree:
 
-Using the *Query* function, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
+Using the *text search* option under *Explore*, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
 
 ![](imgs/query_nvivo.jpeg)
 
-Then, choose the *‘Word Tree’* option to better understand the key discourse around the term. In Windows, go to “Query” and then “Query Wizard”. Are there any relationships here? Our query produced this:
+Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, you might have to go to “Query” and then “Query Wizard”. Our query produced the following. Are there any relationships here?
 
 ![](imgs/wordtree.png)
  
-While you can export your Word Tree into jpeg or PDF form, in NVivo, you can also click on the different branches to better understand the connections. Try it out.
+While you can export your Word Tree into jpeg or PDF form, in NVivo, you can also click on the different branches to better understand the connections interactively. Try it out.
 
-### Create a Concept Map (WINDOWS ONLY!)
+<!-- ### Create a Concept Map (WINDOWS ONLY!) -->
 
-Windows users might want to create a concept map to connect data to different ideas and thoughts. It is very similar to the Mind Map function that we did earlier. You can learn more about it [here](https://www.youtube.com/watch?v=NRSPP6eZd0s).
+<!-- Windows users might want to create a concept map to connect data to different ideas and thoughts. It is very similar to the Mind Map function that we did earlier. You can learn more about it [here](https://www.youtube.com/watch?v=NRSPP6eZd0s). -->
 
 ## Other features…
 
-Finally, here are some features that the more innovative amongst you may wish to make use of. Much of the *qualitative data* used in criminology is textual in that we often carry out interviews with offenders, victims and law enforcement. 
+Finally, here are some features that some of you may wish to make use of. Much of the *qualitative data* used in criminology is textual in that we often carry out interviews with offenders, victims and law enforcement. 
 
 ![](imgs/police.gif)
 
@@ -325,7 +315,7 @@ But you might be interested in generating different data, such as audio or visua
 
 Try importing a picture. Find something online and save it. Then import it. Here’s our example:
 
-![](imgs/code_pic.png)
+![](imgs/code_joe_dart.png)
  
 With the picture on view, click to edit or enable the editing feature. You can then:
 
@@ -339,7 +329,7 @@ Have a play with coding and analysing pictures.
 
 Coding multimedia data is very similar to coding textual data. For either audio or video sources, you can select transcript text and code as usual, or you can select a segment on the progress bar and code that is directly as if you’d highlighted text.
 
-So, if you have some music on your iTunes, try importing a song to see what it looks like, and then see if you can code lyrics and sections of the song. We’ve put some Radiohead in our project if you want to try it out there…
+So, if you have some music on your computer, try importing a song to see what it looks like, and then see if you can code lyrics and sections of the song.
 
 ## More on capturing web material
 

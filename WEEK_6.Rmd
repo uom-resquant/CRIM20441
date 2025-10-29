@@ -150,11 +150,11 @@ One final thing before we get started: please do not forget to read Chapters 1 a
 
 ![](imgs/qual_01.png)
 
-The lab sessions will also be strongly supplemented with video tutorials from the Lumivero website. 
+The lab sessions will also be supplemented with video tutorials from the Lumivero website. 
 
 ### Activity 2: Watch NVivo tutorials
 
-Discover more about the NVivo tutorials [here](https://help-nv.qsrinternational.com/20/win/Content/tutorials/nvivo-tutorials.htm). These tutorials use a slightly older version than we are using, but the layouts are comparable and principles the same.
+Discover more about the NVivo tutorials [here](https://help-nv.qsrinternational.com/20/win/Content/tutorials/nvivo-tutorials.htm). These tutorials use a slightly older version than we are using (usually NVivo12), but the layouts are comparable and principles the same.
 
 Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
 
