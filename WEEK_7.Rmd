@@ -48,7 +48,7 @@ Node is a term that refers to a point in the NVivo database, but a code label ma
 
 ![](imgs/coding.gif)
 
-Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly.
+Nodes **can be containers** within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly, so **please note that we often use the terms nodes and nodes interchangeably**.
 
 Nodes **can also be empty** – for example, they can act like hierarchical top-level codes with nodes underneath them that do contain or have been applied to data. So, we might have created a top-level node entitled ‘money laundering’ and then sub-level nodes entitled ‘methods’, ‘ethics’ and ‘perceptions’. We might even create further layers of nodes within each sub-level, e.g. in the ‘perceptions’ node, we might break that down further to ‘perceptions of the public’, ‘perceptions of enforcement authorities’, ‘perception of politicians’, and so on. These sub-nodes can also be empty in the sense that we might be interested in something specific conceptually (like 'perception of politicians') but actually not find anything, even if we do have information for another perception label.
 
@@ -82,19 +82,19 @@ Simply click ‘Next’, then ‘Next’ again in the following window and then 
 
 ![](imgs/gmp_data_nvivo15.png)
  
-For Windows users to import data from an Excel file, go to “Import” and select “Excel”. 
+For Windows users to import data from an Excel file, go to Import, then Survey and then Excel.
 
-![](imgs/excel_pc.png)
+![](imgs/excel_appsanywhere.png)
  
 You will have to click through the Survey Import Wizard, which looks something like this:
 
-![](imgs/import_wizard.png)
+![](imgs/import_wizard_appsanywhere.png)
  
 There are five steps to click through where you check to ensure the data will be imported correctly. In this case, you can click ok through each step until step 5 without making any changes. **In "Step 5", unclick the autocoding themes and sentiments options**. It may take a few minutes for NVivo to process the request.
 
-![](imgs/identify_open_close.png)
+![](imgs/import_appsanywhere_options.png)
  
-This should be the result when you finish with the import wizard:
+This should be the more or less be the result when you finish with the import wizard:
 
 ![](imgs/import_wizard2.png)
  
@@ -289,11 +289,11 @@ This is a Word Cloud for Dataset 1 only.
 
 ### Create a Word Tree:
 
-Using the *text search* option under *Explore*, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1:
+Using the *text search* option under *Explore*, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1. Note that we are using specific syntax (e.g., "AND") to make this advanced search. You don't need to know this in detail for now but you can read more about it [online](https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm) if you want.
 
 ![](imgs/query_nvivo.jpeg)
 
-Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, you might have to go to “Query” and then “Query Wizard”. Our query produced the following. Are there any relationships here?
+Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here?
 
 ![](imgs/wordtree.png)
  
