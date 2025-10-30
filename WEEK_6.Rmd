@@ -124,7 +124,7 @@ Essentially, the NVivo Software allows you to analyse and manage a range of qual
 
 ### Installing NVivo 15
 
-Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. Remember that the software application you want to use is NVivo (specifically, NVivo version 15).
+Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 15).
 
 We know some of you are using your own laptops. If that's the case, you’ll need to download **version 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
 
@@ -138,7 +138,7 @@ You will then be prompted to login, so if you don't have an account yet, select 
 
 Once it's created (or if you already have one), use those login details to log into the Lumivero portal. Here, you can select from a range of software that Lumivero offer. On the left-hand side, you should see NVivo in the **Available products** tab. It's possible that your landing page is already on NVivo, in which case, great!
 
-![](imgs/nvivo_setup3.png){width=70%}
+![](imgs/nvivo_setup3.png){width=60%}
 
 Once you select NVivo, or if you're already on that page, you will have the option to download it for your computer. It will look something like the example below (although for you, it might say Windows instead of Mac). Download NVivo! You might need to open the `.exe` (for Windows) or `.dmg` (for Mac) file in your Downloads to begin the install. 
 
@@ -156,7 +156,7 @@ The lab sessions will also be supplemented with video tutorials from the Lumiver
 
 Discover more about the NVivo tutorials [here](https://help-nv.qsrinternational.com/20/win/Content/tutorials/nvivo-tutorials.htm). These tutorials use a slightly older version than we are using (usually NVivo12), but the layouts are comparable and principles the same.
 
-Take a look at the website now and watch some of the starter videos. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
+Take a look at the website now and watch some of the starter videos, if you'd like. You can choose to watch the Windows or Mac tutorials - whichever suits your needs. If you haven’t watched them already, we would recommend watching the following before you get into the main lab work:
 
 - These tutorials will teach you how to:
     + ‘Import Documents’, for [Windows](https://www.youtube.com/watch?v=QN6AAKmZvIo) or [Mac](https://www.youtube.com/watch?v=I7tJpX2ixDI). 
@@ -171,7 +171,7 @@ Take a look at the website now and watch some of the starter videos. You can cho
     
 ![](imgs/popcorn.gif)
     
-We’ll be talking you through most of the above in the session notes today. If you get stuck at any point, it’s worth re-watching these videos or seeing if there is a video available for your specific query. It’s a useful website.
+We’ll be talking you through most of the above in the session notes today.
 
 ## What kinds of data can I input into NVivo for analysis?
 
@@ -195,19 +195,19 @@ Today, we'll be doing some importing of documents and PDFs.
 
 ### Activity 3: Find some data…
 
-Before starting with NVivo, we’d like you to find some data you’ll use in the session today. You can use the data that we use, which are available on Convas under the **data for lab and homework tasks** in week 6 (look for **Dankse bank data**), but we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflects your own criminological interests.
+Before starting with NVivo, we’d like you to find some data you’ll use in the session today. You can use the data that we use, which are available on Convas under the **data for lab and homework tasks** in week 6 (look for **Dankse bank data**). That said, we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflects your own criminological interests. Feel free to follow our steps below, and then repeat them for your own data sources, if you'd like. It's also fine if you just want to use the data we use.
 
-For instance, given the major news coverage of [Danske Bank money laundering scandal](https://en.wikipedia.org/wiki/Danske_Bank_money_laundering_scandal), in our example, we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’.
+For our data, we collected five news stories from different news organisations for the search ‘money laundering Danske Bank’. If you don't know about this scandal, have a [quick read](https://en.wikipedia.org/wiki/Danske_Bank_money_laundering_scandal) about it.
 
 ![](imgs/dankse.jpg)
 
-But, not everyone gets as excited as we do about researching the movement of illicit finances of global individual and corporate elites…
+Remember, if you want to use your own data, please go ahead. Otherwise, download our pre-existing data from Canvas.
 
-We’ve saved each news article in a folder on our laptop:
+When we first downloaded our news articles, we saved each news article in a folder on our laptop:
 
 ![](imgs/dankse_folder.png)
- 
-At this point, it’s important to save your web content as PDF files. This will make it easier to import them into *NVivo* (we’ll get to this later.) If you’re on a Mac, you can open the web page, select print, and then select ‘Save as PDF’. Save these in your Media Articles folder. You can "Save as" a PDF in different ways, so stick with what you know.
+
+Note that these news articles have been saved at a webpage. If you're downloading your own data, it’s important to then save your web content as PDF files. This will make it easier to import them into *NVivo* (we’ll get to this later.) If you’re on a Mac, you can open the web page, select print, and then select ‘Save as PDF’. Save these in your Media Articles folder. You can "Save as" a PDF in different ways, so stick with what you know.
 
 ![](imgs/mac_news_1.png)
  
@@ -220,19 +220,19 @@ If you are using a PC, these are the steps you need to take to download a news a
 
 ![](imgs/windows_print_2.jpeg)
 
-Do this for each of your media articles.
+If you're using your own data, do this for each of your media articles. If you're just using the data we gave you on Canvas about Danske, we already did this step for you (i.e., the news articles are already PDFs).
 
-We can then search for reports and documents on money laundering strategies within the EU. We saved five of these to our documents folder.
+We can then search for government reports and documents on money laundering strategies within the EU. We saved five of these to our documents folder, also as PDFs. You can do the same for your own topic too.
 
-We then searched for ‘money laundering criminology’ on [Google Scholar](https://scholar.google.com/) – you could also try the [University’s online databases](https://www.librarysearch.manchester.ac.uk/) (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015.
+We then searched for ‘money laundering criminology’ on [Google Scholar](https://scholar.google.com/) – you could also try the [University’s online databases](https://www.librarysearch.manchester.ac.uk/) (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015. Again, we saved them as PDFs.
 
-In order to keep it nice and tidy, we’ve organised our documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’**.
+In order to keep it nice and tidy, we’ve organised our documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’**. In each of these three folders are our PDF files. In total, these comprise our qualitative data. If you've downloaded our data from Canvas for this exercise, try and use the same folder structure.
  
 ![](imgs/nice_tidy.png)
 
-They are now ready to ‘import’ into NVivo.
+If you've decided to use your own data on a different topic, consider placing all your PDFs with such a clear folder structure for clarity (e.g., media articles, government strate, etc). 
 
-So, go and find your own media articles *(x 5)*, academic journal articles *(x 5)* and non-academic official sources *(x 5)*. If you need any tips during the computer lab, remember to put your hand up and we can come over and help you! Once you're done, save these to your One Drive or another accessible location on your PC/Mac.
+Now we have our PDFs organised into folders, they are now ready to ‘import’ into NVivo.
 
 This is just an example dataset; in a real research project, your literature and data search would need to be much more extensive and systematic. But for the purposes of demonstrating NVivo, this will suffice!
 
@@ -246,15 +246,27 @@ Before we open up our textual data in NVivo, we will need to learn how to create
 
 ### Activity 4: Getting Started with NVivo
 
-Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. Upon opening, it will look something like the screenshot below (on Mac). **It might look a bit different on Windows but you will still have similar options (e.g., create new project, learning more about NVivo)**.
+Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. When you first start NVivo on Windows, you will be asked to create a user profile. The equivalent might happen on Mac.
+
+![](imgs/nvivo_user_profiule.png){width=70%}
+
+You can just click OK using the default settings.
+
+NVivo will then open. It will look something like the screenshot below (on Mac).
 
 ![](imgs/nvivo_open.png){width=70%}
 
-Second, you need to create a new project. So click on the appropriate option - "Create new project"/ "Blank project". You’ll then need to name and save the project; Make sure to save it in the same folder as your data. Here's just an example of what my interface looked like.
+Or if you're using Windows on a computer cluster PC, it might look like this:
+
+![](imgs/nvivo_open_windows.png){width=70%}
+
+If you're asked to install an update, you don't bneed to.
+
+Second, you need to create a new project. So click on the appropriate option - "Create new project"/ "Blank project" / "New Project". You’ll then need to name and save the project; Make sure to save it in the same folder as your data. Here's just an example of what my interface looked like.
 
 ![](imgs/nvivo_new_project.png){width=70%}
 
-Click ‘Create’/'Create Project'. And we are ready to start our project!
+Click ‘Create’/'Create Project' on Mac. On Windows, click 'Next' and then 'Create Project'. And we are ready to start our project!
 
 You will then be given a quick tour of NVivo -- we recommend taking a look at this (i.e., don't click _skip_!) to familiarise yourself with the basic functionality.
 
@@ -277,8 +289,7 @@ Basic ribbon tabs consist of:
 - **Create**: making new things like annotations and coding.
 - **Import**: various import options,
 - **Explore**: range of options like text searches, word frequency counts, and diagrams. 
-- **Layout** (in Windows, this might be included under **Home**): manipulating tabular outputs
-- **View** (in Windows, this might be included under **Home**): altering what you can see, arrangement of windows, etc.
+- On Mac you might also see **Layout** and **View**. Feel free to explore these but we won't use them today anyway (so Windows users, do not worry).
 
 **Note 5**: There are a few aspects of work that are only accessible via the ribbon tabs (for instance, some of the editing tools are only accessible from the *Home* Tab. However, many other functions are accessible more easily from the left-hand navigation pane (e.g., you will see that **Explore** appears there, in addition to the ribbon). Also, note that some ribbon tabs only open up when you open up some new option or diagram. We mention this now in case you wonder why some ribbon tabs appear and disappear! You’ll figure this out through trial and error as we go on.
 
@@ -316,7 +327,7 @@ So, right-click at the top level (e.g. Files) -> New Folder – provide a name f
 
 You can name your folder whatever you want. Here, I've named ours 'articles' and provided a description to remind what the folder is for in the future. 
 
-Then click ‘Done’. You can then create a second and third folder for your other files. In my example, given the Dankse bank data (see above), I name my other two folders 'eu strategy' and 'media articles', respectively. You can rename your folders at any time by right-clicking on them and clicking 'Get Info'. This brings up the folder properties window, and you can then rename the folder. In this example, I rename my 'articles' folder to 'academic articles' for clarity. 
+Then click ‘Done’ (or 'OK'). You can then create a second and third folder for your other files. In my example, given the Dankse bank data (see above), I name my other two folders 'eu strategy' and 'media articles', respectively. You can rename your folders at any time by right-clicking on them and clicking 'Get Info' (on Mac) or 'Folder Properties' (on Windows). This brings up the folder properties window, and you can then rename the folder. In this example, I rename my 'articles' folder to 'academic articles' for clarity. 
 
 ![](imgs/nvivo_rename.png){width=70%}
 
@@ -336,15 +347,15 @@ Remember that ‘data’ and Files in NVivo are any material at all that will he
 
 For now, let’s just import your data. First, make sure the Files folder where you want to import your documents in the Navigation View is highlighted. For instance, we’ll start by importing the PDFs of our media articles, so single-left-click the ‘media articles’ folder to highlight it.
  
-You should now be viewing a series of options below your ribbon (see below for Mac). One of these will be 'Import' under which you can select 'Files' and then 'PDFs'. 
+You should now be viewing a series of options below your ribbon (see below for Mac). One of these will be 'Import' under which you can select 'Files' and then 'PDFs'. On Windows, you don't need to select PDF as the file type -- it will just take you to the folder.
 
 ![](imgs/nvivo_mediaarticles_import.png)
  
-This will bring up your computer’s file search folder. Mine looks like the view below. Locate the folder where you saved your media articles and select the first one to import. Double-click or select it and click "Import".
+This will bring up your computer’s file search folder. Mine looks like the view below. Locate the folder where you saved your media articles and select the first one to import. Double-click or select it and click "Import". On Windows, you select the file using 'Open' and then click 'Import'.
 
 ![](imgs/nvivo_select_files.png)
 
-Once imported, you’ll then need to name this document. I’ve called my first media article ‘New York Times article’. Do this is for your own article, naming it something sensible, and then click ‘Done’.
+Once imported, you’ll then need to name this document. I’ve called my first media article ‘New York Times article’. Do this is for your own article, naming it something sensible, and then click ‘Done’ (or 'OK').
 
 ![](imgs/nvivo_name_import.png)
  
@@ -352,7 +363,7 @@ Your first article will now be imported. You’ll see it appears in your List Vi
 
 ![](imgs/list_details_view.png)
 
-You now need to repeat this process for all your media articles, journal articles, and other literature. You’ll then have 15 documents imported into NVivo. In doing so, you can select multiple files at once to import by holding down Command/Ctrl when selecting them. If you do this, ensure that you have the correct folder selected (e.g., media articles) and that you only select files belong in that folder (i.e., media articles!). You won't get the option to rename each one, but you can do this later on.
+You now need to repeat this process for all your media articles, journal articles, and other literature. You’ll then have 15 documents imported into NVivo. In doing so, you can select multiple files at once to import by holding down Command/Ctrl/Shift when selecting them. If you do this, ensure that you have the correct folder selected (e.g., media articles) and that you only select files belong in that folder (e.g., media articles!). You won't get the option to rename each one, but you can do this later on.
 
 The key point to note here is that we can integrate different sources of data (e.g., media articles, academic literature, official reports) into one place to manage them together. You can even use *NVivo* to undertake your literature reviews in preparation for essay writing – we’ll look at this next week.
 
@@ -397,7 +408,7 @@ You can then create memos within your chosen memo folder by using the **Create**
 See if you can follow what we’ve done for your own data.
 
 We’ve created two folders: ‘research questions’ and ‘theoretical frameworks’ (well, that's what I did! Maybe you named them something else, which is totally fine).
- 
+
 We’ve highlighted the research questions folder, created a new memo called ‘RQs’. We then clicked on the Detail View and started making notes on our research questions.
 
 ![](imgs/nvivo_memo_writing_joke.png)
@@ -426,7 +437,7 @@ You’re now going to analyse your imported documents by the frequency with whic
 
 ![](imgs/word_freq.png)
 
-Once a new window opens in the Details View, the first thing you need to do is select which file (or files) we want to run the word frequency count on. We can do this for individual files using 'Selected Items' or for every file in a folder using 'Items in Selected Folders'.
+Once a new window opens in the Details View, the first thing you need to do is select which file (or files) we want to run the word frequency count on. We can do this for individual files using 'Selected Items' or for every file in a folder using 'Items in Selected Folders' (on Windows: 'Selected Folders...').
 
 ![](imgs/word_freq_file_options.png)
 
@@ -434,17 +445,17 @@ You can choose whatever you'd like, but here, I choose 'Items in Selected Folder
 
 ![](imgs/word_freq_select_files.png)
 
-This will open up the ‘Unnamed Query’ panel in the Detail View. At this point, simply ensure all the default settings are selected and click ‘Run Query’.
+This will open up the Unnamed Query (or Word Frequency Query Results) panel in the Detail View. At this point, simply ensure all the default settings are selected and click ‘Run Query’.
 
 ![](imgs/run_query_nvivo15.png)
  
 This will produce a list of all the words in all your documents and order them according to ‘Count’, i.e. the word with the most hits appears at the top.
  
-This is not great to look at, so what we can do is create a ‘Word Cloud’. Simply choose the ‘Word Cloud’ option at the top of the Detail View, and this translates your query into a neat visualisation of the word frequencies:
+This is not great to look at, so what we can do is create a ‘Word Cloud’. Simply choose the ‘Word Cloud’ option at the top of the Detail View (or on the rigth hand side for Windows), and this translates your query into a neat visualisation of the word frequencies:
 
 ![](imgs/word_cloud_nvivo15.png)
  
-We can then save this image as a picture. Right-click anywhere in the Detail View, and you’ll have an option to ‘Export’. Select this, choose a suitable folder location, and an appropriate file format (e.g., JPEG) and name, and click OK/Save. Your Word Cloud is then saved as a picture. You could then insert this into any of the essays or reports as an example of a superficial but indicative insight into the content of your documents.
+We can then save this image as a picture. Right-click anywhere in the Detail View, and you’ll have an option to ‘Export’ (or 'Export Word Cloud' on Windows). Select this, choose a suitable folder location, and an appropriate file format (e.g., JPEG) and name, and click OK/Save. Your Word Cloud is then saved as a picture. You could then insert this into any of the essays or reports as an example of a superficial but indicative insight into the content of your documents.
  
 That said, considering all our documents were identified in relation to ‘money laundering’, it was pretty obvious that ‘money laundering’ would be the main term, isn’t it?! In other words, the findings here are an artefact of my data search at the start.
 
