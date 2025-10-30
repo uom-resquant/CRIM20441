@@ -124,7 +124,9 @@ Essentially, the NVivo Software allows you to analyse and manage a range of qual
 
 ### Installing NVivo 15
 
-Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 15).
+Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 15). You can search for it within _ApssAnywhere_, like this:
+
+![](imgs/appsanywhere_nvivfo.png)
 
 We know some of you are using your own laptops. If that's the case, you’ll need to download **version 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
 
@@ -246,9 +248,9 @@ Before we open up our textual data in NVivo, we will need to learn how to create
 
 ### Activity 4: Getting Started with NVivo
 
-Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. When you first start NVivo on Windows, you will be asked to create a user profile. The equivalent might happen on Mac.
+Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. When you first start NVivo on Windows, you will be asked to create a user profile (see below). The equivalent might happen on Mac.
 
-![](imgs/nvivo_user_profiule.png){width=70%}
+![](imgs/nvivo_user_profile.png){width=70%}
 
 You can just click OK using the default settings.
 
@@ -260,7 +262,7 @@ Or if you're using Windows on a computer cluster PC, it might look like this:
 
 ![](imgs/nvivo_open_windows.png){width=70%}
 
-If you're asked to install an update, you don't bneed to.
+If you're asked to install an update, you don't need to.
 
 Second, you need to create a new project. So click on the appropriate option - "Create new project"/ "Blank project" / "New Project". You’ll then need to name and save the project; Make sure to save it in the same folder as your data. Here's just an example of what my interface looked like.
 

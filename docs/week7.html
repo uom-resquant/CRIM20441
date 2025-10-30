@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 6 Week 7 | Making Sense of Crime Data</title>
+  <title>Chapter 7 Week 7 | Making Sense of Crime Data</title>
   <meta name="description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
   <meta name="generator" content="bookdown 0.44 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 6 Week 7 | Making Sense of Crime Data" />
+  <meta property="og:title" content="Chapter 7 Week 7 | Making Sense of Crime Data" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 6 Week 7 | Making Sense of Crime Data" />
+  <meta name="twitter:title" content="Chapter 7 Week 7 | Making Sense of Crime Data" />
   
   <meta name="twitter:description" content="This is a companion workbook for the 2nd year undergraduate module CRIM20441 Making Sense of Criminological Data at the University of Manchester." />
   
@@ -30,7 +30,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="week5.html"/>
+<link rel="prev" href="week6.html"/>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll('a[href]');
@@ -215,10 +219,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-does-age-at-first-arrest-correlate-with-the-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity: Does age at first arrest correlate with the total number of arrests?</a></li>
 <li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a>
-<ul>
-<li class="chapter" data-level="3.5.1" data-path="week3.html"><a href="week3.html#visualising-the-differences-between-groups"><i class="fa fa-check"></i><b>3.5.1</b> Visualising the differences between groups</a></li>
-</ul></li>
+<li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="week4.html"><a href="week4.html"><i class="fa fa-check"></i><b>4</b> Week 4</a>
 <ul>
@@ -294,40 +295,85 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="5.7" data-path="week5.html"><a href="week5.html#ethics"><i class="fa fa-check"></i><b>5.7</b> Ethics</a></li>
 <li class="chapter" data-level="5.8" data-path="week5.html"><a href="week5.html#summary-4"><i class="fa fa-check"></i><b>5.8</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="week7.html"><a href="week7.html"><i class="fa fa-check"></i><b>6</b> Week 7</a>
+<li class="chapter" data-level="6" data-path="week6.html"><a href="week6.html"><i class="fa fa-check"></i><b>6</b> Week 6</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="week7.html"><a href="week7.html#learning-outcomes-5"><i class="fa fa-check"></i><b>6.1</b> Learning outcomes</a></li>
-<li class="chapter" data-level="6.2" data-path="week7.html"><a href="week7.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data"><i class="fa fa-check"></i><b>6.2</b> Deduction, induction, abduction – key analytical strategies for qualitative data</a></li>
-<li class="chapter" data-level="6.3" data-path="week7.html"><a href="week7.html#coding-qualitative-data-using-nodes"><i class="fa fa-check"></i><b>6.3</b> ‘Coding’ qualitative data using ‘nodes’</a>
+<li class="chapter" data-level="6.1" data-path="week6.html"><a href="week6.html#learning-outcomes-5"><i class="fa fa-check"></i><b>6.1</b> Learning outcomes</a></li>
+<li class="chapter" data-level="6.2" data-path="week6.html"><a href="week6.html#what-is-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.2</b> What is qualitative data analysis?</a>
 <ul>
-<li class="chapter" data-level="6.3.1" data-path="week7.html"><a href="week7.html#what-are-nodes"><i class="fa fa-check"></i><b>6.3.1</b> What are ‘Nodes’?</a></li>
-<li class="chapter" data-level="6.3.2" data-path="week7.html"><a href="week7.html#activity-1-coding"><i class="fa fa-check"></i><b>6.3.2</b> Activity 1: Coding</a></li>
+<li class="chapter" data-level="6.2.1" data-path="week6.html"><a href="week6.html#how-is-qualitative-data-different-from-quantitative-data"><i class="fa fa-check"></i><b>6.2.1</b> How is qualitative data different from quantitative data?</a></li>
+<li class="chapter" data-level="6.2.2" data-path="week6.html"><a href="week6.html#activity-1-exploring-the-fincen-files"><i class="fa fa-check"></i><b>6.2.2</b> Activity 1: Exploring the FinCEN files</a></li>
+<li class="chapter" data-level="6.2.3" data-path="week6.html"><a href="week6.html#is-qualitative-data-analysis-easier"><i class="fa fa-check"></i><b>6.2.3</b> Is qualitative data analysis easier?</a></li>
+<li class="chapter" data-level="6.2.4" data-path="week6.html"><a href="week6.html#types-of-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.2.4</b> Types of qualitative data analysis</a></li>
 </ul></li>
-<li class="chapter" data-level="6.4" data-path="week7.html"><a href="week7.html#using-mind-maps-to-organise-your-analytical-process-and-framework"><i class="fa fa-check"></i><b>6.4</b> Using ‘mind maps’ to organise your ‘analytical process and framework’</a>
+<li class="chapter" data-level="6.3" data-path="week6.html"><a href="week6.html#introducing-nvivo-a-software-for-qualitative-data-analysis"><i class="fa fa-check"></i><b>6.3</b> Introducing NVivo, a software for qualitative data analysis</a>
 <ul>
-<li class="chapter" data-level="6.4.1" data-path="week7.html"><a href="week7.html#activity-2-deductive-coding"><i class="fa fa-check"></i><b>6.4.1</b> Activity 2: Deductive coding</a></li>
-<li class="chapter" data-level="6.4.2" data-path="week7.html"><a href="week7.html#activity-3-inductive-coding"><i class="fa fa-check"></i><b>6.4.2</b> Activity 3: Inductive coding</a></li>
+<li class="chapter" data-level="6.3.1" data-path="week6.html"><a href="week6.html#installing-nvivo-15"><i class="fa fa-check"></i><b>6.3.1</b> Installing NVivo 15</a></li>
+<li class="chapter" data-level="6.3.2" data-path="week6.html"><a href="week6.html#activity-2-watch-nvivo-tutorials"><i class="fa fa-check"></i><b>6.3.2</b> Activity 2: Watch NVivo tutorials</a></li>
 </ul></li>
-<li class="chapter" data-level="6.5" data-path="week7.html"><a href="week7.html#abductive-coding"><i class="fa fa-check"></i><b>6.5</b> Abductive coding</a>
+<li class="chapter" data-level="6.4" data-path="week6.html"><a href="week6.html#what-kinds-of-data-can-i-input-into-nvivo-for-analysis"><i class="fa fa-check"></i><b>6.4</b> What kinds of data can I input into NVivo for analysis?</a>
 <ul>
-<li class="chapter" data-level="6.5.1" data-path="week7.html"><a href="week7.html#activity-4-retrieval-viewing-coded-data"><i class="fa fa-check"></i><b>6.5.1</b> Activity 4: Retrieval – viewing coded data</a></li>
-<li class="chapter" data-level="6.5.2" data-path="week7.html"><a href="week7.html#activity-5-viewing-more-context"><i class="fa fa-check"></i><b>6.5.2</b> Activity 5: Viewing more context</a></li>
+<li class="chapter" data-level="6.4.1" data-path="week6.html"><a href="week6.html#activity-3-find-some-data"><i class="fa fa-check"></i><b>6.4.1</b> Activity 3: Find some data…</a></li>
 </ul></li>
-<li class="chapter" data-level="6.6" data-path="week7.html"><a href="week7.html#export-coded-data"><i class="fa fa-check"></i><b>6.6</b> Export coded data</a>
+<li class="chapter" data-level="6.5" data-path="week6.html"><a href="week6.html#creating-your-nvivo-project"><i class="fa fa-check"></i><b>6.5</b> Creating your NVivo project</a>
 <ul>
-<li class="chapter" data-level="6.6.1" data-path="week7.html"><a href="week7.html#activity-6-exporting-via-the-list-pane"><i class="fa fa-check"></i><b>6.6.1</b> Activity 6: Exporting via the list pane</a></li>
+<li class="chapter" data-level="6.5.1" data-path="week6.html"><a href="week6.html#activity-4-getting-started-with-nvivo"><i class="fa fa-check"></i><b>6.5.1</b> Activity 4: Getting Started with NVivo</a></li>
 </ul></li>
-<li class="chapter" data-level="6.7" data-path="week7.html"><a href="week7.html#some-other-useful-things-to-do"><i class="fa fa-check"></i><b>6.7</b> Some other useful things to do</a>
+<li class="chapter" data-level="6.6" data-path="week6.html"><a href="week6.html#understanding-the-nvivo-interface"><i class="fa fa-check"></i><b>6.6</b> Understanding the NVivo interface</a></li>
+<li class="chapter" data-level="6.7" data-path="week6.html"><a href="week6.html#navigation-view"><i class="fa fa-check"></i><b>6.7</b> Navigation View</a>
 <ul>
-<li class="chapter" data-level="6.7.1" data-path="week7.html"><a href="week7.html#create-another-word-cloud"><i class="fa fa-check"></i><b>6.7.1</b> Create another Word Cloud:</a></li>
-<li class="chapter" data-level="6.7.2" data-path="week7.html"><a href="week7.html#create-a-word-tree"><i class="fa fa-check"></i><b>6.7.2</b> Create a Word Tree:</a></li>
+<li class="chapter" data-level="6.7.1" data-path="week6.html"><a href="week6.html#data"><i class="fa fa-check"></i><b>6.7.1</b> Data</a></li>
+<li class="chapter" data-level="6.7.2" data-path="week6.html"><a href="week6.html#the-files-section"><i class="fa fa-check"></i><b>6.7.2</b> The ‘Files’ section</a></li>
+<li class="chapter" data-level="6.7.3" data-path="week6.html"><a href="week6.html#activity-5-folders"><i class="fa fa-check"></i><b>6.7.3</b> Activity 5: Folders</a></li>
 </ul></li>
-<li class="chapter" data-level="6.8" data-path="week7.html"><a href="week7.html#other-features"><i class="fa fa-check"></i><b>6.8</b> Other features…</a>
+<li class="chapter" data-level="6.8" data-path="week6.html"><a href="week6.html#importing-data"><i class="fa fa-check"></i><b>6.8</b> Importing Data</a>
 <ul>
-<li class="chapter" data-level="6.8.1" data-path="week7.html"><a href="week7.html#graphicspictures---making-linked-notes-and-coding"><i class="fa fa-check"></i><b>6.8.1</b> Graphics/pictures - making linked notes and coding</a></li>
-<li class="chapter" data-level="6.8.2" data-path="week7.html"><a href="week7.html#coding-audiovideo-data"><i class="fa fa-check"></i><b>6.8.2</b> Coding audio/video data</a></li>
+<li class="chapter" data-level="6.8.1" data-path="week6.html"><a href="week6.html#activity-6-import-data"><i class="fa fa-check"></i><b>6.8.1</b> Activity 6: Import data</a></li>
 </ul></li>
-<li class="chapter" data-level="6.9" data-path="week7.html"><a href="week7.html#summary-5"><i class="fa fa-check"></i><b>6.9</b> Summary</a></li>
+<li class="chapter" data-level="6.9" data-path="week6.html"><a href="week6.html#memos"><i class="fa fa-check"></i><b>6.9</b> Memos</a>
+<ul>
+<li class="chapter" data-level="6.9.1" data-path="week6.html"><a href="week6.html#activity-7-memos"><i class="fa fa-check"></i><b>6.9.1</b> Activity 7: Memos</a></li>
+</ul></li>
+<li class="chapter" data-level="6.10" data-path="week6.html"><a href="week6.html#word-frequency"><i class="fa fa-check"></i><b>6.10</b> Word Frequency</a>
+<ul>
+<li class="chapter" data-level="6.10.1" data-path="week6.html"><a href="week6.html#activity-8-word-frequency"><i class="fa fa-check"></i><b>6.10.1</b> Activity 8: Word frequency</a></li>
+<li class="chapter" data-level="6.10.2" data-path="week6.html"><a href="week6.html#activity-9-create-two-distinct-word-clouds"><i class="fa fa-check"></i><b>6.10.2</b> Activity 9: Create two distinct word clouds</a></li>
+</ul></li>
+<li class="chapter" data-level="6.11" data-path="week6.html"><a href="week6.html#summary-5"><i class="fa fa-check"></i><b>6.11</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="week7.html"><a href="week7.html"><i class="fa fa-check"></i><b>7</b> Week 7</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="week7.html"><a href="week7.html#learning-outcomes-6"><i class="fa fa-check"></i><b>7.1</b> Learning outcomes</a></li>
+<li class="chapter" data-level="7.2" data-path="week7.html"><a href="week7.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data"><i class="fa fa-check"></i><b>7.2</b> Deduction, induction, abduction – key analytical strategies for qualitative data</a></li>
+<li class="chapter" data-level="7.3" data-path="week7.html"><a href="week7.html#coding-qualitative-data-using-nodes"><i class="fa fa-check"></i><b>7.3</b> ‘Coding’ qualitative data using ‘nodes’</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="week7.html"><a href="week7.html#what-are-nodes"><i class="fa fa-check"></i><b>7.3.1</b> What are ‘Nodes’?</a></li>
+<li class="chapter" data-level="7.3.2" data-path="week7.html"><a href="week7.html#activity-1-coding"><i class="fa fa-check"></i><b>7.3.2</b> Activity 1: Coding</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="week7.html"><a href="week7.html#using-mind-maps-to-organise-your-analytical-process-and-framework"><i class="fa fa-check"></i><b>7.4</b> Using ‘mind maps’ to organise your ‘analytical process and framework’</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="week7.html"><a href="week7.html#activity-2-deductive-coding"><i class="fa fa-check"></i><b>7.4.1</b> Activity 2: Deductive coding</a></li>
+<li class="chapter" data-level="7.4.2" data-path="week7.html"><a href="week7.html#activity-3-inductive-coding"><i class="fa fa-check"></i><b>7.4.2</b> Activity 3: Inductive coding</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="week7.html"><a href="week7.html#abductive-coding"><i class="fa fa-check"></i><b>7.5</b> Abductive coding</a>
+<ul>
+<li class="chapter" data-level="7.5.1" data-path="week7.html"><a href="week7.html#activity-4-retrieval-viewing-coded-data"><i class="fa fa-check"></i><b>7.5.1</b> Activity 4: Retrieval – viewing coded data</a></li>
+<li class="chapter" data-level="7.5.2" data-path="week7.html"><a href="week7.html#activity-5-viewing-more-context"><i class="fa fa-check"></i><b>7.5.2</b> Activity 5: Viewing more context</a></li>
+</ul></li>
+<li class="chapter" data-level="7.6" data-path="week7.html"><a href="week7.html#export-coded-data"><i class="fa fa-check"></i><b>7.6</b> Export coded data</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="week7.html"><a href="week7.html#activity-6-exporting-via-the-list-pane"><i class="fa fa-check"></i><b>7.6.1</b> Activity 6: Exporting via the list pane</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="week7.html"><a href="week7.html#some-other-useful-things-to-do"><i class="fa fa-check"></i><b>7.7</b> Some other useful things to do</a>
+<ul>
+<li class="chapter" data-level="7.7.1" data-path="week7.html"><a href="week7.html#create-another-word-cloud"><i class="fa fa-check"></i><b>7.7.1</b> Create another Word Cloud:</a></li>
+<li class="chapter" data-level="7.7.2" data-path="week7.html"><a href="week7.html#create-a-word-tree"><i class="fa fa-check"></i><b>7.7.2</b> Create a Word Tree:</a></li>
+</ul></li>
+<li class="chapter" data-level="7.8" data-path="week7.html"><a href="week7.html#other-features"><i class="fa fa-check"></i><b>7.8</b> Other features…</a>
+<ul>
+<li class="chapter" data-level="7.8.1" data-path="week7.html"><a href="week7.html#graphicspictures---making-linked-notes-and-coding"><i class="fa fa-check"></i><b>7.8.1</b> Graphics/pictures - making linked notes and coding</a></li>
+<li class="chapter" data-level="7.8.2" data-path="week7.html"><a href="week7.html#coding-audiovideo-data"><i class="fa fa-check"></i><b>7.8.2</b> Coding audio/video data</a></li>
+</ul></li>
+<li class="chapter" data-level="7.9" data-path="week7.html"><a href="week7.html#summary-6"><i class="fa fa-check"></i><b>7.9</b> Summary</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown">Published with bookdown</a></li>
@@ -349,10 +395,10 @@ document.addEventListener("DOMContentLoaded", function() {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="week7" class="section level1 hasAnchor" number="6">
-<h1><span class="header-section-number">Chapter 6</span> Week 7<a href="week7.html#week7" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="learning-outcomes-5" class="section level2 hasAnchor" number="6.1">
-<h2><span class="header-section-number">6.1</span> Learning outcomes<a href="week7.html#learning-outcomes-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="week7" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Week 7<a href="week7.html#week7" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-outcomes-6" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Learning outcomes<a href="week7.html#learning-outcomes-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this session, you’ll learn the following:</p>
 <ul>
 <li>How to interrogate qualitative data using NVivo.</li>
@@ -360,8 +406,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>Some useful analysis features in NVivo, including how to work with non-textual data.</li>
 </ul>
 </div>
-<div id="deduction-induction-abduction-key-analytical-strategies-for-qualitative-data" class="section level2 hasAnchor" number="6.2">
-<h2><span class="header-section-number">6.2</span> Deduction, induction, abduction – key analytical strategies for qualitative data<a href="week7.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="deduction-induction-abduction-key-analytical-strategies-for-qualitative-data" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Deduction, induction, abduction – key analytical strategies for qualitative data<a href="week7.html#deduction-induction-abduction-key-analytical-strategies-for-qualitative-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>To recap from the lecture video, this diagram gives some indication as to the directions of data analysis:</p>
 <p><img src="imgs/diagram_quali.png" /></p>
 <p>Hopefully you will now understand strategies for approaching research, including data collection and data analysis.</p>
@@ -370,8 +416,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <p><strong>Abduction</strong> integrates these two approaches, giving flexibility across the analytical process and ensuring interplay between our ideas and data.</p>
 <p>In this session, you’ll learn to interrogate your qualitative data using NVivo from all perspectives. You can read more about these strategies here.</p>
 </div>
-<div id="coding-qualitative-data-using-nodes" class="section level2 hasAnchor" number="6.3">
-<h2><span class="header-section-number">6.3</span> ‘Coding’ qualitative data using ‘nodes’<a href="week7.html#coding-qualitative-data-using-nodes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="coding-qualitative-data-using-nodes" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> ‘Coding’ qualitative data using ‘nodes’<a href="week7.html#coding-qualitative-data-using-nodes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <blockquote>
 <p>‘A code in qualitative inquiry is most often a word or short phrase that symbolically assigns a summative, salient, essence-capturing, and/or evocative attribute for a portion of language-based or visual data.’</p>
 </blockquote>
@@ -384,8 +430,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>In NVivo, we code our data using ‘nodes’. This is sometimes also termed the ‘indexing’ of our data.</p>
 <p><strong>Note 1</strong>: If you only take one thing away from today’s session, then it should be the importance of nodes. These are the fundamental building blocks of the theories and concepts we interpret in our data.</p>
 <p>So, let’s learn how to code using ‘nodes’.</p>
-<div id="what-are-nodes" class="section level3 hasAnchor" number="6.3.1">
-<h3><span class="header-section-number">6.3.1</span> What are ‘Nodes’?<a href="week7.html#what-are-nodes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="what-are-nodes" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> What are ‘Nodes’?<a href="week7.html#what-are-nodes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Node is a term that refers to a point in the NVivo database, but a code label may be the name you give the node. Codes or nodes can be your ideas about the data – they can be generated inductively, deductively or abductively and may be refined, changed, grouped or deleted at any time. Applying nodes, etc., to passages of source data, at a minimum, provides the basic code and retrieves actions needed to accumulate together all the bits of data linked by common threads and themes.</p>
 <p><img src="imgs/coding.gif" /></p>
 <p>Nodes <strong>can be containers</strong> within which we locate our data related to particular themes or ideas of interest. We can use them in this way to organise our thinking. For instance, if we were looking at the Danske Bank data from last week, we might have created nodes such as: ‘methods’, ‘ethics’ or ‘perceptions’ of corporate money laundering. Within each of these ‘nodes’ we could copy key sections from our media articles, journal articles and policy documents into them to collect data about key themes. Nodes act as containers for or links to data exemplars based on conceptual ideas, themes, codes or more structurally for people, contexts, places, etc. The terms nodes, codes, keywords, and themes are used similarly, so <strong>please note that we often use the terms nodes and nodes interchangeably</strong>.</p>
@@ -393,8 +439,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>These node layers, therefore, build a structural framework for our data. By organising our raw qualitative data (i.e., the news articles, the journal papers) according to these nodes, we can make sense of what would otherwise be an overwhelming amount of information. Plus, each node of any sort can be linked directly to one memo – so that relevant analytic notes are easily accessible from the node itself.</p>
 <p>Let’s do this then. Here, we’ll focus on using nodes for reflective purposes and thematic purposes.</p>
 </div>
-<div id="activity-1-coding" class="section level3 hasAnchor" number="6.3.2">
-<h3><span class="header-section-number">6.3.2</span> Activity 1: Coding<a href="week7.html#activity-1-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-1-coding" class="section level3 hasAnchor" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Activity 1: Coding<a href="week7.html#activity-1-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We need to start by importing our data. Start by opening NVivo and creating a new project – call it something relevant for today’s session, e.g. Lab Session Week 7.</p>
 <p>You’ll find two datasets on Canvas in the Week 7 learning materials section: <strong>1. Dataset 1 Probation Interviews</strong> and <strong>2. Dataset 2 GMP Twitter data</strong>.</p>
 <p>You’ll need to download and save these to your One Drive or personal computer. Dataset 1 is a zip file, you’ll need to <a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc">unzip it</a> (this might be done automatically on Mac).</p>
@@ -419,12 +465,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Usually, as these two datasets are very separate in terms of purpose, we would probably create two separate projects in NVivo to keep our separate research projects apart. For the purposes of getting to know the software, though, we can analyse both in one project today. You will, however, notice from the screenshots above that we have at least placed our datasets into two folders within the same project in an effort to keep things organised.</p>
 </div>
 </div>
-<div id="using-mind-maps-to-organise-your-analytical-process-and-framework" class="section level2 hasAnchor" number="6.4">
-<h2><span class="header-section-number">6.4</span> Using ‘mind maps’ to organise your ‘analytical process and framework’<a href="week7.html#using-mind-maps-to-organise-your-analytical-process-and-framework" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="using-mind-maps-to-organise-your-analytical-process-and-framework" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Using ‘mind maps’ to organise your ‘analytical process and framework’<a href="week7.html#using-mind-maps-to-organise-your-analytical-process-and-framework" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>At this point, we need to give our coding some focus. To do this, we can use <strong>‘mind maps’</strong> so we know how to code our data. To demonstrate this, we will code the interview data in <em>Dataset 1</em> using a deductive approach and then code the Twitter data in <em>Dataset 2</em> using an inductive approach.</p>
 <p><img src="imgs/mindmapping.png" /></p>
-<div id="activity-2-deductive-coding" class="section level3 hasAnchor" number="6.4.1">
-<h3><span class="header-section-number">6.4.1</span> Activity 2: Deductive coding<a href="week7.html#activity-2-deductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-2-deductive-coding" class="section level3 hasAnchor" number="7.4.1">
+<h3><span class="header-section-number">7.4.1</span> Activity 2: Deductive coding<a href="week7.html#activity-2-deductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>First, navigate to the ‘Maps’ tool. You can access maps via the Navigation Pane on the left if you want. Another (maybe easier) way is to navigate to the ‘Explore’ tab in your ribbon, and then selecting ‘Mind Map’. It’s possible that you need to search around for these - have a look and if you can’t find it, stick up your hand and we can help you.</p>
 <p><img src="imgs/access_mind_map.png" /></p>
 <p>You can then name it. Call it “Deductive Approach to Probation Interview Data”. You should end up with something like the following:</p>
@@ -469,8 +515,8 @@ It will then look something like this.</p>
 <p><img src="imgs/drag_codes.png" /></p>
 <p>Theoretically, you would now read every transcript and code your data. After we’ve looked at inductive coding, we’ll look at what you can do with this coding.</p>
 </div>
-<div id="activity-3-inductive-coding" class="section level3 hasAnchor" number="6.4.2">
-<h3><span class="header-section-number">6.4.2</span> Activity 3: Inductive coding<a href="week7.html#activity-3-inductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-3-inductive-coding" class="section level3 hasAnchor" number="7.4.2">
+<h3><span class="header-section-number">7.4.2</span> Activity 3: Inductive coding<a href="week7.html#activity-3-inductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>It’s worth creating two code folders to better organise our data and keep our nodes for our two datasets separate. We wouldn’t necessarily need to do this if we were working on only one dataset. However, for now, right-click on the ‘Codes’ folder in the Codes section in the Navigation Pane. Create a folder called Dataset 1 (or something else meaningful, like ‘CPOs’), then another called Dataset 2. Now, click back on the codes folder, select all the codes you created, and drag them into the Dataset 1 folder. You might need to rearrange the hierarchy again slightly. Take care not to care to create two main folders, not folders within one another (i.e., don’t create dataset 2 within the dataset 1 folder, or vice-versa). We can then organise our codes according to each of the datasets.</p>
 <p><img src="imgs/code_folders.png" />
 Now, let’s start our Twitter data inductive coding. Let’s start by creating another mind map, but this time for the Twitter data.</p>
@@ -486,18 +532,18 @@ Now, let’s start our Twitter data inductive coding. Let’s start by creating 
 <p><strong>Tip:</strong> The great thing about folders in NVivo is that you can change your mind, restructure them and move or drag nodes around between them whenever you like – really easily. I’ll let you explore all this in your own time. It’s all intuitive, and if you ever get stuck, we recommend watching the tutorials on the website. At the moment, these tutorials are often in an older version of NVivo (usually NVivo12) but the skills are usually easily transerable to the (newer) version that we are using.</p>
 </div>
 </div>
-<div id="abductive-coding" class="section level2 hasAnchor" number="6.5">
-<h2><span class="header-section-number">6.5</span> Abductive coding<a href="week7.html#abductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="abductive-coding" class="section level2 hasAnchor" number="7.5">
+<h2><span class="header-section-number">7.5</span> Abductive coding<a href="week7.html#abductive-coding" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Essentially, this involves going back and forth between the deductive approach and the inductive approaches that we’ve just covered. You might wish to create some pre-determined codes/nodes based on your interests and/or theory and then flexibly adapt these as you interrogate your data.</p>
-<div id="activity-4-retrieval-viewing-coded-data" class="section level3 hasAnchor" number="6.5.1">
-<h3><span class="header-section-number">6.5.1</span> Activity 4: Retrieval – viewing coded data<a href="week7.html#activity-4-retrieval-viewing-coded-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-4-retrieval-viewing-coded-data" class="section level3 hasAnchor" number="7.5.1">
+<h3><span class="header-section-number">7.5.1</span> Activity 4: Retrieval – viewing coded data<a href="week7.html#activity-4-retrieval-viewing-coded-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>If you need to look vertically through one file at a time, reviewing what you have done, open a document and ensure Select Coding stripes /All has been selected:</p>
 <p><img src="imgs/coding_stripes_all.png" /></p>
 <p>Once you have done some coding, you should review the passages you have selected for a particular code. We covered this a bit earlier, but do do so, double-click on the code you want in the List pane. This will open the code in the Detail pane. Each source that references the chosen code is listed and headed by a hyperlink back to the source.</p>
 <p><img src="imgs/coding_stripes_all.png" /></p>
 </div>
-<div id="activity-5-viewing-more-context" class="section level3 hasAnchor" number="6.5.2">
-<h3><span class="header-section-number">6.5.2</span> Activity 5: Viewing more context<a href="week7.html#activity-5-viewing-more-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-5-viewing-more-context" class="section level3 hasAnchor" number="7.5.2">
+<h3><span class="header-section-number">7.5.2</span> Activity 5: Viewing more context<a href="week7.html#activity-5-viewing-more-context" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>It may be useful to see the surrounding context of a coding reference you’re examining. This can be done in several ways:</p>
 <p>You can jump to the source by clicking on the blue link above the visual summary of your code. If you can’t see the blue link like the one below, right-click on the passage and select <strong>open referenced file</strong>. This will take you to the source and highlight the passage in which you were interested:</p>
 <p><img src="imgs/open_ref_file_nvivo15.png" /></p>
@@ -506,11 +552,11 @@ Now, let’s start our Twitter data inductive coding. Let’s start by creating 
 <p>This will bring in your selected quantity in a way that you can differentiate it from what’s coded. At this point you can select more of it to code into that node, if you would like.</p>
 </div>
 </div>
-<div id="export-coded-data" class="section level2 hasAnchor" number="6.6">
-<h2><span class="header-section-number">6.6</span> Export coded data<a href="week7.html#export-coded-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="export-coded-data" class="section level2 hasAnchor" number="7.6">
+<h2><span class="header-section-number">7.6</span> Export coded data<a href="week7.html#export-coded-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>There are extensive ways to output data material about your data to other formats and applications. Not all ways are included here since there are infinite combinations of settings required for different reasons, which will be based on your own particular requirements.</p>
-<div id="activity-6-exporting-via-the-list-pane" class="section level3 hasAnchor" number="6.6.1">
-<h3><span class="header-section-number">6.6.1</span> Activity 6: Exporting via the list pane<a href="week7.html#activity-6-exporting-via-the-list-pane" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="activity-6-exporting-via-the-list-pane" class="section level3 hasAnchor" number="7.6.1">
+<h3><span class="header-section-number">7.6.1</span> Activity 6: Exporting via the list pane<a href="week7.html#activity-6-exporting-via-the-list-pane" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is the general and usually used qualitative form of output, which can be achieved almost anywhere in the package using different methods. This is usually required for, e.g., coded output, and it is easier to generate than the more formal reporting functions below.</p>
 <p>In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click &gt; Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.</p>
 <p><img src="imgs/export_nvivo15.png" /></p>
@@ -530,17 +576,17 @@ See if you can create a Report on your Nodes and Sources.
 **MAC USERS** – play around to see what kind of things you can create. It’s all about trial and error at this stage.-->
 </div>
 </div>
-<div id="some-other-useful-things-to-do" class="section level2 hasAnchor" number="6.7">
-<h2><span class="header-section-number">6.7</span> Some other useful things to do<a href="week7.html#some-other-useful-things-to-do" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="some-other-useful-things-to-do" class="section level2 hasAnchor" number="7.7">
+<h2><span class="header-section-number">7.7</span> Some other useful things to do<a href="week7.html#some-other-useful-things-to-do" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Below are some more tools you might get some use out of.</p>
-<div id="create-another-word-cloud" class="section level3 hasAnchor" number="6.7.1">
-<h3><span class="header-section-number">6.7.1</span> Create another Word Cloud:<a href="week7.html#create-another-word-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="create-another-word-cloud" class="section level3 hasAnchor" number="7.7.1">
+<h3><span class="header-section-number">7.7.1</span> Create another Word Cloud:<a href="week7.html#create-another-word-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>See if you can replicate something like this from last week. Hint: navigate to your dataset 1 folder, select everything, then find the Word Frequency option (usually under ‘Explore’).</p>
 <p><img src="imgs/cloud_w9.png" /></p>
 <p>This is a Word Cloud for Dataset 1 only.</p>
 </div>
-<div id="create-a-word-tree" class="section level3 hasAnchor" number="6.7.2">
-<h3><span class="header-section-number">6.7.2</span> Create a Word Tree:<a href="week7.html#create-a-word-tree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="create-a-word-tree" class="section level3 hasAnchor" number="7.7.2">
+<h3><span class="header-section-number">7.7.2</span> Create a Word Tree:<a href="week7.html#create-a-word-tree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Using the <em>text search</em> option under <em>Explore</em>, we’ve done a text search for the words <strong>‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’</strong> in Dataset 1. Note that we are using specific syntax (e.g., “AND”) to make this advanced search. You don’t need to know this in detail for now but you can read more about it <a href="https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm">online</a> if you want.</p>
 <p><img src="imgs/query_nvivo.jpeg" /></p>
 <p>Then, choose the <em>‘Word Tree’</em> option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here?</p>
@@ -550,13 +596,13 @@ See if you can create a Report on your Nodes and Sources.
 <!-- Windows users might want to create a concept map to connect data to different ideas and thoughts. It is very similar to the Mind Map function that we did earlier. You can learn more about it [here](https://www.youtube.com/watch?v=NRSPP6eZd0s). -->
 </div>
 </div>
-<div id="other-features" class="section level2 hasAnchor" number="6.8">
-<h2><span class="header-section-number">6.8</span> Other features…<a href="week7.html#other-features" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="other-features" class="section level2 hasAnchor" number="7.8">
+<h2><span class="header-section-number">7.8</span> Other features…<a href="week7.html#other-features" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Finally, here are some features that some of you may wish to make use of. Much of the <em>qualitative data</em> used in criminology is textual in that we often carry out interviews with offenders, victims and law enforcement.</p>
 <p><img src="imgs/police.gif" /></p>
 <p>But you might be interested in generating different data, such as audio or visual:</p>
-<div id="graphicspictures---making-linked-notes-and-coding" class="section level3 hasAnchor" number="6.8.1">
-<h3><span class="header-section-number">6.8.1</span> Graphics/pictures - making linked notes and coding<a href="week7.html#graphicspictures---making-linked-notes-and-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="graphicspictures---making-linked-notes-and-coding" class="section level3 hasAnchor" number="7.8.1">
+<h3><span class="header-section-number">7.8.1</span> Graphics/pictures - making linked notes and coding<a href="week7.html#graphicspictures---making-linked-notes-and-coding" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Try importing a picture. Find something online and save it. Then import it. Here’s our example:</p>
 <p><img src="imgs/code_joe_dart.png" /></p>
 <p>With the picture on view, click to edit or enable the editing feature. You can then:</p>
@@ -567,8 +613,8 @@ See if you can create a Report on your Nodes and Sources.
 </ul>
 <p>Have a play with coding and analysing pictures.</p>
 </div>
-<div id="coding-audiovideo-data" class="section level3 hasAnchor" number="6.8.2">
-<h3><span class="header-section-number">6.8.2</span> Coding audio/video data<a href="week7.html#coding-audiovideo-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="coding-audiovideo-data" class="section level3 hasAnchor" number="7.8.2">
+<h3><span class="header-section-number">7.8.2</span> Coding audio/video data<a href="week7.html#coding-audiovideo-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Coding multimedia data is very similar to coding textual data. For either audio or video sources, you can select transcript text and code as usual, or you can select a segment on the progress bar and code that is directly as if you’d highlighted text.</p>
 <p>So, if you have some music on your computer, try importing a song to see what it looks like, and then see if you can code lyrics and sections of the song.</p>
 <!-- ## More on capturing web material -->
@@ -589,8 +635,8 @@ See if you can create a Report on your Nodes and Sources.
 <!-- Then, analyse as we have been doing in the sessions. -->
 </div>
 </div>
-<div id="summary-5" class="section level2 hasAnchor" number="6.9">
-<h2><span class="header-section-number">6.9</span> Summary<a href="week7.html#summary-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="summary-6" class="section level2 hasAnchor" number="7.9">
+<h2><span class="header-section-number">7.9</span> Summary<a href="week7.html#summary-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>You can use your nodes to build your ideas and theories or identify evidence to support your theoretical propositions. You can focus on particular themes, compare across nodes and the data, and extract to support your academic work in a systematic way. Using <em>NVivo</em> gives you structure and management for your data, helps you develop clear organizing and conceptual frameworks, and allows you to interrogate the data at different levels and in different directions.</p>
 
 </div>
@@ -600,7 +646,7 @@ See if you can create a Report on your Nodes and Sources.
           </div>
         </div>
       </div>
-<a href="week5.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="week6.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
@@ -655,6 +701,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
