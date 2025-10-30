@@ -282,7 +282,7 @@ Basic ribbon tabs consist of:
 
 **Note 5**: There are a few aspects of work that are only accessible via the ribbon tabs (for instance, some of the editing tools are only accessible from the *Home* Tab. However, many other functions are accessible more easily from the left-hand navigation pane (e.g., you will see that **Explore** appears there, in addition to the ribbon). Also, note that some ribbon tabs only open up when you open up some new option or diagram. We mention this now in case you wonder why some ribbon tabs appear and disappear! You’ll figure this out through trial and error as we go on.
 
-So, below is a summary of the main Nvivo interface (on Mac). It will look compatable on Windows too.
+So, below is a summary of the main Nvivo interface (on Mac). It will look comparable on Windows but put your hand up if you encounter any issues.
 
 ![](imgs/interface_mac_15.png)
 
@@ -292,7 +292,7 @@ So, below is a summary of the main Nvivo interface (on Mac). It will look compat
 
 Today, you’ll learn about three of the sections in the Navigation View: *Data*, *Nodes* and *Memos*. 
 
-The layout varies slightly between the Mac and Windows software and also between different versions of NVivo (e.g., NVivo 12, NVivo 15). So keep this in mind when following the below instructions.
+The layout varies slightly between the Mac and Windows software and also between different versions of NVivo (e.g., NVivo 12, NVivo 15). So keep this in mind when following the below instructions. In almost every scenario, the equivalent functionality exists between different versions and operating systems -- it sometimes just takes a bit of lateral thinking and trail-and-error to get what you need! 
 
 ### Data
 
