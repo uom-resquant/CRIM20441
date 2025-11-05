@@ -124,7 +124,7 @@ activity-1-exploring-the-fincen-files
 is-qualitative-data-analysis-easier
 types-of-qualitative-data-analysis
 introducing-nvivo-a-software-for-qualitative-data-analysis
-installing-nvivo-15
+installing-nvivo-1415
 activity-2-watch-nvivo-tutorials
 what-kinds-of-data-can-i-input-into-nvivo-for-analysis
 activity-3-find-some-data

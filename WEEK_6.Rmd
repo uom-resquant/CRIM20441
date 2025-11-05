@@ -122,13 +122,13 @@ To give you the corporate spiel: NVivo provides a flexible range of ways to hand
 
 Essentially, the NVivo Software allows you to analyse and manage a range of qualitative data, from textual data such as interview transcripts or government documents, to videos, pictures and audio files. In these two sessions, we’ll focus mainly on textual data, but once you feel comfortable with NVivo, you might want to explore all the available functionality.
 
-### Installing NVivo 15
+### Installing NVivo 14/15
 
-Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 15). You can search for it within _ApssAnywhere_, like this:
+Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 14 or 15). You can search for it within _ApssAnywhere_, like this:
 
 ![](imgs/appsanywhere_nvivfo.png)
 
-We know some of you are using your own laptops. If that's the case, you’ll need to download **version 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
+We know some of you are using your own laptops. If that's the case, you’ll need to download **version 14 or 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
 
 ![](imgs/nvivo_email.png){width=80%}
 
