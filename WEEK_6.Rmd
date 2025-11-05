@@ -209,7 +209,7 @@ When we first downloaded our news articles, we saved each news article in a fold
 
 ![](imgs/dankse_folder.png)
 
-Note that these news articles have been saved at a webpage. If you're downloading your own data, it’s important to then save your web content as PDF files. This will make it easier to import them into *NVivo* (we’ll get to this later.) If you’re on a Mac, you can open the web page, select print, and then select ‘Save as PDF’. Save these in your Media Articles folder. You can "Save as" a PDF in different ways, so stick with what you know.
+Note that these news articles have been saved at a webpage (e.g., webarchive or html). If you're downloading your own data, it’s important to then save your web content as PDF files. This will make it easier to import them into *NVivo* (we’ll get to this later.) If you’re on a Mac, you can open the web page, select print, and then select ‘Save as PDF’. Save these in your Media Articles folder. You can "Save as" a PDF in different ways, so stick with what you know.
 
 ![](imgs/mac_news_1.png)
  
@@ -222,25 +222,21 @@ If you are using a PC, these are the steps you need to take to download a news a
 
 ![](imgs/windows_print_2.jpeg)
 
-If you're using your own data, do this for each of your media articles. If you're just using the data we gave you on Canvas about Danske, we already did this step for you (i.e., the news articles are already PDFs).
+If you're using your own data, do this for each of your media articles. **If you're just using the data we gave you on Canvas about Danske, we already did this step for you** (i.e., the news articles are already PDFs).
 
 We can then search for government reports and documents on money laundering strategies within the EU. We saved five of these to our documents folder, also as PDFs. You can do the same for your own topic too.
 
 We then searched for ‘money laundering criminology’ on [Google Scholar](https://scholar.google.com/) – you could also try the [University’s online databases](https://www.librarysearch.manchester.ac.uk/) (probably a more systematic approach in actual fact) – and selected five relevant academic articles published since 2015. Again, we saved them as PDFs.
 
-In order to keep it nice and tidy, we’ve organised our documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’**. In each of these three folders are our PDF files. In total, these comprise our qualitative data. If you've downloaded our data from Canvas for this exercise, try and use the same folder structure.
+In order to keep it nice and tidy, we’ve organised our n15 documents into three folders: **‘Media Articles’**, **‘EU Strategy'** and **‘Journal Articles’** (five in each). In each of these three folders are our PDF files. In total, these comprise our qualitative data. If you've downloaded our data from Canvas for this exercise, try and use the same folder structure.
  
 ![](imgs/nice_tidy.png)
 
-If you've decided to use your own data on a different topic, consider placing all your PDFs with such a clear folder structure for clarity (e.g., media articles, government strate, etc). 
-
-Now we have our PDFs organised into folders, they are now ready to ‘import’ into NVivo.
+If you've decided to use your own data on a different topic, consider placing all your PDFs with an equivalent clear folder structure for clarity (e.g., media articles, government strate, or whatever your data corresponds to). 
 
 This is just an example dataset; in a real research project, your literature and data search would need to be much more extensive and systematic. But for the purposes of demonstrating NVivo, this will suffice!
 
-Ok, so hopefully now you’ve identified 15 textual data sources and saved them somewhere easily accessible (e.g., in a folder entitled ‘NVivo Session’).
-
-Forget about these for now. We’ll be back.
+Now we have our PDFs organised into folders, they are now ready to ‘import’ into NVivo. We’ll get to this stage soon. For now, let's introduce you to NVivo more generally.
 
 ## Creating your NVivo project
 
@@ -293,7 +289,7 @@ Basic ribbon tabs consist of:
 - **Explore**: range of options like text searches, word frequency counts, and diagrams. 
 - On Mac you might also see **Layout** and **View**. Feel free to explore these but we won't use them today anyway (so Windows users, do not worry).
 
-**Note 5**: There are a few aspects of work that are only accessible via the ribbon tabs (for instance, some of the editing tools are only accessible from the *Home* Tab. However, many other functions are accessible more easily from the left-hand navigation pane (e.g., you will see that **Explore** appears there, in addition to the ribbon). Also, note that some ribbon tabs only open up when you open up some new option or diagram. We mention this now in case you wonder why some ribbon tabs appear and disappear! You’ll figure this out through trial and error as we go on.
+**Note**: There are a few aspects of work that are only accessible via the ribbon tabs (for instance, some of the editing tools are only accessible from the *Home* Tab. However, many other functions are accessible more easily from the left-hand navigation pane (e.g., you will see that **Explore** appears there, in addition to the ribbon). Also, note that some ribbon tabs only open up when you open up some new option or diagram. We mention this now in case you wonder why some ribbon tabs appear and disappear! You’ll figure this out through trial and error as we go on.
 
 So, below is a summary of the main Nvivo interface (on Mac). It will look comparable on Windows but put your hand up if you encounter any issues.
 
@@ -303,7 +299,7 @@ So, below is a summary of the main Nvivo interface (on Mac). It will look compar
 
 ## Navigation View
 
-Today, you’ll learn about three of the sections in the Navigation View: *Data*, *Nodes* and *Memos*. 
+Today, you’ll learn about three of the sections in the Navigation View: *Data*, *Codes* (sometimes called *Nodes*) and *Memos*. 
 
 The layout varies slightly between the Mac and Windows software and also between different versions of NVivo (e.g., NVivo 12, NVivo 15). So keep this in mind when following the below instructions. In almost every scenario, the equivalent functionality exists between different versions and operating systems -- it sometimes just takes a bit of lateral thinking and trail-and-error to get what you need! 
 
@@ -395,7 +391,7 @@ You can create folders by right-clicking and selecting 'New Folder'.
 
 ![](imgs/nvivo_create_memo_folder.png){width=70%}
 
-Name your folders as you see fit, but here we've named ours as 'research questions' and 'theoretical frameworks'. You might rename or create new folders as you go, and that's totally fine.
+Name your folders as you see fit, but here we've named ours as 'research questions' and 'theoretical framework'. You might rename or create new folders as you go, and that's totally fine.
 
 ![](imgs/nvivo_memo_folders.png){width=70%}
 
@@ -409,7 +405,7 @@ You can then create memos within your chosen memo folder by using the **Create**
 
 See if you can follow what we’ve done for your own data.
 
-We’ve created two folders: ‘research questions’ and ‘theoretical frameworks’ (well, that's what I did! Maybe you named them something else, which is totally fine).
+We’ve created two folders: ‘research questions’ and ‘theoretical framework’ (well, that's what I did! Maybe you named them something else, which is totally fine).
 
 We’ve highlighted the research questions folder, created a new memo called ‘RQs’. We then clicked on the Detail View and started making notes on our research questions.
 
@@ -421,11 +417,9 @@ But more realistically and seriously, as you can see, in our first research ques
 
 In the second question, we aim to analyse how media construction differs from academic discourse and EU strategy discourse, if at all.
 
-Remember that we also created a second memo entitled for theoretical frameworks. In here, we’ve made notes on which criminological theories we might use to inform our analysis. For instance, we’ve made notes about [rational choice theory](https://en.wikipedia.org/wiki/Rational_choice_theory_(criminology)) and [routine activities theory](https://en.wikipedia.org/wiki/Routine_activity_theory). These theories can guide our analysis and we can refer to them periodically while working within Nvivo.
+Remember that we also created a second memo for a theoretical framework. In here, we’ve made notes on which criminological theories we might use to inform our analysis. For instance, we’ve made notes about [rational choice theory](https://en.wikipedia.org/wiki/Rational_choice_theory_(criminology)) and [routine activities theory](https://en.wikipedia.org/wiki/Routine_activity_theory). These theories can guide our analysis and we can refer to them periodically while working within Nvivo. You can create such a memo and make some notes now if you'd like (but this is optional -- if you're so excited to try more things in NVivo that you just *cannot wait*, then feel free to carry on).
 
-When we analyse our data (we’ll do this properly next week), we can begin to integrate our different data sources together and organise the data around key themes and codes. Coding our data is by far the most important step!!! Coding schemes and coded retrieval are key tools of qualitative analysis. To do this in NVivo, we use ‘Nodes’.
-
-For now, forget about ‘nodes’ and coding your data. We’ll do this in much more depth next week. Instead, we’re going to learn to do a basic, superficial analysis of our textual data.
+When we analyse our data (we’ll do this properly next week), we can begin to integrate our different data sources together and organise the data around key themes and codes. Coding our data is by far the most important step!!! Coding schemes and coded retrieval are key tools of qualitative analysis. To do this in NVivo, we use ‘Codes’ (often used interchangeably with the name 'Nodes'). We’ll do this in much more depth soon. For now, we’re going to learn to do a basic analysis of our textual data.
 
 ## Word Frequency
 
@@ -447,7 +441,7 @@ You can choose whatever you'd like, but here, I choose 'Items in Selected Folder
 
 ![](imgs/word_freq_select_files.png)
 
-This will open up the Unnamed Query (or Word Frequency Query Results) panel in the Detail View. At this point, simply ensure all the default settings are selected and click ‘Run Query’.
+This will open up the 'Unnamed Query' (or 'Word Frequency Query Results') panel in the Detail View. At this point, simply ensure all the default settings are selected and click ‘Run Query’.
 
 ![](imgs/run_query_nvivo15.png)
  
