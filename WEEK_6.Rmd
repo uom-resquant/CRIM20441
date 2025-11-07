@@ -45,7 +45,7 @@ Let's give a very simple example. We may be interested in studying pub brawls be
 
 </center>
 
-### Activity 1: Exploring the FinCEN files
+### Activity: Exploring the FinCEN files
 
 We can see another example of the difference between *qualitative* and *quantitative* data using real-world crime data.
 
@@ -159,7 +159,7 @@ One final thing before we get started: please do not forget to read Chapters 1 a
 
 The lab sessions will also be supplemented with video tutorials from the Lumivero website. 
 
-### Activity 2: Watch NVivo tutorials
+### Activity: Watch NVivo tutorials
 
 Discover more about the NVivo tutorials [here](https://help-nv.qsrinternational.com/20/win/Content/tutorials/nvivo-tutorials.htm). These tutorials use a slightly older version than we are using (usually NVivo12), but the layouts are comparable and principles the same.
 
@@ -200,7 +200,7 @@ Today, we'll be doing some importing of documents and PDFs.
 
 ![](imgs/endless-possibilities.gif)
 
-### Activity 3: Find some data…
+### Activity: Find some data…
 
 Before starting with NVivo, we’d like you to find some data you’ll use in the session today. You can use the data that we use, which are available on Convas under the **data for lab and homework tasks** in week 6 (look for **Dankse bank data**). That said, we think it’s more interesting for you (and will help you remember the processes better!) if you find some data that reflects your own criminological interests. Feel free to follow our steps below, and then repeat them for your own data sources, if you'd like. It's also fine if you just want to use the data we use.
 
@@ -247,7 +247,7 @@ Now we have our PDFs organised into folders, they are now ready to ‘import’ 
 
 Before we open up our textual data in NVivo, we will need to learn how to create a new project.
 
-### Activity 4: Getting Started with NVivo
+### Activity: Getting Started with NVivo
 
 Let’s get started then. First, you’ll need to open NVivo from your cluster PC or laptop. When you first start NVivo on Windows, you will be asked to create a user profile (see below). The equivalent might happen on Mac.
 
@@ -318,7 +318,7 @@ Data can be text, multimedia and datasets. There are three main folders associat
 
 The *Files* folder is designed to hold all ready-made data (to be ‘imported’), such as PDFs of text, that you wish to work with directly within NVivo.
 
-### Activity 5: Folders
+### Activity: Folders
 
 Have a go at creating folders to house your data in the Files section. In a project consisting of different types of data, we’d usually recommend that folders could be based on the type of data. This choice will vary depending on the complexity and variety of types of data. If you only have **interview** data, for instance, you might just create a folder called ‘Interviews’. You can decide to organise your folders in a way that suits your own thinking style.
 
@@ -346,7 +346,7 @@ There are different things enabled during the import of data. For now, for strai
 
 Remember that ‘data’ and Files in NVivo are any material at all that will help you to integrate all the information that feeds into your project.
 
-### Activity 6: Import data
+### Activity: Import data
 
 For now, let’s just import your data. First, make sure the Files folder where you want to import your documents in the Navigation View is highlighted. For instance, we’ll start by importing the PDFs of our media articles, so single-left-click the ‘media articles’ folder to highlight it.
  
@@ -406,7 +406,7 @@ You can then create memos within your chosen memo folder by using the **Create**
 
 <!-- along the tab/choose the memo icon - or alternatively, as usual – you can select the correct folder and then right-click in the List pane to create the new memo. We find right-clicking is always the most straightforward way. The new memo opens up in Edit mode so that you can begin work on it. If the memo closes, double-click on the memo in the list; it will re-open but you will have to ‘click to edit’ in order to write in it. So let’s try this. -->
 
-### Activity 7: Memos
+### Activity: Memos
 
 See if you can follow what we’ve done for your own data.
 
