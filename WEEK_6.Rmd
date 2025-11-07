@@ -366,7 +366,7 @@ Your first article will now be imported. You’ll see it appears in your List Vi
 
 ![](imgs/list_details_view.png)
 
-You now need to repeat this process for all your media articles, journal articles, and other literature. You’ll then have 15 documents imported into NVivo. In doing so, you can select multiple files at once to import by holding down Command/Ctrl/Shift when selecting them. If you do this, ensure that you have the correct folder selected (e.g., media articles) and that you only select files belong in that folder (e.g., media articles!). You won't get the option to rename each one, but you can do this later on.
+You now need to repeat this process for all your media articles, journal articles, and other literature. You’ll then have 15 documents imported into NVivo. In doing so, you can select multiple files at once to import by holding down Command/Ctrl/Shift(Mac) or Ctrl + A(Windows) when selecting them. If you do this, ensure that you have the correct folder selected (e.g., media articles) and that you only select files belong in that folder (e.g., media articles!). You won't get the option to rename each one, but you can do this later on.
 
 The key point to note here is that we can integrate different sources of data (e.g., media articles, academic literature, official reports) into one place to manage them together. You can even use *NVivo* to undertake your literature reviews in preparation for essay writing – we’ll look at this next week.
 
