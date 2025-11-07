@@ -118,23 +118,28 @@ You can watch [this YouTube video](https://www.youtube.com/watch?v=hECPeKv5tPM) 
 
 In weeks 6 and 7, we will learn how to use software for qualitative data analysis called **NVivo**.
 
-To give you the corporate spiel: NVivo provides a flexible range of ways to handle qualitative data analysis - good code and retrieve tools with powerful tools for data visualisation and interrogation. NVivo accepts a wide range of multimedia and social media data types.
+To give you the corporate spiel: NVivo provides a flexible range of ways to handle qualitative data analysis - good code and retrieval tools with powerful data visualisation and interrogation. NVivo accepts a wide range of multimedia and social media data types.
 
 Essentially, the NVivo Software allows you to analyse and manage a range of qualitative data, from textual data such as interview transcripts or government documents, to videos, pictures and audio files. In these two sessions, we’ll focus mainly on textual data, but once you feel comfortable with NVivo, you might want to explore all the available functionality.
 
-### Installing NVivo 14/15
 
-Below, we describe how to download and install NVivo on your laptops and home computers. Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 14 or 15). You can search for it within _ApssAnywhere_, like this:
+### NVivo on University computers
+
+Are you using University computers in the computer cluster? Then you can access NVivo using _AppsAnywhere_. This is a portal available on any of the cluster PCs. The University has a helpful document about how to access software (including Nvivo) via AppsAnywhere. [Have a read of this document now](https://documents.manchester.ac.uk/protected/display.aspx?DocID=76088) for full instructions and let us know if you have any issues. But, in short, open _AppsAnywhere_ search for NVivo, install/add it, and then click _Launch_. Remember that the software application you want to use is NVivo (specifically, NVivo version 14 or 15). You can search for it within _ApssAnywhere_, like this:
 
 ![](imgs/appsanywhere_nvivfo.png)
 
-We know some of you are using your own laptops. If that's the case, you’ll need to download **version 14 or 15** of NVivo from the company's website and activate it using a licence key. **You should have already recieved this licence key to your university email account**. The email would have looked a bit like the below screenshot.
+### Installing NVivo 14/15
+
+Below, we describe how to download and install NVivo on your laptops and home computers. We know some of you are using your own laptops. If that's the case, you’ll need to download **version 14 or 15** of NVivo from the company's website and activate it using a licence key. **You should have already received this licence key to your university email account**. The email would have looked a bit like the screenshot below.
 
 ![](imgs/nvivo_email.png){width=80%}
 
 The easiest way to begin the process of accessing NVivo on your own laptop is to click on the licence link in the above email. This will take you to the 'MyLumivero' portal directly. 
 
-You will then be prompted to login, so if you don't have an account yet, select **Sign up now** and create your account. This will involve verifying your email address, so make sure you use an email address that you have access to (e.g., your university email). If you are asked, you can select that you're using NVivo Lumivero solutions for yourself and then agree to the terms and conditions, as demonstrated below.
+IF THE LINK DOES NOT OPEN, you can [access the portal](https://lumivero.com/customer-login/) here and scroll down until you see "MyLumivero Login".
+
+You will then be prompted to log in, so if you don't have an account yet, select **Sign up now** and create your account. This will involve verifying your email address. Make sure you use your university email address (the software licence is linked to that). If you are asked, you can select that you're using NVivo Lumivero solutions for yourself and then agree to the terms and conditions, as demonstrated below.
 
 ![](imgs/nvivo_setup5.png){width=70%}
 
