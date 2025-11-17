@@ -136,7 +136,7 @@ What we’ve done here is create a predetermined framework for coding the interv
 
 Plus, to save us from having to create all the nodes individually, we can now use the **‘Create as nodes/codes’** option. This should only be used after you have finished writing all the themes from the picture above! Click it, then choose ‘Codes’ (in some versions this could be 'Nodes' but as we mentioned earlier, codes and nodes are often used interchangeably).
 
-![](imgs/create_nodes_nvivo15.jpeg)
+![](imgs/create_nodes_nvivo15.png)
 
 Now click on ‘Codes’ in the Navigation Pane on the left, and you’ll see something like the following. Open up the folders so you can see all the nodes!
 
