@@ -232,8 +232,6 @@ If you need to look vertically through one file at a time, reviewing what you ha
 
 Once you have done some coding, you should review the passages you have selected for a particular code. We covered this a bit earlier, but do do so, double-click on the code you want in the List pane. This will open the code in the Detail pane. Each source that references the chosen code is listed and headed by a hyperlink back to the source.
 
-![](imgs/coding_stripes_all.png)
-
 ### Activity 5: Viewing more context
 
 It may be useful to see the surrounding context of a coding reference you’re examining. This can be done in several ways:
@@ -242,7 +240,7 @@ You can jump to the source by clicking on the blue link above the visual summary
 
 ![](imgs/open_ref_file_nvivo15.png)
   
-You can view additional content surrounding your passage of interest without going back to the whole source by right-clicking on the passage, clicking Coding Contextm and then and choosing how much you wish to see (e.g., narrow).
+You can view additional content surrounding your passage of interest without going back to the whole source by right-clicking on the passage, clicking Coding Context and then and choosing how much you wish to see (e.g., narrow).
 
 ![](imgs/coding_context_nvivo15.png)
  
@@ -293,7 +291,7 @@ Using the *text search* option under *Explore*, we’ve done a text search for t
 
 ![](imgs/query_nvivo.jpeg)
 
-Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here?
+Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here? You can better understand the word tree by interacting with it via clicking around.
 
 ![](imgs/wordtree.png)
  
