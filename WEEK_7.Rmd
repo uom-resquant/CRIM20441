@@ -254,7 +254,7 @@ There are extensive ways to output data material about your data to other format
 
 This is the general and usually used qualitative form of output, which can be achieved almost anywhere in the package using different methods. This is usually required for, e.g., coded output, and it is easier to generate than the more formal reporting functions below.
 
-In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click > Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
+In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click > Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. Note that on Windows you will get some options of what to export -- you can choose the Reference View which includes `.doc` (i.e., a  Word doc). This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.
 
 ![](imgs/export_nvivo15.png)
 
@@ -287,15 +287,19 @@ This is a Word Cloud for Dataset 1 only.
 
 ### Create a Word Tree:
 
-Using the *text search* option under *Explore*, we’ve done a text search for the words **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’** in Dataset 1. Note that we are using specific syntax (e.g., "AND") to make this advanced search. You don't need to know this in detail for now but you can read more about it [online](https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm) if you want.
+Using the *text search* option under *Explore*, we’ve done a text search for the words **Career** in Dataset 1. 
 
-![](imgs/query_nvivo.jpeg)
+![](imgs/query_career_nvivo.png)
 
 Then, choose the *‘Word Tree’* option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here? You can better understand the word tree by interacting with it via clicking around.
+
+Note that our word tree below is just an example -- yours might look different (probably bigger!).
 
 ![](imgs/wordtree.png)
  
 While you can export your Word Tree into jpeg or PDF form, in NVivo, you can also click on the different branches to better understand the connections interactively. Try it out.
+
+It's worth knowing that you can search for multiple words at once using a specific syntax. A full example for multiple words would be something like **‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’**. You don't need to know this in detail for now but you can read more about it [online](https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm) if you want.
 
 <!-- ### Create a Concept Map (WINDOWS ONLY!) -->
 

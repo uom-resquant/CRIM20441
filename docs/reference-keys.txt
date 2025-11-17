@@ -165,4 +165,3 @@ other-features
 graphicspictures---making-linked-notes-and-coding
 coding-audiovideo-data
 summary-6
-visualising-the-differences-between-groups

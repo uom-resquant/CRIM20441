@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/bsTable-3.3.7/bootstrapTable.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll('a[href]');
@@ -215,10 +219,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="3.4.1" data-path="week3.html"><a href="week3.html#activity-does-age-at-first-arrest-correlate-with-the-total-number-of-arrests"><i class="fa fa-check"></i><b>3.4.1</b> Activity: Does age at first arrest correlate with the total number of arrests?</a></li>
 <li class="chapter" data-level="3.4.2" data-path="week3.html"><a href="week3.html#correlation-does-not-mean-causation"><i class="fa fa-check"></i><b>3.4.2</b> Correlation does not mean causation</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a>
-<ul>
-<li class="chapter" data-level="3.5.1" data-path="week3.html"><a href="week3.html#visualising-the-differences-between-groups"><i class="fa fa-check"></i><b>3.5.1</b> Visualising the differences between groups</a></li>
-</ul></li>
+<li class="chapter" data-level="3.5" data-path="week3.html"><a href="week3.html#summary-2"><i class="fa fa-check"></i><b>3.5</b> Summary</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="week4.html"><a href="week4.html"><i class="fa fa-check"></i><b>4</b> Week 4</a>
 <ul>
@@ -557,7 +558,7 @@ Now, let’s start our Twitter data inductive coding. Let’s start by creating 
 <div id="activity-6-exporting-via-the-list-pane" class="section level3 hasAnchor" number="7.6.1">
 <h3><span class="header-section-number">7.6.1</span> Activity 6: Exporting via the list pane<a href="week7.html#activity-6-exporting-via-the-list-pane" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is the general and usually used qualitative form of output, which can be achieved almost anywhere in the package using different methods. This is usually required for, e.g., coded output, and it is easier to generate than the more formal reporting functions below.</p>
-<p>In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click &gt; Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.</p>
+<p>In the List pane – select the item/s you want to export content for, say a Node or a Document; right-click &gt; Export. Give this a go now with a code (or codes) for dataset 1. First, click on Dataset 1 code in the Navigation pane. Then, Right-click on the Node you want a report on (I’ve chosen the ‘Career History’ Node) and choose Export. Find a suitable location to save the data and ensure you save it as a Word file. Note that on Windows you will get some options of what to export – you can choose the Reference View which includes <code>.doc</code> (i.e., a Word doc). This will be the easiest to view. Now, you should have a neat overview of your Node that you could use for quotes in your essays, dissertations, or journal articles.</p>
 <p><img src="imgs/export_nvivo15.png" /></p>
 <!--## Reports (NOTE: WINDOWS ONLY USERS! NOT SUPPORTED BY MAC, YET!)
 
@@ -586,11 +587,13 @@ See if you can create a Report on your Nodes and Sources.
 </div>
 <div id="create-a-word-tree" class="section level3 hasAnchor" number="7.7.2">
 <h3><span class="header-section-number">7.7.2</span> Create a Word Tree:<a href="week7.html#create-a-word-tree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Using the <em>text search</em> option under <em>Explore</em>, we’ve done a text search for the words <strong>‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’</strong> in Dataset 1. Note that we are using specific syntax (e.g., “AND”) to make this advanced search. You don’t need to know this in detail for now but you can read more about it <a href="https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm">online</a> if you want.</p>
-<p><img src="imgs/query_nvivo.jpeg" /></p>
+<p>Using the <em>text search</em> option under <em>Explore</em>, we’ve done a text search for the words <strong>Career</strong> in Dataset 1.</p>
+<p><img src="imgs/query_career_nvivo.png" /></p>
 <p>Then, choose the <em>‘Word Tree’</em> option (see above screenshot - grey button) to better understand the key discourse around the term. In Windows, the Word Cloud option might be in a tab on the right-hand side. Our query produced the following. Are there any relationships here? You can better understand the word tree by interacting with it via clicking around.</p>
+<p>Note that our word tree below is just an example – yours might look different (probably bigger!).</p>
 <p><img src="imgs/wordtree.png" /></p>
 <p>While you can export your Word Tree into jpeg or PDF form, in NVivo, you can also click on the different branches to better understand the connections interactively. Try it out.</p>
+<p>It’s worth knowing that you can search for multiple words at once using a specific syntax. A full example for multiple words would be something like <strong>‘Career’ AND ‘Probation’ AND ‘Money’ AND ‘Lifestyle’</strong>. You don’t need to know this in detail for now but you can read more about it <a href="https://help-nv.qsrinternational.com/12/win/v12.1.115-d3ea61/Content/queries/text-search-query.htm">online</a> if you want.</p>
 <!-- ### Create a Concept Map (WINDOWS ONLY!) -->
 <!-- Windows users might want to create a concept map to connect data to different ideas and thoughts. It is very similar to the Mind Map function that we did earlier. You can learn more about it [here](https://www.youtube.com/watch?v=NRSPP6eZd0s). -->
 </div>
@@ -700,6 +703,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
