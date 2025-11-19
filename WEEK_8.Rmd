@@ -1,5 +1,9 @@
 # Week 8 {#week8}
-
+<style>
+details {
+  margin-bottom: 1em; /* Adds space below each details block */
+}
+</style>
 ## Learning outcomes
 
 This week is the most fun week in all of data analysis - the week where we learn about the principles of data visualisation. The visual display of your data is so important because it allows you to communicate what is interesting in pictures. Simple, neat graphs can tell you, in one glance, what you might have to read many paragraphs of text to learn otherwise. Visualisation is an art and a science, and this week, we will explore the work in this area. Hopefully, you will only produce beautiful and meaningful visualisations of your data from now on. 
@@ -378,7 +382,7 @@ Right, but how do we get these colours into our Excel graph? Let's give it a go.
 
 
 
-Download the FBI crime statistics data from Blackboard under Week 8 in Learning Materials.
+Download the FBI crime statistics data from Canvas under Week 8 in Learning Materials.
 
 
 Open the data in Excel and have a look at it. You can see that it includes the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rates. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
@@ -527,7 +531,7 @@ Exploratory data visualisation is a way to get to know your data. It is a way to
 ### Activity: Comparing categories
 
 
-Let's practice answering questions with data. Go back to the FBI data you downloaded from Blackboard. 
+Let's practice answering questions with data. Go back to the FBI data you downloaded from Canvas. 
 
 
 
@@ -1052,7 +1056,7 @@ We have been covering exploratory data analysis, where you take your data and pr
 
 The most important thing when communicating your results is that you know your audience. Know what they understand, what they don't, and what you can tell them in one graph. Your graph has to tell a story. Think about why you are making it. What is the message that you want to convey? What is the story this graph is telling? You need to be clear with this to ensure that your graph accomplishes its mission of telling an interesting story about your data. 
 
-> You should look at your data. Graphs and charts let you explore and learn about the structure of the information you collect. Good data visualizations also make it easier to communicate your ideas and findings to other people. Beyond that, producing effective plots from your own data is the best way to develop a good eye for reading and understanding graphs—good and bad—made by others, whether presented in research articles, business slide decks, public policy advocacy, or media reports.
+> You should look at your data. Graphs and charts let you explore and learn about the structure of the information you collect. Good data visualisations also make it easier to communicate your ideas and findings to other people. Beyond that, producing effective plots from your own data is the best way to develop a good eye for reading and understanding graphs—good and bad—made by others, whether presented in research articles, business slide decks, public policy advocacy, or media reports.
 
 - [Kieran Healy](http://socviz.co/)
 
@@ -1061,7 +1065,7 @@ The most important thing when communicating your results is that you know your a
 ### Activity: Interpreting results
 
 
-By becoming a maker of good graphs, you should also become literate about graphs. If you are interested in something like a role as a crime analyst, part of your interview process might include something like a numeracy test, which will test your ability to interpret trends and data from graphs (among other things). 
+By becoming a maker of good graphs, you should also become literate about graphs. If you are interested in a role as a crime analyst, part of your interview process includes a numeracy test, which will test your ability to interpret trends and data from graphs (among other things). 
 
 
 
@@ -1085,6 +1089,12 @@ Pick all the true statements:
 
 So, which one of these do you think are true statements? 
 
+ <details>
+<summary><i><b>Reveal answer!</b></i></summary>
+
+For question 1, the correct answers are Options A and C
+</details>
+
 
 
 OK, try again: 
@@ -1104,6 +1114,11 @@ Pick all the true statements:
 
 
 
+<details>
+<summary><i><b>Reveal answer!</b></i></summary>
+
+For question 2, the correct answer is Option B
+</details>
 And again: 
 
 
@@ -1121,6 +1136,12 @@ Pick all the true statements:
 - The pupil with the median planning time achieved a final mark of 54. 
 
 
+<details>
+<summary><i><b>Reveal answer!</b></i></summary>
+For question 3, the correct answers are Options A, B and C
+
+</details>
+
 And finally:
 
 
@@ -1137,29 +1158,18 @@ Pick all the true statements:
 - No pupils recorded a time less than 29 minutes. 
 
 
+<details>
+<summary><i><b>Reveal answer!</b></i></summary>
 
-Alright. Make a note of all of your answers before reading the results ahead. 
+For question 4, the correct answers are Options A and B
+</details>
 
-
-
-#### Results {-}
-
-OK, we have the answers for you now: 
-
-
-- For question 1, the correct answers were Options A and C
-- For question 2, the correct answers were Option B
-- For question 3, the correct answers were Options A, B and C
-- For question 4, the correct answers were Options A and B
-
-
-So, how did you do? If you are unsure about any of the answers, ask us now!
 
 
 
 ## Summary
 
-In sum, you should now be able to select a graph that represents your data in a meaningful way, that helps you describe your data as well as communicate your results to your audiences. You should be familiar with the following terms: 
+In sum, you should now be able to select a graph that represents your data in a meaningful way, which helps you describe your data as well as communicate your results to your audiences. You should be familiar with the following terms: 
 
 - bar chart
 - column chart
