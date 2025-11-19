@@ -882,6 +882,7 @@ Click on the template, then click OK, and you should have your graph be updated 
 You can now see that the default chart that appears follows the formatting that you have carefully devised as your ideal format. You will still have to add any sort of data addition (for example specify where to find the years to populate the Category (X) axis labels). But it definitely saves you some time in terms of formatting. 
 
 -->
+
 ### Activity: Saving your graph
 
 
@@ -889,7 +890,7 @@ You can now see that the default chart that appears follows the formatting that 
 When you are making your reports, there are two ways you can include your graph. 
 
 
-One approach is just to save your graphs as pictures. To do this, you can just right-click anywhere in the graph area, and select the "Save as picture..." option. 
+One approach is to save your graphs as pictures. To do this, you can right-click anywhere in the graph area and select the "Save as picture..." option. 
 
 
 ![](imgs/save_as_pic.png)
@@ -901,15 +902,11 @@ Navigate to a folder where you collect your results, and save the image there.
 ![](imgs/save_pic_2.png)
 
 
-
-<!--Of course, because nothing is easy, this option does not exist on PC. Instead, perhaps the best option may just be copying the graph and pasting it into a Word document. If you want to save it as an image from there, you must make sure to paste as picture (right click, paste as picture) and then, if you want, you can right click your pasted graph (in Word) and from there select "Save as picture". This way you will save your png of your graph into a folder, and you can insert it into future reports. -->
-
-
 Then, when you are writing your essay, you can insert an image using the Insert > Picture from file option: 
 
 ![](imgs/find_pic.png)
 
-This will open up a popup window you can use to navigate to the picture you just saved and select it. When you are done, click "OK", and your graph will appear :
+A pop-up window will open, and you can navigate to the picture you just saved and select it. When you are done, click "OK", and your graph will appear :
 
 
 ![](imgs/inserted_graph.png)
@@ -925,16 +922,14 @@ It is important that you **label your graphs**. You should include a short and t
 ## Activity: More complex graphs
 
 
-While we only covered descriptive analysis for univariate and bivariate analysis, when it comes to making sense of your data graphically, you can include further variables. 
-
-<span style="color:#d95f02">
-Let's show an example now. 
+While we only covered descriptive analysis for univariate and bivariate analyses, when making sense of your data graphically, you can include additional variables. 
 
 
-In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and murder and nonnegligent manslaughter, but there is also robbery, aggravated assault, burglary, and some more. Let's say that we want to compare the trajectories of all these variables over the years, over time. 
+
+In the FBI data, you can see that we have quite a few columns (variables) for crime rates for various crime types. We looked at rates of violent crime and murder and nonnegligent manslaughter, but there is also robbery, aggravated assault, burglary, and more. Let's say we want to compare the trajectories of all these variables over time. 
 
 
-You can start with a simple line graph for one of the variables. Let's select the violent crime rate, and build a line chart for this variable. You should be able to do this by now without guidance, but if you need assistance, just scroll up to where we did this earlier. 
+You can start with a simple line graph for one of the variables. Let's select the violent crime rate and build a line chart for this variable. You should be able to do this by now without guidance, but if you need assistance, scroll up to where we did this earlier. 
 
 
 Now, once you've created this graph, right-click anywhere on the chart itself and select the "Select Data..." option: 
@@ -945,14 +940,14 @@ Now, once you've created this graph, right-click anywhere on the chart itself an
 
 
 
-In the popup that appears under the series box, click on the "Add" button:
+In the pop-up that appears under the series box, click on the "Add" button:
 
 
 
 ![](imgs/comp_c_2.png)
 
 
-Once you click on the "Add" button, the fields for "Name"/ "Series name" and "Y values"/ "Series values" should appear empty. Click in the text box next to name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate":
+Once you click on the "Add" button, the fields for "Name"/ "Series name" and "Y values"/ "Series values" should appear empty. Click in the text box next to the name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate":
 
 
 
@@ -979,7 +974,7 @@ Repeat this for "Aggravated Assault Rate" and again for "Burglary Rate":
 
 
 
-Finally, when you have added all these variables, click on OK, make any changes you'd like to, to the graph, and then ta-daa you will see all 4 variables on one graph: 
+Finally, when you have added all these variables, click on OK, make any changes you'd like to the graph, and then ta-daa you will see all four variables in one graph: 
 
 
 
@@ -989,7 +984,7 @@ Finally, when you have added all these variables, click on OK, make any changes 
 
 
 
-You could also create a stacked column chart that shows you the cumulative crime rate in each year, while separating out for categories, using all the same variables. 
+You could also create a stacked column chart that shows you the cumulative crime rate in each year, while separating out categories, using all the same variables. 
 
 
 Again, start with building a column chart for just one of the variables. Let's build this for the rate of violent crimes: 
@@ -1009,7 +1004,7 @@ Now, just as we did with the line charts, just right-click anywhere on the chart
 ![](imgs/stackedbar_3.png)
 
 
-And again, this will bring up a popup. Here, once again, you can add variables with the "Add" button: 
+And again, this will bring up a pop-up. Here, once again, you can add variables with the "Add" button: 
 
 
 ![](imgs/stackedbar_4.png)
@@ -1025,13 +1020,13 @@ Once you click on the "Add" button, the fields for "Series name" and "Series val
 
 
 
-Then, repeat this for every variable you want to add. For every variable, click on "Add", then for "Series name", select the column header, and for "Series values", select the values for that variable. So in this case, again as we did for the line graphs, repeat this for "Aggravated Assault Rate" and again for "Burglary Rate": 
+Then, repeat this for every variable you want to add. For every variable, click on "Add", then for "Series name", select the column header, and for "Series values", select the values for that variable. So in this case, again, as we did for the line graphs, repeat this for "Aggravated Assault Rate" and again for "Burglary Rate": 
 
 
 ![](imgs/comp_c_5_pc.png)
 
 
-Then, finally, you should end up with a stacked bar chart of all these variables that allows you to compare the rate of each crime type between years but also allows you to compare a cumulative crime rate if you consider the crimes of Violent crimes, Robbery, Assault, and Burglary together: 
+Then, finally, you should end up with a stacked bar chart of all these variables that allows you to compare the rate of each crime type between years, but also allows you to compare a cumulative crime rate if you consider the crimes of Violent crimes, Robbery, Assault, and Burglary together: 
 
 
 
