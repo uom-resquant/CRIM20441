@@ -273,7 +273,7 @@ So, why does all this matter? What does this have to do with data analysis? Thes
 When choosing a colour palette, the first thing to consider is what kind of colour scheme we need. This will depend on the variable we are trying to visualise. We go back, once again, to the first week of the course, where we discussed *Levels of Measurement*. Remember those? Still important!
 
 
-Depending on the kind of variable we want to visualise, we might want a Qualitative colour scheme (for categorical nominal variables), a Sequential colour scheme (for categorial ordinal or numeric variables) or a Diverging colour scheme (for categorial ordinal, or for numeric variables). 
+Depending on the kind of variable we want to visualise, we might want a Qualitative colour scheme (for categorical nominal variables), a Sequential colour scheme (for categorial ordinal or numeric variables) or a Diverging colour scheme (for categorial ordinal or for numeric variables). 
 
 For qualitative colour schemes, we want each category (each value for the variable) to have a perceptible difference in colour. For sequential and diverging colour schemes, we will want mappings from data to colour that are not just numerically but also perceptually uniform. 
 
@@ -281,7 +281,7 @@ For qualitative colour schemes, we want each category (each value for the variab
 
 - **Sequential scales** (also called gradients) go from low to high saturation of a colour. 
 - **Diverging scales** represent a scale with a neutral mid-point (as when we are showing temperatures, for instance, or variance in either direction from a zero point or a mean value), where the steps away from the midpoint are perceptually even in both directions. 
-- **Qualitative scales** identify as different the different values of your categorical nominal variable from each other. 
+- **Qualitative scales** identify the different values of your categorical nominal variable from each other. 
 
 
 
@@ -293,17 +293,17 @@ For your sequential and diverging scales, the goal in each case is to generate a
 
 
 
-Of course, perceptual uniformity matters for your qualitative scales and your unordered categorical variables as well. We often use colour to represent data for different countries, political parties, types of people, and so on. In those cases, we want the colours in our qualitative palette to be easily distinguishable but also have the same valence for the viewer. Unless we are doing it deliberately, we do not want one colour to dominate the others perceptually. 
+<!--Of course, perceptual uniformity matters for your qualitative scales and your unordered categorical variables as well. We often use colour to represent data for different countries, political parties, types of people, and so on. In those cases, we want the colours in our qualitative palette to be easily distinguishable but also have the same valence for the viewer. Unless we are doing it deliberately, we do not want one colour to dominate the others perceptually. -->
 
 
 
-The main message here is that you should generally not put together your colour palettes in an ad hoc way. It is too easy to go astray. In addition to the considerations we have been discussing, we might also want to avoid producing plots that confuse people who are colour-blind, for example, and colour blindness comes in a variety of forms. Fortunately, almost all of the work has already been done for us. Different colour spaces have been defined and standardized in ways that account for these uneven or nonlinear aspects of human colour perception.
+The main message here is that you should generally not put together your colour palettes in an ad hoc way. It is too easy to go astray. In addition to the considerations we have been discussing, we might also want to avoid producing plots that confuse people who are colour-blind, for example, and colour blindness comes in a variety of forms. Fortunately, almost all of the work has already been done for us. Different colour spaces have been defined and standardised in ways that account for these uneven or nonlinear aspects of human colour perception.
 
 
-A good resource website is [ColorBrewer](http://colorbrewer2.org/). This site offers many colour schemes that you can use in your graphs if you want to introduce manual colours. The site looks somewhat like this: 
+A good resource website is [ColorBrewer](http://colorbrewer2.org/). <!--This site offers many colour schemes that you can use in your graphs if you want to introduce manual colours. The site looks somewhat like this: 
 
 
-![](http://pic.accessify.com/thumbnails/777x423/c/colorbrewer2.org.png)
+![](http://pic.accessify.com/thumbnails/777x423/c/colorbrewer2.org.png)-->
 
 
 
@@ -313,10 +313,7 @@ A good resource website is [ColorBrewer](http://colorbrewer2.org/). This site of
 Let's say we want to pick a colour scheme to visualise the variable of perception of police. Let's say we're measuring this with one variable, operationalised as having asked people the extent to which they agree with the following statement: "I think the police are doing a good job in my area", where the values for this variable are: Strongly agree, Agree, Neither agree nor disagree, Disagree, and Strongly Disagree.
 
 
-First things first, what is the level of measurement of this variable? Let's think about this for a minute, discuss it in groups, and write your answers. 
-
-
-Now, what does that mean for your colour scheme that you might use? Are you going to pick qualitative, sequential, or diverging? Why? Take a minute to think and discuss. 
+First things first, what is the level of measurement of this variable? What does that mean for your colour scheme that you might use? Are you going to pick qualitative, sequential, or diverging? Why? 
 
 
 
@@ -327,9 +324,7 @@ But wait, why is there more than one right answer?? Well **it depends** on how w
 On the other hand, you might think that any agreement is good and any disagreement is bad. In that case, the neither agree nor disagree represents a neutral middle ground, and in that case, you would want your colour scheme to reflect that by having a neutral middle point, and you choose a divergent scale. 
 
 
-All right, now you have chosen a scheme. Let's here stick with sequential, only the maximum police effectiveness perceived will do! So now, how can we find out what are some good colours to use? Well, in the video, we mentioned we'd learn some tips and tricks, so let's get started: 
-
-Go to the site [http://colorbrewer2.org/](http://colorbrewer2.org/), and select sequential from the colour scheme options: 
+All right, now you have chosen a scheme. Let's stick with sequential; only the maximum police effectiveness perceived will do! So now, how can we find out what are some good colours to use? Go to the site [http://colorbrewer2.org/](http://colorbrewer2.org/), and select sequential from the colour scheme options: 
 
 
 ![](imgs/choose_col_vartyp.png)
@@ -341,7 +336,7 @@ When you do, you can see that you can adjust the number of categories that you n
 ![](imgs/choose_col_num.png)
 
 
-You will set these to the number of values in your categorical variable, for example. In the case of police effectiveness? How many values were there? Strongly agree (1), Agree (2), Neither agree nor disagree (3), Disagree (4), and Strongly Disagree (5). So, we will need five colours for our variable's five values.  Now, you can pick your favourite scheme and use these!
+You will set these to the number of values in your categorical variable. In the case of police effectiveness, we will need five colours (Strongly agree (1), Agree (2), Neither agree nor disagree (3), Disagree (4), and Strongly Disagree (5)). Now, you can pick your favourite scheme and use these!
 
 
 You might think that's really nice, but how do we get these colours into our Excel graphs? Well, you may notice the code next to the colours:
@@ -352,6 +347,8 @@ You might think that's really nice, but how do we get these colours into our Exc
 
 These are ways for the computer to understand what the value is for that colour. There are a few options. Here, we see HEX values for each colour. 
 
+ <details>
+<summary><i><b>More about the HEX values</b></i></summary>
 
 A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, SVG, and other computing applications to represent colours. The bytes represent the red, green and blue components of the colour. One byte represents a number in the range 00 to FF (in hexadecimal notation) or 0 to 255 in decimal notation. This represents the least (0) to the most (255) intensity of each of the colour components. Thus, web colours specify colours in the True Color (24-bit RGB) colour scheme. The hex triplet is formed by concatenating three bytes in hexadecimal notation in the following order:
 
@@ -359,9 +356,9 @@ A hex triplet is a six-digit, three-byte hexadecimal number used in HTML, CSS, S
 - Byte 2: green value (colour type green)
 - Byte 3: blue value (colour type blue)
 
-
 Not sure if you might still be the generation that had any interaction with MySpace, but that was an excellent venue to learn about hex colours and HTML customisation. We guess a potentially more relevant venue would be Tumblr; if any of you use this and want to customise your pager, [you can use HTML to do this](https://www.tumblr.com/docs/en/custom_themes). Now, you don't need to do this at all, but you should now know that if you want to change the colour of something, you need to know the hex code for this colour. And this is what Colourbrewer is telling you above. 
 
+</details>
 
 If you want the three colours you see there, you must use the codes `#ffeda0`, `#feb24c`, `#f03b20`. 
 
@@ -372,7 +369,7 @@ You can also change the display from HEX to RGB or CMYK codes, which are just us
 ![](imgs/choose_col_code.png)
 
 
-**DON'T FORGET ACCESSIBILITY**. You can see that in *ColorBrewer*, you can also choose to select a scale which is "colourblind safe". Tick this box to filter out any schemes which might not comply with good accessibility standards. Do pay attention to this sort of thing. If you have another scale or want to use, for example, corporate colours, other tools are available. For example, in the video lectures, we mentioned the tool [https://coolors.co/](https://coolors.co/), where you can simulate different kinds of colour blindness. You can use this in your designs. 
+**DON'T FORGET ACCESSIBILITY**. You can see that in *ColorBrewer*, you can also choose to select a scale which is "colourblind safe". Tick this box to filter out any schemes which might not comply with good accessibility standards. Do pay attention to this sort of thing. If you have another scale or want to use, for example, corporate colours, other tools are available. For example, [https://coolors.co/](https://coolors.co/), where you can simulate different kinds of colour blindness. You can use this in your designs. 
 
 
 Right, but how do we get these colours into our Excel graph? Let's give it a go.
@@ -382,7 +379,7 @@ Right, but how do we get these colours into our Excel graph? Let's give it a go.
 
 
 
-Download the FBI crime statistics data from Canvas under Week 8 in Learning Materials.
+Download the FBI crime statistics data from Canvas -> Modules -> Learning Materials Week 08
 
 
 Open the data in Excel and have a look at it. You can see that it includes the number of crimes for various crime types for each year from 1994 to 2013, as well as some columns for crime rates. Crime rate is important because it normalises the *number* of crimes by the population at risk. Why is this important?
@@ -391,7 +388,7 @@ Open the data in Excel and have a look at it. You can see that it includes the n
 Well, think about this - where do you expect more pickpocketing incidents, outside Piccadilly Station or in Platt Fields Park? Why? 
 
 
-Our guess is that you said Piccadilly Station because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing because as a percentage, the crime might not actually be increasing at all. So, instead, we consider the population. 
+Our guess is that you said Piccadilly Station because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because, as a percentage, the crime might not actually be increasing at all. So, instead, we consider the population. 
 
 
 But is the population increasing? Well, let's create a column graph of the population. 
@@ -429,7 +426,7 @@ Now we can see the differences. However, we wanted to demonstrate how to change 
 
 
 
-To do this, you can double-click on any of the bars, which should open up a popup window. 
+To do this, you can double-click on any of the bars, which should open a pop-up window. 
 
 ![](imgs/manual_fill_1.png)
 
@@ -439,7 +436,7 @@ On this, select the "Fill" option. On this, you can see a dropdown menu where yo
 
 
 
-If you're on a PC, double-click on the bars and on the right side, and various "Format Data Series" options will appear. Click on the "Fill & Line" option, then "Solid Fill", then the colour option will appear: 
+If you're using Windows, double-click on the bars and on the right side, and various "Format Data Series" options will appear. Click on the "Fill & Line" option, then "Solid Fill", then the colour option will appear: 
 
 
 
@@ -456,7 +453,7 @@ Click on the option for "More Colours..."
 ![](imgs/manual_fill_2.png)
 
 
-This opens up a new set of options. You can see it's set to RGB sliders. If you want to, you could use the RGB code and set the red, green, and blue levels in a way that gets you your colour. You can also just paste your hex code in the box below the sliders that says "Hex Color #". If you are using a PC, we'll get to this in a second. 
+This opens up a new set of options. You can see it's set to RGB sliders. If you want to, you could use the RGB code and set the red, green, and blue levels in a way that gets you your colour. You can also just paste your hex code in the box below the sliders that says "Hex Color #". If you are using Windows, we'll get to this in a second. 
 
 
 
@@ -471,7 +468,7 @@ So, let's say that we want to change the colour to the middle value from the col
 ![](imgs/manual_fill_5.png)
 
 
-From the drop-down selection menu on the ['ColorBrewer' website](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3), you can swap between the HEX or RGB codes.
+From the drop-down selection menu on the ['ColorBrewer' website](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3), you can swap between the HEX and RGB codes.
 
 <!-- ![](imgs/choose_col_code.png)
 
@@ -498,7 +495,9 @@ Enter those values in the pop-up window that appears:
 
 
 
-In this case, we don't have a stacked bar; we just have one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later in the more complex graphs. Your decisions about colour will focus more on when and how it should be used. Colour is a powerful channel for picking out visual elements of interest and can really make a difference to your graph. You are welcome to use the Excel default colours in your graphs within this course, but if you're interested in learning more about colour, have a look [at this page](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/). 
+In this case, we don't have a stacked bar; we just have one variable, so it's not hugely useful, but we wanted to demonstrate how you can insert your own colours there. You might want to do this later in the more complex graphs. Your decisions about colour will focus more on when and how it should be used. 
+
+Colour is a powerful channel for picking out visual elements of interest and can really make a difference to your graph. You are welcome to use the Excel default colours in your graphs within this course, but if you're interested in learning more about colour, have a look [at this page](https://www.datawrapper.de/blog/colorguide). 
 
 
 ## Reading between the lines (points) 
@@ -519,7 +518,7 @@ What sorts of relationships are inferred, and under what circumstances? In gener
 ## Exploratory data visualisation
 
 
-Data visualisation helps you unlock the hidden meaning in your data. It is the first tool of a data analyst. When you are given a heap of data, the only way to get some insight into it is to make some visualisations. In weeks 2 and 3, when we did our univariate and bivariate analyses, we always started with graphing our data. And in some instances, visualising data itself can lead to surprising insights. 
+Data visualisation helps you unlock the hidden meaning in your data. It is the first tool of a data analyst. When you are given a heap of data, the only way to get some insight into it is to make some visualisations. <!--In weeks 2 and 3, when we did our univariate and bivariate analyses, we always started with graphing our data. And in some instances, visualising data itself can lead to surprising insights. -->
 
 
 We suggest that in your own time, you listen to [this episode of the DataStories podcast](http://datastori.es/66-iquantnyc/), which consists of an interview with Ben Wellington, the author of the blog [I Quant NY](http://iquantny.tumblr.com/). We mentioned him in the opening lecture; he's the guy who found the [fire hydrant that earns $30,000 a year](https://www.dailymail.co.uk/news/article-2618927/Blurred-lines-How-New-York-fire-hydrant-sees-33-000-flow-city-coffers-parking-fines.html). It's a good interview, so definitely bookmark it for later!
@@ -540,10 +539,10 @@ Firstly, let's say we want to know the answer to the following question:
 - **What year had the highest violent crime rate?**
 
 
-You can see that the appropriate data is in the column labelled *Violent Crime Rate*. So, what do you think is the best way to visualise this? You could look at your chart selection thought starter above and see that one option for comparisons is to use column graphs. So, let's give that a go: 
+You can see that the appropriate data is in the column labelled *Violent Crime Rate*. So, what do you think is the best way to visualise this? You could look at your chart selection starter above and see that one option for comparisons is column graphs. So, let's give that a go: 
 
 
-Select the column that contains the data for the violent crime rate. Highlight it. When you have highlighted that column, go to your chart selector and select *Column* > *2-D Column* > *Clustered Column*. Like so: 
+Select the column that contains the data for the violent crime rate. When you have highlighted that column, go to your chart selector and select *Column* > *2-D Column* > *Clustered Column*. Like so: 
 
 
 ![](imgs/desc_viz_1.png)
@@ -564,7 +563,7 @@ To add axis labels, right-click anywhere on the chart area and select the "Selec
 ![](imgs/desc_viz_3.png)
 
 
-Then, click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values and not also the column header: 
+Then, click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values and not the column header: 
 
 
 ![](imgs/desc_viz_4.png)
@@ -585,7 +584,7 @@ We can see that 1994 had the highest violent crime rate.
 However, this graph is not necessarily in line with the best practice around data ink and not all of the visuals introduced have meaning. 
 
 
-Firstly, we are talking about the number of crimes per 100,000 population. Since we are talking about **number of crimes**, we know we will be talking about whole numbers. Even if we end up with some decimal points after dividing by population to get the rate, it would not necessarily be meaningful to report fractions of crimes. So, we can remove the .0 from the y-axis labels, as it adds no value to our graph. To do this, double-click on the text on the y-axis labels. It will bring up a window where you can see some choices to select what to edit on the left-hand side of the window. 
+Firstly, we are talking about the number of crimes per 100,000 population. Since we are talking about the **number of crimes**, we know we will be dealing with whole numbers. Even if we end up with some decimal points after dividing by population to get the rate, it would not necessarily be meaningful to report fractions of crimes. So, we can remove the .0 from the y-axis labels, as it adds no value to our graph. To do this, double-click on the text on the y-axis labels. It will open a window where you can choose what to edit on the left-hand side. 
 
 
 It might automatically be selected to "Scale":
@@ -608,7 +607,7 @@ You can now also go to the other options and make changes there. For example, yo
 ![](imgs/desc_viz_9.png)
 
 
-On a PC, the "format axis" window appears on the right side. From there, scroll down to "Number", edit the text box next to where it says "Decimal places", set it to 0, and press Enter. You can also make other changes from here. 
+On Windows, the "format axis" window appears on the right side. From there, scroll down to "Number", edit the text box next to where it says "Decimal places", set it to 0, and press Enter. You can also make other changes from here. 
 
 
 ![](imgs/pc_change_font.jpg)
@@ -616,7 +615,7 @@ On a PC, the "format axis" window appears on the right side. From there, scroll 
 
 
 
-If you change your font, and also your font size, you should make sure to apply to all of your axis labels. To do this, double-click the x-axis labels (the years), and the same pop-up window will appear. Make sure to set the font to the same font and the font size to the same size for both axes to ensure consistency: 
+If you change your font and also your font size, you should make sure to apply it to all of your axis labels. To do this, double-click the x-axis labels (the years), and the same pop-up window will appear. Make sure any changes made apply to both axes to ensure consistency: 
 
 
 
@@ -626,9 +625,9 @@ If you change your font, and also your font size, you should make sure to apply 
 
 
 
-The other bit of information you're providing here that doesn't have much meaning attached is colour. What does the blue in the bars mean? Is there a gradient on the colour of your graph? Why? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers!
+The other bit of information you're providing here that doesn't have much meaning attached is colour. What does the blue in the bars mean? Is there a gradient in the colour of your graph? Why? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers!
 
-You can change the aspect of your chart. If you click on your chart, two tabs will become available at the top, "Chart Design" and "Format", along with the window on the right side of Excel. These can be used to format your grpahs. Explore these options and see if you can improve the way your graph looks.
+You can change the aspect of your chart. If you click on your chart, two tabs will become available at the top: "Chart Design" and "Format", along with the window on the right side of Excel. These can be used to format your graphs. You can explore these options to see if you can improve how your graph looks.
 
 <!--And why is there a gradient? Why are the bars lighter blue on the top and darker blue on the bottom? These are questions that people looking at this chart might ask, and we, the people who made the chart, do not actually have any good answers to!
 (actually on the PC there might not be a gradient, but on a Mac there is, and just in case, it's good to note this). 
@@ -665,13 +664,13 @@ Ta-daaa. Is this the best graph to answer our question? Well you could explore a
 
 ### Activity: Let's never make a pie chart again
 
-How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well, there is only one way to find out, and that is by exploring some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
+How do I know the bar chart is the best way to present this data?? Am I sure? Could something else work better? Well, there is only one way to find out: explore some more options! Let's try a pie chart. We keep hating on it, let's see if we should give it another chance. 
 
 
 Once again, select the column you're interested in, which is the rate of violent crimes. Now, instead of choosing a column chart, choose a pie chart as your visualisation strategy. 
 
 
-Now how does that look? Is it something like this: 
+Now, how does that look? Is it something like this: 
 
 
 
@@ -682,7 +681,7 @@ Now how does that look? Is it something like this:
 Can you answer your question using this chart? Do you know, from this, which year had the highest violent crime rate? 
 
 
-How about from a donut chart:
+How about from a doughnut chart:
 
 
 ![](imgs/desc_viz_donut.png)
@@ -704,33 +703,33 @@ For example, to answer our question *What year had the highest violent crime rat
 ### Activity: Exploring trends
 
 
-We'll be talking about changes over time and trends next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in violent crime rate, but instead of asking which year had the highest violent crime rate, this time we are interested in a new question:
+We'll be talking about changes over time and trends next week, but it's interesting to note here how it would (or at least should) influence your chart choice if the question we ask is slightly different. Let's say we are still interested in trends in the violent crime rate, but instead of asking which year had the highest violent crime rate, we are interested in a new question:
 
 
 - **Is the violent crime rate going up, going down, or staying the same?**
 
 
-We could, in theory, answer this question by looking at our bar graphs above. But the slight difference is bar graphs are good at comparing **categories**. But what they don't do is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not hugely link.
+We could, in theory, answer this question by looking at our bar graphs above. But the slight difference is that bar graphs are good at comparing **categories**. But what they don't do is they do *not* link up these categories. And rightly so. Such charts are for visualising categorical variables, which should not link.
 
 
-However, those of you still on top of your *levels of measurement* will have noticed that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation by being presented through a *line graph*. 
+However, those of you still on top of your *levels of measurement* will have noticed that year can actually be considered a continuous variable. And so it might lend itself to better *trend* visualisation when presented as a *line graph*. 
 
 
-To select this, once again highlight the column with the data of interest (violent crime rate) and then this time select Line > Line for chart type: 
+To select this, once again highlight the column with the data of interest (violent crime rate) and then select Line > Line for chart type: 
 
 
 ![](imgs/desc_line_1.png)
 
 
 
-Once again, you will see that your x-axis labels are not very helpful; they are numbers from 1 to 20 rather than labelled with the years that each data point represents. To address this, once again right-click anywhere in the chart and select the "Select Data..." option: 
+Once again, you will see that your x-axis labels are not very helpful. To address this, once again right-click anywhere in the chart and select the "Select Data..." option: 
 
 
 
 ![](imgs/desc_line_2.png)
 
 
-In the popup, once again, click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values and not also the column header: 
+In the pop-up, once again, click into the text box next to the *Category (X) axis labels*, and then select the values in the *Year* column. Make sure to select only the values and not the column header: 
 
 
 ![](imgs/desc_viz_4.png)
@@ -747,7 +746,7 @@ When you click OK, the labels should appear on your chart:
 
 
 
-You don't always have to manually change the bits of the graph; you can also use some pre-created layouts that exist. You can find this in the top bar of Excel, under "Chart Design" -> "Quick Layout": 
+You don't always have to change the bits of the graph manually; you can also use some pre-created layouts that exist. You can find this in the top bar of Excel, under "Chart Design" -> "Quick Layout": 
 
 
 
@@ -761,26 +760,26 @@ You don't always have to manually change the bits of the graph; you can also use
 ![](imgs/pc_chart_tools.png)-->
 
 
-You can browse through and select one that looks like something you would like. 
+You can browse through and select one. 
 
 
-Once you pick a quick chart format, you can still make edits to your graphs. For example, you can double-click on the line to make another popup, or on the right-hand side, a window will appear - "Format Data Series". 
+Once you pick a quick chart format, you can still make edits to your graphs. For example, you can double-click on the line to make another pop-up, or on the right-hand side, a window will appear - "Format Data Series". 
 
 
-On this new window, you can click on "Line" option, and choose the colour you would like for the line. 
+In this new window, you can click on the "Line" option and choose the colour you would like for the line. 
 
 
 ![](imgs/desc_line_edit.png)
 
 
 
-You can also see several options along the topic there, where you can choose between whether you want to edit the line etc, under the "Solid" option, but also change gradients under the "Gradient" option, and also edit the style of the line using the "Weights & Arrows" option. Click on this, and have a play with this as well: 
+You can also see several options along the topic there, where you can choose between whether you want to edit the line etc. Have a play with all the different options. with this as well: 
 
 ![](imgs/desc_line_type.png)
 
 
 
-Again these might be slightly different on your version, or on a PC to a mac. For editing the line, all the options there are different as well. The main point here is for you to just play around and see what is available to change in the graph, so have a look, but here is the equivalent PC screen shot to show you:
+Again, these might be slightly different on your Excel version. For editing the line, all the options are different as well. The main point here is for you to just play around and see what is available to change in the graph, so have a look, but here is the equivalent Windows screenshot to show you:
 
 
 ![](imgs/pc_line_2.png)
@@ -795,7 +794,7 @@ You can also add point markers to the line. This can help add clarity to your gr
 
 
 
-On PC: 
+On Windows: 
 
 
 ![](imgs/pc_line_1.png)
@@ -813,7 +812,7 @@ Make any changes you would like, and produce your final graph.
 
 
 
-
+<!--
 
 ### Activity: Making a chart template
 
@@ -882,7 +881,7 @@ Click on the template, then click OK, and you should have your graph be updated 
 
 You can now see that the default chart that appears follows the formatting that you have carefully devised as your ideal format. You will still have to add any sort of data addition (for example specify where to find the years to populate the Category (X) axis labels). But it definitely saves you some time in terms of formatting. 
 
-
+-->
 ### Activity: Saving your graph
 
 
@@ -990,7 +989,7 @@ Finally, when you have added all these variables, click on OK, make any changes 
 
 
 
-You could also create a stacked column chart, that shows you the cumulative crime rate in each year, while separating out for categories, using all the same variables. 
+You could also create a stacked column chart that shows you the cumulative crime rate in each year, while separating out for categories, using all the same variables. 
 
 
 Again, start with building a column chart for just one of the variables. Let's build this for the rate of violent crimes: 
