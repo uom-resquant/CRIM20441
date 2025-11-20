@@ -387,7 +387,6 @@ Open the data in Excel and have a look at it. You can see that it includes the n
 Well, think about this - where do you expect more pickpocketing incidents, outside Piccadilly Station or in Platt Fields Park? Why? 
 
 
-Our guess is that you said Piccadilly Station because there are more people close together. There are **more possible targets**. That's what you are accounting for when calculating crime *rates*. In this case, they are accounting for changes in the population between the years to make sure that you can compare the crimes between the years. It might not make a lot of sense to say that a particular crime is increasing if the population is also increasing, because, as a percentage, the crime might not actually be increasing at all. So, instead, we consider the population. 
 
 
 But is the population increasing? Well, let's create a column graph of the population. 
@@ -501,10 +500,9 @@ Colour is a powerful channel for picking out visual elements of interest and can
 
 ## Reading between the lines (points) 
 
+What sorts of relationships are inferred, and under what circumstances? In general, we want to identify groupings, classifications, or entities that can be treated as the same thing or part of the same thing. This is a small aside, but these are some considerations that you might want to keep in mind:
 
-What sorts of relationships are inferred, and under what circumstances? In general, we want to identify groupings, classifications, or entities that can be treated as the same thing or part of the same thing:
-
-- **Proximity:** Things that are spatially near to one another are related.
+- **Proximity:** Things that are spatially near to one another (i.e., geographically close) are related.
 - **Similarity:** Things that look alike are related.
 - **Connection:** Things that are visually tied to one another are related.
 - **Continuity:** Partially hidden objects are completed into familiar shapes.
@@ -512,12 +510,14 @@ What sorts of relationships are inferred, and under what circumstances? In gener
 - **Figure/Ground:** Visual elements are either in the foreground or the background.
 - **Common Fate:** Elements sharing a direction of movement are perceived as a unit.
 
-
+You can think about those things while you're next trying to go to sleep!
 
 ## Exploratory data visualisation
 
 
-Data visualisation helps you unlock the hidden meaning in your data. It is the first tool of a data analyst. When you are given a heap of data, the only way to get some insight into it is to make some visualisations. <!--In weeks 2 and 3, when we did our univariate and bivariate analyses, we always started with graphing our data. And in some instances, visualising data itself can lead to surprising insights. -->
+Data visualisation helps you unlock the hidden meaning in your data. It is the first tool of a data analyst. When you are given a heap of data, a really useful way of getting some insight into it is to make some visualisations. As we demonstrated earlier in this week's material, visualisations can give you more (or at least different) insight compared to simple description insights like the average.
+
+<!--In weeks 2 and 3, when we did our univariate and bivariate analyses, we always started with graphing our data. And in some instances, visualising data itself can lead to surprising insights. -->
 
 
 We suggest that in your own time, you listen to [this episode of the DataStories podcast](http://datastori.es/66-iquantnyc/), which consists of an interview with Ben Wellington, the author of the blog [I Quant NY](http://iquantny.tumblr.com/). We mentioned him in the opening lecture; he's the guy who found the [fire hydrant that earns $30,000 a year](https://www.dailymail.co.uk/news/article-2618927/Blurred-lines-How-New-York-fire-hydrant-sees-33-000-flow-city-coffers-parking-fines.html). It's a good interview, so definitely bookmark it for later!
@@ -548,14 +548,13 @@ Select the column that contains the data for the violent crime rate. When you ha
 
 
 
-Once you select this, a default column chart should appear. You can see, however, that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer your question, *What year had the highest violent crime rate?*
+Once you select this, a default column chart should appear. You can see, however, that the category axis labels are not very meaningful. They are only numbers, from 1 to 20, and do not help you answer your question, *What year had the highest violent crime rate?*. Given what we learnt above, have a quick think about how we'd go about improving this in Excel.
 
 
 ![](imgs/desc_viz_2.png)
 
 
-
-To add axis labels, right-click anywhere on the chart area and select the "Select Data..." option: 
+Well, either way, we will give you the answer, because we're nice like that. Remember that to add axis labels, right-click anywhere on the chart area and select the "Select Data..." option: 
 
 
 
@@ -583,10 +582,10 @@ We can see that 1994 had the highest violent crime rate.
 However, this graph is not necessarily in line with the best practice around data ink and not all of the visuals introduced have meaning. 
 
 
-Firstly, we are talking about the number of crimes per 100,000 population. Since we are talking about the **number of crimes**, we know we will be dealing with whole numbers. Even if we end up with some decimal points after dividing by population to get the rate, it would not necessarily be meaningful to report fractions of crimes. So, we can remove the .0 from the y-axis labels, as it adds no value to our graph. To do this, double-click on the text on the y-axis labels. It will open a window where you can choose what to edit on the left-hand side. 
+Firstly, we are talking about the number of crimes per 100,000 population. Since we are talking about the **number of crimes**, we know we will be dealing with whole numbers. Even if we end up with some decimal points after dividing by population to get the rate, it would not necessarily be meaningful to report fractions of crimes. So, we can remove the .0 from the y-axis labels, as it adds no value to our graph. To do this, double-click on the text on the y-axis labels. It will open a window where you can choose what to edit. Yours might look slightly different, but have an explore and you will get comparable options to those shown below.
 
 
-It might automatically be selected to "Scale":
+It might automatically be selected to "Scale" or "Axis options":
 
 
 
@@ -599,7 +598,7 @@ Click on the next one down, the one that says "Number". In the options that come
 ![](imgs/desc_viz_8.png)
 
 
-You can now also go to the other options and make changes there. For example, you might decide that you want to increase the font size to make your graph easier to read and also that you might want to change your font to something easier to read, such as Arial:
+You can now also go to the other options and make changes there. For example, you might decide that you want to increase the font size to make your graph easier to read and also that you might want to change your font to something like Arial. If you have the option, it will look something like the screenshot below. If you don't see the option, you can also just alter the font type and size by clicking on the axis, and then using the usual options in the top Home ribbon of Excel (i.e., how you'd usually change the font in Excel or Word).
 
 
 
@@ -690,7 +689,7 @@ How about from a doughnut chart:
 Not really, eh? Well, it takes some time and thought to be able to determine what visualisation is best to use, and you can always try out a couple of options, and see which one you like best and which one best helps you tell your story and answer the question you are asking, and align with the five principles from your reading of being truthful, functional, beautiful, insightful, enlightening. And remember to think carefully and make decisions consciously, as there might be more than one right answer. 
 
 
-For example, to answer our question *What year had the highest violent crime rate?* we could have just as well used a bar graph as a column graph. A bar graph is basically a column graph on its side:
+For example, to answer our question *What year had the highest violent crime rate?* we could have just as well used a bar graph as a column graph. A bar graph is basically a column graph on its side. This is also (kind of) useful in terms of looking at the change over time, but more on that later.
 
 
 ![](imgs/bar_same_col.png)
@@ -939,22 +938,20 @@ Now, once you've created this graph, right-click anywhere on the chart itself an
 
 
 
-In the pop-up that appears under the series box, click on the "Add" button:
-
+In the pop-up that appears under the series box, click on the "Add" button (on some versions this might be a '**+**' symbol):
 
 
 ![](imgs/comp_c_2.png)
 
 
-Once you click on the "Add" button, the fields for "Name"/ "Series name" and "Y values"/ "Series values" should appear empty. Click in the text box next to the name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate":
-
+Once you click on the "Add" button, the fields for "Name" (or "Series name") and "Y values" (or "Series values") should appear empty. Click in the text box next to the name, and then click on the column header (variable name) for the next variable. Select "Robbery Rate". Once you've done that, your window should look something like this:
 
 
 ![](imgs/comp_c_3.png)
 
 
 
-Then, click in the text box next to the "Y values:" and then select the values in the robbery rate column: 
+Then, click in the text box next to the "Y values:" and then select the values in the robbery rate column. As before, making this selection can be fiddly, but remember you can click and drag part of your selection, and then edit the formula accordingly to complete the whole range of value you want.
 
 
 ![](imgs/comp_c_4.png)
@@ -983,7 +980,7 @@ Finally, when you have added all these variables, click on OK, make any changes 
 
 
 
-You could also create a stacked column chart that shows you the cumulative crime rate in each year, while separating out categories, using all the same variables. 
+You could also create a stacked column chart that shows you the total crime rate in each year, while separating out categories, using all the same variables. 
 
 
 Again, start with building a column chart for just one of the variables. Let's build this for the rate of violent crimes: 
@@ -1003,15 +1000,12 @@ Now, just as we did with the line charts, just right-click anywhere on the chart
 ![](imgs/stackedbar_3.png)
 
 
-And again, this will bring up a pop-up. Here, once again, you can add variables with the "Add" button: 
+And again, this will bring up a pop-up. Here, once again, you can add variables with the "Add" (or **+**) button: 
 
 
 ![](imgs/stackedbar_4.png)
 
-
-
-
-Once you click on the "Add" button, the fields for "Series name" and "Series values" should appear empty. Click in the text box next to "Series name", and then click on the column header (variable name) for the next variable. Select the "Robbery Rate" column header. Then click in the text box next to "Series values",  and then select the values for robbery rate: 
+Once you click on the "Add" button, the fields should appear empty, as before. Click in the text box next to "Name"(or "Series name"), and then click on the column header (variable name) for the next variable. Select the "Robbery Rate" column header. Then click in the text box next to "Y values" (or "Series values"),  and then select the values for robbery rate:
 
 
 
@@ -1019,15 +1013,9 @@ Once you click on the "Add" button, the fields for "Series name" and "Series val
 
 
 
-Then, repeat this for every variable you want to add. For every variable, click on "Add", then for "Series name", select the column header, and for "Series values", select the values for that variable. So in this case, again, as we did for the line graphs, repeat this for "Aggravated Assault Rate" and again for "Burglary Rate": 
+Then, repeat this for every variable you want to add. 
 
-
-![](imgs/comp_c_5_pc.png)
-
-
-Then, finally, you should end up with a stacked bar chart of all these variables that allows you to compare the rate of each crime type between years, but also allows you to compare a cumulative crime rate if you consider the crimes of Violent crimes, Robbery, Assault, and Burglary together: 
-
-
+Then, finally, you should end up with a stacked bar chart of all these variables that allows you to compare the rate of each crime type between years, but also allows you to see how that total crime rate is broken down across different crime types (e.g., Violent crimes, Robbery, Assault, and Burglary).
 
 ![](imgs/stackedbar_final.png)
 
@@ -1058,7 +1046,7 @@ The most important thing when communicating your results is that you know your a
 ### Activity: Interpreting results
 
 
-By becoming a maker of good graphs, you should also become literate about graphs. If you are interested in a role as a crime analyst, part of your interview process includes a numeracy test, which will test your ability to interpret trends and data from graphs (among other things). 
+By becoming a maker of good graphs, you should also become literate about graphs. If you are interested in a role such as a (crime) analyst, part of your interview process might include a numeracy test, which will test your ability to interpret trends and data from graphs (among other things). 
 
 
 
