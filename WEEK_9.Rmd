@@ -1,5 +1,9 @@
 # Week 9 {#week9}
-
+<style>
+details {
+  margin-bottom: 1em; /* Adds space below each details block */
+}
+</style>
 ## Learning outcomes
 
 This week, we consider another important factor that is present in our data that we don't always talk about, and that is the importance of *time*. The importance of place in criminology and crime analysis is widely discussed. We know certain areas can be crime hotspots, and we know that whether you come from a well-off or deprived area, you have different access to resources, and therefore, your outcomes in terms of involvement with the criminal justice system also differ. However, time is just as important as place. We often hear that crime is "going up" or "going down" over time. It is very important that, as a well-rounded criminologist, you are able to talk about these concepts with appropriate knowledge and understanding. 
@@ -271,7 +275,7 @@ Now you can discuss again why you think this might be. For example, during the w
 
 
 
-There are many things that peak on certain days of the week if you're interested in some more examples, [read this article in the Guardian about the most dangerous days of the week](https://www.theguardian.com/lifeandstyle/2013/may/29/most-dangerous-day-of-week). 
+There are many things that peak on certain days of the week. If you're interested in some more examples, [read this article in the Guardian about the most dangerous days of the week](https://www.theguardian.com/lifeandstyle/2013/may/29/most-dangerous-day-of-week). 
 
 
 
@@ -312,14 +316,14 @@ And finally, copy your formatting to all the rows:
 
 
 
-Now you have a column for the hour that the offence was committed in! Have a think about how you are aggregating here though. As you can see, this function simply takes the hour when the incident occurred. So something that happened at 14:01 and 14:59 will both be grouped to 14:00. Is this a problem? Well, it depends on the sort of granularity of analysis that you will be carrying out. Most of the time (particularly with burglary, as mentioned above), we struggle to get an accurate understanding of the time the incident happened. But there may be cases when more precision is needed; in that case, you might want to consider the hours and minutes or think about other ways to aggregate (group) your data. 
+Now you have a column for the hour that the offence was committed in! Have a think about how you are aggregating here, though. As you can see, this function simply takes the hour when the incident occurred. So something that happened at 14:01 and 14:59 will both be grouped to 14:00. Is this a problem? Well, it depends on the sort of granularity of analysis that you will be carrying out. Most of the time (particularly with burglary, as mentioned above), we struggle to get an accurate understanding of the time the incident happened. But there may be cases when more precision is needed; in that case, you might want to consider the hours and minutes or think about other ways to aggregate (group) your data. 
 
 
 You could also extract something else, for example, the month and year from the date. To do this, you simply use this, again create a new column, and this time, use a formula that extracts text from the date: 
 
 `=TEXT(*cell reference*,"mmm-yyyy")`
 
-In where it says cell reference, just put in the reference to the column from the date (in this case it's C) and the cell number (2 for the first row). 
+Where it says cell reference, just put in the reference to the column from the date (in this case, it's C) and the cell number (2 for the first row). 
 
 `=TEXT(C2,"mmm-yyyy")`
 
@@ -364,7 +368,7 @@ It might be worth having a look at some examples of temporal data being visualis
 Let's start with viewing some examples of time visualised using a timeline of continuous time passing: 
 
 
-The world of sports is rich with data, but that data isn't always presented effectively (or accurately, for that matter). The folks over at FiveThirtyEight do it particularly well, though. In this interactive visualization below, they calculated what's called an "Elo rating" -- a simple measure of strength based on game-by-game results -- for every game in the history of the National Football League. That's over 30,000 ratings in total. Viewers can compare each team's Elo to see how each team performed across decades of play. [See here](http://projects.fivethirtyeight.com/complete-history-of-the-nfl/#ari)
+The world of sports is rich with data, but that data isn't always presented effectively (or accurately, for that matter). The folks over at FiveThirtyEight do it particularly well, though. In this interactive visualisation below, they calculated what's called an "Elo rating" -- a simple measure of strength based on game-by-game results -- for every game in the history of the National Football League. That's over 30,000 ratings in total. Viewers can compare each team's Elo to see how each team performed across decades of play. [See here](https://data.fivethirtyeight.com/)
 
 
 
@@ -374,7 +378,7 @@ The world of sports is rich with data, but that data isn't always presented effe
 
 Another example of a continuous timeline is the "What is warming the world" visualisation. Ever heard a version of the advice, "Don't simply show the data; tell a story with it"? That's exactly what this visualization from Bloomberg Business does -- and it's the interactive part that makes the story move along from beginning to end. 
 
-The point of the visualization is to disprove theories that claim that natural causes explain global warming. The first thing you'll see is the observed temperature, which has risen from 1880 to the present day. As you scroll down, the visualization takes you through exactly how many different factors contribute to global warming in comparison to what's been observed, adding a richer layer of storytelling. The conclusion the authors want viewers to draw is made very clear. [See here](http://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
+The point of the visualisation is to disprove theories that claim that natural causes explain global warming. The first thing you'll see is the observed temperature, which has risen from 1880 to the present day. As you scroll down, the visualization takes you through exactly how many different factors contribute to global warming in comparison to what's been observed, adding a richer layer of storytelling. The conclusion the authors want viewers to draw is made very clear. [See here](http://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
 
 
 
@@ -407,7 +411,7 @@ In this case, you will have to ungroup the data. In this case, please right-clic
 Once you have done this, you will see a pivot table where each date appears only once. 
 
 
-Now, turn this into a line graph. We've made several line graphs before, including last week, but never with this many data points. However, the motions are still the same. You highlight your data, select your appropriate chart (line graph), and then add the labels using "Select Data" and populate the 'Category (X) axis labels' section in the popup window that appears. If any of this confuses you, re-visit last week's lab notes about data visualisation. 
+Now, turn this into a line graph. We've made several line graphs before, including last week, but never with this many data points. However, the motions are still the same. You highlight your data, select your appropriate chart (line graph), and then add the labels using "Select Data" and populate the 'Category (X) axis labels' section in the pop-up window that appears. If any of this confuses you, revisit last week's lab notes about data visualisation. 
 
 
 
@@ -423,30 +427,30 @@ When all is said and done, you should end up with a chart that looks like this:
 Is residential burglary going up or down in the city of Dallas? It's not easy to tell from this, is it? The thing with data at these intervals is that there is a lot of day-to-day variation, and what we would refer to as the **noise**. And in this **noise**, we can lose sight of the **signal**. 
 
 
-**Signal-to-noise ratio** (abbreviated SNR or S/N) is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. While SNR is commonly quoted for electrical signals, it can be applied to any form of signal and is sometimes used metaphorically to refer to the ratio of useful information to false or irrelevant data. 
+**Signal-to-noise ratio** (abbreviated SNR or S/N) is a measure used in science and engineering that compares the level of a desired signal to the level of background noise. While SNR is commonly quoted for electrical signals, it can be applied to any form of signal. 
 
 
 An interesting book to read that talks a lot about how to identify signals within the noise is the aptly named [The Signal and the Noise by Nate Silver](https://www.theguardian.com/books/2012/nov/09/signal-and-noise-nate-silver-review) and if you enjoyed anything about this class, or you enjoyed reading the Tiger that Isn't text, we would highly recommend it! It can get a bit more technical in places, but it's got loads of very neat examples and is an entertaining read overall. In this book, the author talks about the need to see past all the noise (the random variation in the data) in order to be able to make predictions (using the signal). 
 
 
-In this case of our burglaries, we would need to be able to somehow look past this variation in day-to-day changes to be able to look at overall trends. For example, we could start to **smooth** this data, and instead of looking at the number of burglaries each day, begin to consider the *average number of burglaries every ten days*, which would be something called the **10-point moving average**. This would be one approach to smoothing our data. We will return to this later today. 
+In this case, we would need to look past day-to-day variations to examine overall trends. For example, we could start to **smooth** this data and, instead of looking at the number of burglaries each day, consider the *average number of burglaries every 10 days*, which is called the **10-point moving average**. This would be one approach to smoothing our data. We will return to this later today. 
 
 
 ## The time cycle: visualising cyclical variables
 
 
-I've hinted at this throughout the course, that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the **levels of measurement** for the variables in the Twitter data we assembled? And we told you that the time of a Tweet, for example, was not a numeric variable; instead, it was ordinal. Well, the hour of the day is a cyclical ordinal variable, as it *cycles* around. After 23h comes 0h, and not 24, as we would expect from a numeric variable. 
+I've hinted at this throughout the course that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the **levels of measurement** for the variables in the Twitter data we assembled? And we told you that the time of a Tweet, for example, was not a numeric variable; instead, it was ordinal. Well, the hour of the day is a cyclical ordinal variable, as it *cycles* around. After 23h comes 0h, and not 24, as we would expect from a numeric variable. 
 
 How can we best represent this special nature of our variables?
 
 
-There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs. The graphs below all represent the same page view data for a website across different times of day. Here’s an example by Purna Duggirala that is essentially a bubble chart that uses two clocks side by side: 
+There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs. The graphs below show the same page-view data for a website across different times of day. Here’s an example by Purna Duggirala that is essentially a bubble chart that uses two clocks side by side: 
 
 
 ![](http://dougmccune.com/blog/wp-content/uploads/2011/04/two_clocks-300x163.png)
 
 
-The biggest problem with the chart is the incorrect continuity. A single clock on its own isn’t a continuous range; it’s really only half a range. So the clock on the left is showing 12 am – 12 pm, but when you reach the end of the circle the data doesn’t continue on like the representation shows. Instead you need to jump over to the second clock and continue on around. It’s difficult to see the ranges right around both 12 pm and 12 am since you lose context in one direction or another (and worse, you get the incorrect context from the bordering bubbles).
+The biggest problem with the chart is the incorrect continuity. A single clock on its own isn’t a continuous range; it’s really only half a range. So the clock on the left is showing 12 am – 12 pm, but when you reach the end of the circle, the data doesn’t continue on as the representation shows. Instead, you need to jump over to the second clock and continue on around. It’s difficult to see the ranges right around both 12 pm and 12 am since you lose context in one direction or another (and worse, you get the incorrect context from the bordering bubbles).
 
 
 In a great show of Internet collaboration, the double clock chart spurred some other experimentation. Jorge Camos came up with a polar chart that plots the data on a single “clock face,” showing two 12-hour charts overlaid on top of each other.
@@ -458,18 +462,22 @@ In a great show of Internet collaboration, the double clock chart spurred some o
 
 
 
-Given that the 12-hour clock is a difficult metaphor to use for a visualization, many people choose to use a 24-hour circle. 24-hour circular charts typically start with midnight at the top of the chart and then proceed clockwise, showing all 24 hours in one 360-degree range. The benefit of a 24-hour circular chart is that the cyclical nature of the data is represented, and the viewer can easily read the continuity at any point on the chart.
+Given that the 12-hour clock is a difficult metaphor to use for a visualisation, many people choose to use a 24-hour clock. 24-hour circular charts typically start at midnight at the top and proceed clockwise, showing all 24 hours in a single 360-degree range. The benefit of a 24-hour circular chart is that the cyclical nature of the data is represented, and the viewer can easily read the continuity at any point on the chart.
+
+
+ <details>
+<summary><i><b>READ MORE: visualising cyclical variables </b></i></summary>
 
 
 
-A simple example of a 24-hour circle comes from Stamen Design‘s Crimespotting. This isn’t a data-heavy visualization chart since it doesn’t actually show any data other than sunrise and sunset times (instead, its main purpose is as a filtering control). But it’s a good example of the general layout of 24-hour charts, and it’s very clean and well-labelled. You can read about the thinking that went into designing this “time of pie” on Stamen’s blog.
+A simple example of a 24-hour circle comes from Stamen Design‘s Crimespotting. This isn’t a data-heavy visualisation chart since it doesn’t actually show any data other than sunrise and sunset times (instead, its main purpose is as a filtering control). But it’s a good example of the general layout of 24-hour charts, and it’s very clean and well-labelled. You can read about the thinking that went into designing this “time of pie” on Stamen’s blog.
 
 
 
 ![](imgs/crimespotting_time_pie.png)
 
 
-The inspiration for this time selector, which is documented in Tom Carden’s blog post, was the real-life timer control used for automating lights in your house.
+The inspiration for this time selector, documented in Tom Carden’s blog post, was the real-life timer control used to automate lights in your house.
 
 
 ![](imgs/real_life_time_pie-150x150.png)
@@ -477,7 +485,7 @@ The inspiration for this time selector, which is documented in Tom Carden’s bl
 
 
 
-This above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys of the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualisation). We know, we know, we covered data visualisation last week, can we please get over it! But it's one of the most fun aspects of data analysis, so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse. She was a famous data pioneer!
+The above is known as a radial chart. We will now learn how to build one in Excel. But before we do, we wanted to remind you guys of the story of Florence Nightingale, the original data visualisation pioneer (I spoke about her in the lecture about data visualisation). We know, we know, we covered data visualisation last week, can we please get over it! But it's one of the most fun aspects of data analysis, so no, we cannot, and now we will remind you again about why Florence Nightingale wasn't just a famous nurse. She was a famous data pioneer!
 
 
 This is Florence Nightingale's 'Coxcomb' diagram on mortality in the army:
@@ -489,9 +497,9 @@ This is Florence Nightingale's 'Coxcomb' diagram on mortality in the army:
 We all have an image of Nightingale - who died over 100 years ago - as a nurse, lady with the lamp, medical reformer and campaigner for soldiers' health. But she was also a data journalist. After the disasters of the Crimean War, Florence Nightingale returned to become a passionate campaigner for improvements in the health of the British army. She developed the visual presentation of information, including the pie chart, first developed by William Playfair in 1801. Nightingale also used statistical graphics in reports to Parliament, realising this was the most effective way of bringing data to life.
 
 
-Her report on the mortality of the British Army, published in 1858, was packed with diagrams and tables of data. The Coxcomb chart demonstrates the ratio of British soldiers who died during the Crimean War of sickness rather than of wounds or other causes. Her work changed the course of history, enabling proactive change through data collection. In 1858, Nightingale presented her visualisations to the health department demonstrating the conditions of the hospitals and whose actions resulted in deaths being cut by two-thirds.
+Her report on the mortality of the British Army, published in 1858, was packed with diagrams and tables of data. The Coxcomb chart demonstrates the ratio of British soldiers who died during the Crimean War from sickness rather than from wounds or other causes. Her work changed the course of history, enabling proactive change through data collection. In 1858, Nightingale presented her visualisations to the health department, demonstrating the conditions of the hospitals and whose actions resulted in deaths being cut by two-thirds.
 
-
+</details>
 ### Activity: Visualising cycles: Radar charts
 
 
@@ -501,7 +509,7 @@ So, how do we make these in Excel? Well, let's return to our within-day variatio
 To do this, we will first need to create a frequency table of the hour variable. Remember, we are graphing UNIVARIATE ANALYSIS. We are describing one variable in our data, which is the hour variable. To know the frequency of each value of this variable (the number of burglaries in each hour), we must build a pivot table. 
 
 
-Do this, create a pivot table that tells you the frequency of each hour: 
+Do this: create a pivot table that tells you the frequency of each hour: 
 
 
 
