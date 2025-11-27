@@ -660,9 +660,9 @@ Typically, all the rows are one category (labels displayed on the left or right 
 
 A legend is required alongside a Heatmap in order for it to be successfully read. Categorical data is colour-coded, while numerical data requires a colour scale that blends from one colour to another in order to represent the difference in high and low values. A selection of solid colours can be used to represent multiple value ranges (0-10, 11-20, 21-30, etc), or you can use a gradient scale for a single range (for example, 0 - 100) by blending two or more colours together. Refer back to what we learned about colour last week in data visualisation. 
 
-Because of their reliance on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it’s harder to accurately tell the differences between colour shades and to extract specific data points from (unless of course, you include the raw data in the cells).
+Because they rely on colour to communicate values, Heatmaps are a chart better suited to displaying a more generalised view of numerical data, as it’s harder to tell the differences between colour shades accurately and to extract specific data points from (unless of course, you include the raw data in the cells).
 
-Heatmaps can also be used to show the changes in data over time if one of the rows or columns is set to time intervals. An example of this would be to use a Heatmap to compare the temperature changes across the year in multiple cities to see where the hottest or coldest places are. The rows could list the cities to compare, the columns contain each month, and the cells would contain the temperature values.
+Heatmaps can also be used to show changes in data over time when one row or column is set to time intervals. An example of this would be using a Heatmap to compare temperature changes across the year in multiple cities and identify the hottest or coldest places. The rows list the cities to compare, the columns list each month, and the cells contain the temperature values.
 
 - [data viz catalogue](https://datavizcatalogue.com/methods/heatmap.html)
 
@@ -677,7 +677,7 @@ You can know, by the way the question is phrased, that your task here will requi
 ![](imgs/hm_pivot.png)
 
 
-Now, this tells you all the information you want to know, but there are many cells with many numbers, and it's not immediately obvious where we should be looking. A heatmap (via conditional formatting) creates an option for us to nudge people to find the high and low values in this table. 
+Now, this gives you all the information you want, but there are many cells with many numbers, and it's not immediately obvious where to look. A heatmap (via conditional formatting) gives us a way to nudge people to find the high and low values in this table. 
 
 
 
@@ -700,28 +700,28 @@ In this case, red is bad because it means more burglaries! Select this colour sc
 ![](imgs/cond_3.png)
 
 
-Now your eyes are immediately drawn to where the high values are, which apparently is Monday to Friday, 7 and 8 AM. We can see that on Saturdays and Sundays, even burglars want a lie-in, and therefore, you see the low green burglary rate creep up later than on weekdays. Exciting stuff!
+Now your eyes are immediately drawn to the high values, which apparently are Monday to Friday, 7 and 8 AM. We can see that on Saturdays and Sundays, even burglars want a lie-in, so the low green burglary rate creeps up later than on weekdays. Exciting stuff!
 
 
 Do remember, though, what we learned about colour coding, and make sure you consider your colourblind audiences when presenting such data!
 
 
-
+ <details>
+<summary><i><b>READ MORE: extra types of charts </b></i></summary>
 ### More charts?
 
-
-The Gantt chart is also a way to visualise the passage of time or the tasks you must complete as this time passes. You learned in the session covering research design about Gantt charts, which are essentially horizontal bar charts showing work completed in a certain period of time with respect to the time allocated for that particular task.
+The Gantt chart is also a way to visualise the passage of time and the tasks you must complete over time. 
 
 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/300px-GanttChartAnatomy.svg.png)
 
 
-It is named after the American engineer and management consultant Henry Gantt, who extensively used this framework for project management. We covered how to do these in the research design session; please refer back to those if you are not sure how to make them any more...!
+It is named after the American engineer and management consultant Henry Gantt, who extensively used this framework for project management. We covered how to do these in the research design session; please refer back to that session if you are not sure how to make them any clearer...!
 
 
 
-There are also some non-conventional line-graph-based timelines. While these appear initially like linear representations, it's actually possible for these to loop back and reverse in time, making them slightly different. For example, [this one about gas prices and driving practices](http://www.nytimes.com/imagepages/2010/05/02/business/02metrics.html), or this one about [driving safely](http://www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html) demonstrate this approach quite neatly. 
+There are also some non-conventional line-graph-based timelines. While these initially appear linear, they can actually loop back and reverse in time, making them slightly different. For example, [this one about gas prices and driving practices](http://www.nytimes.com/imagepages/2010/05/02/business/02metrics.html), or this one about [driving safely](http://www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html) demonstrate this approach quite neatly. 
 
 
 
@@ -731,9 +731,9 @@ You could also have a stacked line chart to represent time:
 ![](imgs/other_time_graph_1.png)
 
 
-Stacked area charts are useful to show how both a cumulative total and individual components of that total changed over time.
+Stacked area charts are helpful for showing how both a cumulative total and its individual components changed over time.
 
-The order in which we stack the variables is crucial because there can sometimes be a difference in the actual plot versus human perception. The chart plots the value vertically, whereas we perceive the value to be at the right angles relative to the general direction of the chart. For instance, in the case below, a bar graph would be a cleaner alternative.
+The order in which we stack the variables is crucial because there can be a difference between the actual plot and human perception. The chart plots the value vertically, whereas we perceive it at right angles to the chart's general direction. For instance, in the case below, a bar graph would be a cleaner alternative.
 
 
 ![](imgs/other_time_graph_2.jpg)
@@ -741,7 +741,7 @@ The order in which we stack the variables is crucial because there can sometimes
 
 
 
-Time is dynamic, and as a result there are many dynamic visualisations of time as well. For example, it is possible to build a gif as a graph output, with each measurement in time being one frame. This example, which represents time as frames in a gif, shows how the percent of the US population by age group has changed and is predicted to change over time: 
+Time is dynamic, and as a result, there are many dynamic visualisations of time as well. For example, it is possible to build a gif as a graph output, with each measurement in time being one frame. This example, which represents time as frames in a gif, shows how the percent of the US population by age group has changed and is predicted to change over time: 
 
 
 ![](https://www.pewresearch.org/wp-content/uploads/2016/04/Age-Pyramids.gif)
@@ -758,10 +758,11 @@ You can see that there are many cool ways to represent time, and I've shown you 
 
 
 
+</details>
 
 ## Time series
 
-When reading and discussing temporal time analysis, you will hear such data referred to as a **time series**. A Time Series is an ordered sequence of values of a variable at equally spaced time intervals. For example, when we aggregate our burglaries data to dates, then we have a series of observations (each day in our data set) and a corresponding number of burglaries which take place on each day. It becomes a time series of burglaries. 
+When reading and discussing temporal time analysis, you will hear such data referred to as a **time series**. A Time Series is an ordered sequence of values of a variable at equally spaced time intervals. For example, when we aggregate our burglary data to dates, then we have a series of observations (each day in our data set) and a corresponding number of burglaries which take place on each day. It becomes a time series of burglaries. 
 
 
 **Time Series Analysis** is an analytic technique that uses such a sequence of data points measured at successive, uniform time intervals (such as each day, like in the burglary data) to identify *trends* and other *characteristics* of the data. For example, a time series analysis may be used to study our data on burglary rate over time, and based on the patterns we find, it may be able to predict future crime trends.
@@ -770,21 +771,21 @@ When reading and discussing temporal time analysis, you will hear such data refe
 So, what makes time series data special? Well, all-time series data have three basic parts:
 
 - A *trend* component; this is the overall trend we might observe in the data, e.g. is burglary going up, going down, or staying constant?
-- A *seasonal* component; this is the seasonal variation, a repeated fluctuation pattern, such that we saw with different crimes in the lecture videos, e.g. that burglary varies within the week, we expect a peak in weekday sand a dip in weekends as we saw above.
+- A *seasonal* component; this is the seasonal variation, a repeated fluctuation pattern, such that we saw with different crimes in the lecture videos, e.g. that burglary varies within the week, we expect a peak in weekdays and a dip in weekends as we saw above.
 - A *random* component; we have to account for this element of random fluctuation, the "noise" on our data. Sometimes crime goes up or down due to random events - a prolific burglar has broken her arm, a homeowner who may have otherwise been burgled has a child fall sick and has to stay home from school for a week, and even less discernable, less specific reasons, there is always an element of random variation in data, and we always must be conscious of this "noise" from which we must discern the signal. 
 
 
-Trends are often masked because of the combination of these components – especially the random noise! It is our task, with temporal analysis to make sense of these components, separate them, and extract meaning from our data. 
+Trends are often masked because of the combination of these components – especially the random noise! It is our task, with temporal analysis, to make sense of these components, separate them, and extract meaning from our data. 
 
 
 When we extract these elements, two types of patterns are important:
 - The trends, which can be linear or non-linear (i.e., upwards or downwards or both (quadratic)); and
-- The seasonal effects which follow the same overall trend but repeat themselves in systematic intervals over time. 
+- The seasonal effects, which follow the same overall trend but repeat themselves in systematic intervals over time. 
 
 We care less about random noise, only to quiet it, but not to find patterns in it, as it is a random error. 
 
 
-There is a whole area of research and data analysis which focuses on making sense of time series data. Here, we will cover only a brief overview so you are aware of them. To manipulate and extract meaning from time series data, researchers and analysts turn to time series *models*. 
+There is a whole area of research and data analysis which focuses on making sense of time series data. Here, we will cover only a brief overview, so you are aware of them. To manipulate and extract meaning from time series data, researchers and analysts turn to time series *models*. 
 
 The usage of time series models can serve to:
 
@@ -793,27 +794,27 @@ The usage of time series models can serve to:
 – To test the impact of interventions 
 
 
-One approach we will explore here is **smoothing** our time series data. Smoothing data removes random variation and shows trends and cyclic components. Inherent in the collection of data taken over time is some form of random variation. There exist methods for reducing or cancelling the effect due to random variation. Smoothing can reveal more clearly the underlying trend, seasonal and cyclic components.
+One approach we will explore here is **smoothing** our time series data. Smoothing data removes random variation, revealing trends and cyclic components. Inherent in data collected over time is some random variation. There are methods for reducing or cancelling the effects of random variation. Smoothing can reveal the underlying trend, seasonal, and cyclic components more clearly.
 
 
-In this course we will explore smoothing in order to answer questions of the first option from those above, '*To help reveal or clarify trends by obtaining an understanding of the underlying forces and structure that produced the observed data*'. In particular, we will look into producing *moving averages*. You should also know about the existence of *smoothing techniques*, and the sophisticated method for revealing trends is known as *seasonal decomposition*. However, we will not be performing these ourselves today. 
+In this course, we will explore smoothing to answer the first option from the list above: '*To help reveal or clarify trends by obtaining an understanding of the underlying forces and structure that produced the observed data*'. In particular, we will look into producing *moving averages*. You should also know about *smoothing techniques* and the sophisticated method for revealing trends, *seasonal decomposition*. However, we will not be performing these ourselves today. 
 
 
 
 ## Moving averages
 
 
-Calculating a **moving average** is a technique to get an overall idea of the trends in a data set. It is achieved by taking an average of any subset of numbers. The moving average is extremely useful for forecasting long-term trends. You can calculate it for any period of time. For example, if you have sales data for a twenty-year period, you can calculate a five-year moving average, a four-year moving average, a three-year moving average and so on. Stock market analysts will often use a 50 or 200-day moving average to help them see trends in the stock market and (hopefully) forecast where the stocks are headed.
+Calculating a **moving average** is a technique for getting an overall sense of the trends in a data set. It is achieved by taking an average of any subset of numbers. The moving average is handy for forecasting long-term trends. You can calculate it for any period of time. For example, if you have sales data over a 20-year period, you can calculate a 5-year, 4-year, 3-year, and so on moving average. Stock market analysts will often use a 50 or 200-day moving average to help them see trends in the stock market and (hopefully) forecast where the stocks are headed.
 
 
 
-We have learned about the mean (or average) in this course and how it represents the “middling” value of a set of numbers. The *moving* average is exactly the same, but this average is calculated several times for several subsets of data. For example, if you want a two-year moving average for a data set from 2000, 2001, 2002 and 2003, you would find averages for the subsets 2000/2001, 2001/2002 and 2002/2003. 
+We have learned about the mean (or average) in this course and how it represents the “middling” value of a set of numbers. The *moving* average is exactly the same, but it is calculated several times across subsets of data. For example, if you want a two-year moving average for a data set from 2000, 2001, 2002 and 2003, you would find averages for the subsets 2000/2001, 2001/2002 and 2002/2003. 
 
 
-Moving averages are used to see seasonal fluctuations or to gauge the direction of the current trend. Every type of moving average is a mathematical result that is calculated by averaging a number of past data points. Once determined, the resulting average is then plotted onto a chart in order to allow analysts to look at smoothed data rather than focusing on the day-to-day fluctuations that are inherent in time series. To help aid understanding of trends, moving averages are usually plotted and are best visualized.
+Moving averages are used to see seasonal fluctuations or to gauge the direction of the current trend. Every type of moving average is a mathematical result that is calculated by averaging several past data points. Once determined, the average is plotted on a chart to allow analysts to view smoothed data rather than focus on the day-to-day fluctuations inherent in time series. To help aid understanding of trends, moving averages are usually plotted and are best visualised.
 
 
-The simplest form of a moving average, appropriately known as a **simple moving average (SMA)**, is calculated by taking the arithmetic mean of a given set of values like the ones described above. For example, to calculate a basic 10-day moving average for the number of burglaries mentioned above, you would add up the total number of burglaries from the past 10 days and then divide the result by 10. If an analyst wishes to see a 50-day average instead, the same type of calculation would be made, but it would include the number of burglaries over the past 50 days. The resulting average takes into account the past 50 data points in order to give traders an idea of how an asset is priced relative to the past 50 days. 
+The simplest form of a moving average, appropriately known as a **simple moving average (SMA)**, is calculated by taking the arithmetic mean of a given set of values like the ones described above. For example, to calculate a basic 10-day moving average for the number of burglaries mentioned above, you would add up the total number of burglaries from the past 10 days and then divide the result by 10. If an analyst wishes to see a 50-day average instead, the same type of calculation would be made, but it would include the number of burglaries over the past 50 days. The resulting average takes into account the past 50 data points to give traders an idea of how an asset has been priced over the past 50 days. 
 
 
 Perhaps you're wondering why this tool is called a "moving" average and not just a regular mean. The answer is that as new values become available, the oldest data points must be dropped from the set and new data points must come in to replace them. Thus, the data set is constantly "*moving*" to account for new data as it becomes available. 
@@ -825,29 +826,30 @@ There is a more detailed explanation using the example of stock prices here: [Mo
 Here is a real-world example: 
 
 
-Paul Barclay and colleagues evaluated the effects of bike patrols on auto theft from a large commuter parking lot outside Vancouver, British Columbia. Vehicle theft dropped after the response, but it had been dropping for several weeks prior to the bike patrols since the implementation of a publicity campaign that preceded the bike patrols. In this case, an anticipatory effect may have added a great deal to the overall effectiveness of the patrols. Though a moving average was used to smooth out random variation, the drop in thefts between the beginning of the publicity and the beginning of the bike patrols is too large to be due to data smoothing.
+Paul Barclay and colleagues evaluated the effects of bike patrols on auto theft from a large commuter parking lot outside Vancouver, British Columbia. Vehicle theft dropped after the response, but it had been dropping for several weeks before the bike patrols, since the implementation of a publicity campaign that preceded the bike patrols. In this case, an anticipatory effect may have significantly enhanced the overall effectiveness of the patrols. Though a moving average was used to smooth out random variation, the drop in thefts between the beginning of the publicity and the beginning of the bike patrols is too large to be due to data smoothing.
 
-![](https://popcenter.asu.edu/sites/default/files/learning/60steps/graphics/step_52.gif)
+![](https://popcenter.asu.edu/sites/default/files/graphics/step_52.gif)
+
 Source: Barclay, Paul and colleagues (1996) "Preventing Auto Theft in Suburban Vancouver Commuter Lots: Effects of a Bike Patrol." Crime Prevention Studies, volume 6, Monsey, NY: Criminal Justice Press.
 
 
-Evidently, we can use this moving average to tease out signal (what is happening) from noise (random fluctuations in our data/measurement).
+Evidently, we can use this moving average to tease out the signal (what is happening) from the noise (random fluctuations in our data/measurement).
 
 ### Activity: Hand calculate the moving average
 
-It is important that you understand the concept of what we are covering before we move on to the Excel part. To de-mystify what we are actually doing, sitting down with a pen and paper and working out what Excel does behind the scenes can really help with this. So, in this activity, we really want you to take time and watch this [video on how to calculate moving averages by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI) and follow along. In your groups, you might want to watch the video together and follow along or individually and discuss afterwards. When you have finished watching, make some notes about what you have just learned.
+It is important that you understand the concept of what we are covering before we move on to the Excel part. To demystify what we are actually doing, sitting down with a pen and paper and working out what Excel does behind the scenes can really help. So, in this activity, we really want you to take time and watch this [video on how to calculate moving averages by hand](https://www.youtube.com/watch?v=vvbvVJiJ2fI) and follow along. In your groups, you might want to watch the video together and follow along or individually and discuss afterwards. When you have finished watching, make some notes about what you have just learned.
 
 
 ### Activity: Moving average in Excel
 
 
-With the previous activity, we now have the experience of calculating a moving average by hand. However on larger data sets, you won't be able to do this by hand. So, let's learn how to calculate the moving average in Excel. Initially, we will practice on a smaller data set in order to help see through the process and link what we just did by hand to what we're about to do here. For this, we will be using some example data on temperature measurement. You can download this data from Canvas under **Learning Materials > Module 9 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then, you can use it to follow the tutorial below.
+With the previous activity, we now have the experience of calculating a moving average by hand. However, on larger data sets, you won't be able to do this by hand. So, let's learn how to calculate the moving average in Excel. Initially, we will practice on a smaller data set in order to help see through the process and link what we just did by hand to what we're about to do here. For this, we will use some example data on temperature measurements. You can download this data from Canvas under **Learning Materials > Module 9 > Data for labs and homework** folder. It should be called `mov_avg_temp_example.xlsx`. Then, you can use it to follow the tutorial below.
 
 
-We will need the **Data analysis toolpak** for this one, so look back to previous weeks where we used it or all the way back to week 1 when we installed it in case you've forgotten all about this. 
+We will need the **Data analysis toolpak** for this one, so look back to previous weeks where we used it or all the way back to week 1 when we installed it, in case you've forgotten all about this. 
 
 
-In our toy data set, someone has collected daily temperature information. The temperature fluctuates both seasonally and with random noise (especially in Manchester...!), so to make sense of the trends in temperature, we want to calculate the three-day moving average — the average of the last three days — as part of some simple weather forecasting. To calculate moving averages for this data set, take the following steps.
+In our toy data set, someone has collected daily temperature information. The temperature fluctuates both seasonally and with random noise (especially in Manchester...!), so to make sense of the trends, we want to calculate the three-day moving average — the average of the last three days — for simple weather forecasting. To calculate moving averages for this data set, take the following steps.
 
 
 ![](imgs/430314.image0.jpg)
@@ -856,7 +858,7 @@ In our toy data set, someone has collected daily temperature information. The te
 To calculate a moving average, first click the Data tab’s Data Analysis command button.
 
 
-When Excel displays the Data Analysis dialog box, select the Moving Average item from the list and then click OK.
+When Excel displays the Data Analysis dialogue box, select the Moving Average item from the list and then click OK.
 
 
 ![](imgs/da_ma.png)
@@ -898,18 +900,18 @@ Then you should see something like this:
 
 
 
-**Note:** If Excel doesn’t have enough information to calculate a moving average for a standard error, it places the error message into the cell. You can see several cells that show this error message as a value. This is normal because there is nothing to calculate from. You saw this in the previous exercise as well when the video mentioned the "gaps". 
+**Note:** If Excel doesn’t have enough information to calculate a moving average for a standard error, it places the error message into the cell. You can see several cells that show this error message as a value. This is normal because there is nothing to calculate from. You saw this in the previous exercise as well, when the video mentioned the "gaps". 
 
 So that's how you calculate a simple moving average in Excel. If you want another toy example to play around with, you may try again by following the steps in [this tutorial here](http://www.excel-easy.com/examples/moving-average.html)
 
-If you'd like to apply this to our burglary data to see what we can get out of that, you're very welcome to as well. We won't go into that now, as we've done enough today, but here's our Moving Average chart for burglary for only 2015 year from our Dallas data set using 30 days:
+If you'd like to apply this to our burglary data to see what we can get out of that, you're very welcome to as well. We won't go into that now, as we've done enough today, but here's our Moving Average chart for burglary for only 2015 from our Dallas data set using 30 days:
 
 
 ![](imgs/burg_2015_MA.png)
 
 
 
-So that's about it. If you're feeling very adventurous, you can have a look at [seasonal decomposition in Excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/) and one more in-depth learning about [moving average and soothing techniques in Excel](http://www.informit.com/articles/article.aspx?p=2433607) as well. 
+So that's about it. If you're feeling very adventurous, you can have a look at [seasonal decomposition in Excel](https://www.searchlaboratory.com/2013/09/time-series-decomposition-using-excel/). 
 
 ## Summary
 
