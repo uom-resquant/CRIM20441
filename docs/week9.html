@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-11-27" />
+<meta name="date" content="2025-11-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -537,7 +537,7 @@ details {
 <p><img src="https://media.giphy.com/media/8nZnnnvX5A4so/giphy.gif" /></p>
 <p>To answer this question, hopefully, you built a pivot table with the year variable, and your table should look like this:</p>
 <p><img src="imgs/count_of_yr.png" /></p>
-<p>Hopefully, you got a similar result. If not, now is the time to discuss or ask for help in your groups. You can now see that the year with the highest number of residential burglaries in Dallas was 2015. You should note that since 2017 was not yet over at the time of data collection, you have incomplete data for this year, so you’re not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data.</p>
+<p>Hopefully, you got a similar result. If not, now is the time to chat to your neighbour or stick your hand up and we will come and help out. You can now see that the year with the highest number of residential burglaries in Dallas was 2015. You should note that since 2017 was not yet over at the time of data collection; you have incomplete data for this year, so you’re not comparing like for like. Always think about how to interpret your findings, and keep in mind any possible limitations and issues associated with your data.</p>
 </div>
 <div id="activity-extract-the-day-of-the-week-from-the-date-column" class="section level3 hasAnchor" number="9.2.3">
 <h3><span class="header-section-number">9.2.3</span> Activity: Extract the day of the week from the date column<a href="week9.html#activity-extract-the-day-of-the-week-from-the-date-column" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -580,7 +580,7 @@ details {
 <p>Well, think back to when we did re-coding in week 4. Remember the <code>VLOOKUP()</code> function? You have to tell it the <strong>lookup_value</strong> - the value to search for; the <strong>table_array</strong> - which is your lookup table, with two columns of data; the <strong>col_index_num</strong> - the column number in table_array from which the value in the corresponding row should be returned; the <strong>range_lookup</strong>. The VLOOKUP function <em>always</em> searches for the lookup value in the first column of table_array.</p>
 <p>The first thing you have to create is your lookup table. For each value of day of the week, you should assign a value of Weekday or Weekend. Something like this:</p>
 <p><img src="imgs/wkday_lookup.png" /></p>
-<p><strong>Note</strong>: Remember what you learned with lookup tables in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, Excel would fail to match something like ” Wednesday” or “Wednesday” or “wednesday” because the value in the lookup table actually said “Wednesday”. The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting <em>values</em> (not the formula).</p>
+<p><strong>Note</strong>: Remember what you learned with lookup tables in Week 4, and refer back to the notes from then if necessary. One common issue we experienced is that sometimes, Excel would fail to match something like “wednesday” (i.e., no capital letter) or “Wednesday” written with a space before or after the word (e.g. ” Wednesday”) because the value in the lookup table actually said “Wednesday” (capital letter, no space before or after). The easiest way to make sure no such errors pop up to drive you mad is to copy and paste each day from the original data set into the lookup table. If you are doing this, make sure that you are pasting <em>values</em> (not the formula).</p>
 <p>Now, let’s try to apply the formula.</p>
 <ul>
 <li><strong>lookup_value</strong> is the day of the week</li>
@@ -589,7 +589,7 @@ details {
 <li><strong>range_lookup</strong> set this to FALSE, so we match on exact matches only</li>
 </ul>
 <p><img src="imgs/vlookup_formula_wkday.png" /></p>
-<p>Make sure to add the dollar signs (<code>$</code>) to ensure that you can copy the formatting!</p>
+<p>Make sure to add the dollar signs (<code>$</code>) to ensure that you can copy the formatting – those cells with dollar signs will be fixed.</p>
 <p>Now, finally, you have a variable that tells you whether each burglary took place on a weekday or a weekend:</p>
 <p><img src="imgs/wkday_var_created.png" /></p>
 </div>
@@ -597,7 +597,7 @@ details {
 <h3><span class="header-section-number">9.2.5</span> Activity: patterns in residential burglary<a href="week9.html#activity-patterns-in-residential-burglary" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Now, you can use this variable to carry out univariate analysis and create a frequency table to see the number of burglaries on weekdays or weekends. Let’s create this pivot table:</p>
 <p><img src="imgs/wkday_pivot.png" /></p>
-<p>Unsurprisingly, when we look at the number of burglaries in each group, we see there are a lot more burglaries on weekdays than at weekends. Why do you think that is? Take a moment to discuss in small groups!</p>
+<p>Unsurprisingly, when we look at the number of burglaries in each group, we see there are a lot more burglaries on weekdays than at weekends. Why do you think that is? Take a moment to discuss in small groups or have a think about it yourself.</p>
 <p><img src="https://media.giphy.com/media/xT5LMPQWYPMrZOYjug/giphy.gif" /></p>
 <p>What did you discuss? We are hoping that you mentioned that there were a lot more weekdays than weekend days in our data, and in fact, in all weeks. There are 2.5 times as many weekdays as weekends in a week. We know it’s a sad truth; we work a lot more than we get to rest. But another thing that happens because of this is that simply looking at the number of burglaries on weekdays and weekends might not be a very meaningful measure. Remember when we spoke about comparing like-for-like earlier? Or when we talked about the crime rate (per 100,000 population) versus the number of crimes? Well, again here, we should calculate a <strong>rate</strong>; to truly be able to compare, we should look at a rate such as the number of burglaries <em>per day</em> for weekdays and the number of burglaries <em>per day</em> for weekend days.</p>
 <p>How do you calculate the rate? Well, you do this simply by dividing the numerator (number of burglaries) by an appropriate denominator. What is the best denominator? Well, it depends on the question you’re looking to answer. Usually, it’s what comes after the <em>per</em>. If we are looking for the number of crimes <em>per population</em>, then we will be dividing by the population. If we are looking at the number of burglaries <em>per household</em>, we will divide by the number of households in an area. In this case, we were talking about the number of burglaries <em>per day</em> to compare between weekends and weekdays. Your denominator will be the number of days for each group.</p>
@@ -645,7 +645,7 @@ details {
 <div id="visualising-trends-line-graphs" class="section level2 hasAnchor" number="9.5">
 <h2><span class="header-section-number">9.5</span> Visualising trends: Line graphs<a href="week9.html#visualising-trends-line-graphs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Let’s start with viewing some examples of time visualised using a timeline of continuous time passing:</p>
-<p>The world of sports is rich with data, but that data isn’t always presented effectively (or accurately, for that matter). The folks over at FiveThirtyEight do it particularly well, though. In this interactive visualisation below, they calculated what’s called an “Elo rating” – a simple measure of strength based on game-by-game results – for every game in the history of the National Football League. That’s over 30,000 ratings in total. Viewers can compare each team’s Elo to see how each team performed across decades of play. <a href="https://data.fivethirtyeight.com/">See here</a></p>
+<p>The world of sports is rich with data, but that data isn’t always presented effectively (or accurately, for that matter). The folks over at FiveThirtyEight do it particularly well, though. In this interactive visualisation below, they calculated what’s called an “Elo rating” – a simple measure of strength based on game-by-game results – for every game in the history of the National Football League. That’s over 30,000 ratings in total. Viewers can compare each team’s Elo to see how each team performed across decades of play. <a href="https://data.fivethirtyeight.com/">See here</a>.</p>
 <p><img src="https://blog.hubspot.com/hs-fs/hubfs/history-of-football-teams.png?t=1510614058976&amp;width=669&amp;height=475&amp;name=history-of-football-teams.png" /></p>
 <p>Another example of a continuous timeline is the “What is warming the world” visualisation. Ever heard a version of the advice, “Don’t simply show the data; tell a story with it”? That’s exactly what this visualization from Bloomberg Business does – and it’s the interactive part that makes the story move along from beginning to end.</p>
 <p>The point of the visualisation is to disprove theories that claim that natural causes explain global warming. The first thing you’ll see is the observed temperature, which has risen from 1880 to the present day. As you scroll down, the visualization takes you through exactly how many different factors contribute to global warming in comparison to what’s been observed, adding a richer layer of storytelling. The conclusion the authors want viewers to draw is made very clear. <a href="http://www.bloomberg.com/graphics/2015-whats-warming-the-world/">See here</a></p>
@@ -675,7 +675,7 @@ details {
 <p>I’ve hinted at this throughout the course that there are special kinds of ordinal categorical variables which are cyclical, meaning that they have a pattern which repeats. Remember back in lab 1, when you were coding the <strong>levels of measurement</strong> for the variables in the Twitter data we assembled? And we told you that the time of a Tweet, for example, was not a numeric variable; instead, it was ordinal. Well, the hour of the day is a cyclical ordinal variable, as it <em>cycles</em> around. After 23h comes 0h, and not 24, as we would expect from a numeric variable.</p>
 <p>How can we best represent this special nature of our variables?</p>
 <p>There are also multiple cyclical ways to visualise your data. One approach is to use radar graphs. The graphs below show the same page-view data for a website across different times of day. Here’s an example by Purna Duggirala that is essentially a bubble chart that uses two clocks side by side:</p>
-<p><img src="http://dougmccune.com/blog/wp-content/uploads/2011/04/two_clocks-300x163.png" /></p>
+<p><img src="imgs/two_clocks.png" /></p>
 <p>The biggest problem with the chart is the incorrect continuity. A single clock on its own isn’t a continuous range; it’s really only half a range. So the clock on the left is showing 12 am – 12 pm, but when you reach the end of the circle, the data doesn’t continue on as the representation shows. Instead, you need to jump over to the second clock and continue on around. It’s difficult to see the ranges right around both 12 pm and 12 am since you lose context in one direction or another (and worse, you get the incorrect context from the bordering bubbles).</p>
 <p>In a great show of Internet collaboration, the double clock chart spurred some other experimentation. Jorge Camos came up with a polar chart that plots the data on a single “clock face,” showing two 12-hour charts overlaid on top of each other.</p>
 <p><img src="http://dougmccune.com/blog/wp-content/uploads/2011/04/polar_chart2-300x256.png" /></p>
@@ -709,7 +709,7 @@ details {
 <p>Now, there is something wrong with this graph. Can you spot it? Take a moment now to look… I’ll wait here. Once you have some ideas, discuss them in your groups and write them down!</p>
 <p><img src="https://media.giphy.com/media/3ohhwIbKJAT3eUz38s/giphy.gif" /></p>
 <p>Did you notice? If not, look again; this time, look at the graph and tell us which hour has the most burglaries. Great, now look at the pivot table. Is it the same hour? (hint: no).</p>
-<p>Why is this? Well, our axes are not actually labelled! Remember, to label your axes, do as you did in the line graph: right-click on the graph, “Select Data…” and populate the ‘Category (X) axis labels’ section in the popup window that appears with the hours. Now your graph should make sense:</p>
+<p>Why is this? Well, our axes are not actually labelled! By default, the axis will be given sequential numbering, which in this case, happens to be confusingly close what we actually want to graph, but it’s still not correct. Remember, to label your axes, do as you did in the line graph: right-click on the graph, “Select Data…” and populate the ‘Category (X) axis labels’ section in the popup window that appears with the hours. Now your graph should make sense:</p>
 <p><img src="imgs/correct_hr_1.png" /></p>
 <p>Much better. Clearly, residential burglaries happen in the morning and in the day, and much less so at night. But is this any different between weekends and weekdays?</p>
 <p>Now, we are introducing a <em>second</em> variable. By now, you should know that this means that to answer this question, we will need <strong>bivariate</strong> analysis. So, create a bivariate table by dragging the weekday variable which we created earlier into the “Column Labels” box in the pivot table options. This will create a crosstab for you:</p>
@@ -732,7 +732,7 @@ details {
 <p><img src="imgs/hr_r_26.png" /></p>
 <p>This brings up a menu where you can select what to “show data as”. Choose <strong>% of column</strong> (because we want to know the percentage of weekday crimes in each hour and the percentage of weekend crimes in each hour, so our 100% are our columns; we are looking at column percentages):</p>
 <p><img src="imgs/hr_r_27.png" /></p>
-<p>For doing this on a PC, the options are slightly different for getting the percentages for weekday/weekend burglaries. Need to go to the tab called “Show Values As” and then select % of Column:</p>
+<p>For doing this on a PC, the options are slightly different for getting the percentages for weekday/weekend burglaries. Go to the tab called “Show Values As” and then select % of Column:</p>
 <p><img src="imgs/pc_radial.png" /></p>
 <p>And finally, ta-daa, you have a radial graph that helps you compare the within-day temporal patterns of residential burglary between weekdays and weekends.</p>
 <p><img src="imgs/hr_r_28.png" /></p>
@@ -741,7 +741,7 @@ details {
 </div>
 <div id="bivariate-analysis" class="section level2 hasAnchor" number="9.7">
 <h2><span class="header-section-number">9.7</span> Bivariate analysis<a href="week9.html#bivariate-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Another way we might want to apply bivariate analysis to temporal data is to look at patterns within the day and within the week or within the week and within the month. This allows us to drill down with more granularity to see when specific crimes are happening. One way to do this is to appeal to our cross tabs from back in week three and use heatmaps to visualise these.</p>
+<p>Another way we might want to apply bivariate analysis to temporal data is to look at patterns within the day and within the week or within the week and within the month. This allows us to drill down with more granularity to see when specific crimes are happening. One way to do this is to appeal to our crosstabs from back in week three and use heatmaps to visualise these.</p>
 <div id="activity-heatmaps" class="section level3 hasAnchor" number="9.7.1">
 <h3><span class="header-section-number">9.7.1</span> Activity: Heatmaps<a href="week9.html#activity-heatmaps" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Heatmaps visualise data through variations in colouring. When applied to a tabular format, Heatmaps are useful for cross-examining multivariable data by placing variables in the rows and columns and colouring the cells within the table. Heatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and detecting if any correlations exist between them.</p>
@@ -773,7 +773,7 @@ details {
 <h3><span class="header-section-number">9.7.2</span> More charts?<a href="week9.html#more-charts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The Gantt chart is also a way to visualise the passage of time and the tasks you must complete over time.</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GanttChartAnatomy.svg/300px-GanttChartAnatomy.svg.png" /></p>
-<p>It is named after the American engineer and management consultant Henry Gantt, who extensively used this framework for project management. We covered how to do these in the research design session; please refer back to that session if you are not sure how to make them any clearer…!</p>
+<p>It is named after the American engineer and management consultant Henry Gantt, who extensively used this framework for project management. We covered how to do these in the research design session (week 5); please refer back to that session if you are not sure how to make them any clearer…!</p>
 <p>There are also some non-conventional line-graph-based timelines. While these initially appear linear, they can actually loop back and reverse in time, making them slightly different. For example, <a href="http://www.nytimes.com/imagepages/2010/05/02/business/02metrics.html">this one about gas prices and driving practices</a>, or this one about <a href="http://www.nytimes.com/interactive/2012/09/17/science/driving-safety-in-fits-and-starts.html">driving safely</a> demonstrate this approach quite neatly.</p>
 <p>You could also have a stacked line chart to represent time:</p>
 <p><img src="imgs/other_time_graph_1.png" /></p>
